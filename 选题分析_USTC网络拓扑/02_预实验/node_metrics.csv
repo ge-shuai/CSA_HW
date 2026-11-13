@@ -1,0 +1,673 @@
+﻿subdomain,sub,title,url_count,listed_urls,ok,bad,ok_ratio_pct,status_codes,color,root_url,ok_ratio,dead,partial,healthy,degree_u,strength_u,degree
+wlkt.ustc.edu.cn,wlkt,首页 - 中国科学技术大学网络课堂,20,20,20,0,100.0,200:20,blue,http://wlkt.ustc.edu.cn/,100.0,0,0,1,6,158.0,6
+zsb.ustc.edu.cn,zsb,中国科学技术大学本科招生网,100,20,20,0,100.0,200:20,blue,http://zsb.ustc.edu.cn/,100.0,0,0,1,46,1706.0,46
+aga.ustc.edu.cn,aga,中国科学技术大学校友总会,101,20,20,0,100.0,200:20,yellow,http://aga.ustc.edu.cn/,100.0,0,0,1,13,1093.0,13
+en.ustc.edu.cn,en,University of Science and Technology of China,100,20,20,0,100.0,200:20,blue,http://en.ustc.edu.cn/,100.0,0,0,1,63,2184.0,63
+jgb.ustc.edu.cn,jgb,中国科学技术大学师德教育网,102,20,19,1,95.0,200:19 403:1,yellow,http://jgb.ustc.edu.cn/,95.0,0,1,0,18,320.0,18
+hr.ustc.edu.cn,hr,中国科学技术大学人力资源部,27,20,19,1,95.0,200:19 403:1,yellow,https://hr.ustc.edu.cn/,95.0,0,1,0,23,280.0,23
+faculty.ustc.edu.cn,faculty,中国科学技术大学教师个人主页,100,20,20,0,100.0,200:20,blue,https://faculty.ustc.edu.cn/,100.0,0,0,1,59,2350.0,59
+teach.ustc.edu.cn,teach,中国科学技术大学教务处,100,20,20,0,100.0,200:20,blue,https://teach.ustc.edu.cn/,100.0,0,0,1,119,4033.0,119
+gradschool.ustc.edu.cn,gradschool,中国科学技术大学学位与研究生教育,100,20,20,0,100.0,200:20,blue,https://gradschool.ustc.edu.cn/,100.0,0,0,1,68,1174.0,68
+djyszw.ustc.edu.cn,djyszw,中国科学技术大学党建与思政网,101,20,19,1,95.0,200:19 400:1,yellow,http://djyszw.ustc.edu.cn/,95.0,0,1,0,14,303.0,14
+xxgk.ustc.edu.cn,xxgk,中国科大信息公开,100,20,20,0,100.0,200:20,blue,http://xxgk.ustc.edu.cn/,100.0,0,0,1,32,138.0,32
+news.ustc.edu.cn,news,中国科大新闻网,100,20,20,0,100.0,200:20,blue,http://news.ustc.edu.cn/,100.0,0,0,1,76,1693.0,76
+kyb.ustc.edu.cn,kyb,中科大科研部,100,20,20,0,100.0,200:20,blue,http://kyb.ustc.edu.cn/,100.0,0,0,1,20,449.0,20
+fc.ustc.edu.cn,fc,中国科大”双一流“建设,52,20,9,11,45.0,-1:11 200:9,blue,https://fc.ustc.edu.cn/,45.0,0,1,0,6,27.0,6
+employment.ustc.edu.cn,employment,中国科学技术大学人才招聘 — 长江学者 大师讲席 常规学术岗位 名誉客座兼职 博士后 新进指南,100,20,20,0,100.0,200:20,blue,http://employment.ustc.edu.cn/cn,100.0,0,0,1,68,689.0,68
+i.ustc.edu.cn,i,[HTTP 404],23,20,19,1,95.0,200:19 404:1,yellow,https://i.ustc.edu.cn/,95.0,0,1,0,32,533.0,32
+mail.ustc.edu.cn,mail,USTC邮件系统,8,8,2,6,25.0,200:2 500:6,yellow,https://mail.ustc.edu.cn/,25.0,0,1,0,16,137.0,16
+yz.ustc.edu.cn,yz,中国科学技术大学-研究生招生在线,65,20,20,0,100.0,200:20,yellow,https://yz.ustc.edu.cn/,100.0,0,0,1,51,1060.0,51
+job.ustc.edu.cn,job,中国科学技术大学就业信息网,100,20,20,0,100.0,200:20,blue,http://job.ustc.edu.cn/,100.0,0,0,1,25,897.0,25
+zsfw.ustc.edu.cn,zsfw,历年分数,3,3,3,0,100.0,200:3,blue,https://zsfw.ustc.edu.cn/zsw/lnfs.html,100.0,0,0,1,1,300.0,1
+admission.ustc.edu.cn,admission,中国科学技术大学-本科招生网上报名系统,8,8,8,0,100.0,200:8,blue,http://admission.ustc.edu.cn/,100.0,0,0,1,6,118.0,6
+sgy.ustc.edu.cn,sgy,少年班学院,100,20,20,0,100.0,200:20,blue,https://sgy.ustc.edu.cn/,100.0,0,0,1,13,166.0,13
+jz.ustc.edu.cn,jz,中国科学技术大学捐赠平台,148,20,7,13,35.0,200:7 404:13,yellow,http://jz.ustc.edu.cn/,35.0,0,1,0,7,504.0,7
+lfo.ustc.edu.cn,lfo,中国科学技术大学对外联络与基金事务处,101,20,20,0,100.0,200:20,yellow,http://lfo.ustc.edu.cn/,100.0,0,0,1,6,619.0,6
+ef.ustc.edu.cn,ef,中国科学技术大学教育基金会,101,20,19,1,95.0,200:19 404:1,yellow,https://ef.ustc.edu.cn/,95.0,0,1,0,12,933.0,12
+ecard.ustc.edu.cn,ecard,一卡通门户网站,10,10,4,6,40.0,-1:6 200:4,blue,https://ecard.ustc.edu.cn/,40.0,0,1,0,8,21.0,8
+lib.ustc.edu.cn,lib,中国科学技术大学图书馆,100,20,20,0,100.0,200:20,blue,http://lib.ustc.edu.cn/,100.0,0,0,1,57,686.0,57
+young.ustc.edu.cn,young,青春科大智慧团学综合信息化平台,11,11,9,2,81.8,0:1 200:9 404:1,yellow,http://young.ustc.edu.cn/,81.8,0,1,0,14,507.0,14
+stuhome.ustc.edu.cn,stuhome,中国科大学工在线,100,20,6,14,30.0,-1:14 200:6,blue,http://stuhome.ustc.edu.cn/,30.0,0,1,0,21,255.0,21
+smile.ustc.edu.cn,smile,中国科学技术大学心理健康教育与咨询中心,100,20,20,0,100.0,200:20,blue,http://smile.ustc.edu.cn/,100.0,0,0,1,11,124.0,11
+en.lib.ustc.edu.cn,en.lib,USTC Library,30,20,19,1,95.0,0:1 200:19,yellow,http://en.lib.ustc.edu.cn/,95.0,0,1,0,17,413.0,17
+le.ustc.edu.cn,le,中国科学技术大学 外语教学中心,100,20,20,0,100.0,200:20,blue,https://le.ustc.edu.cn/,100.0,0,0,1,9,407.0,9
+po.ustc.edu.cn,po,中国科大党政办公室,36,20,5,15,25.0,-1:15 200:5,blue,https://po.ustc.edu.cn/,25.0,0,1,0,6,36.0,6
+wxb.ustc.edu.cn,wxb,网络安全和信息化办公室,36,20,20,0,100.0,200:20,blue,https://wxb.ustc.edu.cn/,100.0,0,0,1,5,47.0,5
+zzb.ustc.edu.cn,zzb,党委组织部（党校）-中国科学技术大学,52,20,1,19,5.0,-1:19 200:1,blue,https://zzb.ustc.edu.cn/,5.0,0,1,0,12,137.0,12
+tzb.ustc.edu.cn,tzb,党委统战部,63,20,20,0,100.0,200:20,blue,https://tzb.ustc.edu.cn/,100.0,0,0,1,3,14.0,3
+xcb.ustc.edu.cn,xcb,党委宣传部 新闻中心,100,20,20,0,100.0,200:20,blue,https://xcb.ustc.edu.cn/,100.0,0,0,1,14,608.0,14
+jgdw.ustc.edu.cn,jgdw,机关党委办公室,35,20,9,11,45.0,-1:11 200:9,blue,https://jgdw.ustc.edu.cn/,45.0,0,1,0,3,10.0,3
+xuncha.ustc.edu.cn,xuncha,中国科学技术大学党委巡察工作办公室,47,20,19,1,95.0,-1:1 200:19,blue,https://xuncha.ustc.edu.cn/,95.0,0,1,0,3,19.0,3
+bm.ustc.edu.cn,bm,中国科学技术大学保密办公室,20,20,20,0,100.0,200:20,blue,https://bm.ustc.edu.cn/,100.0,0,0,1,1,20.0,1
+rwb.ustc.edu.cn,rwb,中国科大人武部,100,20,20,0,100.0,200:20,blue,https://rwb.ustc.edu.cn/,100.0,0,0,1,3,11.0,3
+jjjc.ustc.edu.cn,jjjc,中国科学技术大学纪检监察网,100,20,20,0,100.0,200:20,blue,https://jjjc.ustc.edu.cn/,100.0,0,0,1,4,23.0,4
+ugs.ustc.edu.cn,ugs,中国科学技术大学本科生院,132,20,20,0,100.0,200:20,yellow,https://ugs.ustc.edu.cn/,100.0,0,0,1,19,1135.0,19
+techtrans.ustc.edu.cn,techtrans,中国科学技术大学科技成果转化院,216,20,13,7,65.0,200:13 403:7,yellow,https://techtrans.ustc.edu.cn/,65.0,0,1,0,1,6.0,1
+zhb.ustc.edu.cn,zhb,科技成果转化处,100,20,13,7,65.0,-1:7 200:13,blue,https://zhb.ustc.edu.cn/,65.0,0,1,0,3,11.0,3
+oic.ustc.edu.cn,oic,中国科学技术大学国际合作与交流部暨港澳台事务办公室官方网站,100,20,20,0,100.0,200:20,blue,https://oic.ustc.edu.cn/,100.0,0,0,1,25,1591.0,25
+lt.ustc.edu.cn,lt,离退休干部工作处,102,20,20,0,100.0,200:20,yellow,https://lt.ustc.edu.cn/,100.0,0,0,1,2,243.0,2
+finance.ustc.edu.cn,finance,中国科学技术大学|财务处,95,20,2,18,10.0,-1:18 200:2,blue,https://finance.ustc.edu.cn/,10.0,0,1,0,17,144.0,17
+sjc.ustc.edu.cn,sjc,中国科学技术大学审计处,100,20,20,0,100.0,200:20,blue,https://sjc.ustc.edu.cn/,100.0,0,0,1,3,279.0,3
+zhc.ustc.edu.cn,zhc,中国科学技术大学资产与后勤保障处,100,20,20,0,100.0,200:20,blue,https://zhc.ustc.edu.cn/,100.0,0,0,1,14,54.0,14
+jjc.ustc.edu.cn,jjc,基本建设处,66,20,6,14,30.0,-1:14 200:6,blue,https://jjc.ustc.edu.cn/,30.0,0,1,0,3,9.0,3
+bwc.ustc.edu.cn,bwc,中国科学技术大学保卫处,51,20,20,0,100.0,200:20,blue,https://bwc.ustc.edu.cn/,100.0,0,0,1,10,51.0,10
+labsafety.ustc.edu.cn,labsafety,中国科学技术大学 - 实验室安全办公室,53,20,18,2,90.0,-1:2 200:18,blue,https://labsafety.ustc.edu.cn/,90.0,0,1,0,6,92.0,6
+sie.ustc.edu.cn,sie,中国科学技术大学创新创业学院,100,20,20,0,100.0,200:20,blue,http://sie.ustc.edu.cn/,100.0,0,0,1,8,811.0,8
+gonghui.ustc.edu.cn,gonghui,中国科学技术大学工会,118,20,20,0,100.0,200:20,yellow,https://gonghui.ustc.edu.cn/,100.0,0,0,1,5,36.0,5
+lab.ustc.edu.cn,lab,公共实验中心,102,20,20,0,100.0,200:20,yellow,https://lab.ustc.edu.cn/,100.0,0,0,1,14,146.0,14
+ustcnet.ustc.edu.cn,ustcnet,中国科学技术大学-网络信息中心,100,20,4,16,20.0,-1:16 200:4,blue,https://ustcnet.ustc.edu.cn/,20.0,0,1,0,24,208.0,24
+arch.ustc.edu.cn,arch,中国科学技术大学档案文博院（档案馆 校史馆 博物馆）,100,20,20,0,100.0,200:20,blue,https://arch.ustc.edu.cn/,100.0,0,0,1,8,283.0,8
+museum.ustc.edu.cn,museum,中国科学技术大学博物馆,100,20,20,0,100.0,200:20,blue,https://museum.ustc.edu.cn/,100.0,0,0,1,1,231.0,1
+press.ustc.edu.cn,press,中国科学技术大学出版社,100,20,20,0,100.0,200:20,blue,https://press.ustc.edu.cn/,100.0,0,0,1,3,105.0,3
+hospital.ustc.edu.cn,hospital,中国科学技术大学医院,100,20,20,0,100.0,200:20,blue,https://hospital.ustc.edu.cn/,100.0,0,0,1,3,101.0,3
+jcjy.ustc.edu.cn,jcjy,中国科学技术大学基础教育集团,102,20,19,1,95.0,200:19 410:1,yellow,https://jcjy.ustc.edu.cn/,95.0,0,1,0,6,40.0,6
+kdfz.ustc.edu.cn,kdfz,科大附中,100,20,20,0,100.0,200:20,blue,https://kdfz.ustc.edu.cn/,100.0,0,0,1,7,39.0,7
+kid.ustc.edu.cn,kid,幼儿园,100,20,20,0,100.0,200:20,blue,https://kid.ustc.edu.cn/,100.0,0,0,1,6,19.0,6
+ysjt.ustc.edu.cn,ysjt,饮食服务集团,100,20,20,0,100.0,200:20,blue,https://ysjt.ustc.edu.cn/,100.0,0,0,1,21,43.0,21
+math.ustc.edu.cn,math,中国科学技术大学数学科学学院,84,20,20,0,100.0,200:20,blue,https://math.ustc.edu.cn/,100.0,0,0,1,27,1014.0,27
+physics.ustc.edu.cn,physics,中国科学技术大学物理学院,68,20,20,0,100.0,200:20,blue,https://physics.ustc.edu.cn/,100.0,0,0,1,54,1061.0,54
+phys.ustc.edu.cn,phys,物理系,73,20,19,1,95.0,0:1 200:19,yellow,https://phys.ustc.edu.cn/,95.0,0,1,0,21,70.0,21
+mphy.ustc.edu.cn,mphy,中国科学技术大学近代物理系,100,20,20,0,100.0,200:20,blue,https://mphy.ustc.edu.cn/,100.0,0,0,1,17,577.0,17
+astro.ustc.edu.cn,astro,中国科学技术大学天文系(新),100,20,20,0,100.0,200:20,blue,https://astro.ustc.edu.cn/,100.0,0,0,1,12,146.0,12
+eap.ustc.edu.cn,eap,物理学院工程与应用物理系,75,20,20,0,100.0,200:20,yellow,https://eap.ustc.edu.cn/,100.0,0,0,1,6,17.0,6
+scms.ustc.edu.cn,scms,中国科学技术大学 化学与材料科学学院,113,20,20,0,100.0,200:20,yellow,https://scms.ustc.edu.cn/,100.0,0,0,1,36,704.0,36
+dcp.ustc.edu.cn,dcp,化学物理系,100,20,20,0,100.0,200:20,blue,https://dcp.ustc.edu.cn/,100.0,0,0,1,20,257.0,20
+applchem.ustc.edu.cn,applchem,应用化学系,100,20,20,0,100.0,200:20,blue,https://applchem.ustc.edu.cn/,100.0,0,0,1,26,69.0,26
+mse.ustc.edu.cn,mse,材料科学与工程系,100,20,20,0,100.0,200:20,blue,https://mse.ustc.edu.cn/,100.0,0,0,1,17,77.0,17
+chem.ustc.edu.cn,chem,化学系,100,20,20,0,100.0,200:20,blue,https://chem.ustc.edu.cn/,100.0,0,0,1,12,66.0,12
+polymer.ustc.edu.cn,polymer,中国科学技术大学高分子科学与工程系,100,20,20,0,100.0,200:20,blue,https://polymer.ustc.edu.cn/,100.0,0,0,1,10,24.0,10
+ses.ustc.edu.cn,ses,工程科学学院,102,20,20,0,100.0,200:20,yellow,https://ses.ustc.edu.cn/,100.0,0,0,1,27,718.0,27
+mech.ustc.edu.cn,mech,近代力学系,103,20,20,0,100.0,200:20,yellow,https://mech.ustc.edu.cn/,100.0,0,0,1,20,243.0,20
+pmpi.ustc.edu.cn,pmpi,中国科学技术大学|精密机械与精密仪器系,108,20,20,0,100.0,200:20,yellow,https://pmpi.ustc.edu.cn/,100.0,0,0,1,16,212.0,16
+tsee.ustc.edu.cn,tsee,热科学和能源工程系,110,20,20,0,100.0,200:20,yellow,https://tsee.ustc.edu.cn/,100.0,0,0,1,19,767.0,19
+safetyse.ustc.edu.cn,safetyse,安全科学与工程系,100,20,20,0,100.0,200:20,blue,https://safetyse.ustc.edu.cn/,100.0,0,0,1,17,45.0,17
+iid.ustc.edu.cn,iid,中国科学技术大学信息与智能学部,16,16,16,0,100.0,200:16,blue,https://iid.ustc.edu.cn/,100.0,0,0,1,12,151.0,12
+sist.ustc.edu.cn,sist,中国科学技术大学信息科学技术学院欢迎你,100,20,20,0,100.0,200:20,blue,https://sist.ustc.edu.cn/,100.0,0,0,1,42,1731.0,42
+eeis.ustc.edu.cn,eeis,中国科学技术大学信息科学技术学院电子工程与信息科学系,50,20,20,0,100.0,200:20,blue,https://eeis.ustc.edu.cn/,100.0,0,0,1,23,648.0,23
+auto.ustc.edu.cn,auto,自动化系,101,20,20,0,100.0,200:20,yellow,https://auto.ustc.edu.cn/,100.0,0,0,1,14,703.0,14
+cs.ustc.edu.cn,cs,计算机科学与技术学院,100,20,20,0,100.0,200:20,blue,https://cs.ustc.edu.cn/,100.0,0,0,1,48,1550.0,48
+saids.ustc.edu.cn,saids,人工智能与数据科学学院,75,20,20,0,100.0,200:20,yellow,https://saids.ustc.edu.cn/,100.0,0,0,1,14,108.0,14
+cybersec.ustc.edu.cn,cybersec,中国科大网络空间安全学院,100,20,20,0,100.0,200:20,blue,https://cybersec.ustc.edu.cn/,100.0,0,0,1,22,254.0,22
+sme.ustc.edu.cn,sme,微电子学院,101,20,20,0,100.0,200:20,yellow,https://sme.ustc.edu.cn/,100.0,0,0,1,29,1259.0,29
+sse.ustc.edu.cn,sse,中国科学技术大学软件学院School of Software Engineering of USTC,100,20,20,0,100.0,200:20,blue,https://sse.ustc.edu.cn/,100.0,0,0,1,12,148.0,12
+ess.ustc.edu.cn,ess,地球和空间科学学院-中国科学技术大学,102,20,20,0,100.0,200:20,yellow,https://ess.ustc.edu.cn/,100.0,0,0,1,17,441.0,17
+biomed.ustc.edu.cn,biomed,生命科学与医学部,109,20,20,0,100.0,200:20,yellow,https://biomed.ustc.edu.cn/,100.0,0,0,1,34,362.0,34
+biox.ustc.edu.cn,biox,生命科学学院,103,20,20,0,100.0,200:20,yellow,https://biox.ustc.edu.cn/,100.0,0,0,1,39,369.0,39
+jcyx.ustc.edu.cn,jcyx,基础医学院,102,20,20,0,100.0,200:20,yellow,https://jcyx.ustc.edu.cn/,100.0,0,0,1,15,153.0,15
+lcyx.ustc.edu.cn,lcyx,临床医学院,100,20,20,0,100.0,200:20,blue,https://lcyx.ustc.edu.cn/,100.0,0,0,1,12,51.0,12
+bme.ustc.edu.cn,bme,生物医学工程,100,20,20,0,100.0,200:20,blue,https://bme.ustc.edu.cn/,100.0,0,0,1,11,39.0,11
+som.ustc.edu.cn,som,中国科学技术大学科技商学院、管理学院,100,20,20,0,100.0,200:20,blue,https://som.ustc.edu.cn/,100.0,0,0,1,35,7700.0,35
+sppm.ustc.edu.cn,sppm,公共管理学院,100,20,20,0,100.0,200:20,blue,https://sppm.ustc.edu.cn/,100.0,0,0,1,8,289.0,8
+hsss.ustc.edu.cn,hsss,人文与社会科学学院,100,20,20,0,100.0,200:20,blue,https://hsss.ustc.edu.cn/,100.0,0,0,1,52,1012.0,52
+hsta.ustc.edu.cn,hsta,科技史与科技考古系,100,20,20,0,100.0,200:20,blue,https://hsta.ustc.edu.cn/,100.0,0,0,1,5,28.0,5
+stc.ustc.edu.cn,stc,科技传播系,104,20,17,3,85.0,200:17 410:3,yellow,https://stc.ustc.edu.cn/,85.0,0,1,0,13,561.0,13
+sts.ustc.edu.cn,sts,中国科学技术大学科技哲学系,101,20,20,0,100.0,200:20,yellow,https://sts.ustc.edu.cn/,100.0,0,0,1,12,41.0,12
+psy.ustc.edu.cn,psy,中国科学技术大学心理学系,100,20,20,0,100.0,200:20,blue,https://psy.ustc.edu.cn/,100.0,0,0,1,5,20.0,5
+marx.ustc.edu.cn,marx,马克思主义学院,125,20,20,0,100.0,200:20,yellow,https://marx.ustc.edu.cn/,100.0,0,0,1,3,17.0,3
+soe.ustc.edu.cn,soe,中国科学技术大学环境学院,100,20,20,0,100.0,200:20,blue,https://soe.ustc.edu.cn/,100.0,0,0,1,3,191.0,3
+snst.ustc.edu.cn,snst,核科学技术学院,103,20,18,2,90.0,200:18 410:2,yellow,https://snst.ustc.edu.cn/,90.0,0,1,0,31,351.0,31
+set.ustc.edu.cn,set,中国科学技术大学未来技术学院,100,20,20,0,100.0,200:20,blue,http://set.ustc.edu.cn/,100.0,0,0,1,10,152.0,10
+see.ustc.edu.cn,see,国家卓越工程师学院 - 中国科学技术大学,100,20,20,0,100.0,200:20,blue,https://see.ustc.edu.cn/,100.0,0,0,1,13,628.0,13
+ge.ustc.edu.cn,ge,中国科学技术大学通识教育中心,158,20,8,12,40.0,200:8 403:12,yellow,https://ge.ustc.edu.cn/,40.0,0,1,0,3,104.0,3
+tj.ustc.edu.cn,tj,体育教学中心,59,20,20,0,100.0,200:20,blue,https://tj.ustc.edu.cn/,100.0,0,0,1,7,276.0,7
+arts.ustc.edu.cn,arts,中国科学技术大学艺术教学中心,102,20,19,1,95.0,200:19 403:1,yellow,https://arts.ustc.edu.cn/,95.0,0,1,0,6,503.0,6
+env.ustc.edu.cn,env,环境科学与光电技术学院,100,20,20,0,100.0,200:20,blue,https://env.ustc.edu.cn/,100.0,0,0,1,9,129.0,9
+nsrl.ustc.edu.cn,nsrl,国家同步辐射实验室,100,20,20,0,100.0,200:20,blue,https://nsrl.ustc.edu.cn/,100.0,0,0,1,28,830.0,28
+hfnl.ustc.edu.cn,hfnl,合肥微尺度物质科学国家研究中心,101,20,20,0,100.0,200:20,yellow,https://hfnl.ustc.edu.cn/,100.0,0,0,1,37,506.0,37
+sklfs.ustc.edu.cn,sklfs,火灾安全全国重点实验室,118,20,18,2,90.0,200:18 410:2,yellow,https://sklfs.ustc.edu.cn/,90.0,0,1,0,15,359.0,15
+pichem.ustc.edu.cn,pichem,精准智能化学全国重点实验室,102,20,20,0,100.0,200:20,yellow,https://pichem.ustc.edu.cn/,100.0,0,0,1,10,86.0,10
+immune.ustc.edu.cn,immune,免疫应答与免疫治疗全国重点实验室,102,20,20,0,100.0,200:20,yellow,https://immune.ustc.edu.cn/,100.0,0,0,1,5,18.0,5
+sklpde.ustc.edu.cn,sklpde,核探测与核电子学实验室,100,20,20,0,100.0,200:20,blue,https://sklpde.ustc.edu.cn/,100.0,0,0,1,21,278.0,21
+nelslip.ustc.edu.cn,nelslip,语音及语言信息处理国家工程研究中心,101,20,19,1,95.0,200:19 410:1,yellow,https://nelslip.ustc.edu.cn/,95.0,0,1,0,8,351.0,8
+leinao.ustc.edu.cn,leinao,类脑智能技术及应用国家工程实验室,100,20,20,0,100.0,200:20,blue,https://leinao.ustc.edu.cn/,100.0,0,0,1,15,855.0,15
+erctst.ustc.edu.cn,erctst,热安全技术国家地方联合工程研究中心,100,20,20,0,100.0,200:20,blue,https://erctst.ustc.edu.cn/,100.0,0,0,1,4,23.0,4
+mengo.ustc.edu.cn,mengo,蒙城地球物理国家野外科学观测研究站,90,20,9,11,45.0,0:11 200:9,yellow,https://mengo.ustc.edu.cn/,45.0,0,1,0,3,14.0,3
+sz.ustc.edu.cn,sz,中国科学技术大学苏州高等研究院,100,20,20,0,100.0,200:20,blue,https://sz.ustc.edu.cn/,100.0,0,0,1,29,1082.0,29
+sias.ustc.edu.cn,sias,中国科学技术大学上海研究院,102,20,18,2,90.0,200:18 410:1 504:1,yellow,https://sias.ustc.edu.cn/,90.0,0,1,0,18,154.0,18
+ustc-bj.ustc.edu.cn,ustc-bj,北京中科研究院,100,20,20,0,100.0,200:20,blue,https://ustc-bj.ustc.edu.cn/,100.0,0,0,1,2,200.0,2
+iat.ustc.edu.cn,iat,中国科学技术大学先进技术研究院,100,20,20,0,100.0,200:20,blue,https://iat.ustc.edu.cn/,100.0,0,0,1,31,894.0,31
+iif.ustc.edu.cn,iif,中国科学技术大学国际金融研究院,100,20,20,0,100.0,200:20,blue,https://iif.ustc.edu.cn/,100.0,0,0,1,27,1074.0,27
+faculty-en.ustc.edu.cn,faculty-en,中国科学技术大学教师个人主页,100,20,20,0,100.0,200:20,blue,https://faculty-en.ustc.edu.cn/,100.0,0,0,1,7,1649.0,7
+manage.faculty.ustc.edu.cn,manage.faculty,[需要身份认证],3,3,0,3,0.0,-1:3,blue,https://manage.faculty.ustc.edu.cn/system/caslogin.jsp,0.0,1,0,0,7,261.0,7
+team.ustc.edu.cn,team,中国科学技术大学团队主页,100,20,20,0,100.0,200:20,blue,https://team.ustc.edu.cn/,100.0,0,0,1,23,362.0,23
+institution.ustc.edu.cn,institution,中国科学技术大学实验室主页,104,20,19,1,95.0,200:19 403:1,yellow,https://institution.ustc.edu.cn/,95.0,0,1,0,15,446.0,15
+catalog.ustc.edu.cn,catalog,catalog.ustc,16,16,16,0,100.0,200:16,blue,https://catalog.ustc.edu.cn/plan,100.0,0,0,1,26,798.0,26
+ot.ustc.edu.cn,ot,蜗壳学社,10,10,1,9,10.0,-1:9 200:1,blue,https://ot.ustc.edu.cn/,10.0,0,1,0,2,100.0,2
+jw.ustc.edu.cn,jw,登入页面,4,4,3,1,75.0,-1:1 200:3,blue,https://jw.ustc.edu.cn/,75.0,0,1,0,6,110.0,6
+ipb.ustc.edu.cn,ipb,创新实践基地,100,20,20,0,100.0,200:20,blue,https://ipb.ustc.edu.cn/,100.0,0,0,1,11,903.0,11
+tam.cmet.ustc.edu.cn,tam.cmet,USTC Teaching Assistant Management System,1,1,1,0,100.0,200:1,blue,https://tam.cmet.ustc.edu.cn/,100.0,0,0,1,2,99.0,2
+fix.ustc.edu.cn,fix,教室教学设备快速报修,11,11,11,0,100.0,200:11,blue,https://fix.ustc.edu.cn/,100.0,0,0,1,3,121.0,3
+ctld.ustc.edu.cn,ctld,中国科学技术大学教师发展中心,1,1,1,0,100.0,200:1,blue,https://ctld.ustc.edu.cn/,100.0,0,0,1,2,99.0,2
+bb.ustc.edu.cn,bb,bb,21,20,20,0,100.0,200:20,blue,https://bb.ustc.edu.cn/,100.0,0,0,1,7,19.0,7
+xnfz.cmet.ustc.edu.cn,xnfz.cmet,默认站点,25,20,17,3,85.0,200:17 403:3,yellow,http://xnfz.cmet.ustc.edu.cn/,85.0,0,1,0,7,47.0,7
+tqm.ustc.edu.cn,tqm,教学质量管理平台,1,1,1,0,100.0,200:1,blue,https://tqm.ustc.edu.cn/,100.0,0,0,1,2,4.0,2
+etis.ustc.edu.cn,etis,实验教学信息管理系统,1,1,1,0,100.0,200:1,blue,http://etis.ustc.edu.cn/,100.0,0,0,1,2,4.0,2
+pms.cmet.ustc.edu.cn,pms.cmet,中国科学技术大学质量工程项目管理信息系统,16,16,2,14,12.5,-1:14 200:2,blue,https://pms.cmet.ustc.edu.cn/,12.5,0,1,0,3,11.0,3
+jwjl.cmet.ustc.edu.cn,jwjl.cmet,本科生境内外交流管理系统后台,1,1,1,0,100.0,200:1,blue,https://jwjl.cmet.ustc.edu.cn/toschoollogin.do,100.0,0,0,1,3,5.0,3
+email.ustc.edu.cn,email,USTC邮件系统,2,2,2,0,100.0,200:2,blue,https://email.ustc.edu.cn/,100.0,0,0,1,33,1538.0,33
+gs.ustc.edu.cn,gs,USTC Graduate School,1,1,1,0,100.0,200:1,blue,http://gs.ustc.edu.cn/,100.0,0,0,1,4,193.0,4
+wsbl.ustc.edu.cn,wsbl,中国科学技术大学学位委员会办公室|网上办理,11,11,11,0,100.0,200:11,blue,https://wsbl.ustc.edu.cn/user,100.0,0,0,1,3,16.0,3
+degree.ustc.edu.cn,degree,中国科学技术大学研究生学位申请系统,10,10,4,6,40.0,-1:5 200:4 404:1,yellow,http://degree.ustc.edu.cn/,40.0,0,1,0,5,7.0,5
+journal.ustc.edu.cn,journal,《研究生教育研究》杂志社,99,20,20,0,100.0,200:20,blue,http://journal.ustc.edu.cn/,100.0,0,0,1,5,111.0,5
+bwcx.ustc.edu.cn,bwcx,"中国科大“不忘初心,牢记使命”专题",100,20,20,0,100.0,200:20,blue,https://bwcx.ustc.edu.cn/,100.0,0,0,1,4,79.0,4
+qybx.ustc.edu.cn,qybx,中国科学技术大学全院办校所系结合,68,20,16,4,80.0,-1:4 200:16,blue,http://qybx.ustc.edu.cn/,80.0,0,1,0,10,13.0,10
+wp.ustc.edu.cn,wp,[需要身份认证],108,20,1,19,5.0,-1:9 0:3 200:1 403:7,yellow,https://wp.ustc.edu.cn/,5.0,0,1,0,33,851.0,33
+vista.ustc.edu.cn,vista,中国科大全球化学习平台,6,6,6,0,100.0,200:6,blue,http://vista.ustc.edu.cn/,100.0,0,0,1,4,58.0,4
+ese.ustc.edu.cn,ese,[连接失败-本运行跳过],10,10,0,10,0.0,0:10,red,https://ese.ustc.edu.cn/,0.0,1,0,0,6,26.0,6
+en.scgy.ustc.edu.cn,en.scgy,[英]少年班学院,39,20,17,3,85.0,0:2 200:17 410:1,yellow,http://en.scgy.ustc.edu.cn/,85.0,0,1,0,7,126.0,7
+xysq.ustc.edu.cn,xysq,中国科学技术大学校友服务大厅,3,3,3,0,100.0,200:3,blue,https://xysq.ustc.edu.cn/alumniPwd,100.0,0,0,1,1,92.0,1
+passport.ustc.edu.cn,passport,[需要身份认证],11,11,0,11,0.0,-1:11,blue,https://passport.ustc.edu.cn/login?service=http%3A%2F%2Ffinance.ustc.edu.cn,0.0,1,0,0,22,577.0,22
+efo.ustc.edu.cn,efo,efo,1,1,1,0,100.0,200:1,blue,http://efo.ustc.edu.cn/login/OALogin.jsp,100.0,0,0,1,2,102.0,2
+opac.lib.ustc.edu.cn,opac.lib,[连接失败-本运行跳过],15,15,11,4,73.3,0:4 200:11,yellow,http://opac.lib.ustc.edu.cn/,73.3,0,1,0,3,143.0,3
+wx.lib.ustc.edu.cn,wx.lib,[需要身份认证],1,1,0,1,0.0,-1:1,blue,http://wx.lib.ustc.edu.cn/course,0.0,1,0,0,1,2.0,1
+thesis-submit.lib.ustc.edu.cn,thesis-submit.lib,paper,7,7,7,0,100.0,200:7,blue,http://thesis-submit.lib.ustc.edu.cn/,100.0,0,0,1,2,7.0,2
+app.lib.ustc.edu.cn,app.lib,中国科大查收查引委托申请平台,2,2,1,1,50.0,200:1 404:1,yellow,http://app.lib.ustc.edu.cn/ir,50.0,0,1,0,2,5.0,2
+xgyth.ustc.edu.cn,xgyth,xgyth,2,2,2,0,100.0,200:2,blue,http://xgyth.ustc.edu.cn/,100.0,0,0,1,4,10.0,4
+contest.stuhome.ustc.edu.cn,contest.stuhome,中国科学技术大学辅导员班主任队伍能力提升赋能平台,1,1,1,0,100.0,200:1,blue,https://contest.stuhome.ustc.edu.cn/study/login,100.0,0,0,1,2,4.0,2
+szjy.ustc.edu.cn,szjy,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://szjy.ustc.edu.cn/,0.0,1,0,0,1,2.0,1
+kp2020.ustc.edu.cn,kp2020,2021年科技活动周暨第十七届公众科学日,20,20,20,0,100.0,200:20,blue,http://kp2020.ustc.edu.cn/kjz,100.0,0,0,1,3,94.0,3
+journals.ustc.edu.cn,journals,中国科学技术大学期刊中心,99,20,20,0,100.0,200:20,yellow,http://journals.ustc.edu.cn/,100.0,0,0,1,10,172.0,10
+kycx.ustc.edu.cn,kycx,中国科学技术大学科研诚信与科技伦理,102,20,20,0,100.0,200:20,yellow,http://kycx.ustc.edu.cn/,100.0,0,0,1,5,204.0,5
+ky.ustc.edu.cn,ky,科研创新服务平台,1,1,1,0,100.0,200:1,blue,http://ky.ustc.edu.cn/userAction!to_login.action,100.0,0,0,1,2,5.0,2
+paper.ustc.edu.cn,paper,[需要身份认证],1,1,0,1,0.0,-1:1,blue,https://paper.ustc.edu.cn/,0.0,1,0,0,1,4.0,1
+ris.ustc.edu.cn,ris,科研项目结题结帐系统,2,2,2,0,100.0,200:2,blue,http://ris.ustc.edu.cn/ujt/login.aspx,100.0,0,0,1,2,6.0,2
+kepu.ustc.edu.cn,kepu,中国科学技术大学科普博览,100,20,20,0,100.0,200:20,yellow,http://kepu.ustc.edu.cn/,100.0,0,0,1,6,63.0,6
+ic.ustc.edu.cn,ic,中国科学技术大学国际学院,100,20,20,0,100.0,200:20,blue,http://ic.ustc.edu.cn/,100.0,0,0,1,17,1151.0,17
+en.scms.ustc.edu.cn,en.scms,[英]化学与材料科学学院,72,20,15,5,75.0,0:2 200:15 403:3,yellow,http://en.scms.ustc.edu.cn/,75.0,0,1,0,23,269.0,23
+en.cs.ustc.edu.cn,en.cs,[英]计算机学院,101,20,20,0,100.0,200:20,yellow,http://en.cs.ustc.edu.cn/,100.0,0,0,1,18,409.0,18
+en.ess.ustc.edu.cn,en.ess,University of Science and Technology of China,100,20,20,0,100.0,200:20,blue,http://en.ess.ustc.edu.cn/,100.0,0,0,1,9,325.0,9
+en.ses.ustc.edu.cn,en.ses,[英]工程科学学院,100,20,20,0,100.0,200:20,blue,http://en.ses.ustc.edu.cn/,100.0,0,0,1,6,25.0,6
+en.hsss.ustc.edu.cn,en.hsss,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://en.hsss.ustc.edu.cn/,0.0,1,0,0,4,101.0,4
+en.sist.ustc.edu.cn,en.sist,School of Information Science And Technology,105,20,18,2,90.0,200:18 403:2,yellow,https://en.sist.ustc.edu.cn/,90.0,0,1,0,10,816.0,10
+enbiomed.ustc.edu.cn,enbiomed,生命科学与医学部英文站,100,20,20,0,100.0,200:20,blue,http://enbiomed.ustc.edu.cn/,100.0,0,0,1,41,277.0,41
+en.business.ustc.edu.cn,en.business,"The School of Management,USTC",67,20,18,2,90.0,200:18 410:2,yellow,http://en.business.ustc.edu.cn/,90.0,0,1,0,13,531.0,13
+en.physics.ustc.edu.cn,en.physics,"School of Physical Sciences,USTC",100,20,20,0,100.0,200:20,blue,http://en.physics.ustc.edu.cn/,100.0,0,0,1,29,464.0,29
+ipas.ustc.edu.cn,ipas,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://ipas.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+sse_en.ustc.edu.cn,sse_en,SCHOOL OF SOFTWARE ENGINEERING,29,20,20,0,100.0,200:20,blue,http://sse_en.ustc.edu.cn/,100.0,0,0,1,5,105.0,5
+en.nsrl.ustc.edu.cn,en.nsrl,"NSRL - National Synchrotron Radiation Laboratory - University of Science
+      and Technology of China",103,20,19,1,95.0,200:19 410:1,yellow,http://en.nsrl.ustc.edu.cn/,95.0,0,1,0,10,179.0,10
+en.sklfs.ustc.edu.cn,en.sklfs,State Key Laboratory of Fire Science,100,20,20,0,100.0,200:20,blue,http://en.sklfs.ustc.edu.cn/,100.0,0,0,1,6,224.0,6
+en.personnel.ustc.edu.cn,en.personnel,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://en.personnel.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+en.gradschool.ustc.edu.cn,en.gradschool,USTC Graduate School,1,1,1,0,100.0,200:1,blue,http://en.gradschool.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+e.ustc.edu.cn,e,e,1,1,1,0,100.0,200:1,blue,http://e.ustc.edu.cn/,100.0,0,0,1,3,8.0,3
+netsecurity.ustc.edu.cn,netsecurity,Loading,1,1,1,0,100.0,200:1,blue,https://netsecurity.ustc.edu.cn/,100.0,0,0,1,2,44.0,2
+wsdx.ustc.edu.cn,wsdx,登录,3,3,3,0,100.0,200:3,blue,https://wsdx.ustc.edu.cn/,100.0,0,0,1,3,7.0,3
+20da.ustc.edu.cn,20da,中国科学技术大学二十大专题网,100,20,20,0,100.0,200:20,blue,https://20da.ustc.edu.cn/,100.0,0,0,1,4,9.0,4
+bbs.ustc.edu.cn,bbs,欢迎光临瀚海星云bbs站,9,9,1,8,11.1,0:8 200:1,yellow,http://bbs.ustc.edu.cn/,11.1,0,1,0,15,91.0,15
+lswhw.ustc.edu.cn,lswhw,[请求失败] ConnectionError,4,4,0,4,0.0,0:4,red,http://lswhw.ustc.edu.cn/,0.0,1,0,0,5,82.0,5
+cec.ustc.edu.cn,cec,化学实验教学中心,102,20,20,0,100.0,200:20,yellow,https://cec.ustc.edu.cn/,100.0,0,0,1,15,581.0,15
+esetc.ustc.edu.cn,esetc,中国科学技术大学工程科学实验教学中心,102,20,19,1,95.0,200:19 403:1,yellow,https://esetc.ustc.edu.cn/,95.0,0,1,0,11,284.0,11
+ses-epc.ustc.edu.cn,ses-epc,工程实践中心,100,20,20,0,100.0,200:20,blue,https://ses-epc.ustc.edu.cn/,100.0,0,0,1,8,666.0,8
+etcis.ustc.edu.cn,etcis,信息与计算机科学实验教学中心,100,20,20,0,100.0,200:20,blue,https://etcis.ustc.edu.cn/,100.0,0,0,1,22,1258.0,22
+jdhta.ustc.edu.cn,jdhta,中国科学技术大学教代会提案系统,11,11,11,0,100.0,200:11,blue,https://jdhta.ustc.edu.cn/,100.0,0,0,1,1,8.0,1
+huiyi.ustc.edu.cn,huiyi,部门会议系统 - 停用通知,3,3,3,0,100.0,200:3,blue,https://huiyi.ustc.edu.cn/,100.0,0,0,1,5,15.0,5
+just.ustc.edu.cn,just,JUSTC,31,20,6,14,30.0,0:14 200:6,yellow,https://just.ustc.edu.cn/,30.0,0,1,0,5,103.0,5
+sylx.ustc.edu.cn,sylx,欢迎访问《实验力学》编辑部网站！,10,10,1,9,10.0,0:9 200:1,yellow,https://sylx.ustc.edu.cn/,10.0,0,1,0,1,7.0,1
+pic.ustc.edu.cn,pic,中国科学技术大学-理化科学实验中心,53,20,10,10,50.0,0:10 200:10,yellow,https://pic.ustc.edu.cn/,50.0,0,1,0,14,60.0,14
+engilab.ustc.edu.cn,engilab,工程与材料实验中心,46,20,10,10,50.0,0:10 200:10,yellow,https://engilab.ustc.edu.cn/,50.0,0,1,0,7,48.0,7
+ispc.ustc.edu.cn,ispc,中国科学技术大学信息科学实验中心,31,20,10,10,50.0,0:10 200:10,yellow,https://ispc.ustc.edu.cn/,50.0,0,1,0,10,319.0,10
+scc.ustc.edu.cn,scc,超级计算中心.服务科研.面向未来,63,20,10,10,50.0,0:10 200:10,yellow,https://scc.ustc.edu.cn/,50.0,0,1,0,10,26.0,10
+nano.ustc.edu.cn,nano,微纳研究与制造中心,102,20,20,0,100.0,200:20,yellow,http://nano.ustc.edu.cn/,100.0,0,0,1,7,260.0,7
+lug.ustc.edu.cn,lug,LUG @ USTC,104,20,20,0,100.0,200:20,yellow,https://lug.ustc.edu.cn/,100.0,0,0,1,19,623.0,19
+course.ustc.edu.cn,course,[robots.txt 禁止],1,1,0,1,0.0,-2:1,blue,https://course.ustc.edu.cn/,0.0,1,0,0,3,5.0,3
+xyzd.ustc.edu.cn,xyzd,[robots.txt 禁止],2,2,0,2,0.0,-2:2,blue,https://xyzd.ustc.edu.cn/,0.0,1,0,0,2,100.0,2
+abroad.ustc.edu.cn,abroad,[需要身份认证],2,2,0,2,0.0,-1:2,blue,https://abroad.ustc.edu.cn/,0.0,1,0,0,2,86.0,2
+if.oic.ustc.edu.cn,if.oic,国际访问教授和英语授课推进计划官方网站,93,20,20,0,100.0,200:20,blue,http://if.oic.ustc.edu.cn/,100.0,0,0,1,8,574.0,8
+fass.ustc.edu.cn,fass,[需要身份认证],1,1,0,1,0.0,-1:1,blue,http://fass.ustc.edu.cn/,0.0,1,0,0,2,174.0,2
+datahall.ustc.edu.cn,datahall,[需要身份认证],1,1,0,1,0.0,-1:1,blue,http://datahall.ustc.edu.cn/,0.0,1,0,0,1,82.0,1
+id.ustc.edu.cn,id,[需要身份认证],6,6,0,6,0.0,-1:6,blue,https://id.ustc.edu.cn/,0.0,1,0,0,5,13.0,5
+revenues.ustc.edu.cn,revenues,缴费大厅,1,1,1,0,100.0,200:1,blue,https://revenues.ustc.edu.cn/,100.0,0,0,1,2,3.0,2
+hetong.ustc.edu.cn,hetong,hetong,1,1,1,0,100.0,200:1,blue,http://hetong.ustc.edu.cn/,100.0,0,0,1,1,2.0,1
+cwwx.ustc.edu.cn,cwwx,中科大财务处微信系统,1,1,1,0,100.0,200:1,blue,https://cwwx.ustc.edu.cn/,100.0,0,0,1,1,2.0,1
+service.ustc.edu.cn,service,首页,16,16,16,0,100.0,200:16,blue,https://service.ustc.edu.cn/fe/taskCenter/one/application?app_id=314,100.0,0,0,1,5,124.0,5
+fwkd.ustc.edu.cn,fwkd,[HTTP 404],2,2,0,2,0.0,404:2,red,https://fwkd.ustc.edu.cn/,0.0,1,0,0,2,94.0,2
+gdzc.ustc.edu.cn,gdzc,[需要身份认证],2,2,0,2,0.0,-1:2,blue,https://gdzc.ustc.edu.cn/ZCGL/login/login,0.0,1,0,0,1,6.0,1
+cggl.ustc.edu.cn,cggl,中国科学技术大学采购综合管理系统,4,4,2,2,50.0,-1:2 200:2,blue,https://cggl.ustc.edu.cn/sfw2/,50.0,0,1,0,2,7.0,2
+zcpt.ustc.edu.cn,zcpt,[需要身份认证],1,1,0,1,0.0,-1:1,blue,https://zcpt.ustc.edu.cn/api/callback/oauth/login,0.0,1,0,0,1,3.0,1
+xsfw.ustc.edu.cn,xsfw,xsfw,2,2,2,0,100.0,200:2,blue,http://xsfw.ustc.edu.cn/,100.0,0,0,1,2,4.0,2
+jjcxmjl.ustc.edu.cn,jjcxmjl,中国科学技术大学基建项目管理系统,1,1,1,0,100.0,200:1,blue,http://jjcxmjl.ustc.edu.cn/,100.0,0,0,1,3,5.0,3
+hy.ustc.edu.cn,hy,首页-中国科学技术大学,2,2,2,0,100.0,200:2,blue,https://hy.ustc.edu.cn/,100.0,0,0,1,3,10.0,3
+zhusu.ustc.edu.cn,zhusu,登录,1,1,1,0,100.0,200:1,blue,http://zhusu.ustc.edu.cn/gy/,100.0,0,0,1,1,3.0,1
+sysaq.ustc.edu.cn,sysaq,sysaq,2,2,2,0,100.0,200:2,blue,http://sysaq.ustc.edu.cn/,100.0,0,0,1,2,118.0,2
+lrmsys.ustc.edu.cn,lrmsys,[需要身份认证],1,1,0,1,0.0,-1:1,blue,http://lrmsys.ustc.edu.cn/sso/login,0.0,1,0,0,1,18.0,1
+cxcy.ustc.edu.cn,cxcy,中国科大设备图书馆,3,3,3,0,100.0,200:3,blue,https://cxcy.ustc.edu.cn/xinhuan_h5,100.0,0,0,1,2,301.0,2
+gxpt.ustc.edu.cn,gxpt,中国科学技术大学科研设施与仪器设备开放共享在线服务平台 - 中国科学技术大学科研设施与仪器设备开放共享在线服务平台,7,7,1,6,14.3,-1:6 200:1,blue,https://gxpt.ustc.edu.cn/,14.3,0,1,0,9,20.0,9
+imicro.ustc.edu.cn,imicro,IMICRO,3,3,3,0,100.0,200:3,blue,http://imicro.ustc.edu.cn/,100.0,0,0,1,3,14.0,3
+baoxiu.ustc.edu.cn,baoxiu,baoxiu,2,2,2,0,100.0,200:2,blue,https://baoxiu.ustc.edu.cn/,100.0,0,0,1,3,19.0,3
+cloud.ustc.edu.cn,cloud,cloud,1,1,1,0,100.0,200:1,blue,https://cloud.ustc.edu.cn/,100.0,0,0,1,2,11.0,2
+service.ustcnet.ustc.edu.cn,service.ustcnet,中国科大网络用户服务注册中心,6,6,6,0,100.0,200:6,blue,http://service.ustcnet.ustc.edu.cn/,100.0,0,0,1,6,34.0,6
+wlt.ustc.edu.cn,wlt,厙釐籵賜醱,2,2,2,0,100.0,200:2,blue,http://wlt.ustc.edu.cn/,100.0,0,0,1,5,9.0,5
+netfee.ustc.edu.cn,netfee,[robots.txt 禁止],4,4,0,4,0.0,-2:4,blue,http://netfee.ustc.edu.cn/,0.0,1,0,0,6,15.0,6
+esign.ustc.edu.cn,esign,统一电子签署平台,2,2,2,0,100.0,200:2,blue,https://esign.ustc.edu.cn/,100.0,0,0,1,4,102.0,4
+wf.ustc.edu.cn,wf,[HTTP 500],1,1,0,1,0.0,500:1,red,http://wf.ustc.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.gzryccspb.gzryccspb,0.0,1,0,0,1,4.0,1
+software.ustc.edu.cn,software,[需要身份认证],2,2,0,2,0.0,-1:2,blue,http://software.ustc.edu.cn/,0.0,1,0,0,2,5.0,2
+linux.ustc.edu.cn,linux,USTC,22,20,7,13,35.0,200:7 404:13,yellow,http://linux.ustc.edu.cn/,35.0,0,1,0,4,7.0,4
+wpsearch.ustc.edu.cn,wpsearch,二级站群搜索网站,100,20,20,0,100.0,200:20,blue,http://wpsearch.ustc.edu.cn/main.htm,100.0,0,0,1,89,296.0,89
+rec.ustc.edu.cn,rec,rec,20,20,20,0,100.0,200:20,blue,http://rec.ustc.edu.cn/,100.0,0,0,1,8,28.0,8
+soa.ustc.edu.cn,soa,[robots.txt 禁止],1,1,0,1,0.0,-2:1,blue,http://soa.ustc.edu.cn/,0.0,1,0,0,1,4.0,1
+archsys.ustc.edu.cn,archsys,登录--数字档案管理系统,1,1,1,0,100.0,200:1,blue,http://archsys.ustc.edu.cn:8080/dams/login/login.html,100.0,0,0,1,1,5.0,1
+xsybxt.ustc.edu.cn,xsybxt,[需要身份认证],27,20,14,6,70.0,-1:6 200:14,blue,https://xsybxt.ustc.edu.cn/index,70.0,0,1,0,1,99.0,1
+kdfzgxzx.ustc.edu.cn,kdfzgxzx,中国科大附中高新中学,100,20,20,0,100.0,200:20,blue,http://kdfzgxzx.ustc.edu.cn/,100.0,0,0,1,4,24.0,4
+kfsy.ustc.edu.cn,kfsy,中科大附中实验学校,100,20,20,0,100.0,200:20,blue,http://kfsy.ustc.edu.cn/,100.0,0,0,1,4,28.0,4
+zbh.ustc.edu.cn,zbh,中国科学技术大学软件正版化,10,10,2,8,20.0,-1:8 200:2,blue,http://zbh.ustc.edu.cn/,20.0,0,1,0,8,75.0,8
+gcl.ustc.edu.cn,gcl,[请求失败] ConnectTimeout,2,2,0,2,0.0,0:2,red,https://gcl.ustc.edu.cn/,0.0,1,0,0,2,69.0,2
+cfmc.ustc.edu.cn,cfmc,中国科学技术大学中法数学中心,114,20,9,11,45.0,200:9 404:11,yellow,http://cfmc.ustc.edu.cn/,45.0,0,1,0,8,593.0,8
+ahmath.ustc.edu.cn,ahmath,安徽省数学会,100,20,20,0,100.0,200:20,blue,http://ahmath.ustc.edu.cn/,100.0,0,0,1,2,70.0,2
+wulab.ustc.edu.cn,wulab,中国科学院吴文俊数学重点实验室,101,20,20,0,100.0,200:20,yellow,http://wulab.ustc.edu.cn/,100.0,0,0,1,2,80.0,2
+wlys.ustc.edu.cn,wlys,中国科学技术大学物理学院本科生导师制预约系统,10,10,2,8,20.0,-1:8 200:2,blue,http://wlys.ustc.edu.cn/,20.0,0,1,0,9,84.0,9
+pnp.ustc.edu.cn,pnp,粒子物理与原子核物理学科,106,20,17,3,85.0,200:17 403:2 404:1,yellow,https://pnp.ustc.edu.cn/,85.0,0,1,0,37,451.0,37
+ooe.ustc.edu.cn,ooe,"Dept. of Optics & Optical Engineering, USTC",100,20,20,0,100.0,200:20,blue,http://ooe.ustc.edu.cn/,100.0,0,0,1,13,121.0,13
+jxzy.ustc.edu.cn,jxzy,中国科学技术大学物理实验教学中心,100,20,20,0,100.0,200:20,blue,http://jxzy.ustc.edu.cn/,100.0,0,0,1,11,424.0,11
+lqcc.ustc.edu.cn,lqcc,"CAS Key Laboratory of Quantum Information, USTC",101,20,19,1,95.0,200:19 404:1,yellow,http://lqcc.ustc.edu.cn/,95.0,0,1,0,11,29.0,11
+lmmr.ustc.edu.cn,lmmr,中国科学院微观磁共振重点实验室,76,20,19,1,95.0,-1:1 200:19,blue,http://lmmr.ustc.edu.cn/,95.0,0,1,0,10,92.0,10
+quantummatter.ustc.edu.cn,quantummatter,[请求失败] ConnectionError,3,3,0,3,0.0,0:3,red,http://quantummatter.ustc.edu.cn/,0.0,1,0,0,5,23.0,5
+opt.ustc.edu.cn,opt,光电子科学与技术安徽省重点实验室,100,20,20,0,100.0,200:20,blue,http://opt.ustc.edu.cn/,100.0,0,0,1,4,13.0,4
+pelab.ustc.edu.cn,pelab,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://pelab.ustc.edu.cn/,0.0,1,0,0,2,3.0,2
+icts.ustc.edu.cn,icts,中科大-交叉中心,101,20,20,0,100.0,200:20,yellow,http://icts.ustc.edu.cn/,100.0,0,0,1,7,17.0,7
+iru.ustc.edu.cn,iru,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://iru.ustc.edu.cn/,0.0,1,0,0,2,3.0,2
+spin.ustc.edu.cn,spin,中科院微观磁共振重点实验室顺磁共振组,33,20,8,12,40.0,0:11 200:8 410:1,yellow,http://spin.ustc.edu.cn/,40.0,0,1,0,5,111.0,5
+physics2.ustc.edu.cn,physics2,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,https://physics2.ustc.edu.cn/,0.0,1,0,0,1,13.0,1
+wfst.ustc.edu.cn,wfst,WFST,100,20,10,10,50.0,0:10 200:10,yellow,https://wfst.ustc.edu.cn/,50.0,0,1,0,3,98.0,3
+csc.ustc.edu.cn,csc,ams,3,3,3,0,100.0,200:3,blue,https://csc.ustc.edu.cn/,100.0,0,0,1,2,10.0,2
+wvpn.ustc.edu.cn,wvpn,[需要身份认证],3,3,0,3,0.0,-1:3,blue,http://wvpn.ustc.edu.cn/,0.0,1,0,0,4,126.0,4
+nsti.ustc.edu.cn,nsti,纳米科学技术学院 - 中国科学技术大学,100,20,19,1,95.0,0:1 200:19,yellow,http://nsti.ustc.edu.cn/,95.0,0,1,0,7,500.0,7
+wcm.ustc.edu.cn,wcm,[HTTP 502],21,20,0,20,0.0,403:11 502:9,red,http://wcm.ustc.edu.cn/wcm/,0.0,1,0,0,6,302.0,6
+gong.ustc.edu.cn,gong,智能材料和振动控制实验室,41,20,19,1,95.0,200:19 404:1,yellow,http://gong.ustc.edu.cn/,95.0,0,1,0,12,405.0,12
+mechsalon.ustc.edu.cn,mechsalon,[请求失败] ConnectionError,2,2,0,2,0.0,0:2,red,http://mechsalon.ustc.edu.cn/,0.0,1,0,0,3,103.0,3
+hzdt.ustc.edu.cn,hzdt,火灾安全全国重点实验室党团网,100,20,20,0,100.0,200:20,blue,http://hzdt.ustc.edu.cn/,100.0,0,0,1,3,103.0,3
+complex.ustc.edu.cn,complex,中国科大复杂系统研究,40,20,20,0,100.0,200:20,blue,http://complex.ustc.edu.cn/,100.0,0,0,1,3,10.0,3
+agi.ustc.edu.cn,agi,通用人工智能研究所,52,20,10,10,50.0,200:10 403:10,yellow,https://agi.ustc.edu.cn/,50.0,0,1,0,2,33.0,2
+etcis-web.ustc.edu.cn,etcis-web,信息与计算机科学实验教学中心,101,20,20,0,100.0,200:20,yellow,https://etcis-web.ustc.edu.cn/,100.0,0,0,1,18,1411.0,18
+zc.ustc.edu.cn,zc,采购管理系统,4,4,4,0,100.0,200:4,blue,http://zc.ustc.edu.cn/uzc/login.aspx,100.0,0,0,1,3,101.0,3
+en.auto.ustc.edu.cn,en.auto,University of Science and Technology of China - School of Information Science and Technology Department of Automation,100,20,20,0,100.0,200:20,blue,http://en.auto.ustc.edu.cn/,100.0,0,0,1,2,212.0,2
+cslab.ustc.edu.cn,cslab,计算机实验教学中心,95,20,20,0,100.0,200:20,yellow,http://cslab.ustc.edu.cn/,100.0,0,0,1,7,121.0,7
+sgas.ustc.edu.cn,sgas,中国科大计算机学院本科生成绩画像系统,2,2,1,1,50.0,-1:1 200:1,blue,https://sgas.ustc.edu.cn/auth/login,50.0,0,1,0,1,99.0,1
+dj.ustc.edu.cn,dj,党建信息管理系统,2,2,1,1,50.0,-1:1 200:1,blue,https://dj.ustc.edu.cn/,50.0,0,1,0,2,197.0,2
+iclab.ustc.edu.cn,iclab,中国科大集成电路实验中心,101,20,20,0,100.0,200:20,yellow,https://iclab.ustc.edu.cn/,100.0,0,0,1,1,96.0,1
+mis.sse.ustc.edu.cn,mis.sse,软件学院信息化平台,1,1,1,0,100.0,200:1,blue,http://mis.sse.ustc.edu.cn/default.aspx,100.0,0,0,1,1,4.0,1
+yjs.ustc.edu.cn,yjs,登录,6,6,2,4,33.3,200:2 404:4,yellow,http://yjs.ustc.edu.cn/,33.3,0,1,0,11,30.0,11
+essetc.ustc.edu.cn,essetc,地球和空间科学实验教学中心-中国科学技术大学,79,20,20,0,100.0,200:20,blue,https://essetc.ustc.edu.cn/main.htm,100.0,0,0,1,5,105.0,5
+iphs.ustc.edu.cn,iphs,中国科学技术大学公共卫生研究院,102,20,20,0,100.0,200:20,yellow,https://iphs.ustc.edu.cn/,100.0,0,0,1,5,33.0,5
+lifetech.ustc.edu.cn,lifetech,科研设施与仪器开放共享平台,100,20,3,17,15.0,-1:17 200:3,blue,https://lifetech.ustc.edu.cn/,15.0,0,1,0,7,31.0,7
+biotraining.ustc.edu.cn,biotraining,中国科学技术大学国家级生命科学实验教学示范中心,100,20,20,0,100.0,200:20,blue,http://biotraining.ustc.edu.cn/,100.0,0,0,1,7,36.0,7
+bs.ustc.edu.cn,bs,404 页面未找到 | 探索未知,100,20,20,0,100.0,200:20,blue,http://bs.ustc.edu.cn/hrc/,100.0,0,0,1,23,8744.0,23
+business.ustc.edu.cn,business,中国科学技术大学科技商学院、管理学院,104,20,19,1,95.0,200:19 410:1,yellow,https://business.ustc.edu.cn/,95.0,0,1,0,23,2018.0,23
+emba.ustc.edu.cn,emba,中国科学技术大学EMBA,100,20,20,0,100.0,200:20,blue,https://emba.ustc.edu.cn/,100.0,0,0,1,10,550.0,10
+mba.ustc.edu.cn,mba,管理学院MBA中心,101,20,19,1,95.0,200:19 404:1,yellow,https://mba.ustc.edu.cn/,95.0,0,1,0,8,352.0,8
+mf.ustc.edu.cn,mf,中国科学技术大学金融硕士（MF）,104,20,20,0,100.0,200:20,yellow,https://mf.ustc.edu.cn/,100.0,0,0,1,16,351.0,16
+edp.ustc.edu.cn,edp,中国科学技术大学管理学院EDP中心,100,20,20,0,100.0,200:20,blue,https://edp.ustc.edu.cn/,100.0,0,0,1,6,635.0,6
+yun.ustc.edu.cn,yun,中国科学技术大学管理学院云平台,2,2,2,0,100.0,200:2,blue,https://yun.ustc.edu.cn/,100.0,0,0,1,4,94.0,4
+zyxwzs.ustc.edu.cn,zyxwzs,中科大管理学院专业学位考生服务系统,11,11,11,0,100.0,200:11,blue,https://zyxwzs.ustc.edu.cn/,100.0,0,0,1,5,15.0,5
+mpa.ustc.edu.cn,mpa,中国科学技术大学公共管理硕士（MPA）教育中心,101,20,20,0,100.0,200:20,yellow,http://mpa.ustc.edu.cn/,100.0,0,0,1,12,217.0,12
+jm.ustc.edu.cn,jm,公共事务学院法律硕士教育中心,100,20,20,0,100.0,200:20,blue,http://jm.ustc.edu.cn/,100.0,0,0,1,4,109.0,4
+jxjy.ustc.edu.cn,jxjy,中国科学技术大学国家专业技术人员继续教育基地,100,20,20,0,100.0,200:20,blue,http://jxjy.ustc.edu.cn/,100.0,0,0,1,4,111.0,4
+ircls.ustc.edu.cn,ircls,人文与社会科学学院语言科学交叉研究中心,100,20,20,0,100.0,200:20,blue,http://ircls.ustc.edu.cn/,100.0,0,0,1,4,28.0,4
+asrc.ustc.edu.cn,asrc,艺术与科学研究中心,34,20,20,0,100.0,200:20,blue,https://asrc.ustc.edu.cn/,100.0,0,0,1,2,20.0,2
+aacsb.ustc.edu.cn,aacsb,aacsb,1,1,1,0,100.0,200:1,blue,https://aacsb.ustc.edu.cn/hsss/,100.0,0,0,1,1,4.0,1
+cnmfrdg.ustc.edu.cn,cnmfrdg,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://cnmfrdg.ustc.edu.cn/,0.0,1,0,0,1,5.0,1
+yjs1.ustc.edu.cn,yjs1,登录,3,3,2,1,66.7,200:2 404:1,yellow,https://yjs1.ustc.edu.cn/,66.7,0,1,0,5,163.0,5
+roombooking.cmet.ustc.edu.cn,roombooking.cmet,外语教学中心预约管理平台,1,1,1,0,100.0,200:1,blue,http://roombooking.cmet.ustc.edu.cn/protal/guide.html,100.0,0,0,1,1,3.0,1
+ty.ustc.edu.cn,ty,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,https://ty.ustc.edu.cn/,0.0,1,0,0,1,35.0,1
+nsrloa.ustc.edu.cn,nsrloa,NSRL信息化管理平台,9,9,3,6,33.3,0:6 200:3,yellow,https://nsrloa.ustc.edu.cn/,33.3,0,1,0,4,69.0,4
+control.nsrl.ustc.edu.cn,control.nsrl,HLS-II,1,1,1,0,100.0,200:1,blue,http://control.nsrl.ustc.edu.cn/,100.0,0,0,1,3,68.0,3
+half.nsrl.ustc.edu.cn,half.nsrl,合肥先进光源工程管理平台,2,2,2,0,100.0,200:2,blue,https://half.nsrl.ustc.edu.cn/pm/,100.0,0,0,1,2,5.0,2
+en.hfnl.ustc.edu.cn,en.hfnl,[HTTP 400],1,1,0,1,0.0,400:1,red,http://en.hfnl.ustc.edu.cn/,0.0,1,0,0,5,127.0,5
+en.pichem.ustc.edu.cn,en.pichem,USTC PIC,62,20,20,0,100.0,200:20,blue,http://en.pichem.ustc.edu.cn/,100.0,0,0,1,2,128.0,2
+phy-meeting.ustc.edu.cn,phy-meeting,跳转中...,2,2,1,1,50.0,200:1 201:1,blue,http://phy-meeting.ustc.edu.cn/,50.0,0,1,0,2,100.0,2
+pba.ustc.edu.cn,pba,中国科学技术大学粒子束交叉应用实验室,100,20,20,0,100.0,200:20,blue,http://pba.ustc.edu.cn/,100.0,0,0,1,5,63.0,5
+cicpi2011.ustc.edu.cn,cicpi2011,[请求失败] ConnectionError,2,2,0,2,0.0,0:2,red,http://cicpi2011.ustc.edu.cn/,0.0,1,0,0,3,6.0,3
+nercslip.ustc.edu.cn,nercslip,语音及语言信息处理国家工程研究中心,100,20,20,0,100.0,200:20,yellow,http://nercslip.ustc.edu.cn/main.htm,100.0,0,0,1,2,301.0,2
+mccipc.ustc.edu.cn,mccipc,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://mccipc.ustc.edu.cn/mrbs/,0.0,1,0,0,1,100.0,1
+oa.sz.ustc.edu.cn,oa.sz,[robots.txt 禁止],2,2,0,2,0.0,-2:2,blue,https://oa.sz.ustc.edu.cn/?m=login,0.0,1,0,0,1,188.0,1
+cg.sz.ustc.edu.cn,cg.sz,[需要身份认证],10,10,1,9,10.0,-1:9 200:1,blue,https://cg.sz.ustc.edu.cn/extend_vgo/cas/login,10.0,0,1,0,1,188.0,1
+doc.sz.ustc.edu.cn,doc.sz,doc.sz,1,1,1,0,100.0,200:1,blue,https://doc.sz.ustc.edu.cn/,100.0,0,0,1,1,94.0,1
+pop.sz.ustc.edu.cn,pop.sz,门户首页,27,20,1,19,5.0,-1:19 200:1,blue,http://pop.sz.ustc.edu.cn/,5.0,0,1,0,2,96.0,2
+suzichan.ustc.edu.cn,suzichan,suzichan,1,1,1,0,100.0,200:1,blue,https://suzichan.ustc.edu.cn/,100.0,0,0,1,1,94.0,1
+jobs.sz.ustc.edu.cn,jobs.sz,科研启动经费,2,2,2,0,100.0,200:2,blue,https://jobs.sz.ustc.edu.cn/szfund,100.0,0,0,1,1,94.0,1
+mozi.ustc.edu.cn,mozi,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://mozi.ustc.edu.cn/,0.0,1,0,0,2,91.0,2
+oa.ustc.edu.cn,oa,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,https://oa.ustc.edu.cn/,0.0,1,0,0,1,3.0,1
+quantum.ustc.edu.cn,quantum,首页 | 量子物理与量子信息研究部,100,20,20,0,100.0,200:20,blue,http://quantum.ustc.edu.cn/,100.0,0,0,1,14,115.0,14
+iatxt.ustc.edu.cn,iatxt,[robots.txt 禁止],2,2,0,2,0.0,-2:2,blue,http://iatxt.ustc.edu.cn/,0.0,1,0,0,2,141.0,2
+iatew.ustc.edu.cn,iatew,[HTTP 500],19,19,18,1,94.7,200:18 500:1,yellow,http://iatew.ustc.edu.cn/taskcenter-beta,94.7,0,1,0,4,174.0,4
+mail.iat.ustc.edu.cn,mail.iat,邮件系统,1,1,1,0,100.0,200:1,blue,http://mail.iat.ustc.edu.cn/,100.0,0,0,1,2,101.0,2
+x.ustc.edu.cn,x,中国科技大学先进技术研究院,1,1,1,0,100.0,200:1,blue,http://x.ustc.edu.cn/xjjs/,100.0,0,0,1,3,102.0,3
+yqgx.ustc.edu.cn,yqgx,中国科大先研院园区仪器共享平台,22,20,1,19,5.0,0:19 200:1,yellow,http://yqgx.ustc.edu.cn/,5.0,0,1,0,4,10.0,4
+ceni.ustc.edu.cn,ceni,未来网络试验设施,2,2,2,0,100.0,200:2,blue,http://ceni.ustc.edu.cn/,100.0,0,0,1,2,8.0,2
+iatauth.ustc.edu.cn,iatauth,[HTTP 404],2,2,0,2,0.0,404:2,red,http://iatauth.ustc.edu.cn/mh,0.0,1,0,0,2,8.0,2
+iai.ustc.edu.cn,iai,合肥综合性国家科学中心人工智能研究院,101,20,19,1,95.0,200:19 500:1,yellow,http://iai.ustc.edu.cn/,95.0,0,1,0,9,218.0,9
+en.iif.ustc.edu.cn,en.iif,中国科学技术大学国际金融研究院 科学技术 中国科学技术 技术大学 国际金融研究院 金融研究院,72,20,19,1,95.0,200:19 410:1,yellow,http://en.iif.ustc.edu.cn/,95.0,0,1,0,15,218.0,15
+team-en.ustc.edu.cn,team-en,中国科学技术大学团队主页,24,20,20,0,100.0,200:20,blue,https://team-en.ustc.edu.cn/,100.0,0,0,1,5,358.0,5
+institution-en.ustc.edu.cn,institution-en,中国科学技术大学实验室主页,16,16,16,0,100.0,200:16,blue,https://institution-en.ustc.edu.cn/,100.0,0,0,1,5,440.0,5
+fanglab.ustc.edu.cn,fanglab,Stem Cell Biology and Regenerative Medicine Lab,13,13,13,0,100.0,200:13,blue,https://fanglab.ustc.edu.cn/,100.0,0,0,1,3,3.0,3
+staff.ustc.edu.cn,staff,司廷的个人主页,144,20,18,2,90.0,200:18 404:2,yellow,http://staff.ustc.edu.cn/~tsi,90.0,0,1,0,92,975.0,92
+dsxt.ustc.edu.cn,dsxt,中国科学技术大学-研究生导师门户系统,11,11,10,1,90.9,0:1 200:10,yellow,http://dsxt.ustc.edu.cn/,90.9,0,1,0,37,828.0,37
+space.ustc.edu.cn,space,Welcome to Space Physics Division of USTC,97,20,20,0,100.0,200:20,blue,http://space.ustc.edu.cn/,100.0,0,0,1,3,4.0,3
+yaolab.ustc.edu.cn,yaolab,Huajian Yao - University of Science and Technology of China,88,20,20,0,100.0,200:20,yellow,http://yaolab.ustc.edu.cn/,100.0,0,0,1,5,9.0,5
+order.ustc.edu.cn,order,Hua Tong Lab,17,17,10,7,58.8,0:7 200:10,yellow,http://order.ustc.edu.cn/,58.8,0,1,0,5,16.0,5
+mane.ustc.edu.cn,mane,微纳米工程实验室,100,20,20,0,100.0,200:20,blue,http://mane.ustc.edu.cn/,100.0,0,0,1,6,18.0,6
+imcc.ustc.edu.cn,imcc,IMCC,29,20,18,2,90.0,200:18 404:2,yellow,http://imcc.ustc.edu.cn/,90.0,0,1,0,3,7.0,3
+home.ustc.edu.cn,home,[HTTP 404],26,20,13,7,65.0,200:13 404:7,yellow,http://home.ustc.edu.cn/~zhs/,65.0,0,1,0,20,89.0,20
+fld.ustc.edu.cn,fld,[请求失败] ConnectionError,2,2,0,2,0.0,0:2,red,https://fld.ustc.edu.cn/,0.0,1,0,0,1,2.0,1
+est.ustc.edu.cn,est,[请求失败] ConnectionError,3,3,0,3,0.0,0:3,red,https://est.ustc.edu.cn/,0.0,1,0,0,4,153.0,4
+scgy.ustc.edu.cn,scgy,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,https://scgy.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+infosec.ustc.edu.cn,infosec,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://infosec.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+booking.ipb.ustc.edu.cn,booking.ipb,[需要身份认证],2,2,0,2,0.0,-1:2,blue,http://booking.ipb.ustc.edu.cn/,0.0,1,0,0,2,105.0,2
+v.ustc.edu.cn,v,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,https://v.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+xly.ustc.edu.cn,xly,中国科学技术大学,3,3,3,0,100.0,200:3,blue,http://xly.ustc.edu.cn/,100.0,0,0,1,7,20.0,7
+tqms.ustc.edu.cn,tqms,首页 - 中国科学技术大学 - 研究生面试申请系统,62,20,20,0,100.0,200:20,blue,http://tqms.ustc.edu.cn/,100.0,0,0,1,27,68.0,27
+xwsh.ustc.edu.cn,xwsh,xwsh,16,16,16,0,100.0,200:16,blue,http://xwsh.ustc.edu.cn/?menu=publicity_new&id=45,100.0,0,0,1,1,19.0,1
+xsxwsq.ustc.edu.cn,xsxwsq,[需要身份认证],1,1,0,1,0.0,-1:1,blue,https://xsxwsq.ustc.edu.cn/login_postgraduate,0.0,1,0,0,1,1.0,1
+xspt.ustc.edu.cn,xspt,研究生报考服务系统,10,10,9,1,90.0,200:9 500:1,yellow,http://xspt.ustc.edu.cn/,90.0,0,1,0,11,17.0,11
+jjb.ustc.edu.cn,jjb,[连接失败-本运行跳过],2,2,0,2,0.0,0:2,red,http://jjb.ustc.edu.cn/,0.0,1,0,0,2,2.0,2
+gateway.ustc.edu.cn,gateway,[请求失败] ConnectTimeout,1,1,0,1,0.0,0:1,red,http://gateway.ustc.edu.cn/,0.0,1,0,0,1,2.0,1
+video.ustc.edu.cn,video,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://video.ustc.edu.cn/,0.0,1,0,0,1,2.0,1
+om.ustc.edu.cn,om,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://om.ustc.edu.cn/,0.0,1,0,0,1,2.0,1
+zongwu.ustc.edu.cn,zongwu,机构简介,1,1,1,0,100.0,200:1,blue,http://zongwu.ustc.edu.cn/ch/sdcx.php?para_str=2%2C6%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0,100.0,0,0,1,2,3.0,2
+moocs.ustc.edu.cn,moocs,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://moocs.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+atta.ustc.edu.cn,atta,Laser Lab,46,20,19,1,95.0,0:1 200:19,yellow,http://atta.ustc.edu.cn/,95.0,0,1,0,14,352.0,14
+chaxin.lib.ustc.edu.cn,chaxin.lib,科技查新咨询中心报告查询打印平台 - 中国科学技术大学图书馆,3,3,2,1,66.7,-1:1 200:2,blue,https://chaxin.lib.ustc.edu.cn/index.php?action=print,66.7,0,1,0,1,2.0,1
+idp.ustc.edu.cn,idp,USTC Shibboleth IdP v5.2.2,1,1,1,0,100.0,200:1,blue,http://idp.ustc.edu.cn/,100.0,0,0,1,3,3.0,3
+webvpn.ustc.edu.cn,webvpn,[robots.txt 禁止],1,1,0,1,0.0,-2:1,blue,http://webvpn.ustc.edu.cn/,0.0,1,0,0,2,2.0,2
+cmet.ustc.edu.cn,cmet,[请求失败] ConnectionError,2,2,0,2,0.0,0:2,red,https://cmet.ustc.edu.cn/,0.0,1,0,0,2,91.0,2
+video.cmet.ustc.edu.cn,video.cmet,[robots.txt 禁止],3,3,2,1,66.7,-2:1 200:2,blue,http://video.cmet.ustc.edu.cn/,66.7,0,1,0,1,1.0,1
+wfo.lib.ustc.edu.cn,wfo.lib,登录,1,1,1,0,100.0,200:1,blue,http://wfo.lib.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+cnki.lib.ustc.edu.cn,cnki.lib,IIS7,1,1,1,0,100.0,200:1,blue,http://cnki.lib.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+bookan.lib.ustc.edu.cn,bookan.lib,[请求失败] ConnectTimeout,1,1,0,1,0.0,0:1,red,http://bookan.lib.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+fanglue.lib.ustc.edu.cn,fanglue.lib,方略知识管理系统,20,20,19,1,95.0,200:19 404:1,yellow,http://fanglue.lib.ustc.edu.cn/,95.0,0,1,0,1,1.0,1
+yuanlai.lib.ustc.edu.cn,yuanlai.lib,“知识视界”视频教育资源库,20,20,20,0,100.0,200:20,blue,http://yuanlai.lib.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+career.lib.ustc.edu.cn,career.lib,职业全能培训库,20,20,20,0,100.0,200:20,blue,http://career.lib.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+ic.lib.ustc.edu.cn,ic.lib,Information Commons,1,1,1,0,100.0,200:1,blue,http://ic.lib.ustc.edu.cn/,100.0,0,0,1,2,2.0,2
+hs.lib.ustc.edu.cn,hs.lib,[需要身份认证],1,1,0,1,0.0,-1:1,blue,https://hs.lib.ustc.edu.cn/,0.0,1,0,0,2,2.0,2
+start.lib.ustc.edu.cn,start.lib,入馆教育,1,1,1,0,100.0,200:1,blue,https://start.lib.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+xlcs.ustc.edu.cn,xlcs,xlcs,1,1,1,0,100.0,200:1,blue,http://xlcs.ustc.edu.cn/,100.0,0,0,1,1,2.0,1
+jahh.ustc.edu.cn,jahh,jahh,1,1,1,0,100.0,200:1,blue,http://jahh.ustc.edu.cn/,100.0,0,0,1,1,7.0,1
+justc.ustc.edu.cn,justc,[连接失败-本运行跳过],39,20,2,18,10.0,0:18 200:2,yellow,https://justc.ustc.edu.cn/News,10.0,0,1,0,3,31.0,3
+cjcp.ustc.edu.cn,cjcp,[连接失败-本运行跳过],26,20,7,13,35.0,0:13 200:7,yellow,http://cjcp.ustc.edu.cn/,35.0,0,1,0,3,16.0,3
+hzkx.ustc.edu.cn,hzkx,hzkx,1,1,1,0,100.0,200:1,blue,http://hzkx.ustc.edu.cn/,100.0,0,0,1,2,8.0,2
+isa.ustc.edu.cn,isa,Welcome To USTC,100,20,20,0,100.0,200:20,blue,http://isa.ustc.edu.cn/,100.0,0,0,1,10,507.0,10
+fpisc.ustc.edu.cn,fpisc,FPISC 2023,45,20,20,0,100.0,200:20,blue,http://fpisc.ustc.edu.cn/,100.0,0,0,1,5,120.0,5
+fcisc.ustc.edu.cn,fcisc,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://fcisc.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+scai.ustc.edu.cn,scai,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://scai.ustc.edu.cn/index.php,0.0,1,0,0,1,1.0,1
+fire.ustc.edu.cn,fire,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://fire.ustc.edu.cn/e/about.php,0.0,1,0,0,1,1.0,1
+ncmis.ustc.edu.cn,ncmis,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://ncmis.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+gclab.ustc.edu.cn,gclab,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://gclab.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+ncsc.ustc.edu.cn,ncsc,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://ncsc.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+smc.ustc.edu.cn,smc,[请求失败] ConnectionError,2,2,0,2,0.0,0:2,red,http://smc.ustc.edu.cn/,0.0,1,0,0,2,2.0,2
+ifp.oic.ustc.edu.cn,ifp.oic,A visiting professor at the international and English teaching promotion project Website,26,20,20,0,100.0,200:20,blue,http://ifp.oic.ustc.edu.cn/,100.0,0,0,1,22,257.0,22
+en.biox.ustc.edu.cn,en.biox,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://en.biox.ustc.edu.cn/,0.0,1,0,0,2,2.0,2
+en.snst.ustc.edu.cn,en.snst,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://en.snst.ustc.edu.cn/,0.0,1,0,0,2,2.0,2
+spa.ustc.edu.cn,spa,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://spa.ustc.edu.cn/english.php,0.0,1,0,0,2,2.0,2
+en.nhpcc.ustc.edu.cn,en.nhpcc,National High Performance Computing Center at Hefei,67,20,13,7,65.0,200:13 403:1 410:6,yellow,http://en.nhpcc.ustc.edu.cn/,65.0,0,1,0,4,6.0,4
+19da.ustc.edu.cn,19da,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://19da.ustc.edu.cn/,0.0,1,0,0,1,69.0,1
+zgkdb.ustc.edu.cn,zgkdb,中国科大报,99,20,20,0,100.0,200:20,blue,http://zgkdb.ustc.edu.cn/,100.0,0,0,1,1,6.0,1
+orgchemlab.ustc.edu.cn,orgchemlab,orgchemlab,1,1,1,0,100.0,200:1,blue,https://orgchemlab.ustc.edu.cn/,100.0,0,0,1,1,84.0,1
+inorgchemlab.ustc.edu.cn,inorgchemlab,inorgchemlab,1,1,1,0,100.0,200:1,blue,https://inorgchemlab.ustc.edu.cn/,100.0,0,0,1,1,84.0,1
+analychemlab.ustc.edu.cn,analychemlab,analychemlab,1,1,1,0,100.0,200:1,blue,https://analychemlab.ustc.edu.cn/,100.0,0,0,1,1,84.0,1
+iace.ustc.edu.cn,iace,iace,1,1,1,0,100.0,200:1,blue,https://iace.ustc.edu.cn/,100.0,0,0,1,1,84.0,1
+chemenglab.ustc.edu.cn,chemenglab,chemenglab,1,1,1,0,100.0,200:1,blue,https://chemenglab.ustc.edu.cn/,100.0,0,0,1,1,84.0,1
+polychemlab.ustc.edu.cn,polychemlab,polychemlab,1,1,1,0,100.0,200:1,blue,https://polychemlab.ustc.edu.cn/,100.0,0,0,1,1,84.0,1
+vcec.ustc.edu.cn,vcec,vcec,1,1,1,0,100.0,200:1,blue,https://vcec.ustc.edu.cn/,100.0,0,0,1,1,4.0,1
+cmcec.ustc.edu.cn,cmcec,[请求失败] ConnectionError,2,2,0,2,0.0,0:2,red,https://cmcec.ustc.edu.cn/,0.0,1,0,0,1,7.0,1
+virlab.ustc.edu.cn,virlab,工程科学虚拟仿真实验教学中心 - 中国科学技术大学,100,20,20,0,100.0,200:20,blue,https://virlab.ustc.edu.cn/,100.0,0,0,1,8,360.0,8
+lmbd.ustc.edu.cn,lmbd,LMBD of USTC,102,20,20,0,100.0,200:20,yellow,http://lmbd.ustc.edu.cn/main.htm,100.0,0,0,1,11,425.0,11
+vlab.ustc.edu.cn,vlab,首页 - Vlab 实验中心,30,20,5,15,25.0,-1:14 200:5 502:1,yellow,https://vlab.ustc.edu.cn/,25.0,0,1,0,10,256.0,10
+ieat.ustc.edu.cn,ieat,实验实训平台,2,2,1,1,50.0,200:1 404:1,yellow,http://ieat.ustc.edu.cn/,50.0,0,1,0,3,141.0,3
+pics.ustc.edu.cn,pics,仪器设备,20,20,20,0,100.0,200:20,blue,http://pics.ustc.edu.cn/instrument.html,100.0,0,0,1,2,43.0,2
+biotech.ustc.edu.cn,biotech,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://biotech.ustc.edu.cn/,0.0,1,0,0,3,5.0,3
+emsecs.ustc.edu.cn,emsecs,仪器设备,20,20,20,0,100.0,200:20,blue,https://emsecs.ustc.edu.cn/,100.0,0,0,1,2,50.0,2
+jf.ustc.edu.cn,jf,机房管理系统,1,1,1,0,100.0,200:1,blue,https://jf.ustc.edu.cn/,100.0,0,0,1,1,3.0,1
+sdc.ustc.edu.cn,sdc,sdc,1,1,1,0,100.0,200:1,blue,https://sdc.ustc.edu.cn/,100.0,0,0,1,1,3.0,1
+coral.ustc.edu.cn,coral,USTC-Coral-Web,4,4,2,2,50.0,-1:2 200:2,blue,http://coral.ustc.edu.cn/?u=,50.0,0,1,0,2,3.0,2
+mirrors.ustc.edu.cn,mirrors,USTC Open Source Software Mirror,302,20,2,18,10.0,-2:18 200:2,blue,https://mirrors.ustc.edu.cn/,10.0,0,1,0,3,113.0,3
+101.lug.ustc.edu.cn,101.lug,欢迎 - Linux 101,33,20,20,0,100.0,200:20,blue,https://101.lug.ustc.edu.cn/,100.0,0,0,1,5,57.0,5
+git.lug.ustc.edu.cn,git.lug,[robots.txt 禁止],2,2,0,2,0.0,-2:2,blue,https://git.lug.ustc.edu.cn/,0.0,1,0,0,1,10.0,1
+ucas.ustc.edu.cn,ucas,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,https://ucas.ustc.edu.cn/login?service=https%3A%2F%2Fjjcxmjl.ustc.edu.cn%2FAccount%2Fcaslogin,0.0,1,0,0,1,1.0,1
+igonghui.ustc.edu.cn,igonghui,[需要身份认证],2,2,0,2,0.0,-1:2,blue,https://igonghui.ustc.edu.cn/,0.0,1,0,0,1,4.0,1
+yqzx.ustc.edu.cn,yqzx,综合科研仪器共享中心,100,20,7,13,35.0,-1:13 200:7,blue,http://yqzx.ustc.edu.cn/,35.0,0,1,0,3,12.0,3
+zczx.ustc.edu.cn,zczx,中国科大网络用户服务注册中心 - 登录,6,6,6,0,100.0,200:6,blue,https://zczx.ustc.edu.cn/login,100.0,0,0,1,2,9.0,2
+ns4.ustc.edu.cn,ns4,[robots.txt 禁止],1,1,0,1,0.0,-2:1,blue,http://ns4.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+lclab.ustc.edu.cn,lclab,中国科学技术大学激光化学实验室,77,20,20,0,100.0,200:20,blue,http://lclab.ustc.edu.cn/main.htm,100.0,0,0,1,7,541.0,7
+ecic.ustc.edu.cn,ecic,能源催化与原位表征研究组 - 中国科学技术大学,100,20,20,0,100.0,200:20,blue,http://ecic.ustc.edu.cn/,100.0,0,0,1,7,45.0,7
+en.imnc.ustc.edu.cn,en.imnc,工程科学学院微纳米复合材料研究所,110,20,16,4,80.0,200:16 403:2 404:2,yellow,https://en.imnc.ustc.edu.cn/,80.0,0,1,0,4,309.0,4
+ycly.arch.ustc.edu.cn,ycly.arch,学籍档案远程利用系统,1,1,1,0,100.0,200:1,blue,https://ycly.arch.ustc.edu.cn/front,100.0,0,0,1,1,1.0,1
+cfmath.ustc.edu.cn,cfmath,中法数学英才班,128,20,5,15,25.0,200:5 410:15,yellow,http://cfmath.ustc.edu.cn/,25.0,0,1,0,12,787.0,12
+en.cfmc.ustc.edu.cn,en.cfmc,China-France Mathematics Center of USTC,59,20,9,11,45.0,200:9 404:11,yellow,http://en.cfmc.ustc.edu.cn/,45.0,0,1,0,7,283.0,7
+cicpi.ustc.edu.cn,cicpi,[连接失败-本运行跳过],4,4,0,4,0.0,0:4,red,https://cicpi.ustc.edu.cn/HI_group/,0.0,1,0,0,5,6.0,5
+dslx.ustc.edu.cn,dslx,系统登录 - 中国科学技术大学 - 导师遴选系统,13,13,11,2,84.6,-1:2 200:11,blue,https://dslx.ustc.edu.cn/,84.6,0,1,0,7,12.0,7
+ldp.ustc.edu.cn,ldp,Low-dimensional Physics Lab,50,20,11,9,55.0,0:9 200:11,yellow,https://ldp.ustc.edu.cn/,55.0,0,1,0,6,8.0,6
+scmp.ustc.edu.cn,scmp,[英]软物质理论与计算实验室,44,20,10,10,50.0,0:10 200:10,yellow,https://scmp.ustc.edu.cn/,50.0,0,1,0,3,5.0,3
+emdp.ustc.edu.cn,emdp,电子材料与器件物理研究室,100,20,20,0,100.0,200:20,blue,http://emdp.ustc.edu.cn/,100.0,0,0,1,5,35.0,5
+exciton.ustc.edu.cn,exciton,Fangroup,30,20,20,0,100.0,200:20,blue,http://exciton.ustc.edu.cn/main.htm,100.0,0,0,1,2,21.0,2
+ail.ustc.edu.cn,ail,"Introduce - 先进仪器实验室(Advanced Instrument Laboratory, AIL)",13,13,12,1,92.3,0:1 200:12,yellow,http://ail.ustc.edu.cn/,92.3,0,1,0,3,3.0,3
+laserbio.ustc.edu.cn,laserbio,Biophotonics Lab-EN,93,20,20,0,100.0,200:20,blue,http://laserbio.ustc.edu.cn/,100.0,0,0,1,3,189.0,3
+micro.ustc.edu.cn,micro,[HTTP 403],5,5,0,5,0.0,403:3 404:2,red,http://micro.ustc.edu.cn/SunX,0.0,1,0,0,3,6.0,3
+pems.ustc.edu.cn,pems,pems,1,1,1,0,100.0,200:1,blue,http://pems.ustc.edu.cn/,100.0,0,0,1,1,97.0,1
+en.lmmr.ustc.edu.cn,en.lmmr,中国科学院微观磁共振重点实验室英文版,41,20,15,5,75.0,0:5 200:15,yellow,http://en.lmmr.ustc.edu.cn/,75.0,0,1,0,5,67.0,5
+pcft.ustc.edu.cn,pcft,彭桓武高能基础理论研究中心,19,19,10,9,52.6,0:9 200:10,yellow,http://pcft.ustc.edu.cn/,52.6,0,1,0,2,4.0,2
+chenxh.ustc.edu.cn,chenxh,陈仙辉院士-关联电子材料实验室,15,15,10,5,66.7,200:10 404:5,yellow,https://chenxh.ustc.edu.cn/,66.7,0,1,0,3,11.0,3
+thinfilm.ustc.edu.cn,thinfilm,[连接失败-本运行跳过],2,2,0,2,0.0,0:2,red,http://thinfilm.ustc.edu.cn/people/yliao.htm,0.0,1,0,0,1,4.0,1
+wu.ustc.edu.cn,wu,Prof. Dr. Ming-Wei Wu,1,1,1,0,100.0,200:1,blue,http://wu.ustc.edu.cn/~mwu/,100.0,0,0,1,2,4.0,2
+supercond-mag.ustc.edu.cn,supercond-mag,[请求失败] ConnectionError,6,6,0,6,0.0,0:6,red,http://supercond-mag.ustc.edu.cn/,0.0,1,0,0,2,6.0,2
+lodetech.ustc.edu.cn,lodetech,王坚课题组 -  State Key Laboratory of Particle Detection and Electronics,20,20,15,5,75.0,0:5 200:15,yellow,http://lodetech.ustc.edu.cn/,75.0,0,1,0,6,11.0,6
+membrane.ustc.edu.cn,membrane,中科大功能膜研究室,33,20,9,11,45.0,0:11 200:9,yellow,http://membrane.ustc.edu.cn/main.htm,45.0,0,1,0,3,8.0,3
+bioinspired.sz.ustc.edu.cn,bioinspired.sz,仿生界面材料科学全国重点实验室,43,20,4,16,20.0,0:16 200:4,yellow,https://bioinspired.sz.ustc.edu.cn/main.htm,20.0,0,1,0,5,108.0,5
+icebm.ustc.edu.cn,icebm,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://icebm.ustc.edu.cn/dct/page/1,0.0,1,0,0,1,2.0,1
+yllu.ustc.edu.cn,yllu,陆亚林教授个人主页-中国科学技术大学,20,20,20,0,100.0,200:20,blue,http://yllu.ustc.edu.cn/,100.0,0,0,1,5,109.0,5
+zhanglab.ustc.edu.cn,zhanglab,Zhang Research Group,10,10,9,1,90.0,-2:1 200:9,blue,http://zhanglab.ustc.edu.cn/,90.0,0,1,0,2,4.0,2
+renlab.ustc.edu.cn,renlab,THE REN LAB,100,20,20,0,100.0,200:20,blue,https://renlab.ustc.edu.cn/,100.0,0,0,1,3,4.0,3
+sfx.lib.ustc.edu.cn,sfx.lib,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://sfx.lib.ustc.edu.cn:8331/ej/ej.htm,0.0,1,0,0,1,2.0,1
+grid.ustc.edu.cn,grid,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://grid.ustc.edu.cn/,0.0,1,0,0,1,2.0,1
+kjc.ustc.edu.cn,kjc,[请求失败] ConnectionError,4,4,0,4,0.0,0:4,red,http://kjc.ustc.edu.cn/main.htm,0.0,1,0,0,2,5.0,2
+libattery.ustc.edu.cn,libattery,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://libattery.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+bsbm.ustc.edu.cn,bsbm,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://bsbm.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+gyyz.ustc.edu.cn,gyyz,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://gyyz.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+mints.ustc.edu.cn,mints,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://mints.ustc.edu.cn/,0.0,1,0,0,2,3.0,2
+apl.ustc.edu.cn,apl,应用等离子实验室,76,20,18,2,90.0,200:18 403:2,yellow,http://apl.ustc.edu.cn/,90.0,0,1,0,5,70.0,5
+teht.ustc.edu.cn,teht,USTC-热能利用与传热实验室,8,8,8,0,100.0,200:8,blue,http://teht.ustc.edu.cn/,100.0,0,0,1,1,2.0,1
+combustion.ustc.edu.cn,combustion,燃烧与环境工程研究室,53,20,16,4,80.0,200:16 404:4,yellow,http://combustion.ustc.edu.cn/,80.0,0,1,0,4,6.0,4
+tc441.ustc.edu.cn,tc441,全国燃烧节能净化标准化技术委员会,82,20,20,0,100.0,200:20,blue,http://tc441.ustc.edu.cn/,100.0,0,0,1,2,3.0,2
+cryobme.ustc.edu.cn,cryobme,中国科学技术大学 - 智能低温生物医学工程实验室,69,20,20,0,100.0,200:20,blue,http://cryobme.ustc.edu.cn/,100.0,0,0,1,14,26.0,14
+vim.ustc.edu.cn,vim,USTC Vision and Multimedia (VIM) - 视觉与多媒体研究组,101,20,19,1,95.0,200:19 410:1,yellow,http://vim.ustc.edu.cn/,95.0,0,1,0,6,84.0,6
+owc.ustc.edu.cn,owc,中国科技大学无线光通信与网络研究中心主页,92,20,17,3,85.0,200:17 410:3,yellow,http://owc.ustc.edu.cn/,85.0,0,1,0,6,82.0,6
+arc.ustc.edu.cn,arc,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://arc.ustc.edu.cn/,0.0,1,0,0,2,3.0,2
+iia.ustc.edu.cn,iia,工业自动化研究所,55,20,15,5,75.0,200:15 404:5,yellow,http://iia.ustc.edu.cn/,75.0,0,1,0,1,1.0,1
+wyzx.ustc.edu.cn,wyzx,[连接失败-本运行跳过],2,2,0,2,0.0,0:2,red,https://wyzx.ustc.edu.cn/,0.0,1,0,0,2,3.0,2
+meta.ustc.edu.cn,meta,元模型驱动的开放环境自适应感知,65,20,20,0,100.0,200:20,blue,http://meta.ustc.edu.cn/,100.0,0,0,1,2,5.0,2
+microseismic.ustc.edu.cn,microseismic,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://microseismic.ustc.edu.cn/,0.0,1,0,0,2,7.0,2
+fengyun.ustc.edu.cn,fengyun,风云卫星遥感联合实验室,90,20,20,0,100.0,200:20,blue,http://fengyun.ustc.edu.cn/main.htm,100.0,0,0,1,2,10.0,2
+drstone.ustc.edu.cn,drstone,Home-石头科普工作室,27,20,20,0,100.0,200:20,blue,http://drstone.ustc.edu.cn/,100.0,0,0,1,4,84.0,4
+mklcd.ustc.edu.cn,mklcd,无膜细胞器与细胞动力学教育部重点实验室,73,20,20,0,100.0,200:20,blue,https://mklcd.ustc.edu.cn/,100.0,0,0,1,4,28.0,4
+ahpeptidedrug.ustc.edu.cn,ahpeptidedrug,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,https://ahpeptidedrug.ustc.edu.cn/main.htm,0.0,1,0,0,1,4.0,1
+ioi.ustc.edu.cn,ioi,中国科学技术大学生命科学学院免疫学研究所,76,20,19,1,95.0,200:19 403:1,yellow,http://ioi.ustc.edu.cn/,95.0,0,1,0,11,227.0,11
+ioemd.ustc.edu.cn,ioemd,中国科大内分泌与代谢病研究所,100,20,20,0,100.0,200:20,blue,http://ioemd.ustc.edu.cn/,100.0,0,0,1,3,8.0,3
+animal.ustc.edu.cn,animal,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://animal.ustc.edu.cn/,0.0,1,0,0,4,7.0,4
+gmp.ustc.edu.cn,gmp,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://gmp.ustc.edu.cn/,0.0,1,0,0,3,8.0,3
+ndrc.ustc.edu.cn,ndrc,脑资源库暨神经退行性疾病研究中心,100,20,20,0,100.0,200:20,blue,http://ndrc.ustc.edu.cn/,100.0,0,0,1,3,3.0,3
+vceb.ustc.edu.cn,vceb,中国科学技术大学生命科学虚拟仿真实验教学中心,45,20,20,0,100.0,200:20,blue,http://vceb.ustc.edu.cn/,100.0,0,0,1,7,24.0,7
+bionmr.ustc.edu.cn,bionmr,BioNMR Lab @ USTC - Home,11,11,11,0,100.0,200:11,blue,http://bionmr.ustc.edu.cn/,100.0,0,0,1,3,6.0,3
+czlab.ustc.edu.cn,czlab,结构生物化学实验室,94,20,20,0,100.0,200:20,blue,http://czlab.ustc.edu.cn/,100.0,0,0,1,6,277.0,6
+xuelab.ustc.edu.cn,xuelab,"Prof. Tian Xue– University of Science and Technology of China (USTC), School of Life Science",48,20,20,0,100.0,200:20,yellow,http://xuelab.ustc.edu.cn/,100.0,0,0,1,4,16.0,4
+zebrafish.ustc.edu.cn,zebrafish,Home,12,12,12,0,100.0,200:12,blue,http://zebrafish.ustc.edu.cn/,100.0,0,0,1,3,4.0,3
+zangjylab.ustc.edu.cn,zangjylab,ZANG-LAB,100,20,20,0,100.0,200:20,blue,http://zangjylab.ustc.edu.cn/,100.0,0,0,1,3,10.0,3
+lcd.ustc.edu.cn,lcd,Laboratory of Cellular Dynamics,27,20,7,13,35.0,200:7 404:13,yellow,http://lcd.ustc.edu.cn/,35.0,0,1,0,4,18.0,4
+neurophysics.ustc.edu.cn,neurophysics,Laboratory of Neurophysics and Neurophysiology | USTC,33,20,20,0,100.0,200:20,yellow,http://neurophysics.ustc.edu.cn/,100.0,0,0,1,5,22.0,5
+vision.ustc.edu.cn,vision,Vision Research Laboratory,24,20,20,0,100.0,200:20,blue,http://vision.ustc.edu.cn/index.html,100.0,0,0,1,3,5.0,3
+auditory.ustc.edu.cn,auditory,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://auditory.ustc.edu.cn/,0.0,1,0,0,1,2.0,1
+synbio.ustc.edu.cn,synbio,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://synbio.ustc.edu.cn/,0.0,1,0,0,1,2.0,1
+main.ustc.edu.cn,main,科大生医部内部管理系统,4,4,1,3,25.0,-1:3 200:1,blue,http://main.ustc.edu.cn/uc,25.0,0,1,0,1,94.0,1
+miracle.ustc.edu.cn,miracle,MIRACLE奇迹,34,20,19,1,95.0,200:19 404:1,yellow,http://miracle.ustc.edu.cn/main.htm,95.0,0,1,0,1,1.0,1
+akl-clas.ustc.edu.cn,akl-clas,中国科学技术大学数智供应链安徽省重点实验室,100,20,20,0,100.0,200:20,blue,https://akl-clas.ustc.edu.cn/,100.0,0,0,1,7,369.0,7
+sti.ustc.edu.cn,sti,可持续发展与技术创新研究中心,114,20,19,1,95.0,200:19 403:1,yellow,http://sti.ustc.edu.cn/,95.0,0,1,0,5,79.0,5
+nbe.ustc.edu.cn,nbe,中国科大管理学院新商科实验中心,95,20,20,0,100.0,200:20,blue,https://nbe.ustc.edu.cn/,100.0,0,0,1,7,387.0,7
+yzb2.ustc.edu.cn,yzb2,中国科学技术大学研究生招生在线—招生简章,4,4,4,0,100.0,200:4,blue,https://yzb2.ustc.edu.cn/zs/2026,100.0,0,0,1,8,28.0,8
+ahiptc.ustc.edu.cn,ahiptc,国家知识产权培训(安徽)基地,100,20,20,0,100.0,200:20,blue,http://ahiptc.ustc.edu.cn/,100.0,0,0,1,3,5.0,3
+tisc.ustc.edu.cn,tisc,世界知识产权组织技术与创新支持中心,100,20,20,0,100.0,200:20,blue,http://tisc.ustc.edu.cn/,100.0,0,0,1,5,12.0,5
+yz1.ustc.edu.cn,yz1,中国科学技术大学研究生招生在线―招生简章,100,20,20,0,100.0,200:20,blue,https://yz1.ustc.edu.cn/sszs%5F2026/,100.0,0,0,1,4,107.0,4
+stcp.ustc.edu.cn,stcp,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://stcp.ustc.edu.cn/,0.0,1,0,0,1,4.0,1
+yaotlab.ustc.edu.cn,yaotlab,Research,30,20,20,0,100.0,200:20,blue,http://yaotlab.ustc.edu.cn/main.htm,100.0,0,0,1,3,6.0,3
+xjgz.ustc.edu.cn,xjgz,中国科学技术大学 - 先进光子科学技术安徽省实验室,100,20,20,0,100.0,200:20,blue,https://xjgz.ustc.edu.cn/main.htm,100.0,0,0,1,5,6.0,5
+surfchem.ustc.edu.cn,surfchem,表面物理化学研究团队,20,20,20,0,100.0,200:20,blue,http://surfchem.ustc.edu.cn/,100.0,0,0,1,6,81.0,6
+apst.ustc.edu.cn,apst,中国科学技术大学量子材料与光子技术实验室,100,20,20,0,100.0,200:20,blue,http://apst.ustc.edu.cn/,100.0,0,0,1,7,312.0,7
+lxafs.ustc.edu.cn,lxafs,能源转换原位研究组,94,20,20,0,100.0,200:20,blue,http://lxafs.ustc.edu.cn/main.htm,100.0,0,0,1,4,12.0,4
+softmatter.ustc.edu.cn,softmatter,[HTTP 410],2,2,0,2,0.0,410:2,red,https://softmatter.ustc.edu.cn/2020/0612/c20305a428192/page.htm,0.0,1,0,0,2,5.0,2
+mems.ustc.edu.cn,mems,[HTTP 504],3,3,0,3,0.0,504:3,red,http://mems.ustc.edu.cn/,0.0,1,0,0,2,5.0,2
+flame.nsrl.ustc.edu.cn,flame.nsrl,合肥光源光电离质谱研究中心,100,20,20,0,100.0,200:20,blue,http://flame.nsrl.ustc.edu.cn/,100.0,0,0,1,3,19.0,3
+inmp.ustc.edu.cn,inmp,核医学物理研究所 - 中国科学技术大学,84,20,20,0,100.0,200:20,blue,https://inmp.ustc.edu.cn/,100.0,0,0,1,7,79.0,7
+zhdwang.ustc.edu.cn,zhdwang,王占东研究小组,16,16,16,0,100.0,200:16,blue,http://zhdwang.ustc.edu.cn/,100.0,0,0,1,4,53.0,4
+sjds.ustc.edu.cn,sjds,系统登录 - 中国科学技术大学 - 备案审核系统系统,2,2,2,0,100.0,200:2,blue,http://sjds.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+zhengxslab.ustc.edu.cn,zhengxslab,[HTTP 404],1,1,0,1,0.0,404:1,red,https://zhengxslab.ustc.edu.cn/main.htm,0.0,1,0,0,1,1.0,1
+icqd.ustc.edu.cn,icqd,国际功能材料量子设计中心,101,20,19,1,95.0,200:19 403:1,yellow,http://icqd.ustc.edu.cn/,95.0,0,1,0,11,143.0,11
+icct.ustc.edu.cn,icct,International Center for Chemical Theory (ICCT),46,20,20,0,100.0,200:20,blue,http://icct.ustc.edu.cn/,100.0,0,0,1,3,120.0,3
+mbit.ustc.edu.cn,mbit,Lab for Multimodal Biomedical Imaging and Therapy (MBIT),101,20,19,1,95.0,200:19 404:1,yellow,https://mbit.ustc.edu.cn/,95.0,0,1,0,2,3.0,2
+iatyz.ustc.edu.cn,iatyz,中国科学技术大学先进技术研究院,100,20,20,0,100.0,200:20,blue,https://iatyz.ustc.edu.cn/,100.0,0,0,1,3,17.0,3
+iat.lib.ustc.edu.cn,iat.lib,[robots.txt 禁止],1,1,0,1,0.0,-2:1,blue,http://iat.lib.ustc.edu.cn/opac/search.php,0.0,1,0,0,1,2.0,1
+iatys.ustc.edu.cn,iatys,中国科大先研院优秀硕士论文系统,2,2,2,0,100.0,200:2,blue,http://iatys.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+iatcw.ustc.edu.cn,iatcw,iatcw,1,1,1,0,100.0,200:1,blue,http://iatcw.ustc.edu.cn/dddl1/ks/login.jsp,100.0,0,0,1,1,97.0,1
+mail.iai.ustc.edu.cn,mail.iai,邮件系统,1,1,1,0,100.0,200:1,blue,http://mail.iai.ustc.edu.cn/,100.0,0,0,1,1,98.0,1
+biomems.ustc.edu.cn,biomems,中国科学技术大学生物微机电系统与器官芯片实验室,32,20,19,1,95.0,200:19 403:1,yellow,http://biomems.ustc.edu.cn/,95.0,0,1,0,1,1.0,1
+mof.ustc.edu.cn,mof,Welcome to The Jiang Research Group,73,20,20,0,100.0,200:20,yellow,http://mof.ustc.edu.cn/,100.0,0,0,1,12,41.0,12
+x-lab.ustc.edu.cn,x-lab,Home – Xiong'Lab,18,18,18,0,100.0,200:18,blue,http://x-lab.ustc.edu.cn/,100.0,0,0,1,6,18.0,6
+ada.ustc.edu.cn,ada,算法与数据应用研究组-- Ada,90,20,20,0,100.0,200:20,yellow,http://ada.ustc.edu.cn/,100.0,0,0,1,8,378.0,8
+nhpcc.ustc.edu.cn,nhpcc,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://nhpcc.ustc.edu.cn/,0.0,1,0,0,2,7.0,2
+yanlab.ustc.edu.cn,yanlab,yanlab.ustc.edu.cn,46,20,20,0,100.0,200:20,blue,https://yanlab.ustc.edu.cn/,100.0,0,0,1,1,2.0,1
+wanggmlab.ustc.edu.cn,wanggmlab,Wang Research Group,9,9,8,1,88.9,-2:1 200:8,blue,http://wanggmlab.ustc.edu.cn/,88.9,0,1,0,3,4.0,3
+robot.ustc.edu.cn,robot,机器人与智能装备研究所,100,20,20,0,100.0,200:20,blue,http://robot.ustc.edu.cn/,100.0,0,0,1,2,8.0,2
+data-science.ustc.edu.cn,data-science,Tour | USTC Lab for Data Science,100,20,20,0,100.0,200:20,yellow,http://data-science.ustc.edu.cn/,100.0,0,0,1,5,46.0,5
+bigdata.ustc.edu.cn,bigdata,认知智能全国重点实验室,20,20,20,0,100.0,200:20,blue,http://bigdata.ustc.edu.cn/,100.0,0,0,1,9,125.0,9
+base.ustc.edu.cn,base,[请求失败] ReadTimeout,2,2,0,2,0.0,0:2,red,http://base.ustc.edu.cn/,0.0,1,0,0,3,5.0,3
+dm.ustc.edu.cn,dm,认知智能全国重点实验室,20,20,20,0,100.0,200:20,blue,http://dm.ustc.edu.cn/,100.0,0,0,1,8,123.0,8
+107.ustc.edu.cn,107,107,1,1,1,0,100.0,200:1,blue,https://107.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+pas.ustc.edu.cn,pas,[请求失败] ConnectionError,10,10,0,10,0.0,0:10,red,http://pas.ustc.edu.cn/,0.0,1,0,0,6,32.0,6
+pyxt.ustc.edu.cn,pyxt,答辩公示 - 中国科学技术大学,1,1,1,0,100.0,200:1,blue,https://pyxt.ustc.edu.cn/?menu=public_replay,100.0,0,0,1,1,1.0,1
+kccx.ustc.edu.cn,kccx,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://kccx.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+welcome.ustc.edu.cn,welcome,中国科大迎新管理,14,14,13,1,92.9,0:1 200:13,yellow,https://welcome.ustc.edu.cn/,92.9,0,1,0,47,428.0,47
+hqjt.ustc.edu.cn,hqjt,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://hqjt.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+mis.teach.ustc.edu.cn,mis.teach,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://mis.teach.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+zcgl.ustc.edu.cn,zcgl,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://zcgl.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+assets.ustc.edu.cn,assets,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://assets.ustc.edu.cn/sbweb/index.asp,0.0,1,0,0,1,1.0,1
+cwzh.ustc.edu.cn,cwzh,[HTTP 404],1,1,0,1,0.0,404:1,red,http://cwzh.ustc.edu.cn/WFManager/login.jsp,0.0,1,0,0,1,1.0,1
+cpst.ustc.edu.cn,cpst,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://cpst.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+cwjf.ustc.edu.cn,cwjf,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://cwjf.ustc.edu.cn/payment/,0.0,1,0,0,1,1.0,1
+fusep.ustc.edu.cn,fusep,FuSEP2026,20,20,20,0,100.0,200:20,blue,http://fusep.ustc.edu.cn/,100.0,0,0,1,74,1107.0,74
+linke.ustc.edu.cn,linke,中国科学技术大学 - 下一代移动计算及数据创新实验室,100,20,20,0,100.0,200:20,blue,http://linke.ustc.edu.cn/,100.0,0,0,1,10,52.0,10
+adsl.ustc.edu.cn,adsl,先进数据系统实验室 - 高性能计算中心（合肥）,27,20,20,0,100.0,200:20,blue,http://adsl.ustc.edu.cn/,100.0,0,0,1,3,9.0,3
+kdelab.ustc.edu.cn,kdelab,KDELab@USTC,22,20,16,4,80.0,200:16 404:4,yellow,http://kdelab.ustc.edu.cn/,80.0,0,1,0,4,21.0,4
+en.pplab.ustc.edu.cn,en.pplab,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://en.pplab.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+cybersecurity.ustc.edu.cn,cybersecurity,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://cybersecurity.ustc.edu.cn/enindex.htm,0.0,1,0,0,1,1.0,1
+ai.ustc.edu.cn,ai,中科大机器人实验室,100,20,20,0,100.0,200:20,blue,http://ai.ustc.edu.cn/,100.0,0,0,1,5,49.0,5
+cwanglab.ustc.edu.cn,cwanglab,王朝教授实验室,8,8,8,0,100.0,200:8,blue,http://cwanglab.ustc.edu.cn/,100.0,0,0,1,2,9.0,2
+zhanlab.ustc.edu.cn,zhanlab,"Prof. Cheng Zhan - University of Science and Technology of China (USTC), School of Life Science",31,20,19,1,95.0,200:19 404:1,yellow,https://zhanlab.ustc.edu.cn/,95.0,0,1,0,2,3.0,2
+cnp.ustc.edu.cn,cnp,[HTTP 502],1,1,0,1,0.0,502:1,red,http://cnp.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+bailab1.ustc.edu.cn,bailab1,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://bailab1.ustc.edu.cn/index.php,0.0,1,0,0,1,1.0,1
+tjlab.ustc.edu.cn,tjlab,TJlab,81,20,20,0,100.0,200:20,blue,http://tjlab.ustc.edu.cn/,100.0,0,0,1,2,3.0,2
+sun.ustc.edu.cn,sun,Immuno Therapy LAB,52,20,20,0,100.0,200:20,blue,http://sun.ustc.edu.cn/,100.0,0,0,1,4,110.0,4
+lstt.ustc.edu.cn,lstt,细胞信号转导与基因表达调控实验室,20,20,20,0,100.0,200:20,blue,http://lstt.ustc.edu.cn/,100.0,0,0,1,6,11.0,6
+lirst.ustc.edu.cn,lirst,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://lirst.ustc.edu.cn/,0.0,1,0,0,2,3.0,2
+zhulab.ustc.edu.cn,zhulab,ZhuLab,35,20,20,0,100.0,200:20,blue,http://zhulab.ustc.edu.cn/,100.0,0,0,1,4,9.0,4
+cailab.ustc.edu.cn,cailab,中国科大蔡刚实验室,8,8,8,0,100.0,200:8,blue,http://cailab.ustc.edu.cn/,100.0,0,0,1,6,7.0,6
+biocomp.ustc.edu.cn,biocomp,Haiyan Liu|Computational Biology Laboratory,1,1,1,0,100.0,200:1,blue,http://biocomp.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+locd.ustc.edu.cn,locd,Lab of Organelle and Cytoskeleton Biology,27,20,20,0,100.0,200:20,blue,https://locd.ustc.edu.cn/,100.0,0,0,1,2,28.0,2
+hpb.ustc.edu.cn,hpb,[HTTP 404],1,1,0,1,0.0,404:1,red,https://hpb.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+mcg.ustc.edu.cn,mcg,中国科学技术大学分子细胞遗传学实验室,19,19,18,1,94.7,0:1 200:18,yellow,http://mcg.ustc.edu.cn/,94.7,0,1,0,1,1.0,1
+qulab.ustc.edu.cn,qulab,"QULAB – School of Life Sciences, USTC",25,20,18,2,90.0,200:18 404:2,yellow,http://qulab.ustc.edu.cn/,90.0,0,1,0,5,8.0,5
+wanglab.ustc.edu.cn,wanglab,Wang Research Lab,12,12,12,0,100.0,200:12,blue,https://wanglab.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+sunlab.ustc.edu.cn,sunlab,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://sunlab.ustc.edu.cn/,0.0,1,0,0,2,2.0,2
+map.ustc.edu.cn,map,中国科学技术大学虚拟校园|三维校园GIS|智慧校园可视化平台|校园地图|数字孪生校园,1,1,1,0,100.0,200:1,blue,https://map.ustc.edu.cn/,100.0,0,0,1,2,2.0,2
+sxso-dlsr-2.ustc.edu.cn,sxso-dlsr-2,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://sxso-dlsr-2.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+ocpa2014.ustc.edu.cn,ocpa2014,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://ocpa2014.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+oic-en.ustc.edu.cn,oic-en,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://oic-en.ustc.edu.cn/,0.0,1,0,0,1,26.0,1
+oldcec.ustc.edu.cn,oldcec,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,https://oldcec.ustc.edu.cn/,0.0,1,0,0,1,16.0,1
+prj03.xnfz.cmet.ustc.edu.cn,prj03.xnfz.cmet,热工基础实验室-气体绝热节流效应测定实验v2.0,3,3,3,0,100.0,200:3,blue,http://prj03.xnfz.cmet.ustc.edu.cn/co2/index.html,100.0,0,0,1,1,15.0,1
+prj07.xnfz.cmet.ustc.edu.cn,prj07.xnfz.cmet,[HTTP 503],1,1,0,1,0.0,503:1,red,https://prj07.xnfz.cmet.ustc.edu.cn/100vr/zkd_login,0.0,1,0,0,1,5.0,1
+epc-ietc.ustc.edu.cn,epc-ietc,中国科学技术大学工程实践与创新创业教学中心,100,20,20,0,100.0,200:20,blue,https://epc-ietc.ustc.edu.cn/,100.0,0,0,1,12,297.0,12
+file.vlab.ustc.edu.cn,file.vlab,Filestash,1,1,1,0,100.0,200:1,blue,https://file.vlab.ustc.edu.cn/,100.0,0,0,1,1,2.0,1
+soc.ustc.edu.cn,soc,USTC SOC Homepage,101,20,19,1,95.0,200:19 403:1,yellow,https://soc.ustc.edu.cn/,95.0,0,1,0,7,108.0,7
+fpgaol.ustc.edu.cn,fpgaol,Login - FPGA Online,11,11,7,4,63.6,-1:4 200:7,blue,https://fpgaol.ustc.edu.cn/,63.6,0,1,0,3,24.0,3
+verilogoj.ustc.edu.cn,verilogoj,USTC VLab Verilog OJ | YAVG Group Presents,2,2,2,0,100.0,200:2,blue,https://verilogoj.ustc.edu.cn/,100.0,0,0,1,2,4.0,2
+ftp.lug.ustc.edu.cn,ftp.lug,[robots.txt 禁止],78,20,0,20,0.0,-2:20,blue,https://ftp.lug.ustc.edu.cn/,0.0,1,0,0,2,439.0,2
+sec.ustc.edu.cn,sec,[请求失败] ConnectionError,2,2,0,2,0.0,0:2,red,http://sec.ustc.edu.cn/,0.0,1,0,0,1,4.0,1
+fbs.ustc.edu.cn,fbs,中国科学技术大学科技商学院,100,20,20,0,100.0,200:20,blue,https://fbs.ustc.edu.cn/,100.0,0,0,1,6,400.0,6
+imnc.ustc.edu.cn,imnc,微纳米复合材料研究所,105,20,19,1,95.0,200:19 403:1,yellow,https://imnc.ustc.edu.cn/,95.0,0,1,0,4,369.0,4
+tcpe.ustc.edu.cn,tcpe,[请求失败] ConnectionError,2,2,0,2,0.0,0:2,red,http://tcpe.ustc.edu.cn/intro/,0.0,1,0,0,1,4.0,1
+hep.ustc.edu.cn,hep,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://hep.ustc.edu.cn/~hanl/,0.0,1,0,0,1,1.0,1
+jxliu.ustc.edu.cn,jxliu,刘进勋课题组,20,20,20,0,100.0,200:20,blue,http://jxliu.ustc.edu.cn/,100.0,0,0,1,3,3.0,3
+ecel.ustc.edu.cn,ecel,中国科学技术大学 谱学电化学实验室--中文主页--首页,20,20,20,0,100.0,200:20,blue,http://ecel.ustc.edu.cn/,100.0,0,0,1,4,81.0,4
+biomass.ustc.edu.cn,biomass,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://biomass.ustc.edu.cn/bencandy.php?fid=21&aid=91,0.0,1,0,0,1,1.0,1
+lasm.ustc.edu.cn,lasm,精密传感与致动实验室,68,20,20,0,100.0,200:20,blue,http://lasm.ustc.edu.cn/,100.0,0,0,1,7,9.0,7
+etcis-ai.ustc.edu.cn,etcis-ai,[HTTP 503],2,2,0,2,0.0,503:2,red,http://etcis-ai.ustc.edu.cn/landing,0.0,1,0,0,3,5.0,3
+cscourse.ustc.edu.cn,cscourse,中国科学技术大学,20,20,20,0,100.0,200:20,blue,http://cscourse.ustc.edu.cn/,100.0,0,0,1,1,2.0,1
+cii.ustc.edu.cn,cii,[请求失败] ConnectionError,2,2,0,2,0.0,0:2,red,http://cii.ustc.edu.cn/,0.0,1,0,0,2,3.0,2
+cdcb.ustc.edu.cn,cdcb,International Conference on Cellular Dynamics and Chemical Biology,30,20,19,1,95.0,200:19 403:1,yellow,http://cdcb.ustc.edu.cn/,95.0,0,1,0,1,7.0,1
+lcdcb.ustc.edu.cn,lcdcb,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://lcdcb.ustc.edu.cn/,0.0,1,0,0,1,8.0,1
+en.akl-clas.ustc.edu.cn,en.akl-clas,Key Laboratory of Modern Logistics and Supply Chain Anhui Province,32,20,20,0,100.0,200:20,blue,http://en.akl-clas.ustc.edu.cn/,100.0,0,0,1,4,208.0,4
+sp.ustc.edu.cn,sp,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://sp.ustc.edu.cn/,0.0,1,0,0,1,3.0,1
+oc.ustc.edu.cn,oc,[robots.txt 禁止],1,1,0,1,0.0,-2:1,blue,https://oc.ustc.edu.cn:8443/s/gBHX3X82PfxF9bB,0.0,1,0,0,1,1.0,1
+ustc-mpa.ustc.edu.cn,ustc-mpa,[请求失败] ConnectionError,3,3,0,3,0.0,0:3,red,http://ustc-mpa.ustc.edu.cn/,0.0,1,0,0,1,11.0,1
+hfip.ustc.edu.cn,hfip,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://hfip.ustc.edu.cn/,0.0,1,0,0,1,2.0,1
+en.surfchem.ustc.edu.cn,en.surfchem,Surface Physical Chemistry Research Group,52,20,20,0,100.0,200:20,blue,http://en.surfchem.ustc.edu.cn/,100.0,0,0,1,1,73.0,1
+english-icqd.ustc.edu.cn,english-icqd,[英]国际功能材料量子设计中心,29,20,19,1,95.0,200:19 410:1,yellow,http://english-icqd.ustc.edu.cn/,95.0,0,1,0,1,126.0,1
+icctenglish.ustc.edu.cn,icctenglish,国际化学理论中心,22,20,15,5,75.0,-1:5 200:15,blue,http://icctenglish.ustc.edu.cn/,75.0,0,1,0,3,101.0,3
+ustcnet1.ustc.edu.cn,ustcnet1,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://ustcnet1.ustc.edu.cn/fwzn/aqfh/201503/t20150323_212927.html,0.0,1,0,0,1,1.0,1
+sds.ustc.edu.cn,sds,[请求失败] ConnectionError,3,3,0,3,0.0,0:3,red,http://sds.ustc.edu.cn/,0.0,1,0,0,3,20.0,3
+network.ustc.edu.cn,network,[连接失败-本运行跳过],6,6,0,6,0.0,0:6,red,http://network.ustc.edu.cn/nt/,0.0,1,0,0,1,8.0,1
+seismo.training.ustc.edu.cn,seismo.training,地震学算法与程序,21,20,19,1,95.0,200:19 404:1,yellow,http://seismo.training.ustc.edu.cn/,95.0,0,1,0,2,24.0,2
+chat.ustc.edu.cn,chat,USTCBuddy · 科大智行,1,1,1,0,100.0,200:1,blue,https://chat.ustc.edu.cn/ustchat/app/whale-44,100.0,0,0,1,1,1.0,1
+s4plus.ustc.edu.cn,s4plus,[需要身份认证],91,20,4,16,20.0,-1:16 200:4,blue,https://s4plus.ustc.edu.cn/,20.0,0,1,0,6,102.0,6
+lianghw.ustc.edu.cn,lianghw,Haiwei Liang Group,9,9,8,1,88.9,-2:1 200:8,blue,http://lianghw.ustc.edu.cn/,88.9,0,1,0,2,2.0,2
+tcc.ustc.edu.cn,tcc,Theoretical & Computational Catalysis,20,20,20,0,100.0,200:20,blue,http://tcc.ustc.edu.cn/,100.0,0,0,1,3,31.0,3
+igp.ustc.edu.cn,igp,[HTTP 410],1,1,0,1,0.0,410:1,red,https://igp.ustc.edu.cn/2022/0826/c29261a565724/page.htm,0.0,1,0,0,1,1.0,1
+woc-lab.ustc.edu.cn,woc-lab,中国科学院无线光电通信重点实验室,100,20,20,0,100.0,200:20,blue,http://woc-lab.ustc.edu.cn/,100.0,0,0,1,10,36.0,10
+roboticsbase.ustc.edu.cn,roboticsbase,安徽省机器人技术标准创新基地,24,20,20,0,100.0,200:20,blue,https://roboticsbase.ustc.edu.cn/,100.0,0,0,1,3,80.0,3
+aiethics.ustc.edu.cn,aiethics,中国人工智能学会人工智能伦理与治理工委会,50,20,20,0,100.0,200:20,blue,http://aiethics.ustc.edu.cn/,100.0,0,0,1,3,38.0,3
+sum.ustc.edu.cn,sum,sum,20,20,20,0,100.0,200:20,blue,http://sum.ustc.edu.cn/,100.0,0,0,1,1,2.0,1
+cig.ustc.edu.cn,cig,CIG | Computational Interpretation Group,57,20,20,0,100.0,200:20,yellow,http://cig.ustc.edu.cn/,100.0,0,0,1,7,19.0,7
+sun.times.ustc.edu.cn,sun.times,TIMES,1,1,1,0,100.0,200:1,blue,https://sun.times.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+leis.ustc.edu.cn,leis,中国科学技术大学物理学院电子碰撞谱学实验室,20,20,20,0,100.0,200:20,blue,https://leis.ustc.edu.cn/main.htm,100.0,0,0,1,3,39.0,3
+iqm.ustc.edu.cn,iqm,Imaging Quantum Materials at the Atomic Scale,6,6,6,0,100.0,200:6,blue,https://iqm.ustc.edu.cn/,100.0,0,0,1,2,7.0,2
+xiaolab.ustc.edu.cn,xiaolab,Xiao Group,20,20,20,0,100.0,200:20,blue,http://xiaolab.ustc.edu.cn/main.htm,100.0,0,0,1,5,56.0,5
+epsilon.ustc.edu.cn,epsilon,[HTTP 404],2,2,0,2,0.0,404:2,red,http://epsilon.ustc.edu.cn/members.html,0.0,1,0,0,2,2.0,2
+realtimetech.ustc.edu.cn,realtimetech,实时技术实验室,28,20,20,0,100.0,200:20,blue,http://realtimetech.ustc.edu.cn/main.htm,100.0,0,0,1,1,1.0,1
+prj18.xnfz.cmet.ustc.edu.cn,prj18.xnfz.cmet,中国科学技术大学工程科学学院-多轴数控铣削加工虚拟仿真实验,3,3,3,0,100.0,200:3,blue,https://prj18.xnfz.cmet.ustc.edu.cn/100vr/zkd_login,100.0,0,0,1,1,2.0,1
+tsfl.ustc.edu.cn,tsfl,中国科学技术大学_工程科学实验教学中心实验室安全信息系统_安全知识学习,1,1,1,0,100.0,200:1,blue,http://tsfl.ustc.edu.cn/login,100.0,0,0,1,1,2.0,1
+booking.epc-ietc.ustc.edu.cn,booking.epc-ietc,工创教学中心设备使用预约系统 - 中国科学技术大学,2,2,1,1,50.0,-1:1 200:1,blue,https://booking.epc-ietc.ustc.edu.cn/,50.0,0,1,0,1,100.0,1
+oj.ustc.edu.cn,oj,首页 - USTC-OJ,24,20,18,2,90.0,-2:1 -1:1 200:18,blue,http://oj.ustc.edu.cn/,90.0,0,1,0,2,5.0,2
+git.ustc.edu.cn,git,登录 · GitLab · 中国科大Git服务,22,20,18,2,90.0,-2:2 200:18,blue,https://git.ustc.edu.cn/,90.0,0,1,0,3,7.0,3
+hack.lug.ustc.edu.cn,hack.lug,Hackergame 2024,10,10,7,3,70.0,-1:3 200:7,blue,https://hack.lug.ustc.edu.cn/,70.0,0,1,0,1,2.0,1
+archive.lug.ustc.edu.cn,archive.lug,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://archive.lug.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+pxe.ustc.edu.cn,pxe,[robots.txt 禁止],1,1,0,1,0.0,-2:1,blue,http://pxe.ustc.edu.cn:3000/,0.0,1,0,0,1,1.0,1
+felab.ustc.edu.cn,felab,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://felab.ustc.edu.cn/trac,0.0,1,0,0,1,1.0,1
+webmail.ustc.edu.cn,webmail,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://webmail.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+sylxzwh.ustc.edu.cn,sylxzwh,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://sylxzwh.ustc.edu.cn/,0.0,1,0,0,1,2.0,1
+np.ustc.edu.cn,np,中国科学技术大学微纳光学器件与系统研究组,20,20,20,0,100.0,200:20,blue,https://np.ustc.edu.cn/,100.0,0,0,1,4,50.0,4
+latex.ustc.edu.cn,latex,[robots.txt 禁止],1,1,0,1,0.0,-2:1,blue,https://latex.ustc.edu.cn/,0.0,1,0,0,2,2.0,2
+en.s4plus.ustc.edu.cn,en.s4plus,System Software and Software Security,20,20,20,0,100.0,200:20,blue,https://en.s4plus.ustc.edu.cn/,100.0,0,0,1,4,91.0,4
+iao.ustc.edu.cn,iao,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://iao.ustc.edu.cn/bszn/hwxs/wglxs/gzzd/201308/t20130805_155521.html,0.0,1,0,0,2,3.0,2
+search.gradschool.ustc.edu.cn,search.gradschool,[HTTP 404],1,1,0,1,0.0,404:1,red,http://search.gradschool.ustc.edu.cn/download/yzbgs/2020bsgs.htm,0.0,1,0,0,1,1.0,1
+iscr.ustc.edu.cn,iscr,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://iscr.ustc.edu.cn/_upload/tpl/0a/dd/2781/template2781/aboutus_1.htm,0.0,1,0,0,1,2.0,1
+dqalpha.ustc.edu.cn,dqalpha,中国科学技术大学-德清阿尔法创新研究院,20,20,20,0,100.0,200:20,blue,http://dqalpha.ustc.edu.cn/main.htm,100.0,0,0,1,3,4.0,3
+rccnc.ustc.edu.cn,rccnc,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,https://rccnc.ustc.edu.cn/en/index.php/RoboCup,0.0,1,0,0,1,2.0,1
+marc.ustc.edu.cn,marc,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://marc.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+sgyjx.ustc.edu.cn,sgyjx,少年班学院学工教务系统,2,2,2,0,100.0,200:2,blue,https://sgyjx.ustc.edu.cn/,100.0,0,0,1,10,10.0,10
+en.np.ustc.edu.cn,en.np,Nanophotonic Device and System Group - University of Science and Technology of China,20,20,20,0,100.0,200:20,blue,http://en.np.ustc.edu.cn/,100.0,0,0,1,4,47.0,4
+dtnel.ustc.edu.cn,dtnel,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://dtnel.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+quantum-materials.ustc.edu.cn,quantum-materials,中国科学技术大学 - 复杂量子材料及其微结构研究组,20,20,20,0,100.0,200:20,blue,http://quantum-materials.ustc.edu.cn/,100.0,0,0,1,2,4.0,2
+ultrafast.ustc.edu.cn,ultrafast,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://ultrafast.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+iotsec.ustc.edu.cn,iotsec,国家重点研发网络空间安全专项-物联网与智慧城市安全保障关键技术研究,20,20,20,0,100.0,200:20,blue,http://iotsec.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+earthquake.ustc.edu.cn,earthquake,张海江 - 中国科学技术大学地球物理学教授,20,20,20,0,100.0,200:20,blue,http://earthquake.ustc.edu.cn/,100.0,0,0,1,4,17.0,4
+weixine.ustc.edu.cn,weixine,[HTTP 404],1,1,0,1,0.0,404:1,red,https://weixine.ustc.edu.cn/2020/login,0.0,1,0,0,1,1.0,1
+l.bm.ustc.edu.cn,l.bm,USTC保密教育,1,1,1,0,100.0,200:1,blue,http://l.bm.ustc.edu.cn/,100.0,0,0,1,1,20.0,1
+gfz.ustc.edu.cn,gfz,二维高分子链形态的计算机模拟,1,1,1,0,100.0,200:1,blue,http://gfz.ustc.edu.cn/,100.0,0,0,1,1,2.0,1
+bbs2.ustc.edu.cn,bbs2,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://bbs2.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+bbs3.ustc.edu.cn,bbs3,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://bbs3.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+bbs6.ustc.edu.cn,bbs6,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://bbs6.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+ilab.ustc.edu.cn,ilab,[需要身份认证],2,2,0,2,0.0,-1:2,blue,https://ilab.ustc.edu.cn/lfsms/user/loginfcas?court_client_id=3,0.0,1,0,0,2,40.0,2
+wsus.ustc.edu.cn,wsus,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://wsus.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
+prj02.xnfz.cmet.ustc.edu.cn,prj02.xnfz.cmet,中国科学技术大学工程科学学院-单点金刚石车削超精密加工虚拟仿真实验,3,3,3,0,100.0,200:3,blue,http://prj02.xnfz.cmet.ustc.edu.cn/100vr/zkd_login,100.0,0,0,1,1,2.0,1
+en.igp.ustc.edu.cn,en.igp,[HTTP 410],1,1,0,1,0.0,410:1,red,http://en.igp.ustc.edu.cn/2021/1217/c30218a539491/page.htm,0.0,1,0,0,1,1.0,1
+catalysis.ustc.edu.cn,catalysis,Catalysis,18,18,18,0,100.0,200:18,blue,http://catalysis.ustc.edu.cn/main.htm,100.0,0,0,1,6,11.0,6
+nanowire.ustc.edu.cn,nanowire,纳米组装与功能实验室,20,20,20,0,100.0,200:20,blue,http://nanowire.ustc.edu.cn/main.htm,100.0,0,0,1,1,1.0,1
+geodynamics.ustc.edu.cn,geodynamics,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://geodynamics.ustc.edu.cn/par-detail.php?i=1,0.0,1,0,0,1,1.0,1
+mcip.ustc.edu.cn,mcip,先进感知、数据融合及智能运维课题组,20,20,20,0,100.0,200:20,blue,http://mcip.ustc.edu.cn/,100.0,0,0,1,1,1.0,1
+if.ustc.edu.cn,if,新闻动态 - 中国科学技术大学信息网络实验室,20,20,20,0,100.0,200:20,blue,http://if.ustc.edu.cn/news.php,100.0,0,0,1,4,8.0,4
+pan.ustc.edu.cn,pan,科大云盘,4,4,4,0,100.0,200:4,blue,https://pan.ustc.edu.cn/share/index/0498709b0dce4c54b158,100.0,0,0,1,3,109.0,3
+biodept.ustc.edu.cn,biodept,[请求失败] ConnectionError,1,1,0,1,0.0,0:1,red,http://biodept.ustc.edu.cn/,0.0,1,0,0,1,1.0,1
