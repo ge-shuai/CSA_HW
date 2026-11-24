@@ -19,8 +19,8 @@
 
 ## 1. 开工前必须知道的三件事（不读会踩坑）
 
-1. **目录布局不能拆**：`pipeline/` 与 `CSA_HW/` 必须是同级目录。`csa_common.load_urls()` 读的是上级目录里的原始数据，
-   只拷 `pipeline/` 会在 `assert_anchors` 的 `n_urls` 一项直接失败。（I5 第一次复现就是这么挂的，别重犯。）
+1. **原料与 `pipeline/` 同仓**：原始数据在仓库根的 `USTC网络拓扑分析/`，`csa_common.py` 优先读它（要换位置用环境变量 `CSA_DATA_DIR`）。
+   只拷 `pipeline/` 而不带仓库根的原料目录，会在 `assert_anchors` 的 `n_urls` 一项直接失败。（I5 第一次复现就是这么挂的，别重犯。）
 2. **版本必须钉死**：Python 3.12 / networkx 3.6.1 / pandas 3.0.2 / numpy 2.4.4 / scipy 1.17.1 / sklearn 1.8.0。
    版本漂一点，Louvain 与 PageRank 的尾数就变，31 个锚点会报警。**锚点不过就不要往下跑任何分析。**
 3. **中文字体**：`figstyle.setup()` 只认 `SimHei` / `Microsoft YaHei` / `SimSun` / `KaiTi` / `FangSong`，
@@ -278,7 +278,7 @@ echo "== 2. 审计单元（只读，最后跑）=="
 
 - [ ] 环境：Python 3.12 + `requirements.txt` 钉死版本；`conda create -n csa python=3.12 && pip install -r ...`
 - [ ] 字体：`simhei.ttf` → `~/.fonts/` → `fc-cache -f`（不改 `figstyle.py`）
-- [ ] 布局：`pipeline/` 与 `CSA_HW/` 同级；`CSA_HW/` 只读，**不要改动、不要提交**
+- [ ] 布局：整个仓库一起取（原料在仓库根）；`USTC网络拓扑分析/` 与 `选题分析_USTC网络拓扑/` 只读，**不要改动、不要提交改动**
 - [ ] `python 00_build_data.py` → 31/31 PASS 才继续
 - [ ] 按 §2 的顺序补 P0 三项（都是文档口径，不重算）
 - [ ] 报告写作严格按 §6.2 的禁用清单

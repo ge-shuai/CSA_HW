@@ -6,7 +6,15 @@
 import os
 import numpy as np, pandas as pd, networkx as nx
 
-RAW = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "CSA_HW", "USTC网络拓扑分析")
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_SUB = "USTC网络拓扑分析"
+# 与 csa_common 同样的候选，仓库内的原料优先；不 import 它，保持独立实现。
+_cands = [os.environ.get("CSA_DATA_DIR"),
+          os.path.join(_ROOT, _SUB),
+          os.path.join(_ROOT, "CSA_HW", _SUB)]
+RAW = next((c for c in _cands if c and os.path.isdir(c)), None)
+if RAW is None:
+    raise FileNotFoundError("找不到原始数据目录（试了 %s）；可设 CSA_DATA_DIR 显式指定。" % _cands)
 nodes = pd.read_csv(os.path.join(RAW, "nodes_full.csv"), encoding="utf-8-sig")
 links = pd.read_csv(os.path.join(RAW, "links.csv"), encoding="utf-8-sig")
 

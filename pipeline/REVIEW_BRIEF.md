@@ -9,13 +9,23 @@
 C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48
 ```
 
-git 仓库已初始化，两个提交，**无远端**（尚未 push）。可搬运副本：`C:\Users\bfy32\Desktop\csa-pipeline.bundle`
-（`git clone csa-pipeline.bundle` 即可得到完整历史）。
+git 历史已并入同学的仓库：本地 `main` 同时包含他的历史（`a065a06`）与我们的 5 个交付提交，
+由合并提交 `2283116` 接起来；合并前我们的独立历史保留在标签 `premerge-3f88640`。
+远端 `git@github.com:ge-shuai/CSA_HW.git`，交付物推到新分支 `csa-pipeline`，**不动他的 `main`**：
+
+```bash
+git push git@github.com:ge-shuai/CSA_HW.git HEAD:refs/heads/csa-pipeline
+```
+
+旧的离线副本 `C:\Users\bfy32\Desktop\csa-pipeline.bundle` 是**修正前**的版本，不要拿它当审阅入口。
 
 ```
-f93e4d48\
+CSA_HW\                    仓库根 = 同学的公开仓库（原料与交付物同仓）
 ├─ README.md               入口：从哪读起、快速开始
-├─ pipeline\               ← 全部交付物在这里
+├─ USTC网络拓扑分析\        同学的原始数据（nodes_full/links/死站清单等，只读）
+├─ 选题分析_USTC网络拓扑\    前期预实验与选题材料（只读）
+├─ pipeline\               ← 我们的交付物在这里
+│   ├─ REVIEW_BRIEF.md     本文件
 │   ├─ PROGRESS.md         当前状态的唯一权威（45 单元状态、修正过的事实错误、已知缺口）
 │   ├─ NEXT_STEPS.md       后续工作指引（P0/P1/P2、C6 补法、报告写作、答辩问答）
 │   ├─ CONVENTIONS.md      统一口径（建图、E_full/E_gcc/E_fixed、社区计数、因果措辞）
@@ -23,9 +33,9 @@ f93e4d48\
 │   ├─ csa_common.py       共享地基（建图/锚点/效率/零模型/社区稳健性）——只 import，不许重写
 │   ├─ data\               清洗产物 + 31 项锚点表
 │   └─ out\<单元>\         每单元 result.md + CSV + run_*.py + RUN.txt
-├─ verify\                 独立校验脚本（check_claims.py 等）
-└─ CSA_HW\                 课程/同学的原料仓库（只读，已 gitignore，不属于交付物）
+└─ verify\                 独立校验脚本（check_claims.py 等）
 ```
+
 
 ## 30 分钟阅读路线（按顺序）
 
@@ -77,7 +87,7 @@ grep -rn --include='result.md' -E '导致|因为|使得|引发|决定了|传染'
 
 ## 别动的文件（动了就没法对账）
 
-- `CSA_HW/` —— 只读原料，`git status` 里应始终为空
+- `USTC网络拓扑分析/`、`选题分析_USTC网络拓扑/` —— 同学的原始数据与前期材料，只读；改了就和他在仓库里的版本对不上账
 - `pipeline/csa_common.py`、`pipeline/data/` —— 改它们等于改了全项目的口径基线
 - 别人的 `out/<单元>/` 目录 —— 每个单元只写自己的目录
 

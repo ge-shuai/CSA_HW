@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
 """Independent re-check of the 7 headline claims in 选题分析_USTC网络拓扑/01_*.md
-Reads only the raw CSVs in ../CSA_HW/USTC网络拓扑分析/. Does not import their code.
+Reads only the raw CSVs in USTC网络拓扑分析/ (仓库根). Does not import their code.
 """
 import os, re, sys, json
 import numpy as np, pandas as pd, networkx as nx
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 _SUB = "USTC网络拓扑分析"
-# 与 csa_common 同样的两种布局候选，但**故意不 import 它**——这个脚本的价值就在于
+# 与 csa_common 同样的候选，但**故意不 import 它**——这个脚本的价值就在于
 # 独立实现；如果连路径解析都共用，口径错了会一起错。找不到就抛错，不静默换目录。
+# 仓库内的原料优先于外部的 CSA_HW 兄弟目录，与 csa_common 的取舍一致。
 _cands = [os.environ.get("CSA_DATA_DIR"),
-          os.path.join(HERE, "..", "CSA_HW", _SUB),
-          os.path.join(HERE, "..", _SUB)]
+          os.path.join(HERE, "..", _SUB),
+          os.path.join(HERE, "..", "CSA_HW", _SUB)]
 RAW = next((c for c in _cands if c and os.path.isdir(c)), None)
 if RAW is None:
     raise FileNotFoundError("找不到原始数据目录（试了 %s）；可设 CSA_DATA_DIR 显式指定。" % _cands)

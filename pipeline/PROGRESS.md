@@ -119,11 +119,11 @@ cd pipeline && python 00_build_data.py     # 必须 31/31 PASS 才能往下
 python out/<单元>/run_<xx>.py
 ```
 
-**注意**：复现必须按原布局拷贝 —— `pipeline/` 与 `CSA_HW/` 必须是同级目录，
-否则 `csa_common.load_urls()` 读不到原始数据，`assert_anchors` 会在 `n_urls` 一项失败（I5 第一次就这么挂的）。
+**注意**：复现要**整个仓库一起取** —— 原始数据在仓库根的 `USTC网络拓扑分析/`，
+只拷 `pipeline/` 时 `csa_common.load_urls()` 读不到原料，`assert_anchors` 会在 `n_urls` 一项失败（I5 第一次就这么挂的）。
 
 ## 7. 硬约束（换机器不改变，原样保留）
 
-1. `CSA_HW/` 只读。2. 每单元只写 `out/<自己>/`。3. 建图必须走 `csa_common`，`degree`/`color` 列禁用。
+1. 同学的原料只读（`USTC网络拓扑分析/`、`选题分析_USTC网络拓扑/`）。2. 每单元只写 `out/<自己>/`。3. 建图必须走 `csa_common`，`degree`/`color` 列禁用。
 4. 枢纽只用 `hub_nodes()` 全名匹配。5. 效率只从 `E_fixed` 读，只做同 k 跨情景比。
 6. 禁用因果措辞。7. 图里不许 emoji。
