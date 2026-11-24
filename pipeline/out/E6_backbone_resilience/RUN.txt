@@ -1,5 +1,5 @@
 # RUN.txt - written by run_e6.py
-command: cd /home/baifeiyang2026/csa_run_20261123/pipeline && PYTHONHASHSEED=0 ~/miniconda3/envs/csa/bin/python out/E6_backbone_resilience/run_e6.py
+command: cd <REMOTE_WORKDIR>/pipeline && PYTHONHASHSEED=0 ~/miniconda3/envs/csa/bin/python out/E6_backbone_resilience/run_e6.py
 seed: 20261113
 random replicates per checkpoint: 100
 bootstrap: 250 edges x 20000 multinomial draws

@@ -184,7 +184,7 @@ add = [
     "  role_counts_by_seed.csv（12 个划分的角色类计数，用于面板 B 的误差棒）",
     "  role_class_stability.csv（每类成员在 12 个划分间的翻转率）",
     "  representatives.csv（各类代表节点标签）",
-    "C5 运行：服务器 /home/baifeiyang2026/csa_run_20261123，python 3.12.15 / networkx 3.6.1，",
+    "C5 运行：服务器 <REMOTE_WORKDIR>，python 3.12.15 / networkx 3.6.1，",
     "  SEED=20261113，canonical seed=42 → 25 社区（非单点 25）/ Q=0.69043 / 最大社区 87，",
     "  12 个划分的社区数 23–26、最大社区 83–116；assert_anchors 31/31 PASS。",
     "新图三件套：%s（PNG 300dpi + 矢量 PDF + fig_h3_zp_role_map.csv）" % res["fig"],

@@ -116,7 +116,7 @@
     }
   },
   "static_vs_e1_crosscheck": {
-    "file": "/home/baifeiyang2026/csa_run_20261123/pipeline/out/E1_attack_curves/e1_curve_gcc_per_step_deterministic.csv",
+    "file": "<REMOTE_WORKDIR>/pipeline/out/E1_attack_curves/e1_curve_gcc_per_step_deterministic.csv",
     "max_abs_gcc_diff_nodes": 0,
     "per_strategy": [
       {

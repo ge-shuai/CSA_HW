@@ -5,7 +5,7 @@
 F2_template_families,社区数只报 n_comms_total 不报 nonsingleton,不适用,该单元不跑 Louvain，社区数引用自 B*,合规,F2 的对象是模板家族（Jaccard 家族划分），不是社区；其 NMI 的社区一侧来自 B 组已声明数值
 全流水线,把边权解释成流量/重要性,0 处,grep 权重 近 12 字内出现 流量|重要性，排除否定语境,合规,CONVENTIONS §1 的权重语义在各单元均被遵守
 E6_backbone_resilience,跨分母比 E_fixed,0 处,长表分母是列（453602/3080/134322），逐行只带自己那个；跨图只比图内归一化比值,合规,I1 已独立复核并确认合法
-6 个单元的 RUN.txt,写死服务器工作目录 /home/baifeiyang2026/csa_run_20261123,6 个文件,grep -rl csa_run_20261123 --include=RUN.txt,建议,收工后该目录被删，路径即失效；建议改为相对路径或注明「临时工作目录，已清理」
+6 个单元的 RUN.txt,写死服务器工作目录 <REMOTE_WORKDIR>,6 个文件,grep -rl csa_run_20261123 --include=RUN.txt,建议,收工后该目录被删，路径即失效；建议改为相对路径或注明「临时工作目录，已清理」
 16 个单元,__pycache__ 随交付,16 个目录,find -name '*.pyc',建议,字节码不应进交付；回写本机时已由 merge.py 排除 __pycache__
 CONVENTIONS §2.3,契约表混写 676/674 两个图的 E_full,1 处,CONVENTIONS.md:69 的 E_full=0.3295 是 676 口径，同表的 E_gcc/E_fixed 是 674 口径,建议,I1 也独立发现此问题；契约表建议补一行口径标签，避免后人拿 0.3295 与 0.3514 直接比
 E3_percolation,表头标注与数值差 1 个网格步,1 处,e3_perc_thresholds.csv:2 的 0.408012 被标为「200 次均值」，而真正的 200 次均值是 0.409496,建议,两个不同估计量（均值曲线首次跌破 vs 阈值的均值）；I1 §2.1 有完整算式

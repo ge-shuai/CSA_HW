@@ -676,7 +676,7 @@ def main():
     for r in wall:
         print("  " + r["stage"].ljust(56) + str(r["wall_s"]).rjust(9) + "s")
     lines = ["# RUN.txt - written by run_e6.py",
-             "command: cd /home/baifeiyang2026/csa_run_20261123/pipeline && "
+             "command: cd <REMOTE_WORKDIR>/pipeline && "
              "PYTHONHASHSEED=0 ~/miniconda3/envs/csa/bin/python out/E6_backbone_resilience/run_e6.py",
              "seed: " + str(SEED), "random replicates per checkpoint: " + str(N_RANDOM),
              "bootstrap: " + str(N_BOOT_EDGES) + " edges x " + str(BOOT_DRAWS) + " multinomial draws",

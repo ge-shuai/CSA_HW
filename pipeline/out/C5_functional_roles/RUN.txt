@@ -2,7 +2,7 @@ C5_functional_roles RUN record
 start: 2026-11-23 14:04:38
 end  : 2026-11-23 14:04:40
 total_wall_seconds: 2.1
-command: cd /home/baifeiyang2026/csa_run_20261123/pipeline && PYTHONHASHSEED=0 ~/miniconda3/envs/csa/bin/python out/C5_functional_roles/run_c5.py
+command: cd <REMOTE_WORKDIR>/pipeline && PYTHONHASHSEED=0 ~/miniconda3/envs/csa/bin/python out/C5_functional_roles/run_c5.py
 versions: {"python": "3.12.15", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
 SEED=20261113 ; csa_common.SEED=20261113 ; PYTHONHASHSEED=0
 anchors: C.assert_anchors() 31/31 PASS (script aborts on any mismatch)

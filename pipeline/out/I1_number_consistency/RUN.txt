@@ -8,7 +8,7 @@ I1_number_consistency · RUN
 
 【环境 / 工具】
   本地客户端：python srv.py（paramiko 免密）
-  服务器：125.33.255.110:31124 / /home/baifeiyang2026/csa_run_20261123/pipeline
+  服务器：<SERVER_HOST>:<SERVER_PORT> / <REMOTE_WORKDIR>/pipeline
   服务器 python：~/miniconda3/envs/csa/bin/python 3.12.15（未调用，仅记录）
   本地只读工具：read / grep / glob + PowerShell 取 CSV 头部
 

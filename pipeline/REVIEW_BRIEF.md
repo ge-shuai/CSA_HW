@@ -40,11 +40,20 @@ f93e4d48\
 
 ```bash
 cd pipeline
-python 00_build_data.py            # 必须 31/31 锚点 PASS
+python 00_build_data.py            # 必须 raw 与 clean reload 各 31/31 PASS
 ls data/anchors.csv                # 逐项 expected vs got
-python ../verify/check_claims.py   # 声明与数据对账
-grep -rn --include='result.md' -E '导致|因为|使得|引发|决定了|传染' .   # 应只剩 7 处禁令原文
+python ../verify/check_claims.py   # 现在带断言：契约项违反会退出码 1
+# 因果词。注意裸 grep 的命中数不是 7，见 out/I4_causal_language/result.md 的
+# 「裸 grep 的命中数怎么对上」一节：要先排掉 I4 自己的前后对照表。
+grep -rn --include='result.md' -E '导致|因为|使得|引发|决定了|传染' . \
+  | grep -v I4_causal_language     # 剩下的应全部是"不得写成…"这类禁令原文
 ```
+
+> 2026-11-24 外部审阅的实测结果：`00_build_data.py` 31/31 通过，且重跑后 `git status` 仍干净
+> （说明 `data/` 逐字节可复现）；`check_claims.py` 17 项契约断言全过、退出码 0；
+> 抽查 5 个数字（A1 幂律 α=1.9759/x_min=4、D4 的 10.636004%=296/2783、E5 的 dE_fixed=−38.473358、
+> E1 random E_fixed=0.159113@120reps、G1 的 Q1 名单 94–142）全部在 CSV 里复现；
+> 618 处 `run_xx.py:Lnnn` 引用全部命中真实文件且行号不越界。
 
 ## 这套东西的可信度靠三件事撑着（要查就查这三条）
 
@@ -61,9 +70,9 @@ grep -rn --include='result.md' -E '导致|因为|使得|引发|决定了|传染'
 |---|---|
 | C6_centrality_vs_health | **没做**。理由与补法见 `NEXT_STEPS §3.1`（与 D3/D1/G1 三重重复） |
 | E5 的 3 张附表 | 缺（主结论 4 张表齐） |
-| F3 的 result.md 主体 | 仍指旧版脚本口径，靠文末「重跑修订」段兜底；`NEXT_STEPS §4.10` 要求重写 |
+| F3 的 result.md 主体 | 仍指旧版脚本口径，靠文末「重跑修订」段兜底；`NEXT_STEPS §4.10` 标 P2，**审阅认为应升 P1**：它直接击穿本简报第 1 条可信度支柱，且结构化引用检查抓不到（脚本还在、行数够）。2026-11-24 已在文件顶部加【引用前必读】横幅，禁止引用上半部分的 `c:行号` |
 | "149 个部分失效" | D6 实测：剔掉 -1/-2/403 后 63 站实为健康。正文引用必须带限定语（`CONVENTIONS §2.2b`） |
-| 6 个 `RUN.txt` | 写死了已删除的服务器路径（死引用，不影响结论） |
+| `RUN.txt` 里的服务器路径 | 原记"6 个 RUN.txt 死引用"，实测是 **15 个 git 跟踪文件**含服务器地址与账号，且不止日志——`run_c5.py`/`run_e6.py`/`run_h3_zp_fig.py` 等**源码**、`E2/E3_summary.json`、`NEXT_STEPS.md`、`PROGRESS.md`、`I2_violations.csv` 都有。2026-11-24 已全部替换为 `<SERVER_HOST>`/`<REMOTE_WORKDIR>` 占位符。密码从未落盘（全库检索 0 命中）。**若将来 push 到任何远端，先确认这批占位符没被新日志重新写入** |
 | C3 的 `DISSENT.md` | docstring 承诺过但没写 |
 
 ## 别动的文件（动了就没法对账）
@@ -79,3 +88,29 @@ grep -rn --include='result.md' -E '导致|因为|使得|引发|决定了|传染'
 3. 社区数写"25 个"算不算错？答案：算，必须给 23–26 的区间。
 
 三个都过，这套东西就基本可信；剩下的都是"补完整性"层面的活。
+
+## 2026-11-24 外部审阅后改了什么（以及两处撤回）
+
+改的四处：
+
+1. **`verify/check_claims.py` 原来不是"对账"**——169 行里零个 assert，只 print，claim 与自己重算值的
+   偏差要靠人眼发现；更严重的是它算效率用 `nx.global_efficiency(剩余最大连通块)` = **E_gcc**，
+   而 CLAIM 标题直接写着 `E 0.3508 (rises)`，等于全项目唯一的"验收工具"自己在违反 CONVENTIONS §2.3。
+   现在：补了 `eff_fixed`（分母恒 n0(n0-1)=453602），把 claim（同学原文，只报偏差）与
+   contract（本项目口径，违反退出码 1）分开，加 17 项断言。
+   实测 `E_fixed(删162死站)=0.203942`、降幅 38.47%，与 `E5/scenario_metrics.csv` 的
+   `dE_fixed_pct=−38.473358` 逐位吻合——**独立重实现与主流水线对上了**。
+2. 洗掉 15 个文件里的服务器地址与账号。
+3. `I5_clean_reproduce:45` 的「因为」改成冒号；`I4_causal_language` 补记这次漏检及其成因
+   （grep 把审计文件自己的对照表算进去，导致兄弟单元的真违规被当成"引用"放过）。
+4. `F3_template_verdict/result.md` 顶部加【引用前必读】横幅。
+
+撤回的两条审阅意见（**写在这里是因为它们本身是错误结论，别被下一轮审阅再提一遍**）：
+
+- ~~"34 个 scratch 文件该删"~~：`_chk*.txt`、`run_stdout.log`、`_view.txt` 等**是 I5 复现审计的引用证据**
+  （`I5/RUN.txt` 引 75 处、`I5/result.md` 引 49 处），删了会打断引用链。不删。
+- ~~"两份 PROGRESS.md 互相冲突"~~：`PROGRESS_2026-11-22.md` 在新版开头已明确标注为归档件，
+  不是竞争权威。不合并。
+
+仍未解决、需要下一轮的：F3 上半部分按新脚本重算（P1）、C6 是否值得做、
+`I1` 的"315 CSV / 45 result.md"范围声明已过期（实测 342 / 44），它的"真冲突 0 条"只覆盖当时看到的文件。

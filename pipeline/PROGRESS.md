@@ -13,8 +13,8 @@
 
 | 项 | 值 |
 |---|---|
-| 服务器 | 125.33.255.110:31124（Ubuntu 22.04 / 40 核 / 251 GB） |
-| 工作目录 | `/home/baifeiyang2026/csa_run_20261123`（**收工后已删除**） |
+| 服务器 | <SERVER_HOST>:<SERVER_PORT>（Ubuntu 22.04 / 40 核 / 251 GB） |
+| 工作目录 | `<REMOTE_WORKDIR>`（**收工后已删除**） |
 | conda 环境 | `~/miniconda3/envs/csa` = Python 3.12.15，与 requirements.txt 版本完全一致（保留，便于以后重跑） |
 | 中文字体 | 本机 `simhei.ttf` 上传并注册进 fontconfig；**`figstyle.py` 一行未改** |
 | 锚点 | 服务器上 `00_build_data.py` 重跑 → **31/31 PASS** |

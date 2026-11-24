@@ -29,7 +29,7 @@
     "total": 21.5
   },
   "cross_check_vs_E1": {
-    "file": "/home/baifeiyang2026/csa_run_20261123/pipeline/out/E1_attack_curves/e1_curve_gcc_per_step_deterministic.csv",
+    "file": "<REMOTE_WORKDIR>/pipeline/out/E1_attack_curves/e1_curve_gcc_per_step_deterministic.csv",
     "per_strategy": [
       {
         "strategy": "degree",

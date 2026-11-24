@@ -18,5 +18,5 @@ per-stage:
   dynamic_pagerank_dw: {"wall_s": 18.1, "score_only_s": 0.8, "n_recomputations": 404, "last_step": 404, "status": "complete"}
   dynamic_betweenness: {"wall_s": 56.3, "score_only_s": 49.0, "n_recomputations": 404, "last_step": 404, "status": "complete"}
 dynamic PageRank status: {"pagerank_dw": "complete", "pagerank_uu": "complete"}
-static cross-check vs E1: {"file": "/home/baifeiyang2026/csa_run_20261123/pipeline/out/E1_attack_curves/e1_curve_gcc_per_step_deterministic.csv", "max_abs_gcc_diff_nodes": 0, "per_strategy": [{"strategy": "betweenness", "max_abs_gcc_diff": 0.0}, {"strategy": "degree", "max_abs_gcc_diff": 0.0}, {"strategy": "kcore", "max_abs_gcc_diff": 0.0}, {"strategy": "pagerank_dw", "max_abs_gcc_diff": 0.0}, {"strategy": "pagerank_uu", "max_abs_gcc_diff": 0.0}]}
+static cross-check vs E1: {"file": "<REMOTE_WORKDIR>/pipeline/out/E1_attack_curves/e1_curve_gcc_per_step_deterministic.csv", "max_abs_gcc_diff_nodes": 0, "per_strategy": [{"strategy": "betweenness", "max_abs_gcc_diff": 0.0}, {"strategy": "degree", "max_abs_gcc_diff": 0.0}, {"strategy": "kcore", "max_abs_gcc_diff": 0.0}, {"strategy": "pagerank_dw", "max_abs_gcc_diff": 0.0}, {"strategy": "pagerank_uu", "max_abs_gcc_diff": 0.0}]}
 outputs: e2_curve_efficiency.csv e2_gcc_per_step.csv e2_static_vs_dynamic_gap.csv e2_headline_gap.csv E2_summary.json

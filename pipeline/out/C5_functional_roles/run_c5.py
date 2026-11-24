@@ -506,7 +506,7 @@ def main():
         "start: " + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(wall0)),
         "end  : " + time.strftime("%Y-%m-%d %H:%M:%S"),
         "total_wall_seconds: %.1f" % total,
-        "command: cd /home/baifeiyang2026/csa_run_20261123/pipeline && "
+        "command: cd <REMOTE_WORKDIR>/pipeline && "
         "PYTHONHASHSEED=0 ~/miniconda3/envs/csa/bin/python out/C5_functional_roles/run_c5.py",
         "versions: " + json.dumps(C.versions(), ensure_ascii=False),
         "SEED=%d ; csa_common.SEED=%d ; PYTHONHASHSEED=%s"
