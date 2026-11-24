@@ -1,0 +1,4 @@
+﻿group,n,n_true_fail,n_false_fail,n_alive
+auth_flag=1（dead_cat=B_auth_or_skip）,18,0,18,0
+auth_flag=0（其余）,653,129,14,509
+S_corr_638 内 auth_flag=1,0,0,0,0

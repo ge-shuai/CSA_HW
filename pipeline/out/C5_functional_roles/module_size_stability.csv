@@ -1,0 +1,13 @@
+﻿seed,is_canonical,n_comms,largest,median_size,n_singleton
+42,True,25,87,12.0,0
+20261113,False,23,110,18.0,0
+1,False,24,86,14.0,0
+2,False,24,110,15.0,0
+3,False,24,87,15.5,0
+4,False,24,83,18.0,0
+5,False,24,83,18.0,0
+6,False,24,100,14.5,0
+7,False,23,97,13.0,0
+8,False,26,109,11.5,0
+9,False,23,116,18.0,0
+10,False,24,101,18.0,0

@@ -1,0 +1,5 @@
+﻿theta_rho,n_clusters_average,n_clusters_complete,blocks_average
+0.95,10,10,"{out_degree,out_strength} | {hits_hub} | {deg_u,kcore} | {bet_u} | {in_strength} | {pr_dw} | {pr_uu} | {in_degree} | {hidx_in_in} | {hits_auth}"
+0.9,8,8,"{hits_hub,out_degree,out_strength} | {deg_u,kcore} | {bet_u} | {in_strength} | {pr_dw} | {pr_uu} | {hidx_in_in,in_degree} | {hits_auth}"
+0.85,7,7,"{hits_hub,out_degree,out_strength} | {bet_u,deg_u,kcore} | {in_strength} | {pr_dw} | {pr_uu} | {hidx_in_in,in_degree} | {hits_auth}"
+0.8,6,6,"{hits_hub,out_degree,out_strength} | {bet_u,deg_u,kcore} | {in_strength,pr_dw} | {pr_uu} | {hidx_in_in,in_degree} | {hits_auth}"

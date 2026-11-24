@@ -1,0 +1,25 @@
+H2_figs_failure —— 健康梯度 / 出度删失示意 / 观测失效三效率对照
+生成时间 2026-11-22 21:49:59  用时 32.4s
+环境 {'python': '3.12.13', 'networkx': '3.6.1', 'pandas': '3.0.2', 'numpy': '2.4.4', 'SEED': 20261113, 'PYTHONHASHSEED': '0'}
+
+数据源（全部读 CSV，未重算任何统计量）:
+  D1_health_gradient/d1_decile_table.csv, d1_gradient_summary.csv
+  D2_censoring_impact/d2_censoring_facts.csv, d2_leaf_and_degree_by_group.csv, d2_conclusion_contrast.csv
+  E5_observed_scenarios/scenario_metrics.csv (view=as_observed)
+
+口径选择:
+  D1: sample_tag=S_uncorr_671（校正前）、scheme=rank10（秩十分位）；outcome 取 true_fail 与 partial。
+  D2: 倍数不抄正文数字，直接由 d2_leaf_and_degree_by_group.csv 的组均值相除得到。
+  E5: 只画 as_observed 视图；corrected_SS22 视图留在 E5 自己的 CSV 里。
+  效率判据一律读 E_fixed（CONVENTIONS §2.3）；E_full/E_gcc 只作对照，不上升为结论。
+
+图注:
+  h2_health_gradient: 三个暴露量的十分位 × 真失效率/部分失效率，误差棒为 Wilson 95% 区间；左上角是档间 Spearman ρ 与其 p 值。
+  h2_outdegree_censoring: (a) 分组平均入度 vs 平均出度，死站出度恒 0；(b) 同一结论在无向总度口径与入度口径下的数值差；(c) 文字版判定见数据表。
+  h2_observed_failures: (a) 9 个观测失效情景 × 三种效率口径的百分比变化；(b) E_fixed 相对同 k 随机删除的损伤倍数（log-k 轴）。
+
+注意：本图不使用 nodes_full.csv 的 degree / color 禁用列。
+
+fig1 {'fig': 'h2_health_gradient', 'png_bytes': 405173, 'pdf_bytes': 28586, 'csv_rows': 30}
+fig2 {'fig': 'h2_outdegree_censoring', 'png_bytes': 247407, 'pdf_bytes': 20076, 'csv_rows': 33}
+fig3 {'fig': 'h2_observed_failures', 'png_bytes': 374149, 'pdf_bytes': 25265, 'csv_rows': 9}

@@ -1,0 +1,5 @@
+﻿stage,node,writes,gate,note
+数据层,CSA_HW → 00_build_data → pipeline/data/,data/,31/31 锚点,原始数据只读，清洗产物带 edge_order 列
+分析层 W1-W3,A/B → C/D → E/F/G,out/<单元>/,assert_anchors 先跑,每单元只写自己目录，建图只走 csa_common
+图与审计 W4,H 组 4 图 + I 组 5 审计,out/<单元>/,依赖上游 CSV,H 不重算、I 不改别人文件
+口径层,E_full/E_gcc/E_fixed · 入/出/总度 · 真/假失效 · 社区两计数,—,§2.3 硬规则,主口径固定，其余作对照并标明

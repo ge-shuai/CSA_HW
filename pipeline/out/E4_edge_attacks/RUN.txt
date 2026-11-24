@@ -1,0 +1,17 @@
+# RUN.txt - written by run_e4.py
+command: PYTHONHASHSEED=0 python out/E4_edge_attacks/run_e4.py
+seed: 20261113 (every random draw gets SEED + a stage offset)
+random replicates per checkpoint: 100
+baseline graph: 674 nodes / 2497 edges = C.induced(Gu, sets['gcc'])
+E_fixed denominator: 453602 ordered pairs (C.PairSet on the baseline main component)
+main edge-betweenness口径: nx.edge_betweenness_centrality(G0) with weight=None i.e. the skeleton is BINARIZED before ranking
+elapsed_s: 1073.26
+versions: {'python': '3.12.15', 'networkx': '3.6.1', 'pandas': '3.0.2', 'numpy': '2.4.4', 'SEED': 20261113, 'PYTHONHASHSEED': '0'}
+stage | 00 build + baseline edge census | wall_s=12.619
+stage | 01 edge-betweenness variant agreement | wall_s=8.422
+stage | 02 static edge+node curves (100 reps for random) | wall_s=691.022
+stage | 03 breakdown checkpoints | wall_s=0.1
+stage | 04 dynamic EBC (strict to 250 edges, then block) | wall_s=284.817
+stage | 05 equal-cost comparison | wall_s=0.547
+stage | 06 w>=10 skeleton replication | wall_s=73.704
+stage | 07 hub-edge (template) sensitivity | wall_s=2.024

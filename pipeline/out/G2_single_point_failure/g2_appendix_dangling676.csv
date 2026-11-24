@@ -1,0 +1,6 @@
+﻿node,in_degree,out_degree,degree_u,gcc_after,extra_gcc_lost_vs_mechanical,pairs_lost_within_ps,dE_fixed,dE_fixed_relay,n_components_after,health_state
+personnel.ustc.edu.cn,1,0,1,673,0,0,-0.0009392962700046884,0.0,2,dangling_ref(无属性)
+www2.lib.ustc.edu.cn,1,0,1,673,0,0,-0.0008005549652191422,0.0,2,dangling_ref(无属性)
+recapi.ustc.edu.cn,1,0,1,673,0,0,-0.0008736733965017792,0.0,2,dangling_ref(无属性)
+985-211.ustc.edu.cn,1,0,1,673,0,0,-0.0009392962700046884,0.0,2,dangling_ref(无属性)
+rmd.snst.ustc.edu.cn,1,0,1,673,0,0,-0.000777595882776195,0.0,2,dangling_ref(无属性)

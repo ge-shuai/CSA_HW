@@ -1,0 +1,35 @@
+A4_directed_structure run at pipeline/
+command: python out/A4_directed_structure/run_a4.py   (cwd = pipeline/)
+versions: {'python': '3.12.13', 'networkx': '3.6.1', 'pandas': '3.0.2', 'numpy': '2.4.4', 'SEED': 20261113, 'PYTHONHASHSEED': '0'}
+SEED = 20261113（本单元全部确定性计算：SCC / 可达集 / 缩点 / qcut；无随机过程）
+C.assert_anchors(b) -> 31/31 PASS（含 reciprocity_gd=0.2081, edges_from_dead=0, dead_with_outdegree_zero=162, comp_sizes=[674,2]）
+total elapsed: 3.04s
+------------------------------------------------------------------------
+[   0.00s] versions {'python': '3.12.13', 'networkx': '3.6.1', 'pandas': '3.0.2', 'numpy': '2.4.4', 'SEED': 20261113, 'PYTHONHASHSEED': '0'}
+[   1.20s] C.assert_anchors(b) -> 31/31 PASS
+[   1.20s] Gd = 676 节点 / 2788 边；dead=162 且其中出度=0 的有 162 个；以死站为起点的边 = 0 已独立复算
+[   1.26s] selftest1 (6 点：CORE/IN/OUT/OUT-COMPONENTS) OK
+[   1.26s] selftest2 (11 点：全 7 组均非空) OK
+[   1.26s] selftest3 (核外孤立 2 点弱分量 -> DISCONNECTED) OK
+[   1.26s] selftest4 (两条恒空陷阱 + 20 个随机有向图上双路径一致) OK
+[   1.63s] full_676             n= 676 m= 2788 recip=0.208 core= 301 sink= 323( 47.8%) src= 7 wcc=2 layers=5
+[   1.90s] attributed_671       n= 671 m= 2783 recip=0.2084 core= 301 sink= 318( 47.4%) src= 7 wcc=2 layers=5
+[   2.18s] ex_false_fail_639    n= 639 m= 2699 recip=0.2149 core= 301 sink= 292( 45.7%) src= 7 wcc=2 layers=5
+[   2.42s] alive_no_dead_509    n= 509 m= 2487 recip=0.2332 core= 301 sink= 166( 32.6%) src= 7 wcc=2 layers=5
+[   2.52s] healthy_only_360     n= 360 m= 1333 recip=0.2581 core= 182 sink= 139( 38.6%) src=33 wcc=22 layers=5
+[   2.59s] bowtie cross-check full_676             分量数= 369 节点级vs闭包级不一致=0 core一致=True
+[   2.64s] bowtie cross-check attributed_671       分量数= 364 节点级vs闭包级不一致=0 core一致=True
+[   2.69s] bowtie cross-check ex_false_fail_639    分量数= 332 节点级vs闭包级不一致=0 core一致=True
+[   2.74s] bowtie cross-check alive_no_dead_509    分量数= 202 节点级vs闭包级不一致=0 core一致=True
+[   2.80s] bowtie cross-check healthy_only_360     分量数= 173 节点级vs闭包级不一致=0 core一致=True
+[   2.84s] written C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\A4_directed_structure\bowtie_groups.csv  (676 节点 × 5 套分组标签 + 属性)
+[   2.86s] written C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\A4_directed_structure\bowtie_by_health.csv
+[   2.86s] written C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\A4_directed_structure\directed_metrics.csv  (75 指标 × 5 口径)
+[   2.90s] written C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\A4_directed_structure\asymmetry_deciles.csv
+[   2.98s] written C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\A4_directed_structure\zero_degree_nodes.csv  (330 行: sink 323 / source 7)
+[   3.01s] written C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\A4_directed_structure\truncation_estimate.csv
+[   3.02s] written C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\A4_directed_structure\censoring_evidence.csv
+[   3.04s] written result.md
+------------------------------------------------------------------------
+outputs: run_a4.py bowtie_groups.csv directed_metrics.csv asymmetry_deciles.csv zero_degree_nodes.csv truncation_estimate.csv censoring_evidence.csv bowtie_by_health.csv result.md
+DISSENT.md: 未写 —— 本单元未发现与 CONVENTIONS 冲突的实测证据（见 result.md 末段）

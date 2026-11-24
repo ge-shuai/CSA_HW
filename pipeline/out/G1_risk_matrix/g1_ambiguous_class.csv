@@ -1,0 +1,2 @@
+﻿node,sub,in_degree,bet_u,pr_dw,deg_u,ok_ratio_pct,unavailability,status_codes,health_state,dead_cat,class_
+en.hfnl.ustc.edu.cn,en.hfnl,5,0.00024419998857724644,0.005916886078965339,5,0.0,1.0,400:1,dead,G_other_400,待人工判断 G_other_400（校正后不参与打分）

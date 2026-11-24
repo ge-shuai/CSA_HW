@@ -1,0 +1,34 @@
+﻿item,value,note
+edges_total,2788.0,
+edges_from_dead,0.0,锚点 0：出边完全不可观测
+edges_dead_to_dead,0.0,构造性不可识别，不是「测出不聚集」
+weight_from_dead,0.0,死站出边的权重合计也是 0
+edges_to_dead_from_alive,296.0,入边可观测 -> 失效分析主口径=入度
+dead_n,162.0,
+dead_out0_n,162.0,
+dead_out0_share,1.0,
+true_fail_n,129.0,A_conn_fail+D_not_found+F_server_error
+false_fail_n,32.0,B_auth_or_skip+C_robots_blocked
+ambiguous_n,1.0,G_other_400，待人工判断
+out0_attributed_total,318.0,
+out0_dead,162.0,
+out0_dead_share_within_class,1.0,
+out0_partial,38.0,
+out0_partial_share_within_class,0.255,
+out0_healthy,118.0,
+out0_healthy_share_within_class,0.3278,
+out0_dangling_ref,5.0,5 个悬空引用点无 url_count，截断与否不可判
+out0_dead_share_of_all_out0,0.5094,「出度=0」这个读数里有多大比例来自整站不可用
+sink_share_full676,0.4778,
+sink_share_healthy360,0.3861,
+sink_share_drop_pp,9.17,
+edges_kept_healthy360,1333.0,
+edge_kept_share,0.4781,
+weight_kept_healthy360,36618.0,
+weight_kept_share,0.5788,
+node_kept_share,0.5325,
+dead_in_bowtie_OUT,160.0,
+dead_in_bowtie_IN-COMPONENTS,1.0,
+dead_in_bowtie_DISCONNECTED,1.0,
+partial_n,149.0,
+partial_out0,38.0,部分失效点也有不可观测页面

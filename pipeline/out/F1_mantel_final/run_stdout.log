@@ -1,0 +1,25 @@
+[    6.2s] anchors 31/31 PASS; Gu=676 nodes / 2498 edges
+[  185.8s] Mantel S1_firstseg_tokens S1_tok_jaccard adj_binary   r=+0.04190 p=0.0000 nullsd=0.00609 bootse=0.01271 ceil=+0.6945/-0.0331
+[  347.5s] Mantel S1_firstseg_tokens S1_tok_jaccard adj_weighted r=+0.01542 p=0.0035 nullsd=0.00254 bootse=0.01554 ceil=+0.1487/-0.0061
+[  448.3s] Mantel S1_firstseg_tokens S1_tok_jaccard spd_hops     r=-0.16381 p=0.0000 nullsd=0.01897 bootse=0.01766 ceil=+0.5699/-0.5586
+[  550.4s] Mantel S1_firstseg_tokens S1_tok_cosine adj_binary   r=+0.04258 p=0.0000 nullsd=0.00655 bootse=0.01225 ceil=+0.5433/-0.0386
+[  653.4s] Mantel S1_firstseg_tokens S1_tok_cosine adj_weighted r=+0.01363 p=0.0015 nullsd=0.00263 bootse=0.01351 ceil=+0.1090/-0.0072
+[  718.9s] Mantel S1_firstseg_tokens S1_tok_cosine spd_hops     r=-0.19257 p=0.0000 nullsd=0.02065 bootse=0.01850 ceil=+0.6161/-0.6191
+[  797.0s] Mantel S2_extension_mix   S2_ext_cosine adj_binary   r=+0.01812 p=0.0000 nullsd=0.00442 bootse=0.00836 ceil=+0.1382/-0.1024
+[  887.6s] Mantel S2_extension_mix   S2_ext_cosine adj_weighted r=+0.00280 p=0.2556 nullsd=0.00238 bootse=0.00675 ceil=+0.0256/-0.0190
+[ 1025.9s] Mantel S2_extension_mix   S2_ext_cosine spd_hops     r=-0.03158 p=0.0165 nullsd=0.01340 bootse=0.02246 ceil=+0.8634/-0.7538
+[ 1144.2s] Mantel S2_extension_mix   S2_ext_centered adj_binary   r=+0.01418 p=0.0000 nullsd=0.00205 bootse=0.00869 ceil=+0.1295/-0.1245
+[ 1256.7s] Mantel S2_extension_mix   S2_ext_centered adj_weighted r=+0.00401 p=0.0220 nullsd=0.00213 bootse=0.00574 ceil=+0.0240/-0.0234
+[ 1333.8s] Mantel S2_extension_mix   S2_ext_centered spd_hops     r=-0.03337 p=0.0000 nullsd=0.00197 bootse=0.01926 ceil=+0.8615/-0.8418
+[ 1397.0s] Mantel S3_path_fingerprint S3_tmpl_jaccard adj_binary   r=-0.00605 p=0.3952 nullsd=0.00731 bootse=0.00654 ceil=+0.2553/-0.0886
+[ 1440.5s] Mantel S3_path_fingerprint S3_tmpl_jaccard adj_weighted r=+0.00071 p=0.7414 nullsd=0.00276 bootse=0.00562 ceil=+0.0474/-0.0164
+[ 1498.6s] Mantel S3_path_fingerprint S3_tmpl_jaccard spd_hops     r=+0.05029 p=0.0320 nullsd=0.02400 bootse=0.02649 ceil=+0.8049/-0.8291
+[ 1554.1s] Mantel S3_path_fingerprint S3_tmpl_hamming adj_binary   r=-0.03668 p=0.0000 nullsd=0.00933 bootse=0.00929 ceil=+0.1338/-0.3699
+[ 1598.6s] Mantel S3_path_fingerprint S3_tmpl_hamming adj_weighted r=-0.00529 p=0.0770 nullsd=0.00309 bootse=0.00637 ceil=+0.0248/-0.0911
+[ 1638.2s] Mantel S3_path_fingerprint S3_tmpl_hamming spd_hops     r=+0.26378 p=0.0000 nullsd=0.03038 bootse=0.02091 ceil=+0.8762/-0.8942
+[ 1658.2s] [elig394] Mantel S1_firstseg_tokens adj_binary   r=+0.00907 p=0.4117 bootse=0.01625 ceil=+0.6855/-0.0872
+[ 1675.2s] [elig394] Mantel S1_firstseg_tokens adj_weighted r=+0.00929 p=0.0365 bootse=0.01604 ceil=+0.1395/-0.0157
+[ 1691.5s] [elig394] Mantel S2_extension_mix   adj_binary   r=-0.00651 p=0.5733 bootse=0.01470 ceil=+0.1525/-0.1951
+[ 1706.4s] [elig394] Mantel S2_extension_mix   adj_weighted r=-0.00265 p=0.6803 bootse=0.00797 ceil=+0.0274/-0.0351
+[ 1721.2s] [elig394] Mantel S3_path_fingerprint adj_binary   r=+0.00656 p=0.5248 bootse=0.01319 ceil=+0.6194/-0.1766
+[ 1736.3s] [elig394] Mantel S3_path_fingerprint adj_weighted r=+0.00736 p=0.0665 bootse=0.01725 ceil=+0.1114/-0.0317

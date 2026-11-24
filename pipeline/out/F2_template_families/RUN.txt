@@ -1,0 +1,18 @@
+F2_template_families RUN.txt
+command: cd pipeline && PYTHONHASHSEED=0 python out/F2_template_families/run_f2.py
+versions: {"python": "3.12.13", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+SEED = 20261113; random_matched_baseline draws = 1000 (numpy default_rng(SEED)); louvain seed=42 + seeds 1..19
+anchors: csa_common.assert_anchors() 31/31 PASS; signature matrices numerically checked against F1 sim_matrices.npz
+cut rule R1 (primary): linkage=average, metric=precomputed, distance=1-Jaccard(path fingerprint templates),
+  threshold t* = argmax silhouette over grid {0.05..1.00 step 0.01} = 0.29 (ties -> smaller t)
+eligible node set: listed_urls>=10 -> n=394
+wall time: 79.7s
+log:
+[   13.4s] anchors 31/31 PASS; signature matrices checked against F1 npz = YES
+[   19.0s] R1 average: t*=0.29 -> 230 家族（非单点 37），最大 49，覆盖率 51.0%
+[   58.2s] stability cap=3 -> ARI vs primary = 0.1693
+[   63.0s] stability cap=5 -> ARI vs primary = 0.2086
+[   66.8s] stability cap=10 -> ARI vs primary = 0.3826
+[   73.9s] stability cap=20 -> ARI vs primary = 1.0000
+[   79.7s] stability cap=full(<=20) -> ARI vs primary = 1.0000
+[   79.7s] family_assignment.csv rows=394

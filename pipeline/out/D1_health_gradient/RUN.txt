@@ -1,0 +1,11 @@
+D1_health_gradient run log
+command: cd pipeline && PYTHONHASHSEED=0 PYTHONIOENCODING=utf-8 python -X utf8 out/D1_health_gradient/run_d1.py
+versions: {"python": "3.12.13", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+seed: 20261113 (np.random.seed + default_rng 均已显式传；本模块无抽样，全部确定性)
+wall_time_sec: 3.98
+anchors: csa_common.assert_anchors() 31/31 PASS  (run_d1.py:L51)
+samples: 校正前 S_uncorr=671（有属性节点，主表口径）; 校正后 S_corr=638（剔除假失效 32 + 待人工判断 1）
+outcomes: 全挂率(is_dead=162) / 部分失效率(is_partial=149) / 真失效率(true_fail=A+D+F=129) / 干净部分失效率(partial_clean=80)
+bins: 主口径 rank10=pd.qcut(稳定秩,10) 恰好10箱等人数(会拆并列值,每行给 tie_straddle_* 计数)；稳健口径 value_aware(并列不拆,箱数<=10,人数不等)；堆积值/20上限单列
+note: 676 节点口径未用于主表（CONVENTIONS §1，主表必须 671）
+files: d1_decile_table.csv d1_gradient_summary.csv d1_nodelevel_spearman.csv d1_binning_tie_audit.csv d1_binning_scheme_sensitivity.csv d1_exposure_distribution.csv d1_url_count_cap_bins.csv d1_listed_urls_cap_bins.csv d1_page_truncation_strata.csv d1_exposure_contrast.csv d1_closure_checks.json

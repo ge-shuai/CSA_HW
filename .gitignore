@@ -1,0 +1,17 @@
+# 同学的仓库，只读，不作为本项目交付物
+CSA_HW/
+
+# Python 字节码与缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 临时与系统文件
+.tmp/
+*.log.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 交互式/导出类中间文件
+*.ipynb_checkpoints/

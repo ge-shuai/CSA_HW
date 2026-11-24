@@ -1,0 +1,9 @@
+﻿stage,t0,wall_s
+00 build + anchors,1795426055.1166053,1.297
+01 disparity p-values (both closed forms),1795426056.4139862,0.676
+02 survival grid: form x alpha x correction,1795426057.0904195,0.128
+03 bootstrap null: 250 edges x 20000 draws,1795426057.2183638,24.647
+04 overlap with the naive w>=10 skeleton,1795426081.8652136,0.012
+05 attack curves: full vs disparity backbone vs naive w>=10 skeleton,1795426081.8776855,257.72
+06 dynamic betweenness (SS6 robustness),1795426339.5977998,57.453
+07 girvan_newman + algebraic connectivity on the naive w>=10 skeleton,1795426397.0510192,27.534

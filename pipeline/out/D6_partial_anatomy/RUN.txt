@@ -1,0 +1,19 @@
+D6_partial_anatomy RUN.txt
+command: cd pipeline && PYTHONHASHSEED=0 python out/D6_partial_anatomy/run_d6.py
+versions: python=3.12.15, networkx=3.6.1, pandas=3.0.2, numpy=2.4.4, SEED=20261113, PYTHONHASHSEED=0
+SEED = 20261113; PYTHONHASHSEED = 0
+total wall time: 70.9s
+anchors: 31/31 PASS (anchors.csv)
+sample: 部分失效 149 站（69 含 -1/-2/403 / 80 干净），URL 明细 2507 行，失败 827 行
+bootstrap: Spearman 5000 轮/设定，独立 r.integers 重抽（每轮新样本，不累积），seed = SEED + 偏移（每组设定不同偏移）；同时给 Fisher-z 与 tau-b 对照
+definitions: f = bad/listed_urls（原口径，来自 nodes_full 的 ok/bad）；f_nonfail = 剔除 -1/-2 行；f_strict = 剔除 -1/-2/403 行；OK = status in {200,201}
+口径自检: ok+bad≠urls 行数 的站数=0; url_count≠行数=319; listed_urls≠行数=0; listed_urls 上限=20; 打在上限的站=352
+status semantics (CONVENTIONS §2.2 / DATA_DICTIONARY): 0=连接层失败(标题里混有'本运行跳过'与 ConnectionError/Timeout/SSLError)，-1=需认证或本轮跳过(非失效)，-2=robots 禁止(非失效)，403=服务器应答的 ACL，404/410=服务器应答缺失，5xx=服务器错误
+no causal wording (§7); co-occurrence tables are descriptive only
+outputs: d6_partial_sites.csv d6_code_anatomy.csv d6_code_ext_cooccurrence.csv d6_code_pathsig_cooccurrence.csv d6_site_code_cooccurrence.csv d6_authlike_vs_clean.csv d6_failure_fraction_correlations.csv key_numbers.csv anchors.csv result.md
+
+--- stdout ---
+[   1.3s] 建图/锚点 31/31 PASS nodes=671 urls=8115
+[   1.4s] 一致性：ok+bad≠行数 0，url_count≠行数 319，listed_urls≠行数 0（listed 上限 20.0，352 个站打在上限）
+[   1.7s] 解剖完成：失败 URL 827 条，码族 7 类，站点共现对 21
+[  70.8s] 相关族完成（24 个设定，5000 轮 bootstrap/设定）

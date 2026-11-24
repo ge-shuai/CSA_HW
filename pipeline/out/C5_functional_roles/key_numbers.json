@@ -1,0 +1,1888 @@
+{
+  "module": "C5_functional_roles",
+  "seed": 20261113,
+  "canon_seed": 42,
+  "all_seeds": [
+    42,
+    20261113,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "z_star": 2.5,
+  "p_star": 0.62,
+  "p_double_star": 0.8,
+  "flip_tol": 0.3,
+  "zP_graph": "binary undirected Gb (primary); weighted Gu (control)",
+  "wall_seconds": 2.1,
+  "provenance": {
+    "ANCHORS": {
+      "cite": "run_c5.py:L192",
+      "value": "31/31 PASS"
+    },
+    "N_ATTRIBUTED": {
+      "cite": "run_c5.py:L198",
+      "value": 671
+    },
+    "N_GU": {
+      "cite": "run_c5.py:L199",
+      "value": 676
+    },
+    "N_GU_EDGES": {
+      "cite": "run_c5.py:L200",
+      "value": 2498
+    },
+    "N_GB_EDGES": {
+      "cite": "run_c5.py:L201",
+      "value": 2498
+    },
+    "Z_STAR": {
+      "cite": "run_c5.py:L202",
+      "value": 2.5
+    },
+    "P_STAR": {
+      "cite": "run_c5.py:L203",
+      "value": 0.62
+    },
+    "P_DOUBLE_STAR": {
+      "cite": "run_c5.py:L204",
+      "value": 0.8
+    },
+    "FLIP_TOL": {
+      "cite": "run_c5.py:L205",
+      "value": 0.3
+    },
+    "CANON_SEED": {
+      "cite": "run_c5.py:L206",
+      "value": 42
+    },
+    "EXTRA_SEEDS": {
+      "cite": "run_c5.py:L207",
+      "value": [
+        20261113,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "N_SEEDS_TOTAL": {
+      "cite": "run_c5.py:L208",
+      "value": 12
+    },
+    "LOUVAIN_WALL_SECONDS": {
+      "cite": "run_c5.py:L224",
+      "value": 0.48
+    },
+    "CANON_COMMS": {
+      "cite": "run_c5.py:L226",
+      "value": 25
+    },
+    "CANON_COMMS_NONSINGLETON": {
+      "cite": "run_c5.py:L227",
+      "value": 25
+    },
+    "CANON_Q": {
+      "cite": "run_c5.py:L228",
+      "value": 0.69043
+    },
+    "CANON_LARGEST": {
+      "cite": "run_c5.py:L229",
+      "value": 87
+    },
+    "COMMS_RANGE": {
+      "cite": "run_c5.py:L230",
+      "value": [
+        23,
+        26
+      ]
+    },
+    "Q_RANGE": {
+      "cite": "run_c5.py:L231",
+      "value": [
+        0.68418,
+        0.69307
+      ]
+    },
+    "LARGEST_RANGE": {
+      "cite": "run_c5.py:L232",
+      "value": [
+        83,
+        116
+      ]
+    },
+    "COMMS_SD": {
+      "cite": "run_c5.py:L233",
+      "value": 0.853
+    },
+    "LARGEST_SD": {
+      "cite": "run_c5.py:L234",
+      "value": 11.981
+    },
+    "MEAN_MODULE_YIELD": {
+      "cite": "run_c5.py:L241",
+      "value": 0.02411876
+    },
+    "CANON_N_ZP_NODES": {
+      "cite": "run_c5.py:L257",
+      "value": 671
+    },
+    "CANON_ROLE_COUNTS": {
+      "cite": "run_c5.py:L259",
+      "value": {
+        "peripheral": 447,
+        "non-hub_connector": 151,
+        "non-hub_kinless": 49,
+        "provincial_hub": 5,
+        "connector_hub": 10,
+        "kinless_hub": 8,
+        "network_hub": 1
+      }
+    },
+    "N_Z_OVER_STAR": {
+      "cite": "run_c5.py:L260",
+      "value": 24
+    },
+    "N_P_OVER_STAR": {
+      "cite": "run_c5.py:L261",
+      "value": 219
+    },
+    "N_CONNECTOR_NONHUB": {
+      "cite": "run_c5.py:L262",
+      "value": 200
+    },
+    "Z_PERCENTILES": {
+      "cite": "run_c5.py:L263",
+      "value": [
+        -0.3856,
+        1.1491,
+        2.0538,
+        4.14134999999999,
+        6.0938
+      ]
+    },
+    "P_PERCENTILES": {
+      "cite": "run_c5.py:L264",
+      "value": [
+        0.4444,
+        0.7778,
+        0.8351999999999999,
+        0.8762599999999998,
+        0.9049
+      ]
+    },
+    "P_MAX": {
+      "cite": "run_c5.py:L265",
+      "value": 0.9049
+    },
+    "Z_MAX": {
+      "cite": "run_c5.py:L266",
+      "value": 6.0938
+    },
+    "N_K_IN_SINGLE_MODULE_NODES": {
+      "cite": "run_c5.py:L267",
+      "value": 253
+    },
+    "ZP_BY_SEED_ROWS": {
+      "cite": "run_c5.py:L300",
+      "value": 8052
+    },
+    "ZP_NODES_PER_SEED": {
+      "cite": "run_c5.py:L301",
+      "value": 671
+    },
+    "ROLE_COUNTS_BY_SEED": {
+      "cite": "run_c5.py:L304",
+      "value": {
+        "peripheral": [
+          447,
+          446,
+          454,
+          453,
+          449,
+          441,
+          440,
+          443,
+          452,
+          453,
+          448,
+          444
+        ],
+        "non-hub_connector": [
+          151,
+          152,
+          139,
+          149,
+          145,
+          155,
+          155,
+          161,
+          147,
+          146,
+          152,
+          157
+        ],
+        "non-hub_kinless": [
+          49,
+          49,
+          54,
+          46,
+          54,
+          52,
+          52,
+          41,
+          49,
+          50,
+          49,
+          44
+        ],
+        "provincial_hub": [
+          5,
+          6,
+          6,
+          6,
+          5,
+          5,
+          5,
+          5,
+          6,
+          6,
+          7,
+          6
+        ],
+        "connector_hub": [
+          10,
+          8,
+          9,
+          8,
+          9,
+          8,
+          9,
+          8,
+          8,
+          7,
+          6,
+          9
+        ],
+        "kinless_hub": [
+          8,
+          9,
+          8,
+          8,
+          8,
+          9,
+          9,
+          12,
+          8,
+          8,
+          8,
+          10
+        ],
+        "network_hub": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "ROLE_RANGE_BY_SEED": {
+      "cite": "run_c5.py:L305",
+      "value": {
+        "peripheral": [
+          440,
+          454
+        ],
+        "non-hub_connector": [
+          139,
+          161
+        ],
+        "non-hub_kinless": [
+          41,
+          54
+        ],
+        "provincial_hub": [
+          5,
+          7
+        ],
+        "connector_hub": [
+          6,
+          10
+        ],
+        "kinless_hub": [
+          8,
+          12
+        ],
+        "network_hub": [
+          1,
+          1
+        ]
+      }
+    },
+    "ROLE_CV_BY_SEED": {
+      "cite": "run_c5.py:L307",
+      "value": {
+        "peripheral": 0.011,
+        "non-hub_connector": 0.04,
+        "non-hub_kinless": 0.079,
+        "provincial_hub": 0.115,
+        "connector_hub": 0.128,
+        "kinless_hub": 0.139,
+        "network_hub": 0.0
+      }
+    },
+    "N_NODES_WITH_ROLE": {
+      "cite": "run_c5.py:L340",
+      "value": 671
+    },
+    "FRAC_STABLE_GE70": {
+      "cite": "run_c5.py:L341",
+      "value": 0.9106
+    },
+    "FRAC_MODAL_AGREES_CANON": {
+      "cite": "run_c5.py:L342",
+      "value": 0.9613
+    },
+    "KEPT_FRAC_MEAN": {
+      "cite": "run_c5.py:L343",
+      "value": 0.9372
+    },
+    "KEPT_FRAC_MEDIAN": {
+      "cite": "run_c5.py:L344",
+      "value": 1.0
+    },
+    "N_DISTINCT_ROLES_HIST": {
+      "cite": "run_c5.py:L345",
+      "value": {
+        "1": 538,
+        "2": 124,
+        "3": 9
+      }
+    },
+    "CLASS_VERDICT_TABLE": {
+      "cite": "run_c5.py:L373",
+      "value": [
+        {
+          "role": "peripheral",
+          "role_cn": "外围节点 (peripheral)",
+          "n_canonical": 447,
+          "n_flipping": 19,
+          "flip_pct": 0.0425,
+          "kept_frac_mean": 0.9728,
+          "kept_frac_median": 1.0,
+          "kept_ge_half": 0.9776,
+          "verdict": "名单可用（翻转节点 <=30%）",
+          "usable_as_roster": true
+        },
+        {
+          "role": "non-hub_connector",
+          "role_cn": "非枢纽连接者 (non-hub connector)",
+          "n_canonical": 151,
+          "n_flipping": 25,
+          "flip_pct": 0.1656,
+          "kept_frac_mean": 0.8731,
+          "kept_frac_median": 1.0,
+          "kept_ge_half": 0.9205,
+          "verdict": "名单可用（翻转节点 <=30%）",
+          "usable_as_roster": true
+        },
+        {
+          "role": "non-hub_kinless",
+          "role_cn": "非枢纽无亲属 (non-hub kinless)",
+          "n_canonical": 49,
+          "n_flipping": 10,
+          "flip_pct": 0.2041,
+          "kept_frac_mean": 0.8537,
+          "kept_frac_median": 1.0,
+          "kept_ge_half": 0.9592,
+          "verdict": "名单可用（翻转节点 <=30%）",
+          "usable_as_roster": true
+        },
+        {
+          "role": "provincial_hub",
+          "role_cn": "行省枢纽 (provincial hub)",
+          "n_canonical": 5,
+          "n_flipping": 0,
+          "flip_pct": 0.0,
+          "kept_frac_mean": 0.9833,
+          "kept_frac_median": 1.0,
+          "kept_ge_half": 1.0,
+          "verdict": "名单可用（翻转节点 <=30%）",
+          "usable_as_roster": true
+        },
+        {
+          "role": "connector_hub",
+          "role_cn": "连接枢纽 (connector hub)",
+          "n_canonical": 10,
+          "n_flipping": 4,
+          "flip_pct": 0.4,
+          "kept_frac_mean": 0.7083,
+          "kept_frac_median": 0.79165,
+          "kept_ge_half": 0.8,
+          "verdict": "口径依赖，不可作为名单结论",
+          "usable_as_roster": false
+        },
+        {
+          "role": "kinless_hub",
+          "role_cn": "无亲属枢纽 (kinless hub)",
+          "n_canonical": 8,
+          "n_flipping": 2,
+          "flip_pct": 0.25,
+          "kept_frac_mean": 0.9167,
+          "kept_frac_median": 1.0,
+          "kept_ge_half": 1.0,
+          "verdict": "名单可用（翻转节点 <=30%）",
+          "usable_as_roster": true
+        },
+        {
+          "role": "network_hub",
+          "role_cn": "网络枢纽 (network hub)",
+          "n_canonical": 1,
+          "n_flipping": 0,
+          "flip_pct": 0.0,
+          "kept_frac_mean": 1.0,
+          "kept_frac_median": 1.0,
+          "kept_ge_half": 1.0,
+          "verdict": "名单可用（翻转节点 <=30%）",
+          "usable_as_roster": true
+        }
+      ]
+    },
+    "N_CLASSES_UNUSABLE": {
+      "cite": "run_c5.py:L374",
+      "value": 1
+    },
+    "UNUSABLE_CLASS_NAMES": {
+      "cite": "run_c5.py:L375",
+      "value": [
+        "connector_hub"
+      ]
+    },
+    "OVERALL_FLIP_GT30_PCT": {
+      "cite": "run_c5.py:L376",
+      "value": 0.0894
+    },
+    "OVERALL_FLIP_ANY_PCT": {
+      "cite": "run_c5.py:L377",
+      "value": 0.1982
+    },
+    "HUB_FLIP_GT30_PCT": {
+      "cite": "run_c5.py:L379",
+      "value": 0.25
+    },
+    "N_HUBS_CANON_TOTAL": {
+      "cite": "run_c5.py:L380",
+      "value": 24
+    },
+    "N_REP_ROWS": {
+      "cite": "run_c5.py:L404",
+      "value": 31
+    },
+    "REP_MOST_STABLE": {
+      "cite": "run_c5.py:L406",
+      "value": {
+        "peripheral": 1.0,
+        "non-hub_connector": 1.0,
+        "non-hub_kinless": 1.0,
+        "provincial_hub": 1.0,
+        "connector_hub": 1.0,
+        "kinless_hub": 1.0,
+        "network_hub": 1.0
+      }
+    },
+    "BINARY_VS_WEIGHTED_AGREE": {
+      "cite": "run_c5.py:L420",
+      "value": 0.7258
+    },
+    "BINARY_VS_WEIGHTED_AGREE_HUBS": {
+      "cite": "run_c5.py:L422",
+      "value": 0.1667
+    },
+    "N_HUBS_BINARY_CANON": {
+      "cite": "run_c5.py:L423",
+      "value": 24
+    },
+    "SPEARMAN_Z_BINARY_VS_WEIGHTED": {
+      "cite": "run_c5.py:L425",
+      "value": 0.626
+    },
+    "SPEARMAN_P_BINARY_VS_WEIGHTED": {
+      "cite": "run_c5.py:L427",
+      "value": 0.87
+    },
+    "N_CANON_MODULES_ATTR": {
+      "cite": "run_c5.py:L465",
+      "value": 25
+    },
+    "MODULE_JACCARD_MEAN": {
+      "cite": "run_c5.py:L466",
+      "value": 0.8363
+    },
+    "MODULE_JACCARD_MIN": {
+      "cite": "run_c5.py:L467",
+      "value": 0.0256
+    },
+    "MODULE_JACCARD_P10": {
+      "cite": "run_c5.py:L468",
+      "value": 0.6005
+    },
+    "MODULE_JACCARD_MAX": {
+      "cite": "run_c5.py:L469",
+      "value": 1.0
+    },
+    "N_MODULES_JACCARD_LT_05": {
+      "cite": "run_c5.py:L470",
+      "value": 1
+    },
+    "ROLE_HEALTH_TABLE": {
+      "cite": "run_c5.py:L484",
+      "value": [
+        {
+          "role": "peripheral",
+          "n": 447,
+          "mean_ok_ratio_pct": 59.3633,
+          "pct_dead": 33.557,
+          "pct_healthy": 47.2036,
+          "n_true_fail": 123,
+          "mean_in_degree": 1.8859,
+          "mean_k_binary": 2.9396,
+          "mean_z": -0.2923,
+          "mean_P": 0.2033,
+          "mean_kept_frac": 0.9728
+        },
+        {
+          "role": "non-hub_connector",
+          "n": 151,
+          "mean_ok_ratio_pct": 84.1053,
+          "pct_dead": 7.2848,
+          "pct_healthy": 65.5629,
+          "n_true_fail": 6,
+          "mean_in_degree": 5.0993,
+          "mean_k_binary": 9.0464,
+          "mean_z": 0.0581,
+          "mean_P": 0.6996,
+          "mean_kept_frac": 0.8731
+        },
+        {
+          "role": "non-hub_kinless",
+          "n": 49,
+          "mean_ok_ratio_pct": 83.6531,
+          "pct_dead": 2.0408,
+          "pct_healthy": 61.2245,
+          "n_true_fail": 0,
+          "mean_in_degree": 12.3061,
+          "mean_k_binary": 23.6939,
+          "mean_z": 0.6903,
+          "mean_P": 0.8435,
+          "mean_kept_frac": 0.8537
+        },
+        {
+          "role": "provincial_hub",
+          "n": 5,
+          "mean_ok_ratio_pct": 100.0,
+          "pct_dead": 0.0,
+          "pct_healthy": 100.0,
+          "n_true_fail": 0,
+          "mean_in_degree": 12.8,
+          "mean_k_binary": 30.2,
+          "mean_z": 3.7342,
+          "mean_P": 0.4962,
+          "mean_kept_frac": 0.9833
+        },
+        {
+          "role": "connector_hub",
+          "n": 10,
+          "mean_ok_ratio_pct": 89.5,
+          "pct_dead": 0.0,
+          "pct_healthy": 70.0,
+          "n_true_fail": 0,
+          "mean_in_degree": 16.1,
+          "mean_k_binary": 37.2,
+          "mean_z": 3.2214,
+          "mean_P": 0.7179,
+          "mean_kept_frac": 0.7083
+        },
+        {
+          "role": "kinless_hub",
+          "n": 8,
+          "mean_ok_ratio_pct": 98.75,
+          "pct_dead": 0.0,
+          "pct_healthy": 87.5,
+          "n_true_fail": 0,
+          "mean_in_degree": 42.125,
+          "mean_k_binary": 76.0,
+          "mean_z": 4.6063,
+          "mean_P": 0.843,
+          "mean_kept_frac": 0.9167
+        },
+        {
+          "role": "network_hub",
+          "n": 1,
+          "mean_ok_ratio_pct": 100.0,
+          "pct_dead": 0.0,
+          "pct_healthy": 100.0,
+          "n_true_fail": 0,
+          "mean_in_degree": 5.0,
+          "mean_k_binary": 19.0,
+          "mean_z": 2.8838,
+          "mean_P": 0.6925,
+          "mean_kept_frac": 1.0
+        }
+      ]
+    }
+  },
+  "partition_summary": [
+    {
+      "seed": 42,
+      "is_canonical": true,
+      "n_comms_total": 25,
+      "n_comms_nonsingleton": 25,
+      "n_singleton": 0,
+      "Q": 0.69043,
+      "largest": 87,
+      "n_covered": 676
+    },
+    {
+      "seed": 20261113,
+      "is_canonical": false,
+      "n_comms_total": 23,
+      "n_comms_nonsingleton": 23,
+      "n_singleton": 0,
+      "Q": 0.69218,
+      "largest": 110,
+      "n_covered": 676
+    },
+    {
+      "seed": 1,
+      "is_canonical": false,
+      "n_comms_total": 24,
+      "n_comms_nonsingleton": 24,
+      "n_singleton": 0,
+      "Q": 0.69003,
+      "largest": 86,
+      "n_covered": 676
+    },
+    {
+      "seed": 2,
+      "is_canonical": false,
+      "n_comms_total": 24,
+      "n_comms_nonsingleton": 24,
+      "n_singleton": 0,
+      "Q": 0.69264,
+      "largest": 110,
+      "n_covered": 676
+    },
+    {
+      "seed": 3,
+      "is_canonical": false,
+      "n_comms_total": 24,
+      "n_comms_nonsingleton": 24,
+      "n_singleton": 0,
+      "Q": 0.69159,
+      "largest": 87,
+      "n_covered": 676
+    },
+    {
+      "seed": 4,
+      "is_canonical": false,
+      "n_comms_total": 24,
+      "n_comms_nonsingleton": 24,
+      "n_singleton": 0,
+      "Q": 0.69081,
+      "largest": 83,
+      "n_covered": 676
+    },
+    {
+      "seed": 5,
+      "is_canonical": false,
+      "n_comms_total": 24,
+      "n_comms_nonsingleton": 24,
+      "n_singleton": 0,
+      "Q": 0.68953,
+      "largest": 83,
+      "n_covered": 676
+    },
+    {
+      "seed": 6,
+      "is_canonical": false,
+      "n_comms_total": 24,
+      "n_comms_nonsingleton": 24,
+      "n_singleton": 0,
+      "Q": 0.68418,
+      "largest": 100,
+      "n_covered": 676
+    },
+    {
+      "seed": 7,
+      "is_canonical": false,
+      "n_comms_total": 23,
+      "n_comms_nonsingleton": 23,
+      "n_singleton": 0,
+      "Q": 0.69026,
+      "largest": 97,
+      "n_covered": 676
+    },
+    {
+      "seed": 8,
+      "is_canonical": false,
+      "n_comms_total": 26,
+      "n_comms_nonsingleton": 26,
+      "n_singleton": 0,
+      "Q": 0.69307,
+      "largest": 109,
+      "n_covered": 676
+    },
+    {
+      "seed": 9,
+      "is_canonical": false,
+      "n_comms_total": 23,
+      "n_comms_nonsingleton": 23,
+      "n_singleton": 0,
+      "Q": 0.69163,
+      "largest": 116,
+      "n_covered": 676
+    },
+    {
+      "seed": 10,
+      "is_canonical": false,
+      "n_comms_total": 24,
+      "n_comms_nonsingleton": 24,
+      "n_singleton": 0,
+      "Q": 0.68859,
+      "largest": 101,
+      "n_covered": 676
+    }
+  ],
+  "role_counts_by_seed": [
+    {
+      "seed": 42,
+      "is_canonical": true,
+      "mean_Y": 0.02411876,
+      "peripheral": 447,
+      "non-hub_connector": 151,
+      "non-hub_kinless": 49,
+      "provincial_hub": 5,
+      "connector_hub": 10,
+      "kinless_hub": 8,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    },
+    {
+      "seed": 20261113,
+      "is_canonical": false,
+      "mean_Y": 0.02282215,
+      "peripheral": 446,
+      "non-hub_connector": 152,
+      "non-hub_kinless": 49,
+      "provincial_hub": 6,
+      "connector_hub": 8,
+      "kinless_hub": 9,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    },
+    {
+      "seed": 1,
+      "is_canonical": false,
+      "mean_Y": 0.0238577,
+      "peripheral": 454,
+      "non-hub_connector": 139,
+      "non-hub_kinless": 54,
+      "provincial_hub": 6,
+      "connector_hub": 9,
+      "kinless_hub": 8,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    },
+    {
+      "seed": 2,
+      "is_canonical": false,
+      "mean_Y": 0.02435499,
+      "peripheral": 453,
+      "non-hub_connector": 149,
+      "non-hub_kinless": 46,
+      "provincial_hub": 6,
+      "connector_hub": 8,
+      "kinless_hub": 8,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    },
+    {
+      "seed": 3,
+      "is_canonical": false,
+      "mean_Y": 0.02336653,
+      "peripheral": 449,
+      "non-hub_connector": 145,
+      "non-hub_kinless": 54,
+      "provincial_hub": 5,
+      "connector_hub": 9,
+      "kinless_hub": 8,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    },
+    {
+      "seed": 4,
+      "is_canonical": false,
+      "mean_Y": 0.02361589,
+      "peripheral": 441,
+      "non-hub_connector": 155,
+      "non-hub_kinless": 52,
+      "provincial_hub": 5,
+      "connector_hub": 8,
+      "kinless_hub": 9,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    },
+    {
+      "seed": 5,
+      "is_canonical": false,
+      "mean_Y": 0.02369461,
+      "peripheral": 440,
+      "non-hub_connector": 155,
+      "non-hub_kinless": 52,
+      "provincial_hub": 5,
+      "connector_hub": 9,
+      "kinless_hub": 9,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    },
+    {
+      "seed": 6,
+      "is_canonical": false,
+      "mean_Y": 0.023421,
+      "peripheral": 443,
+      "non-hub_connector": 161,
+      "non-hub_kinless": 41,
+      "provincial_hub": 5,
+      "connector_hub": 8,
+      "kinless_hub": 12,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    },
+    {
+      "seed": 7,
+      "is_canonical": false,
+      "mean_Y": 0.02214857,
+      "peripheral": 452,
+      "non-hub_connector": 147,
+      "non-hub_kinless": 49,
+      "provincial_hub": 6,
+      "connector_hub": 8,
+      "kinless_hub": 8,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    },
+    {
+      "seed": 8,
+      "is_canonical": false,
+      "mean_Y": 0.02507988,
+      "peripheral": 453,
+      "non-hub_connector": 146,
+      "non-hub_kinless": 50,
+      "provincial_hub": 6,
+      "connector_hub": 7,
+      "kinless_hub": 8,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    },
+    {
+      "seed": 9,
+      "is_canonical": false,
+      "mean_Y": 0.0223558,
+      "peripheral": 448,
+      "non-hub_connector": 152,
+      "non-hub_kinless": 49,
+      "provincial_hub": 7,
+      "connector_hub": 6,
+      "kinless_hub": 8,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    },
+    {
+      "seed": 10,
+      "is_canonical": false,
+      "mean_Y": 0.02345545,
+      "peripheral": 444,
+      "non-hub_connector": 157,
+      "non-hub_kinless": 44,
+      "provincial_hub": 6,
+      "connector_hub": 9,
+      "kinless_hub": 10,
+      "network_hub": 1,
+      "n_nodes_scored": 671
+    }
+  ],
+  "class_stability": [
+    {
+      "role": "peripheral",
+      "role_cn": "外围节点 (peripheral)",
+      "n_canonical": 447,
+      "n_flipping": 19,
+      "flip_pct": 0.0425,
+      "kept_frac_mean": 0.9728,
+      "kept_frac_median": 1.0,
+      "kept_ge_half": 0.9776,
+      "verdict": "名单可用（翻转节点 <=30%）",
+      "usable_as_roster": true
+    },
+    {
+      "role": "non-hub_connector",
+      "role_cn": "非枢纽连接者 (non-hub connector)",
+      "n_canonical": 151,
+      "n_flipping": 25,
+      "flip_pct": 0.1656,
+      "kept_frac_mean": 0.8731,
+      "kept_frac_median": 1.0,
+      "kept_ge_half": 0.9205,
+      "verdict": "名单可用（翻转节点 <=30%）",
+      "usable_as_roster": true
+    },
+    {
+      "role": "non-hub_kinless",
+      "role_cn": "非枢纽无亲属 (non-hub kinless)",
+      "n_canonical": 49,
+      "n_flipping": 10,
+      "flip_pct": 0.2041,
+      "kept_frac_mean": 0.8537,
+      "kept_frac_median": 1.0,
+      "kept_ge_half": 0.9592,
+      "verdict": "名单可用（翻转节点 <=30%）",
+      "usable_as_roster": true
+    },
+    {
+      "role": "provincial_hub",
+      "role_cn": "行省枢纽 (provincial hub)",
+      "n_canonical": 5,
+      "n_flipping": 0,
+      "flip_pct": 0.0,
+      "kept_frac_mean": 0.9833,
+      "kept_frac_median": 1.0,
+      "kept_ge_half": 1.0,
+      "verdict": "名单可用（翻转节点 <=30%）",
+      "usable_as_roster": true
+    },
+    {
+      "role": "connector_hub",
+      "role_cn": "连接枢纽 (connector hub)",
+      "n_canonical": 10,
+      "n_flipping": 4,
+      "flip_pct": 0.4,
+      "kept_frac_mean": 0.7083,
+      "kept_frac_median": 0.79165,
+      "kept_ge_half": 0.8,
+      "verdict": "口径依赖，不可作为名单结论",
+      "usable_as_roster": false
+    },
+    {
+      "role": "kinless_hub",
+      "role_cn": "无亲属枢纽 (kinless hub)",
+      "n_canonical": 8,
+      "n_flipping": 2,
+      "flip_pct": 0.25,
+      "kept_frac_mean": 0.9167,
+      "kept_frac_median": 1.0,
+      "kept_ge_half": 1.0,
+      "verdict": "名单可用（翻转节点 <=30%）",
+      "usable_as_roster": true
+    },
+    {
+      "role": "network_hub",
+      "role_cn": "网络枢纽 (network hub)",
+      "n_canonical": 1,
+      "n_flipping": 0,
+      "flip_pct": 0.0,
+      "kept_frac_mean": 1.0,
+      "kept_frac_median": 1.0,
+      "kept_ge_half": 1.0,
+      "verdict": "名单可用（翻转节点 <=30%）",
+      "usable_as_roster": true
+    }
+  ],
+  "representatives": [
+    {
+      "role": "peripheral",
+      "role_cn": "外围节点 (peripheral)",
+      "node": "en.cfmc.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "peripheral",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": -0.1622,
+      "P_canonical": 0.6122,
+      "k_binary": 7.0,
+      "k_in_module": 3.0,
+      "module_id_canonical": 21,
+      "module_size_canonical": 9,
+      "in_degree": 1,
+      "health_state": "partial",
+      "ok_ratio_pct": 45.0
+    },
+    {
+      "role": "peripheral",
+      "role_cn": "外围节点 (peripheral)",
+      "node": "nbe.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "peripheral",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": -0.6444,
+      "P_canonical": 0.6122,
+      "k_binary": 7.0,
+      "k_in_module": 4.0,
+      "module_id_canonical": 15,
+      "module_size_canonical": 18,
+      "in_degree": 1,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "peripheral",
+      "role_cn": "外围节点 (peripheral)",
+      "node": "arts.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "peripheral",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 0.0717,
+      "P_canonical": 0.6111,
+      "k_binary": 6.0,
+      "k_in_module": 3.0,
+      "module_id_canonical": 0,
+      "module_size_canonical": 56,
+      "in_degree": 5,
+      "health_state": "partial",
+      "ok_ratio_pct": 95.0
+    },
+    {
+      "role": "peripheral",
+      "role_cn": "外围节点 (peripheral)",
+      "node": "cfmath.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "peripheral",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 1.7844,
+      "P_canonical": 0.6111,
+      "k_binary": 12.0,
+      "k_in_module": 7.0,
+      "module_id_canonical": 21,
+      "module_size_canonical": 9,
+      "in_degree": 3,
+      "health_state": "partial",
+      "ok_ratio_pct": 25.0
+    },
+    {
+      "role": "peripheral",
+      "role_cn": "外围节点 (peripheral)",
+      "node": "lfo.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "peripheral",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": -0.0697,
+      "P_canonical": 0.6111,
+      "k_binary": 6.0,
+      "k_in_module": 3.0,
+      "module_id_canonical": 2,
+      "module_size_canonical": 18,
+      "in_degree": 4,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "non-hub_connector",
+      "role_cn": "非枢纽连接者 (non-hub connector)",
+      "node": "oic.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "non-hub_connector",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 1.7666,
+      "P_canonical": 0.7904,
+      "k_binary": 25.0,
+      "k_in_module": 10.0,
+      "module_id_canonical": 4,
+      "module_size_canonical": 46,
+      "in_degree": 19,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "non-hub_connector",
+      "role_cn": "非枢纽连接者 (non-hub connector)",
+      "node": "aga.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "non-hub_connector",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": -0.0697,
+      "P_canonical": 0.7811,
+      "k_binary": 13.0,
+      "k_in_module": 3.0,
+      "module_id_canonical": 2,
+      "module_size_canonical": 18,
+      "in_degree": 11,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "non-hub_connector",
+      "role_cn": "非枢纽连接者 (non-hub connector)",
+      "node": "isa.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "non-hub_connector",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 0.2891,
+      "P_canonical": 0.78,
+      "k_binary": 10.0,
+      "k_in_module": 4.0,
+      "module_id_canonical": 4,
+      "module_size_canonical": 46,
+      "in_degree": 5,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "non-hub_connector",
+      "role_cn": "非枢纽连接者 (non-hub connector)",
+      "node": "en.sklfs.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "non-hub_connector",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": -1.3728,
+      "P_canonical": 0.7778,
+      "k_binary": 6.0,
+      "k_in_module": 1.0,
+      "module_id_canonical": 8,
+      "module_size_canonical": 5,
+      "in_degree": 6,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "non-hub_connector",
+      "role_cn": "非枢纽连接者 (non-hub connector)",
+      "node": "wcm.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "non-hub_connector",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": -0.208,
+      "P_canonical": 0.7778,
+      "k_binary": 6.0,
+      "k_in_module": 2.0,
+      "module_id_canonical": 13,
+      "module_size_canonical": 70,
+      "in_degree": 6,
+      "health_state": "dead",
+      "ok_ratio_pct": 0.0
+    },
+    {
+      "role": "non-hub_kinless",
+      "role_cn": "非枢纽无亲属 (non-hub kinless)",
+      "node": "safetyse.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "non-hub_kinless",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 0.5883,
+      "P_canonical": 0.8858,
+      "k_binary": 17.0,
+      "k_in_module": 3.0,
+      "module_id_canonical": 8,
+      "module_size_canonical": 5,
+      "in_degree": 7,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "non-hub_kinless",
+      "role_cn": "非枢纽无亲属 (non-hub kinless)",
+      "node": "yz.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "non-hub_kinless",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 1.7617,
+      "P_canonical": 0.885,
+      "k_binary": 51.0,
+      "k_in_module": 10.0,
+      "module_id_canonical": 7,
+      "module_size_canonical": 71,
+      "in_degree": 30,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "non-hub_kinless",
+      "role_cn": "非枢纽无亲属 (non-hub kinless)",
+      "node": "zsb.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "non-hub_kinless",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 1.4933,
+      "P_canonical": 0.8847,
+      "k_binary": 46.0,
+      "k_in_module": 9.0,
+      "module_id_canonical": 7,
+      "module_size_canonical": 71,
+      "in_degree": 25,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "non-hub_kinless",
+      "role_cn": "非枢纽无亲属 (non-hub kinless)",
+      "node": "i.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "non-hub_kinless",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 0.2605,
+      "P_canonical": 0.8828,
+      "k_binary": 32.0,
+      "k_in_module": 5.0,
+      "module_id_canonical": 14,
+      "module_size_canonical": 55,
+      "in_degree": 30,
+      "health_state": "partial",
+      "ok_ratio_pct": 95.0
+    },
+    {
+      "role": "non-hub_kinless",
+      "role_cn": "非枢纽无亲属 (non-hub kinless)",
+      "node": "rec.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "non-hub_kinless",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": -0.5112,
+      "P_canonical": 0.875,
+      "k_binary": 8.0,
+      "k_in_module": 1.0,
+      "module_id_canonical": 13,
+      "module_size_canonical": 70,
+      "in_degree": 8,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "provincial_hub",
+      "role_cn": "行省枢纽 (provincial hub)",
+      "node": "enbiomed.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "provincial_hub",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 5.2187,
+      "P_canonical": 0.3807,
+      "k_binary": 41.0,
+      "k_in_module": 32.0,
+      "module_id_canonical": 6,
+      "module_size_canonical": 80,
+      "in_degree": 3,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "provincial_hub",
+      "role_cn": "行省枢纽 (provincial hub)",
+      "node": "biox.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "provincial_hub",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 4.2999,
+      "P_canonical": 0.5062,
+      "k_binary": 39.0,
+      "k_in_module": 27.0,
+      "module_id_canonical": 6,
+      "module_size_canonical": 80,
+      "in_degree": 27,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "provincial_hub",
+      "role_cn": "行省枢纽 (provincial hub)",
+      "node": "biomed.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "provincial_hub",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 3.3811,
+      "P_canonical": 0.5571,
+      "k_binary": 34.0,
+      "k_in_module": 22.0,
+      "module_id_canonical": 6,
+      "module_size_canonical": 80,
+      "in_degree": 23,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "provincial_hub",
+      "role_cn": "行省枢纽 (provincial hub)",
+      "node": "cec.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "provincial_hub",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 3.1623,
+      "P_canonical": 0.5244,
+      "k_binary": 15.0,
+      "k_in_module": 10.0,
+      "module_id_canonical": 19,
+      "module_size_canonical": 11,
+      "in_degree": 2,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "provincial_hub",
+      "role_cn": "行省枢纽 (provincial hub)",
+      "node": "etcis.ustc.edu.cn",
+      "canonical_kept_frac": 0.9167,
+      "modal_role": "provincial_hub",
+      "modal_frac": 0.9167,
+      "n_distinct_roles": 2,
+      "z_canonical": 2.6088,
+      "P_canonical": 0.5124,
+      "k_binary": 22.0,
+      "k_in_module": 15.0,
+      "module_id_canonical": 14,
+      "module_size_canonical": 55,
+      "in_degree": 9,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "connector_hub",
+      "role_cn": "连接枢纽 (connector hub)",
+      "node": "sist.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "connector_hub",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 3.3133,
+      "P_canonical": 0.7653,
+      "k_binary": 42.0,
+      "k_in_module": 18.0,
+      "module_id_canonical": 14,
+      "module_size_canonical": 55,
+      "in_degree": 21,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "connector_hub",
+      "role_cn": "连接枢纽 (connector hub)",
+      "node": "hsss.ustc.edu.cn",
+      "canonical_kept_frac": 0.9167,
+      "modal_role": "connector_hub",
+      "modal_frac": 0.9167,
+      "n_distinct_roles": 2,
+      "z_canonical": 2.8354,
+      "P_canonical": 0.7515,
+      "k_binary": 52.0,
+      "k_in_module": 14.0,
+      "module_id_canonical": 7,
+      "module_size_canonical": 71,
+      "in_degree": 9,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "connector_hub",
+      "role_cn": "连接枢纽 (connector hub)",
+      "node": "ustcnet.ustc.edu.cn",
+      "canonical_kept_frac": 0.9167,
+      "modal_role": "connector_hub",
+      "modal_frac": 0.9167,
+      "n_distinct_roles": 2,
+      "z_canonical": 2.8318,
+      "P_canonical": 0.6389,
+      "k_binary": 24.0,
+      "k_in_module": 14.0,
+      "module_id_canonical": 0,
+      "module_size_canonical": 56,
+      "in_degree": 9,
+      "health_state": "partial",
+      "ok_ratio_pct": 20.0
+    },
+    {
+      "role": "connector_hub",
+      "role_cn": "连接枢纽 (connector hub)",
+      "node": "sz.ustc.edu.cn",
+      "canonical_kept_frac": 0.8333,
+      "modal_role": "connector_hub",
+      "modal_frac": 0.8333,
+      "n_distinct_roles": 2,
+      "z_canonical": 2.8696,
+      "P_canonical": 0.7539,
+      "k_binary": 29.0,
+      "k_in_module": 13.0,
+      "module_id_canonical": 9,
+      "module_size_canonical": 51,
+      "in_degree": 11,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "connector_hub",
+      "role_cn": "连接枢纽 (connector hub)",
+      "node": "pnp.ustc.edu.cn",
+      "canonical_kept_frac": 0.8333,
+      "modal_role": "connector_hub",
+      "modal_frac": 0.8333,
+      "n_distinct_roles": 3,
+      "z_canonical": 2.8669,
+      "P_canonical": 0.6399,
+      "k_binary": 37.0,
+      "k_in_module": 21.0,
+      "module_id_canonical": 5,
+      "module_size_canonical": 87,
+      "in_degree": 7,
+      "health_state": "partial",
+      "ok_ratio_pct": 85.0
+    },
+    {
+      "role": "kinless_hub",
+      "role_cn": "无亲属枢纽 (kinless hub)",
+      "node": "teach.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "kinless_hub",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 6.0938,
+      "P_canonical": 0.8792,
+      "k_binary": 119.0,
+      "k_in_module": 27.0,
+      "module_id_canonical": 0,
+      "module_size_canonical": 56,
+      "in_degree": 51,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "kinless_hub",
+      "role_cn": "无亲属枢纽 (kinless hub)",
+      "node": "employment.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "kinless_hub",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 5.8575,
+      "P_canonical": 0.8456,
+      "k_binary": 68.0,
+      "k_in_module": 22.0,
+      "module_id_canonical": 13,
+      "module_size_canonical": 70,
+      "in_degree": 26,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "kinless_hub",
+      "role_cn": "无亲属枢纽 (kinless hub)",
+      "node": "news.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "kinless_hub",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 5.4074,
+      "P_canonical": 0.848,
+      "k_binary": 76.0,
+      "k_in_module": 22.0,
+      "module_id_canonical": 9,
+      "module_size_canonical": 51,
+      "in_degree": 73,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "kinless_hub",
+      "role_cn": "无亲属枢纽 (kinless hub)",
+      "node": "en.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "kinless_hub",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 3.9828,
+      "P_canonical": 0.8516,
+      "k_binary": 63.0,
+      "k_in_module": 19.0,
+      "module_id_canonical": 4,
+      "module_size_canonical": 46,
+      "in_degree": 41,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "kinless_hub",
+      "role_cn": "无亲属枢纽 (kinless hub)",
+      "node": "lib.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "kinless_hub",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 3.9828,
+      "P_canonical": 0.8452,
+      "k_binary": 57.0,
+      "k_in_module": 19.0,
+      "module_id_canonical": 4,
+      "module_size_canonical": 46,
+      "in_degree": 29,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "role": "network_hub",
+      "role_cn": "网络枢纽 (network hub)",
+      "node": "lug.ustc.edu.cn",
+      "canonical_kept_frac": 1.0,
+      "modal_role": "network_hub",
+      "modal_frac": 1.0,
+      "n_distinct_roles": 1,
+      "z_canonical": 2.8838,
+      "P_canonical": 0.6925,
+      "k_binary": 19.0,
+      "k_in_module": 9.0,
+      "module_id_canonical": 10,
+      "module_size_canonical": 10,
+      "in_degree": 5,
+      "health_state": "healthy",
+      "ok_ratio_pct": 100.0
+    }
+  ],
+  "module_jaccard": [
+    {
+      "canonical_module_id": 0,
+      "size_all": 56,
+      "size_attr": 56,
+      "best_jaccard_mean": 0.9563,
+      "best_jaccard_min": 0.7467,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 1,
+      "size_all": 23,
+      "size_attr": 23,
+      "best_jaccard_mean": 0.6475,
+      "best_jaccard_min": 0.4138,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 2,
+      "size_all": 18,
+      "size_attr": 18,
+      "best_jaccard_mean": 0.8981,
+      "best_jaccard_min": 0.3333,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 3,
+      "size_all": 12,
+      "size_attr": 12,
+      "best_jaccard_mean": 1.0,
+      "best_jaccard_min": 1.0,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 4,
+      "size_all": 46,
+      "size_attr": 44,
+      "best_jaccard_mean": 0.8578,
+      "best_jaccard_min": 0.7321,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 5,
+      "size_all": 87,
+      "size_attr": 87,
+      "best_jaccard_mean": 0.7603,
+      "best_jaccard_min": 0.3909,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 6,
+      "size_all": 80,
+      "size_attr": 80,
+      "best_jaccard_mean": 0.9053,
+      "best_jaccard_min": 0.8161,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 7,
+      "size_all": 71,
+      "size_attr": 70,
+      "best_jaccard_mean": 0.5691,
+      "best_jaccard_min": 0.4,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 8,
+      "size_all": 5,
+      "size_attr": 5,
+      "best_jaccard_mean": 0.3766,
+      "best_jaccard_min": 0.0385,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 9,
+      "size_all": 51,
+      "size_attr": 51,
+      "best_jaccard_mean": 0.8594,
+      "best_jaccard_min": 0.4167,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 10,
+      "size_all": 10,
+      "size_attr": 10,
+      "best_jaccard_mean": 0.9722,
+      "best_jaccard_min": 0.6667,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 11,
+      "size_all": 2,
+      "size_attr": 2,
+      "best_jaccard_mean": 1.0,
+      "best_jaccard_min": 1.0,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 12,
+      "size_all": 3,
+      "size_attr": 3,
+      "best_jaccard_mean": 0.9394,
+      "best_jaccard_min": 0.2727,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 13,
+      "size_all": 70,
+      "size_attr": 68,
+      "best_jaccard_mean": 0.9004,
+      "best_jaccard_min": 0.6869,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 14,
+      "size_all": 55,
+      "size_attr": 55,
+      "best_jaccard_mean": 0.8794,
+      "best_jaccard_min": 0.4433,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 15,
+      "size_all": 18,
+      "size_attr": 18,
+      "best_jaccard_mean": 1.0,
+      "best_jaccard_min": 1.0,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 16,
+      "size_all": 8,
+      "size_attr": 8,
+      "best_jaccard_mean": 0.9106,
+      "best_jaccard_min": 0.7273,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 17,
+      "size_all": 2,
+      "size_attr": 2,
+      "best_jaccard_mean": 0.5607,
+      "best_jaccard_min": 0.0256,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 18,
+      "size_all": 4,
+      "size_attr": 4,
+      "best_jaccard_mean": 0.9274,
+      "best_jaccard_min": 0.129,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 19,
+      "size_all": 11,
+      "size_attr": 11,
+      "best_jaccard_mean": 0.9483,
+      "best_jaccard_min": 0.3793,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 20,
+      "size_all": 28,
+      "size_attr": 28,
+      "best_jaccard_mean": 0.6857,
+      "best_jaccard_min": 0.2143,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 21,
+      "size_all": 9,
+      "size_attr": 9,
+      "best_jaccard_mean": 0.6513,
+      "best_jaccard_min": 0.2812,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 22,
+      "size_all": 3,
+      "size_attr": 3,
+      "best_jaccard_mean": 0.84,
+      "best_jaccard_min": 0.0345,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 23,
+      "size_all": 2,
+      "size_attr": 2,
+      "best_jaccard_mean": 0.8624,
+      "best_jaccard_min": 0.0625,
+      "best_jaccard_canon_self": 1.0
+    },
+    {
+      "canonical_module_id": 24,
+      "size_all": 2,
+      "size_attr": 2,
+      "best_jaccard_mean": 1.0,
+      "best_jaccard_min": 1.0,
+      "best_jaccard_canon_self": 1.0
+    }
+  ],
+  "binary_vs_weighted": {
+    "agree": 0.7258,
+    "agree_hubs": 0.1667
+  },
+  "role_health": [
+    {
+      "role": "peripheral",
+      "n": 447,
+      "mean_ok_ratio_pct": 59.3633,
+      "pct_dead": 33.557,
+      "pct_healthy": 47.2036,
+      "n_true_fail": 123,
+      "mean_in_degree": 1.8859,
+      "mean_k_binary": 2.9396,
+      "mean_z": -0.2923,
+      "mean_P": 0.2033,
+      "mean_kept_frac": 0.9728
+    },
+    {
+      "role": "non-hub_connector",
+      "n": 151,
+      "mean_ok_ratio_pct": 84.1053,
+      "pct_dead": 7.2848,
+      "pct_healthy": 65.5629,
+      "n_true_fail": 6,
+      "mean_in_degree": 5.0993,
+      "mean_k_binary": 9.0464,
+      "mean_z": 0.0581,
+      "mean_P": 0.6996,
+      "mean_kept_frac": 0.8731
+    },
+    {
+      "role": "non-hub_kinless",
+      "n": 49,
+      "mean_ok_ratio_pct": 83.6531,
+      "pct_dead": 2.0408,
+      "pct_healthy": 61.2245,
+      "n_true_fail": 0,
+      "mean_in_degree": 12.3061,
+      "mean_k_binary": 23.6939,
+      "mean_z": 0.6903,
+      "mean_P": 0.8435,
+      "mean_kept_frac": 0.8537
+    },
+    {
+      "role": "provincial_hub",
+      "n": 5,
+      "mean_ok_ratio_pct": 100.0,
+      "pct_dead": 0.0,
+      "pct_healthy": 100.0,
+      "n_true_fail": 0,
+      "mean_in_degree": 12.8,
+      "mean_k_binary": 30.2,
+      "mean_z": 3.7342,
+      "mean_P": 0.4962,
+      "mean_kept_frac": 0.9833
+    },
+    {
+      "role": "connector_hub",
+      "n": 10,
+      "mean_ok_ratio_pct": 89.5,
+      "pct_dead": 0.0,
+      "pct_healthy": 70.0,
+      "n_true_fail": 0,
+      "mean_in_degree": 16.1,
+      "mean_k_binary": 37.2,
+      "mean_z": 3.2214,
+      "mean_P": 0.7179,
+      "mean_kept_frac": 0.7083
+    },
+    {
+      "role": "kinless_hub",
+      "n": 8,
+      "mean_ok_ratio_pct": 98.75,
+      "pct_dead": 0.0,
+      "pct_healthy": 87.5,
+      "n_true_fail": 0,
+      "mean_in_degree": 42.125,
+      "mean_k_binary": 76.0,
+      "mean_z": 4.6063,
+      "mean_P": 0.843,
+      "mean_kept_frac": 0.9167
+    },
+    {
+      "role": "network_hub",
+      "n": 1,
+      "mean_ok_ratio_pct": 100.0,
+      "pct_dead": 0.0,
+      "pct_healthy": 100.0,
+      "n_true_fail": 0,
+      "mean_in_degree": 5.0,
+      "mean_k_binary": 19.0,
+      "mean_z": 2.8838,
+      "mean_P": 0.6925,
+      "mean_kept_frac": 1.0
+    }
+  ],
+  "versions": {
+    "python": "3.12.15",
+    "networkx": "3.6.1",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "SEED": 20261113,
+    "PYTHONHASHSEED": "0"
+  }
+}

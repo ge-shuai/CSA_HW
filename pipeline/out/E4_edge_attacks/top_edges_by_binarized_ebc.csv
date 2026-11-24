@@ -1,0 +1,21 @@
+﻿rank_binarized,edge,weight,ebc_binarized,rank_if_weight_as_cost,rank_if_random_walk,is_bridge
+1,"('cec.ustc.edu.cn', 'teach.ustc.edu.cn')",8,0.01904611025371139,1774,1213,0
+2,"('enbiomed.ustc.edu.cn', 'staff.ustc.edu.cn')",5,0.012190296204315079,1992,1614,0
+3,"('biox.ustc.edu.cn', 'teach.ustc.edu.cn')",4,0.010048393732510874,1517,1132,0
+4,"('lib.ustc.edu.cn', 'teach.ustc.edu.cn')",99,0.009628579358538326,2261,30,0
+5,"('lib.ustc.edu.cn', 'lug.ustc.edu.cn')",4,0.009452336606976598,2258,2068,0
+6,"('lib.ustc.edu.cn', 'staff.ustc.edu.cn')",2,0.009238766402133638,250,2079,0
+7,"('en.ustc.edu.cn', 'enbiomed.ustc.edu.cn')",101,0.00894746375285743,1978,1,0
+8,"('employment.ustc.edu.cn', 'staff.ustc.edu.cn')",2,0.008615400171966936,750,1485,0
+9,"('ses.ustc.edu.cn', 'virlab.ustc.edu.cn')",100,0.008432057507311803,2419,22,0
+10,"('en.ustc.edu.cn', 'teach.ustc.edu.cn')",2,0.007921192038855024,912,1596,0
+11,"('employment.ustc.edu.cn', 'lib.ustc.edu.cn')",2,0.007831273232136383,153,1475,0
+12,"('teach.ustc.edu.cn', 'ustcnet.ustc.edu.cn')",98,0.0076241421717874154,2475,2,0
+13,"('epc-ietc.ustc.edu.cn', 'teach.ustc.edu.cn')",2,0.007308164353984112,798,1640,0
+14,"('enbiomed.ustc.edu.cn', 'fusep.ustc.edu.cn')",1,0.007262298355233359,1,1601,0
+15,"('101.lug.ustc.edu.cn', 'staff.ustc.edu.cn')",1,0.007257325323034079,38,965,0
+16,"('teach.ustc.edu.cn', 'xnfz.cmet.ustc.edu.cn')",3,0.007141845065966255,917,2463,0
+17,"('faculty.ustc.edu.cn', 'iai.ustc.edu.cn')",2,0.006866108080220645,40,1690,0
+18,"('jjb.ustc.edu.cn', 'xxgk.ustc.edu.cn')",1,0.00674161421345299,62,678,0
+19,"('en.ustc.edu.cn', 'lib.ustc.edu.cn')",1,0.006692451136496786,5,1583,0
+20,"('biox.ustc.edu.cn', 'staff.ustc.edu.cn')",2,0.006429198838117729,326,1131,0

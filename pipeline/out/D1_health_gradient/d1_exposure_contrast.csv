@@ -1,0 +1,13 @@
+﻿contrast,outcome,outcome_cn,A_exposure,A_rate_diff_pp,A_bin_spearman,A_node_rho,B_exposure,B_rate_diff_pp,B_bin_spearman,B_node_rho,node_rho_gap_A_minus_B,rate_diff_gap_pp
+总度 vs 入度,dead,全挂率,degree_u,-58.8,-0.9695,-0.4963,in_degree,-32.33,-0.911,-0.3014,-0.1949,-26.47
+总度 vs 入度,partial,部分失效率,degree_u,12.12,0.8073,0.2052,in_degree,13.72,0.8165,0.1421,0.0631,-1.6
+总度 vs 入度,true_fail,真失效率,degree_u,-54.41,-0.9817,-0.4585,in_degree,-32.35,-0.9572,-0.2959,-0.1626,-22.06
+总度 vs 入度,clean_part,干净部分失效率,degree_u,10.49,0.811,0.1943,in_degree,17.98,0.9172,0.1526,0.0417,-7.49
+url_count vs 入度,dead,全挂率,url_count,-67.65,-0.9816,-0.6085,in_degree,-32.33,-0.911,-0.3014,-0.3071,-35.32
+url_count vs 入度,partial,部分失效率,url_count,50.75,0.6341,0.2507,in_degree,13.72,0.8165,0.1421,0.1086,37.03
+url_count vs 入度,true_fail,真失效率,url_count,-61.76,-0.9659,-0.5447,in_degree,-32.35,-0.9572,-0.2959,-0.2488,-29.41
+url_count vs 入度,clean_part,干净部分失效率,url_count,28.36,0.4753,0.177,in_degree,17.98,0.9172,0.1526,0.0244,10.38
+listed_urls vs 入度,dead,全挂率,listed_urls,-66.16,-0.9487,-0.6532,in_degree,-32.33,-0.911,-0.3014,-0.3518,-33.83
+listed_urls vs 入度,partial,部分失效率,listed_urls,28.36,0.7464,0.2849,in_degree,13.72,0.8165,0.1421,0.1428,14.64
+listed_urls vs 入度,true_fail,真失效率,listed_urls,-60.27,-0.9639,-0.5848,in_degree,-32.35,-0.9572,-0.2959,-0.2889,-27.92
+listed_urls vs 入度,clean_part,干净部分失效率,listed_urls,10.45,0.8224,0.2181,in_degree,17.98,0.9172,0.1526,0.0655,-7.53

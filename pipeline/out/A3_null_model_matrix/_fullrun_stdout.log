@@ -1,0 +1,15 @@
+C:\Users\bfy32\Anaconda3\envs\logic\Lib\site-packages\networkx\algorithms\assortativity\correlation.py:302: RuntimeWarning: invalid value encountered in scalar divide
+  return float((xy * (M - ab)).sum() / np.sqrt(vara * varb))
+[in_graph_676] BA_m3                        reps= 30 elapsed=   79.8s
+[in_graph_676] BA_m4_trim                   reps= 30 elapsed=   91.7s
+[in_graph_676] ConfigModel_degreePreserving     reps= 30 degseq_preserved=True selfloops=0 csa_common(z=-2.509, p=0.0000) elapsed=  115.5s
+[in_graph_676] DONE reps_total=240 total=128.3s
+PRIMARY RANK (rms_z_core4): ConfigModel_degreePreserving=16.336 < WS_k8_p0.05=20.907 < BA_m4=31.309 < ER=96.105
+  (by n_core4_explained desc): ConfigModel_degreePreserving=1 < ER=1 < WS_k8_p0.05=0 < BA_m4=0
+  (by rms_reldev_core4): ConfigModel_degreePreserving=0.3298 < BA_m4=0.5204 < ER=0.6948 < WS_k8_p0.05=0.8281
+  (by mahalanobis_D_core4): ConfigModel_degreePreserving=35.145 < WS_k8_p0.05=61.078 < BA_m4=114.231 < ER=194.064
+extra observed: obs_deg_gini_671=0.6155829467068149, obs_strength_gini_671=0.7895722238640809, obs_deg_gini_676=0.6170036621012787, obs_strength_gini_676=0.7903076169203289, obs_assort_weighted_676=-0.1674479655848532, obs_max_degree_671=119, argmax_degree_671=teach.ustc.edu.cn, obs_mean_degree_671=7.43070044709389, obs_n_edges_671=2493, obs_n_components_671=2, obs_gcc_size_671=669, obs_small_components_671=[2]
+TOTAL elapsed = 453.5s
+instances total = 820 | matrix rows = 260 | verdict rows = 26
+seeds: instance seed_used = 20261113 + model_offset + instance_index (ER 1000 / WS 2000,2400,2600,5000+ / BA 3000,3400,3800); ConfigModel via csa_common.degree_preserving_null(seed=20261113) => seed+r
+elapsed 453.5

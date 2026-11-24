@@ -1,0 +1,22 @@
+E2_dynamic_attack RUN.txt
+command: cd pipeline && PYTHONHASHSEED=0 python out/E2_dynamic_attack/run_e2.py
+python=3.12.15 networkx=3.6.1 pandas=3.0.2 numpy=2.4.4 PYTHONHASHSEED=0 SEED=20261113
+anchors: csa_common.assert_anchors() 31/31 PASS; baseline 674 nodes (undirected main component, §1); PairSet(n0=674, ordered_pairs=453602)
+f grid 0.02..0.6 (+0.05); efficiency at 31 checkpoints, GCC tracked every step 1..404
+dynamic = recompute the ranking after EVERY single deletion; tie-break = FQDN asc; static reference recomputed in the same process and cross-checked against E1 CSV
+budget per dynamic strategy: 1800.0 s (over-budget runs are truncated AND reported, never silently skipped)
+pool wall: 59.9 s; total wall: 60.6 s
+per-stage:
+  dynamic_degree: {"wall_s": 7.9, "score_only_s": 0.0, "n_recomputations": 404, "last_step": 404, "status": "complete"}
+  static_pagerank_uu: {"wall_s": 8.2, "rank_s": 0.0, "status": "complete"}
+  static_degree: {"wall_s": 8.7, "rank_s": 0.0, "status": "complete"}
+  dynamic_pagerank_uu: {"wall_s": 8.8, "score_only_s": 1.0, "n_recomputations": 404, "last_step": 404, "status": "complete"}
+  static_betweenness: {"wall_s": 8.4, "rank_s": 0.0, "status": "complete"}
+  static_kcore: {"wall_s": 11.6, "rank_s": 0.0, "status": "complete"}
+  dynamic_kcore: {"wall_s": 14.8, "score_only_s": 0.3, "n_recomputations": 404, "last_step": 404, "status": "complete"}
+  static_pagerank_dw: {"wall_s": 16.8, "rank_s": 0.0, "status": "complete"}
+  dynamic_pagerank_dw: {"wall_s": 18.1, "score_only_s": 0.8, "n_recomputations": 404, "last_step": 404, "status": "complete"}
+  dynamic_betweenness: {"wall_s": 56.3, "score_only_s": 49.0, "n_recomputations": 404, "last_step": 404, "status": "complete"}
+dynamic PageRank status: {"pagerank_dw": "complete", "pagerank_uu": "complete"}
+static cross-check vs E1: {"file": "/home/baifeiyang2026/csa_run_20261123/pipeline/out/E1_attack_curves/e1_curve_gcc_per_step_deterministic.csv", "max_abs_gcc_diff_nodes": 0, "per_strategy": [{"strategy": "betweenness", "max_abs_gcc_diff": 0.0}, {"strategy": "degree", "max_abs_gcc_diff": 0.0}, {"strategy": "kcore", "max_abs_gcc_diff": 0.0}, {"strategy": "pagerank_dw", "max_abs_gcc_diff": 0.0}, {"strategy": "pagerank_uu", "max_abs_gcc_diff": 0.0}]}
+outputs: e2_curve_efficiency.csv e2_gcc_per_step.csv e2_static_vs_dynamic_gap.csv e2_headline_gap.csv E2_summary.json

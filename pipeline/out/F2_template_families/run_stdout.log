@@ -1,0 +1,9 @@
+[   13.4s] anchors 31/31 PASS; signature matrices checked against F1 npz = YES
+[   19.0s] R1 average: t*=0.29 -> 230 家族（非单点 37），最大 49，覆盖率 51.0%
+[   58.2s] stability cap=3 -> ARI vs primary = 0.1693
+[   63.0s] stability cap=5 -> ARI vs primary = 0.2086
+[   66.8s] stability cap=10 -> ARI vs primary = 0.3826
+[   73.9s] stability cap=20 -> ARI vs primary = 1.0000
+[   79.7s] stability cap=full(<=20) -> ARI vs primary = 1.0000
+[   79.7s] family_assignment.csv rows=394
+[   79.7s] done in 79.7 s

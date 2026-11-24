@@ -1,0 +1,9 @@
+﻿stage,t0,wall_s
+00 build + baseline edge census,1795429759.012274,12.619
+01 edge-betweenness variant agreement,1795429771.631621,8.422
+02 static edge+node curves (100 reps for random),1795429780.0539424,691.022
+03 breakdown checkpoints,1795430471.0760531,0.1
+"04 dynamic EBC (strict to 250 edges, then block)",1795430471.1764228,284.817
+05 equal-cost comparison,1795430755.9931362,0.547
+06 w>=10 skeleton replication,1795430756.5401328,73.704
+07 hub-edge (template) sensitivity,1795430830.2442358,2.024

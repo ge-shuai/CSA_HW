@@ -1,0 +1,14 @@
+[   0.00s] import ok; SEED=20261113
+[   1.31s] anchors 31/31 PASS
+[   1.34s] G671: n=671 m=2493 | G676: n=676 m=2498（676 口径含 5 悬空节点，671 口径丢弃 5 条关联边）
+[   4.78s] k_max(671)=11  k_max(676)=11
+[   4.89s] Spearman(coreness, degree_u)=0.9857  Spearman(coreness, betweenness)=0.8782
+[ 237.49s] rich-club[671]: reps=400 knee_k=41 phi_obs=0.4779 z=-2.65 p=0.0100 k_sig_first=-1 n_sig_pos=0 n_sig_neg=54 swaps_real(min/med/max)=24930/24930/24930 degseq_ok=1.000 errors=0 用时 232.6s
+[ 405.31s] rich-club[676]: reps=300 knee_k=41 phi_obs=0.4779 z=-2.87 p=0.0033 k_sig_first=-1 n_sig_pos=0 n_sig_neg=53 swaps_real(min/med/max)=24980/24980/24980 degseq_ok=1.000 errors=0 用时 167.8s
+[ 406.72s] CE[671]: start=deg_norm k*=8 fit*=0.1407 fit_cont=0.1229 (dense check diff=7.36e-16) cont_iters=295 delta=9.9e-11 conv=True
+[ 446.04s] CE[671] null: reps=400 fit*=0.1582(sd 0.0056) obs=0.1407 z=-3.13 p=0.0050 | fit_cont null 0.1584 obs 0.1229 z=-8.74 p=0.0000 用时 39.3s
+[ 447.06s] CE[676]: start=deg_norm k*=8 fit*=0.1401 fit_cont=0.1230 (dense check diff=5.55e-16) cont_iters=286 delta=9.9e-11 conv=True
+[ 473.99s] CE[676] null: reps=300 fit*=0.1585(sd 0.0059) obs=0.1401 z=-3.15 p=0.0067 | fit_cont null 0.1581 obs 0.1230 z=-9.13 p=0.0000 用时 26.9s
+[ 474.00s] 核心口径规模: kcore_top=45 rc_knee(deg>41)=17 rc_sig(deg>-1)=0 be(k*=8)=8
+[ 474.08s] 入度口径 dead/healthy = 1.827 / 4.942（2.70x）；无向度 = 1.827 / 9.492（5.19x）
+[ 474.09s] saved csv/json/RUN to C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\A5_core_periphery; total 474.1s

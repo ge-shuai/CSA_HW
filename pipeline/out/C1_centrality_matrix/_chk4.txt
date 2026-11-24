@@ -1,0 +1,7 @@
+wpsearch.ustc.edu.cn n=4 in: deg_u,out_degree,bet_u,hits_hub
+fusep.ustc.edu.cn n=6 in: deg_u,out_degree,out_strength,bet_u,pr_uu,kcore
+news.ustc.edu.cn n=7 in: deg_u,in_degree,in_strength,bet_u,pr_dw,pr_uu,hidx_in_in
+en.ustc.edu.cn n=10 in: deg_u,in_degree,out_degree,in_strength,bet_u,pr_dw,pr_uu,hits_auth,kcore,hidx_in_in
+staff.ustc.edu.cn n=9 in: deg_u,in_degree,out_degree,in_strength,bet_u,pr_dw,pr_uu,hits_auth,hidx_in_in
+teach.ustc.edu.cn n=9 in: deg_u,in_degree,out_degree,in_strength,out_strength,bet_u,pr_dw,pr_uu,hidx_in_in
+cs.ustc.edu.cn n=9 in: deg_u,in_degree,out_degree,in_strength,out_strength,bet_u,pr_dw,pr_uu,kcore

@@ -1,0 +1,5 @@
+﻿health_state,n,n_disconnect,pairs_sum,relay_mean,relay_min,ok_median
+dangling_ref(无属性),5,0,0,0.0,0.0,
+dead,162,0,0,-5e-06,-0.0007183767771243194,0.0
+healthy,360,65,194358,-0.000434,-0.0122199690057636,100.0
+partial,149,31,55082,-0.00029,-0.004778942983580527,75.0

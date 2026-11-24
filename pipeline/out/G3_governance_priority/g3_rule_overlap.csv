@@ -1,0 +1,7 @@
+﻿class,n_rule_only,n_after_priority,n_absorbed_by_higher,rule
+排除_假失效BC,32,32,0,false_fail（§2.2 B/C：抓取判据不可信，不参与治理排序）
+排除_待判G,1,1,0,ambiguous_fail（§2.2 G：证据不足，单列）
+下线,123,123,0,true_fail 且 零实测结构角色：非割点 且 不断连任何点对 且 ΔE_fixed 中继项=0 且 无超出机械项的 GCC 损失
+修复,121,121,0,（真失效且不满足零结构角色）或（部分失效 且（高影响 或 入度>=2））
+保护,86,86,0,is_healthy 且 高影响（移除它会断连点对 / 中继项 < -0.0001）
+监控,5,5,0,is_healthy 且 未进保护 且 三个主口径百分位并集 top5%

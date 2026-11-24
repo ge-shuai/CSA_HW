@@ -1,0 +1,4 @@
+﻿health_state,n,pairs_sum,relay_sum,ok_median,n_healthy
+dead,1,0,-0.000718,0.0,0
+healthy,86,194358,-0.154416,100.0,86
+partial,43,55082,-0.042321,85.0,0

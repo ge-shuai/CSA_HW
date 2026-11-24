@@ -1,0 +1,161 @@
+== 31 anchors PASS ==
+                           group   n  n_true_fail  n_false_fail  n_alive_or_partial
+auth_flag=1（18 个 B_auth_or_skip）  18          0.0          18.0                 0.0
+             auth_flag=0（其余 653） 653        129.0          14.0               509.0
+        S_corr_638 内 auth_flag=1   0          NaN           NaN                 NaN
+== model selection ==
+      sample                    model   n  n_events  event_rate  n_terms  deviance      aic      bic    epv  lrt_vs_parent_chi2  lrt_vs_parent_df  lrt_vs_parent_p  mle_converged  separated  singular_hessian  n_iter                                                  note
+S_uncorr_671             M0_intercept 671       129      0.1923        0  656.8682 658.8682 663.3770    NaN                 NaN               NaN              NaN           True      False             False       5                                                      
+S_uncorr_671                   M1_url 671       129      0.1923        1  384.1156 388.1156 397.1331 129.00            272.7527               1.0     2.850958e-61           True      False             False       9                                                      
+S_uncorr_671          M2_url_category 671       129      0.1923        5  288.7685 300.7685 327.8211  25.80             95.3471               4.0     9.614644e-20          False       True             False     300 完全分离：系数发散、Wald SE 爆炸，p 值不可用（auth_flag 与结局按 §2.2 定义互斥）
+S_uncorr_671 M3_url_category_indegree 671       129      0.1923        6  288.3688 302.3688 333.9302  21.50              0.3996               1.0     5.272766e-01          False       True             False     300 完全分离：系数发散、Wald SE 爆炸，p 值不可用（auth_flag 与结局按 §2.2 定义互斥）
+S_uncorr_671        M4_full_with_auth 671       129      0.1923        7  256.1932 272.1932 308.2633  18.43             32.1757               1.0     1.408435e-08          False       True             False     300 完全分离：系数发散、Wald SE 爆炸，p 值不可用（auth_flag 与结局按 §2.2 定义互斥）
+  S_corr_638             M0_intercept 638       129      0.2022        0  642.3760 644.3760 648.8343    NaN                 NaN               NaN              NaN           True      False             False       5                                                      
+  S_corr_638                   M1_url 638       129      0.2022        1  341.1392 345.1392 354.0559 129.00            301.2368               1.0     1.771441e-67           True      False             False       9                                                      
+  S_corr_638          M2_url_category 638       129      0.2022        5  222.3376 234.3376 261.0876  25.80            118.8016               4.0     9.629324e-25          False       True             False     300 完全分离：系数发散、Wald SE 爆炸，p 值不可用（auth_flag 与结局按 §2.2 定义互斥）
+  S_corr_638 M3_url_category_indegree 638       129      0.2022        6  222.3190 236.3190 267.5274  21.50              0.0186               1.0     8.915669e-01          False       True             False     300 完全分离：系数发散、Wald SE 爆炸，p 值不可用（auth_flag 与结局按 §2.2 定义互斥）
+== coefficients: key terms ==
+      sample                    model        term               term_kind   n  n_events     coef           se      z            p  odds_ratio  or_ci_lo     or_ci_hi                   effect_scale  or_at_effect_scale                                 or_at_scale_ci  or_truncated_at_1e_60_or_1e60  estimable                                       warning
+S_uncorr_671                   M1_url   log1p_url              size_proxy 671       129  -1.8218       0.2221 -8.203 2.335581e-16    0.161727  0.104651 2.499330e-01                       per unit            0.161727                           [0.104651, 0.249933]                            0.0          1                                              
+S_uncorr_671          M2_url_category   log1p_url              size_proxy 671       129  -1.5615       0.2382 -6.555 5.568689e-11    0.209815  0.131539 3.346700e-01                       per unit            0.209815                           [0.131539, 0.334670]                            0.0          0                                              
+S_uncorr_671 M3_url_category_indegree   log1p_url              size_proxy 671       129  -1.4871       0.2569 -5.789 7.076201e-09    0.226016  0.136607 3.739440e-01                       per unit            0.226016                           [0.136607, 0.373944]                            0.0          0                                              
+S_uncorr_671 M3_url_category_indegree in_degree_f        network_position 671       129  -0.0523       0.0906 -0.577 5.641115e-01    0.949078  0.794629 1.133546e+00           per IQR(in_degree)=3            0.854880                           [0.501757, 1.456522]                            0.0          0                                              
+S_uncorr_671        M4_full_with_auth   log1p_url              size_proxy 671       129  -1.5682       0.2574 -6.093 1.107988e-09    0.208414  0.125846 3.451550e-01                       per unit            0.208414                           [0.125846, 0.345155]                            0.0          0                                              
+S_uncorr_671        M4_full_with_auth in_degree_f        network_position 671       129  -0.0349       0.0908 -0.385 7.005819e-01    0.965670  0.808164 1.153872e+00           per IQR(in_degree)=3            0.900505                           [0.527836, 1.536290]                            0.0          0                                              
+S_uncorr_671        M4_full_with_auth   auth_flag definitional_complement 671       129 -38.4261 2357022.6040 -0.000 9.999870e-01    0.000000  0.000000 1.142007e+26                       per unit            0.000000 [0.000000, 114200738981568423454048256.000000]                            1.0          0               quasi/perfect separation → 不可解释
+S_uncorr_671       M4_ridge_penalized   log1p_url               ridge_std 671       129  -2.2741          NaN    NaN          NaN    0.102900       NaN          NaN 标准化设计上的 1 SD（岭惩罚 lam=1.0，截距不罚）            0.102900                                            n/a                            NaN          1 非 MLE：系数与 SE/Wald p 不可与 M3 直接比较，只用于给分离项一个有界读数
+S_uncorr_671       M4_ridge_penalized in_degree_f               ridge_std 671       129  -0.3239          NaN    NaN          NaN    0.723300       NaN          NaN 标准化设计上的 1 SD（岭惩罚 lam=1.0，截距不罚）            0.723300                                            n/a                            NaN          1 非 MLE：系数与 SE/Wald p 不可与 M3 直接比较，只用于给分离项一个有界读数
+S_uncorr_671       M4_ridge_penalized   auth_flag               ridge_std 671       129  -0.8644          NaN    NaN          NaN    0.421300       NaN          NaN 标准化设计上的 1 SD（岭惩罚 lam=1.0，截距不罚）            0.421300                                            n/a                            NaN          1 非 MLE：系数与 SE/Wald p 不可与 M3 直接比较，只用于给分离项一个有界读数
+  S_corr_638                   M1_url   log1p_url              size_proxy 638       129  -1.9217       0.2250 -8.540 1.340710e-17    0.146355  0.094160 2.274840e-01                       per unit            0.146355                           [0.094160, 0.227484]                            0.0          1                                              
+  S_corr_638          M2_url_category   log1p_url              size_proxy 638       129  -1.7469       0.2470 -7.072 1.525365e-12    0.174307  0.107411 2.828650e-01                       per unit            0.174307                           [0.107411, 0.282865]                            0.0          0                                              
+  S_corr_638 M3_url_category_indegree   log1p_url              size_proxy 638       129  -1.7306       0.2728 -6.343 2.255665e-10    0.177180  0.103793 3.024560e-01                       per unit            0.177180                           [0.103793, 0.302456]                            0.0          0                                              
+  S_corr_638 M3_url_category_indegree in_degree_f        network_position 638       129  -0.0108       0.0813 -0.132 8.946655e-01    0.989293  0.843560 1.160202e+00           per IQR(in_degree)=3            0.968220                           [0.600271, 1.561713]                            0.0          0                                              
+== cv metrics ==
+      sample                    model  k  cv_auc      auc_boot_ci  auc_boot_se  pr_auc   brier
+S_uncorr_671             M0_intercept  5  0.4958 [0.4457, 0.5459]       0.0249  0.1906 0.15529
+S_uncorr_671             M0_intercept 10  0.4950              n/a          NaN  0.1903 0.15529
+S_uncorr_671                   M1_url  5  0.8912 [0.8661, 0.9138]       0.0120  0.5315 0.09896
+S_uncorr_671                   M1_url 10  0.8851              n/a          NaN  0.5073 0.09898
+S_uncorr_671          M2_url_category  5  0.9346 [0.9168, 0.9521]       0.0090  0.6518 0.07521
+S_uncorr_671          M2_url_category 10  0.9313              n/a          NaN  0.6268 0.07503
+S_uncorr_671 M3_url_category_indegree  5  0.9374 [0.9201, 0.9543]       0.0087  0.6813 0.07532
+S_uncorr_671 M3_url_category_indegree 10  0.9349              n/a          NaN  0.6441 0.07526
+S_uncorr_671        M4_full_with_auth  5  0.9481 [0.9319, 0.9632]       0.0079  0.7146 0.06614
+S_uncorr_671        M4_full_with_auth 10  0.9469              n/a          NaN  0.6946 0.06600
+  S_corr_638             M0_intercept  5  0.4961 [0.4491, 0.5416]       0.0240  0.2008 0.16132
+  S_corr_638             M0_intercept 10  0.4956              n/a          NaN  0.2007 0.16132
+  S_corr_638                   M1_url  5  0.9063 [0.8828, 0.9267]       0.0113  0.5793 0.09186
+  S_corr_638                   M1_url 10  0.9056              n/a          NaN  0.5716 0.09183
+  S_corr_638          M2_url_category  5  0.9551 [0.9384, 0.9692]       0.0078  0.7375 0.05871
+  S_corr_638          M2_url_category 10  0.9543              n/a          NaN  0.7336 0.05841
+  S_corr_638 M3_url_category_indegree  5  0.9560 [0.9396, 0.9696]       0.0076  0.7510 0.05895
+  S_corr_638 M3_url_category_indegree 10  0.9556              n/a          NaN  0.7499 0.05868
+== delta auc (paired bootstrap) ==
+      sample                    model                 baseline  k  auc_model  auc_baseline  delta_auc  delta_ci_lo  delta_ci_hi  ci_covers_zero  prob_model_gt_baseline  n_boot_valid                               note
+S_uncorr_671             M0_intercept                   M1_url  5     0.4958        0.8912    -0.3954      -0.4525      -0.3375               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671             M0_intercept          M2_url_category  5     0.4958        0.9346    -0.4389      -0.4904      -0.3841               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671             M0_intercept M3_url_category_indegree  5     0.4958        0.9374    -0.4416      -0.4947      -0.3867               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671             M0_intercept        M4_full_with_auth  5     0.4958        0.9481    -0.4524      -0.5053      -0.3977               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671                   M1_url             M0_intercept  5     0.8912        0.4958     0.3954       0.3375       0.4525               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671                   M1_url          M2_url_category  5     0.8912        0.9346    -0.0434      -0.0628      -0.0253               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671                   M1_url M3_url_category_indegree  5     0.8912        0.9374    -0.0462      -0.0652      -0.0288               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671                   M1_url        M4_full_with_auth  5     0.8912        0.9481    -0.0569      -0.0762      -0.0391               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671          M2_url_category             M0_intercept  5     0.9346        0.4958     0.4389       0.3841       0.4904               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671          M2_url_category                   M1_url  5     0.9346        0.8912     0.0434       0.0253       0.0628               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671          M2_url_category M3_url_category_indegree  5     0.9346        0.9374    -0.0028      -0.0076       0.0016               1                  0.1220          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671          M2_url_category        M4_full_with_auth  5     0.9346        0.9481    -0.0135      -0.0217      -0.0063               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671 M3_url_category_indegree             M0_intercept  5     0.9374        0.4958     0.4416       0.3867       0.4947               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671 M3_url_category_indegree                   M1_url  5     0.9374        0.8912     0.0462       0.0288       0.0652               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671 M3_url_category_indegree          M2_url_category  5     0.9374        0.9346     0.0028      -0.0016       0.0076               1                  0.8775          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671 M3_url_category_indegree        M4_full_with_auth  5     0.9374        0.9481    -0.0107      -0.0178      -0.0046               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671        M4_full_with_auth             M0_intercept  5     0.9481        0.4958     0.4524       0.3977       0.5053               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671        M4_full_with_auth                   M1_url  5     0.9481        0.8912     0.0569       0.0391       0.0762               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671        M4_full_with_auth          M2_url_category  5     0.9481        0.9346     0.0135       0.0063       0.0217               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+S_uncorr_671        M4_full_with_auth M3_url_category_indegree  5     0.9481        0.9374     0.0107       0.0046       0.0178               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638             M0_intercept                   M1_url  5     0.4961        0.9063    -0.4102      -0.4663      -0.3559               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638             M0_intercept          M2_url_category  5     0.4961        0.9551    -0.4589      -0.5094      -0.4108               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638             M0_intercept M3_url_category_indegree  5     0.4961        0.9560    -0.4599      -0.5102      -0.4117               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638                   M1_url             M0_intercept  5     0.9063        0.4961     0.4102       0.3559       0.4663               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638                   M1_url          M2_url_category  5     0.9063        0.9551    -0.0488      -0.0675      -0.0312               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638                   M1_url M3_url_category_indegree  5     0.9063        0.9560    -0.0497      -0.0686      -0.0322               0                  0.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638          M2_url_category             M0_intercept  5     0.9551        0.4961     0.4589       0.4108       0.5094               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638          M2_url_category                   M1_url  5     0.9551        0.9063     0.0488       0.0312       0.0675               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638          M2_url_category M3_url_category_indegree  5     0.9551        0.9560    -0.0010      -0.0027       0.0006               1                  0.1260          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638 M3_url_category_indegree             M0_intercept  5     0.9560        0.4961     0.4599       0.4117       0.5102               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638 M3_url_category_indegree                   M1_url  5     0.9560        0.9063     0.0497       0.0322       0.0686               0                  1.0000          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+  S_corr_638 M3_url_category_indegree          M2_url_category  5     0.9560        0.9551     0.0010      -0.0006       0.0027               1                  0.8735          2000 配对自助：同一批重采样下比两个模型的 AUC 差，比各自 CI 更紧
+== threshold metrics ==
+      sample                    model k threshold_rule  threshold  n_predicted_positive  TP  FP  FN  TN  precision  recall     f1  specificity  predicted_positive_share                    imbalance_context
+S_uncorr_671             M0_intercept 5        thr_0.5     0.5000                     0   0   0 129 542        NaN  0.0000    NaN       1.0000                    0.0000 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671             M0_intercept 5      thr_prior     0.1923                   134  25 109 104 433     0.1866  0.1938 0.1901       0.7989                    0.1997 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671             M0_intercept 5 thr_f1_max_oof     0.1918                   671 129 542   0   0     0.1923  1.0000 0.3225       0.0000                    1.0000 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671                   M1_url 5        thr_0.5     0.5000                   173  96  77  33 465     0.5549  0.7442 0.6358       0.8579                    0.2578 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671                   M1_url 5      thr_prior     0.1923                   257 123 134   6 408     0.4786  0.9535 0.6373       0.7528                    0.3830 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671                   M1_url 5 thr_f1_max_oof     0.2960                   225 115 110  14 432     0.5111  0.8915 0.6497       0.7970                    0.3353 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671          M2_url_category 5        thr_0.5     0.5000                   179 115  64  14 478     0.6425  0.8915 0.7468       0.8819                    0.2668 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671          M2_url_category 5      thr_prior     0.1923                   207 126  81   3 461     0.6087  0.9767 0.7500       0.8506                    0.3085 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671          M2_url_category 5 thr_f1_max_oof     0.2256                   205 126  79   3 463     0.6146  0.9767 0.7545       0.8542                    0.3055 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671 M3_url_category_indegree 5        thr_0.5     0.5000                   175 113  62  16 480     0.6457  0.8760 0.7434       0.8856                    0.2608 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671 M3_url_category_indegree 5      thr_prior     0.1923                   207 126  81   3 461     0.6087  0.9767 0.7500       0.8506                    0.3085 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671 M3_url_category_indegree 5 thr_f1_max_oof     0.2539                   205 126  79   3 463     0.6146  0.9767 0.7545       0.8542                    0.3055 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671        M4_full_with_auth 5        thr_0.5     0.5000                   168 115  53  14 489     0.6845  0.8915 0.7744       0.9022                    0.2504 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671        M4_full_with_auth 5      thr_prior     0.1923                   192 126  66   3 476     0.6562  0.9767 0.7850       0.8782                    0.2861 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671        M4_full_with_auth 5 thr_f1_max_oof     0.2545                   188 126  62   3 480     0.6702  0.9767 0.7950       0.8856                    0.2802 正例 129/671=19.23%；全判正模型的精确率上界=0.1923
+S_uncorr_671     trivial_all_negative -              -        NaN                     0   0   0 129 542        NaN  0.0000    NaN       1.0000                    0.0000                    任何模型的召回都要与这个平凡基线比
+  S_corr_638             M0_intercept 5        thr_0.5     0.5000                     0   0   0 129 509        NaN  0.0000    NaN       1.0000                    0.0000 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638             M0_intercept 5      thr_prior     0.2022                   127  25 102 104 407     0.1969  0.1938 0.1953       0.7996                    0.1991 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638             M0_intercept 5 thr_f1_max_oof     0.2016                   511 103 408  26 101     0.2016  0.7984 0.3219       0.1984                    0.8009 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638                   M1_url 5        thr_0.5     0.5000                   156  96  60  33 449     0.6154  0.7442 0.6737       0.8821                    0.2445 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638                   M1_url 5      thr_prior     0.2022                   228 124 104   5 405     0.5439  0.9612 0.6947       0.7957                    0.3574 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638                   M1_url 5 thr_f1_max_oof     0.3085                   215 120  95   9 414     0.5581  0.9302 0.6977       0.8134                    0.3370 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638          M2_url_category 5        thr_0.5     0.5000                   163 120  43   9 466     0.7362  0.9302 0.8219       0.9155                    0.2555 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638          M2_url_category 5      thr_prior     0.2022                   177 126  51   3 458     0.7119  0.9767 0.8235       0.8998                    0.2774 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638          M2_url_category 5 thr_f1_max_oof     0.2897                   174 126  48   3 461     0.7241  0.9767 0.8317       0.9057                    0.2727 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638 M3_url_category_indegree 5        thr_0.5     0.5000                   160 117  43  12 466     0.7312  0.9070 0.8097       0.9155                    0.2508 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638 M3_url_category_indegree 5      thr_prior     0.2022                   178 126  52   3 457     0.7079  0.9767 0.8208       0.8978                    0.2790 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638 M3_url_category_indegree 5 thr_f1_max_oof     0.2161                   175 126  49   3 460     0.7200  0.9767 0.8289       0.9037                    0.2743 正例 129/638=20.22%；全判正模型的精确率上界=0.2022
+  S_corr_638     trivial_all_negative -              -        NaN                     0   0   0 129 509        NaN  0.0000    NaN       1.0000                    0.0000                    任何模型的召回都要与这个平凡基线比
+== permutation null ==
+      sample                    model  k  obs_auc  null_mean  null_sd      z  p_two_sided_empirical  n_perm                                    note
+S_uncorr_671          M2_url_category  5   0.9346     0.5003   0.0286 15.168                  0.001    1000 置换结局标签、OOF 分数固定；按偏离 null mean 的绝对值计（§4）
+S_uncorr_671 M3_url_category_indegree  5   0.9374     0.5007   0.0291 15.026                  0.001    1000 置换结局标签、OOF 分数固定；按偏离 null mean 的绝对值计（§4）
+S_uncorr_671        M4_full_with_auth  5   0.9481     0.5008   0.0291 15.365                  0.001    1000 置换结局标签、OOF 分数固定；按偏离 null mean 的绝对值计（§4）
+  S_corr_638          M2_url_category  5   0.9551     0.4999   0.0292 15.585                  0.001    1000 置换结局标签、OOF 分数固定；按偏离 null mean 的绝对值计（§4）
+  S_corr_638 M3_url_category_indegree  5   0.9560     0.4998   0.0292 15.614                  0.001    1000 置换结局标签、OOF 分数固定；按偏离 null mean 的绝对值计（§4）
+== calibration ==
+      sample                    model  k  decile  n  mean_predicted  min_predicted  max_predicted  observed_rate  wilson_lo  wilson_hi  gap_obs_minus_pred
+S_uncorr_671 M3_url_category_indegree  5       1 68          0.0001         0.0000         0.0002         0.0000     0.0000     0.0535             -0.0001
+S_uncorr_671 M3_url_category_indegree  5       2 67          0.0003         0.0002         0.0003         0.0000     0.0000     0.0542             -0.0003
+S_uncorr_671 M3_url_category_indegree  5       3 67          0.0004         0.0003         0.0006         0.0000     0.0000     0.0542             -0.0004
+S_uncorr_671 M3_url_category_indegree  5       4 67          0.0012         0.0006         0.0021         0.0000     0.0000     0.0542             -0.0012
+S_uncorr_671 M3_url_category_indegree  5       5 67          0.0047         0.0022         0.0092         0.0000     0.0000     0.0542             -0.0047
+S_uncorr_671 M3_url_category_indegree  5       6 67          0.0207         0.0094         0.0391         0.0000     0.0000     0.0542             -0.0207
+S_uncorr_671 M3_url_category_indegree  5       7 67          0.0932         0.0398         0.2716         0.0896     0.0417     0.1819             -0.0037
+S_uncorr_671 M3_url_category_indegree  5       8 67          0.4919         0.2716         0.6333         0.4776     0.3625     0.5951             -0.0143
+S_uncorr_671 M3_url_category_indegree  5       9 67          0.6510         0.6333         0.6642         0.7164     0.5991     0.8103              0.0654
+S_uncorr_671 M3_url_category_indegree  5      10 67          0.6710         0.6642         0.6787         0.6418     0.5222     0.7460             -0.0292
+  S_corr_638 M3_url_category_indegree  5       1 64          0.0001         0.0000         0.0002         0.0000     0.0000     0.0566             -0.0001
+  S_corr_638 M3_url_category_indegree  5       2 64          0.0002         0.0002         0.0002         0.0000     0.0000     0.0566             -0.0002
+  S_corr_638 M3_url_category_indegree  5       3 64          0.0003         0.0002         0.0004         0.0000     0.0000     0.0566             -0.0003
+  S_corr_638 M3_url_category_indegree  5       4 63          0.0009         0.0004         0.0016         0.0000     0.0000     0.0575             -0.0009
+  S_corr_638 M3_url_category_indegree  5       5 64          0.0032         0.0016         0.0061         0.0000     0.0000     0.0566             -0.0032
+  S_corr_638 M3_url_category_indegree  5       6 64          0.0140         0.0062         0.0296         0.0000     0.0000     0.0566             -0.0140
+  S_corr_638 M3_url_category_indegree  5       7 63          0.0619         0.0296         0.0973         0.0159     0.0028     0.0846             -0.0461
+  S_corr_638 M3_url_category_indegree  5       8 64          0.4373         0.1001         0.6501         0.4844     0.3663     0.6042              0.0471
+  S_corr_638 M3_url_category_indegree  5       9 64          0.7410         0.6501         0.7558         0.7812     0.6657     0.8650              0.0402
+  S_corr_638 M3_url_category_indegree  5      10 64          0.7675         0.7558         0.7769         0.7344     0.6152     0.8270             -0.0332
+== alive-only secondary ==
+                          role       outcome    sample            model        term   n  n_events  event_rate    coef     se      z        p         effect_scale  or_at_effect_scale  cv_auc  lrt_vs_parent_chi2  lrt_vs_parent_df  lrt_vs_parent_p  mle_converged  separated
+次口径（题面未要求；用于检验'入度效应'是否只是死/活对比）    is_partial alive_509           A1_url   log1p_url 509       149      0.2927  0.1271 0.0704  1.805 0.071074             per unit              1.1355  0.4951                 NaN               NaN              NaN           True      False
+次口径（题面未要求；用于检验'入度效应'是否只是死/活对比）    is_partial alive_509  A2_url_category   log1p_url 509       149      0.2927  0.2046 0.0769  2.660 0.007810             per unit              1.2270  0.5768             14.1518               4.0         0.006826           True      False
+次口径（题面未要求；用于检验'入度效应'是否只是死/活对比）    is_partial alive_509 A3_plus_indegree   log1p_url 509       149      0.2927  0.2161 0.0797  2.711 0.006716             per unit              1.2413  0.5691              0.3054               1.0         0.580547           True      False
+次口径（题面未要求；用于检验'入度效应'是否只是死/活对比）    is_partial alive_509 A3_plus_indegree in_degree_f 509       149      0.2927 -0.0073 0.0135 -0.544 0.586631 per IQR(in_degree)=4              0.9711  0.5691              0.3054               1.0         0.580547           True      False
+次口径（题面未要求；用于检验'入度效应'是否只是死/活对比） partial_clean alive_509           A1_url   log1p_url 509        80      0.1572  0.1366 0.0902  1.514 0.129971             per unit              1.1463  0.4961                 NaN               NaN              NaN           True      False
+次口径（题面未要求；用于检验'入度效应'是否只是死/活对比） partial_clean alive_509  A2_url_category   log1p_url 509        80      0.1572  0.1689 0.0979  1.725 0.084510             per unit              1.1840  0.5479              9.4702               4.0         0.050364           True      False
+次口径（题面未要求；用于检验'入度效应'是否只是死/活对比） partial_clean alive_509 A3_plus_indegree   log1p_url 509        80      0.1572  0.1485 0.1016  1.461 0.143948             per unit              1.1600  0.5485              0.5656               1.0         0.452012           True      False
+次口径（题面未要求；用于检验'入度效应'是否只是死/活对比） partial_clean alive_509 A3_plus_indegree in_degree_f 509        80      0.1572  0.0115 0.0149  0.772 0.440095 per IQR(in_degree)=4              1.0470  0.5485              0.5656               1.0         0.452012           True      False
+== feature summary ==
+      sample   n  n_events  event_rate  in_degree_min  in_degree_q1  in_degree_median  in_degree_q3  in_degree_iqr  in_degree_max  in_degree_mean_events  in_degree_mean_non_events  in_degree_zero_n  url_count_median  url_count_max  log1p_url_mean  n_category_levels  n_category_dummies  n_auth_flag_ones  degree_u_in_model  out_degree_in_model
+S_uncorr_671 671       129      0.1923              0           1.0               2.0           4.0            3.0             73                 1.6047                     4.7528                 7              20.0            302          2.7711                  5                   4                18                  0                    0
+  S_corr_638 638       129      0.2022              0           1.0               2.0           4.0            3.0             73                 1.6047                     4.8861                 7              20.0            302          2.8580                  5                   4                 0                  0                    0
+elapsed 362.60s

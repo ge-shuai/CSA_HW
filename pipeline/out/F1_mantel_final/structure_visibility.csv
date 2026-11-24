@@ -1,0 +1,17 @@
+﻿item,value
+unordered node pairs (671 attributed),224785.0
+observed undirected edges within 671,2493.0
+edge-pair share %,1.1091
+dead sites,162.0
+pairs dead-dead (both directions unobservable),13041.0
+pairs dead-dead %,5.8
+pairs dead-alive (dead-side out-edge censored),82458.0
+pairs with >=1 dead endpoint %,42.48
+observed edges with >=1 dead endpoint,296.0
+edges touching 6 nav hubs (C.hub_nodes),505.0
+edges touching 6 nav hubs %,20.22
+weight mass in top-1% pairs,99.61
+sites at 20-URL cap,352.0
+sites with <10 listed URLs,277.0
+eligible sites (listed_urls>=10),394.0
+edges within eligible pairs,1930.0

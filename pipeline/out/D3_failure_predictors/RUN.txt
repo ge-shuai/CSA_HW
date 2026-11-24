@@ -1,0 +1,10 @@
+D3_failure_predictors run log
+command: cd pipeline && PYTHONHASHSEED=0 PYTHONIOENCODING=utf-8 python -X utf8 out/D3_failure_predictors/run_d3.py
+versions: {"python": "3.12.13", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0", "sklearn": "1.8.0", "scipy": "1.17.1"}
+seed: 20261113; StratifiedKFold(k=5/10, shuffle=True, random_state=20261113)；L2 C=1.0（sklearn 1.8 默认 penalty='l2'，缩放只在训练折拟合）；自助 B=20（np.random.default_rng(SEED+r)，独立重复）；置换 n=20（default_rng(SEED+50000+r)）；岭惩罚 lam=1.0；MLE 用自写 IRLS（无惩罚，步长折半，max_iter=300）
+wall_time_sec: 4.30（其中 build_all + sklearn/B6 加载 ≈ 1.43s；本机 sklearn import 很慢，属环境成本，不影响数值）
+anchors: csa_common.assert_anchors() 31/31 PASS (run_d3.py:L70)
+category: B6.classify_series 现场计算，与 title_labels.csv 一致率 1.0000（n=671）；保留规则 n>=30
+separation: 类别在真失效上完全分离（129/129 事件全在『其他』；informative 标题子样本 449 站 0 事件）；auth_flag 18 站 0 事件（Fisher p=0.032）→ 题面 M4 不可解释
+primary(N2_url_indegree_PRIMARY): {"S_uncorr_671|N2_url_indegree_PRIMARY|in_degree": {"coef": -0.0484, "se": 0.0674, "p": 0.4726697090050449, "separated": false, "cv_auc": 0.898}, "S_uncorr_671|N1_indegree_only|in_degree": {"coef": -0.4783, "se": 0.0867, "p": 3.413231221667777e-08, "separated": false, "cv_auc": 0.6969}, "S_uncorr_671|M1_url_only|log1p_url": {"coef": -1.8218, "se": 0.2221, "p": 2.3355810558540124e-16}, "S_corr_638|N2_url_indegree_PRIMARY|in_degree": {"coef": -0.0381, "se": 0.062, "p": 0.5388421409153845, "separated": false, "cv_auc": 0.9122}, "S_corr_638|N1_indegree_only|in_degree": {"coef": -0.49, "se": 0.0871, "p": 1.860446535953242e-08, "separated": false, "cv_auc": 0.7141}, "S_corr_638|M1_url_only|log1p_url": {"coef": -1.9217, "se": 0.225, "p": 1.3407103852797664e-17}}
+files: d3_coefficients.csv d3_model_selection.csv d3_skipped_terms.csv d3_cv_metrics.csv d3_delta_auc_bootstrap.csv d3_threshold_metrics.csv d3_f1_threshold_choice.csv d3_auc_permutation_null.csv d3_calibration_oof.csv d3_feature_summary.csv d3_category_collapse.csv d3_covariate_leakage.csv d3_alive_only_secondary_models.csv d3_auth_flag_evidence.csv d3_summary.json

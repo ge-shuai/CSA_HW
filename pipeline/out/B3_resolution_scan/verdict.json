@@ -1,0 +1,178 @@
+{
+  "n_seeds": 20,
+  "n_gamma_coarse": 33,
+  "n_gamma_total": 47,
+  "ref_seed_noise_ceiling_NMI": 0.8972,
+  "fb_scale_sqrt_2S_weighted": 355.7,
+  "fb_scale_sqrt_2E_unweighted": 70.7,
+  "n_ns671_at_gamma1_mean": 24.25,
+  "n_ns671_at_gamma1_sd": 1.41,
+  "argmax_Q_same_null": 0.05,
+  "argmax_Q_rescored_at_gamma1": 1.0,
+  "argmax_within_seed_NMI": 2.7,
+  "argmin_consensus_entropy": 3.0,
+  "spearman_gamma_vs_Q": [
+    -1.0,
+    0.0
+  ],
+  "spearman_gamma_vs_n_ns": [
+    1.0,
+    0.0
+  ],
+  "selfcheck_Q_formula_vs_nx_absdiff": 0.0,
+  "selfcheck_dQ_formula_maxabsdiff": 0.0,
+  "plateau_nmi_ge_98_coarse": [
+    1.0,
+    1.0
+  ],
+  "plateau_nmi_ge_98_all": [
+    1.0,
+    1.0
+  ],
+  "plateau_nmi_ge_95_coarse": [
+    1.0,
+    1.0
+  ],
+  "plateau_nmi_ge_95_all": [
+    1.0,
+    1.0
+  ],
+  "plateau_nmi_ge_90_coarse": [
+    1.0,
+    1.1
+  ],
+  "plateau_nmi_ge_90_all": [
+    1.0,
+    1.1
+  ],
+  "plateau_nmi_ge_85_coarse": [
+    0.9,
+    2.3
+  ],
+  "plateau_nmi_ge_85_all": [
+    0.9,
+    2.3
+  ],
+  "plateau_nmi_ge_80_coarse": [
+    0.7,
+    3.0
+  ],
+  "plateau_nmi_ge_80_all": [
+    0.7,
+    3.0
+  ],
+  "plateau_nmi_rel_ceiling_ge_100_coarse": [
+    1.0,
+    1.1
+  ],
+  "plateau_nmi_rel_ceiling_ge_100_all": [
+    1.0,
+    1.1
+  ],
+  "plateau_ari_rel_ceiling_ge_100_coarse": [
+    1.0,
+    1.1
+  ],
+  "plateau_ari_rel_ceiling_ge_100_all": [
+    1.0,
+    1.1
+  ],
+  "plateau_nmi_rel_ceiling_ge_98_coarse": [
+    0.9,
+    1.2
+  ],
+  "plateau_nmi_rel_ceiling_ge_98_all": [
+    0.9,
+    1.2
+  ],
+  "plateau_ari_rel_ceiling_ge_98_coarse": [
+    1.0,
+    1.1
+  ],
+  "plateau_ari_rel_ceiling_ge_98_all": [
+    1.0,
+    1.1
+  ],
+  "plateau_nmi_rel_ceiling_ge_95_coarse": [
+    0.9,
+    2.2
+  ],
+  "plateau_nmi_rel_ceiling_ge_95_all": [
+    0.9,
+    2.2
+  ],
+  "plateau_ari_rel_ceiling_ge_95_coarse": [
+    0.9,
+    1.1
+  ],
+  "plateau_ari_rel_ceiling_ge_95_all": [
+    0.9,
+    1.1
+  ],
+  "plateau_nmi_rel_ceiling_ge_90_coarse": [
+    0.7,
+    3.0
+  ],
+  "plateau_nmi_rel_ceiling_ge_90_all": [
+    0.7,
+    3.0
+  ],
+  "plateau_ari_rel_ceiling_ge_90_coarse": [
+    0.9,
+    1.7
+  ],
+  "plateau_ari_rel_ceiling_ge_90_all": [
+    0.9,
+    1.7
+  ],
+  "ref_seed_noise_ceiling_ARI": 0.7948,
+  "argmax_within_seed_ARI_coarse": 1.5,
+  "within_seed_ARI_at_gamma1": 0.7948,
+  "within_seed_ARI_max_coarse": 0.8944,
+  "within_seed_ARI_min_coarse": 0.4704,
+  "n_ns_within_2sd_band_gamma_range": [
+    0.8,
+    1.2
+  ],
+  "phase_transition_gamma_list_coarse": [],
+  "phase_transition_gamma_list_all_ladder": [],
+  "max_gamma_star_ref_pairs": 0.9613,
+  "n_ref_pairs_by_gamma_star": {
+    ">1": 0,
+    "(0.8,1]": 4,
+    "(0.5,1]": 23,
+    "(0.25,1]": 65
+  },
+  "pair_curve_n_ok_pairs": 143,
+  "pair_curve_median_abs_pred_minus_emp": 0.1119,
+  "pair_curve_median_signed_pred_minus_emp": -0.0279,
+  "pair_curve_pearson_r_pred_vs_emp": NaN,
+  "pair_curve_status_counts": {
+    "ok": 223,
+    "separated_already_at_grid_min": 21
+  },
+  "intra_ref_split_n_pairs": 13,
+  "intra_ref_split_n_emp_split_gt_1": 0,
+  "intra_ref_split_n_pred_gamma_le_1": 4,
+  "intra_ref_split_parent_communities": [
+    18,
+    23,
+    26,
+    41,
+    46,
+    80,
+    84
+  ],
+  "within_seed_NMI_max": 0.9507,
+  "within_seed_NMI_min": 0.5809,
+  "plateau_within_seed_NMI_ge_max_minus_0.02_coarse": [
+    1.4,
+    3.0
+  ],
+  "n_gamma_ns_within_2sd_of_ref": 5,
+  "n_gamma_nmi_ge_0.90": 1,
+  "n_gamma_nmi_lt_0.90": 32,
+  "events_pred_inside_interval_frac": 0.1667,
+  "n_strong_split_events": 1,
+  "n_strong_split_events_touching_gamma1": 0
+}

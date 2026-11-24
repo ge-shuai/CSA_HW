@@ -1,0 +1,9 @@
+﻿hub,degree_u,strength_u,n_incident_edges,weight_sum,cross_community_edges_seed42,cross_community_share
+en.ustc.edu.cn,63,2184,63,2184,44,0.6984
+fusep.ustc.edu.cn,74,1107,74,1107,46,0.6216
+news.ustc.edu.cn,76,1693,76,1693,54,0.7105
+staff.ustc.edu.cn,92,975,92,975,65,0.7065
+teach.ustc.edu.cn,119,4033,119,4033,92,0.7731
+wpsearch.ustc.edu.cn,89,296,89,296,84,0.9438
+ALL_HUB_EDGES,513,10288,505,9918,378,0.7485
+WHOLE_GRAPH,0,0,2498,63263,1384,0.554

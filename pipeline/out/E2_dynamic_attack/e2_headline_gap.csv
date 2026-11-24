@@ -1,0 +1,6 @@
+﻿strategy,max_gcc_gap_pp,at_f,gcc_static_pct_at_max_gap,gcc_dynamic_pct_at_max_gap,max_E_fixed_gap,E_fixed_gap_at_f,E_fixed_static,E_fixed_dynamic,mean_gcc_gap_pp_over_grid
+betweenness,37.69,0.1202,46.29,8.61,0.0358,0.1202,0.0455,0.0097,3.9
+degree,18.69,0.1602,27.45,8.75,0.0134,0.0801,0.0948,0.0814,1.98
+kcore,9.35,0.2804,13.65,4.3,0.0027,0.2804,0.0048,0.0021,-3.05
+pagerank_dw,6.97,0.5593,13.2,6.23,0.0102,0.0994,0.1578,0.1476,-1.76
+pagerank_uu,11.72,0.1395,36.65,24.93,0.0082,0.1395,0.0194,0.0111,1.02

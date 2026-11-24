@@ -1,0 +1,10 @@
+﻿scenario,label_count,verified_count,count_matches_label,n_in_baseline,pct_of_baseline_nodes,n_true_fail,n_false_fail,n_ambiguous,n_partial,n_dead,true_share_pct,false_share_pct,is_all_true_failure,k_after_SS22_correction
+ambiguous1,1,1,True,1,0.148,0,0,1,0,1,0.0,0.0,False,1
+false32,32,32,True,32,4.748,0,32,0,0,32,0.0,100.0,False,0
+partial_authlike69,69,69,True,69,10.237,0,0,0,69,0,0.0,0.0,True,69
+partial_clean80,80,80,True,80,11.869,0,0,0,80,0,0.0,0.0,True,80
+true129,129,129,True,129,19.139,129,0,0,0,129,100.0,0.0,True,129
+partial149,149,149,True,149,22.107,0,0,0,149,0,0.0,0.0,True,149
+dead162,162,162,True,162,24.036,129,32,1,0,162,79.63,19.75,False,130
+combo209,209,209,True,209,31.009,129,0,0,80,129,61.72,0.0,True,209
+combo311,311,311,True,311,46.142,129,32,1,149,162,41.48,10.29,False,279

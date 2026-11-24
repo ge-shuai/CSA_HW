@@ -1,0 +1,42 @@
+A2_small_world RUN.txt
+command: python run_a2.py   (cwd = pipeline/)
+versions: {'python': '3.12.13', 'networkx': '3.6.1', 'pandas': '3.0.2', 'numpy': '2.4.4', 'SEED': 20261113, 'PYTHONHASHSEED': '0'}
+SEED = C.SEED = 20261113; N_INST = 100; N_CFG = 100; WS_KS = (6, 8); WS_PS = (0.0, 0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1.0)
+csa_common.assert_anchors(): 31/31 PASS (脚本开头调用)
+elapsed: 878.5 s
+[    0.00s] A2_small_world start; SEED=20261113; N_INST=100; N_CFG=100
+[    1.23s] csa_common.assert_anchors(): 31/31 PASS
+[    1.71s] GCC674 n=674 m=2497 kavg=7.4095 L=3.2702 diam=7 C=0.2788 assort=-0.1679
+[    2.77s] fast APSP / clustering self-check vs networkx: PASS
+[    2.77s]   OK  avg_pathlen_gcc674(task=3.2702): got=3.2702
+[    2.77s]   OK  diameter_gcc674(task=7): got=7.0000
+[    2.77s]   OK  clustering_gcc674(task=0.2788): got=0.2788
+[    2.77s]   OK  assortativity_gcc674(task=-0.1679): got=-0.1679
+[    2.77s]   OK  clustering_gu676_C_all(anchor=0.2780): got=0.2780
+[    2.77s]   OK  clustering_gu676_C_lcc(=gcc674 0.2788): got=0.2788
+[    2.77s]   OK  assortativity_gu676(anchor=-0.1674): got=-0.1674
+[    2.77s] ER gnp p = kavg/(n-1) = 7.4095/673 = 0.011010
+[   25.07s] ER_gnp done (100 inst): kavg=7.3606 C=0.01074 L=3.4859
+[  119.88s] WS k=6 done (8 p x 100 inst)
+[  227.68s] WS k=8 done (8 p x 100 inst)
+[  315.17s] CFG via C.degree_preserving_null: n_reps=100; 复算 30 轮全部缓存命中 hits=31(=30 轮 + obs) misses=0 => 所有指标来自同一批独立复制-交换实例
+[  315.17s] CFG: C_mean=0.1035 sd=0.0062 z=28.14 p=0.0000
+[  683.82s] D2a done: 三角总数不变=100% 接受率=0.138 C_lcc=0.1044 trans=0.1236 L=3.2476 assort=-0.0632
+[  779.78s] D2b done: C_all(逐点平均聚类)精确不变比例=100% C_lcc=0.2856 trans=0.1236 L=3.2223 assort=-0.1652 lcc_frac=0.9763
+[  779.78s] 混合度诊断（与观测 GCC674 重合边占比 mean）: ER_gnp 0.000 | CFG_D1 0.117 | D2a 0.128 | D2b 0.806
+[  859.54s] D3 obs-WS scan done (8 p x 100 inst)
+[  859.54s] GCC674 内：dead=162 partial=149 healthy=358; GCC 外的健康节点 2 个 = ['bm.ustc.edu.cn', 'l.bm.ustc.edu.cn']; 度=1 叶子共 184 个，其中 dead 101 个
+[  859.65s] 距离=7 的点对 37 对：至少一端 dead 37 对 (100.0%)，两端都 dead 19 对
+[  859.65s] GCC 度分布：度=1 共 184 个节点，度<=2 共 282 个
+[  859.69s] subset healthy360_in_gu676: n=360 lcc=338 ncomp=22 L=3.1485 diam=8 C=0.3115 C_all=0.2924 assort=-0.2037
+[  859.73s] subset healthy358: n=358 lcc=338 ncomp=21 L=3.1485 diam=8 C=0.3115 assort=-0.2047
+[  859.80s] subset nonleaf_all: n=490 lcc=490 ncomp=1 L=2.9107 diam=6 C=0.3988 assort=-0.1710
+[  859.87s] subset dead_removed: n=512 lcc=512 ncomp=1 L=3.0938 diam=8 C=0.3235 assort=-0.1684
+[  863.04s] rand358: L=3.4749 diam=8.05 C=0.2207
+[  867.17s] degmatch358: L=3.1293 diam=7.04 C=0.2941
+[  867.51s] 点对分组平均距离: alive-alive=3.0731 alive-dead=3.4883 dead-dead=3.8614
+[  867.51s] 死站度: kavg=1.8272 叶子=101/162; 健康站 kavg=9.5391 叶子=61/358; 非叶子死站中位于非死站-非死站最短路径上的 61 个
+[  878.27s] L 口径敏感性: obs L_lcc=3.2702 L_harmonic_lcc=3.0169 L_reachable_all=3.2702
+[  878.27s] ER 口径敏感性: L_lcc=3.4859 L_harmonic_lcc=3.2638 L_reachable_all=3.4859 connected=67%
+[  878.34s] sigma table built for 30 models
+[  878.50s] written: smallworld_metrics.csv, smallworld_instances.csv, gcc674_node_profile.csv

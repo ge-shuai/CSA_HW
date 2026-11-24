@@ -1,0 +1,97 @@
+[    3.1s] assert_anchors() 31/31 PASS
+[    3.4s] Gu 676/2498  Gd 676/2788  attributed=671
+[    8.2s] C.centralities -> 676 rows x 7 cols
+[    8.3s] HITS pinned (nstart=uniform): max |dev vs csa_common| hub=1.11e-16 auth=1.11e-16
+[   19.3s] matrix (671, 20)
+[   19.5s] spearman/kendall vs scipy OK (tau-b=0.6419)
+[   19.6s] HITS noise floor: |¦¤rho_s| max=0.0112 median=0.0000 pairs crossing 0.90=0
+[   27.8s] tie stability done, R=200
+[   27.9s] Top-20 changed by noise collapse: {}
+[   27.9s] clusters@0.90 average=8 complete=8 cliques090=4
+[   28.3s] saved all csv/json
+{
+ "spearman_pairs": {
+  "n": 66,
+  "min": 0.2781,
+  "p25": 0.484,
+  "median": 0.6516,
+  "p75": 0.7648,
+  "max": 0.9857,
+  "argmin": [
+   "pr_dw",
+   "hits_hub"
+  ],
+  "argmax": [
+   "deg_u",
+   "kcore"
+  ]
+ },
+ "kendall_pairs": {
+  "n": 66,
+  "min": 0.1992,
+  "median": 0.5099,
+  "p75": 0.6273,
+  "max": 0.9421,
+  "argmin": [
+   "pr_dw",
+   "hits_hub"
+  ],
+  "argmax": [
+   "deg_u",
+   "kcore"
+  ]
+ },
+ "top20_jaccard_pairs": {
+  "min": 0.0526,
+  "median": 0.2311,
+  "max": 0.6667
+ },
+ "n_pairs_same_meaning_rho090": 6,
+ "n_pairs_same_meaning_both": 2,
+ "meanings": {
+  "theta_0.95": {
+   "avg": 10,
+   "complete": 10
+  },
+  "theta_0.9": {
+   "avg": 8,
+   "complete": 8
+  },
+  "theta_0.85": {
+   "avg": 7,
+   "complete": 7
+  },
+  "theta_0.8": {
+   "avg": 6,
+   "complete": 6
+  }
+ },
+ "cliques_rho_ge_090": [
+  [
+   "hits_hub",
+   "out_degree",
+   "out_strength"
+  ],
+  [
+   "bet_u",
+   "deg_u"
+  ],
+  [
+   "deg_u",
+   "kcore"
+  ],
+  [
+   "hidx_in_in",
+   "in_degree"
+  ]
+ ],
+ "consensus_all12": [],
+ "n_in_ge10_lists": 1,
+ "hindex": {
+  "max": 14,
+  "mean": 2.313,
+  "zero": 10,
+  "spearman_vs_in_degree": 0.9315,
+  "spearman_vs_in_deg_alt_variant": 0.9343
+ }
+}

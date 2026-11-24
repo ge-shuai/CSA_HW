@@ -1,0 +1,4 @@
+﻿variable,stratum,n,share_of_671,n_bin,dead_n,dead_rate,dead_ci_lo,dead_ci_hi,partial_n,partial_rate,partial_ci_lo,partial_ci_hi,true_fail_n,true_fail_rate,true_fail_ci_lo,true_fail_ci_hi,clean_part_n,clean_part_rate,clean_part_ci_lo,clean_part_ci_hi,mean_in_degree,mean_degree_u,mean_out_degree,n_dead_with_out0
+listed_urls,=1,173,0.2578,173,113,0.6532,0.5796,0.7201,0,0.0,0.0,0.0217,96,0.5549,0.4805,0.627,0,0.0,0.0,0.0217,1.329,1.37,0.04,113
+listed_urls,2-19,146,0.2176,146,47,0.3219,0.2515,0.4014,43,0.2945,0.2266,0.373,32,0.2192,0.1597,0.293,20,0.137,0.0905,0.2021,3.397,4.459,1.192,47
+listed_urls,=20（真正的落库上限，ok_ratio_pct 的分母）,352,0.5246,352,2,0.0057,0.0016,0.0205,106,0.3011,0.2556,0.351,1,0.0028,0.0005,0.0159,60,0.1705,0.1348,0.2132,5.844,11.656,7.406,2

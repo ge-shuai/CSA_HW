@@ -1,0 +1,14 @@
+﻿sample,model,k,thr_maximising_f1_on_oof,f1_at_that_thr,caveat
+S_uncorr_671,M0_intercept,5,0.1918,0.3225,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_uncorr_671,M1_url_only,5,0.296,0.6497,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_uncorr_671,M2_url_category,5,0.2256,0.7545,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_uncorr_671,M3_url_category_indegree,5,0.2539,0.7545,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_uncorr_671,M4_full_with_auth,5,0.2545,0.795,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_uncorr_671,N1_indegree_only,5,0.274,0.4388,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_uncorr_671,N2_url_indegree_PRIMARY,5,0.3388,0.6534,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_corr_638,M0_intercept,5,0.2016,0.3219,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_corr_638,M1_url_only,5,0.3085,0.6977,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_corr_638,M2_url_category,5,0.2897,0.8317,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_corr_638,M3_url_category_indegree,5,0.2161,0.8289,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_corr_638,N1_indegree_only,5,0.2326,0.4562,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径
+S_corr_638,N2_url_indegree_PRIMARY,5,0.4097,0.7099,阈值是在同一批 OOF 分数上挑出来的 → 选择性乐观，只作参考，不作主口径

@@ -1,0 +1,20 @@
+﻿item,value,note
+edges_total_directed,2788.0,锚点 2788
+edges_from_dead,0.0,锚点 0 → 死站出边**完全**不可观测（不是低估，是缺失）
+weight_from_dead,0.0,出边权重合计同样为 0
+edges_dead_to_dead,0.0,锚点 0 → 死—死相邻构造性不可识别
+edges_to_dead,296.0,=edges_alive_to_dead，因为不存在 dead→dead
+edges_alive_to_dead,296.0,锚点 296；入边可观测 → 失效分析主口径=入度
+weight_to_dead,4276.0,占全网权重 0.0676
+dead_n,162.0,锚点 162
+dead_out_degree_zero_n,162.0,/162 = 100%
+dead_out_degree_max,0.0,死站出度最大值
+dead_out_degree_mean,0.0,恒等于 0
+dead_in_degree_mean,1.8272,唯一可观测的度
+dead_in_degree_median,1.0,
+dead_in_degree_max,22.0,入度是可观测的：死站最高 22
+undirected_edges_touching_dead,296.0,296：死站参与的无向边全部来自活站
+Gu_pairset_equals_Gd_pairset,1.0,1=无向边集就是有向边集的底图（2498）
+dead_degreeU_equals_inDegree_1to1,1.0,1=死站的无向度集合与入度集合逐点相同（定义性事实）
+degree_u_eq_in_plus_out_n_of_671,435.0,只有 435/671 成立：存在互指边时 degree_u<in+out（度分解不能直接相加）
+urls_csv_page_level_hrefs_available,0.0,urls.csv 无页面级链接来源 → 无法反查被删失的出边

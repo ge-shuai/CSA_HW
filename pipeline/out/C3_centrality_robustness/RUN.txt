@@ -1,0 +1,11 @@
+C3_centrality_robustness RUN.txt
+command: set PYTHONHASHSEED=0 && python out/C3_centrality_robustness/run_c3.py (bash: PYTHONHASHSEED=0 python out/C3_centrality_robustness/run_c3.py; cwd=pipeline)
+versions: {"python": "3.12.13", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+SEED=20261113; tie-permutation rng = np.random.default_rng(SEED + r), r=0..99; bootstrap rng = np.random.default_rng(SEED + 7919*(r+1)), r=0..49; random-null rng = np.random.default_rng(SEED) (2000 draws)
+wall time: 129.25s ; per-stage: {"build": 1.8, "measures": 6.96, "rankings": 19.03, "null": 0.18, "bootstrap": 100.36, "decision": 0.6}
+anchors: csa_common.assert_anchors() 31/31 PASS
+graphs: csa_common.build_all / strip_hub_edges / strong_backbone / hub_nodes (exact 6 FQDN)
+candidate pool identical across variants = 671 attributed nodes; TOP_K=20
+HITS pinned via nstart=uniform (networkx 3.6 nx.hits -> svds(v0=None) is not process-reproducible)
+decision rule: PASS := 三对两两口径 Jaccard 的最小值（取 100 次并列打散的**最坏值**）>= 0.5；抽样稳定性（删 10% 节点，50 次）作为第二道门与单点脆弱标记（p10<0.25 或 min<0.10）一并给出
+outputs: graph_variant_profile.csv tie_boundary.csv top20_jaccard_by_measure.csv jaccard_matrix_deterministic.csv jaccard_matrix_worstcase.csv bootstrap_stability.csv bootstrap_raw.csv decision_table.csv nodes_stable_top20.csv top20_lists.csv c3_summary.json result.md

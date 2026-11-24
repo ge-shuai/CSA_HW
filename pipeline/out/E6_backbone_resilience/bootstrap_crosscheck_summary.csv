@@ -1,0 +1,2 @@
+﻿edges_checked,draws_per_edge,alpha,correction,mean_abs_diff_A_vs_boot,max_abs_diff_A_vs_boot,mean_abs_diff_B_vs_boot,max_abs_diff_B_vs_boot,mean_abs_diff_C_vs_boot,max_abs_diff_C_vs_boot,spearman_A_vs_boot,spearman_B_vs_boot,spearman_C_vs_boot,keep_A,keep_B,keep_C,keep_boot,agreement_A_vs_boot,agreement_B_vs_boot,agreement_C_vs_boot
+250,20000,0.05,sidak_power,0.083381,0.639855,0.511022,0.734893,0.265951,0.636876,0.8574,0.8462,0.7461,6,117,1,0,0.976,0.532,0.996

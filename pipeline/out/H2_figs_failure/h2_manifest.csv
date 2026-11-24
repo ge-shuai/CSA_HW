@@ -1,0 +1,4 @@
+﻿figure,fig,png_bytes,pdf_bytes,csv_rows
+h2_health_gradient,h2_health_gradient,405173,28586,30
+h2_outdegree_censoring,h2_outdegree_censoring,247407,20076,33
+h2_observed_failures,h2_observed_failures,374149,25265,9

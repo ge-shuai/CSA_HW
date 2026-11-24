@@ -1,0 +1,4 @@
+﻿health_state,n,mean_in_degree,mean_out_degree,n_out_degree_zero,share_out_degree_zero,n_listed_urls_at_cap20,share_listed_urls_at_cap20
+healthy,360,4.942,5.786,118,0.3278,244,0.6778
+partial,149,4.752,4.732,38,0.255,106,0.7114
+dead,162,1.827,0.0,162,1.0,2,0.0123

@@ -1,0 +1,11 @@
+﻿scope,violation,count,evidence,verdict,note
+全流水线,绕过 csa_common 自建站点网络,0 处,扫描 run_*.py 的 nx.Graph(/nx.DiGraph(/from_pandas_edgelist；命中项逐条看上下文,合规,A4:147 是分量级缩点 DAG（从已建好的 G 派生）、B4:76 是从 Gu 派生权重变体、A2:310 是度保持零模型重连；均非重建原始网络
+全流水线,使用 nodes_full.csv 的 degree/color 禁用列,0 处,grep nodes_full 且含 degree|color，排除注释与显式 drop,合规,命中两处均为说明文字（H4:316 讲陷阱、G3:1039 讲已 drop）
+全流水线,把 E_full / E_gcc 上升当结论,0 处,grep E_full 且含 上升|提高|增加|更高|改善，排除 假象|分母|收缩|不可|禁止,合规,唯一命中 E1:65 是主动声明 E_full 在部分档位上升属分母收缩
+F2_template_families,社区数只报 n_comms_total 不报 nonsingleton,不适用,该单元不跑 Louvain，社区数引用自 B*,合规,F2 的对象是模板家族（Jaccard 家族划分），不是社区；其 NMI 的社区一侧来自 B 组已声明数值
+全流水线,把边权解释成流量/重要性,0 处,grep 权重 近 12 字内出现 流量|重要性，排除否定语境,合规,CONVENTIONS §1 的权重语义在各单元均被遵守
+E6_backbone_resilience,跨分母比 E_fixed,0 处,长表分母是列（453602/3080/134322），逐行只带自己那个；跨图只比图内归一化比值,合规,I1 已独立复核并确认合法
+6 个单元的 RUN.txt,写死服务器工作目录 /home/baifeiyang2026/csa_run_20261123,6 个文件,grep -rl csa_run_20261123 --include=RUN.txt,建议,收工后该目录被删，路径即失效；建议改为相对路径或注明「临时工作目录，已清理」
+16 个单元,__pycache__ 随交付,16 个目录,find -name '*.pyc',建议,字节码不应进交付；回写本机时已由 merge.py 排除 __pycache__
+CONVENTIONS §2.3,契约表混写 676/674 两个图的 E_full,1 处,CONVENTIONS.md:69 的 E_full=0.3295 是 676 口径，同表的 E_gcc/E_fixed 是 674 口径,建议,I1 也独立发现此问题；契约表建议补一行口径标签，避免后人拿 0.3295 与 0.3514 直接比
+E3_percolation,表头标注与数值差 1 个网格步,1 处,e3_perc_thresholds.csv:2 的 0.408012 被标为「200 次均值」，而真正的 200 次均值是 0.409496,建议,两个不同估计量（均值曲线首次跌破 vs 阈值的均值）；I1 §2.1 有完整算式

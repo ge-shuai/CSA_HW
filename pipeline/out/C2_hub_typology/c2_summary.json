@@ -1,0 +1,143 @@
+{
+  "module": "C2_hub_typology",
+  "versions": {
+    "python": "3.12.13",
+    "networkx": "3.6.1",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "SEED": 20261113,
+    "PYTHONHASHSEED": "0"
+  },
+  "seed": 20261113,
+  "primary_subset": "alive = 671 attributed - 162 整站不可用 = 509",
+  "cut_rule": "P50 of each axis on the primary subset, high = value strictly > threshold",
+  "thresholds_primary": {
+    "t_in": 2.0,
+    "t_out": 2.0
+  },
+  "thresholds_all671": {
+    "t_in": 2.0,
+    "t_out": 1.0
+  },
+  "class_counts_primary": {
+    "导航型枢纽": 93,
+    "内容型权威": 91,
+    "双向枢纽": 151,
+    "边缘": 174,
+    "出度删失，无法归类": 162
+  },
+  "class_counts_all671": {
+    "导航型枢纽": 119,
+    "内容型权威": 93,
+    "双向枢纽": 173,
+    "边缘": 286
+  },
+  "dead_nodes_redistributed_in_all671": {
+    "边缘": 138,
+    "内容型权威": 24
+  },
+  "alive_nodes_reclassified_by_fullsample_cut": {
+    "changed": 48,
+    "of": 509,
+    "share": 0.0943
+  },
+  "censoring_evidence": {
+    "arcs_from_dead": 0,
+    "arcs_to_dead": 296,
+    "out_degree_zero_among_dead": 162,
+    "n_alive_out_zero": 156
+  },
+  "degree_axis_note": "入度含 296 条活站指向死站的弧，可观测；出度对死站 100% 不可观测",
+  "sensitivity_agreement_with_primary": [
+    {
+      "kind": "quantile_alive509",
+      "rule": "P50",
+      "share_agree": 1.0
+    },
+    {
+      "kind": "quantile_alive509",
+      "rule": "P60",
+      "share_agree": 0.7485
+    },
+    {
+      "kind": "quantile_alive509",
+      "rule": "P75",
+      "share_agree": 0.556
+    },
+    {
+      "kind": "quantile_alive509",
+      "rule": "P90",
+      "share_agree": 0.4126
+    },
+    {
+      "kind": "subset_healthy360",
+      "rule": "P50",
+      "share_agree": 1.0
+    },
+    {
+      "kind": "subset_healthy360",
+      "rule": "P75",
+      "share_agree": 0.5778
+    },
+    {
+      "kind": "strength_alive509",
+      "rule": "P50 on in/out_strength",
+      "share_agree": 0.6346
+    },
+    {
+      "kind": "corrected_541_threshold",
+      "rule": "P50(509 活站+32 假失效=541)",
+      "share_agree": 1.0
+    },
+    {
+      "kind": "ALL671_censoring_contaminated",
+      "rule": "P50(全样本 671)",
+      "share_agree": NaN
+    },
+    {
+      "kind": "random_label_baseline",
+      "rule": "按主口径边际分布随机打乱",
+      "share_agree": 0.2716
+    }
+  ],
+  "random_label_baseline_share_agree": 0.2716,
+  "nav_hub6_class": {
+    "teach.ustc.edu.cn": "双向枢纽",
+    "wpsearch.ustc.edu.cn": "导航型枢纽",
+    "fusep.ustc.edu.cn": "导航型枢纽",
+    "staff.ustc.edu.cn": "双向枢纽",
+    "en.ustc.edu.cn": "双向枢纽",
+    "news.ustc.edu.cn": "双向枢纽"
+  },
+  "overlap_with_degree_u_top20": {
+    "导航型枢纽": [
+      3,
+      0.0273
+    ],
+    "内容型权威": [
+      0,
+      0.0
+    ],
+    "双向枢纽": [
+      17,
+      0.1104
+    ],
+    "边缘": [
+      0,
+      0.0
+    ],
+    "出度删失，无法归类": [
+      0,
+      0.0
+    ]
+  },
+  "timing_s": {
+    "build": 4.46,
+    "primary": 0.02,
+    "all671": 0.03,
+    "censoring": 0.02,
+    "sensitivity": 0.72,
+    "summary_tables": 0.12
+  },
+  "wall_s": 5.81
+}

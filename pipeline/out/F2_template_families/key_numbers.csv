@@ -1,0 +1,32 @@
+﻿key,value,src_line
+n_eligible_listed_ge10,394,run_f2.py:L86
+manifest_claimed_eligible,394,run_f2.py:L87
+eligible_matches_manifest,True,run_f2.py:L88
+n_url_rows_cap20,352,run_f2.py:L89
+median_listed_urls_eligible,20.0,run_f2.py:L90
+dist_mean,0.7781839605510525,run_f2.py:L99
+dist_median_q50,0.8333333333333334,run_f2.py:L100
+dist_q75,0.9,run_f2.py:L101
+dist_q90,1.0,run_f2.py:L102
+frac_zero_distance_pairs,0.026698182663618397,run_f2.py:L103
+t_star_average,0.29,run_f2.py:L140
+t_star_complete,0.29,run_f2.py:L141
+n_families_total,230,run_f2.py:L146
+n_families_nonsingleton,37,run_f2.py:L147
+n_singleton_families,193,run_f2.py:L148
+largest_family,49,run_f2.py:L149
+coverage_nonsingleton,0.5101522842639594,run_f2.py:L150
+t_star_tokens,0.29,run_f2.py:L176
+largest_family_tokens,50,run_f2.py:L177
+n_families_size_ge5,7,run_f2.py:L190
+n_families_size_ge20,2,run_f2.py:L191
+louvain_seed42_comms,25,run_f2.py:L242
+louvain_seed42_Q,0.6904343256899503,run_f2.py:L243
+nmi_obs_seed42,0.5068,run_f2.py:L283
+ari_obs_seed42,0.0059,run_f2.py:L284
+n_matched_random_draws,1000,run_f2.py:L285
+nmi_seed_range,"[0.4811, 0.5274]",run_f2.py:L311
+nmi_seed_median,0.5126999999999999,run_f2.py:L312
+comms_seed_range,"[20, 28]",run_f2.py:L313
+family_edge_lift,1.4815,run_f2.py:L358
+family_edge_p_hypergeom,0.000174,run_f2.py:L359

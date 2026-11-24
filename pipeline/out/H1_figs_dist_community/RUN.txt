@@ -1,0 +1,27 @@
+H1_figs_dist_community —— 度/强度 CCDF + 拟合、社区布局、社区敏感性矩阵
+生成时间: 2026-11-22 21:43:04  用时 20.3s
+环境: {'python': '3.12.13', 'networkx': '3.6.1', 'pandas': '3.0.2', 'numpy': '2.4.4', 'SEED': 20261113, 'PYTHONHASHSEED': '0'}
+
+读 CSV 清单:
+  A1_degree_heavy_tail/ccdf_tables.csv, fits.csv, summary.csv
+  B1_louvain_stability/consensus_partitions.csv, recommended_partition_communities.csv, seed_sweep.csv
+  B2_algorithm_contrast/nmi_matrix.csv
+  B3_resolution_scan/resolution_stability.csv
+  B4_weight_variants/weight_variant_summary.csv
+csa_common 只提供图对象与节点属性（用于画布局），未重算任何统计量。
+布局坐标 = nx.spring_layout(Gu, seed=20261113)；社区标签 = B1 recommended 划分（avglink τ=0.6）。
+
+图注:
+  h1_ccdf_degree_strength: 双对数 CCDF + 四族拟合；虚线是 x_min。读图须知：双对数下近似直线不等于幂律。判据是 KS + 自举 p 值 + 配对似然比（见 A1 lr_tests.csv）。指数族的 ks_boot_p=0.000 被拒；截断幂律/对数正态与幂律彼此无法区分，因此这里能说的是'重尾、尾部指数约 2 的幂律不被拒绝'，不是'确认无标度'。
+  h1_community_layout: 点面积∝度；空心圈按失效类型分色（红=真失效 129、橙=假失效 32、紫=口径不明 1）；白方块=6 个导航枢纽；数字=共识社区号。
+  h1_community_sensitivity: (A) 算法两两 NMI；(B) 换 seed 的社区数与最大社区分布；(C) γ 扫描 vs 与 γ=1 的 NMI（灰虚线=seed 噪声天花板）；(D) 权重口径。
+
+每张图三件套：PNG(300dpi) + 矢量 PDF + fig_<name>.csv（图背后的数据）。
+figure dir: C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\H1_figs_dist_community
+A1 ccdf rows=488  fits rows=49
+fig1 {'fig': 'h1_ccdf_degree_strength', 'png_bytes': 321512, 'pdf_bytes': 22626, 'csv_rows': 305}
+读图须知：双对数下近似直线不等于幂律。判据是 KS + 自举 p 值 + 配对似然比（见 A1 lr_tests.csv）。指数族的 ks_boot_p=0.000 被拒；截断幂律/对数正态与幂律彼此无法区分，因此这里能说的是'重尾、尾部指数约 2 的幂律不被拒绝'，不是'确认无标度'。
+B1 recommended: method=avglink tau=0.6 n_seeds=50 nodes=676 comms=32
+fig2 {'fig': 'h1_community_layout', 'png_bytes': 734293, 'pdf_bytes': 189107, 'csv_rows': 676}
+布局口径：坐标=spring_layout(seed=20261113)，只用于摆放节点，不是分析结果；社区标签=B1 共识划分 avglink τ=0.6（50 个 seed），与单 seed Louvain 的 25 个社区不是同一套数，图上的 32 是共识社区数。
+fig3 {'fig': 'h1_community_sensitivity', 'png_bytes': 735239, 'pdf_bytes': 44945, 'csv_rows': 316}

@@ -1,0 +1,66 @@
+﻿tag,cite,value
+ANCHORS,run_c5.py:L192,31/31 PASS
+N_ATTRIBUTED,run_c5.py:L198,671
+N_GU,run_c5.py:L199,676
+N_GU_EDGES,run_c5.py:L200,2498
+N_GB_EDGES,run_c5.py:L201,2498
+Z_STAR,run_c5.py:L202,2.5
+P_STAR,run_c5.py:L203,0.62
+P_DOUBLE_STAR,run_c5.py:L204,0.8
+FLIP_TOL,run_c5.py:L205,0.3
+CANON_SEED,run_c5.py:L206,42
+EXTRA_SEEDS,run_c5.py:L207,"[20261113, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+N_SEEDS_TOTAL,run_c5.py:L208,12
+LOUVAIN_WALL_SECONDS,run_c5.py:L224,0.48
+CANON_COMMS,run_c5.py:L226,25
+CANON_COMMS_NONSINGLETON,run_c5.py:L227,25
+CANON_Q,run_c5.py:L228,0.69043
+CANON_LARGEST,run_c5.py:L229,87
+COMMS_RANGE,run_c5.py:L230,"[23, 26]"
+Q_RANGE,run_c5.py:L231,"[0.68418, 0.69307]"
+LARGEST_RANGE,run_c5.py:L232,"[83, 116]"
+COMMS_SD,run_c5.py:L233,0.853
+LARGEST_SD,run_c5.py:L234,11.981
+MEAN_MODULE_YIELD,run_c5.py:L241,0.02411876
+CANON_N_ZP_NODES,run_c5.py:L257,671
+CANON_ROLE_COUNTS,run_c5.py:L259,"{'peripheral': 447, 'non-hub_connector': 151, 'non-hub_kinless': 49, 'provincial_hub': 5, 'connector_hub': 10, 'kinless_hub': 8, 'network_hub': 1}"
+N_Z_OVER_STAR,run_c5.py:L260,24
+N_P_OVER_STAR,run_c5.py:L261,219
+N_CONNECTOR_NONHUB,run_c5.py:L262,200
+Z_PERCENTILES,run_c5.py:L263,"[-0.3856, 1.1491, 2.0538, 4.14134999999999, 6.0938]"
+P_PERCENTILES,run_c5.py:L264,"[0.4444, 0.7778, 0.8351999999999999, 0.8762599999999998, 0.9049]"
+P_MAX,run_c5.py:L265,0.9049
+Z_MAX,run_c5.py:L266,6.0938
+N_K_IN_SINGLE_MODULE_NODES,run_c5.py:L267,253
+ZP_BY_SEED_ROWS,run_c5.py:L300,8052
+ZP_NODES_PER_SEED,run_c5.py:L301,671
+ROLE_COUNTS_BY_SEED,run_c5.py:L304,"{'peripheral': [447, 446, 454, 453, 449, 441, 440, 443, 452, 453, 448, 444], 'non-hub_connector': [151, 152, 139, 149, 145, 155, 155, 161, 147, 146, 152, 157], 'non-hub_kinless': [49, 49, 54, 46, 54, 52, 52, 41, 49, 50, 49, 44], 'provincial_hub': [5, 6, 6, 6, 5, 5, 5, 5, 6, 6, 7, 6], 'connector_hub': [10, 8, 9, 8, 9, 8, 9, 8, 8, 7, 6, 9], 'kinless_hub': [8, 9, 8, 8, 8, 9, 9, 12, 8, 8, 8, 10], 'network_hub': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}"
+ROLE_RANGE_BY_SEED,run_c5.py:L305,"{'peripheral': [440, 454], 'non-hub_connector': [139, 161], 'non-hub_kinless': [41, 54], 'provincial_hub': [5, 7], 'connector_hub': [6, 10], 'kinless_hub': [8, 12], 'network_hub': [1, 1]}"
+ROLE_CV_BY_SEED,run_c5.py:L307,"{'peripheral': 0.011, 'non-hub_connector': 0.04, 'non-hub_kinless': 0.079, 'provincial_hub': 0.115, 'connector_hub': 0.128, 'kinless_hub': 0.139, 'network_hub': 0.0}"
+N_NODES_WITH_ROLE,run_c5.py:L340,671
+FRAC_STABLE_GE70,run_c5.py:L341,0.9106
+FRAC_MODAL_AGREES_CANON,run_c5.py:L342,0.9613
+KEPT_FRAC_MEAN,run_c5.py:L343,0.9372
+KEPT_FRAC_MEDIAN,run_c5.py:L344,1.0
+N_DISTINCT_ROLES_HIST,run_c5.py:L345,"{1: 538, 2: 124, 3: 9}"
+CLASS_VERDICT_TABLE,run_c5.py:L373,"[{'role': 'peripheral', 'role_cn': '外围节点 (peripheral)', 'n_canonical': 447, 'n_flipping': 19, 'flip_pct': 0.0425, 'kept_frac_mean': 0.9728, 'kept_frac_median': 1.0, 'kept_ge_half': 0.9776, 'verdict': '名单可用（翻转节点 <=30%）', 'usable_as_roster': True}, {'role': 'non-hub_connector', 'role_cn': '非枢纽连接者 (non-hub connector)', 'n_canonical': 151, 'n_flipping': 25, 'flip_pct': 0.1656, 'kept_frac_mean': 0.8731, 'kept_frac_median': 1.0, 'kept_ge_half': 0.9205, 'verdict': '名单可用（翻转节点 <=30%）', 'usable_as_roster': True}, {'role': 'non-hub_kinless', 'role_cn': '非枢纽无亲属 (non-hub kinless)', 'n_canonical': 49, 'n_flipping': 10, 'flip_pct': 0.2041, 'kept_frac_mean': 0.8537, 'kept_frac_median': 1.0, 'kept_ge_half': 0.9592, 'verdict': '名单可用（翻转节点 <=30%）', 'usable_as_roster': True}, {'role': 'provincial_hub', 'role_cn': '行省枢纽 (provincial hub)', 'n_canonical': 5, 'n_flipping': 0, 'flip_pct': 0.0, 'kept_frac_mean': 0.9833, 'kept_frac_median': 1.0, 'kept_ge_half': 1.0, 'verdict': '名单可用（翻转节点 <=30%）', 'usable_as_roster': True}, {'role': 'connector_hub', 'role_cn': '连接枢纽 (connector hub)', 'n_canonical': 10, 'n_flipping': 4, 'flip_pct': 0.4, 'kept_frac_mean': 0.7083, 'kept_frac_median': 0.79165, 'kept_ge_half': 0.8, 'verdict': '口径依赖，不可作为名单结论', 'usable_as_roster': False}, {'role': 'kinless_hub', 'role_cn': '无亲属枢纽 (kinless hub)', 'n_canonical': 8, 'n_flipping': 2, 'flip_pct': 0.25, 'kept_frac_mean': 0.9167, 'kept_frac_median': 1.0, 'kept_ge_half': 1.0, 'verdict': '名单可用（翻转节点 <=30%）', 'usable_as_roster': True}, {'role': 'network_hub', 'role_cn': '网络枢纽 (network hub)', 'n_canonical': 1, 'n_flipping': 0, 'flip_pct': 0.0, 'kept_frac_mean': 1.0, 'kept_frac_median': 1.0, 'kept_ge_half': 1.0, 'verdict': '名单可用（翻转节点 <=30%）', 'usable_as_roster': True}]"
+N_CLASSES_UNUSABLE,run_c5.py:L374,1
+UNUSABLE_CLASS_NAMES,run_c5.py:L375,['connector_hub']
+OVERALL_FLIP_GT30_PCT,run_c5.py:L376,0.0894
+OVERALL_FLIP_ANY_PCT,run_c5.py:L377,0.1982
+HUB_FLIP_GT30_PCT,run_c5.py:L379,0.25
+N_HUBS_CANON_TOTAL,run_c5.py:L380,24
+N_REP_ROWS,run_c5.py:L404,31
+REP_MOST_STABLE,run_c5.py:L406,"{'peripheral': np.float64(1.0), 'non-hub_connector': np.float64(1.0), 'non-hub_kinless': np.float64(1.0), 'provincial_hub': np.float64(1.0), 'connector_hub': np.float64(1.0), 'kinless_hub': np.float64(1.0), 'network_hub': np.float64(1.0)}"
+BINARY_VS_WEIGHTED_AGREE,run_c5.py:L420,0.7258
+BINARY_VS_WEIGHTED_AGREE_HUBS,run_c5.py:L422,0.1667
+N_HUBS_BINARY_CANON,run_c5.py:L423,24
+SPEARMAN_Z_BINARY_VS_WEIGHTED,run_c5.py:L425,0.626
+SPEARMAN_P_BINARY_VS_WEIGHTED,run_c5.py:L427,0.87
+N_CANON_MODULES_ATTR,run_c5.py:L465,25
+MODULE_JACCARD_MEAN,run_c5.py:L466,0.8363
+MODULE_JACCARD_MIN,run_c5.py:L467,0.0256
+MODULE_JACCARD_P10,run_c5.py:L468,0.6005
+MODULE_JACCARD_MAX,run_c5.py:L469,1.0
+N_MODULES_JACCARD_LT_05,run_c5.py:L470,1
+ROLE_HEALTH_TABLE,run_c5.py:L484,"[{'role': 'peripheral', 'n': 447, 'mean_ok_ratio_pct': 59.3633, 'pct_dead': 33.557, 'pct_healthy': 47.2036, 'n_true_fail': 123, 'mean_in_degree': 1.8859, 'mean_k_binary': 2.9396, 'mean_z': -0.2923, 'mean_P': 0.2033, 'mean_kept_frac': 0.9728}, {'role': 'non-hub_connector', 'n': 151, 'mean_ok_ratio_pct': 84.1053, 'pct_dead': 7.2848, 'pct_healthy': 65.5629, 'n_true_fail': 6, 'mean_in_degree': 5.0993, 'mean_k_binary': 9.0464, 'mean_z': 0.0581, 'mean_P': 0.6996, 'mean_kept_frac': 0.8731}, {'role': 'non-hub_kinless', 'n': 49, 'mean_ok_ratio_pct': 83.6531, 'pct_dead': 2.0408, 'pct_healthy': 61.2245, 'n_true_fail': 0, 'mean_in_degree': 12.3061, 'mean_k_binary': 23.6939, 'mean_z': 0.6903, 'mean_P': 0.8435, 'mean_kept_frac': 0.8537}, {'role': 'provincial_hub', 'n': 5, 'mean_ok_ratio_pct': 100.0, 'pct_dead': 0.0, 'pct_healthy': 100.0, 'n_true_fail': 0, 'mean_in_degree': 12.8, 'mean_k_binary': 30.2, 'mean_z': 3.7342, 'mean_P': 0.4962, 'mean_kept_frac': 0.9833}, {'role': 'connector_hub', 'n': 10, 'mean_ok_ratio_pct': 89.5, 'pct_dead': 0.0, 'pct_healthy': 70.0, 'n_true_fail': 0, 'mean_in_degree': 16.1, 'mean_k_binary': 37.2, 'mean_z': 3.2214, 'mean_P': 0.7179, 'mean_kept_frac': 0.7083}, {'role': 'kinless_hub', 'n': 8, 'mean_ok_ratio_pct': 98.75, 'pct_dead': 0.0, 'pct_healthy': 87.5, 'n_true_fail': 0, 'mean_in_degree': 42.125, 'mean_k_binary': 76.0, 'mean_z': 4.6063, 'mean_P': 0.843, 'mean_kept_frac': 0.9167}, {'role': 'network_hub', 'n': 1, 'mean_ok_ratio_pct': 100.0, 'pct_dead': 0.0, 'pct_healthy': 100.0, 'n_true_fail': 0, 'mean_in_degree': 5.0, 'mean_k_binary': 19.0, 'mean_z': 2.8838, 'mean_P': 0.6925, 'mean_kept_frac': 1.0}]"

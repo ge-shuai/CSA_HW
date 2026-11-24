@@ -1,0 +1,20 @@
+B6_community_semantics RUN log
+command: PYTHONIOENCODING=utf-8 python -X utf8 run_b6.py --stage all
+started/finished local: 2026-11-22 21:05:40
+runtime_sec: 87.4
+SEED=20261113  PYTHONHASHSEED=0
+python=3.12.13 networkx=3.6.1 pandas=3.0.2 numpy=2.4.4
+anchors: C.assert_anchors() 31/31 PASS (no exception raised)
+louvain seed42: comms=25 nonsingleton=25 Q=0.6904 largest=87 covered=676
+louvain robust(24 seeds 1..24): comms {'min': 20, 'median': 24.0, 'max': 28} nonsingleton {'min': 20, 'median': 24.0, 'max': 28} Q {'min': 0.6842, 'mean': 0.6903, 'sd': 0.0019, 'max': 0.6931} largest {'min': 66, 'median': 97.0, 'max': 121}
+N_PERM_MAIN=1000 N_PERM_PUR=1000 N_PERM_ALT=500 n_louvain_runs=25
+NMI obs(seed42)=0.1239 ARI=0.019 on n_compared=671
+NMI null mean=0.0628 sd=0.0054 q95=0.0721 z=11.257 p=0.0 (p_incl_obs=0.001)
+NMI across 25 seeds: obs 0.1124-0.1427 (median 0.1279), p 0.0-0.0, seeds above null q95 = 25
+purity size_weighted=0.4292 null=0.3997 lift=0.0295 p=0.0
+purity nonsingleton size_weighted=0.4292 null=0.3997 p=0.0
+assort overall r=0.0201 p=0.007 (weighted r=0.0904 p=0.037; nx Pearson on int codes=0.0201)
+assort same-class edge share=0.1913; BH-significant classes=7/10
+within-class rearrangement is identity: [0.020144, 0.020144]
+other_share=0.38 kappa_rows=split_half_keywords:0.4559/0.3124; core_vs_weak:0.3674/0.1919; title_front_vs_back:0.248/0.0649
+files: title_labels.csv classifier_quality.csv contingency.csv purity_by_community.csv nmi_permutation.csv category_scheme_sensitivity.csv assortativity_by_category.csv mixing_matrix.csv mixing_matrix_weighted.csv alternative_features.csv summary.json result.md

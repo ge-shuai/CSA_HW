@@ -1,0 +1,7 @@
+﻿rule,t,linkage,n_groups,n_nonsingleton,largest,silhouette
+R1_average_silhouette,0.29,average,230,37,49,0.4049297711860632
+R2_complete_silhouette,0.29,complete,240,37,49,0.4087735533228591
+R3_quantile50,0.8333333333333334,average,30,11,281,0.11128067033669882
+R3_quantile75,0.9,average,17,3,375,0.13095560719902807
+R3_quantile90,1.0,average,12,1,383,0.22820341231266017
+R4_tokens_S1_average_silhouette,0.29,average,295,30,50,0.29275995566905266

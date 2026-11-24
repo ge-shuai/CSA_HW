@@ -1,0 +1,9 @@
+[G3][QUICK] result.md 文本构建通过，213 行 / 11096 字符（未写盘）
+[G3] done in 14.8s (quick=True)
+[G3] classes: {'下线': 123, '修复': 121, '保护': 86, '监控': 5, '排除_假失效BC': 32, '排除_待判G': 1, '未分类': 303} unclassified=45.16%
+[G3] offline batch: gcc 674->551 pairs_lost=0 lost=0 max_inc=0 E_fixed=0.2327 (mech 0.2327)
+[G3] offline vs random k=123: E_fixed 0.2327 vs 0.1980+-0.0071 (+17.53%) p=0.000
+[G3] true-fail vs random: E_fixed 0.2280 vs 0.1880+-0.0074
+[G3] protection: n=86 sum_indiv_pairs=194358 joint=200354 additivity=1.03
+[G3] repair bracket: [0, 13440] pairs over n=121
+[G3] §2.3 cross-check delete-162: E_fixed 0.2039 (doc 0.2039) maxdiff 4.15e-05

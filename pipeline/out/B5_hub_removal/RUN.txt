@@ -1,0 +1,9 @@
+B5_hub_removal RUN.txt
+command: python run_b5.py  (working dir = pipeline/out/B5_hub_removal; 亦可从任意目录运行)
+python=3.12.13 networkx=3.6.1 pandas=3.0.2 numpy=2.4.4 PYTHONHASHSEED=0 SEED=20261113
+total wall time: 103.2s; per-stage: {"full_louvain_cache": 4.1, "main_41seeds": 11.1, "hub_choice": 75.1, "diagnostics": 11.1}
+anchors: csa_common.assert_anchors() 31/31 PASS
+seeds: main=41 (42 + 1..40), deterministic hub-choice=12, random draws=30 x louvain seeds [1, 2, 3]
+random control pool: nodes with degree_u >= ceil(min(deg(nav6))/2) = 32, pool size = 29 (min nav6 hub degree = 63); rng seeds = C.SEED*1000 + k*100 + draw (nodes), C.SEED*777 + draw (edges)
+louvain run count ~ 1,061
+outputs: dehub_summary.csv hub_choice_sensitivity.csv flow_table.csv nodes_reassigned.csv hub_edges_profile.csv B5_summary.json result.md

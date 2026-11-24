@@ -1,0 +1,8 @@
+﻿role,role_cn,n_canonical,n_flipping,flip_pct,kept_frac_mean,kept_frac_median,kept_ge_half,verdict,usable_as_roster
+peripheral,外围节点 (peripheral),447,19,0.0425,0.9728,1.0,0.9776,名单可用（翻转节点 <=30%）,True
+non-hub_connector,非枢纽连接者 (non-hub connector),151,25,0.1656,0.8731,1.0,0.9205,名单可用（翻转节点 <=30%）,True
+non-hub_kinless,非枢纽无亲属 (non-hub kinless),49,10,0.2041,0.8537,1.0,0.9592,名单可用（翻转节点 <=30%）,True
+provincial_hub,行省枢纽 (provincial hub),5,0,0.0,0.9833,1.0,1.0,名单可用（翻转节点 <=30%）,True
+connector_hub,连接枢纽 (connector hub),10,4,0.4,0.7083,0.79165,0.8,口径依赖，不可作为名单结论,False
+kinless_hub,无亲属枢纽 (kinless hub),8,2,0.25,0.9167,1.0,1.0,名单可用（翻转节点 <=30%）,True
+network_hub,网络枢纽 (network hub),1,0,0.0,1.0,1.0,1.0,名单可用（翻转节点 <=30%）,True

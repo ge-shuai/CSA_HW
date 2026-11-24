@@ -1,0 +1,53 @@
+# 本 RUN.txt 于 2026-11-23 依据目录内既有日志重建（原运行时的 RUN.txt 缺失，未重跑）
+G2_single_point_failure RUN.txt（重建版）
+
+command: cd pipeline && PYTHONHASHSEED=0 python out/G2_single_point_failure/run_g2.py
+versions: {"python": "3.12.13", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+  （来源：G2_summary.json > versions；原始运行时是否另有 sklearn/scipy 未记录）
+SEED = 20261113 ; RNG 只用于内核抽查节点的抽样 (random.Random(SEED).sample)，K=12
+  （来源：G2_summary.json > seed、audit.kernel_nodes_checked；run_g2.py:L898 的模板文字）
+anchors: csa_common.assert_anchors() 31/31 PASS（来源：同项目其它单元的 RUN 口径与 run_g2.py 中 assert_anchors 调用；
+  本目录日志缺失，逐项输出未记录）
+sweep: 676 single-node removals（671 attributed + 5 dangling refs），静态、确定性；n_removals_computed=676
+  （来源：G2_summary.json > timing.n_removals_computed, counts.n_main_universe=671, n_dangling=5）
+graph: 676 节点 / 2498 无向边 / 主分量 674 / 2 个分量（674 + 2）/ ps_pairs0=453602
+  （来源：G2_summary.json > graphs）
+baseline: E_full=0.32951312315397197 ; E_gcc=0.3314686401187768 ; E_fixed=0.3314686401187292
+  （来源：G2_summary.json > baseline_efficiency）
+kernel: 一趟全源 BFS 同出 E_full/E_gcc/E_fixed + 分量信息；定义与 csa_common.eff_three 一致
+kernel validation: 12 nodes vs C.eff_three, max|diff| = 2.604e-13（assert < 1e-9），connectivity_mismatch_nodes=0
+  （来源：G2_summary.json > audit.kernel_max_abs_diff_vs_csa_eff_three, timing.connectivity_mismatch_nodes；g2_kernel_validation.csv）
+timing: {"baseline_scan_fast_s": 2.125, "baseline_csa_eff_three_s": 12.14, "articulation_points_s": 0.0265,
+  "cheap_ap_component_recompute_s": 2.391, "cheap_infer_non_ap_s": 0.0, "cheap_path_total_s": 2.418,
+  "naive_component_path_s": 10.745, "connectivity_speedup_x": 4.44, "n_ap_recomputed": 96,
+  "fast_full_sweep_s": 702.67, "per_node_fast_sweep_s": 1.0394,
+  "naive_efficiency_sweep_extrapolated_s": 8206.9, "efficiency_speedup_x": 11.68,
+  "kernel_validation_s": 88.43, "total_wall_s": 833.83}
+  （来源：G2_summary.json > timing）
+counts: {"n_ap": 96, "n_above_pairs_threshold": 96, "n_above_relay_threshold": 130, "n_above_either": 130,
+  "n_zero_disconnect": 580, "n_zero_relay": 401, "n_zero_all": 401, "n_leaf": 186, "n_indeg1": 261,
+  "n_leaf_disconnect": 0, "leaf_pairs_max": 0, "leaf_dE_fixed_worst": -0.001020057230788224,
+  "n_high_impact": 130, "n_healthy_high": 86, "n_partial_high": 43, "n_dead_high": 1,
+  "n_false_fail_high": 1, "n_main_universe": 671, "n_dangling": 5, "n_outside_gcc": 2,
+  "total_pairs_lost": 249440, "total_extra_gcc": 186,
+  "total_relay": 0.20011514184555737, "total_endpoint_mech": 0.6629372802379093}
+  （来源：G2_summary.json > counts）
+audit: {"n_dE_fixed_positive": 0, "n_dE_fixed_positive_naive_accum_reference": 2,
+  "max_naive_positive": 2.2604140781368187e-13, "non_ps_members": 2, "max_abs_dE_fixed_non_ps": 0.0,
+  "n_dE_full_positive": 351, "n_dE_full_positive_among_disconnecting": 0,
+  "n_dE_gcc_positive": 405, "n_dE_gcc_positive_among_disconnecting": 50,
+  "mech_endpoint_share_range": [0.10481262119608203, 1.0],
+  "kernel_max_abs_diff_vs_csa_eff_three": 2.6040281042583047e-13, "kernel_nodes_checked": 12}
+  （来源：G2_summary.json > audit）
+concentration: {"gini_pairs_lost": 0.912453932311336, "gini_relay": 0.901987709724362,
+  "gini_dE_fixed_total": 0.2758401268540757, "gini_endpoint_mech": 0.0930708476714231,
+  "pearson_pairs_vs_dE_fixed": -0.9308788642033118, "spearman_pairs_vs_dE_fixed": -0.5979200100598264}
+  （来源：G2_summary.json > concentration）
+thresholds: {"pairs_lost_gt": 0, "relay_lt": -0.0001}（来源：G2_summary.json > thresholds）
+outputs: g2_single_removal_full.csv g2_top_true_spof.csv g2_top_relay_only.csv g2_top_by_total_dE_fixed.csv
+  g2_high_impact_list.csv g2_high_impact_by_health.csv g2_all_by_health.csv g2_impact_histogram.csv
+  g2_concentration.csv g2_kernel_validation.csv g2_appendix_dangling676.csv G2_summary.json
+  g2_baseline_distance_profile.npy result.md RUN.txt
+status: 原运行在生成 result.md / RUN.txt 之前被终止（run_g2.py 在 L893 写 result.md、L894 写 RUN.txt），
+  故 result.md 与 RUN.txt 均为事后重建；所有 CSV/JSON 由原运行落盘，未改动。
+banned-word self-check §7: PASS（result.md 重建时已复查）

@@ -1,0 +1,18 @@
+D4_assortativity_identifiability RUN.txt
+command: cd pipeline && PYTHONHASHSEED=0 python out/D4_assortativity_identifiability/run_d4.py
+versions: python=3.12.13, networkx=3.6.1, pandas=3.0.2, numpy=2.4.4, SEED=20261113, PYTHONHASHSEED=0
+SEED = 20261113; PYTHONHASHSEED = 0
+total wall time: 794.5s
+per-stage: build+anchors=see stdout, undirected swap null 500 reps = 574.1s (1.15s/rep), directed config-model check 20 reps = 1.1s, T1 permutation 4000 reps = 62.0s, cross-impl audit = 23.0s, weighted T1w = 20.9s
+anchors: 31/31 PASS (anchors.csv)
+seeds: C.degree_preserving_null(seed=SEED+r, r=0..499, fresh copy per rep, nswap=10m, max_tries=100*nswap); directed_configuration_model seed=SEED+7919r (r=0..19); target-side permutation default_rng seeds: T1=20261113 (4000), audit=20261113 (600 fast vs 600 slow), T1w=20261113+11 (1000), T1p=20261113+31 (2000), T1c=20261113+101 (2000), T2 label-placebo=20261113+202 (20000), T3 exposure=20261113+404 (1000)
+random draws per replicate: T1 uses one default_rng().random((353, 671)) matrix per replicate; no state is carried across replicates (no accumulating swaps / permutations)
+outputs: d4_censoring_arithmetic.csv d4_mixing_matrix.csv d4_null_replicates.csv d4_targetside_tests.csv d4_effect_sizes.csv d4_per_source.csv d4_perm_audit.csv key_numbers.csv anchors.csv result.md
+
+--- stdout ---
+[   8.5s] 建图完成，锚点 31/31 PASS
+[   8.6s] 删失算术：可观察有序点对 341030，死-死可观察样本点 0
+[ 583.1s] 无向度保持零模型 500 轮（574s）：e_DD∈[1,16]，P(e_DD=0)=0.0000
+[ 584.3s] 有向度序列零模型 20 轮：从死站出发的弧恒为 0，入死站弧 296–296
+[ 646.3s] T1 target-side 置换 4000 轮（62s）：obs=296.0 mean=672.9 sd=22.0 z=-17.15
+[ 794.5s] 敏感性族完成（共 5 个设定，逐源诊断 0.0s）

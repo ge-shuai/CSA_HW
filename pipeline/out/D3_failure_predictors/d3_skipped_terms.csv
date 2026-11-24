@@ -1,0 +1,2 @@
+﻿sample,model,term,reason,consequence
+S_corr_638,M4_full_with_auth,auth_flag,638 口径里假失效已按 §2.2 剔除 → auth_flag 恒 0，无变异，系数不可估,M4 与 M3 设计等价

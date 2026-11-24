@@ -1,0 +1,13 @@
+﻿item,value
+eligible pairs,77421.0
+edges within eligible,1930.0
+same-family pairs,2437.0
+same-family pair share %,3.148
+observed edges inside families,90.0
+expected under random edge placement,60.751
+lift (obs/exp),1.4815
+hypergeometric one-sided p,0.00017415133663501407
+edge density inside families,0.036931
+edge density between families,0.024539
+density ratio in/out,1.505
+edges with both endpoints singleton families,487.0

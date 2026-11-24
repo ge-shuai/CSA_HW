@@ -1,0 +1,6 @@
+﻿n_seeds,tau,method,n_comms_total,n_comms_nonsingleton,largest,Q,NMI_vs_250seed_consensus,ARI_vs_250seed_consensus
+10,0.5,avglink,28,27,83,0.688708,0.9741,0.9593
+25,0.5,avglink,28,28,93,0.686734,0.9747,0.9433
+50,0.5,avglink,28,28,83,0.687851,0.9837,0.972
+100,0.5,avglink,30,30,83,0.686574,0.9933,0.9841
+250,0.5,avglink,29,29,83,0.687037,1.0,1.0

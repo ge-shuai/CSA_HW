@@ -1,0 +1,8 @@
+﻿group_full_676,dead,partial,healthy,dangling_ref,row_total
+CORE,0,93,208,0,301
+IN,0,1,4,0,5
+OUT,160,54,145,5,364
+TUBE,0,0,0,0,0
+IN-COMPONENTS,1,0,0,0,1
+OUT-COMPONENTS,0,1,1,0,2
+DISCONNECTED,1,0,2,0,3

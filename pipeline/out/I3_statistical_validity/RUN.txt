@@ -1,0 +1,5 @@
+I3_statistical_validity · 统计效度审计
+method: 对 21 个单元抽 RUN.txt 的随机/零模型参数 + result.md 的 p 口径与校正表述；不重算 p 值
+python=3.12.15（仅用于文本抽取）  SEED 不适用
+result: 合规 18 / 建议 3 / 存疑 1 / 硬伤 0
+note: 建议集中在重复次数偏低（A1 20-25 次、A3/B2 30-40 次实例），不影响结论方向

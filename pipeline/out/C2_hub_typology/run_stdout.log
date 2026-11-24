@@ -1,0 +1,136 @@
+[    2.1s] assert_anchors() 31/31 PASS
+[    2.2s] 671 attributed / Gu 2498 edges / Gd 2788 arcs
+[    2.3s] primary cut t_in=2.0 t_out=2.0 -> {'导航型枢纽': 93, '内容型权威': 91, '双向枢纽': 151, '边缘': 174, '出度删失，无法归类': 162}
+[    2.3s] all671 cut t_in=2.0 t_out=1.0; alive 改类 48/509; dead 去向 {'边缘': 138, '内容型权威': 24}
+[    2.3s] censoring: {'arcs_from_dead': 0, 'arcs_to_dead': 296, 'out_degree_zero_among_dead': 162, 'n_alive_out_zero': 156}
+[    2.9s] sensitivity rows: 10
+[    3.0s] nav6 structural classes:
+                node  in_degree  out_degree  in_strength  out_strength  degree_u class_alive class_all671 health_state
+   teach.ustc.edu.cn         51          95         1499          2534       119        双向枢纽         双向枢纽      healthy
+wpsearch.ustc.edu.cn          1          89            4           292        89       导航型枢纽        导航型枢纽      healthy
+   fusep.ustc.edu.cn          1          74            2          1105        74       导航型枢纽        导航型枢纽      healthy
+   staff.ustc.edu.cn         63          49          866           109        92        双向枢纽         双向枢纽      partial
+      en.ustc.edu.cn         41          36         1818           366        63        双向枢纽         双向枢纽      healthy
+    news.ustc.edu.cn         73           6         1397           296        76        双向枢纽         双向枢纽      healthy
+[    3.4s] saved
+{
+ "class_counts_primary": {
+  "导航型枢纽": 93,
+  "内容型权威": 91,
+  "双向枢纽": 151,
+  "边缘": 174,
+  "出度删失，无法归类": 162
+ },
+ "class_counts_all671": {
+  "导航型枢纽": 119,
+  "内容型权威": 93,
+  "双向枢纽": 173,
+  "边缘": 286
+ },
+ "thresholds_primary": {
+  "t_in": 2.0,
+  "t_out": 2.0
+ },
+ "thresholds_all671": {
+  "t_in": 2.0,
+  "t_out": 1.0
+ },
+ "dead_nodes_redistributed_in_all671": {
+  "边缘": 138,
+  "内容型权威": 24
+ },
+ "alive_nodes_reclassified_by_fullsample_cut": {
+  "changed": 48,
+  "of": 509,
+  "share": 0.0943
+ },
+ "censoring_evidence": {
+  "arcs_from_dead": 0,
+  "arcs_to_dead": 296,
+  "out_degree_zero_among_dead": 162,
+  "n_alive_out_zero": 156
+ },
+ "nav_hub6_class": {
+  "teach.ustc.edu.cn": "双向枢纽",
+  "wpsearch.ustc.edu.cn": "导航型枢纽",
+  "fusep.ustc.edu.cn": "导航型枢纽",
+  "staff.ustc.edu.cn": "双向枢纽",
+  "en.ustc.edu.cn": "双向枢纽",
+  "news.ustc.edu.cn": "双向枢纽"
+ },
+ "overlap_with_degree_u_top20": {
+  "导航型枢纽": [
+   3,
+   0.0273
+  ],
+  "内容型权威": [
+   0,
+   0.0
+  ],
+  "双向枢纽": [
+   17,
+   0.1104
+  ],
+  "边缘": [
+   0,
+   0.0
+  ],
+  "出度删失，无法归类": [
+   0,
+   0.0
+  ]
+ },
+ "sensitivity_agreement_with_primary": [
+  {
+   "kind": "quantile_alive509",
+   "rule": "P50",
+   "share_agree": 1.0
+  },
+  {
+   "kind": "quantile_alive509",
+   "rule": "P60",
+   "share_agree": 0.7485
+  },
+  {
+   "kind": "quantile_alive509",
+   "rule": "P75",
+   "share_agree": 0.556
+  },
+  {
+   "kind": "quantile_alive509",
+   "rule": "P90",
+   "share_agree": 0.4126
+  },
+  {
+   "kind": "subset_healthy360",
+   "rule": "P50",
+   "share_agree": 1.0
+  },
+  {
+   "kind": "subset_healthy360",
+   "rule": "P75",
+   "share_agree": 0.5778
+  },
+  {
+   "kind": "strength_alive509",
+   "rule": "P50 on in/out_strength",
+   "share_agree": 0.6346
+  },
+  {
+   "kind": "corrected_541_threshold",
+   "rule": "P50(509 活站+32 假失效=541)",
+   "share_agree": 1.0
+  },
+  {
+   "kind": "ALL671_censoring_contaminated",
+   "rule": "P50(全样本 671)",
+   "share_agree": NaN
+  },
+  {
+   "kind": "random_label_baseline",
+   "rule": "按主口径边际分布随机打乱",
+   "share_agree": 0.2716
+  }
+ ],
+ "random_label_baseline_share_agree": 0.2716
+}

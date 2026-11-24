@@ -1,0 +1,18 @@
+E1_attack_curves RUN.txt
+command: cd pipeline && PYTHONHASHSEED=0 python out/E1_attack_curves/run_e1.py
+python=3.12.13 networkx=3.6.1 pandas=3.0.2 numpy=2.4.4 PYTHONHASHSEED=0 SEED=20261113
+anchors: csa_common.assert_anchors() 31/31 PASS
+baseline graph: 674 nodes / 2497 edges (undirected main component, §1); pairset PairSet(n0=674, ordered_pairs=453602) (E_fixed denominator)
+f grid: 0.02..0.6 step 0.02 (30 points) + 0.05 for the summary; GCC / n_components tracked at EVERY step 1..404
+random: 120 independent replicates (contract >=100), seed per rep = np.random.default_rng([20261113, rep]), 14 processes
+deterministic: 1 run per f (§6); removal order = value desc, ties by FQDN asc; tie-break sensitivity: kcore/degree/betweenness x {name_asc, name_desc} + kcore x 3 shuffled
+efficiency: C.eff_three (E_full / E_gcc / E_fixed), hop-count distances
+ranking bases: degree=binary undirected deg; betweenness=binary undirected BC; pagerank_dw=nx.pagerank(Gd induced on 674, weight='weight') [§5 primary]; pagerank_uu=nx.pagerank(binary undirected) [§5 control]; kcore=core_number(binary)
+wall time total: 1822.7 s
+per-stage wall (s): {"build_and_anchors": 1.641, "rank_degree": 0.001, "run_degree": 28.519, "rank_betweenness": 2.589, "run_betweenness": 28.259, "rank_pagerank_dw": 1.243, "run_pagerank_dw": 56.63, "rank_pagerank_uu": 0.009, "run_pagerank_uu": 30.82, "rank_kcore": 0.008, "run_kcore": 36.245, "pr_variant_diagnostic": 0.4, "random_pool_wall": 1528.376, "random_step_secs_mean": 0.378, "random_step_secs_sum": 45.309, "random_rep_cpu_mean": 169.221, "random_rep_cpu_sum": 20306.474, "tiebreak_pool_wall": 107.595, "write_csv": 0.099}
+random pool CPU: per-replicate (removal loop + 31 efficiency checkpoints) mean 169.2 s, sum 20306.5 s over 120 reps; the remove_node+GCC inner loop alone is only 0.38 s per replicate, i.e. the cost is entirely C.eff_three
+tie-break sensitivity (same ranking, different order inside equal-value groups): {"kcore": {"n_orderings": 5, "max_spread_pp": 7.57, "max_spread_at_step": 202, "spread_at_summary_f": {"34": 2.67, "67": 3.71, "135": 4.01, "202": 7.57, "337": 0.3}}, "degree": {"n_orderings": 2, "max_spread_pp": 8.75, "max_spread_at_step": 108, "spread_at_summary_f": {"34": 0.0, "67": 0.74, "135": 0.59, "202": 0.15, "337": 0.3}}, "betweenness": {"n_orderings": 2, "max_spread_pp": 0.3, "max_spread_at_step": 148, "spread_at_summary_f": {"34": 0.0, "67": 0.0, "135": 0.0, "202": 0.0, "337": 0.0}}}
+baseline E_full=0.331469 E_fixed=0.331469 (§2.3 table says E_gcc=E_fixed=0.3315 on the 674 GCC; E_full=0.3295 there is the 676-node graph)
+sanity: random E_fixed increases at 0 of 31 checkpoint steps (denominator-bug check); first/last [0.331469, 0.026333]
+PageRank §5 contract anchor: {"pagerank_dw": {"contract_pct": [76.3, 55.8, 38.3], "got_pct": [76.85, 57.72, 32.94], "max_abs_diff_pp": 5.36}, "pagerank_uu": {"contract_pct": [66.2, 41.5, 12.5], "got_pct": [55.19, 3.56, 0.59], "max_abs_diff_pp": 37.94}}
+outputs: e1_curve_efficiency.csv e1_curve_gcc_per_step_deterministic.csv e1_curve_gcc_per_step_random.csv e1_tiebreak_sensitivity.csv e1_summary_f5.csv E1_summary.json

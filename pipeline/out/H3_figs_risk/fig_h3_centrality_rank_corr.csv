@@ -1,0 +1,67 @@
+﻿measure_a,measure_b,label_a,label_b,spearman,kendall,a_censored,b_censored
+deg_u,kcore,总度 k,k-core,0.9857,0.9421,False,False
+out_degree,out_strength,出度,出强度,0.9532,0.8412,True,True
+in_degree,hidx_in_in,入度,H-index(入-入),0.9315,0.8785,False,False
+out_strength,hits_hub,出强度,HITS hub,0.9308,0.8047,True,False
+out_degree,hits_hub,出度,HITS hub,0.9236,0.7987,True,False
+deg_u,bet_u,总度 k,介数,0.9211,0.8039,False,False
+bet_u,kcore,介数,k-core,0.878,0.7438,False,False
+deg_u,out_degree,总度 k,出度,0.8271,0.7345,False,True
+in_degree,kcore,入度,k-core,0.8087,0.7184,False,False
+in_strength,pr_dw,入强度,PageRank 有向加权,0.8086,0.6238,False,False
+deg_u,in_degree,总度 k,入度,0.8023,0.7077,False,False
+out_degree,kcore,出度,k-core,0.8021,0.6978,True,False
+out_degree,bet_u,出度,介数,0.8018,0.6824,True,False
+deg_u,out_strength,总度 k,出强度,0.7741,0.638,False,True
+in_strength,pr_uu,入强度,PageRank 无向无权,0.7714,0.6207,False,False
+hits_hub,kcore,HITS hub,k-core,0.7678,0.639,False,False
+deg_u,hits_hub,总度 k,HITS hub,0.765,0.6275,False,False
+deg_u,pr_uu,总度 k,PageRank 无向无权,0.764,0.6084,False,False
+out_strength,kcore,出强度,k-core,0.7578,0.6267,True,False
+kcore,hidx_in_in,k-core,H-index(入-入),0.7543,0.6633,False,False
+deg_u,hidx_in_in,总度 k,H-index(入-入),0.741,0.6419,False,False
+out_strength,bet_u,出强度,介数,0.7408,0.5935,True,False
+out_strength,pr_uu,出强度,PageRank 无向无权,0.7388,0.5984,True,False
+pr_uu,kcore,PageRank 无向无权,k-core,0.7345,0.58,False,False
+bet_u,pr_uu,介数,PageRank 无向无权,0.7333,0.5685,False,False
+in_degree,in_strength,入度,入强度,0.7067,0.5866,False,False
+out_degree,pr_uu,出度,PageRank 无向无权,0.7059,0.5607,True,False
+bet_u,hits_hub,介数,HITS hub,0.702,0.5591,False,False
+in_degree,bet_u,入度,介数,0.6924,0.5766,False,False
+pr_dw,pr_uu,PageRank 有向加权,PageRank 无向无权,0.6795,0.5081,False,False
+in_strength,hidx_in_in,入强度,H-index(入-入),0.6732,0.5578,False,False
+in_degree,pr_dw,入度,PageRank 有向加权,0.6631,0.5226,False,False
+in_degree,hits_auth,入度,HITS auth,0.6518,0.5121,False,False
+in_strength,hits_auth,入强度,HITS auth,0.6514,0.4773,False,False
+pr_uu,hits_hub,PageRank 无向无权,HITS hub,0.649,0.4934,False,False
+hits_auth,hidx_in_in,HITS auth,H-index(入-入),0.6369,0.5094,False,False
+pr_dw,hidx_in_in,PageRank 有向加权,H-index(入-入),0.6368,0.5083,False,False
+hits_auth,kcore,HITS auth,k-core,0.619,0.4658,False,False
+bet_u,hidx_in_in,介数,H-index(入-入),0.6162,0.5104,False,False
+deg_u,hits_auth,总度 k,HITS auth,0.5972,0.4473,False,False
+deg_u,in_strength,总度 k,入强度,0.5946,0.4655,False,False
+in_strength,kcore,入强度,k-core,0.5932,0.467,False,False
+in_degree,pr_uu,入度,PageRank 无向无权,0.5882,0.4593,False,False
+pr_uu,hidx_in_in,PageRank 无向无权,H-index(入-入),0.5475,0.43,False,False
+deg_u,pr_dw,总度 k,PageRank 有向加权,0.5236,0.389,False,False
+pr_dw,kcore,PageRank 有向加权,k-core,0.5062,0.3762,False,False
+in_strength,bet_u,入强度,介数,0.5039,0.3819,False,False
+pr_uu,hits_auth,PageRank 无向无权,HITS auth,0.4948,0.3393,False,False
+bet_u,hits_auth,介数,HITS auth,0.4947,0.362,False,False
+bet_u,pr_dw,介数,PageRank 有向加权,0.4804,0.3538,False,False
+in_degree,out_degree,入度,出度,0.4544,0.3711,False,True
+in_degree,hits_hub,入度,HITS hub,0.4301,0.3417,False,False
+in_degree,out_strength,入度,出强度,0.428,0.342,False,True
+out_degree,hidx_in_in,出度,H-index(入-入),0.4197,0.348,True,False
+hits_hub,hits_auth,HITS hub,HITS auth,0.4055,0.3019,False,False
+out_strength,hidx_in_in,出强度,H-index(入-入),0.3954,0.3204,True,False
+hits_hub,hidx_in_in,HITS hub,H-index(入-入),0.3945,0.3175,False,False
+out_degree,hits_auth,出度,HITS auth,0.3854,0.2877,True,False
+out_strength,hits_auth,出强度,HITS auth,0.3824,0.2815,True,False
+out_degree,in_strength,出度,入强度,0.3801,0.2911,True,False
+pr_dw,hits_auth,PageRank 有向加权,HITS auth,0.3761,0.2515,False,False
+in_strength,out_strength,入强度,出强度,0.3751,0.2853,False,True
+in_strength,hits_hub,入强度,HITS hub,0.3687,0.2774,False,False
+out_degree,pr_dw,出度,PageRank 有向加权,0.3288,0.2421,True,False
+out_strength,pr_dw,出强度,PageRank 有向加权,0.3218,0.2324,True,False
+pr_dw,hits_hub,PageRank 有向加权,HITS hub,0.2781,0.1992,False,False

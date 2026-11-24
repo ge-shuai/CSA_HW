@@ -1,0 +1,1304 @@
+{
+  "module": "C4_spreaders",
+  "kind": "scenario_simulation_NOT_measurement",
+  "seed": 20261113,
+  "gamma": 0.2,
+  "betas": [
+    0.01,
+    0.03,
+    0.06,
+    0.12,
+    0.25,
+    0.5
+  ],
+  "n_trials": 20,
+  "n_boot": 1000,
+  "topk": [
+    10,
+    20,
+    25,
+    50
+  ],
+  "variants": [
+    "unweighted",
+    "weighted"
+  ],
+  "primary_subset": "alive_attr509",
+  "mid_beta_for_roster": 0.12,
+  "wall_seconds": 302.9,
+  "sir_wall_seconds": 227.1,
+  "provenance": {
+    "ANCHORS": {
+      "cite": "run_c4.py:L301",
+      "value": "31/31 PASS"
+    },
+    "N_SIM_NODES": {
+      "cite": "run_c4.py:L305",
+      "value": 676
+    },
+    "N_EDGES_DIRECTED": {
+      "cite": "run_c4.py:L307",
+      "value": 2788
+    },
+    "GAMMA": {
+      "cite": "run_c4.py:L309",
+      "value": 0.2
+    },
+    "BETAS": {
+      "cite": "run_c4.py:L310",
+      "value": [
+        0.01,
+        0.03,
+        0.06,
+        0.12,
+        0.25,
+        0.5
+      ]
+    },
+    "N_TRIALS": {
+      "cite": "run_c4.py:L311",
+      "value": 20
+    },
+    "N_BOOT": {
+      "cite": "run_c4.py:L312",
+      "value": 1000
+    },
+    "TOPK": {
+      "cite": "run_c4.py:L313",
+      "value": [
+        10,
+        20,
+        25,
+        50
+      ]
+    },
+    "SUBSET_N_ALIVE509": {
+      "cite": "run_c4.py:L323",
+      "value": 509
+    },
+    "SUBSET_N_ATTR671": {
+      "cite": "run_c4.py:L324",
+      "value": 671
+    },
+    "SUBSET_N_GRAPH676": {
+      "cite": "run_c4.py:L325",
+      "value": 676
+    },
+    "DEAD_OUTDEG_NONZERO": {
+      "cite": "run_c4.py:L327",
+      "value": 0
+    },
+    "N_DEAD_SEEDS_FORCED_R1": {
+      "cite": "run_c4.py:L329",
+      "value": 162
+    },
+    "DET_REACH_MAX": {
+      "cite": "run_c4.py:L347",
+      "value": 667
+    },
+    "DET_REACH_MEAN_ALIVE509": {
+      "cite": "run_c4.py:L348",
+      "value": 400.41650294695484
+    },
+    "DET_REACH_MEDIAN_ALIVE509": {
+      "cite": "run_c4.py:L350",
+      "value": 665.0
+    },
+    "DET_REACH_N_GE_100_ALIVE509": {
+      "cite": "run_c4.py:L352",
+      "value": 306
+    },
+    "SIR_WALL_SECONDS": {
+      "cite": "run_c4.py:L377",
+      "value": 227.1
+    },
+    "SIR_TRIALS_RUN": {
+      "cite": "run_c4.py:L378",
+      "value": 162240
+    },
+    "VALIDATION": {
+      "cite": "run_c4.py:L383",
+      "value": {
+        "n_depth1_star_nodes_found": 3,
+        "A_beta0_all_R_equal_1_violations": 0,
+        "B_gamma1_all_R_equal_1_violations": 0,
+        "B_nodes_tested": 62,
+        "C_analytic_check": [
+          {
+            "node": "bbs.ustc.edu.cn",
+            "outdeg": 3,
+            "beta": 0.3,
+            "gamma": 0.2,
+            "analytic_p_edge": 0.545455,
+            "mc_mean_R": 2.643,
+            "analytic_E_R": 2.6364,
+            "mc_se": 0.0191,
+            "abs_z": 0.347
+          },
+          {
+            "node": "finance.ustc.edu.cn",
+            "outdeg": 6,
+            "beta": 0.3,
+            "gamma": 0.2,
+            "analytic_p_edge": 0.545455,
+            "mc_mean_R": 4.2858,
+            "analytic_E_R": 4.2727,
+            "mc_se": 0.0357,
+            "abs_z": 0.365
+          },
+          {
+            "node": "scc.ustc.edu.cn",
+            "outdeg": 3,
+            "beta": 0.3,
+            "gamma": 0.2,
+            "analytic_p_edge": 0.545455,
+            "mc_mean_R": 2.679,
+            "analytic_E_R": 2.6364,
+            "mc_se": 0.0192,
+            "abs_z": 2.223
+          }
+        ],
+        "C_max_abs_z": 2.223,
+        "C_all_within_3se": true,
+        "D_frac_alive_seeds_with_sd_gt0_b025": 0.6935,
+        "E_n_alive_seeds_with_outdeg0": 156,
+        "E_R_is_1_for_all_zero_outdeg_seeds": true,
+        "F_seed_entropies_unique": true
+      }
+    },
+    "N_ALIVE_SINKS": {
+      "cite": "run_c4.py:L384",
+      "value": 156
+    },
+    "C_MAX_ABS_Z": {
+      "cite": "run_c4.py:L385",
+      "value": 2.223
+    },
+    "N_STAR_ANALYTIC": {
+      "cite": "run_c4.py:L386",
+      "value": 3
+    },
+    "MAX_DEG_U_RECOMPUTED": {
+      "cite": "run_c4.py:L395",
+      "value": 119
+    },
+    "KCORE_MAX": {
+      "cite": "run_c4.py:L396",
+      "value": 11
+    },
+    "KCORE_SHELL_COUNTS": {
+      "cite": "run_c4.py:L398",
+      "value": {
+        "1": 187,
+        "2": 106,
+        "3": 90,
+        "4": 63,
+        "5": 49,
+        "6": 41,
+        "7": 23,
+        "8": 29,
+        "9": 16,
+        "10": 27,
+        "11": 45
+      }
+    },
+    "KCORE_N_AT_KMAX": {
+      "cite": "run_c4.py:L399",
+      "value": 45
+    },
+    "KCORE_N_AT_KMAX_MINUS_1": {
+      "cite": "run_c4.py:L400",
+      "value": 27
+    },
+    "MAX_OUT_DEGREE": {
+      "cite": "run_c4.py:L401",
+      "value": 95
+    },
+    "SIR_LONG_ROWS": {
+      "cite": "run_c4.py:L429",
+      "value": 8112
+    },
+    "SPLIT_HALF_RHO_MIN": {
+      "cite": "run_c4.py:L449",
+      "value": 0.4332
+    },
+    "SPLIT_HALF_RHO_MAX": {
+      "cite": "run_c4.py:L450",
+      "value": 0.928
+    },
+    "SPLIT_HALF_RHO_B06": {
+      "cite": "run_c4.py:L451",
+      "value": 0.8647
+    },
+    "SPLIT_HALF_TOP20_MIN": {
+      "cite": "run_c4.py:L454",
+      "value": 0.1
+    },
+    "SB_RHO_AT_20_B06": {
+      "cite": "run_c4.py:L478",
+      "value": 0.9363
+    },
+    "SB_RHO_AT_20_MIN": {
+      "cite": "run_c4.py:L481",
+      "value": 0.2288
+    },
+    "N_SPEARMAN_CELLS": {
+      "cite": "run_c4.py:L518",
+      "value": 216
+    },
+    "VERDICT_ROWS": {
+      "cite": "run_c4.py:L553",
+      "value": 6
+    },
+    "N_BETA_KCORE_BEATS_DEG": {
+      "cite": "run_c4.py:L554",
+      "value": 3
+    },
+    "BETAS_KCORE_BEATS_DEG": {
+      "cite": "run_c4.py:L557",
+      "value": [
+        0.06,
+        0.12,
+        0.25
+      ]
+    },
+    "N_BETA_TOP20_KCORE_BEATS_DEG": {
+      "cite": "run_c4.py:L558",
+      "value": 0
+    },
+    "BEST_PROXY_BY_BETA": {
+      "cite": "run_c4.py:L560",
+      "value": {
+        "0.01": "out_degree",
+        "0.03": "out_degree",
+        "0.06": "out_degree",
+        "0.12": "out_degree",
+        "0.25": "out_degree",
+        "0.5": "out_degree"
+      }
+    },
+    "PARTIAL_KCORE_RANGE": {
+      "cite": "run_c4.py:L561",
+      "value": [
+        -0.0508,
+        0.1567
+      ]
+    },
+    "MID_BETA_USED": {
+      "cite": "run_c4.py:L587",
+      "value": 0.12
+    },
+    "TOP20_FIRST": {
+      "cite": "run_c4.py:L611",
+      "value": "fusep.ustc.edu.cn"
+    },
+    "TOP20_NODES": {
+      "cite": "run_c4.py:L612",
+      "value": [
+        "fusep.ustc.edu.cn",
+        "ysjt.ustc.edu.cn",
+        "wpsearch.ustc.edu.cn",
+        "pnp.ustc.edu.cn",
+        "teach.ustc.edu.cn",
+        "enbiomed.ustc.edu.cn",
+        "etcis.ustc.edu.cn",
+        "business.ustc.edu.cn",
+        "sias.ustc.edu.cn",
+        "physics.ustc.edu.cn",
+        "zsb.ustc.edu.cn",
+        "cs.ustc.edu.cn",
+        "staff.ustc.edu.cn",
+        "en.sist.ustc.edu.cn",
+        "xxgk.ustc.edu.cn",
+        "bs.ustc.edu.cn",
+        "phys.ustc.edu.cn",
+        "applchem.ustc.edu.cn",
+        "snst.ustc.edu.cn",
+        "som.ustc.edu.cn"
+      ]
+    },
+    "TOP20_BY_PROXY": {
+      "cite": "run_c4.py:L616",
+      "value": {
+        "kcore": [
+          "eeis.ustc.edu.cn",
+          "employment.ustc.edu.cn",
+          "applchem.ustc.edu.cn",
+          "en.ustc.edu.cn",
+          "jgb.ustc.edu.cn",
+          "job.ustc.edu.cn",
+          "business.ustc.edu.cn",
+          "faculty.ustc.edu.cn",
+          "catalog.ustc.edu.cn",
+          "fusep.ustc.edu.cn",
+          "gradschool.ustc.edu.cn",
+          "lib.ustc.edu.cn",
+          "cs.ustc.edu.cn",
+          "hfnl.ustc.edu.cn",
+          "cybersec.ustc.edu.cn",
+          "hr.ustc.edu.cn",
+          "hsss.ustc.edu.cn",
+          "i.ustc.edu.cn",
+          "math.ustc.edu.cn",
+          "dsxt.ustc.edu.cn"
+        ],
+        "deg_u": [
+          "sist.ustc.edu.cn",
+          "employment.ustc.edu.cn",
+          "yz.ustc.edu.cn",
+          "staff.ustc.edu.cn",
+          "zsb.ustc.edu.cn",
+          "news.ustc.edu.cn",
+          "en.ustc.edu.cn",
+          "enbiomed.ustc.edu.cn",
+          "teach.ustc.edu.cn",
+          "biox.ustc.edu.cn",
+          "faculty.ustc.edu.cn",
+          "physics.ustc.edu.cn",
+          "fusep.ustc.edu.cn",
+          "welcome.ustc.edu.cn",
+          "lib.ustc.edu.cn",
+          "gradschool.ustc.edu.cn",
+          "wpsearch.ustc.edu.cn",
+          "cs.ustc.edu.cn",
+          "hsss.ustc.edu.cn",
+          "dsxt.ustc.edu.cn"
+        ],
+        "bet_u": [
+          "employment.ustc.edu.cn",
+          "staff.ustc.edu.cn",
+          "news.ustc.edu.cn",
+          "en.ustc.edu.cn",
+          "enbiomed.ustc.edu.cn",
+          "teach.ustc.edu.cn",
+          "biox.ustc.edu.cn",
+          "faculty.ustc.edu.cn",
+          "physics.ustc.edu.cn",
+          "ustcnet.ustc.edu.cn",
+          "cec.ustc.edu.cn",
+          "fusep.ustc.edu.cn",
+          "welcome.ustc.edu.cn",
+          "gradschool.ustc.edu.cn",
+          "lib.ustc.edu.cn",
+          "wpsearch.ustc.edu.cn",
+          "cs.ustc.edu.cn",
+          "lug.ustc.edu.cn",
+          "hsss.ustc.edu.cn",
+          "iat.ustc.edu.cn"
+        ],
+        "pr_dw": [
+          "sklfs.ustc.edu.cn",
+          "email.ustc.edu.cn",
+          "employment.ustc.edu.cn",
+          "yz.ustc.edu.cn",
+          "som.ustc.edu.cn",
+          "staff.ustc.edu.cn",
+          "en.lib.ustc.edu.cn",
+          "en.lmmr.ustc.edu.cn",
+          "news.ustc.edu.cn",
+          "en.ustc.edu.cn",
+          "teach.ustc.edu.cn",
+          "opac.lib.ustc.edu.cn",
+          "bs.ustc.edu.cn",
+          "faculty.ustc.edu.cn",
+          "gradschool.ustc.edu.cn",
+          "wp.ustc.edu.cn",
+          "cs.ustc.edu.cn",
+          "lmmr.ustc.edu.cn",
+          "xcb.ustc.edu.cn",
+          "djyszw.ustc.edu.cn"
+        ]
+      }
+    },
+    "CENSOR_RHO_KCORE_B06_509": {
+      "cite": "run_c4.py:L633",
+      "value": 0.7518
+    },
+    "CENSOR_RHO_KCORE_B06_671": {
+      "cite": "run_c4.py:L635",
+      "value": 0.7765
+    },
+    "CENSOR_RHO_DEGU_B06_509": {
+      "cite": "run_c4.py:L637",
+      "value": 0.7516
+    },
+    "CENSOR_RHO_DEGU_B06_671": {
+      "cite": "run_c4.py:L639",
+      "value": 0.7835
+    },
+    "VARIANT_CONCORDANCE_MIN": {
+      "cite": "run_c4.py:L656",
+      "value": 0.6283
+    },
+    "VARIANT_CONCORDANCE_MAX": {
+      "cite": "run_c4.py:L657",
+      "value": 0.856
+    },
+    "RATIO_W_OVER_U_RANGE": {
+      "cite": "run_c4.py:L658",
+      "value": [
+        0.0425,
+        0.7982
+      ]
+    }
+  },
+  "verdict_table": [
+    {
+      "beta": 0.01,
+      "gamma": 0.2,
+      "subset": "alive_attr509",
+      "n_distinct_R": 51,
+      "best_proxy": "out_degree",
+      "best_rho": 0.8992,
+      "rho_kcore": 0.7345,
+      "rho_deg_u": 0.7616,
+      "rho_bet_u": 0.7149,
+      "rho_pr_dw": 0.3096,
+      "rho_in_degree": 0.4042,
+      "rho_out_degree": 0.8992,
+      "kcore_beats_deg_spearman": false,
+      "gap_kcore_minus_deg": -0.0271,
+      "top20_kcore": 0.2,
+      "top20_deg_u": 0.45,
+      "top20_bet_u": 0.35,
+      "top20_pr_dw": 0.25,
+      "top20_kcore_beats_deg": false,
+      "partial_kcore_ctrl_deg": -0.0508,
+      "partial_deg_ctrl_kcore": 0.2708,
+      "partial_kcore_ctrl_outdeg": 0.0736,
+      "partial_deg_ctrl_outdeg": 0.0294,
+      "partial_bet_ctrl_outdeg": -0.0088,
+      "partial_pr_ctrl_outdeg": 0.0396
+    },
+    {
+      "beta": 0.03,
+      "gamma": 0.2,
+      "subset": "alive_attr509",
+      "n_distinct_R": 172,
+      "best_proxy": "out_degree",
+      "best_rho": 0.9155,
+      "rho_kcore": 0.7381,
+      "rho_deg_u": 0.7456,
+      "rho_bet_u": 0.6767,
+      "rho_pr_dw": 0.2241,
+      "rho_in_degree": 0.3591,
+      "rho_out_degree": 0.9155,
+      "kcore_beats_deg_spearman": false,
+      "gap_kcore_minus_deg": -0.0075,
+      "top20_kcore": 0.2,
+      "top20_deg_u": 0.55,
+      "top20_bet_u": 0.4,
+      "top20_pr_dw": 0.2,
+      "top20_kcore_beats_deg": false,
+      "partial_kcore_ctrl_deg": 0.0898,
+      "partial_deg_ctrl_kcore": 0.1538,
+      "partial_kcore_ctrl_outdeg": 0.0639,
+      "partial_deg_ctrl_outdeg": -0.0543,
+      "partial_bet_ctrl_outdeg": -0.1729,
+      "partial_pr_ctrl_outdeg": -0.1384
+    },
+    {
+      "beta": 0.06,
+      "gamma": 0.2,
+      "subset": "alive_attr509",
+      "n_distinct_R": 284,
+      "best_proxy": "out_degree",
+      "best_rho": 0.919,
+      "rho_kcore": 0.7518,
+      "rho_deg_u": 0.7516,
+      "rho_bet_u": 0.6759,
+      "rho_pr_dw": 0.2108,
+      "rho_in_degree": 0.3686,
+      "rho_out_degree": 0.919,
+      "kcore_beats_deg_spearman": true,
+      "gap_kcore_minus_deg": 0.0002,
+      "top20_kcore": 0.2,
+      "top20_deg_u": 0.55,
+      "top20_bet_u": 0.4,
+      "top20_pr_dw": 0.25,
+      "top20_kcore_beats_deg": false,
+      "partial_kcore_ctrl_deg": 0.1555,
+      "partial_deg_ctrl_kcore": 0.1113,
+      "partial_kcore_ctrl_outdeg": 0.1039,
+      "partial_deg_ctrl_outdeg": -0.054,
+      "partial_bet_ctrl_outdeg": -0.1856,
+      "partial_pr_ctrl_outdeg": -0.1618
+    },
+    {
+      "beta": 0.12,
+      "gamma": 0.2,
+      "subset": "alive_attr509",
+      "n_distinct_R": 319,
+      "best_proxy": "out_degree",
+      "best_rho": 0.9175,
+      "rho_kcore": 0.7525,
+      "rho_deg_u": 0.7486,
+      "rho_bet_u": 0.6633,
+      "rho_pr_dw": 0.2091,
+      "rho_in_degree": 0.3617,
+      "rho_out_degree": 0.9175,
+      "kcore_beats_deg_spearman": true,
+      "gap_kcore_minus_deg": 0.0039,
+      "top20_kcore": 0.2,
+      "top20_deg_u": 0.4,
+      "top20_bet_u": 0.35,
+      "top20_pr_dw": 0.25,
+      "top20_kcore_beats_deg": false,
+      "partial_kcore_ctrl_deg": 0.1567,
+      "partial_deg_ctrl_kcore": 0.0973,
+      "partial_kcore_ctrl_outdeg": 0.09,
+      "partial_deg_ctrl_outdeg": -0.0942,
+      "partial_bet_ctrl_outdeg": -0.2781,
+      "partial_pr_ctrl_outdeg": -0.1729
+    },
+    {
+      "beta": 0.25,
+      "gamma": 0.2,
+      "subset": "alive_attr509",
+      "n_distinct_R": 324,
+      "best_proxy": "out_degree",
+      "best_rho": 0.907,
+      "rho_kcore": 0.7378,
+      "rho_deg_u": 0.7343,
+      "rho_bet_u": 0.6556,
+      "rho_pr_dw": 0.2091,
+      "rho_in_degree": 0.365,
+      "rho_out_degree": 0.907,
+      "kcore_beats_deg_spearman": true,
+      "gap_kcore_minus_deg": 0.0035,
+      "top20_kcore": 0.25,
+      "top20_deg_u": 0.25,
+      "top20_bet_u": 0.15,
+      "top20_pr_dw": 0.15,
+      "top20_kcore_beats_deg": false,
+      "partial_kcore_ctrl_deg": 0.1449,
+      "partial_deg_ctrl_kcore": 0.0945,
+      "partial_kcore_ctrl_outdeg": 0.0537,
+      "partial_deg_ctrl_outdeg": -0.1128,
+      "partial_bet_ctrl_outdeg": -0.2437,
+      "partial_pr_ctrl_outdeg": -0.1697
+    },
+    {
+      "beta": 0.5,
+      "gamma": 0.2,
+      "subset": "alive_attr509",
+      "n_distinct_R": 318,
+      "best_proxy": "out_degree",
+      "best_rho": 0.89,
+      "rho_kcore": 0.7094,
+      "rho_deg_u": 0.7125,
+      "rho_bet_u": 0.6407,
+      "rho_pr_dw": 0.18,
+      "rho_in_degree": 0.3184,
+      "rho_out_degree": 0.89,
+      "kcore_beats_deg_spearman": false,
+      "gap_kcore_minus_deg": -0.0031,
+      "top20_kcore": 0.1,
+      "top20_deg_u": 0.15,
+      "top20_bet_u": 0.2,
+      "top20_pr_dw": 0.0,
+      "top20_kcore_beats_deg": false,
+      "partial_kcore_ctrl_deg": 0.0911,
+      "partial_deg_ctrl_kcore": 0.1079,
+      "partial_kcore_ctrl_outdeg": -0.0084,
+      "partial_deg_ctrl_outdeg": -0.1375,
+      "partial_bet_ctrl_outdeg": -0.2419,
+      "partial_pr_ctrl_outdeg": -0.1841
+    }
+  ],
+  "validation": {
+    "n_depth1_star_nodes_found": 3,
+    "A_beta0_all_R_equal_1_violations": 0,
+    "B_gamma1_all_R_equal_1_violations": 0,
+    "B_nodes_tested": 62,
+    "C_analytic_check": [
+      {
+        "node": "bbs.ustc.edu.cn",
+        "outdeg": 3,
+        "beta": 0.3,
+        "gamma": 0.2,
+        "analytic_p_edge": 0.545455,
+        "mc_mean_R": 2.643,
+        "analytic_E_R": 2.6364,
+        "mc_se": 0.0191,
+        "abs_z": 0.347
+      },
+      {
+        "node": "finance.ustc.edu.cn",
+        "outdeg": 6,
+        "beta": 0.3,
+        "gamma": 0.2,
+        "analytic_p_edge": 0.545455,
+        "mc_mean_R": 4.2858,
+        "analytic_E_R": 4.2727,
+        "mc_se": 0.0357,
+        "abs_z": 0.365
+      },
+      {
+        "node": "scc.ustc.edu.cn",
+        "outdeg": 3,
+        "beta": 0.3,
+        "gamma": 0.2,
+        "analytic_p_edge": 0.545455,
+        "mc_mean_R": 2.679,
+        "analytic_E_R": 2.6364,
+        "mc_se": 0.0192,
+        "abs_z": 2.223
+      }
+    ],
+    "C_max_abs_z": 2.223,
+    "C_all_within_3se": true,
+    "D_frac_alive_seeds_with_sd_gt0_b025": 0.6935,
+    "E_n_alive_seeds_with_outdeg0": 156,
+    "E_R_is_1_for_all_zero_outdeg_seeds": true,
+    "F_seed_entropies_unique": true
+  },
+  "epidemic_size": [
+    {
+      "variant": "unweighted",
+      "beta": 0.01,
+      "gamma": 0.2,
+      "R_mean_alive509": 1.3529,
+      "R_median_alive509": 1.1,
+      "R_max_alive509": 9,
+      "frac_seeds_R_gt_1": 0.6012,
+      "frac_seeds_R_gt_10": 0.0,
+      "frac_seeds_R_eq_1": 0.3988,
+      "n_distinct_R_alive509": 51
+    },
+    {
+      "variant": "unweighted",
+      "beta": 0.03,
+      "gamma": 0.2,
+      "R_mean_alive509": 4.5618,
+      "R_median_alive509": 1.55,
+      "R_max_alive509": 47,
+      "frac_seeds_R_gt_1": 0.6778,
+      "frac_seeds_R_gt_10": 0.1297,
+      "frac_seeds_R_eq_1": 0.3222,
+      "n_distinct_R_alive509": 172
+    },
+    {
+      "variant": "unweighted",
+      "beta": 0.06,
+      "gamma": 0.2,
+      "R_mean_alive509": 20.8264,
+      "R_median_alive509": 8.65,
+      "R_max_alive509": 161,
+      "frac_seeds_R_gt_1": 0.6916,
+      "frac_seeds_R_gt_10": 0.4813,
+      "frac_seeds_R_eq_1": 0.3084,
+      "n_distinct_R_alive509": 284
+    },
+    {
+      "variant": "unweighted",
+      "beta": 0.12,
+      "gamma": 0.2,
+      "R_mean_alive509": 72.6009,
+      "R_median_alive509": 49.45,
+      "R_max_alive509": 277,
+      "frac_seeds_R_gt_1": 0.6935,
+      "frac_seeds_R_gt_10": 0.5914,
+      "frac_seeds_R_eq_1": 0.3065,
+      "n_distinct_R_alive509": 319
+    },
+    {
+      "variant": "unweighted",
+      "beta": 0.25,
+      "gamma": 0.2,
+      "R_mean_alive509": 155.3494,
+      "R_median_alive509": 167.95,
+      "R_max_alive509": 433,
+      "frac_seeds_R_gt_1": 0.6935,
+      "frac_seeds_R_gt_10": 0.6012,
+      "frac_seeds_R_eq_1": 0.3065,
+      "n_distinct_R_alive509": 324
+    },
+    {
+      "variant": "unweighted",
+      "beta": 0.5,
+      "gamma": 0.2,
+      "R_mean_alive509": 219.8787,
+      "R_median_alive509": 268.6,
+      "R_max_alive509": 534,
+      "frac_seeds_R_gt_1": 0.6935,
+      "frac_seeds_R_gt_10": 0.6012,
+      "frac_seeds_R_eq_1": 0.3065,
+      "n_distinct_R_alive509": 318
+    },
+    {
+      "variant": "weighted",
+      "beta": 0.01,
+      "gamma": 0.2,
+      "R_mean_alive509": 1.08,
+      "R_median_alive509": 1.05,
+      "R_max_alive509": 2,
+      "frac_seeds_R_gt_1": 0.5226,
+      "frac_seeds_R_gt_10": 0.0,
+      "frac_seeds_R_eq_1": 0.4774,
+      "n_distinct_R_alive509": 14
+    },
+    {
+      "variant": "weighted",
+      "beta": 0.03,
+      "gamma": 0.2,
+      "R_mean_alive509": 1.2825,
+      "R_median_alive509": 1.15,
+      "R_max_alive509": 6,
+      "frac_seeds_R_gt_1": 0.664,
+      "frac_seeds_R_gt_10": 0.0,
+      "frac_seeds_R_eq_1": 0.336,
+      "n_distinct_R_alive509": 35
+    },
+    {
+      "variant": "weighted",
+      "beta": 0.06,
+      "gamma": 0.2,
+      "R_mean_alive509": 1.7046,
+      "R_median_alive509": 1.35,
+      "R_max_alive509": 14,
+      "frac_seeds_R_gt_1": 0.6896,
+      "frac_seeds_R_gt_10": 0.002,
+      "frac_seeds_R_eq_1": 0.3104,
+      "n_distinct_R_alive509": 70
+    },
+    {
+      "variant": "weighted",
+      "beta": 0.12,
+      "gamma": 0.2,
+      "R_mean_alive509": 3.082,
+      "R_median_alive509": 1.8,
+      "R_max_alive509": 30,
+      "frac_seeds_R_gt_1": 0.6935,
+      "frac_seeds_R_gt_10": 0.0334,
+      "frac_seeds_R_eq_1": 0.3065,
+      "n_distinct_R_alive509": 142
+    },
+    {
+      "variant": "weighted",
+      "beta": 0.25,
+      "gamma": 0.2,
+      "R_mean_alive509": 10.0218,
+      "R_median_alive509": 4.7,
+      "R_max_alive509": 85,
+      "frac_seeds_R_gt_1": 0.6935,
+      "frac_seeds_R_gt_10": 0.3733,
+      "frac_seeds_R_eq_1": 0.3065,
+      "n_distinct_R_alive509": 259
+    },
+    {
+      "variant": "weighted",
+      "beta": 0.5,
+      "gamma": 0.2,
+      "R_mean_alive509": 35.7733,
+      "R_median_alive509": 20.4,
+      "R_max_alive509": 131,
+      "frac_seeds_R_gt_1": 0.6935,
+      "frac_seeds_R_gt_10": 0.554,
+      "frac_seeds_R_eq_1": 0.3065,
+      "n_distinct_R_alive509": 307
+    }
+  ],
+  "variant_contrast": [
+    {
+      "beta": 0.01,
+      "R_mean_unweighted": 1.353,
+      "R_mean_weighted": 1.08,
+      "ratio_weighted_over_unweighted": 0.7982,
+      "spearman_variants": 0.6283
+    },
+    {
+      "beta": 0.03,
+      "R_mean_unweighted": 4.562,
+      "R_mean_weighted": 1.283,
+      "ratio_weighted_over_unweighted": 0.2811,
+      "spearman_variants": 0.7678
+    },
+    {
+      "beta": 0.06,
+      "R_mean_unweighted": 20.826,
+      "R_mean_weighted": 1.705,
+      "ratio_weighted_over_unweighted": 0.0818,
+      "spearman_variants": 0.8265
+    },
+    {
+      "beta": 0.12,
+      "R_mean_unweighted": 72.601,
+      "R_mean_weighted": 3.082,
+      "ratio_weighted_over_unweighted": 0.0425,
+      "spearman_variants": 0.8388
+    },
+    {
+      "beta": 0.25,
+      "R_mean_unweighted": 155.349,
+      "R_mean_weighted": 10.022,
+      "ratio_weighted_over_unweighted": 0.0645,
+      "spearman_variants": 0.856
+    },
+    {
+      "beta": 0.5,
+      "R_mean_unweighted": 219.879,
+      "R_mean_weighted": 35.773,
+      "ratio_weighted_over_unweighted": 0.1627,
+      "spearman_variants": 0.849
+    }
+  ],
+  "top20_spreaders": [
+    {
+      "node": "fusep.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        2.8,
+        43.2,
+        110.7,
+        277.3,
+        247.25,
+        490.6
+      ],
+      "kcore": 11,
+      "deg_u": 74,
+      "in_degree": 1,
+      "out_degree": 74,
+      "bet_u": 0.062965,
+      "pr_dw": 0.000674,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "ysjt.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        4.4,
+        24.7,
+        67.3,
+        272.45,
+        355.8,
+        468.25
+      ],
+      "kcore": 11,
+      "deg_u": 21,
+      "in_degree": 2,
+      "out_degree": 20,
+      "bet_u": 0.003906,
+      "pr_dw": 0.000677,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "wpsearch.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        9.55,
+        41.95,
+        161.2,
+        264.3,
+        368.1,
+        504.45
+      ],
+      "kcore": 11,
+      "deg_u": 89,
+      "in_degree": 1,
+      "out_degree": 89,
+      "bet_u": 0.071893,
+      "pr_dw": 0.000717,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "pnp.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        3.6,
+        18.2,
+        142.8,
+        260.95,
+        272.85,
+        476.8
+      ],
+      "kcore": 11,
+      "deg_u": 37,
+      "in_degree": 7,
+      "out_degree": 35,
+      "bet_u": 0.015939,
+      "pr_dw": 0.001886,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 85.0
+    },
+    {
+      "node": "teach.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        5.25,
+        47.85,
+        112.8,
+        254.2,
+        330.55,
+        448.7
+      ],
+      "kcore": 11,
+      "deg_u": 119,
+      "in_degree": 51,
+      "out_degree": 95,
+      "bet_u": 0.156538,
+      "pr_dw": 0.008477,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "enbiomed.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        1.6,
+        14.05,
+        79.85,
+        247.45,
+        258.95,
+        420.9
+      ],
+      "kcore": 8,
+      "deg_u": 41,
+      "in_degree": 3,
+      "out_degree": 40,
+      "bet_u": 0.041326,
+      "pr_dw": 0.001439,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "etcis.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        1.6,
+        18.15,
+        85.95,
+        247.35,
+        334.05,
+        360.9
+      ],
+      "kcore": 10,
+      "deg_u": 22,
+      "in_degree": 9,
+      "out_degree": 17,
+      "bet_u": 0.010119,
+      "pr_dw": 0.001735,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "business.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        2.7,
+        17.5,
+        57.8,
+        245.0,
+        294.1,
+        366.1
+      ],
+      "kcore": 11,
+      "deg_u": 23,
+      "in_degree": 9,
+      "out_degree": 18,
+      "bet_u": 0.00496,
+      "pr_dw": 0.001459,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 95.0
+    },
+    {
+      "node": "sias.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        2.65,
+        10.25,
+        45.8,
+        244.35,
+        299.55,
+        497.1
+      ],
+      "kcore": 9,
+      "deg_u": 18,
+      "in_degree": 4,
+      "out_degree": 16,
+      "bet_u": 0.007211,
+      "pr_dw": 0.000858,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 90.0
+    },
+    {
+      "node": "physics.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        3.55,
+        29.35,
+        105.15,
+        243.15,
+        308.85,
+        492.85
+      ],
+      "kcore": 11,
+      "deg_u": 54,
+      "in_degree": 24,
+      "out_degree": 45,
+      "bet_u": 0.034814,
+      "pr_dw": 0.005427,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "zsb.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        1.9,
+        35.7,
+        68.6,
+        242.75,
+        363.6,
+        382.7
+      ],
+      "kcore": 11,
+      "deg_u": 46,
+      "in_degree": 25,
+      "out_degree": 29,
+      "bet_u": 0.016601,
+      "pr_dw": 0.004412,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "cs.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        2.7,
+        21.2,
+        99.05,
+        242.35,
+        381.2,
+        393.9
+      ],
+      "kcore": 11,
+      "deg_u": 48,
+      "in_degree": 27,
+      "out_degree": 29,
+      "bet_u": 0.045218,
+      "pr_dw": 0.006576,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "staff.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        3.85,
+        28.5,
+        108.75,
+        241.7,
+        324.35,
+        424.6
+      ],
+      "kcore": 11,
+      "deg_u": 92,
+      "in_degree": 63,
+      "out_degree": 49,
+      "bet_u": 0.108575,
+      "pr_dw": 0.009884,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 90.0
+    },
+    {
+      "node": "en.sist.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        2.05,
+        10.4,
+        61.85,
+        240.75,
+        302.0,
+        431.6
+      ],
+      "kcore": 8,
+      "deg_u": 10,
+      "in_degree": 6,
+      "out_degree": 7,
+      "bet_u": 0.0012,
+      "pr_dw": 0.001296,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 90.0
+    },
+    {
+      "node": "xxgk.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        2.2,
+        6.8,
+        82.65,
+        239.35,
+        294.0,
+        496.4
+      ],
+      "kcore": 11,
+      "deg_u": 32,
+      "in_degree": 4,
+      "out_degree": 28,
+      "bet_u": 0.019722,
+      "pr_dw": 0.001297,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "bs.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        2.5,
+        11.4,
+        89.9,
+        228.8,
+        297.45,
+        447.6
+      ],
+      "kcore": 10,
+      "deg_u": 23,
+      "in_degree": 15,
+      "out_degree": 16,
+      "bet_u": 0.00884,
+      "pr_dw": 0.01073,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "phys.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        2.4,
+        5.8,
+        71.85,
+        227.6,
+        227.1,
+        441.6
+      ],
+      "kcore": 10,
+      "deg_u": 21,
+      "in_degree": 6,
+      "out_degree": 17,
+      "bet_u": 0.011043,
+      "pr_dw": 0.000824,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 95.0
+    },
+    {
+      "node": "applchem.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        3.0,
+        15.85,
+        78.9,
+        226.85,
+        341.75,
+        415.4
+      ],
+      "kcore": 11,
+      "deg_u": 26,
+      "in_degree": 5,
+      "out_degree": 23,
+      "bet_u": 0.009465,
+      "pr_dw": 0.000729,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    },
+    {
+      "node": "snst.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        1.95,
+        8.3,
+        54.45,
+        226.25,
+        303.95,
+        390.05
+      ],
+      "kcore": 11,
+      "deg_u": 31,
+      "in_degree": 11,
+      "out_degree": 22,
+      "bet_u": 0.016401,
+      "pr_dw": 0.002424,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 90.0
+    },
+    {
+      "node": "som.ustc.edu.cn",
+      "R_at_each_beta(unweighted)": [
+        2.9,
+        9.75,
+        60.45,
+        223.8,
+        370.95,
+        417.7
+      ],
+      "kcore": 11,
+      "deg_u": 35,
+      "in_degree": 14,
+      "out_degree": 30,
+      "bet_u": 0.020878,
+      "pr_dw": 0.011093,
+      "det_reach_size": 665,
+      "ok_ratio_pct": 100.0
+    }
+  ],
+  "censoring_contrast": [
+    {
+      "beta": 0.01,
+      "rho__kcore__alive_attr509": 0.7345,
+      "rho__deg_u__alive_attr509": 0.7616,
+      "rho__bet_u__alive_attr509": 0.7149,
+      "rho__pr_dw__alive_attr509": 0.3096,
+      "rho__kcore__attr671": 0.7538,
+      "rho__deg_u__attr671": 0.7755,
+      "rho__bet_u__attr671": 0.7536,
+      "rho__pr_dw__attr671": 0.3386
+    },
+    {
+      "beta": 0.03,
+      "rho__kcore__alive_attr509": 0.7381,
+      "rho__deg_u__alive_attr509": 0.7456,
+      "rho__bet_u__alive_attr509": 0.6767,
+      "rho__pr_dw__alive_attr509": 0.2241,
+      "rho__kcore__attr671": 0.7684,
+      "rho__deg_u__attr671": 0.7793,
+      "rho__bet_u__attr671": 0.7386,
+      "rho__pr_dw__attr671": 0.2814
+    },
+    {
+      "beta": 0.06,
+      "rho__kcore__alive_attr509": 0.7518,
+      "rho__deg_u__alive_attr509": 0.7516,
+      "rho__bet_u__alive_attr509": 0.6759,
+      "rho__pr_dw__alive_attr509": 0.2108,
+      "rho__kcore__attr671": 0.7765,
+      "rho__deg_u__attr671": 0.7835,
+      "rho__bet_u__attr671": 0.7424,
+      "rho__pr_dw__attr671": 0.2717
+    },
+    {
+      "beta": 0.12,
+      "rho__kcore__alive_attr509": 0.7525,
+      "rho__deg_u__alive_attr509": 0.7486,
+      "rho__bet_u__alive_attr509": 0.6633,
+      "rho__pr_dw__alive_attr509": 0.2091,
+      "rho__kcore__attr671": 0.7775,
+      "rho__deg_u__attr671": 0.7825,
+      "rho__bet_u__attr671": 0.735,
+      "rho__pr_dw__attr671": 0.2711
+    },
+    {
+      "beta": 0.25,
+      "rho__kcore__alive_attr509": 0.7378,
+      "rho__deg_u__alive_attr509": 0.7343,
+      "rho__bet_u__alive_attr509": 0.6556,
+      "rho__pr_dw__alive_attr509": 0.2091,
+      "rho__kcore__attr671": 0.7702,
+      "rho__deg_u__attr671": 0.7755,
+      "rho__bet_u__attr671": 0.731,
+      "rho__pr_dw__attr671": 0.2705
+    },
+    {
+      "beta": 0.5,
+      "rho__kcore__alive_attr509": 0.7094,
+      "rho__deg_u__alive_attr509": 0.7125,
+      "rho__bet_u__alive_attr509": 0.6407,
+      "rho__pr_dw__alive_attr509": 0.18,
+      "rho__kcore__attr671": 0.7561,
+      "rho__deg_u__attr671": 0.7646,
+      "rho__bet_u__attr671": 0.7241,
+      "rho__pr_dw__attr671": 0.2534
+    }
+  ],
+  "versions": {
+    "python": "3.12.13",
+    "networkx": "3.6.1",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "SEED": 20261113,
+    "PYTHONHASHSEED": "0"
+  }
+}

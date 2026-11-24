@@ -1,0 +1,5 @@
+﻿variant,nodes,uedges,darcs,uweight_total,n_attributed_isolated_in_u,removed_uedges_vs_full,share_removed_edges,share_removed_weight
+a_full,676,2498,2788,63263,0,0,0.0,0.0
+b_dehub,676,1993,2218,53345,25,505,0.2022,0.1568
+c_bb10,676,675,851,58888,303,1823,0.7298,0.0692
+c_bb10_byarc_DIAG,676,675,743,58888,303,1823,0.7298,0.0692

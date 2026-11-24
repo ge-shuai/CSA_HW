@@ -1,0 +1,25 @@
+﻿measure,bin,n_nodes,share_pct,cumulative_n,cumulative_share_pct
+断连的基线点对数 pairs_lost_within_ps,"(-1.001, 0.0]",580,85.8,580,85.8
+断连的基线点对数 pairs_lost_within_ps,"(999.0, 4999.0]",86,12.72,666,98.52
+断连的基线点对数 pairs_lost_within_ps,"(4999.0, 9999.0]",6,0.89,672,99.41
+断连的基线点对数 pairs_lost_within_ps,"(9999.0, 49999.0]",4,0.59,676,100.0
+超出机械项的 GCC 损失 extra_gcc,"(-1.001, 0.0]",580,85.8,580,85.8
+超出机械项的 GCC 损失 extra_gcc,"(0.0, 1.0]",60,8.88,640,94.67
+超出机械项的 GCC 损失 extra_gcc,"(1.0, 2.0]",21,3.11,661,97.78
+超出机械项的 GCC 损失 extra_gcc,"(2.0, 4.0]",7,1.04,668,98.82
+超出机械项的 GCC 损失 extra_gcc,"(4.0, 8.0]",4,0.59,672,99.41
+超出机械项的 GCC 损失 extra_gcc,"(8.0, 16.0]",4,0.59,676,100.0
+ΔE_fixed 中继项 dE_fixed_relay,"(-inf, -0.002]",22,3.25,22,3.25
+ΔE_fixed 中继项 dE_fixed_relay,"(-0.002, -0.001]",32,4.73,54,7.99
+ΔE_fixed 中继项 dE_fixed_relay,"(-0.001, -0.0005]",49,7.25,103,15.24
+ΔE_fixed 中继项 dE_fixed_relay,"(-0.0005, -0.0001]",27,3.99,130,19.23
+ΔE_fixed 中继项 dE_fixed_relay,"(-0.0001, -1e-05]",71,10.5,201,29.73
+ΔE_fixed 中继项 dE_fixed_relay,"(-1e-05, -1e-06]",71,10.5,272,40.24
+ΔE_fixed 中继项 dE_fixed_relay,"(-1e-06, -1e-09]",3,0.44,275,40.68
+ΔE_fixed 中继项 dE_fixed_relay,"(-1e-09, 1e-15]",401,59.32,676,100.0
+ΔE_fixed 端点机械项 dE_fixed_endpoint_mech,"(-0.00175, -0.0015]",3,0.44,3,0.44
+ΔE_fixed 端点机械项 dE_fixed_endpoint_mech,"(-0.0015, -0.00125]",32,4.73,35,5.18
+ΔE_fixed 端点机械项 dE_fixed_endpoint_mech,"(-0.00125, -0.001]",247,36.54,282,41.72
+ΔE_fixed 端点机械项 dE_fixed_endpoint_mech,"(-0.001, -0.00075]",358,52.96,640,94.67
+ΔE_fixed 端点机械项 dE_fixed_endpoint_mech,"(-0.00075, -0.0005]",34,5.03,674,99.7
+ΔE_fixed 端点机械项 dE_fixed_endpoint_mech,"(-0.00025, 0.0]",2,0.3,676,100.0

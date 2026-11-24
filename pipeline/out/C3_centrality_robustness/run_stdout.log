@@ -1,0 +1,70 @@
+[    1.5s] assert_anchors() 31/31 PASS
+[    1.8s] graph variants:
+          variant  nodes  uedges  darcs  uweight_total  n_attributed_isolated_in_u  removed_uedges_vs_full  share_removed_edges  share_removed_weight
+           a_full    676    2498   2788          63263                           0                       0               0.0000                0.0000
+          b_dehub    676    1993   2218          53345                          25                     505               0.2022                0.1568
+           c_bb10    676     675    851          58888                         303                    1823               0.7298                0.0692
+c_bb10_byarc_DIAG    676     675    743          58888                         303                    1823               0.7298                0.0692
+[    8.8s] measure frames: {'a_full': (671, 12), 'b_dehub': (671, 12), 'c_bb10': (671, 12), 'c_bb10_byarc_DIAG': (671, 12)}
+[   27.6s] tie permutations done: R=100
+[   28.0s] random Top-20 pair Jaccard: mean=0.0154 p99=0.0811 max=0.1111
+[  128.3s] bootstrap done: 50 reps; mean ceiling=0.8049
+[  128.9s] PASS(口径门): ['hits_hub', 'hits_auth', 'out_strength', 'in_strength']
+[  128.9s] FAIL(口径门): ['pr_uu', 'hidx_in_in', 'in_degree', 'bet_u', 'deg_u', 'pr_dw', 'out_degree', 'kcore']
+[  128.9s] PASS(口径门+抽样+无单点脆弱): ['out_strength', 'in_strength'] ; 单点脆弱: ['hits_hub', 'hits_auth'] ; 若只与基准比会翻案: ['pr_uu', 'hidx_in_in', 'in_degree']
+[  129.3s] saved
+{
+ "decision_rule": "PASS := 三对两两口径 Jaccard 的最小值（取 100 次并列打散的**最坏值**）>= 0.5；抽样稳定性（删 10% 节点，50 次）作为第二道门与单点脆弱标记（p10<0.25 或 min<0.10）一并给出",
+ "threshold_justification": {
+  "shared_members_at_0.5": 14,
+  "random_top20_pair_jaccard_mean": 0.01536,
+  "random_top20_pair_jaccard_p99": 0.08108,
+  "ratio_of_threshold_to_random_mean": 32.5
+ },
+ "passed_measures": [
+  "hits_hub",
+  "hits_auth",
+  "out_strength",
+  "in_strength"
+ ],
+ "failed_measures": [
+  "pr_uu",
+  "hidx_in_in",
+  "in_degree",
+  "bet_u",
+  "deg_u",
+  "pr_dw",
+  "out_degree",
+  "kcore"
+ ],
+ "strict_pass_measures": [
+  "out_strength",
+  "in_strength"
+ ],
+ "fragile_pass_measures": [
+  "hits_hub",
+  "hits_auth"
+ ],
+ "flip_if_compared_only_to_reference": [
+  "pr_uu",
+  "hidx_in_in",
+  "in_degree"
+ ],
+ "diag_arcs_by_own_weight": {
+  "note": "c_bb10_byarc_DIAG = 弧按自身权重 >=10 过滤（vs 主口径按无序点对合并权重）",
+  "j_vs_c_bb10_pairbased": {
+   "deg_u": 1.0,
+   "in_degree": 0.9048,
+   "out_degree": 0.6667,
+   "in_strength": 1.0,
+   "out_strength": 1.0,
+   "bet_u": 1.0,
+   "pr_dw": 0.4815,
+   "pr_uu": 1.0,
+   "hits_hub": 0.8182,
+   "hits_auth": 0.9048,
+   "kcore": 1.0,
+   "hidx_in_in": 0.4815
+  }
+ }
+}

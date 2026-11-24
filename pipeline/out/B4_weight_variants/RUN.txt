@@ -1,0 +1,12 @@
+python out/B4_weight_variants/run_b4.py     (cwd = pipeline/)
+versions = {"python": "3.12.13", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+SEEDS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42]  (n=31)
+THRESHOLDS = [2, 5, 10, 20, 50], ALPHA = 0.05, MC_REPS = 20000, GRID = 2000
+SAMPLE_SEEDS for the NMI/ARI grid = [0, 6, 12, 18, 24]
+elapsed = 35.7s
+raw_weight seed=42: n_comms_total=25, n_comms_nonsingleton=25, Q=0.69043, max_comm=87  (CONVENTIONS anchor 25/0.6904/87)
+backbone_w10 seed=42 (canonical strong_backbone): n_comms_total=338, n_singleton_communities=307, singleton_isolated=307, singleton_nonisolated=0, n_comms_nonsingleton=31, Q=0.71354
+backbone_w10_doc_order seed=42 (class evidence.py build order): n_comms_total=339 (class doc / slide 7 says 339), singleton_isolated=307, n_comms_nonsingleton=32, Q=0.71302
+backbone_w10 over 31 seeds: n_comms_total [336, 340], n_comms_nonsingleton [29, 33] median 31, singleton_isolated always 307
+backbone_w10_doc_order over 31 seeds: n_comms_total [336, 341], n_comms_nonsingleton [29, 34] median 30
+disparity: edges=89, isolated=551, nonsingleton=37, NMI(versus w10)=0.8658, ARI=0.057, Jaccard=0.1319

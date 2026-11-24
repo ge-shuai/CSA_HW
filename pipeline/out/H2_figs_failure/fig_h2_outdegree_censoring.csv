@@ -1,0 +1,37 @@
+﻿panel,group,n,mean_in_degree,mean_out_degree,mean_degree_u,share_degree_u_le_1,share_in_le_1,share_out_eq_0,quantity,undirected_total_degree,in_degree,结论,总度口径,入度口径,判定,为什么,item,value
+a_group_means,dead162,162.0,1.8272,0.0,1.8272,0.6235,0.6235,1.0,,,,,,,,,,
+a_group_means,true129,129.0,1.6047,0.0,1.6047,0.6667,0.6667,1.0,,,,,,,,,,
+a_group_means,partial149,149.0,4.7517,4.7315,8.5772,0.1141,0.2685,0.255,,,,,,,,,,
+a_group_means,healthy360,360.0,4.9417,5.7861,9.4917,0.175,0.3389,0.3278,,,,,,,,,,
+b_degree_scale_contrast,,,,,,,,,"健康站÷死站
+平均度倍数",5.194669439579685,2.70452057793345,,,,,,,
+b_degree_scale_contrast,,,,,,,,,"死站叶子占比
+（度≤1）",0.6235,0.6235,,,,,,,
+b_degree_scale_contrast,,,,,,,,,"健康站叶子占比
+（度≤1）",0.175,0.3389,,,,,,,
+c_conclusion_text_contrast,,,,,,,,,,,,死站平均度 1.83 vs 健康站 9.49,1.827 vs 9.492 = 5.195×,1.827 vs 4.942 = 2.705×,总度版本 INVALID（跨口径）,死站的 degree_u 恒等于 in_degree（出边全部不可观测），健康站的 degree_u 里含 5.786 的可观测出度；两边量的不是同一个东西。倍数分解：5.195× = 2.705×（同口径入度）×1.921（健康站度/入度，纯删失自由度）,,
+c_conclusion_text_contrast,,,,,,,,,,,,'死站是叶子'（度≤1）,死站 0.6235 vs 健康站 0.1750,死站 0.6235 vs 健康站 0.3389,表述必须挂在入度口径 + 2.705× 这个数上,同一句话在无向度上把 62.35% vs 33.89% 夸大成 62.35% vs 17.50%；差值来自健康站的出度分量,,
+c_conclusion_text_contrast,,,,,,,,,,,,度十分位的全挂率梯度,-58.80 pp,-32.33 pp,两口径同号同显著；总度更陡 1.8 倍,总度把'没有可观测出边'记成'低度'，等于给结论加了一遍自变量里的答案,,
+c_conclusion_text_contrast,,,,,,,,,,,,"ρ(度, URL 可用率)（§2.1 锚点）",0.3762,0.2157,主口径=入度；总度只作对照,CONVENTIONS §2.1 写明 0.376 vs 0.216，本单元复现 0.3762 / 0.2157,,
+c_conclusion_text_contrast,,,,,,,,,,,,出度均值 死 vs 健康,0.000 vs 5.786,不适用（出度不是入度的替身）,0 vs 5.786 不是'死站不出链'的证据,它是爬虫定义：抓不到的页面提不出链接。禁止读作行为差异,,
+c_conclusion_text_contrast,,,,,,,,,,,,死站在无向图上的邻居数,平均 1.827 条边连着死站,平均 1.827,两数相同（296/162=1.827），这正是同一个数,死站参与的无向边 = 指向死站的有向边，逐条一一对应,,
+c_conclusion_text_contrast,,,,,,,,,,,,'失效站点之间不相邻'（D4 的前置）,dead↔dead 观测边 0,target-side 可检验（活站→死站 296 条）,dead↔dead 构造性不可识别,观测度序列本身已把'死站出度=0'编码进去，度保持零模型也复现不出任何 dead→dead 边,,
+d_censoring_facts,,,,,,,,,,,,,,,,,edges_total_directed,2788.0
+d_censoring_facts,,,,,,,,,,,,,,,,,edges_from_dead,0.0
+d_censoring_facts,,,,,,,,,,,,,,,,,weight_from_dead,0.0
+d_censoring_facts,,,,,,,,,,,,,,,,,edges_dead_to_dead,0.0
+d_censoring_facts,,,,,,,,,,,,,,,,,edges_to_dead,296.0
+d_censoring_facts,,,,,,,,,,,,,,,,,edges_alive_to_dead,296.0
+d_censoring_facts,,,,,,,,,,,,,,,,,weight_to_dead,4276.0
+d_censoring_facts,,,,,,,,,,,,,,,,,dead_n,162.0
+d_censoring_facts,,,,,,,,,,,,,,,,,dead_out_degree_zero_n,162.0
+d_censoring_facts,,,,,,,,,,,,,,,,,dead_out_degree_max,0.0
+d_censoring_facts,,,,,,,,,,,,,,,,,dead_out_degree_mean,0.0
+d_censoring_facts,,,,,,,,,,,,,,,,,dead_in_degree_mean,1.8272
+d_censoring_facts,,,,,,,,,,,,,,,,,dead_in_degree_median,1.0
+d_censoring_facts,,,,,,,,,,,,,,,,,dead_in_degree_max,22.0
+d_censoring_facts,,,,,,,,,,,,,,,,,undirected_edges_touching_dead,296.0
+d_censoring_facts,,,,,,,,,,,,,,,,,Gu_pairset_equals_Gd_pairset,1.0
+d_censoring_facts,,,,,,,,,,,,,,,,,dead_degreeU_equals_inDegree_1to1,1.0
+d_censoring_facts,,,,,,,,,,,,,,,,,degree_u_eq_in_plus_out_n_of_671,435.0
+d_censoring_facts,,,,,,,,,,,,,,,,,urls_csv_page_level_hrefs_available,0.0

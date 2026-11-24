@@ -1,0 +1,122 @@
+{
+  "seed": 20261113,
+  "n_random_reps": 200,
+  "max_f": 0.9,
+  "levels": [
+    0.5,
+    0.25
+  ],
+  "node_sets": {
+    "n671": {
+      "n0": 671,
+      "m0": 2493,
+      "gcc0": 669
+    },
+    "n674": {
+      "n0": 674,
+      "m0": 2497,
+      "gcc0": 674
+    },
+    "n676": {
+      "n0": 676,
+      "m0": 2498,
+      "gcc0": 674
+    }
+  },
+  "timing_s": {
+    "static_det_curves": 13.6,
+    "random_curves_pool": 6.9,
+    "total": 21.5
+  },
+  "cross_check_vs_E1": {
+    "file": "/home/baifeiyang2026/csa_run_20261123/pipeline/out/E1_attack_curves/e1_curve_gcc_per_step_deterministic.csv",
+    "per_strategy": [
+      {
+        "strategy": "degree",
+        "max_abs_gcc_diff_nodes": 0
+      },
+      {
+        "strategy": "betweenness",
+        "max_abs_gcc_diff_nodes": 0
+      },
+      {
+        "strategy": "pagerank_dw",
+        "max_abs_gcc_diff_nodes": 0
+      },
+      {
+        "strategy": "pagerank_uu",
+        "max_abs_gcc_diff_nodes": 0
+      },
+      {
+        "strategy": "kcore",
+        "max_abs_gcc_diff_nodes": 0
+      }
+    ],
+    "worst": 0,
+    "random_first_120_reps_vs_E1_max_abs_gcc_diff_nodes": 3.3e-05,
+    "random_all_200_reps_vs_E1_mean_max_abs_gcc_diff_nodes": 1.2433,
+    "random_reps_overlap": "E1 与 E3 用同一个 seed 公式 np.random.default_rng([SEED, rep]) 和同一份 sorted 节点表，所以 E3 的第 r 次重复与 E1 的第 r 次是同一次抽样；E3 的均值是 200 次、E1 的是 120 次，两个均值只能近似相等（差 1–2 个节点来自抽样次数不同，不是建图或口径漂移）。"
+  },
+  "random_pc_674_primary": {
+    "0.5": {
+      "n_reps": 200,
+      "n_reps_crossed": 200,
+      "frac_reaches_threshold": 1.0,
+      "pc_mean": 0.4094955489614243,
+      "pc_sd": 0.015691217210405537,
+      "pc_se": 0.0011095366094548817,
+      "pc_ci95_lo": 0.40732085720689276,
+      "pc_ci95_hi": 0.41167024071595587,
+      "pc_min": 0.3694362017804154,
+      "pc_max": 0.45103857566765576,
+      "pc_p2.5": 0.38130563798219586,
+      "pc_p16": 0.3929376854599406,
+      "pc_p50": 0.4094955489614243,
+      "pc_p84": 0.4258160237388724,
+      "pc_p97.5": 0.43920623145400595,
+      "k_mean": 276.0,
+      "k_sd": 10.57588039981333
+    },
+    "0.25": {
+      "n_reps": 200,
+      "n_reps_crossed": 200,
+      "frac_reaches_threshold": 1.0,
+      "pc_mean": 0.6365504451038576,
+      "pc_sd": 0.01804568137196244,
+      "pc_se": 0.0012760223669246401,
+      "pc_ci95_lo": 0.6340494412646853,
+      "pc_ci95_hi": 0.6390514489430299,
+      "pc_min": 0.5801186943620178,
+      "pc_max": 0.6795252225519288,
+      "pc_p2.5": 0.5949554896142433,
+      "pc_p16": 0.6214243323442137,
+      "pc_p50": 0.6372403560830862,
+      "pc_p84": 0.6543026706231454,
+      "pc_p97.5": 0.670660237388724,
+      "k_mean": 429.035,
+      "k_sd": 12.162789244702683
+    }
+  },
+  "fragility_headline_level_0p5": {
+    "level": 0.5,
+    "strategy": "betweenness",
+    "pc": 0.11275964391691394,
+    "k_at_pc": 76.0,
+    "random_pc_mean": 0.4094955489614243,
+    "random_pc_sd": 0.015691217210405537,
+    "random_pc_p2_5": 0.38130563798219586,
+    "random_pc_p97_5": 0.43920623145400595,
+    "margin_vs_random_pp": 29.673590504451035,
+    "margin_vs_random_rel_pct": 72.46376811594202
+  },
+  "versions": {
+    "python": "3.12.15",
+    "networkx": "3.6.1",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "SEED": 20261113,
+    "PYTHONHASHSEED": "0"
+  },
+  "anchor_check": "csa_common.assert_anchors() 31/31 PASS",
+  "kcore_weighted_note": "k-core 没有权重定义，加权排名基线下显式标记为不适用"
+}

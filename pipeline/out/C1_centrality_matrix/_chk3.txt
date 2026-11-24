@@ -1,0 +1,2 @@
+top20_shared median=7.5 min=2 max=16
+hub lists: [{"node": "en.ustc.edu.cn", "n_top20_lists": 10}, {"node": "staff.ustc.edu.cn", "n_top20_lists": 9}, {"node": "teach.ustc.edu.cn", "n_top20_lists": 9}, {"node": "news.ustc.edu.cn", "n_top20_lists": 7}, {"node": "fusep.ustc.edu.cn", "n_top20_lists": 6}, {"node": "wpsearch.ustc.edu.cn", "n_top20_lists": 4}]

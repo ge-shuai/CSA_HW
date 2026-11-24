@@ -1,0 +1,18 @@
+﻿metric,value
+alpha_threshold,0.05
+keep_rule,alpha < 0.05 at BOTH endpoints
+disparity_edges,89
+disparity_total_weight,20650.0
+disparity_nodes,676
+disparity_nodes_active,125
+disparity_nodes_isolated,551
+disparity_n_comms_total_range,588-588-588
+disparity_n_comms_nonsingleton_range,37-37-37
+disparity_Q_mean,0.8703
+w10_edges,675
+overlap_edges,89
+overlap_share_of_w10,0.1319
+overlap_share_of_disparity,1.0
+jaccard,0.1319
+NMI_disparity_vs_w10,0.8658
+ARI_disparity_vs_w10,0.057

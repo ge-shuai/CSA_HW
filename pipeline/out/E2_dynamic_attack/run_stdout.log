@@ -1,0 +1,11 @@
+[E2] anchors + build ...
+[E2] n0=674 pairset=PairSet(n0=674, ordered_pairs=453602) checkpoints=31 max_step=404
+[E2] dynamic degree       done in 16.4s complete
+[E2] static  pagerank_uu  done in 16.8s complete
+[E2] dynamic pagerank_uu  done in 18.0s complete
+[E2] static  degree       done in 18.1s complete
+[E2] static  betweenness  done in 17.5s complete
+[E2] static  kcore        done in 24.1s complete
+[E2] dynamic kcore        done in 31.4s complete
+[E2] static  pagerank_dw  done in 34.5s complete
+[E2] dynamic pagerank_dw  done in 37.7s complete

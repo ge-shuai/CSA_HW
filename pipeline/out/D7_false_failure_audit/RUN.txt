@@ -1,0 +1,8 @@
+D7_false_failure_audit · 假失效名单证据审计
+command: cd pipeline && PYTHONHASHSEED=0 python out/D7_false_failure_audit/run_d7.py
+seed: 20261113  PYTHONHASHSEED=0  versions: {'python': '3.12.15', 'networkx': '3.6.1', 'pandas': '3.0.2', 'numpy': '2.4.4', 'SEED': 20261113, 'PYTHONHASHSEED': '0'}
+anchors: csa_common.assert_anchors() 31/31 PASS
+inputs: CSA_HW dead_sites_category.csv (162 行) + urls.csv (8115 行)
+target: 33 站（假失效 32 + 待判 1）；强 32 / 中 0 / 需人工 1
+note: 本单元不重新分类，只把 CONVENTIONS §2.2 的切分逐站证据摊开
+outputs: d7_false_failure_evidence.csv d7_code_distribution_by_cat.csv d7_special_nodes.csv d7_manual_review_url_detail.csv d7_key_numbers.json result.md

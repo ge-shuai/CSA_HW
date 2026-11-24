@@ -1,0 +1,13 @@
+﻿exposure,outcome,outcome_cn,rank10_n_bins,value_aware_n_bins,rank10_rate_ratio,value_aware_rate_ratio,rank10_rate_diff_pp,value_aware_rate_diff_pp,rank10_spearman,value_aware_spearman,abs_diff_rate_diff_pp,note
+degree_u,dead,全挂率,10,8,0.025,0.0,-58.8,-55.8,-0.9695,-0.9581,3.0,rank10 会拆并列值；value_aware 不拆但箱人数不等
+degree_u,partial,部分失效率,10,8,2.031,0.968,12.12,-0.3,0.8073,0.1429,12.42,rank10 会拆并列值；value_aware 不拆但箱人数不等
+degree_u,true_fail,真失效率,10,8,0.0,0.0,-54.41,-47.51,-0.9817,-0.9759,6.9,rank10 会拆并列值；value_aware 不拆但箱人数不等
+in_degree,dead,全挂率,10,6,0.044,0.061,-32.33,-36.07,-0.911,-1.0,3.74,rank10 会拆并列值；value_aware 不拆但箱人数不等
+in_degree,partial,部分失效率,10,6,1.718,1.529,13.72,8.05,0.8165,0.6,5.67,rank10 会拆并列值；value_aware 不拆但箱人数不等
+in_degree,true_fail,真失效率,10,6,0.0,0.0,-32.35,-32.7,-0.9572,-1.0,0.35,rank10 会拆并列值；value_aware 不拆但箱人数不等
+url_count,dead,全挂率,10,8,0.0,0.0,-67.65,-65.32,-0.9816,-0.9271,2.33,rank10 会拆并列值；value_aware 不拆但箱人数不等
+url_count,partial,部分失效率,10,8,inf,inf,50.75,100.0,0.6341,0.6905,49.25,rank10 会拆并列值；value_aware 不拆但箱人数不等
+url_count,true_fail,真失效率,10,8,0.0,0.0,-61.76,-55.49,-0.9659,-0.9386,6.27,rank10 会拆并列值；value_aware 不拆但箱人数不等
+listed_urls,dead,全挂率,10,4,0.022,0.009,-66.16,-64.76,-0.9487,-1.0,1.4,rank10 会拆并列值；value_aware 不拆但箱人数不等
+listed_urls,partial,部分失效率,10,4,inf,inf,28.36,30.53,0.7464,0.8,2.17,rank10 会拆并列值；value_aware 不拆但箱人数不等
+listed_urls,true_fail,真失效率,10,4,0.024,0.005,-60.27,-55.21,-0.9639,-1.0,5.06,rank10 会拆并列值；value_aware 不拆但箱人数不等
