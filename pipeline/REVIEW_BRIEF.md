@@ -11,10 +11,14 @@ C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48
 
 git 历史已并入同学的仓库：本地 `main` 同时包含他的历史（`a065a06`）与我们的 5 个交付提交，
 由合并提交 `2283116` 接起来；合并前我们的独立历史保留在标签 `premerge-3f88640`。
-远端 `git@github.com:ge-shuai/CSA_HW.git`，交付物推到新分支 `csa-pipeline`，**不动他的 `main`**：
+
+**已推送（2026-11-24）**：远端新分支 `csa-pipeline` = `a8c4369`，他的 `main` 仍是 `a065a06` 未动。
+PR 入口：`https://github.com/ge-shuai/CSA_HW/pull/new/csa-pipeline`。
+本地已配 `origin` 并跟踪 `origin/main`，当前 `main` 领先 7 个提交、落后 0（可直接 fast-forward）。
+以后再推同一分支：
 
 ```bash
-git push git@github.com:ge-shuai/CSA_HW.git HEAD:refs/heads/csa-pipeline
+git push -u origin main:csa-pipeline
 ```
 
 旧的离线副本 `C:\Users\bfy32\Desktop\csa-pipeline.bundle` 是**修正前**的版本，不要拿它当审阅入口。
