@@ -1,0 +1,92 @@
+\appendix
+
+\section{符号表}
+
+\begin{table}[H]
+\centering
+\caption{常用符号}
+\begin{tabularx}{\textwidth}{@{}p{0.18\textwidth}X@{}}
+\toprule
+符号 & 含义 \\
+\midrule
+\(n,m\) & 节点数、边数 \\
+\(k_i\) & 节点 \(i\) 的度 \\
+\(s_i\) & 节点 \(i\) 的强度（边权之和） \\
+\(A_{ij}\) & 邻接矩阵元素（0/1） \\
+\(w_{ij}\) & 边权（观察到的链接次数） \\
+\(d_{ij}\) & 最短路径长度 \\
+\(C,L\) & 平均聚类系数、平均最短路径 \\
+\(Q,\gamma\) & 模块度、分辨率参数 \\
+\(\mathrm{NMI},\mathrm{ARI}\) & 划分相似度 \\
+\(C_B(i)\) & 介数中心性 \\
+\(PR(i)\) & PageRank \\
+\(\phi(k)\) & rich-club 系数 \\
+\(\Efull,\Egcc,\Efixed\) & 三套全局效率口径 \\
+\(p_c\) & 渗流阈值 \\
+\(r_M\) & Mantel 相关 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{45 个单元清单}
+
+\begin{longtable}{@{}p{0.24\textwidth}p{0.36\textwidth}p{0.32\textwidth}@{}}
+\caption{单元、问题与主要产出}\\
+\toprule
+单元 & 回答的问题 & 主要产出 \\
+\midrule
+\endfirsthead
+\toprule
+单元 & 回答的问题 & 主要产出 \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\unit{00\_build\_data} & 数据清洗与 31 锚点 & \code{clean\_*.csv}、\code{anchors.csv} \\
+\unit{A1} & 度分布是否重尾/幂律 & 拟合表、KS、LR、Gini \\
+\unit{A2} & 是否小世界 & \(\sigma,\gamma\)、零模型阶梯 \\
+\unit{A3} & 更像 ER/WS/BA/配置模型 & 模型对照矩阵 \\
+\unit{A4} & 有向结构/进得去出不来 & SCC、bow-tie、reciprocity \\
+\unit{A5} & 核心--边缘/rich-club & \(\phi(k)\)、B--E 拟合 \\
+\unit{B1} & Louvain 稳定性 & 50 seed 分布、共识划分 \\
+\unit{B2} & 社区是不是算法产物 & 10 算法 NMI/ARI 矩阵 \\
+\unit{B3} & 分辨率限制 & \(\gamma\) 扫描、合并/分裂 \\
+\unit{B4} & 权重口径影响 & 5 权重族社区数/Q \\
+\unit{B5} & 去枢纽边的影响 & nav6 去边敏感性 \\
+\unit{B6} & 社区≈院系吗 & NMI/ARI、纯度、\(\kappa\) \\
+\unit{C1} & 12 中心性是否一致 & 秩相关、Top-20 Jaccard \\
+\unit{C2} & 枢纽类型 & 入/出度类型学 \\
+\unit{C3} & 中心性口径门 & 双门通过的指标 \\
+\unit{C4} & k-core 能否代理传播 & SIR 情景、Top-20 \\
+\unit{C5} & 功能角色 & z--P 地图、翻转率 \\
+\unit{D1} & 健康梯度 & 度/入度十分位失效率 \\
+\unit{D2} & 出度删失影响 & 5.195× vs 2.705× \\
+\unit{D3} & 结构能否预测健康 & logistic、AUC、\(\Delta\)AUC \\
+\unit{D4} & 失效是否聚集 & 同配性、可识别性 \\
+\unit{D5} & 替代分组是否聚集 & 5 族置换检验 \\
+\unit{D6} & 149 部分失效解剖 & 45/63 站实为健康 \\
+\unit{D7} & 假失效名单审计 & 32 强 + 1 待判 \\
+\unit{E1} & 攻击曲线 & 6 策略、120 次随机 \\
+\unit{E2} & 静态 vs 动态攻击 & 37.69 pp 低估 \\
+\unit{E3} & 渗流阈值 & \(p_c(50\%)/p_c(25\%)\) \\
+\unit{E4} & 边攻击 & 桥/边介数/权重 \\
+\unit{E5} & 观测失效情景 & \(E_{\mathrm{fixed}}\) vs 随机 \\
+\unit{E6} & disparity 骨架 & 31 边/618 孤立 \\
+\unit{F1} & 模板相似 vs 链接 & Mantel 3×3×2 \\
+\unit{F2} & 模板家族 & 230 家族、ARI \\
+\unit{F3} & 模板层值不值得做 & TOST、功效、信度 \\
+\unit{G1} & 风险矩阵稳不稳 & 换象限比例、Jaccard \\
+\unit{G2} & 单点故障账 & 676 次单点删除 \\
+\unit{G3} & 治理清单 & 下线/修复/保护/监控 \\
+\unit{H1} & 分布与社区图 & 3 张图 \\
+\unit{H2} & 失效相关图 & 3 张图 \\
+\unit{H3} & 风险相关图 & 4 张图 \\
+\unit{H4} & 管线/陷阱/攻击图 & 3 张图 \\
+\unit{I1} & 数值一致性 & 真冲突 0 \\
+\unit{I2} & 口径违规 & 硬伤 0 \\
+\unit{I3} & 统计效度 & 硬伤 0 \\
+\unit{I4} & 因果措辞 & 硬伤 0 \\
+\unit{I5} & 跨机复现 & 数据表逐字节一致 \\
+
+\end{longtable}

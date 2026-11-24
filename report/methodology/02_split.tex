@@ -1,0 +1,92 @@
+\section{研究拆分：从一张图到可执行的问题链}
+
+\subsection{四层问题}
+
+把“分析这个网络”拆成四层，而不是一上来就算指标：
+
+\begin{enumerate}
+  \item \textbf{数据层}：这张图是怎么被观测到的？哪些边/节点/状态是缺失的、混装的、被截断的？
+  \item \textbf{结构层}：在可观测部分，拓扑长什么样？度、路径、社区、中心性、核心--边缘。
+  \item \textbf{失效层}：哪些站点坏了？失效与结构位置是什么关系？这个关系是可识别的还是删失的？
+  \item \textbf{韧性层}：如果删掉某些节点/边，网络会怎么崩？随机、观测失效、靶向攻击分别有多疼？
+\end{enumerate}
+
+在这四层之上，再加两个“横向”层：
+
+\begin{itemize}
+  \item \textbf{语义/模板层}：社区是不是院系？链接是不是模板造的？
+  \item \textbf{治理/审计层}：能不能把结构位置变成维护优先级？这些结论经得起口径/算法/零模型的扰动吗？
+\end{itemize}
+
+\subsection{九组单元}
+
+45 个分析单元按 A--I 分组，每组回答一类问题：
+
+\begin{table}[H]
+\centering
+\caption{九组单元的职责}
+\small
+\begin{tabularx}{\textwidth}{@{}p{0.06\textwidth}p{0.28\textwidth}X@{}}
+\toprule
+组 & 回答的问题 & 代表单元 \\
+\midrule
+A & 拓扑基线：重尾、小世界、生成模型、有向结构、核心--边缘 & A1 度分布；A2 小世界；A3 模型对照；A4 有向结构；A5 核心--边缘 \\
+B & 社区：算法、稳定性、分辨率、权重、去枢纽、语义 & B1 Louvain 稳定性；B2 算法对照；B3 分辨率；B4 权重；B5 去枢纽；B6 语义 \\
+C & 中心性与角色：有没有共识排名、谁是枢纽/连接者 & C1 中心性矩阵；C2 枢纽类型；C3 口径门；C4 传播代理；C5 功能角色 \\
+D & 失效：健康梯度、删失、预测、同配性、149 解剖、假失效 & D1 健康梯度；D2 删失；D3 预测；D4 同配性；D5 替代分组；D6 部分失效；D7 假失效 \\
+E & 韧性：攻击曲线、动态攻击、渗流、边攻击、观测情景、骨架 & E1 攻击；E2 动态；E3 渗流；E4 边攻击；E5 观测情景；E6 骨架 \\
+F & 模板层：Mantel、模板家族、功效分析 & F1 Mantel；F2 家族；F3 判决 \\
+G & 风险与治理：四象限、单点故障、治理清单 & G1 风险矩阵；G2 单点故障；G3 治理 \\
+H & 图表：只读上游 CSV，不重算 & H1--H4，13 张图 \\
+I & 审计：数值、口径、统计、措辞、复现 & I1--I5 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{研究逻辑图}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+  node distance=0.9cm and 1.0cm,
+  box/.style={draw,rounded corners,align=center,font=\small,fill=blue!4,minimum width=2.7cm,minimum height=1.0cm},
+  arrow/.style={-{Latex[length=2mm]},thick}
+]
+\node[box] (data) {数据层\\口径 / 删失 / 假失效};
+\node[box,right=of data] (struct) {结构层\\拓扑 / 社区 / 中心性};
+\node[box,right=of struct] (fail) {失效层\\健康 / 预测 / 同配};
+\node[box,below=of fail] (res) {韧性层\\攻击 / 渗流 / 骨架};
+\node[box,left=of res] (gov) {治理层\\风险矩阵 / 清单};
+\node[box,left=of gov] (audit) {审计层\\能说 / 需限定 / 不能说};
+\draw[arrow] (data) -- (struct);
+\draw[arrow] (struct) -- (fail);
+\draw[arrow] (fail) -- (res);
+\draw[arrow] (res) -- (gov);
+\draw[arrow] (gov) -- (audit);
+\draw[arrow] (data.south) -- ++(0,-0.35) -| (audit.south);
+\end{tikzpicture}
+\caption{研究逻辑：每一层都受上一层口径约束；审计层把“结论强度”显式写出来。}
+\end{figure}
+
+\subsection{研究问题 \(\to\) 方法 \(\to\) 产出}
+
+\begin{table}[H]
+\centering
+\caption{问题链与方法簇}
+\small
+\begin{tabularx}{\textwidth}{@{}p{0.22\textwidth}p{0.36\textwidth}X@{}}
+\toprule
+研究问题 & 方法簇 & 主要产出 \\
+\midrule
+结构是否重尾/无标度？ & CCDF、MLE、KS、似然比、Gini & A1 的拟合表与判决 \\
+是否小世界？ & 聚类、平均路径、ER/配置零模型 & A2 的 \(\sigma/\gamma\) 与零模型阶梯 \\
+社区有几个？ & Louvain/标签传播/GN、模块度、NMI/ARI、\(\gamma\) 扫描 & B1--B4 的分布与敏感性 \\
+谁重要？ & 度/介数/PageRank/HITS/k-core/H-index & C1--C3 的排名一致性 \\
+失效在哪？ & 健康梯度、逻辑回归、同配性、置换检验 & D1--D7 的梯度/预测/可识别性 \\
+网络多韧？ & 攻击曲线、渗流阈值、边攻击、动态攻击 & E1--E6 的 \(S(f)\)/\(\Efixed\) \\
+模板是否解释结构？ & URL 签名、Jaccard/cosine、Mantel、TOST/功效 & F1--F3 的效应量与判决 \\
+怎么治理？ & 风险矩阵、单点故障、规则化清单 & G1--G3 的四类清单 \\
+结论可信吗？ & 31 锚点、跨模块对账、统计效度、措辞审计、复现 & I1--I5 的审计报告 \\
+\bottomrule
+\end{tabularx}
+\end{table}

@@ -1,0 +1,110 @@
+\section{选题：从 A+F 到“鲁棒却不可判别”}
+
+\subsection{数据对象}
+
+研究对象是中国科学技术大学（USTC）的网站群。把每个 \code{*.ustc.edu.cn} 子域看成一个节点，把页面中指向另一个子域的链接看成一条有向边，就得到一张组织型超链接网络。数据包含三层：
+
+\begin{table}[H]
+\centering
+\caption{数据的三层}
+\begin{tabular}{@{}lll@{}}
+\toprule
+层 & 数据 & 能回答的问题 \\
+\midrule
+超链接层 & 2788 条 \code{source -> target}，带 \code{weight} & 谁连谁、结构重要性 \\
+模板层 & 8115 条 URL 的路径、扩展名、状态码、标题 & 是否共用 CMS、哪些页面打不开 \\
+健康层 & 每个子域的 \code{ok/bad/ok\_ratio} & 哪些子域/URL 当前不可用 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+规模：671 个有属性节点；无向投影 2498 条边；主连通分量 674 个节点；每个子域最多 20 条 URL 明细。权重是\textbf{观察到的链接次数}，不是流量，也不是重要性。
+
+\subsection{原选题 A+F}
+
+第一轮选题把工作拆成两块：
+
+\begin{itemize}
+  \item \textbf{A（经验分析）}：模板结构 \(\to\) 社区/中心性 \(\to\) 失效分布 \(\to\) 鲁棒性 \(\to\) 风险矩阵/治理建议；
+  \item \textbf{F（模板层）}：用 URL 路径签名构造“模板相似度”，检验“共用 CMS 是否解释了超链接相邻”。
+\end{itemize}
+
+原假设可以写成四条：
+
+\begin{enumerate}
+  \item[H1] 模板边占相当比例；剥离模板/弱边后，社区结构会明显改变。
+  \item[H2] 站点失效与结构位置相关；低度站点更容易失效。
+  \item[H3] 失效在网络上聚集，或者至少可以用网络位置预测。
+  \item[H4] “结构重要性 \(\times\) 当前健康”可以做成可操作的风险矩阵。
+\end{enumerate}
+
+\subsection{正式流水线的判决}
+
+正式流水线（44/45 个单元、31 项锚点、I1--I5 审计）把四条假设逐条检验，结果并不是“全部成立”：
+
+\begin{table}[H]
+\centering
+\caption{A+F 四条主张的体检}
+\small
+\begin{tabularx}{\textwidth}{@{}p{0.20\textwidth}p{0.15\textwidth}X@{}}
+\toprule
+原主张 & 判决 & 关键证据 \\
+\midrule
+H1 模板层塑造结构 & 弱阳性但不可靠，不支撑主线 & F1：最强 \(r=0.0419\)，394 可靠子集 \(r=0.0093\)；F3：TOST 可排除 \(|r|>0.0185\)，但 split-half 信度仅 0.2061 \\
+H2 结构位置预测失效 & 大部分否定 & D3：控制 \code{url\_count} 后入度系数 \(p=0.4727\)，\(\Delta\mathrm{AUC}=+0.0068\)；活站内部 \(\rho(\text{in-degree},\text{ok-ratio})=-0.0538\) \\
+H3 失效聚集 & 不可识别 & D4：162/162 死站出度为 0，死--死相邻的观察概率为 0；\(e_{DD}=0\) 是构造结果，不是“测出不聚集” \\
+H4 风险矩阵可治理 & 只能做敏感性分析 & G1：换中心性口径 23.6--34.3\% 节点换象限；仅 363/638=56.9\% 标签稳定 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\textbf{为什么会这样？} 核心是“抓取器视角”：一个站点被判死之后，它页面上的出链从未被采集。于是 162 个死站的出度恰好全为 0，以死站为起点的边 0 条。任何用总度/出度做的健康分析都被污染；死--死相邻在数据里\textbf{构造性不可观测}。这不是“阴性结果”，是“不可识别”。
+
+\begin{warnbox}
+\textbf{三个最容易写错的结论}
+\begin{itemize}
+  \item “删死站让效率上升”：这是 \(\Efull\) 的分母收缩；同口径 \(\Efixed\) 从 0.3315 降到 0.2039。
+  \item “死站度低 5.2 倍”：这是跨口径；同口径入度是 1.83 vs 4.94，即 2.7 倍。
+  \item “149 个部分失效”：这是枚举口径产物；剔除 \(-1/-2\) 后 45 站、连 403 一起剔后 63 站实为健康。
+\end{itemize}
+\end{warnbox}
+
+\subsection{新选题}
+
+既然 A+F 的三根支柱里两根被降级、一根只能做敏感性分析，继续硬写会把错误结论写进报告。正式流水线给出的稳健主线是\textbf{鲁棒性}：
+
+\begin{keybox}
+\textbf{新题目：}《鲁棒却不可判别：USTC 网站群的失效、韧性与治理边界》\\[2pt]
+\textbf{核心问题：}一份单次抓取的校园网站群数据，能支撑哪些结构/失效/治理结论，不能支撑哪些？
+\end{keybox}
+
+四个子问题：
+
+\begin{enumerate}
+  \item \textbf{数据层}：出度删失、假失效、149 口径、20 条 URL 上限，分别把哪些结论变成了伪结论？
+  \item \textbf{方法层}：社区数、中心性排名、小世界判据、模板层、风险矩阵，对算法/口径/零模型有多敏感？
+  \item \textbf{稳健层}：哪些结论在删失、口径、算法、零模型的联合扰动下仍然成立？
+  \item \textbf{治理层}：在这些边界内，能给出什么可操作、且不越界的建议？
+\end{enumerate}
+
+\subsection{FINER 评估}
+
+\begin{table}[H]
+\centering
+\caption{新选题的 FINER 评估}
+\begin{tabularx}{\textwidth}{@{}p{0.16\textwidth}p{0.08\textwidth}X@{}}
+\toprule
+维度 & 分数 & 理由 \\
+\midrule
+Feasible（可行） & 5/5 & 671 节点、2788 边；44/45 单元已跑完；31 项锚点通过 \\
+Interesting（有趣） & 5/5 & “已经坏了 24\% 却没瘫”是真实悖论；审计视角反直觉 \\
+Novel（新颖） & 4/5 & 课程层面：把“可判别性”作为组织原则，而不是再跑一个指标 \\
+Ethical（伦理） & 5/5 & 公开网页数据、无个人隐私、不抓取、不攻击 \\
+Relevant（相关） & 5/5 & 直接对应学校网站治理、运维优先级、导航改版 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{可迁移性}
+
+这套“先问数据能不能回答，再问答案是什么”的流程不依赖 USTC 这个特定数据集。任何“单次 crawl + 状态码 + 链接”的数据都可以套用：先问出度是否删失、状态码是否混装、分母是否收缩、算法默认值是否被当结论。这是本手册方法部分反复强调的主线。

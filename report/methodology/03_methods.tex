@@ -1,0 +1,645 @@
+\section{方法手册}
+
+\noindent
+本节每个方法按同一模板展开：\textbf{实际意义}（为什么在这个题里需要它）、\textbf{直觉}（一句话理解）、\textbf{数学表示}、\textbf{计算步骤}、\textbf{本项目用法}、\textbf{坑}。
+公式只保留理解与复现所需的最小集；完整实现见 \code{pipeline/csa\_common.py} 与各单元的 \code{run\_*.py}。
+
+% ============================================================
+\subsection{建图与口径：所有数字的地基}
+
+\paragraph{实际意义.}
+同一份 CSV 可以建出 671、674、676 三个点集，2493、2497、2498 三个边数。点集不同，度、路径、效率、GCC 全都会变。口径不先定死，后面的数字无法跨单元比较。
+
+\paragraph{直觉.}
+先把“谁是谁、谁连谁、权重是什么”写成契约；后面所有分析只 import 这个契约，不各自重写。
+
+\paragraph{数学表示.}
+有向图 \(G_d=(V,E_d)\)，边权 \(w_{ij}\) 表示观察到的链接次数。无向投影 \(G=(V,E)\)，边权
+\[
+w_{ij}^{\mathrm{und}}=\begin{cases}
+w_{ij}+w_{ji}, & (i,j)\in E_d \text{ 且 } (j,i)\in E_d,\\
+w_{ij}\ \text{或}\ w_{ji}, & \text{只有单向边}.
+\end{cases}
+\]
+全局效率
+\[
+E(G)=\frac{1}{n(n-1)}\sum_{i\ne j}\frac{1}{d_{ij}},
+\]
+其中 \(d_{ij}\) 是最短路径长度，不可达记 \(1/d_{ij}=0\)。
+
+本项目另定义两个对照口径：
+\[
+\Efull(G)=\frac{1}{n(n-1)}\sum_{i\ne j}\frac{1}{d_{ij}},\qquad
+\Efixed(G)=\frac{1}{n_0(n_0-1)}\sum_{i\ne j}\frac{1}{d_{ij}},
+\]
+其中 \(\Efull\) 的分母随剩余图收缩；\(\Efixed\) 的分母恒为原始 \(n_0(n_0-1)\)，被删/不可达的点对记 0。只有 \(\Efixed\) 支持“删点/删边后效率变化”的跨情景比较。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 读 \code{links.csv}，按行序建 \code{DiGraph}；同一对点重复出现时权重相加。
+  \item 无向投影：把反向边权重相加；保留自环检查（本项目无自环）。
+  \item 找弱连通分量；主分量记为 GCC。
+  \item 在需要跨情景比较时，统一用 \code{PairSet(n0)} 固定分母，计算 \(\Efixed\)。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{00\_build\_data.py} 生成 \code{clean\_nodes.csv}、\code{clean\_edges.csv} 和 31 项锚点；所有单元开跑先 \code{assert\_anchors()}。三套点集：671 有属性、674 主分量、676 全图。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item \(\Efull\) 在删点时可能上升（分母收缩），不能写“删死站让网络更高效”。
+  \item 权重是链接次数，不是流量；\code{bs\(\leftrightarrow\)som} 单边 4870 就能主导强度。
+  \item \code{nodes\_full.csv} 的 \code{degree} 列与重算不一致（146 vs 119），必须重算。
+\end{itemize}
+
+% ============================================================
+\subsection{度分布与重尾：枢纽有多重要}
+
+\paragraph{实际意义.}
+度分布决定“网络是平的还是有超级枢纽”。有枢纽，随机失效很稳、靶向攻击很脆；没有枢纽，两种攻击差别不大。
+
+\paragraph{直觉.}
+把每个点的度排序，画“度 \(\ge k\) 的比例”。如果尾部下降很慢，就是重尾；但“重尾”不等于“幂律”，更不等于“无标度”。
+
+\paragraph{数学表示.}
+度分布 \(p_k=n_k/n\)，互补累积分布
+\[
+\bar F(k)=\Pr(K\ge k)=\sum_{j\ge k}p_j.
+\]
+幂律 MLE（连续近似）：
+\[
+\hat\alpha=1+n\left[\sum_{i=1}^{n}\ln\frac{x_i}{x_{\min}}\right]^{-1}.
+\]
+KS 距离：
+\[
+D=\sup_{x\ge x_{\min}}\left|\hat F_{\mathrm{emp}}(x)-F_{\mathrm{model}}(x)\right|.
+\]
+幂律 vs 对数正态的配对似然比：
+\[
+R=\sum_{i=1}^{n}\left[\ln p_{\mathrm{pl}}(x_i)-\ln p_{\mathrm{ln}}(x_i)\right],
+\]
+\(R<0\) 表示对数正态更受支持。Gini：
+\[
+G=\frac{\sum_{i=1}^{n}(2i-n-1)x_{(i)}}{n\sum_{i=1}^{n}x_{(i)}}.
+\]
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 取度序列（主口径 671 的无向度）。
+  \item 对每个候选 \(x_{\min}\) 拟合幂律，选 KS 最小的 \(x_{\min}\)。
+  \item 在同一 \(x_{\min}\) 上拟合对数正态/指数/截断幂律，算 KS 与 AIC/BIC。
+  \item 做配对似然比与 bootstrap；报 \(\alpha\) 的置信区间。
+  \item 另报 Gini、CV、Top-1\%/Top-10 占比，作为“重尾”的稳健描述。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{A1}：幂律 KS 最优 \(x_{\min}=4\)、\(n=314\)、KS=0.1401；\(R(\text{幂律}-\text{对数正态})=-16.67\)、\(p=0.0004\)，对数正态更受支持。\(\alpha\) 随 \(x_{\min}\) 从 1.56 漂到 2.75；删 6 个枢纽后到 30.0。所以结论是“重尾，但不是幂律/无标度”。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 只画双对数直线就说幂律；必须报 \(x_{\min}\)、KS、似然比。
+  \item 离散度分布要用离散 MLE；连续近似只作量级。
+  \item 删失会让尾部变短；“幂律指数”不是稳定量。
+\end{itemize}
+
+% ============================================================
+\subsection{小世界：导航代价有多低}
+
+\paragraph{实际意义.}
+小世界意味着“任意两个子域之间只需几步”。这是校园网站群导航效率的结构基础。
+
+\paragraph{直觉.}
+聚类系数高（邻居互相认识）+ 平均路径短（六度分隔）。但这两个量都受度异质性影响，必须和零模型比。
+
+\paragraph{数学表示.}
+局部聚类系数
+\[
+C_i=\frac{2E_i}{k_i(k_i-1)},\qquad C=\frac1n\sum_i C_i.
+\]
+平均路径
+\[
+L=\frac{1}{n(n-1)}\sum_{i\ne j}d_{ij}.
+\]
+小世界指标
+\[
+\sigma=\frac{C/C_r}{L/L_r},
+\]
+其中 \(C_r,L_r\) 是同等规模随机图的期望。\(\sigma>1\) 通常称小世界。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 在 GCC 上算 \(C\)、\(L\)、直径。
+  \item 生成 100 个 ER 随机图，算 \(C_r,L_r\) 的分布。
+  \item 生成度保持配置模型，再算一遍；看 \(\sigma\) 是否还大。
+  \item 固定每个节点的聚类系数，看观测是否仍高于零模型。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{A2}：相对 ER，\(\sigma\approx 28.24\)（100 个 ER 实例全部低于观测）；但换成度保持零模型，\(\sigma\) 掉到 2.61；再固定每节点聚类，观测反而低于零模型（0.962，\(p=0.000\)）。所以“小世界”这三个字在本数据上信息量很低。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 只和 ER 比会高估小世界性；ER 的聚类几乎为 0。
+  \item 度异质性本身会制造高聚类；必须用配置模型对照。
+  \item 路径指标要在各自 GCC 上算，观测与模型口径对称。
+\end{itemize}
+
+% ============================================================
+\subsection{生成模型对照：这张图像什么}
+
+\paragraph{实际意义.}
+用 ER/WS/BA/配置模型做“零假设”，判断观测网络更像随机、规则、增长型，还是只能用度序列解释。
+
+\paragraph{直觉.}
+ER 是“完全随机”；WS 是“规则环 + 少量重连”；BA 是“增长 + 优先连接”；配置模型是“只保留度序列，其他打乱”。
+
+\paragraph{数学表示.}
+ER：\(G(n,p)\)，\(\mathbb{E}[m]=p\binom{n}{2}\)。WS：规则环上每条边以概率 \(p\) 重连。BA：每次加一个新点，连 \(m\) 条边，连接概率
+\[
+\Pi(i)=\frac{k_i}{\sum_j k_j}.
+\]
+配置模型：给定度序列 \(\{k_i\}\)，随机连边（允许重边/自环时需修正）。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 固定 \(n,m\) 或度序列，生成 30--100 个实例。
+  \item 对每个实例算同一组指标（度、聚类、路径、GCC 比例）。
+  \item 比较观测值与模型分布；报 z 分数/分位。
+  \item 用“哪个模型最像”的判决表，不要只说“像 BA”。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{A3}：ER/WS/BA/配置模型 × 8 指标；观测网络更像“异配的组织网络”，不是纯 BA。A2/A5 的零模型阶梯也属于这一类。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 模型拟合不是因果证明；“像 BA”不等于“按 BA 机制生长”。
+  \item 实例数太少会让 sd 不稳，z 值被抬高。
+  \item 路径指标要在各自 GCC 上算。
+\end{itemize}
+
+% ============================================================
+\subsection{社区发现：圈子是不是院系}
+
+\paragraph{实际意义.}
+社区用于回答“网站群有没有功能/组织上的圈子”。但社区算法很多，结果对算法、权重、分辨率、seed 都敏感；不能把一次划分当组织归属。
+
+\paragraph{直觉.}
+社区 = 内部连接密、外部连接疏的节点组。模块度 \(Q\) 衡量“比随机图多多少内部边”。
+
+\paragraph{数学表示.}
+无权模块度
+\[
+Q=\frac{1}{2m}\sum_{i,j}\left(A_{ij}-\frac{k_i k_j}{2m}\right)\delta(c_i,c_j).
+\]
+加权模块度
+\[
+Q=\frac{1}{2W}\sum_{i,j}\left(w_{ij}-\frac{s_i s_j}{2W}\right)\delta(c_i,c_j),
+\]
+其中 \(s_i=\sum_j w_{ij}\)，\(W=\frac12\sum_{ij}w_{ij}\)。带分辨率 \(\gamma\)：
+\[
+Q_\gamma=\frac{1}{2m}\sum_{i,j}\left(A_{ij}-\gamma\frac{k_i k_j}{2m}\right)\delta(c_i,c_j).
+\]
+划分相似度
+\[
+\mathrm{NMI}(X;Y)=\frac{2I(X;Y)}{H(X)+H(Y)},\qquad
+\mathrm{ARI}=\frac{\text{adjusted rand index}}{}.
+\]
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 选图与权重（二值/原始/log/骨架），固定边序。
+  \item 跑 Louvain 多 seed（≥50），记录社区数、\(Q\)、最大社区。
+  \item 跑标签传播、GN、贪心模块度、谱二分做对照。
+  \item 扫 \(\gamma\in[0.05,3.0]\)，画社区数/\(Q\)/NMI 曲线。
+  \item 用 NMI/ARI 比较划分；报分布，不报单值。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{B1}：50 seed 下 \(Q\) 中位 0.6903、sd 0.0015；社区数 20--28（中位 24）；最大社区 66--134。\unit{B2}：557 巨型社区是标签传播无权重的产物；加权 Louvain 最大 87。\unit{B6}：社区 vs 标题类别 NMI=0.1239、ARI=0.019，社区不是院系。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 分辨率限制：\(\gamma=1\) 只是局部最优，社区数随 \(\gamma\) 单调变。
+  \item 孤立点会被算成单点社区；必须报“非单点社区数”。
+  \item Louvain 对 seed/边序敏感；必须报分布与翻转率。
+\end{itemize}
+
+% ============================================================
+\subsection{中心性：谁重要}
+
+\paragraph{实际意义.}
+“重要”不是单一概念：度高是局部影响，介数高是桥，PageRank 高是被重要节点指向，k-core 高是处于深层核心。不同指标给出不同榜单。
+
+\paragraph{直觉.}
+度 = 直接邻居数；介数 = 多少最短路径经过它；PageRank = 随机游走的长期停留概率；k-core = 不断剥掉低度节点后它所在的层。
+
+\paragraph{数学表示.}
+度中心性
+\[
+C_D(i)=\frac{k_i}{n-1}.
+\]
+介数
+\[
+C_B(i)=\sum_{s\ne i\ne t}\frac{\sigma_{st}(i)}{\sigma_{st}}.
+\]
+PageRank（阻尼 \(d\)）
+\[
+PR(i)=\frac{1-d}{n}+d\sum_{j:j\to i}\frac{PR(j)}{k_j^{\mathrm{out}}}.
+\]
+HITS：authority \(a_i=\sum_{j\to i}h_j\)，hub \(h_i=\sum_{i\to j}a_j\)。
+k-core：最大子图，使每个点度数 \(\ge k\)。
+H-index：最大的 \(h\)，使该点有 \(h\) 个邻居的度 \(\ge h\)。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 在固定点集/权重口径上算 12 个指标。
+  \item 两两算 Spearman 秩相关；Top-20 名单算 Jaccard。
+  \item 只有 \(\rho\ge0.90\) 且 Jaccard \(\ge0.6\) 才算“同一含义”。
+  \item 对每个指标做移除实验，看攻击效果是否一致。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{C1}：12 指标折成 8 种含义；66 对里仅 2 对过 Top-20 一致；没有节点进全部 12 张榜。\unit{C3}：只有入/出强度同时过两道口径门；其余 Top-10 不可用。\unit{C5}：447 外围/200 连接者/24 枢纽；连接枢纽类换 11 seed 后 40\% 成员改判。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 不同中心性不可互换；“度最大”不等于“最关键”。
+  \item 权重是链接次数；强度榜会被少数模板互链主导。
+  \item 有向图与无向图的 PageRank 结论可能相反。
+\end{itemize}
+
+% ============================================================
+\subsection{有向结构：进得去出不来}
+
+\paragraph{实际意义.}
+网站导航是有向的：从 A 能到 B，不代表从 B 能回 A。强连通分量、互惠性、bow-tie 分组描述“导航是否可返回”。
+
+\paragraph{直觉.}
+把有向图缩成 SCC DAG：一个大核 + 大量只进不出的下游裙摆，就是“进得去出不来”。
+
+\paragraph{数学表示.}
+互惠性
+\[
+r=\frac{\sum_{i\ne j}A_{ij}A_{ji}}{m}.
+\]
+可达对密度
+\[
+\rho_{\mathrm{reach}}=\frac{\#\{(i,j):i\leadsto j\}}{n(n-1)}.
+\]
+Bow-tie 分组：CORE（最大 SCC）、IN（能到 CORE 但 CORE 回不来）、OUT（CORE 能到但回不来）、TUBE、IN-COMPONENTS、OUT-COMPONENTS、DISCONNECTED。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 算 SCC、缩点 DAG、拓扑层数、最长链。
+  \item 算 reciprocity、in/out 度不对称、可达对密度。
+  \item 按 Broder et al. (2000) 定义做 bow-tie 分组，并做交叉校验。
+  \item 分出“健康子图”再算一遍，看哪些结论是删失造成的。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{A4}：676 节点/2788 边；reciprocity=0.208；最大 SCC 301（44.53\%）；OUT/IN=364/5；可达对密度 0.4455。162 个死站 160 个落 OUT，但这是“别人单向指向它”的构造结果，不能读成“死站在下游”。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 出度删失：死站出度全 0，sink 不等于死胡同。
+  \item 20 条 URL 上限会截断出度。
+  \item Bow-tie 的 TUBE/OUT-COMPONENTS 定义有恒空陷阱，必须按原文口径。
+\end{itemize}
+
+% ============================================================
+\subsection{核心--边缘与 rich-club：有没有“富人俱乐部”}
+
+\paragraph{实际意义.}
+判断网络是不是“少数高度节点抱团、外围挂一圈”。这决定攻击要害是“核心”还是“桥”。
+
+\paragraph{直觉.}
+Rich-club：高度节点之间是否比随机图更愿意互连。核心--边缘：是否存在一个密集核心 + 稀疏外围。
+
+\paragraph{数学表示.}
+Rich-club 系数
+\[
+\phi(k)=\frac{2E_{>k}}{N_{>k}(N_{>k}-1)},
+\]
+归一化
+\[
+\rho_{rc}(k)=\frac{\phi(k)}{\langle\phi_{\mathrm{null}}(k)\rangle}.
+\]
+Borgatti--Everett 核心--边缘：把邻接矩阵与“核心全 1、边缘全 0”的理想矩阵做相关，拟合度越高越像核心--边缘。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 算 k-core 剖面。
+  \item 算 \(\phi(k)\)，用度保持零模型生成 100--400 个实例。
+  \item 算 \(\rho_{rc}(k)\) 与 BH 校正后的显著档。
+  \item 拟合 Borgatti--Everett 模型，和零模型比拟合度。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{A5}：\(\phi(k=41)=0.4779\) vs 零模型 \(0.5810\pm0.0389\)，\(z=-2.65\)（反向）；正向显著 0 档、负向 54 档；B--E 拟合 0.1407 vs 0.1582，比随机还差。结论：没有 rich-club，也没有紧密核心--边缘。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 不对度保持零模型比，rich-club 只是度分布的影子。
+  \item k-core 高不等于“核心--边缘显著”。
+\end{itemize}
+
+% ============================================================
+\subsection{失效度量与删失：什么算“坏了”}
+
+\paragraph{实际意义.}
+“坏了”有三种完全不同的东西：连接失败、认证拦截、robots 禁止。混在一起会把 32 个假失效当故障，把 149 个部分失效当站点属性。
+
+\paragraph{直觉.}
+先按状态码语义分层，再谈比例。`0` 里还混着“本运行跳过”和真连接错误；`-1/-2/403` 不是故障。
+
+\paragraph{数学表示.}
+可用率
+\[
+\mathrm{ok\_ratio}_i=\frac{\#\{\text{status}=200\}_i}{\#\{\text{listed URLs}\}_i}.
+\]
+真失效集合
+\[
+\mathcal{D}_{\mathrm{true}}=\{i:\text{category}_i\in\{A,D,F\}\},
+\]
+假失效
+\[
+\mathcal{D}_{\mathrm{false}}=\{i:\text{category}_i\in\{B,C\}\}.
+\]
+本项目：真 129 / 假 32 / 待判 1。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 按 \code{dead\_sites\_category.csv} 分 A/B/C/D/F/G。
+  \item 逐站核对状态码；D7 要求“全部探测都是 -1/-2/403 且无 2xx”才算强证据。
+  \item 对部分失效，剔 \(-1/-2\) 与 403 后重算“是否其实健康”。
+  \item 所有涉及 149 的句子加限定语。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{D6}：827 条失败 URL；剔 \(-1/-2\) 后 45 站变健康；连 403 剔后 63 站变健康。\unit{D7}：32/32 强证据；84 次探测 98.8\% 认证类。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 状态码 0 是混装的；不能一律当连接失败。
+  \item 分母是已枚举 URL，不是全站；20 条上限会改变 ok\_ratio。
+  \item 死站出度全 0，是抓取定义，不是行为。
+\end{itemize}
+
+% ============================================================
+\subsection{失效预测：结构位置能不能预测健康}
+
+\paragraph{实际意义.}
+如果度/入度能预测失效，就可以用网络指标做巡检优先级；如果不能，就不要把“结构风险”当预测模型。
+
+\paragraph{直觉.}
+把“是否真失效”当因变量，把结构指标与规模/类别当自变量，看控制混杂后结构指标还有没有独立效应。
+
+\paragraph{数学表示.}
+逻辑回归
+\[
+\log\frac{P(y_i=1\mid x_i)}{1-P(y_i=1\mid x_i)}
+=\beta_0+\beta^\top x_i.
+\]
+AUC 是“随机抽一个正例和一个负例，正例得分更高的概率”。\(\Delta\mathrm{AUC}\) 是加入结构指标后 AUC 的增量。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 标签：真失效 129 vs 其余；或 dead/partial。
+  \item 特征：入度、总度、\code{url\_count}、类别、是否认证。
+  \item 5 折交叉验证；报 AUC、系数、p、校准。
+  \item 控制 \code{url\_count} 后看结构指标是否还显著；报 \(\Delta\)AUC。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{D3}：控制 \code{url\_count} 后入度系数 \(p=0.4727\)（校正 0.5388），\(\Delta\mathrm{AUC}=+0.0068\)。结论：结构位置不能独立预测健康。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 死站度被删失，度低可能是“结果”不是“原因”。
+  \item 类别不平衡；AUC 高不一定校准好。
+  \item 横截面只能写“相关/预测”，不能写“导致”。
+\end{itemize}
+
+% ============================================================
+\subsection{失效聚集与可识别性：能不能谈“传染”}
+
+\paragraph{实际意义.}
+“失效是否在网络上聚集”是“共享平台/级联故障”与“站点个体老化”的分水岭。但在这份数据里，死--死相邻可能根本观测不到。
+
+\paragraph{直觉.}
+同配性衡量“相似状态是否倾向相邻”。但如果死站出度全 0，死--死边永远看不到，同配性就是构造结果。
+
+\paragraph{数学表示.}
+Newman 同配性
+\[
+r=\frac{\sum_{jk}jk(e_{jk}-q_jq_k)}{\sigma_q^2},
+\]
+其中 \(e_{jk}\) 是边两端类别为 \(j,k\) 的比例。死--死边数记为 \(e_{DD}\)；在本数据里 \(e_{DD}=0\) 且“从死站出发的边=0”。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 算观测同配性。
+  \item 做度保持零模型（double edge swap），看 \(e_{DD}\) 的分布。
+  \item 改到可观察通道：活站 \(\to\) 死站的边比例，与目标中性/规模加权基准比。
+  \item 换节点级分组（根域、短名 token、CMS、扩展名）做置换检验。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{D4}：13041 个死--死无序点对（26082 有序）；\(e_{DD}=0\) 与 edges\_from\_dead=0 是同一件事；零模型 \(e_{DD}\) 最小 1、均值 7.71、500 轮 0 次为 0。结论：不可识别。\unit{D5}：干净分组 R1/C2 无聚集；M1/M2 看似显著，分层后 z 变负；C1 是标签泄漏。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 把“不可识别”写成“阴性结果”是硬伤。
+  \item 度保持零模型只能控制度，控制不了类别/年龄/CMS。
+  \item 目标侧基准换成规模后方向可能反转。
+\end{itemize}
+
+% ============================================================
+\subsection{鲁棒性与渗流：随机 vs 靶向}
+
+\paragraph{实际意义.}
+回答“网络多韧”：随机坏掉一批节点会怎样？按中心性挑点删会怎样？已发生的失效比随机更疼还是更轻？
+
+\paragraph{直觉.}
+随机删点像随机抽签；靶向删点像精准拆桥。GCC 比例 \(S(f)\) 描述“还剩多大一块连通”；\(\Efixed\) 描述“固定分母下还能传多远”。
+
+\paragraph{数学表示.}
+\[
+S(f)=\frac{|C_{\max}(f)|}{n_0},\qquad
+p_c(50\%)=\min\{f:S(f)<0.5\}.
+\]
+效率用 \(\Efixed\)。攻击策略：随机、度、介数、PageRank、k-core；静态（排序一次）vs 动态（每删一个重算）。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 固定基准图（674 GCC）与分母 453602。
+  \item 随机策略 ≥100 次重复；确定性策略每档 1 次。
+  \item 画 \(S(f)\)、\(\Efixed(f)\)；报 \(p_c(50\%)/p_c(25\%)\)。
+  \item 做观测失效情景：删 162 全挂/129 真失效/149 部分，和同 k 随机比。
+  \item 做静态 vs 动态对照。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{E3}：随机 \(p_c(50\%)=40.8\%\)，介数/度/无权 PR=11.3\%（k=76）。\unit{E2}：介数 \(f=0.12\) 静态 GCC 46.29\% vs 动态 8.61\%（37.69 pp）。\unit{E5}：删 162 全挂 \(\Efixed=0.2039\) vs 随机 0.1610（\(-26.69\%\)，\(z=4.998\)）。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item \(\Efull\) 的分母收缩会制造“效率上升”假象；只用 \(\Efixed\) + 同 k。
+  \item 静态攻击对介数/度低估，但对 k-core/PageRank 不一定。
+  \item 不同中心性排序给出不同攻击曲线；要说明口径。
+\end{itemize}
+
+% ============================================================
+\subsection{边攻击与骨架：脆弱来自选择，不来自权重}
+
+\paragraph{实际意义.}
+节点不是唯一攻击面；一条桥边可能比一个节点更关键。骨架提取则回答“去掉弱边后，网络还剩什么”。
+
+\paragraph{直觉.}
+桥 = 删掉它分量数增加；边介数 = 多少最短路径经过它。Disparity filter 用边权显著性提“多尺度骨架”。
+
+\paragraph{数学表示.}
+边介数
+\[
+C_B(e)=\sum_{s\ne t}\frac{\sigma_{st}(e)}{\sigma_{st}}.
+\]
+Disparity filter（Serrano et al. 2009）：
+\[
+p_{ij}=(1-w_{ij}/s_i)^{k_i-1},
+\]
+其中 \(s_i=\sum_j w_{ij}\)，\(k_i\) 是节点 \(i\) 的度；保留 \(p_{ij}<\alpha\) 的边。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 算桥、边介数、圈秩。
+  \item 按随机/权重升/权重降/边介数/桥优先删边，画 \(\Efixed\) 与 GCC。
+  \item 做 disparity filter，检查骨架是否连通。
+  \item 在骨架上重跑攻击，看结论是否反转。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{E4}：bridge\_first 删 25 条边（1\%）\(\to\) 分量 1\(\to\)26；随机删 30\% 边 GCC 仍 89.76\%。\unit{E6}：disparity filter \(\alpha=0.05\) 只剩 31 条边、618 个孤立点、最大分量 4——骨架不存在，不是结论反转。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 权重是链接次数，不是流量；按权重删边≈随机。
+  \item disparity filter 在异构权重上可能碎片化。
+  \item “骨架不存在”要如实写，不要硬编。
+\end{itemize}
+
+% ============================================================
+\subsection{模板层与 Mantel：共用 CMS 能不能解释链接}
+
+\paragraph{实际意义.}
+如果链接相似只是因为“共用同一套模板”，那么社区/中心性就不是组织关系。必须检验这个混淆。
+
+\paragraph{直觉.}
+对每个子域抽 URL 路径签名，算两两相似度；再和“是否有超链接”做相关。相关很弱，就说明模板不是主要解释。
+
+\paragraph{数学表示.}
+Jaccard
+\[
+J(A,B)=\frac{|A\cap B|}{|A\cup B|}.
+\]
+Mantel 相关
+\[
+r_M=\frac{\sum_{i<j}(A_{ij}-\bar A)(B_{ij}-\bar B)}
+{\sqrt{\sum_{i<j}(A_{ij}-\bar A)^2}\sqrt{\sum_{i<j}(B_{ij}-\bar B)^2}}.
+\]
+置换检验：同时打乱行/列标签，重复 \(B\) 次，得到 \(r_M\) 的零分布。TOST 等价检验：若 \(|r|\) 的置信区间落在 \([-\Delta,\Delta]\)，可排除 \(|r|>\Delta\)。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 定义 3 种签名：首段 token、扩展名组合、路径指纹。
+  \item 只对 \(\ge10\) 条 URL 的 394 个子域算相似度。
+  \item 对 671/394 两个点集，分别和 binary/weighted/跳数邻近度做 Mantel。
+  \item 做 1999 次置换、1000 次 bootstrap；报效应量、CI、零模型 sd。
+  \item 做模拟功效分析：种入已知效应，看 80\% 功效能检出多大。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{F1}：最强 \(r=0.0419\)（95\% CI [0.0209,0.0690]），394 可靠子集 5/6 不显著，S3 为负。\unit{F3}：TOST 可排除 \(|r|>0.0185\)；80\% 功效最小可检 \(r\) 约 0.007--0.021；split-half 信度 0.2061。判决：不做主线。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 20 条 URL 上限会让签名不可靠；只用 \(\ge10\) 条的子集。
+  \item 相关弱不等于“绝对无关系”；要报可检测下界与信度。
+  \item Mantel 的置换要同时打乱行列，不能只打乱一边。
+\end{itemize}
+
+% ============================================================
+\subsection{风险矩阵与治理清单：结构位置能不能当优先级}
+
+\paragraph{实际意义.}
+把“结构重要性”和“当前健康”放在一张图上，输出保护/监控/修复/下线四类清单。但四象限对中心性口径很敏感，不能当个体预测。
+
+\paragraph{直觉.}
+横轴是介数/度/PageRank 的百分位，纵轴是 \(1-\text{ok\_ratio}\)。右上=重要且健康，右下=重要且脆弱。
+
+\paragraph{数学表示.}
+百分位
+\[
+u_i=\frac{\mathrm{rank}(C_i)}{n},\qquad v_i=1-\mathrm{ok\_ratio}_i.
+\]
+以中位数/分位切分，得到四象限。稳定性用跨口径的 Jaccard：
+\[
+J(Q_1,Q_1')=\frac{|Q_1\cap Q_1'|}{|Q_1\cup Q_1'|}.
+\]
+治理规则示例：下线 = 真失效且零结构角色；修复 = 真失效且非零角色，或部分失效且高影响；保护 = 健康且高影响；监控 = 健康且位置突出但实测损伤低。
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item 对 671 个节点算 3 种中心性、2 种健康口径。
+  \item 做百分位切分，得四象限；报每个象限的成员数。
+  \item 换中心性/健康口径重算，报换象限比例与 Jaccard。
+  \item 对每个节点做单点删除，算断连点对/中继项；按规则分类。
+  \item 对“下线”类做联合删除情景，和同 k 随机比。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+\unit{G1}：换中心性口径 23.6--34.3\% 换象限；仅 363/638=56.9\% 标签稳定。\unit{G3}：下线 123 / 修复 121 / 保护 86 / 监控 5；下线类幸存点对零断连，同 k 随机超出机械项的断连点对平均 33312。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 53.7\% 节点可用率=100，y 轴中位数切分退化。
+  \item 假失效 32/32 会落进 Q1，必须先剔除。
+  \item 四象限是群体敏感性，不是单站预测；“下线/修复”是情景，不是操作授权。
+\end{itemize}
+
+% ============================================================
+\subsection{审计方法：怎么知道结论可信}
+
+\paragraph{实际意义.}
+44 个单元、346 个 CSV，最容易出现“同一数字两种说法”。审计层把数值、口径、统计、措辞、复现逐条对账。
+
+\paragraph{直觉.}
+先钉 31 个锚点，再让每个单元开跑前自检；最后用独立脚本/独立环境复查。
+
+\paragraph{数学表示.}
+锚点是一组 \((name, expected, got, tol)\)；每个单元开跑前断言
+\[
+|got-expected|\le tol.
+\]
+跨模块一致性：同一量在不同单元的输出应满足
+\[
+|v_i-v_j|\le \epsilon \quad\text{或}\quad \text{明确标注口径不同}.
+\]
+
+\paragraph{计算步骤.}
+\begin{enumerate}
+  \item \unit{00\_build\_data.py} 生成 31 项锚点，raw/clean 各跑一次。
+  \item 每个单元 \code{assert\_anchors()}。
+  \item I1 数值一致性、I2 口径违规、I3 统计效度、I4 因果措辞、I5 跨机复现。
+  \item 交付前跑 \code{verify/check\_claims.py}，契约项违反退出码非 0。
+\end{enumerate}
+
+\paragraph{本项目用法.}
+31/31 PASS；I1 真冲突 0；I2/I3/I4 硬伤 0；I5 数据表跨机逐字节一致；\code{check\_claims.py} 14 项契约全过。
+
+\paragraph{坑.}
+\begin{itemize}
+  \item 审计文档自己也会被 grep 命中；要显式排除自身。
+  \item 锚点只覆盖“图有多大”，不覆盖每个结论。
+  \item 版本漂移会让 Louvain/PageRank 尾数变；要钉版本或报分布。
+\end{itemize}

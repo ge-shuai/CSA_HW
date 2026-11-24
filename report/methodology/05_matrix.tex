@@ -1,0 +1,27 @@
+\section{方法选择矩阵}
+
+\begin{table}[H]
+\centering
+\caption{研究问题 \(\to\) 方法 \(\to\) 输出 \(\to\) 坑}
+\small
+\begin{tabularx}{\textwidth}{@{}p{0.20\textwidth}p{0.22\textwidth}p{0.22\textwidth}X@{}}
+\toprule
+研究问题 & 首选方法 & 输出 & 主要坑 \\
+\midrule
+度分布是否重尾/无标度 & CCDF + MLE + KS + LR & \(x_{\min}\)、\(\alpha\)、KS、LR & 只画直线；不报 \(x_{\min}\) \\
+是否小世界 & \(C,L\) + ER/配置零模型 & \(\sigma,\gamma\)、零模型阶梯 & 只和 ER 比 \\
+社区有几个 & 多 seed Louvain + NMI/ARI & 社区数分布、Q、最大社区 & 单 seed；孤立点算社区 \\
+谁重要 & 12 中心性 + 秩相关 + Top-20 Jaccard & 一致性矩阵、口径门 & 把某一榜当结论 \\
+失效在哪 & 健康梯度 + 逻辑回归 & 梯度、AUC、\(\Delta\)AUC & 总度删失；因果越界 \\
+失效是否聚集 & 同配性 + 度保持零模型 + 替代分组 & 可识别性判决 & 把不可识别当阴性 \\
+网络多韧 & 攻击曲线 + 渗流 + \(\Efixed\) & \(S(f)\)、\(p_c\)、\(\Efixed\) & \(\Efull\) 分母收缩 \\
+边层是否脆弱 & 桥/边介数/权重删边 + 骨架 & 分量数、GCC、\(\Efixed\) & 权重当重要性 \\
+模板是否解释链接 & URL 签名 + Mantel + TOST & \(r_M\)、CI、功效 & 20 条上限；弱相关当阳性 \\
+怎么治理 & 风险矩阵 + 单点故障 + 规则清单 & 四类清单、情景收益 & 四象限不稳；假失效 \\
+结论可信吗 & 31 锚点 + I1--I5 & 审计报告 & 审计自身漏检 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\noindent
+选择原则：\textbf{先问“这个数据能不能回答”，再问“答案是什么”}。如果一个问题需要页面级出链或时间序列，而数据只有子域级链接和单次快照，就应该把结论降级为“不可识别”，而不是硬编一个故事。

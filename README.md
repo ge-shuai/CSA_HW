@@ -27,6 +27,7 @@
 | 3 | `report/01_报告提纲.md` | 12–16 页报告的章节、图表、写作要点 |
 | 4 | `report/03_局限与口径.md` | 六类陷阱、三套效率、答辩 10 问 |
 | 5 | `report/04_答辩提纲.md` | 13 页 PPT 提纲 + 30 秒口播 |
+| 5.5 | `report/methodology/USTC网站群网络分析_方法学手册.pdf` | 24 页方法学手册：选题→拆分→方法（意义/直觉/数学/计算/坑） |
 | 6 | `pipeline/WALKTHROUGH.md` | 流水线从头到尾的解说（接手必读） |
 | 7 | `pipeline/PROGRESS.md` | 当前状态权威：45 单元、修正过的错误、已知缺口 |
 | 8 | `pipeline/NEXT_STEPS.md` | 还差什么、怎么补、报告怎么写 |

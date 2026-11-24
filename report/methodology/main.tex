@@ -1,0 +1,104 @@
+\documentclass[11pt,a4paper]{ctexart}
+
+% ================= 页面与字体 =================
+\usepackage{geometry}
+\geometry{left=2.4cm,right=2.4cm,top=2.4cm,bottom=2.4cm}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{SimSun}
+\setCJKsansfont{SimHei}
+\setCJKmonofont{FangSong}
+
+% ================= 数学与表格 =================
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% ================= 图 =================
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+
+% ================= 超链接 =================
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!50!black,
+  urlcolor=blue!50!black,
+  citecolor=blue!50!black,
+  pdftitle={USTC 网站群网络分析：选题、研究拆分与方法手册},
+  pdfauthor={复杂系统分析课程大作业小组}
+}
+
+% ================= 排版 =================
+\setstretch{1.18}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.25em}
+\captionsetup{font=small,labelfont=bf}
+\setlist[itemize]{itemsep=0.15em,topsep=0.2em}
+\setlist[enumerate]{itemsep=0.15em,topsep=0.2em}
+
+% ================= 颜色框 =================
+\newtcolorbox{keybox}[1][]{
+  colback=blue!4!white, colframe=blue!55!black,
+  boxrule=0.7pt, arc=2mm, left=3mm, right=3mm, top=2mm, bottom=2mm,
+  breakable, #1
+}
+\newtcolorbox{warnbox}[1][]{
+  colback=red!4!white, colframe=red!55!black,
+  boxrule=0.7pt, arc=2mm, left=3mm, right=3mm, top=2mm, bottom=2mm,
+  breakable, #1
+}
+\newtcolorbox{methodbox}[1][]{
+  colback=gray!4!white, colframe=gray!55!black,
+  boxrule=0.6pt, arc=2mm, left=3mm, right=3mm, top=2mm, bottom=2mm,
+  breakable, #1
+}
+
+% ================= 常用命令 =================
+\newcommand{\unit}[1]{\texttt{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\Efixed}{E_{\mathrm{fixed}}}
+\newcommand{\Efull}{E_{\mathrm{full}}}
+\newcommand{\Egcc}{E_{\mathrm{gcc}}}
+
+\title{\textbf{USTC 网站群网络分析\\[4pt]
+选题、研究拆分与方法手册}}
+\author{复杂系统分析课程大作业 · 四人小组\\[3pt]
+\small 版本 1.0 · 2026-11-24}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\noindent
+这份手册回答三个问题：\textbf{为什么做这个题}、\textbf{怎样把题拆成可执行的研究}、\textbf{每种方法是什么、怎么算、能说明什么}。
+它覆盖 \code{pipeline/} 里 45 个分析单元（44 个已完成）的完整方法链：从 671 个子域、2788 条有向链接、8115 条 URL 健康记录出发，
+经过数据口径、拓扑、社区、中心性、失效、鲁棒性、模板层、治理与审计，最后落到“哪些结论能说、哪些必须带限定、哪些根本不能回答”。
+手册不是结果汇报（结果见 \code{report/02\_结论台账.md}），而是\textbf{方法学说明书}：每个方法都给出实际意义、直觉、数学表示、计算步骤、在本项目中的用法与坑。
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\input{01_topic}
+\input{02_split}
+\input{03_methods}
+\input{04_delivery}
+\input{05_matrix}
+\input{06_refs}
+\input{07_appendix}
+
+\end{document}
