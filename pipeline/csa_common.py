@@ -17,7 +17,30 @@ SEED = 20261113
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-DATA_DIR = os.path.join(ROOT, "CSA_HW", "USTC网络拓扑分析")
+_RAW_SUB = "USTC网络拓扑分析"
+
+
+def _find_data_dir():
+    """定位原始数据目录。两种仓库布局都要能跑，只改路径解析，不改任何分析口径。
+
+    1) 交付物独立成仓、`CSA_HW/` 作为兄弟目录（本机开发期布局）
+    2) `pipeline/` 直接放进 `CSA_HW/` 仓库内（提交给同学的布局）
+
+    找不到就抛错，绝不静默退回到别的目录：全项目 31 个锚点的前提是"读的是同一份原料"，
+    静默换目录会让锚点校验失去意义。也可以用环境变量 CSA_DATA_DIR 显式指定。
+    """
+    cand = [os.environ.get("CSA_DATA_DIR"),
+            os.path.join(ROOT, "CSA_HW", _RAW_SUB),
+            os.path.join(ROOT, _RAW_SUB)]
+    for c in cand:
+        if c and os.path.isdir(c):
+            return c
+    raise FileNotFoundError(
+        "找不到原始数据目录（试了 %s）。把 CSA_HW 放在 pipeline 的父目录里，"
+        "或设 CSA_DATA_DIR 指向含 %s 的目录。" % (cand[1:], _RAW_SUB))
+
+
+DATA_DIR = _find_data_dir()
 CLEAN_DIR = os.path.join(HERE, "data")
 OUT_ROOT = os.path.join(HERE, "out")
 
