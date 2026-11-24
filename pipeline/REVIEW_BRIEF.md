@@ -27,7 +27,7 @@ git push -u origin main:csa-pipeline
 CSA_HW\                    仓库根 = 同学的公开仓库（原料与交付物同仓）
 ├─ README.md               入口：从哪读起、快速开始
 ├─ USTC网络拓扑分析\        同学的原始数据（nodes_full/links/死站清单等，只读）
-├─ 选题分析_USTC网络拓扑\    前期预实验与选题材料（只读）
+├─ archive\00_选题分析_预实验\  前期预实验与选题材料（已废弃，只读）
 ├─ pipeline\               ← 我们的交付物在这里
 │   ├─ REVIEW_BRIEF.md     本文件
 │   ├─ WALKTHROUGH.md      从头到尾的解说（接手/创新的人先读这份）
@@ -95,7 +95,7 @@ grep -rn --include='result.md' -E '导致|因为|使得|引发|决定了|传染'
 
 ## 别动的文件（动了就没法对账）
 
-- `USTC网络拓扑分析/`、`选题分析_USTC网络拓扑/` —— 同学的原始数据与前期材料，只读；改了就和他在仓库里的版本对不上账
+- `USTC网络拓扑分析/`、`archive/00_选题分析_预实验/` —— 同学的原始数据与前期材料，只读；改了就和他在仓库里的版本对不上账
 - `pipeline/csa_common.py`、`pipeline/data/` —— 改它们等于改了全项目的口径基线
 - 别人的 `out/<单元>/` 目录 —— 每个单元只写自己的目录
 
@@ -127,7 +127,7 @@ grep -rn --include='result.md' -E '导致|因为|使得|引发|决定了|传染'
 
 - ~~"34 个 scratch 文件该删"~~：`_chk*.txt`、`run_stdout.log`、`_view.txt` 等**是 I5 复现审计的引用证据**
   （`I5/RUN.txt` 引 75 处、`I5/result.md` 引 49 处），删了会打断引用链。不删。
-- ~~"两份 PROGRESS.md 互相冲突"~~：`PROGRESS_2026-11-22.md` 在新版开头已明确标注为归档件，
+- ~~"两份 PROGRESS.md 互相冲突"~~：`archive/PROGRESS_2026-11-22.md` 在新版开头已明确标注为归档件，
   不是竞争权威。不合并。
 
 仍未解决、需要下一轮的：F3 上半部分按新脚本重算（P1）、C6 是否值得做、

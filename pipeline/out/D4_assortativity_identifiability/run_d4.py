@@ -606,7 +606,7 @@ MD = f"""# D4 · 失效同配性可识别性 + 可检验重述 —— 结果
 
 ## 2. 那个统计量到底是什么（`d4_mixing_matrix.csv`、`d4_null_replicates.csv`）
 
-定义（复现自 `CSA_HW/选题分析_USTC网络拓扑/06_代码/extra.py:43-59`）：在无向图最大连通分量（{cite('gcc_nodes')} 点 / {cite('gcc_edges')} 边）上取节点属性 `dead = (ok == 0)`，算 `nx.numeric_assortativity_coefficient(GC, "dead")`。
+定义（复现自 `archive/00_选题分析_预实验/06_代码/extra.py:43-59`）：在无向图最大连通分量（{cite('gcc_nodes')} 点 / {cite('gcc_edges')} 边）上取节点属性 `dead = (ok == 0)`，算 `nx.numeric_assortativity_coefficient(GC, "dead")`。
 复现值 **{cite('assort_gcc_obs')}**（同学报告 −0.063）；676 点图 {cite('assort_gu676_obs')}；671 点图 {cite('assort_gu671_obs')}。
 
 | 混合矩阵（按无向边计，GCC） | 观测 | 含义 |

@@ -1,14 +1,23 @@
-# 流水线进度快照 · 2026-11-23 23:10（服务器跑完，已回写本机）
+# 流水线进度快照 · 2026-11-24（含本地收尾）
 
 用途：换机器/换 agent 时的交接点。**这份文件是"当前状态"的唯一权威**，比对话记录可靠。
 
-> 上一版（2026-11-22 22:40 "本地机器，转服务器前"）已归档为 `PROGRESS_2026-11-22.md`。
+> 上一版（2026-11-22 22:40 "本地机器，转服务器前"）已归档为 `archive/PROGRESS_2026-11-22.md`。
 
 ## 0. 本轮做了什么（一句话版）
 
 把 §5 的五档待办**全部做完**：环境自检+锚点复现 → 5 个零产出单元（C5/E3/E2/E6/G3）→ E1 随机基线核实（原本就已是 120 次）
 → H4 三张图 → 11 个缺失的 result.md；并额外补齐了 45 单元里从来没人做的 **I 组 5 个审计单元**。
 
+## 0.1 2026-11-24 本地收尾（本轮）
+
+- 仓库重构：旧预实验移到 `archive/00_选题分析_预实验/`（已标 SUPERSEDED）；新增 `report/`（选题重定位、报告提纲、结论台账、局限、答辩）；`pipeline/B1_louvain_stability/run_b1.py` 归位到 `out/B1_louvain_stability/`，硬编码路径改为相对路径。
+- 本地复现：Python 3.13.5 / networkx 3.4.2 下 `00_build_data.py` **31/31 PASS**（raw 与 clean reload 各一次）；`data/` 除 dtype 标签外与仓库版一致。
+- E5：本地重跑 40.38s，补齐 3 张缺失表；`damage_vs_selection_strength.csv` / `contract_crosscheck.csv` / `attack_reference_curve.csv` 已落盘，主数字与 `scenario_metrics.csv` 一致（dead162: E_fixed 0.2039 vs random 0.1610, −26.69%, z=4.998）。
+- F3：`result.md` 已按当前脚本重写，删除旧版上半段；判决句与 `verdict.csv` 一致（不做主线；TOST 边际 0.0185；观测最强 0.0419；信度 0.206）。
+- 仍未做：C6（理由不变）、报告正文（`report/` 已给提纲与台账）。
+
+---
 ## 1. 环境与服务器
 
 | 项 | 值 |
@@ -33,7 +42,7 @@
 | H1–H4 | 4 个齐（H4 三张图本轮新做；H3 补出 z–P 角色图） |
 | I1–I5 | **5 个齐（本轮新做）** |
 
-- 目录 45 个 / `result.md` 44 份 / `RUN.txt` 45 份 / CSV 342 个 / 图 26 张（PNG+PDF）。
+- 目录 45 个 / `result.md` 44 份 / `RUN.txt` 45 份 / CSV 346 个 / 图 26 张（PNG+PDF）。
 - **45 个单元里只差 C6 一个**（理由见 §2.1）。D6、D7 已于 2026-11-24 补齐。
 
 ## 2.1 为什么不做 C6_centrality_vs_health
@@ -100,7 +109,7 @@ C6 唯一的增量是"把 12 个中心性一起放到度保持零模型下测一
 
 ## 5. 已知缺口（交付时需向导师说明）
 
-1. **E5 缺 3 张附表**：`damage_vs_selection_strength` / `contract_crosscheck` / `attack_reference_curve`（主结论 4 张表齐）。
+1. ~~**E5 缺 3 张附表**~~ **已补（2026-11-24 本地重跑）**：`damage_vs_selection_strength.csv` / `contract_crosscheck.csv` / `attack_reference_curve.csv` 已落盘；E5 RUN.txt 也由脚本重写为完整版。
 2. **C6 未做**（现只剩这一个）：见 §2.1 的理由。
 3. **`RUN.txt` 死引用**：6 个单元的 RUN.txt 写死了已删除的服务器工作目录。
 4. **契约表口径标签**：见上 §3.5。
@@ -124,6 +133,6 @@ python out/<单元>/run_<xx>.py
 
 ## 7. 硬约束（换机器不改变，原样保留）
 
-1. 同学的原料只读（`USTC网络拓扑分析/`、`选题分析_USTC网络拓扑/`）。2. 每单元只写 `out/<自己>/`。3. 建图必须走 `csa_common`，`degree`/`color` 列禁用。
+1. 同学的原料只读（`USTC网络拓扑分析/`、`archive/00_选题分析_预实验/`）。2. 每单元只写 `out/<自己>/`。3. 建图必须走 `csa_common`，`degree`/`color` 列禁用。
 4. 枢纽只用 `hub_nodes()` 全名匹配。5. 效率只从 `E_fixed` 读，只做同 k 跨情景比。
 6. 禁用因果措辞。7. 图里不许 emoji。

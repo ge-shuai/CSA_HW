@@ -16,7 +16,7 @@ module SEED        : 20261113
 
 command line:
     cd C:/Users/bfy32/Documents/Qoder/2026-11-13/f93e4d48/pipeline
-    python B1_louvain_stability/run_b1.py
+    python out/B1_louvain_stability/run_b1.py
 
 seeds used:
     primary Louvain sweep        : range(50)  = 0..49  (50 seeds)

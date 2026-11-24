@@ -1,7 +1,8 @@
 # CSA 大作业 · 可复现分析流水线
 
 USTC 网站群超链接网络（671 子域 / 2788 有向链接 / 8115 条 URL 健康记录）。
-本目录是**分析与图表**的产出；仓库根的 `USTC网络拓扑分析/` 是同学的原始数据，**只读**。
+本目录是**分析与图表**的产出；报告层（新题目、结论台账、报告提纲/答辩）在 `../report/`。
+仓库根的 `USTC网络拓扑分析/` 是同学的原始数据，**只读**。
 
 ## 环境
 
@@ -19,7 +20,8 @@ scipy 1.17.1 · scikit-learn 1.8.0 · matplotlib 3.11.2。
 cd pipeline
 python 00_build_data.py          # 生成 data/ 下的清洗产物 + 31 项锚点校验
 python <模块>/run_*.py           # 各分析单元，彼此独立，可任意顺序
-python 99_make_figures.py        # 图（读 out/ 下的 CSV，不重算）
+bash run_all.sh                  # 可选：一键全跑（A–H + verify；耗时可能数小时）
+bash run_all.sh --only E5,F3     # 只跑匹配的单元
 ```
 
 `00_build_data.py` 是唯一的前置步骤。它会把 `data/anchors.csv` 写成 31 行 PASS；

@@ -216,5 +216,5 @@ NMI 落在 0.81–0.95 这个区间：
 | `noise_source_comparison.csv` | seed 噪声 vs 边序噪声（长表 + eta² + 判决） | `step6_noise` |
 
 ```bash
-cd pipeline && python B1_louvain_stability/run_b1.py     # 约 248 s
+cd pipeline && python out/B1_louvain_stability/run_b1.py     # 约 248 s
 ```

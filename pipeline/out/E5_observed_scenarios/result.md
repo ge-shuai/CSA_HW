@@ -60,11 +60,17 @@
 
 **（坑 4）因果措辞。** 本文件只写"情景模拟显示/与…相关"；"死站删掉伤害小"不得写成"死站不影响效率的原因"。
 
-## 5. 缺失与交付缺口（只记录，未改动任何数据）
+## 5. 交付状态（2026-11-24 本地补跑）
 
-- **无 `RUN.txt`**：`damage_vs_selection_strength.csv`（`c:518`）、`contract_crosscheck.csv`（`c:540`）、`attack_reference_curve.csv`（`c:564`）、`stage_walltimes.csv`（`c:580`）四个产物均未落盘。`_run_stdout.log` 共 50 行、止于 §04 的随机对照表（stdout 块缓冲，其后打印随进程终止丢弃）；据此判断运行在 §07 之后、§08 之前被终止。`scenario_summary.csv`(§03, `c:302`)、`random_controls.csv`/`random_control_summary.csv`(§04, `c:334,345`)、`scenario_metrics.csv`(§05, `c:439`)、`before_after_correction.csv`(§07, `c:481`) **齐全且自洽**（18 行 = 9 情景 × 2 口径；11 行随机汇总），故本文件 §1–§3 的主结论不受影响；受影响的只有"情景强度 vs 选择强度"与契约交叉核对两张附表。
-- `_cache_random_controls.csv` / `_cache_scenario_attacks.csv` 是断点续跑缓存（`c:111-163`），不是交付物，其数值未被本文件引用。
-- 随机基线的 11 个 k = {1,32,69,80,129,130,149,162,209,279,311} 恰好覆盖全部情景的观测 k 与校正后 k（`_run_stdout.log` `needed k values`），因此每个情景都能在同 k 下比，无插值。
+原版在本机运行时曾在 §08 前被终止，导致 3 张附表缺失；2026-11-24 用当前脚本完整重跑（`ELAPSED 40.38s`，`N_RANDOM=100`，`seed=20261113`，exit 0），现已补齐：
+
+- **`RUN.txt`**：由脚本重写为完整版（含各 stage 墙钟）。
+- **`damage_vs_selection_strength.csv`**：固定 k=162，按真失效占比 0/10/25/50% 选择删除；`E_fixed` 依次为 0.149554 / 0.145915 / 0.170260 / 0.170699；相对同 k 随机的 `rel_damage_vs_random_same_k_pct` 为 +7.09 / +9.35 / −5.77 / −6.04%。
+- **`contract_crosscheck.csv`**：scenario `E_fixed` 与契约值差 ≤ 4.2e-5（dead162 0.203942 vs 0.2039；combo311 0.090110 vs 0.0901；combo209 0.153322 vs 0.1533）。
+- **`attack_reference_curve.csv`**：6 种策略 × 17 档（random / degree / betweenness / pagerank_directed_weighted / pagerank_undirected_binary / strength）。
+- `_cache_random_controls.csv` / `_cache_scenario_attacks.csv` 仍是断点续跑缓存，不是交付物；`_run_stdout_local.log` 已删除，完整运行记录以 `RUN.txt` 为准。
+
+**结论不变**：主结论所需的 `scenario_metrics` / `scenario_summary` / `random_control_summary` / `before_after_correction` 四张表与本次补跑一致；dead162 的 `E_fixed` 仍为 0.203942，随机基线 0.160974±0.008597，相对损伤 −26.69%，z=+4.998。
 
 ## 6. 与其它单元的接口
 

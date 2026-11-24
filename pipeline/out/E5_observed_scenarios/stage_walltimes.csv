@@ -1,0 +1,12 @@
+﻿stage,t0,wall_s
+00 build_all + assert_anchors,1795517207.3046386,2.442
+01 C.failure_sets (SS2.2 labels),1795517209.746294,0.0
+02 verify counts from data/dead_categories.csv,1795517209.7465203,0.003
+03 scenario_summary.csv,1795517209.7493324,0.007
+04 random controls (100 reps x every needed k),1795517209.7564945,0.185
+05 scenario metrics + node-attack reference curve,1795517209.9418,30.312
+06 scenario_metrics.csv,1795517240.2538934,0.018
+07 before_after_correction.csv,1795517240.2721217,0.011
+08 damage_vs_selection_strength.csv,1795517240.2834845,7.374
+09 CONVENTIONS SS2.3 anchor cross-check,1795517247.6572347,0.004
+10 attack_reference_curve.csv,1795517247.6617157,0.024

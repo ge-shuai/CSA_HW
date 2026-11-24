@@ -34,7 +34,7 @@
 
 ## 2. 那个统计量到底是什么（`d4_mixing_matrix.csv`、`d4_null_replicates.csv`）
 
-定义（复现自 `CSA_HW/选题分析_USTC网络拓扑/06_代码/extra.py:43-59`）：在无向图最大连通分量（674（run_d4.py:L190） 点 / 2497（run_d4.py:L191） 边）上取节点属性 `dead = (ok == 0)`，算 `nx.numeric_assortativity_coefficient(GC, "dead")`。
+定义（复现自 `archive/00_选题分析_预实验/06_代码/extra.py:43-59`）：在无向图最大连通分量（674（run_d4.py:L190） 点 / 2497（run_d4.py:L191） 边）上取节点属性 `dead = (ok == 0)`，算 `nx.numeric_assortativity_coefficient(GC, "dead")`。
 复现值 **-0.063006（run_d4.py:L183）**（同学报告 −0.063）；676 点图 -0.062979（run_d4.py:L184）；671 点图 -0.063113（run_d4.py:L185）。
 
 | 混合矩阵（按无向边计，GCC） | 观测 | 含义 |

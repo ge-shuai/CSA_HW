@@ -9,7 +9,7 @@
 
 45 个单元里 **44 个已有完整产出**（`result.md` + CSV + `run_*.py` + `RUN.txt`），只差 C6（理由见 §3.1）。
 
-- 规模：45 个目录 / 44 份 `result.md` / 45 份 `RUN.txt` / 342 个 CSV / 13 张图（每张 PNG 300dpi + 矢量 PDF + 伴生 `fig_*.csv`）。
+- 规模：45 个目录 / 44 份 `result.md` / 45 份 `RUN.txt` / 346 个 CSV / 13 张图（每张 PNG 300dpi + 矢量 PDF + 伴生 `fig_*.csv`）。
 - 审计：I1–I5 五个审计单元齐全，**硬伤 0 条**（两侧记录：I1 真冲突 0、I2 口径硬伤 0、I3 统计硬伤 0、I4 因果措辞 0、I5 数据表复现逐字节一致）。
 - 复现：在一台干净的 Ubuntu 22.04 + 40 核机器上，31/31 锚点一次通过；`pipeline/data/` 与本机产物除换行符外逐字节一致。
 
@@ -106,7 +106,7 @@ C6 唯一增量是把 12 个中心性**一起**放到度保持零模型下测一
   另外 `result.md:10` 把"40.8%"与"0.4095"写在同一句，要统一成同一个估计量。
 - **验收**：`grep 0.4080 E3_percolation/result.md` 与 `grep 0.4095` 不再并存于同一句。
 
-### 4.4 `E5_observed_scenarios` 缺 3 张附表（P1）
+### 4.4 ~~`E5_observed_scenarios` 缺 3 张附表~~ **已完成（2026-11-24）**
 
 - **现象**：脚本本应写出 `damage_vs_selection_strength` / `contract_crosscheck` / `attack_reference_curve`，
   目录里没有。主结论所需的 4 张表（`scenario_metrics` / `scenario_summary` / `random_control_summary` / `before_after_correction`）**是齐的**。
@@ -152,7 +152,7 @@ C6 唯一增量是把 12 个中心性**一起**放到度保持零模型下测一
   "按枚举口径 149 个部分失效；剔除认证/robots/ACL 后 63 个在状态码意义上实为健康。"
 - **验收**：正文里出现"149"的每一处，后面都能找到这句限定语。
 
-### 4.10 `F3_template_verdict/result.md` 主体仍指旧口径（P2）
+### 4.10 ~~`F3_template_verdict/result.md` 主体仍指旧口径~~ **已重写（2026-11-24）**
 
 - **现象**：文件上半部分写于旧版脚本（β 网格 0…6、25 次重复），我已在 11-23 追加了"重跑修订"段明确作废旧句，
   但**主体没有重写**，读者仍会先读到旧数字。
@@ -278,7 +278,7 @@ echo "== 2. 审计单元（只读，最后跑）=="
 
 - [ ] 环境：Python 3.12 + `requirements.txt` 钉死版本；`conda create -n csa python=3.12 && pip install -r ...`
 - [ ] 字体：`simhei.ttf` → `~/.fonts/` → `fc-cache -f`（不改 `figstyle.py`）
-- [ ] 布局：整个仓库一起取（原料在仓库根）；`USTC网络拓扑分析/` 与 `选题分析_USTC网络拓扑/` 只读，**不要改动、不要提交改动**
+- [ ] 布局：整个仓库一起取（原料在仓库根）；`USTC网络拓扑分析/` 与 `archive/00_选题分析_预实验/` 只读，**不要改动、不要提交改动**
 - [ ] `python 00_build_data.py` → 31/31 PASS 才继续
 - [ ] 按 §2 的顺序补 P0 三项（都是文档口径，不重算）
 - [ ] 报告写作严格按 §6.2 的禁用清单

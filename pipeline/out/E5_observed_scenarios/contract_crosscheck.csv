@@ -1,0 +1,10 @@
+﻿check,k,our_mean_E_fixed,our_sd,contract_value,n_reps,abs_diff
+random_same_k_reproduction,162,0.159666,0.006567,0.1602,20,
+random_same_k_reproduction,129,0.189405,0.010349,,20,
+random_same_k_reproduction,311,0.062617,0.005285,,20,
+random_same_k_reproduction,209,0.122638,0.0071,,20,
+random_same_k_reproduction,149,0.170501,0.009775,,20,
+random_same_k_reproduction,80,0.236298,0.007198,,20,
+scenario_E_fixed_vs_contract,162,0.203942,,0.2039,1,4.2e-05
+scenario_E_fixed_vs_contract,311,0.09011,,0.0901,1,1e-05
+scenario_E_fixed_vs_contract,209,0.153322,,0.1533,1,2.2e-05

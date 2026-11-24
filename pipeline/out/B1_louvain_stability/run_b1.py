@@ -30,7 +30,7 @@ import sys
 import time
 import traceback
 
-PIPELINE_DIR = r"C:/Users/bfy32/Documents/Qoder/2026-11-13/f93e4d48/pipeline"
+PIPELINE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 if PIPELINE_DIR not in sys.path:
     sys.path.insert(0, PIPELINE_DIR)
 
