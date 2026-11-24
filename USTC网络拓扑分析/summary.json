@@ -1,0 +1,77 @@
+﻿{
+    "total_nodes":  671,
+    "total_links":  2788,
+    "listed_urls":  8115,
+    "ok_urls":  6985,
+    "flagged_url_count_sum":  28346,
+    "dead_sites":  162,
+    "partial_sites":  149,
+    "healthy_sites":  360,
+    "conn_error":  421,
+    "skip_marked":  362,
+    "other_neg":  65,
+    "http404":  127,
+    "http403":  77,
+    "http410":  47,
+    "http5xx":  28,
+    "communities":  11,
+    "largest_community":  "557",
+    "components":  2,
+    "commRows":  [
+                     {
+                         "community":  "C239",
+                         "size":  "557",
+                         "top_members":  "teach staff wpsearch news en fusep"
+                     },
+                     {
+                         "community":  "C204",
+                         "size":  "44",
+                         "top_members":  "biox biomed enbiomed jcyx ioi biotraining"
+                     },
+                     {
+                         "community":  "C178",
+                         "size":  "16",
+                         "top_members":  "lab pic gxpt engilab scc lifetech"
+                     },
+                     {
+                         "community":  "C389",
+                         "size":  "14",
+                         "top_members":  "vlab cslab soc rec vim fpgaol"
+                     },
+                     {
+                         "community":  "C291",
+                         "size":  "11",
+                         "top_members":  "lug 101.lug linux mirrors ftp.lug hack.lug"
+                     },
+                     {
+                         "community":  "C450",
+                         "size":  "10",
+                         "top_members":  "cec vcec polychemlab oldcec cmcec chemenglab"
+                     },
+                     {
+                         "community":  "C110",
+                         "size":  "5",
+                         "top_members":  "kdfz jcjy kdfzgxzx kfsy kid"
+                     },
+                     {
+                         "community":  "C628",
+                         "size":  "4",
+                         "top_members":  "ai aiethics roboticsbase rccnc"
+                     },
+                     {
+                         "community":  "C488",
+                         "size":  "4",
+                         "top_members":  "jjcxmjl jjc xsfw ucas"
+                     },
+                     {
+                         "community":  "C454",
+                         "size":  "4",
+                         "top_members":  "faculty-en institution-en team-en fanglab"
+                     },
+                     {
+                         "community":  "C514",
+                         "size":  "2",
+                         "top_members":  "l.bm bm"
+                     }
+                 ]
+}

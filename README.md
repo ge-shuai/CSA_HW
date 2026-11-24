@@ -1,4 +1,4 @@
-# USTC 子域网络结构分析（CSA 大作业）
+# CSA_HW —— USTC 子域网络结构分析（CSA 大作业）
 
 > 交付形态：**可复现分析管线 + 全部图表数据**。不含报告正文。
 
@@ -25,14 +25,15 @@ python 00_build_data.py      # 必须 31/31 锚点 PASS，否则停
 python out/<单元>/run_<xx>.py
 ```
 
-**目录布局不能拆**：`pipeline/` 与 `CSA_HW/` 必须同级，否则 `csa_common.load_urls()` 读不到原始数据。
+**原料位置自动定位**：`csa_common.py` 先读环境变量 `CSA_DATA_DIR`，否则在仓库根找 `USTC网络拓扑分析/`；两处都找不到时抛 `FileNotFoundError`，不做静默回退。
 
 ## 目录
 
+- `USTC网络拓扑分析/` 原始爬虫数据（`nodes_full.csv`、`links.csv`、死站清单等）
+- `选题分析_USTC网络拓扑/` 前期预实验与选题材料
 - `pipeline/data/` 清洗产物与锚点表（由 `00_build_data.py` 生成）
 - `pipeline/out/<单元>/` 每个单元的 `result.md` + CSV + `run_*.py` + `RUN.txt`
 - `verify/` 独立校验脚本
-- `CSA_HW/` 同学的原始仓库（只读，已 gitignore）
 
 ## 规模
 

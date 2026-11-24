@@ -1,0 +1,14 @@
+﻿metric,value
+nodes,676.0
+edges,2498.0
+density,0.010948937102783256
+avg_clustering,0.2779517848958095
+degree_assortativity,-0.1674479655848532
+reciprocity,0.20803443328550933
+avg_path_gc,3.2702413128689907
+diameter_gc,7.0
+global_efficiency,0.33146864011880456
+n_communities,23.0
+modularity,0.6907526896441877
+edges_removed_hub,505.0
+modularity_after_hub_removal,0.7387843984463481
