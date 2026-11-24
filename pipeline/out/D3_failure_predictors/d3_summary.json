@@ -1,0 +1,197 @@
+{
+  "anchor_line": 70,
+  "seed": 20261113,
+  "versions": {
+    "python": "3.12.13",
+    "networkx": "3.6.1",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "SEED": 20261113,
+    "PYTHONHASHSEED": "0",
+    "sklearn": "1.8.0",
+    "scipy": "1.17.1"
+  },
+  "n_uncorr": 671,
+  "n_corr": 638,
+  "events_uncorr": 129,
+  "events_corr": 129,
+  "category_source": "B6 run_b6.classify_series（运行时现场调用规则表，未复制词表）",
+  "category_agreement_with_title_labels": 1.0,
+  "category_agreement_n": 671,
+  "category_rule": "样本内 n>=30 保留，其余并入 其他；参照类 其他",
+  "auth_flag": {
+    "definition": "dead_cat == 'B_auth_or_skip'（状态码含 -1；与 §2.2 的假失效同一集合）",
+    "equals_statuscode_minus1": 0,
+    "n_auth": 18,
+    "n_auth_true_fail": 0,
+    "n_auth_in_638": 0,
+    "fisher_exact_odds": 0.0,
+    "fisher_exact_p": 0.03203412987290421,
+    "estimable": false,
+    "reason": "与 true_fail 按定义互斥 → 完全分离；638 口径里恒 0"
+  },
+  "category_separation": {
+    "levels_with_zero_events": 4,
+    "all_events_in_level": "其他",
+    "informative_title_subset_n": 449,
+    "informative_title_subset_events": 0
+  },
+  "models": [
+    "M0_intercept",
+    "M1_url_only",
+    "M2_url_category",
+    "M3_url_category_indegree",
+    "M4_full_with_auth",
+    "N1_indegree_only",
+    "N2_url_indegree_PRIMARY"
+  ],
+  "primary_model_for_indegree_inference": "N2_url_indegree_PRIMARY",
+  "cv": {
+    "k_main": 5,
+    "k_alt": 10,
+    "random_state": 20261113,
+    "C_l2": 1.0,
+    "n_boot": 20,
+    "n_perm": 20,
+    "ridge_lam": 1.0
+  },
+  "iqr_in_degree": {
+    "S_uncorr_671": 3.0,
+    "S_corr_638": 3.0
+  },
+  "mle": {
+    "S_uncorr_671|M0_intercept": {
+      "converged": true,
+      "separated": false,
+      "deviance": 656.8682,
+      "n_iter": 5,
+      "diverged_terms": ""
+    },
+    "S_uncorr_671|M1_url_only": {
+      "converged": true,
+      "separated": false,
+      "deviance": 384.1156,
+      "n_iter": 9,
+      "diverged_terms": ""
+    },
+    "S_uncorr_671|M2_url_category": {
+      "converged": false,
+      "separated": true,
+      "deviance": 288.7685,
+      "n_iter": 300,
+      "diverged_terms": "category[教务教学]|category[科研平台]|category[管理服务]|category[院系]"
+    },
+    "S_uncorr_671|M3_url_category_indegree": {
+      "converged": false,
+      "separated": true,
+      "deviance": 288.3688,
+      "n_iter": 300,
+      "diverged_terms": "category[教务教学]|category[科研平台]|category[管理服务]|category[院系]"
+    },
+    "S_uncorr_671|M4_full_with_auth": {
+      "converged": false,
+      "separated": true,
+      "deviance": 256.1932,
+      "n_iter": 300,
+      "diverged_terms": "category[教务教学]|category[科研平台]|category[管理服务]|category[院系]|auth_flag"
+    },
+    "S_uncorr_671|N1_indegree_only": {
+      "converged": true,
+      "separated": false,
+      "deviance": 587.9165,
+      "n_iter": 8,
+      "diverged_terms": ""
+    },
+    "S_uncorr_671|N2_url_indegree_PRIMARY": {
+      "converged": true,
+      "separated": false,
+      "deviance": 383.4663,
+      "n_iter": 9,
+      "diverged_terms": ""
+    },
+    "S_corr_638|M0_intercept": {
+      "converged": true,
+      "separated": false,
+      "deviance": 642.376,
+      "n_iter": 5,
+      "diverged_terms": ""
+    },
+    "S_corr_638|M1_url_only": {
+      "converged": true,
+      "separated": false,
+      "deviance": 341.1392,
+      "n_iter": 9,
+      "diverged_terms": ""
+    },
+    "S_corr_638|M2_url_category": {
+      "converged": false,
+      "separated": true,
+      "deviance": 222.3376,
+      "n_iter": 300,
+      "diverged_terms": "category[教务教学]|category[科研平台]|category[管理服务]|category[院系]"
+    },
+    "S_corr_638|M3_url_category_indegree": {
+      "converged": false,
+      "separated": true,
+      "deviance": 222.319,
+      "n_iter": 300,
+      "diverged_terms": "category[教务教学]|category[科研平台]|category[管理服务]|category[院系]"
+    },
+    "S_corr_638|N1_indegree_only": {
+      "converged": true,
+      "separated": false,
+      "deviance": 570.3023,
+      "n_iter": 8,
+      "diverged_terms": ""
+    },
+    "S_corr_638|N2_url_indegree_PRIMARY": {
+      "converged": true,
+      "separated": false,
+      "deviance": 340.6954,
+      "n_iter": 9,
+      "diverged_terms": ""
+    }
+  },
+  "key_estimates": {
+    "S_uncorr_671|N2_url_indegree_PRIMARY|in_degree": {
+      "coef": -0.0484,
+      "se": 0.0674,
+      "p": 0.4726697090050449,
+      "separated": false,
+      "cv_auc": 0.898
+    },
+    "S_uncorr_671|N1_indegree_only|in_degree": {
+      "coef": -0.4783,
+      "se": 0.0867,
+      "p": 3.413231221667777e-08,
+      "separated": false,
+      "cv_auc": 0.6969
+    },
+    "S_uncorr_671|M1_url_only|log1p_url": {
+      "coef": -1.8218,
+      "se": 0.2221,
+      "p": 2.3355810558540124e-16
+    },
+    "S_corr_638|N2_url_indegree_PRIMARY|in_degree": {
+      "coef": -0.0381,
+      "se": 0.062,
+      "p": 0.5388421409153845,
+      "separated": false,
+      "cv_auc": 0.9122
+    },
+    "S_corr_638|N1_indegree_only|in_degree": {
+      "coef": -0.49,
+      "se": 0.0871,
+      "p": 1.860446535953242e-08,
+      "separated": false,
+      "cv_auc": 0.7141
+    },
+    "S_corr_638|M1_url_only|log1p_url": {
+      "coef": -1.9217,
+      "se": 0.225,
+      "p": 1.3407103852797664e-17
+    }
+  },
+  "banned_columns_used": [],
+  "wall_time_sec": 4.3
+}

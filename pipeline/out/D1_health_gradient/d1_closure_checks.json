@@ -1,0 +1,36 @@
+{
+  "n_uncorr": 671,
+  "n_corr": 638,
+  "n_removed_false": 32,
+  "n_removed_ambiguous": 1,
+  "dead_rate_uncorr": 0.2414,
+  "true_fail_rate_uncorr": 0.1923,
+  "dead_rate_corr_equals_true_fail_rate": true,
+  "degree_u_equals_in_degree_for_all_dead": true,
+  "dead_share_in_rank10_bottom_bin": {
+    "degree_u": {
+      "bottom_bin_dead_n": 41,
+      "bottom_bin_n": 68,
+      "top_bin_dead_n": 1,
+      "top_bin_n": 67
+    },
+    "in_degree": {
+      "bottom_bin_dead_n": 23,
+      "bottom_bin_n": 68,
+      "top_bin_dead_n": 1,
+      "top_bin_n": 67
+    },
+    "url_count": {
+      "bottom_bin_dead_n": 46,
+      "bottom_bin_n": 68,
+      "top_bin_dead_n": 0,
+      "top_bin_n": 67
+    },
+    "listed_urls": {
+      "bottom_bin_dead_n": 46,
+      "bottom_bin_n": 68,
+      "top_bin_dead_n": 1,
+      "top_bin_n": 67
+    }
+  }
+}

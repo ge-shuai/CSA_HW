@@ -1,0 +1,7 @@
+﻿axis,label,spearman_rho_with_unavailability,spearman_rho_with_ok_ratio_pct,spearman_rho_unavailability_excl_false_fail
+in_degree,入度(§2.1主口径),-0.2157,0.2157,-0.2042
+deg_u,无向总度(污染),-0.3762,0.3762,-0.3444
+out_degree,出度(被删失),-0.4425,0.4425,-0.3938
+bet_u,介数(无权无向),-0.3426,0.3426,-0.3056
+pr_dw,PageRank(有向加权),-0.152,0.152,-0.1654
+strength_u,无向强度,-0.3793,0.3793,-0.3785

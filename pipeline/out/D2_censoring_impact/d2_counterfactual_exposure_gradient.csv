@@ -1,0 +1,7 @@
+﻿exposure,sample,outcome,bottom_rate,top_rate,rate_diff_pp,bin_spearman,p,bottom_bin_label,dead_group_mean_exposure,healthy_group_mean_exposure
+degree_u,S_uncorr_671,is_dead,0.6029,0.0149,-58.8,-0.9695,3.6433799446541265e-06,[1.00],1.8272,9.4917
+degree_u,S_corr_638,true_fail,0.5781,0.0,-57.81,-0.9723,2.473603741489245e-06,[1.00],1.6047,9.4917
+degree_u_cf,S_uncorr_671,is_dead,0.0,0.0149,1.49,0.3988,0.25362657589473003,[1.00],5.3084,9.4917
+degree_u_cf,S_corr_638,true_fail,0.0,0.0,0.0,0.3064,0.38920911345198056,[1.00],4.912,9.4917
+in_degree,S_uncorr_671,is_dead,0.3382,0.0149,-32.33,-0.911,0.00024579245600390526,[0.90],1.8272,4.9417
+in_degree,S_corr_638,true_fail,0.3281,0.0,-32.81,-0.9483,2.9285883237761163e-05,[0.89],1.6047,4.9417

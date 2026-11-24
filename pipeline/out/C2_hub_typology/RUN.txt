@@ -1,0 +1,10 @@
+C2_hub_typology RUN.txt
+command: set PYTHONHASHSEED=0 && python out/C2_hub_typology/run_c2.py (bash: PYTHONHASHSEED=0 python out/C2_hub_typology/run_c2.py; cwd=pipeline)
+versions: {"python": "3.12.13", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+SEED=20261113; rng: np.random.default_rng(SEED) 用于随机标签基线(200 次)
+wall time: 5.81s ; per-stage: {"build": 4.46, "primary": 0.02, "all671": 0.03, "censoring": 0.02, "sensitivity": 0.72, "summary_tables": 0.12}
+anchors: csa_common.assert_anchors() 31/31 PASS
+graph: csa_common.build_all(); degrees from C.add_degrees (nodes_full 的 degree/color 列未使用)
+primary口径: alive=509 (671-162); cut = P50 per axis, high = value > t; t_in=2.0, t_out=2.0
+dead sites -> class '出度删失，无法归类'（永不进入四类）
+outputs: hub_typology_alive509.csv hub_typology_all671.csv class_summary.csv cut_sensitivity.csv censoring_evidence.csv nav_hub6_structural_class.csv class_rosters_alive509.csv contamination_flow_alive_classes.csv c2_summary.json result.md

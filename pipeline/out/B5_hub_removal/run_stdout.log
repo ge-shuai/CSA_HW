@@ -1,0 +1,16 @@
+[     1.6s] hub_edges removed=505 (20.216%) isolated=25 pool(deg>=32)=29
+[     5.7s] full-graph louvain cached for 41 seeds
+[    16.8s] main sweep done: 123 rows
+[    31.2s] deterministic hub-choice done
+[    40.5s] random_degpool k=3 done
+[    49.6s] random_degpool k=5 done
+[    58.7s] random_degpool k=6 done
+[    67.3s] random_degpool k=8 done
+[    75.6s] random_degpool k=10 done
+[    83.7s] random_degpool k=15 done
+[    91.8s] random_edges505 done
+[   102.9s] diagnostics done
+[   102.9s] hub_choice_sensitivity rows=938
+[   103.2s] B5_summary.json written
+[   103.2s] RUN.txt written
+[   103.2s] {"hub_nodes": ["en.ustc.edu.cn", "fusep.ustc.edu.cn", "news.ustc.edu.cn", "staff.ustc.edu.cn", "teach.ustc.edu.cn", "wpsearch.ustc.edu.cn"], "hub_degrees": {"en.ustc.edu.cn": 63, "fusep.ustc.edu.cn": 74, "news.ustc.edu.cn": 76, "staff.ustc.edu.cn": 92, "teach.ustc.edu.cn": 119, "wpsearch.ustc.edu.cn": 89}, "edges_full": 2498, "edges_removed_nav6": 505, "edges_removed_pct": 0.2022, "n_isolated_after_dehub": 25, "degpool_min_deg": 63, "degpool_floor": 32, "degpool_size": 29, "top12_degree_nodes": ["teach.ustc.edu.cn:119", "staff.ustc.edu.cn:92", "wpsearch.ustc.edu.cn:89", "news.ustc.edu.cn:76", "fusep.ustc.edu.cn:74", "employment.ustc.edu.cn:68", "gradschool.ustc.edu.cn:68", "en.ustc.edu.cn:63", "faculty.ustc.edu.cn:59", "lib.ustc.edu.cn:57", "physics.ustc.edu.cn:54", "hsss.ustc.edu.cn:52"], "deg_topk_overlaps_nav6": {"3": 3, "5": 5, "6": 5, "8": 6, "10": 6, "15": 6}, "pr_topk_overlaps_nav6": {"3": 2, "5": 2, "6": 2, "8": 3, "10": 4, "15": 4}, "deg_rank_of_nav6": {"en.ustc.edu.cn": 8, "fusep.ustc.edu.cn": 5, "news.ustc.edu.cn": 4, "staff.ustc.edu.cn": 2, "teach.ustc.edu.cn": 1, "wpsearch.ustc.edu.cn": 3}, "pr_rank_of_nav6": {"en.ustc.edu.cn": 2, "fusep.ustc.edu.cn": 612, "news.ustc.edu.cn": 1, "staff.ustc.edu.cn": 8, "teach.ustc.edu.cn": 10, "wpsearch.ustc.edu.cn": 481}, "removed_edges_weight_share": 0.1568, "n_dh_singleton_keepiso_seed42": 25}

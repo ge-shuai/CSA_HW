@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\B1_louvain_stability\run_b1.py", line 1121, in <module>
+    main()
+  File "C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\B1_louvain_stability\run_b1.py", line 1080, in main
+    step6b_hashseed(per_seed)
+  File "C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\B1_louvain_stability\run_b1.py", line 635, in step6b_hashseed
+    want = [[s, per_seed[s]["n_comms_total"], round(per_seed[s]["Q"], 6), per_seed[s]["largest"]]
+                ~~~~~~~~^^^
+KeyError: 20261113

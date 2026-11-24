@@ -1,0 +1,194 @@
+STAMP 2026-11-22T22:01:44.589650
+
+GRAPH_VARIANT_PROFILE:
+          variant  nodes  uedges  darcs  uweight_total  n_attributed_isolated_in_u  removed_uedges_vs_full  share_removed_edges  share_removed_weight
+           a_full    676    2498   2788          63263                           0                       0               0.0000                0.0000
+          b_dehub    676    1993   2218          53345                          25                     505               0.2022                0.1568
+           c_bb10    676     675    851          58888                         303                    1823               0.7298                0.0692
+c_bb10_byarc_DIAG    676     675    743          58888                         303                    1823               0.7298                0.0692
+
+TIE_BOUNDARY COLS ["variant", "measure", "value_at_20", "n_at_value", "n_strictly_above", "top20_fully_identified"]
+          variant      measure  value_at_20  n_at_value  n_strictly_above  top20_fully_identified
+           a_full        deg_u    37.000000           3                19                   False
+           a_full    in_degree    24.000000           2                18                    True
+           a_full   out_degree    25.000000           3                18                   False
+           a_full  in_strength   693.000000           2                18                    True
+           a_full out_strength   704.000000           1                19                    True
+           a_full        bet_u     0.024897           1                19                    True
+           a_full        pr_dw     0.006311           1                19                    True
+           a_full        pr_uu     0.008169           1                19                    True
+           a_full     hits_hub     0.000354           1                19                    True
+           a_full    hits_auth     0.000169           1                19                    True
+           a_full        kcore    11.000000          45                 0                   False
+           a_full   hidx_in_in     8.000000           5                16                   False
+          b_dehub        deg_u    32.000000           3                17                    True
+          b_dehub    in_degree    19.000000           1                19                    True
+          b_dehub   out_degree    20.000000           3                18                   False
+          b_dehub  in_strength   459.000000           1                19                    True
+          b_dehub out_strength   571.000000           1                19                    True
+          b_dehub        bet_u     0.028022           1                19                    True
+          b_dehub        pr_dw     0.006033           1                19                    True
+          b_dehub        pr_uu     0.008138           1                19                    True
+          b_dehub     hits_hub     0.000351           1                19                    True
+          b_dehub    hits_auth     0.000079           1                19                    True
+          b_dehub        kcore     8.000000          52                 0                   False
+          b_dehub   hidx_in_in     6.000000           7                16                   False
+           c_bb10        deg_u    13.000000           6                16                   False
+           c_bb10    in_degree     9.000000           3                17                    True
+           c_bb10   out_degree     9.000000           6                17                   False
+           c_bb10  in_strength   658.000000           1                19                    True
+           c_bb10 out_strength   700.000000           2                19                   False
+           c_bb10        bet_u     0.009498           1                19                    True
+           c_bb10        pr_dw     0.005383           1                19                    True
+           c_bb10        pr_uu     0.007127           1                19                    True
+           c_bb10     hits_hub     0.000342           1                19                    True
+           c_bb10    hits_auth     0.000040           1                19                    True
+           c_bb10        kcore     5.000000          24                 0                   False
+           c_bb10   hidx_in_in     3.000000          31                19                   False
+c_bb10_byarc_DIAG        deg_u    13.000000           6                16                   False
+c_bb10_byarc_DIAG    in_degree     8.000000           3                17                    True
+c_bb10_byarc_DIAG   out_degree     8.000000           5                18                   False
+c_bb10_byarc_DIAG  in_strength   650.000000           1                19                    True
+c_bb10_byarc_DIAG out_strength   700.000000           2                19                   False
+c_bb10_byarc_DIAG        bet_u     0.009498           1                19                    True
+c_bb10_byarc_DIAG        pr_dw     0.005693           1                19                    True
+c_bb10_byarc_DIAG        pr_uu     0.007127           1                19                    True
+c_bb10_byarc_DIAG     hits_hub     0.000340           1                19                    True
+c_bb10_byarc_DIAG    hits_auth     0.000031           1                19                    True
+c_bb10_byarc_DIAG        kcore     5.000000          24                 0                   False
+c_bb10_byarc_DIAG   hidx_in_in     3.000000          29                 8                   False
+
+TOP20_JACCARD_BY_MEASURE COLS ["measure", "v1", "v2", "jaccard_deterministic", "jaccard_perm_mean", "jaccard_perm_min", "jaccard_perm_p05", "jaccard_perm_max", "shared_deterministic"]
+     measure      v1      v2  jaccard_deterministic  jaccard_perm_mean  jaccard_perm_min  jaccard_perm_p05  jaccard_perm_max  shared_deterministic
+       deg_u  a_full b_dehub                 0.5385             0.5385            0.5385            0.5385            0.5385                    14
+       deg_u  a_full  c_bb10                 0.4286             0.4286            0.4286            0.4286            0.4286                    12
+       deg_u b_dehub  c_bb10                 0.2903             0.3073            0.2500            0.2500            0.3333                     9
+   in_degree  a_full b_dehub                 0.6667             0.6667            0.6667            0.6667            0.6667                    16
+   in_degree  a_full  c_bb10                 0.5385             0.5385            0.5385            0.5385            0.5385                    14
+   in_degree b_dehub  c_bb10                 0.3793             0.3793            0.3793            0.3793            0.3793                    11
+  out_degree  a_full b_dehub                 0.6000             0.6000            0.6000            0.6000            0.6000                    15
+  out_degree  a_full  c_bb10                 0.3793             0.3549            0.3333            0.3333            0.3793                    11
+  out_degree b_dehub  c_bb10                 0.2121             0.2075            0.1765            0.1765            0.2500                     7
+ in_strength  a_full b_dehub                 0.5385             0.5385            0.5385            0.5385            0.5385                    14
+ in_strength  a_full  c_bb10                 1.0000             1.0000            1.0000            1.0000            1.0000                    20
+ in_strength b_dehub  c_bb10                 0.5385             0.5385            0.5385            0.5385            0.5385                    14
+out_strength  a_full b_dehub                 0.6000             0.6000            0.6000            0.6000            0.6000                    15
+out_strength  a_full  c_bb10                 0.9048             0.9495            0.9048            0.9048            1.0000                    19
+out_strength b_dehub  c_bb10                 0.6000             0.6000            0.6000            0.6000            0.6000                    15
+       bet_u  a_full b_dehub                 0.4815             0.4815            0.4815            0.4815            0.4815                    13
+       bet_u  a_full  c_bb10                 0.3793             0.3793            0.3793            0.3793            0.3793                    11
+       bet_u b_dehub  c_bb10                 0.3333             0.3333            0.3333            0.3333            0.3333                    10
+       pr_dw  a_full b_dehub                 0.3793             0.3793            0.3793            0.3793            0.3793                    11
+       pr_dw  a_full  c_bb10                 0.5385             0.5385            0.5385            0.5385            0.5385                    14
+       pr_dw b_dehub  c_bb10                 0.2121             0.2121            0.2121            0.2121            0.2121                     7
+       pr_uu  a_full b_dehub                 0.5385             0.5385            0.5385            0.5385            0.5385                    14
+       pr_uu  a_full  c_bb10                 0.7391             0.7391            0.7391            0.7391            0.7391                    17
+       pr_uu b_dehub  c_bb10                 0.4286             0.4286            0.4286            0.4286            0.4286                    12
+    hits_hub  a_full b_dehub                 0.9048             0.9048            0.9048            0.9048            0.9048                    19
+    hits_hub  a_full  c_bb10                 0.9048             0.9048            0.9048            0.9048            0.9048                    19
+    hits_hub b_dehub  c_bb10                 0.8182             0.8182            0.8182            0.8182            0.8182                    18
+   hits_auth  a_full b_dehub                 0.8182             0.8182            0.8182            0.8182            0.8182                    18
+   hits_auth  a_full  c_bb10                 0.6667             0.6667            0.6667            0.6667            0.6667                    16
+   hits_auth b_dehub  c_bb10                 0.6667             0.6667            0.6667            0.6667            0.6667                    16
+       kcore  a_full b_dehub                 0.5385             0.5891            0.3333            0.4286            0.8182                    14
+       kcore  a_full  c_bb10                 0.2121             0.2195            0.0811            0.1111            0.3793                     7
+       kcore b_dehub  c_bb10                 0.2903             0.2210            0.0811            0.1111            0.4286                     9
+  hidx_in_in  a_full b_dehub                 0.6667             0.6297            0.5385            0.5385            0.6667                    16
+  hidx_in_in  a_full  c_bb10                 0.5385             0.5786            0.5385            0.5385            0.6667                    14
+  hidx_in_in b_dehub  c_bb10                 0.4815             0.4636            0.4286            0.4286            0.5385                    13
+
+BOOTSTRAP_STABILITY COLS ["measure", "j_mean", "j_std", "j_min", "j_p10", "cj_mean", "cj_std", "cj_min", "cj_p10", "j_ceiling_mean", "n_top20_dropped_mean", "j_mean_relative_to_ceiling"]
+     measure  j_mean  j_std  j_min  j_p10  cj_mean  cj_std  cj_min  cj_p10  j_ceiling_mean  n_top20_dropped_mean  j_mean_relative_to_ceiling
+       bet_u  0.7697 0.1048 0.5385 0.6600   0.8486  0.0771  0.6667  0.7607          0.8041                  2.24                      0.9573
+       deg_u  0.7635 0.0899 0.6000 0.6667   0.8483  0.0606  0.7143  0.8000          0.7930                  2.38                      0.9628
+  hidx_in_in  0.7404 0.1008 0.5385 0.6000   0.8062  0.0917  0.6087  0.6943          0.8251                  1.96                      0.8973
+   hits_auth  0.6813 0.2998 0.0811 0.1765   0.7389  0.3120  0.0968  0.1869          0.8112                  2.18                      0.8399
+    hits_hub  0.6361 0.3228 0.0256 0.0811   0.6866  0.3371  0.0303  0.0906          0.8098                  2.20                      0.7855
+   in_degree  0.7765 0.0783 0.6000 0.6667   0.8581  0.0561  0.7500  0.7716          0.8047                  2.22                      0.9650
+ in_strength  0.7455 0.1178 0.5385 0.6000   0.8256  0.0917  0.6087  0.6818          0.7922                  2.40                      0.9410
+       kcore  0.2085 0.0685 0.0811 0.1429   0.2193  0.0696  0.0833  0.1511          0.8483                  1.70                      0.2458
+  out_degree  0.7805 0.0883 0.6000 0.6667   0.8666  0.0578  0.7500  0.8000          0.7956                  2.34                      0.9809
+out_strength  0.7343 0.1010 0.5385 0.6000   0.8057  0.0806  0.6364  0.7129          0.8112                  2.16                      0.9053
+       pr_dw  0.6594 0.1253 0.4286 0.4815   0.7342  0.1132  0.4615  0.5833          0.7747                  2.62                      0.8512
+       pr_uu  0.7115 0.0779 0.4815 0.6000   0.7925  0.0685  0.5652  0.7260          0.7886                  2.44                      0.9022
+
+J_WORST:
+  Unnamed: 0  a_full|b_dehub  a_full|c_bb10  b_dehub|c_bb10
+       deg_u          0.5385         0.4286          0.2500
+   in_degree          0.6667         0.5385          0.3793
+  out_degree          0.6000         0.3333          0.1765
+ in_strength          0.5385         1.0000          0.5385
+out_strength          0.6000         0.9048          0.6000
+       bet_u          0.4815         0.3793          0.3333
+       pr_dw          0.3793         0.5385          0.2121
+       pr_uu          0.5385         0.7391          0.4286
+    hits_hub          0.9048         0.9048          0.8182
+   hits_auth          0.8182         0.6667          0.6667
+       kcore          0.3333         0.0811          0.0811
+  hidx_in_in          0.5385         0.5385          0.4286
+
+DECISION COLS ["measure", "j_min_deterministic", "j_min_worst_over_tie_perms", "j_min_vs_reference_only", "pass_if_only_vs_reference", "j_mean_over_perms", "boot_drop10_mean_j", "boot_drop10_ceiling_mean", "boot_drop10_rel_to_ceiling", "boot_drop10_min_j", "boot_drop10_p10_j", "boot_cond_on_survivors_mean", "single_point_fragile", "pass_graph_variants", "pass_bootstrap", "VERDICT", "COMBINED", "top10_shared_all3_variants", "null_random_j_mean", "j_min_over_null_ratio", "tie_note"]
+     measure  j_min_deterministic  j_min_worst_over_tie_perms  j_min_vs_reference_only  pass_if_only_vs_reference  j_mean_over_perms  boot_drop10_mean_j  boot_drop10_ceiling_mean  boot_drop10_rel_to_ceiling  boot_drop10_min_j  boot_drop10_p10_j  boot_cond_on_survivors_mean  single_point_fragile  pass_graph_variants  pass_bootstrap VERDICT  COMBINED  top10_shared_all3_variants  null_random_j_mean  j_min_over_null_ratio                       tie_note
+       pr_uu               0.4286                      0.4286                   0.5385                       True             0.5687              0.7115                    0.7886                      0.9022             0.4815             0.6000                       0.7925                 False                False            True    FAIL FAIL·口径不稳                           6              0.0154                   27.9  1 nodes tied at rank20 (full)
+  hidx_in_in               0.4815                      0.4286                   0.5385                       True             0.5573              0.7404                    0.8251                      0.8973             0.5385             0.6000                       0.8062                 False                False            True    FAIL FAIL·口径不稳                           3              0.0154                   27.9  5 nodes tied at rank20 (full)
+   in_degree               0.3793                      0.3793                   0.5385                       True             0.5282              0.7765                    0.8047                      0.9650             0.6000             0.6667                       0.8581                 False                False            True    FAIL FAIL·口径不稳                           3              0.0154                   24.7  2 nodes tied at rank20 (full)
+       bet_u               0.3333                      0.3333                   0.3793                      False             0.3980              0.7697                    0.8041                      0.9573             0.5385             0.6600                       0.8486                 False                False            True    FAIL FAIL·口径不稳                           1              0.0154                   21.7  1 nodes tied at rank20 (full)
+       deg_u               0.2903                      0.2500                   0.4286                      False             0.4248              0.7635                    0.7930                      0.9628             0.6000             0.6667                       0.8483                 False                False            True    FAIL FAIL·口径不稳                           2              0.0154                   16.3  3 nodes tied at rank20 (full)
+       pr_dw               0.2121                      0.2121                   0.3793                      False             0.3766              0.6594                    0.7747                      0.8512             0.4286             0.4815                       0.7342                 False                False            True    FAIL FAIL·口径不稳                           5              0.0154                   13.8  1 nodes tied at rank20 (full)
+  out_degree               0.2121                      0.1765                   0.3333                      False             0.3875              0.7805                    0.7956                      0.9809             0.6000             0.6667                       0.8666                 False                False            True    FAIL FAIL·口径不稳                           3              0.0154                   11.5  3 nodes tied at rank20 (full)
+       kcore               0.2121                      0.0811                   0.0811                      False             0.3432              0.2085                    0.8483                      0.2458             0.0811             0.1429                       0.2193                  True                False           False    FAIL FAIL·口径不稳                           4              0.0154                    5.3 45 nodes tied at rank20 (full)
+    hits_hub               0.8182                      0.8182                   0.9048                       True             0.8759              0.6361                    0.8098                      0.7855             0.0256             0.0811                       0.6866                  True                 True            True    PASS PASS·单点脆弱                           9              0.0154                   53.3  1 nodes tied at rank20 (full)
+   hits_auth               0.6667                      0.6667                   0.6667                       True             0.7172              0.6813                    0.8112                      0.8399             0.0811             0.1765                       0.7389                  True                 True            True    PASS PASS·单点脆弱                          10              0.0154                   43.4  1 nodes tied at rank20 (full)
+out_strength               0.6000                      0.6000                   0.6000                       True             0.7165              0.7343                    0.8112                      0.9053             0.5385             0.6000                       0.8057                 False                 True            True    PASS      PASS                           8              0.0154                   39.1  1 nodes tied at rank20 (full)
+ in_strength               0.5385                      0.5385                   0.5385                       True             0.6923              0.7455                    0.7922                      0.9410             0.5385             0.6000                       0.8256                 False                 True            True    PASS      PASS                           7              0.0154                   35.1  2 nodes tied at rank20 (full)
+
+NODES_STABLE rows 129 COLS ["measure", "node", "rank_a_full", "rank_b_dehub", "rank_c_bb10", "rank_c_bb10_byarc_DIAG", "in_top20_all3"]
+   measure                   node  rank_a_full  rank_b_dehub  rank_c_bb10  rank_c_bb10_byarc_DIAG  in_top20_all3
+     deg_u         cs.ustc.edu.cn           14             9            8                       8           True
+     deg_u    faculty.ustc.edu.cn            9             3            6                       6           True
+     deg_u gradschool.ustc.edu.cn            7             2            9                       9           True
+     deg_u       hsss.ustc.edu.cn           12             7           14                      14           True
+     deg_u    physics.ustc.edu.cn           11             5           10                      10           True
+     deg_u       sist.ustc.edu.cn           17            11           12                      12           True
+     deg_u    welcome.ustc.edu.cn           15             8            2                       2           True
+     deg_u        zsb.ustc.edu.cn           16            10           11                      11           True
+ in_degree         cs.ustc.edu.cn           14            13            9                       9           True
+ in_degree      email.ustc.edu.cn            8             4            3                       2           True
+ in_degree    faculty.ustc.edu.cn            3             2            6                       4           True
+ in_degree gradschool.ustc.edu.cn            4             1            7                       7           True
+ in_degree       hfnl.ustc.edu.cn            7             5           18                      14           True
+ in_degree        job.ustc.edu.cn           19            14           14                      12           True
+ in_degree    physics.ustc.edu.cn           20            18           10                      17           True
+ in_degree        ses.ustc.edu.cn           17            17           20                      23           True
+ in_degree         yz.ustc.edu.cn           11             7           13                      11           True
+ in_degree        zsb.ustc.edu.cn           18            12            8                       8           True
+out_degree         cs.ustc.edu.cn           16            13           18                      15           True
+out_degree       hsss.ustc.edu.cn            4             1            3                       3           True
+out_degree    physics.ustc.edu.cn            8             4            4                       6           True
+out_degree       sist.ustc.edu.cn           13             8            8                      14           True
+out_degree        som.ustc.edu.cn           15             9           13                      10           True
+out_degree    welcome.ustc.edu.cn            7             3            1                       1           True
+out_degree        zsb.ustc.edu.cn           17            12           17                      49           True
+
+SUMMARY_KEYS ["module", "versions", "seed", "top_k", "n_tie_perm", "n_boot", "boot_drop", "decision_rule", "jaccard_pass_threshold", "threshold_justification", "graph_variants", "hubs_exact", "passed_measures", "failed_measures", "strict_pass_measures", "fragile_pass_measures", "flip_if_compared_only_to_reference", "per_measure", "diag_arcs_by_own_weight", "timing_s", "wall_s"]
+SUM module = "C3_centrality_robustness"
+SUM versions = {"python": "3.12.13", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+SUM seed = 20261113
+SUM top_k = 20
+SUM n_tie_perm = 100
+SUM n_boot = 50
+SUM boot_drop = 0.1
+SUM decision_rule = "PASS := 三对两两口径 Jaccard 的最小值（取 100 次并列打散的**最坏值**）>= 0.5；抽样稳定性（删 10% 节点，50 次）作为第二道门与单点脆弱标记（p10<0.25 或 min<0.10）一并给出"
+SUM jaccard_pass_threshold = 0.5
+SUM threshold_justification = {"shared_members_at_0.5": 14, "random_top20_pair_jaccard_mean": 0.01536, "random_top20_pair_jaccard_p99": 0.08108, "ratio_of_threshold_to_random_mean": 32.5}
+SUM graph_variants = [{"variant": "a_full", "nodes": 676, "uedges": 2498, "darcs": 2788, "uweight_total": 63263, "n_attributed_isolated_in_u": 0, "removed_uedges_vs_full": 0, "share_removed_edges": 0.0, "share_removed_weight": 0.0}, {"variant": "b_dehub", "nodes": 676, "uedges": 1993, "darcs": 2218, "uweight_total": 53345, "n_attributed_isolated_in_u": 25, "removed_uedges_vs_full": 505, "share_removed_edges": 0.2022, "share_removed_weight": 0.1568}, {"variant": "c_bb10", "nodes": 676, "uedges": 675, "darcs": 851, "uweight_total": 58888, "n_attributed_isolated_in_u": 303, "removed_uedges_vs_full": 1823, "share_removed_edges": 0.7298, "share_removed_weight": 0.0692}, {"variant": "c_bb10_byarc_DIAG", "nodes": 676, "uedges": 675, "darcs": 743, "uweight_total": 58888, "n_attributed_isolated_in_u": 303, "removed_uedges_vs_full": 1823, "share_removed_edges": 0.7298, "share_removed_weight": 0.0692}]
+SUM hubs_exact = ["en.ustc.edu.cn", "fusep.ustc.edu.cn", "news.ustc.edu.cn", "staff.ustc.edu.cn", "teach.ustc.edu.cn", "wpsearch.ustc.edu.cn"]
+SUM passed_measures = ["hits_hub", "hits_auth", "out_strength", "in_strength"]
+SUM failed_measures = ["pr_uu", "hidx_in_in", "in_degree", "bet_u", "deg_u", "pr_dw", "out_degree", "kcore"]
+SUM strict_pass_measures = ["out_strength", "in_strength"]
+SUM fragile_pass_measures = ["hits_hub", "hits_auth"]
+SUM flip_if_compared_only_to_reference = ["pr_uu", "hidx_in_in", "in_degree"]
+SUM per_measure = [{"measure": "pr_uu", "j_min_deterministic": 0.4286, "j_min_worst_over_tie_perms": 0.4286, "j_min_vs_reference_only": 0.5385, "pass_if_only_vs_reference": true, "j_mean_over_perms": 0.5687, "boot_drop10_mean_j": 0.7115, "boot_drop10_ceiling_mean": 0.7886, "boot_drop10_rel_to_ceiling": 0.9022, "boot_drop10_min_j": 0.4815, "boot_drop10_p10_j": 0.6, "boot_cond_on_survivors_mean": 0.7925, "single_point_fragile": false, "pass_graph_variants": false, "pass_bootstrap": true, "VERDICT": "FAIL", "COMBINED": "FAIL·口径不稳", "top10_shared_all3_variants": 6, "null_random_j_mean": 0.0154, "j_min_over_null_ratio": 27.9, "tie_note": "1 nodes tied at rank20 (full)"}, {"measure": "hidx_in_in", "j_min_deterministic": 0.4815, "j_min_worst_over_tie_perms": 0.4286, "j_min_vs_reference_only": 0.5385, "pass_if_only_vs_reference": true, "j_mean_over_perms": 0.5573, "boot_drop10_mean_j": 0.7404, "boot_drop10_ceiling_mean": 0.8251, "boot_drop10_rel_to_ceiling": 0.8973, "boot_drop10_min_j": 0.5385, "boot_drop10_p10_j": 0.6, "boot_cond_on_survivors_mean": 0.8062, "single_point_fragile": false, "pass_graph_variants": false, "pass_bootstrap": true, "VERDICT": "FAIL", "COMBINED": "FAIL·口径不稳", "top10_shared_all3_variants": 3, "null_random_j_mean": 0.0154, "j_min_over_null_ratio": 27.9, "tie_note": "5 nodes tied at rank20 (full)"}, {"measure": "in_degree", "j_min_deterministic": 0.3793, "j_min_worst_over_tie_perm ...[TRUNC]
+SUM diag_arcs_by_own_weight = {"note": "c_bb10_byarc_DIAG = 弧按自身权重 >=10 过滤（vs 主口径按无序点对合并权重）", "j_vs_c_bb10_pairbased": {"deg_u": 1.0, "in_degree": 0.9048, "out_degree": 0.6667, "in_strength": 1.0, "out_strength": 1.0, "bet_u": 1.0, "pr_dw": 0.4815, "pr_uu": 1.0, "hits_hub": 0.8182, "hits_auth": 0.9048, "kcore": 1.0, "hidx_in_in": 0.4815}}
+SUM timing_s = {"build": 1.8, "measures": 6.96, "rankings": 19.03, "null": 0.18, "bootstrap": 100.36, "decision": 0.6}
+SUM wall_s = 129.25

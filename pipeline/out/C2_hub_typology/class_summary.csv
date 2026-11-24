@@ -1,0 +1,6 @@
+﻿class,n,universe_n,share_of_universe,mean_in_degree,median_in_degree,mean_out_degree,median_out_degree,mean_degree_u,mean_in_strength,mean_out_strength,n_in_degree_u_top20,share_of_degree_u_top20,jaccard_with_degree_u_top20,n_nav_hub6,n_healthy,n_partial,n_dead,mean_ok_ratio_pct,share_listed_urls_at_cap20
+导航型枢纽,93,509,0.1827,1.441,1.0,7.839,5.0,8.57,23.7,130.9,3,0.15,0.0273,2,63,30,0,88.78,0.8925
+内容型权威,91,509,0.1788,6.209,4.0,0.703,0.0,6.67,105.8,16.7,0,0.0,0.0,0,59,32,0,85.31,0.5604
+双向枢纽,151,509,0.2967,10.311,6.0,12.596,8.0,19.795,276.4,316.8,17,0.85,0.1104,4,106,45,0,91.13,0.9603
+边缘,174,509,0.3418,1.328,1.0,0.534,0.0,1.736,30.8,9.9,0,0.0,0.0,0,132,42,0,91.03,0.408
+出度删失，无法归类,162,671,0.2414,1.827,1.0,0.0,0.0,1.827,26.4,0.0,0,0.0,0.0,0,0,0,162,0.0,0.0123

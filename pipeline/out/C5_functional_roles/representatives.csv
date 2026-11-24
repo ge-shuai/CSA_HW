@@ -1,0 +1,32 @@
+﻿role,role_cn,node,canonical_kept_frac,modal_role,modal_frac,n_distinct_roles,z_canonical,P_canonical,k_binary,k_in_module,module_id_canonical,module_size_canonical,in_degree,health_state,ok_ratio_pct
+peripheral,外围节点 (peripheral),en.cfmc.ustc.edu.cn,1.0,peripheral,1.0,1,-0.1622,0.6122,7.0,3.0,21,9,1,partial,45.0
+peripheral,外围节点 (peripheral),nbe.ustc.edu.cn,1.0,peripheral,1.0,1,-0.6444,0.6122,7.0,4.0,15,18,1,healthy,100.0
+peripheral,外围节点 (peripheral),arts.ustc.edu.cn,1.0,peripheral,1.0,1,0.0717,0.6111,6.0,3.0,0,56,5,partial,95.0
+peripheral,外围节点 (peripheral),cfmath.ustc.edu.cn,1.0,peripheral,1.0,1,1.7844,0.6111,12.0,7.0,21,9,3,partial,25.0
+peripheral,外围节点 (peripheral),lfo.ustc.edu.cn,1.0,peripheral,1.0,1,-0.0697,0.6111,6.0,3.0,2,18,4,healthy,100.0
+non-hub_connector,非枢纽连接者 (non-hub connector),oic.ustc.edu.cn,1.0,non-hub_connector,1.0,1,1.7666,0.7904,25.0,10.0,4,46,19,healthy,100.0
+non-hub_connector,非枢纽连接者 (non-hub connector),aga.ustc.edu.cn,1.0,non-hub_connector,1.0,1,-0.0697,0.7811,13.0,3.0,2,18,11,healthy,100.0
+non-hub_connector,非枢纽连接者 (non-hub connector),isa.ustc.edu.cn,1.0,non-hub_connector,1.0,1,0.2891,0.78,10.0,4.0,4,46,5,healthy,100.0
+non-hub_connector,非枢纽连接者 (non-hub connector),en.sklfs.ustc.edu.cn,1.0,non-hub_connector,1.0,1,-1.3728,0.7778,6.0,1.0,8,5,6,healthy,100.0
+non-hub_connector,非枢纽连接者 (non-hub connector),wcm.ustc.edu.cn,1.0,non-hub_connector,1.0,1,-0.208,0.7778,6.0,2.0,13,70,6,dead,0.0
+non-hub_kinless,非枢纽无亲属 (non-hub kinless),safetyse.ustc.edu.cn,1.0,non-hub_kinless,1.0,1,0.5883,0.8858,17.0,3.0,8,5,7,healthy,100.0
+non-hub_kinless,非枢纽无亲属 (non-hub kinless),yz.ustc.edu.cn,1.0,non-hub_kinless,1.0,1,1.7617,0.885,51.0,10.0,7,71,30,healthy,100.0
+non-hub_kinless,非枢纽无亲属 (non-hub kinless),zsb.ustc.edu.cn,1.0,non-hub_kinless,1.0,1,1.4933,0.8847,46.0,9.0,7,71,25,healthy,100.0
+non-hub_kinless,非枢纽无亲属 (non-hub kinless),i.ustc.edu.cn,1.0,non-hub_kinless,1.0,1,0.2605,0.8828,32.0,5.0,14,55,30,partial,95.0
+non-hub_kinless,非枢纽无亲属 (non-hub kinless),rec.ustc.edu.cn,1.0,non-hub_kinless,1.0,1,-0.5112,0.875,8.0,1.0,13,70,8,healthy,100.0
+provincial_hub,行省枢纽 (provincial hub),enbiomed.ustc.edu.cn,1.0,provincial_hub,1.0,1,5.2187,0.3807,41.0,32.0,6,80,3,healthy,100.0
+provincial_hub,行省枢纽 (provincial hub),biox.ustc.edu.cn,1.0,provincial_hub,1.0,1,4.2999,0.5062,39.0,27.0,6,80,27,healthy,100.0
+provincial_hub,行省枢纽 (provincial hub),biomed.ustc.edu.cn,1.0,provincial_hub,1.0,1,3.3811,0.5571,34.0,22.0,6,80,23,healthy,100.0
+provincial_hub,行省枢纽 (provincial hub),cec.ustc.edu.cn,1.0,provincial_hub,1.0,1,3.1623,0.5244,15.0,10.0,19,11,2,healthy,100.0
+provincial_hub,行省枢纽 (provincial hub),etcis.ustc.edu.cn,0.9167,provincial_hub,0.9167,2,2.6088,0.5124,22.0,15.0,14,55,9,healthy,100.0
+connector_hub,连接枢纽 (connector hub),sist.ustc.edu.cn,1.0,connector_hub,1.0,1,3.3133,0.7653,42.0,18.0,14,55,21,healthy,100.0
+connector_hub,连接枢纽 (connector hub),hsss.ustc.edu.cn,0.9167,connector_hub,0.9167,2,2.8354,0.7515,52.0,14.0,7,71,9,healthy,100.0
+connector_hub,连接枢纽 (connector hub),ustcnet.ustc.edu.cn,0.9167,connector_hub,0.9167,2,2.8318,0.6389,24.0,14.0,0,56,9,partial,20.0
+connector_hub,连接枢纽 (connector hub),sz.ustc.edu.cn,0.8333,connector_hub,0.8333,2,2.8696,0.7539,29.0,13.0,9,51,11,healthy,100.0
+connector_hub,连接枢纽 (connector hub),pnp.ustc.edu.cn,0.8333,connector_hub,0.8333,3,2.8669,0.6399,37.0,21.0,5,87,7,partial,85.0
+kinless_hub,无亲属枢纽 (kinless hub),teach.ustc.edu.cn,1.0,kinless_hub,1.0,1,6.0938,0.8792,119.0,27.0,0,56,51,healthy,100.0
+kinless_hub,无亲属枢纽 (kinless hub),employment.ustc.edu.cn,1.0,kinless_hub,1.0,1,5.8575,0.8456,68.0,22.0,13,70,26,healthy,100.0
+kinless_hub,无亲属枢纽 (kinless hub),news.ustc.edu.cn,1.0,kinless_hub,1.0,1,5.4074,0.848,76.0,22.0,9,51,73,healthy,100.0
+kinless_hub,无亲属枢纽 (kinless hub),en.ustc.edu.cn,1.0,kinless_hub,1.0,1,3.9828,0.8516,63.0,19.0,4,46,41,healthy,100.0
+kinless_hub,无亲属枢纽 (kinless hub),lib.ustc.edu.cn,1.0,kinless_hub,1.0,1,3.9828,0.8452,57.0,19.0,4,46,29,healthy,100.0
+network_hub,网络枢纽 (network hub),lug.ustc.edu.cn,1.0,network_hub,1.0,1,2.8838,0.6925,19.0,9.0,10,10,5,healthy,100.0

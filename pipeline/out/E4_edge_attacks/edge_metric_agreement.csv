@@ -1,0 +1,6 @@
+﻿variant_A,variant_B,spearman_rho,kendall_tau,top5pct_overlap
+ebc_binarized,ebc_weight_as_cost,0.3008,0.2155,0.232
+ebc_binarized,ebc_random_walk,0.1613,0.12,0.152
+ebc_weight_as_cost,ebc_random_walk,-0.3348,-0.2657,0.0
+ebc_binarized,weight,-0.0905,-0.0648,0.04
+ebc_random_walk,weight,0.5351,0.4371,0.408

@@ -1,0 +1,46 @@
+E4 - edge-level attacks on the USTC subdomain network
+========================================================================================================
+  anchors: 31 checked, 0 failed
+  baseline n=674 m=2497  total observed link count W=63243  max edge weight=6073 (9.60% of W)
+  baseline E_full=0.331469 E_gcc=0.331469 E_fixed=0.331469
+  baseline components=1  bridges=185 (7.41% of m)  cyclomatic m-n+1=1824
+ weight  n_edges  edge_share_pct  weight_share_pct  cum_edges_ge
+      1      720          28.835             1.138          2497
+      2      527          21.105             1.667          1777
+      3      193           7.729             0.916          1250
+      4      179           7.169             1.132          1057
+      5       60           2.403             0.474           878
+      6       63           2.523             0.598           818
+      7       32           1.282             0.354           755
+      8       37           1.482             0.468           723
+      9       12           0.481             0.171           686
+     10       18           0.721             0.285           674
+  edges with w>=10: 674 (26.99% of m) carrying 93.08% of W
+         variant_A          variant_B  spearman_rho  kendall_tau  top5pct_overlap
+     ebc_binarized ebc_weight_as_cost        0.3008       0.2155            0.232
+     ebc_binarized    ebc_random_walk        0.1613       0.1200            0.152
+ebc_weight_as_cost    ebc_random_walk       -0.3348      -0.2657            0.000
+     ebc_binarized             weight       -0.0905      -0.0648            0.040
+   ebc_random_walk             weight        0.5351       0.4371            0.408
+ rank_binarized                                        edge  weight  ebc_binarized  rank_if_weight_as_cost  rank_if_random_walk  is_bridge
+              1        (cec.ustc.edu.cn, teach.ustc.edu.cn)       8       0.019046                    1774                 1213          0
+              2   (enbiomed.ustc.edu.cn, staff.ustc.edu.cn)       5       0.012190                    1992                 1614          0
+              3       (biox.ustc.edu.cn, teach.ustc.edu.cn)       4       0.010048                    1517                 1132          0
+              4        (lib.ustc.edu.cn, teach.ustc.edu.cn)      99       0.009629                    2261                   30          0
+              5          (lib.ustc.edu.cn, lug.ustc.edu.cn)       4       0.009452                    2258                 2068          0
+              6        (lib.ustc.edu.cn, staff.ustc.edu.cn)       2       0.009239                     250                 2079          0
+              7      (en.ustc.edu.cn, enbiomed.ustc.edu.cn)     101       0.008947                    1978                    1          0
+              8 (employment.ustc.edu.cn, staff.ustc.edu.cn)       2       0.008615                     750                 1485          0
+              9       (ses.ustc.edu.cn, virlab.ustc.edu.cn)     100       0.008432                    2419                   22          0
+             10         (en.ustc.edu.cn, teach.ustc.edu.cn)       2       0.007921                     912                 1596          0
+             11   (employment.ustc.edu.cn, lib.ustc.edu.cn)       2       0.007831                     153                 1475          0
+             12    (teach.ustc.edu.cn, ustcnet.ustc.edu.cn)      98       0.007624                    2475                    2          0
+             13   (epc-ietc.ustc.edu.cn, teach.ustc.edu.cn)       2       0.007308                     798                 1640          0
+             14   (enbiomed.ustc.edu.cn, fusep.ustc.edu.cn)       1       0.007262                       1                 1601          0
+             15    (101.lug.ustc.edu.cn, staff.ustc.edu.cn)       1       0.007257                      38                  965          0
+             16  (teach.ustc.edu.cn, xnfz.cmet.ustc.edu.cn)       3       0.007142                     917                 2463          0
+             17      (faculty.ustc.edu.cn, iai.ustc.edu.cn)       2       0.006866                      40                 1690          0
+             18         (jjb.ustc.edu.cn, xxgk.ustc.edu.cn)       1       0.006742                      62                  678          0
+             19           (en.ustc.edu.cn, lib.ustc.edu.cn)       1       0.006692                       5                 1583          0
+             20       (biox.ustc.edu.cn, staff.ustc.edu.cn)       2       0.006429                     326                 1131          0
+  3990 removal evaluations

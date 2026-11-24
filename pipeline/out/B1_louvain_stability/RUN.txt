@@ -1,0 +1,218 @@
+B1_louvain_stability · RUN.txt
+========================================================================
+start_local_time   : 2026-11-22 19:56:43
+end_local_time     : 2026-11-22 20:00:52
+total_wall_seconds : 248.4
+python             : 3.12.13
+networkx           : 3.6.1
+pandas             : 3.0.2
+numpy              : 2.4.4
+scipy              : 1.17.1
+sklearn            : 1.8.0
+platform           : Windows-11-10.0.26200-SP0
+PYTHONHASHSEED(env): 0
+csa_common.SEED    : 20261113
+module SEED        : 20261113
+
+command line:
+    cd C:/Users/bfy32/Documents/Qoder/2026-11-13/f93e4d48/pipeline
+    python B1_louvain_stability/run_b1.py
+
+seeds used:
+    primary Louvain sweep        : range(50)  = 0..49  (50 seeds)
+    extended Louvain sweep       : range(250) = 0..249 (250 seeds)
+    pairwise stability pairs     : C(50,2)=1225 全部 + 250-seed 池随机 2000 对（rng default_rng(20261113)）
+    consensus                    : louvain_robust(seeds=range(50)) 与 range(250)，tau in [0.5, 0.6, 0.7, 0.8, 0.9]，规则 cc / avglink
+    consensus seed budgets       : [10, 25, 50, 100, 250]
+    edge-order grid              : 24 种非诊断顺序 x 22 个 seed = 528 次 Louvain（另 1 个诊断顺序 prepend671，同样 22 个 seed）
+
+per-step wall seconds:
+    step0_load                  :     1.40
+    step1_seed_sweep            :    47.56
+    step2_distribution          :     0.04
+    step3_pairwise              :    18.27
+    step4_consensus             :    54.78
+    step5_order_sensitivity     :    61.16
+    step6_noise                 :    65.10
+
+anchors: C.assert_anchors() 31/31 PASS（任何一项不过本脚本立即抛错停止）
+graph  : Gu 676 nodes / 2498 edges, edge-set sha256[:16]=2c72c738df1ca0c8
+louvain calls this run: 1537
+
+key numbers (与 result.md 一一对应):
+{
+  "rob50_summary": {
+    "n_seeds": 50,
+    "comms_total": {
+      "min": 20,
+      "median": 24.0,
+      "max": 28
+    },
+    "comms_nonsingleton": {
+      "min": 20,
+      "median": 24.0,
+      "max": 28
+    },
+    "Q": {
+      "min": 0.6842,
+      "mean": 0.6903,
+      "sd": 0.0015,
+      "max": 0.6932
+    },
+    "largest": {
+      "min": 66,
+      "median": 96.5,
+      "max": 134
+    }
+  },
+  "rob250_summary": {
+    "n_seeds": 250,
+    "comms_total": {
+      "min": 20,
+      "median": 24.0,
+      "max": 28
+    },
+    "comms_nonsingleton": {
+      "min": 20,
+      "median": 24.0,
+      "max": 28
+    },
+    "Q": {
+      "min": 0.6842,
+      "mean": 0.6902,
+      "sd": 0.0013,
+      "max": 0.6944
+    },
+    "largest": {
+      "min": 64,
+      "median": 89.0,
+      "max": 137
+    }
+  },
+  "pairwise_summary": {
+    "all_pairs_within_primary50": {
+      "n_pairs": 1225,
+      "NMI": {
+        "n": 1225,
+        "min": 0.7502,
+        "p05": 0.8091200000000001,
+        "q1": 0.8523,
+        "median": 0.8849,
+        "mean": 0.8805968163265306,
+        "q3": 0.9096,
+        "p95": 0.945,
+        "max": 0.9919,
+        "sd": 0.041492914955326164,
+        "iqr": 0.05730000000000002,
+        "range": 0.24170000000000003
+      },
+      "ARI": {
+        "n": 1225,
+        "min": 0.4988,
+        "p05": 0.60522,
+        "q1": 0.6896,
+        "median": 0.7596,
+        "mean": 0.7546401632653061,
+        "q3": 0.8161,
+        "p95": 0.89974,
+        "max": 0.9915,
+        "sd": 0.08918155494160991,
+        "iqr": 0.12650000000000006,
+        "range": 0.4927
+      }
+    },
+    "random_pairs_within_all250_n2000": {
+      "n_pairs": 2000,
+      "NMI": {
+        "n": 2000,
+        "min": 0.758,
+        "p05": 0.82189,
+        "q1": 0.8605,
+        "median": 0.8863,
+        "mean": 0.8859455499999999,
+        "q3": 0.9136249999999999,
+        "p95": 0.9470099999999999,
+        "max": 0.9935,
+        "sd": 0.0386459490100184,
+        "iqr": 0.05312499999999987,
+        "range": 0.23550000000000004
+      },
+      "ARI": {
+        "n": 2000,
+        "min": 0.4851,
+        "p05": 0.61578,
+        "q1": 0.703475,
+        "median": 0.7636499999999999,
+        "mean": 0.76416885,
+        "q3": 0.82805,
+        "p95": 0.907215,
+        "max": 0.9951,
+        "sd": 0.08751557131327341,
+        "iqr": 0.12457499999999999,
+        "range": 0.51
+      }
+    }
+  },
+  "consensus_pairs_at_least_tau_primary50": {
+    "0.5": 16819,
+    "0.6": 14848,
+    "0.7": 14337,
+    "0.8": 12152,
+    "0.9": 10292
+  },
+  "consensus_offdiag_mean_primary50": 0.080745,
+  "recommended_partition": {
+    "seed_set": "primary50",
+    "method": "avglink",
+    "tau": 0.6,
+    "n_comms_total": 32,
+    "n_comms_nonsingleton": 32,
+    "largest": 83,
+    "Q_of_consensus": 0.683834,
+    "NMI_mean_vs_seeds": 0.9177
+  },
+  "noise_comparison": {
+    "ranges": {
+      "largest_seed_range": 68.0,
+      "largest_order_range": 49.0,
+      "comms_seed_range": 8.0,
+      "comms_order_range": 5.0
+    },
+    "crossed_NMI_mean": {
+      "within_order_between_seed": 0.8849,
+      "between_order_within_seed": 0.8841
+    },
+    "verdict": {
+      "largest": "seed",
+      "comms": "seed",
+      "nmi": "edge_order"
+    },
+    "eta2": {
+      "n_comms_total": {
+        "edge_order": 0.0294,
+        "seed": 0.0401
+      },
+      "Q": {
+        "edge_order": 0.0516,
+        "seed": 0.0361
+      },
+      "largest": {
+        "edge_order": 0.0322,
+        "seed": 0.0403
+      }
+    }
+  }
+}
+
+outputs:
+    C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B1_louvain_stability\seed_sweep.csv
+    C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B1_louvain_stability\seed_sweep_distribution.csv
+    C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B1_louvain_stability\pairwise_stability.csv
+    C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B1_louvain_stability\consensus_partitions.csv
+    C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B1_louvain_stability\consensus_summary.csv
+    C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B1_louvain_stability\recommended_partition_communities.csv
+    C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B1_louvain_stability\consensus_seed_budget.csv
+    C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B1_louvain_stability\order_sensitivity.csv
+    C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B1_louvain_stability\order_sensitivity_summary.csv
+    C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B1_louvain_stability\noise_source_comparison.csv
+    C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B1_louvain_stability\result.md

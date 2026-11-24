@@ -1,0 +1,12 @@
+G1_risk_matrix RUN.txt
+command: cd pipeline && PYTHONHASHSEED=0 python out/G1_risk_matrix/run_g1.py
+versions: {'python': '3.12.13', 'networkx': '3.6.1', 'pandas': '3.0.2', 'numpy': '2.4.4', 'SEED': 20261113, 'PYTHONHASHSEED': '0'}
+wall_time_s: 7.27
+SEED = 20261113  (no stochastic step in this unit; percentiles / quadrants / correlations are deterministic)
+anchors: csa_common.assert_anchors() 31/31 PASS (run_g1.py:L75)
+universe: attributed=671 scored_corrected=638 false_fail=32 ambiguous=1 gcc=674
+graphs: C.build_all(); centrality: C.centralities() -> in_degree(§2.1主) / bet_u(无权无向) / pr_dw(§5有向加权); deg_u=污染对照 only
+health: raw=ok_ratio_pct 原值; corr=§2.2 真失效校正（假失效+待判退出打分域并单列）
+efficiency: not used in this unit (§2.3 rules bind G2/G3)
+banned-word self-check §7: PASS
+outputs: g1_nodes_scored.csv g1_quadrant_summary.csv g1_quadrant_members.csv g1_instability.csv g1_false_fail_class.csv g1_ambiguous_class.csv g1_axis_correlations.csv G1_summary.json result.md RUN.txt

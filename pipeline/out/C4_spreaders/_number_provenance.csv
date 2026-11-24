@@ -1,0 +1,55 @@
+﻿tag,cite,value
+ANCHORS,run_c4.py:L301,31/31 PASS
+N_SIM_NODES,run_c4.py:L305,676
+N_EDGES_DIRECTED,run_c4.py:L307,2788
+GAMMA,run_c4.py:L309,0.2
+BETAS,run_c4.py:L310,"[0.01, 0.03, 0.06, 0.12, 0.25, 0.5]"
+N_TRIALS,run_c4.py:L311,20
+N_BOOT,run_c4.py:L312,1000
+TOPK,run_c4.py:L313,"[10, 20, 25, 50]"
+SUBSET_N_ALIVE509,run_c4.py:L323,509
+SUBSET_N_ATTR671,run_c4.py:L324,671
+SUBSET_N_GRAPH676,run_c4.py:L325,676
+DEAD_OUTDEG_NONZERO,run_c4.py:L327,0
+N_DEAD_SEEDS_FORCED_R1,run_c4.py:L329,162
+DET_REACH_MAX,run_c4.py:L347,667
+DET_REACH_MEAN_ALIVE509,run_c4.py:L348,400.41650294695484
+DET_REACH_MEDIAN_ALIVE509,run_c4.py:L350,665.0
+DET_REACH_N_GE_100_ALIVE509,run_c4.py:L352,306
+SIR_WALL_SECONDS,run_c4.py:L377,227.1
+SIR_TRIALS_RUN,run_c4.py:L378,162240
+VALIDATION,run_c4.py:L383,"{'n_depth1_star_nodes_found': 3, 'A_beta0_all_R_equal_1_violations': 0, 'B_gamma1_all_R_equal_1_violations': 0, 'B_nodes_tested': 62, 'C_analytic_check': [{'node': 'bbs.ustc.edu.cn', 'outdeg': 3, 'beta': 0.3, 'gamma': 0.2, 'analytic_p_edge': 0.545455, 'mc_mean_R': 2.643, 'analytic_E_R': 2.6364, 'mc_se': 0.0191, 'abs_z': 0.347}, {'node': 'finance.ustc.edu.cn', 'outdeg': 6, 'beta': 0.3, 'gamma': 0.2, 'analytic_p_edge': 0.545455, 'mc_mean_R': 4.2858, 'analytic_E_R': 4.2727, 'mc_se': 0.0357, 'abs_z': 0.365}, {'node': 'scc.ustc.edu.cn', 'outdeg': 3, 'beta': 0.3, 'gamma': 0.2, 'analytic_p_edge': 0.545455, 'mc_mean_R': 2.679, 'analytic_E_R': 2.6364, 'mc_se': 0.0192, 'abs_z': 2.223}], 'C_max_abs_z': 2.223, 'C_all_within_3se': True, 'D_frac_alive_seeds_with_sd_gt0_b025': 0.6935, 'E_n_alive_seeds_with_outdeg0': 156, 'E_R_is_1_for_all_zero_outdeg_seeds': True, 'F_seed_entropies_unique': True}"
+N_ALIVE_SINKS,run_c4.py:L384,156
+C_MAX_ABS_Z,run_c4.py:L385,2.223
+N_STAR_ANALYTIC,run_c4.py:L386,3
+MAX_DEG_U_RECOMPUTED,run_c4.py:L395,119
+KCORE_MAX,run_c4.py:L396,11
+KCORE_SHELL_COUNTS,run_c4.py:L398,"{1: 187, 2: 106, 3: 90, 4: 63, 5: 49, 6: 41, 7: 23, 8: 29, 9: 16, 10: 27, 11: 45}"
+KCORE_N_AT_KMAX,run_c4.py:L399,45
+KCORE_N_AT_KMAX_MINUS_1,run_c4.py:L400,27
+MAX_OUT_DEGREE,run_c4.py:L401,95
+SIR_LONG_ROWS,run_c4.py:L429,8112
+SPLIT_HALF_RHO_MIN,run_c4.py:L449,0.4332
+SPLIT_HALF_RHO_MAX,run_c4.py:L450,0.928
+SPLIT_HALF_RHO_B06,run_c4.py:L451,0.8647
+SPLIT_HALF_TOP20_MIN,run_c4.py:L454,0.1
+SB_RHO_AT_20_B06,run_c4.py:L478,0.9363
+SB_RHO_AT_20_MIN,run_c4.py:L481,0.2288
+N_SPEARMAN_CELLS,run_c4.py:L518,216
+VERDICT_ROWS,run_c4.py:L553,6
+N_BETA_KCORE_BEATS_DEG,run_c4.py:L554,3
+BETAS_KCORE_BEATS_DEG,run_c4.py:L557,"[0.06, 0.12, 0.25]"
+N_BETA_TOP20_KCORE_BEATS_DEG,run_c4.py:L558,0
+BEST_PROXY_BY_BETA,run_c4.py:L560,"{0.01: 'out_degree', 0.03: 'out_degree', 0.06: 'out_degree', 0.12: 'out_degree', 0.25: 'out_degree', 0.5: 'out_degree'}"
+PARTIAL_KCORE_RANGE,run_c4.py:L561,"[-0.0508, 0.1567]"
+MID_BETA_USED,run_c4.py:L587,0.12
+TOP20_FIRST,run_c4.py:L611,fusep.ustc.edu.cn
+TOP20_NODES,run_c4.py:L612,"['fusep.ustc.edu.cn', 'ysjt.ustc.edu.cn', 'wpsearch.ustc.edu.cn', 'pnp.ustc.edu.cn', 'teach.ustc.edu.cn', 'enbiomed.ustc.edu.cn', 'etcis.ustc.edu.cn', 'business.ustc.edu.cn', 'sias.ustc.edu.cn', 'physics.ustc.edu.cn', 'zsb.ustc.edu.cn', 'cs.ustc.edu.cn', 'staff.ustc.edu.cn', 'en.sist.ustc.edu.cn', 'xxgk.ustc.edu.cn', 'bs.ustc.edu.cn', 'phys.ustc.edu.cn', 'applchem.ustc.edu.cn', 'snst.ustc.edu.cn', 'som.ustc.edu.cn']"
+TOP20_BY_PROXY,run_c4.py:L616,"{'kcore': ['eeis.ustc.edu.cn', 'employment.ustc.edu.cn', 'applchem.ustc.edu.cn', 'en.ustc.edu.cn', 'jgb.ustc.edu.cn', 'job.ustc.edu.cn', 'business.ustc.edu.cn', 'faculty.ustc.edu.cn', 'catalog.ustc.edu.cn', 'fusep.ustc.edu.cn', 'gradschool.ustc.edu.cn', 'lib.ustc.edu.cn', 'cs.ustc.edu.cn', 'hfnl.ustc.edu.cn', 'cybersec.ustc.edu.cn', 'hr.ustc.edu.cn', 'hsss.ustc.edu.cn', 'i.ustc.edu.cn', 'math.ustc.edu.cn', 'dsxt.ustc.edu.cn'], 'deg_u': ['sist.ustc.edu.cn', 'employment.ustc.edu.cn', 'yz.ustc.edu.cn', 'staff.ustc.edu.cn', 'zsb.ustc.edu.cn', 'news.ustc.edu.cn', 'en.ustc.edu.cn', 'enbiomed.ustc.edu.cn', 'teach.ustc.edu.cn', 'biox.ustc.edu.cn', 'faculty.ustc.edu.cn', 'physics.ustc.edu.cn', 'fusep.ustc.edu.cn', 'welcome.ustc.edu.cn', 'lib.ustc.edu.cn', 'gradschool.ustc.edu.cn', 'wpsearch.ustc.edu.cn', 'cs.ustc.edu.cn', 'hsss.ustc.edu.cn', 'dsxt.ustc.edu.cn'], 'bet_u': ['employment.ustc.edu.cn', 'staff.ustc.edu.cn', 'news.ustc.edu.cn', 'en.ustc.edu.cn', 'enbiomed.ustc.edu.cn', 'teach.ustc.edu.cn', 'biox.ustc.edu.cn', 'faculty.ustc.edu.cn', 'physics.ustc.edu.cn', 'ustcnet.ustc.edu.cn', 'cec.ustc.edu.cn', 'fusep.ustc.edu.cn', 'welcome.ustc.edu.cn', 'gradschool.ustc.edu.cn', 'lib.ustc.edu.cn', 'wpsearch.ustc.edu.cn', 'cs.ustc.edu.cn', 'lug.ustc.edu.cn', 'hsss.ustc.edu.cn', 'iat.ustc.edu.cn'], 'pr_dw': ['sklfs.ustc.edu.cn', 'email.ustc.edu.cn', 'employment.ustc.edu.cn', 'yz.ustc.edu.cn', 'som.ustc.edu.cn', 'staff.ustc.edu.cn', 'en.lib.ustc.edu.cn', 'en.lmmr.ustc.edu.cn', 'news.ustc.edu.cn', 'en.ustc.edu.cn', 'teach.ustc.edu.cn', 'opac.lib.ustc.edu.cn', 'bs.ustc.edu.cn', 'faculty.ustc.edu.cn', 'gradschool.ustc.edu.cn', 'wp.ustc.edu.cn', 'cs.ustc.edu.cn', 'lmmr.ustc.edu.cn', 'xcb.ustc.edu.cn', 'djyszw.ustc.edu.cn']}"
+CENSOR_RHO_KCORE_B06_509,run_c4.py:L633,0.7518
+CENSOR_RHO_KCORE_B06_671,run_c4.py:L635,0.7765
+CENSOR_RHO_DEGU_B06_509,run_c4.py:L637,0.7516
+CENSOR_RHO_DEGU_B06_671,run_c4.py:L639,0.7835
+VARIANT_CONCORDANCE_MIN,run_c4.py:L656,0.6283
+VARIANT_CONCORDANCE_MAX,run_c4.py:L657,0.856
+RATIO_W_OVER_U_RANGE,run_c4.py:L658,"[0.0425, 0.7982]"

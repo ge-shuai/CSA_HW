@@ -1,0 +1,35 @@
+# RUN.txt - written by run_e6.py
+command: cd <REMOTE_WORKDIR>/pipeline && PYTHONHASHSEED=0 ~/miniconda3/envs/csa/bin/python out/E6_backbone_resilience/run_e6.py
+seed: 20261113
+random replicates per checkpoint: 100
+bootstrap: 250 edges x 20000 multinomial draws
+networkx 3.6.1 provides no disparity_filter -> implemented in this file
+three closed forms compared for the disparity p-value:
+  A allocation_s_minus_w  = 1 - BinomCDF(w-1; s_i - w, w/s_i)
+  B paper_count_k_minus_2 = 1 - BinomCDF(w-1; k_i - 2, w/s_i)   [literal printed form;
+      degenerate for k_i=2: 0 trials => every link of a degree-2 node is significant]
+  C paper_closed_form     = (1 - w/s_i)^(k_i - 1)   [Serrano et al. 2009 eq.(4) after
+      evaluating the integral; this is the canonical implementation] <- MAIN
+main backbone: form=paper_closed_form alpha=0.05 correction=sidak_power -> 31 edges / 56 non-isolated nodes / 618 isolated / 25 components / largest 4
+NOTE the disparity backbone is NOT a connected network: it cannot be attacked the E1 way, so the E1-style curves are also run on the naive w>=10 skeleton (674 edges, 367 non-isolated nodes, largest component 333) as the usable comparator; the disparity census itself is the result for 'what happens if only significant edges are kept'.
+column definitions in backbone_survival_fragments.csv — the two component counts are NOT contradictory:
+  isolated_nodes = nodes with degree 0; in graph theory each is its own singleton component
+  comps_excl_isolated = components of the induced subgraph on NON-isolated nodes only; nonsingleton_comps == that same set (a degree>0 node can never be a singleton component), so both are the same count
+  singleton_comps_among_touched = singleton components inside that non-isolated subgraph, which is 0 by construction
+  singleton_comps_incl_isolated = isolated_nodes (each isolated node one component)
+  comps_incl_isolated = comps_excl_isolated + isolated_nodes
+revision history (why this file was rebuilt more than once):
+  run #1 (14:47-14:52): disparity filter only had forms A/B, MAIN=A -> 74 edges / 548 isolated / largest component 5; E1-style curves were degenerate on that graph.
+  run #2 (16:40-16:46): added form C (paper eq.(4) closed form) as MAIN, added the naive w>=10 comparator and the three-graph attack curves.
+  run #3 (this run): the census column named singleton_comps was ambiguous against isolated_nodes; split into singleton_comps_among_touched + singleton_comps_incl_isolated. No numeric result changed except those two columns.
+E_fixed denominators: full 453602 / disparity 3080 / naive 134322
+elapsed_s: 369.47
+versions: {'python': '3.12.15', 'networkx': '3.6.1', 'pandas': '3.0.2', 'numpy': '2.4.4', 'SEED': 20261113, 'PYTHONHASHSEED': '0'}
+stage | 00 build + anchors | wall_s=1.297
+stage | 01 disparity p-values (both closed forms) | wall_s=0.676
+stage | 02 survival grid: form x alpha x correction | wall_s=0.128
+stage | 03 bootstrap null: 250 edges x 20000 draws | wall_s=24.647
+stage | 04 overlap with the naive w>=10 skeleton | wall_s=0.012
+stage | 05 attack curves: full vs disparity backbone vs naive w>=10 skeleton | wall_s=257.72
+stage | 06 dynamic betweenness (SS6 robustness) | wall_s=57.453
+stage | 07 girvan_newman + algebraic connectivity on the naive w>=10 skeleton | wall_s=27.534

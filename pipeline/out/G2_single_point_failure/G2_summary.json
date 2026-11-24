@@ -1,0 +1,212 @@
+{
+  "unit": "G2_single_point_failure",
+  "seed": 20261113,
+  "graphs": {
+    "n_graph_nodes": 676,
+    "n_edges_u": 2498,
+    "gcc0": 674,
+    "n_components0": 2,
+    "comp_sizes0": [
+      674,
+      2
+    ],
+    "ps_pairs0": 453602,
+    "mech_pairs_per_removal": 1346
+  },
+  "baseline_efficiency": {
+    "E_full": 0.32951312315397197,
+    "E_gcc": 0.3314686401187768,
+    "E_fixed": 0.3314686401187292,
+    "E_fixed_fast_kernel": 0.3314686401189548
+  },
+  "timing": {
+    "baseline_scan_fast_s": 2.125,
+    "baseline_csa_eff_three_s": 12.14,
+    "articulation_points_s": 0.0265,
+    "cheap_ap_component_recompute_s": 2.391,
+    "cheap_infer_non_ap_s": 0.0,
+    "cheap_path_total_s": 2.418,
+    "naive_component_path_s": 10.745,
+    "connectivity_speedup_x": 4.44,
+    "connectivity_mismatch_nodes": 0,
+    "n_ap_recomputed": 96,
+    "fast_full_sweep_s": 702.67,
+    "per_node_fast_sweep_s": 1.0394,
+    "naive_efficiency_sweep_extrapolated_s": 8206.9,
+    "efficiency_speedup_x": 11.68,
+    "kernel_validation_s": 88.43,
+    "total_wall_s": 833.83,
+    "n_removals_computed": 676,
+    "quick_mode": false
+  },
+  "counts": {
+    "n_ap": 96,
+    "n_above_pairs_threshold": 96,
+    "n_above_relay_threshold": 130,
+    "n_above_either": 130,
+    "n_zero_disconnect": 580,
+    "n_zero_relay": 401,
+    "n_zero_all": 401,
+    "n_leaf": 186,
+    "n_indeg1": 261,
+    "n_leaf_disconnect": 0,
+    "leaf_pairs_max": 0,
+    "leaf_relay_max_abs": 0.0,
+    "leaf_dE_fixed_worst": -0.001020057230788224,
+    "n_high_impact": 130,
+    "n_healthy_high": 86,
+    "n_partial_high": 43,
+    "n_dead_high": 1,
+    "n_false_fail_high": 1,
+    "n_main_universe": 671,
+    "n_dangling": 5,
+    "n_outside_gcc": 2,
+    "total_pairs_lost": 249440,
+    "total_extra_gcc": 186,
+    "total_relay": 0.20011514184555737,
+    "total_endpoint_mech": 0.6629372802379093
+  },
+  "audit": {
+    "n_dE_fixed_positive": 0,
+    "n_dE_fixed_positive_naive_accum_reference": 2,
+    "max_naive_positive": 2.2604140781368187e-13,
+    "non_ps_members": 2,
+    "max_abs_dE_fixed_non_ps": 0.0,
+    "n_dE_full_positive": 351,
+    "n_dE_full_positive_among_disconnecting": 0,
+    "n_dE_gcc_positive": 405,
+    "n_dE_gcc_positive_among_disconnecting": 50,
+    "mech_endpoint_share_range": [
+      0.10481262119608203,
+      1.0
+    ],
+    "kernel_max_abs_diff_vs_csa_eff_three": 2.6040281042583047e-13,
+    "kernel_nodes_checked": 12
+  },
+  "concentration": {
+    "gini_pairs_lost": 0.912453932311336,
+    "gini_relay": 0.901987709724362,
+    "gini_dE_fixed_total": 0.2758401268540757,
+    "gini_endpoint_mech": 0.0930708476714231,
+    "pearson_pairs_vs_dE_fixed": -0.9308788642033118,
+    "spearman_pairs_vs_dE_fixed": -0.5979200100598264,
+    "table": [
+      {
+        "top_k": 1,
+        "sum_relay_top_k": 0.01222,
+        "total_relay_all": 0.200115,
+        "share_relay_pct": 6.11,
+        "sum_pairs_top_k": 14672,
+        "total_pairs_all": 249440,
+        "share_pairs_pct": 5.88,
+        "sum_extra_gcc_top_k": 11,
+        "total_extra_gcc_all": 186,
+        "share_extra_gcc_pct": 5.91,
+        "share_mech_endpoint_pct": 0.22
+      },
+      {
+        "top_k": 3,
+        "sum_relay_top_k": 0.032458,
+        "total_relay_all": 0.200115,
+        "share_relay_pct": 16.22,
+        "sum_pairs_top_k": 40046,
+        "total_pairs_all": 249440,
+        "share_pairs_pct": 16.05,
+        "sum_extra_gcc_top_k": 30,
+        "total_extra_gcc_all": 186,
+        "share_extra_gcc_pct": 16.13,
+        "share_mech_endpoint_pct": 0.64
+      },
+      {
+        "top_k": 5,
+        "sum_relay_top_k": 0.04579,
+        "total_relay_all": 0.200115,
+        "share_relay_pct": 22.88,
+        "sum_pairs_top_k": 61436,
+        "total_pairs_all": 249440,
+        "share_pairs_pct": 24.63,
+        "sum_extra_gcc_top_k": 46,
+        "total_extra_gcc_all": 186,
+        "share_extra_gcc_pct": 24.73,
+        "share_mech_endpoint_pct": 0.99
+      },
+      {
+        "top_k": 10,
+        "sum_relay_top_k": 0.072359,
+        "total_relay_all": 0.200115,
+        "share_relay_pct": 36.16,
+        "sum_pairs_top_k": 92264,
+        "total_pairs_all": 249440,
+        "share_pairs_pct": 36.99,
+        "sum_extra_gcc_top_k": 69,
+        "total_extra_gcc_all": 186,
+        "share_extra_gcc_pct": 37.1,
+        "share_mech_endpoint_pct": 1.94
+      },
+      {
+        "top_k": 20,
+        "sum_relay_top_k": 0.097342,
+        "total_relay_all": 0.200115,
+        "share_relay_pct": 48.64,
+        "sum_pairs_top_k": 125824,
+        "total_pairs_all": 249440,
+        "share_pairs_pct": 50.44,
+        "sum_extra_gcc_top_k": 94,
+        "total_extra_gcc_all": 186,
+        "share_extra_gcc_pct": 50.54,
+        "share_mech_endpoint_pct": 3.77
+      },
+      {
+        "top_k": 50,
+        "sum_relay_top_k": 0.14478,
+        "total_relay_all": 0.200115,
+        "share_relay_pct": 72.35,
+        "sum_pairs_top_k": 187616,
+        "total_pairs_all": 249440,
+        "share_pairs_pct": 75.21,
+        "sum_extra_gcc_top_k": 140,
+        "total_extra_gcc_all": 186,
+        "share_extra_gcc_pct": 75.27,
+        "share_mech_endpoint_pct": 9.17
+      },
+      {
+        "top_k": 100,
+        "sum_relay_top_k": 0.189039,
+        "total_relay_all": 0.200115,
+        "share_relay_pct": 94.47,
+        "sum_pairs_top_k": 249440,
+        "total_pairs_all": 249440,
+        "share_pairs_pct": 100.0,
+        "sum_extra_gcc_top_k": 186,
+        "total_extra_gcc_all": 186,
+        "share_extra_gcc_pct": 100.0,
+        "share_mech_endpoint_pct": 17.54
+      },
+      {
+        "top_k": 200,
+        "sum_relay_top_k": 0.1998,
+        "total_relay_all": 0.200115,
+        "share_relay_pct": 99.84,
+        "sum_pairs_top_k": 249440,
+        "total_pairs_all": 249440,
+        "share_pairs_pct": 100.0,
+        "sum_extra_gcc_top_k": 186,
+        "total_extra_gcc_all": 186,
+        "share_extra_gcc_pct": 100.0,
+        "share_mech_endpoint_pct": 34.28
+      }
+    ]
+  },
+  "thresholds": {
+    "pairs_lost_gt": 0,
+    "relay_lt": -0.0001
+  },
+  "versions": {
+    "python": "3.12.13",
+    "networkx": "3.6.1",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "SEED": 20261113,
+    "PYTHONHASHSEED": "0"
+  }
+}

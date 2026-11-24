@@ -1,0 +1,866 @@
+﻿block,metric,node_set,model,n_inst,mean,sd,min,median,max,obs_value,obs_over_mean,z_of_obs,p_two_sided,note
+A_observed,L,gcc674,observed_gcc674,1,3.270241,,3.270241,3.270241,3.270241,3.270241,1.0,,,主口径：GCC 诱导、无权无向；L/直径在该图自身最大分量上
+A_observed,diameter,gcc674,observed_gcc674,1,7.0,,7.0,7.0,7.0,7.0,1.0,,,主口径：GCC 诱导、无权无向；L/直径在该图自身最大分量上
+A_observed,C_lcc,gcc674,observed_gcc674,1,0.278777,,0.278777,0.278777,0.278777,0.278777,1.0,,,主口径：GCC 诱导、无权无向
+A_observed,C_all,gcc674,observed_gcc674,1,0.278777,,0.278777,0.278777,0.278777,0.278777,1.0,,,主口径：GCC 诱导、无权无向
+A_observed,transitivity,gcc674,observed_gcc674,1,0.123604,,0.123604,0.123604,0.123604,0.123604,1.0,,,主口径：GCC 诱导、无权无向
+A_observed,assortativity,gcc674,observed_gcc674,1,-0.167874,,-0.167874,-0.167874,-0.167874,-0.167874,1.0,,,主口径：GCC 诱导、无权无向
+A_observed,kavg,gcc674,observed_gcc674,1,7.409496,,7.409496,7.409496,7.409496,7.409496,1.0,,,主口径：GCC 诱导、无权无向
+A_observed,kmax,gcc674,observed_gcc674,1,119.0,,119.0,119.0,119.0,119.0,1.0,,,主口径：GCC 诱导、无权无向
+A_observed,m,gcc674,observed_gcc674,1,2497.0,,2497.0,2497.0,2497.0,2497.0,1.0,,,主口径：GCC 诱导、无权无向
+A_observed,n,gcc674,observed_gcc674,1,674.0,,674.0,674.0,674.0,674.0,1.0,,,主口径：GCC 诱导、无权无向
+A_observed,lcc_frac,gcc674,observed_gcc674,1,1.0,,1.0,1.0,1.0,1.0,1.0,,,主口径：GCC 诱导、无权无向
+A_observed,L,gu676,observed_gu676,1,3.270241,,3.270241,3.270241,3.270241,3.270241,1.0,,,CONVENTIONS 锚点口径（含 5 悬空 + 2 点分量）；L/直径在该图自身最大分量上
+A_observed,diameter,gu676,observed_gu676,1,7.0,,7.0,7.0,7.0,7.0,1.0,,,CONVENTIONS 锚点口径（含 5 悬空 + 2 点分量）；L/直径在该图自身最大分量上
+A_observed,C_lcc,gu676,observed_gu676,1,0.278777,,0.278777,0.278777,0.278777,0.278777,1.0,,,CONVENTIONS 锚点口径（含 5 悬空 + 2 点分量）
+A_observed,C_all,gu676,observed_gu676,1,0.277952,,0.277952,0.277952,0.277952,0.277952,1.0,,,CONVENTIONS 锚点口径（含 5 悬空 + 2 点分量）
+A_observed,transitivity,gu676,observed_gu676,1,0.123604,,0.123604,0.123604,0.123604,0.123604,1.0,,,CONVENTIONS 锚点口径（含 5 悬空 + 2 点分量）
+A_observed,assortativity,gu676,observed_gu676,1,-0.167448,,-0.167448,-0.167448,-0.167448,-0.167448,1.0,,,CONVENTIONS 锚点口径（含 5 悬空 + 2 点分量）
+A_observed,kavg,gu676,observed_gu676,1,7.390533,,7.390533,7.390533,7.390533,7.390533,1.0,,,CONVENTIONS 锚点口径（含 5 悬空 + 2 点分量）
+A_observed,kmax,gu676,observed_gu676,1,119.0,,119.0,119.0,119.0,119.0,1.0,,,CONVENTIONS 锚点口径（含 5 悬空 + 2 点分量）
+A_observed,m,gu676,observed_gu676,1,2498.0,,2498.0,2498.0,2498.0,2498.0,1.0,,,CONVENTIONS 锚点口径（含 5 悬空 + 2 点分量）
+A_observed,n,gu676,observed_gu676,1,676.0,,676.0,676.0,676.0,676.0,1.0,,,CONVENTIONS 锚点口径（含 5 悬空 + 2 点分量）
+A_observed,lcc_frac,gu676,observed_gu676,1,0.997041,,0.997041,0.997041,0.997041,0.997041,1.0,,,CONVENTIONS 锚点口径（含 5 悬空 + 2 点分量）
+A_observed,L,gu671,observed_gu671,1,3.265268,,3.265268,3.265268,3.265268,3.265268,1.0,,,有属性节点口径；L/直径在该图自身最大分量上
+A_observed,diameter,gu671,observed_gu671,1,7.0,,7.0,7.0,7.0,7.0,1.0,,,有属性节点口径；L/直径在该图自身最大分量上
+A_observed,C_lcc,gu671,observed_gu671,1,0.280939,,0.280939,0.280939,0.280939,0.280939,1.0,,,有属性节点口径
+A_observed,C_all,gu671,observed_gu671,1,0.280101,,0.280101,0.280101,0.280101,0.280101,1.0,,,有属性节点口径
+A_observed,transitivity,gu671,observed_gu671,1,0.123944,,0.123944,0.123944,0.123944,0.123944,1.0,,,有属性节点口径
+A_observed,assortativity,gu671,observed_gu671,1,-0.166767,,-0.166767,-0.166767,-0.166767,-0.166767,1.0,,,有属性节点口径
+A_observed,kavg,gu671,observed_gu671,1,7.4307,,7.4307,7.4307,7.4307,7.4307,1.0,,,有属性节点口径
+A_observed,kmax,gu671,observed_gu671,1,119.0,,119.0,119.0,119.0,119.0,1.0,,,有属性节点口径
+A_observed,m,gu671,observed_gu671,1,2493.0,,2493.0,2493.0,2493.0,2493.0,1.0,,,有属性节点口径
+A_observed,n,gu671,observed_gu671,1,671.0,,671.0,671.0,671.0,671.0,1.0,,,有属性节点口径
+A_observed,lcc_frac,gu671,observed_gu671,1,0.997019,,0.997019,0.997019,0.997019,0.997019,1.0,,,有属性节点口径
+models,kavg,synthetic_n674_lcc,ER_gnp,100,7.360623,0.129426,6.928783,7.373887,7.682493,7.409496,1.00664,0.3776,0.76,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,kmax,synthetic_n674_lcc,ER_gnp,100,17.2,1.510903,15.0,17.0,22.0,119.0,6.918605,67.3769,0.0,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,sum_deg2,synthetic_n674_lcc,ER_gnp,100,41418.22,1369.362866,37306.0,41596.0,44882.0,135330.0,3.267403,68.5806,0.0,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,m,synthetic_n674_lcc,ER_gnp,100,2480.53,43.616431,2335.0,2485.0,2589.0,2497.0,1.00664,0.3776,0.76,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,lcc_frac,synthetic_n674_lcc,ER_gnp,100,0.999332,0.001103,0.995549,1.0,1.0,1.0,1.000668,0.6051,1.0,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,ncomp,synthetic_n674_lcc,ER_gnp,100,1.44,0.729189,1.0,1.0,4.0,1.0,0.694444,-0.6034,1.0,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,L,synthetic_n674_lcc,ER_gnp,100,3.485884,0.026829,3.420144,3.484847,3.577009,3.270241,0.938138,-8.0378,0.0,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,diameter,synthetic_n674_lcc,ER_gnp,100,6.26,0.440844,6.0,6.0,7.0,7.0,1.118211,1.6786,0.26,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,C_lcc,synthetic_n674_lcc,ER_gnp,100,0.010745,0.001517,0.007295,0.010945,0.01415,0.278777,25.945026,176.7174,0.0,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,C_all,synthetic_n674_lcc,ER_gnp,100,0.010738,0.001516,0.007295,0.010913,0.01415,0.278777,25.962346,176.8341,0.0,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,transitivity,synthetic_n674_lcc,ER_gnp,100,0.010788,0.001384,0.007767,0.010791,0.013546,0.123604,11.457899,81.4932,0.0,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,triangles,synthetic_n674_lcc,ER_gnp,100,65.59,8.993932,47.0,66.0,84.0,2685.0,40.936118,291.2419,0.0,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,assortativity,synthetic_n674_lcc,ER_gnp,100,-0.003812,0.020453,-0.048059,-0.003208,0.040603,-0.167874,44.041714,-8.0215,0.0,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,overlap_obs,synthetic_n674_lcc,ER_gnp,100,0.0,0.0,0.0,0.0,0.0,,,,,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,gamma,synthetic_n674_lcc,ER_gnp,100,26.489052,3.945914,19.700889,25.471407,38.213491,,,,,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,gamma_all,synthetic_n674_lcc,ER_gnp,100,26.506806,3.948836,19.700889,25.547027,38.213491,,,,,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,lambda,synthetic_n674_lcc,ER_gnp,100,0.938193,0.0072,0.914239,0.938418,0.956171,,,,,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,sigma,synthetic_n674_lcc,ER_gnp,100,28.24251,4.25804,21.12549,27.085543,40.566291,,,,,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,sigma_all,synthetic_n674_lcc,ER_gnp,100,28.26147,4.261396,21.12549,27.166193,40.566291,,,,,p=k/(n-1)=0.011010；L/C 在实例自身最大分量
+models,kavg,synthetic_n674_lcc,ER_gnm,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,固定 m=2497；L/C 在实例自身最大分量
+models,kmax,synthetic_n674_lcc,ER_gnm,100,17.19,1.548509,15.0,17.0,24.0,119.0,6.922629,65.7471,0.0,固定 m=2497；L/C 在实例自身最大分量
+models,sum_deg2,synthetic_n674_lcc,ER_gnm,100,41963.9,324.642383,41162.0,41929.0,42852.0,135330.0,3.224915,287.5968,0.0,固定 m=2497；L/C 在实例自身最大分量
+models,m,synthetic_n674_lcc,ER_gnm,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,固定 m=2497；L/C 在实例自身最大分量
+models,lcc_frac,synthetic_n674_lcc,ER_gnm,100,0.999436,0.000889,0.997033,1.0,1.0,1.0,1.000564,0.634,1.0,固定 m=2497；L/C 在实例自身最大分量
+models,ncomp,synthetic_n674_lcc,ER_gnm,100,1.38,0.599326,1.0,1.0,3.0,1.0,0.724638,-0.634,1.0,固定 m=2497；L/C 在实例自身最大分量
+models,L,synthetic_n674_lcc,ER_gnm,100,3.475409,0.005043,3.462445,3.475457,3.486074,3.270241,0.940966,-40.6862,0.0,固定 m=2497；L/C 在实例自身最大分量
+models,diameter,synthetic_n674_lcc,ER_gnm,100,6.27,0.468287,6.0,6.0,8.0,7.0,1.116427,1.5589,0.26,固定 m=2497；L/C 在实例自身最大分量
+models,C_lcc,synthetic_n674_lcc,ER_gnm,100,0.010894,0.00147,0.007865,0.010857,0.014959,0.278777,25.59067,182.2311,0.0,固定 m=2497；L/C 在实例自身最大分量
+models,C_all,synthetic_n674_lcc,ER_gnm,100,0.010887,0.001469,0.007865,0.010848,0.014959,0.278777,25.605294,182.3729,0.0,固定 m=2497；L/C 在实例自身最大分量
+models,transitivity,synthetic_n674_lcc,ER_gnm,100,0.010887,0.001259,0.007882,0.010935,0.014422,0.123604,11.35282,89.4947,0.0,固定 m=2497；L/C 在实例自身最大分量
+models,triangles,synthetic_n674_lcc,ER_gnm,100,67.1,7.923243,48.0,67.0,90.0,2685.0,40.014903,330.4076,0.0,固定 m=2497；L/C 在实例自身最大分量
+models,assortativity,synthetic_n674_lcc,ER_gnm,100,-0.002796,0.018893,-0.043938,-0.003661,0.062534,-0.167874,60.05054,-8.7377,0.0,固定 m=2497；L/C 在实例自身最大分量
+models,overlap_obs,synthetic_n674_lcc,ER_gnm,100,0.0,0.0,0.0,0.0,0.0,,,,,固定 m=2497；L/C 在实例自身最大分量
+models,gamma,synthetic_n674_lcc,ER_gnm,100,26.048225,3.4776,18.635885,25.678705,35.444169,,,,,固定 m=2497；L/C 在实例自身最大分量
+models,gamma_all,synthetic_n674_lcc,ER_gnm,100,26.062659,3.476847,18.635885,25.697694,35.444169,,,,,固定 m=2497；L/C 在实例自身最大分量
+models,lambda,synthetic_n674_lcc,ER_gnm,100,0.940968,0.001366,0.938087,0.940953,0.944489,,,,,固定 m=2497；L/C 在实例自身最大分量
+models,sigma,synthetic_n674_lcc,ER_gnm,100,27.682474,3.697442,19.794827,27.338117,37.730449,,,,,固定 m=2497；L/C 在实例自身最大分量
+models,sigma_all,synthetic_n674_lcc,ER_gnm,100,27.6978,3.696533,19.794827,27.338117,37.730449,,,,,固定 m=2497；L/C 在实例自身最大分量
+models,kavg,synthetic_n674_lcc,WS_k6_p0,100,6.0,0.0,6.0,6.0,6.0,7.409496,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,kmax,synthetic_n674_lcc,WS_k6_p0,100,6.0,0.0,6.0,6.0,6.0,119.0,19.833333,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,sum_deg2,synthetic_n674_lcc,WS_k6_p0,100,24264.0,0.0,24264.0,24264.0,24264.0,135330.0,5.577399,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,m,synthetic_n674_lcc,WS_k6_p0,100,2022.0,0.0,2022.0,2022.0,2022.0,2497.0,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,lcc_frac,synthetic_n674_lcc,WS_k6_p0,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,ncomp,synthetic_n674_lcc,WS_k6_p0,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,L,synthetic_n674_lcc,WS_k6_p0,100,56.583952,0.0,56.583952,56.583952,56.583952,3.270241,0.057795,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,diameter,synthetic_n674_lcc,WS_k6_p0,100,113.0,0.0,113.0,113.0,113.0,7.0,0.061947,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,C_lcc,synthetic_n674_lcc,WS_k6_p0,100,0.6,0.0,0.6,0.6,0.6,0.278777,0.464628,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,C_all,synthetic_n674_lcc,WS_k6_p0,100,0.6,0.0,0.6,0.6,0.6,0.278777,0.464628,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,transitivity,synthetic_n674_lcc,WS_k6_p0,100,0.6,0.0,0.6,0.6,0.6,0.123604,0.206006,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,triangles,synthetic_n674_lcc,WS_k6_p0,100,2022.0,0.0,2022.0,2022.0,2022.0,2685.0,1.327893,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,overlap_obs,synthetic_n674_lcc,WS_k6_p0,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,gamma,synthetic_n674_lcc,WS_k6_p0,100,0.464628,0.0,0.464628,0.464628,0.464628,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,gamma_all,synthetic_n674_lcc,WS_k6_p0,100,0.464628,0.0,0.464628,0.464628,0.464628,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,lambda,synthetic_n674_lcc,WS_k6_p0,100,0.057795,0.0,0.057795,0.057795,0.057795,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,sigma,synthetic_n674_lcc,WS_k6_p0,100,8.039305,0.0,8.039305,8.039305,8.039305,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,sigma_all,synthetic_n674_lcc,WS_k6_p0,100,8.039305,0.0,8.039305,8.039305,8.039305,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,kavg,synthetic_n674_lcc,WS_k6_p0.01,100,6.0,0.0,6.0,6.0,6.0,7.409496,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,kmax,synthetic_n674_lcc,WS_k6_p0.01,100,7.26,0.440844,7.0,7.0,8.0,119.0,16.391185,253.4683,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,sum_deg2,synthetic_n674_lcc,WS_k6_p0.01,100,24305.2,10.563899,24282.0,24304.0,24332.0,135330.0,5.567944,10509.8318,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,m,synthetic_n674_lcc,WS_k6_p0.01,100,2022.0,0.0,2022.0,2022.0,2022.0,2497.0,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,lcc_frac,synthetic_n674_lcc,WS_k6_p0.01,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,ncomp,synthetic_n674_lcc,WS_k6_p0.01,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,L,synthetic_n674_lcc,WS_k6_p0.01,100,14.716626,2.0455,11.190806,14.404037,21.471449,3.270241,0.222214,-5.5959,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,diameter,synthetic_n674_lcc,WS_k6_p0.01,100,34.61,6.458719,23.0,35.0,50.0,7.0,0.202254,-4.2748,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,C_lcc,synthetic_n674_lcc,WS_k6_p0.01,100,0.582717,0.004625,0.569913,0.582964,0.592108,0.278777,0.478408,-65.7198,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,C_all,synthetic_n674_lcc,WS_k6_p0.01,100,0.582717,0.004625,0.569913,0.582964,0.592108,0.278777,0.478408,-65.7198,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,transitivity,synthetic_n674_lcc,WS_k6_p0.01,100,0.580709,0.005067,0.566936,0.581046,0.591165,0.123604,0.212849,-90.2061,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,triangles,synthetic_n674_lcc,WS_k6_p0.01,100,1960.97,16.146085,1917.0,1962.0,1994.0,2685.0,1.36922,44.8424,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,assortativity,synthetic_n674_lcc,WS_k6_p0.01,100,-0.001797,0.021901,-0.050902,-0.001425,0.05462,-0.167874,93.437917,-7.5833,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,overlap_obs,synthetic_n674_lcc,WS_k6_p0.01,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,gamma,synthetic_n674_lcc,WS_k6_p0.01,100,0.478438,0.003807,0.47082,0.478205,0.489156,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,gamma_all,synthetic_n674_lcc,WS_k6_p0.01,100,0.478438,0.003807,0.47082,0.478205,0.489156,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,lambda,synthetic_n674_lcc,WS_k6_p0.01,100,0.226333,0.030371,0.152307,0.227038,0.292226,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,sigma,synthetic_n674_lcc,WS_k6_p0.01,100,2.150985,0.283684,1.672903,2.098243,3.091268,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,sigma_all,synthetic_n674_lcc,WS_k6_p0.01,100,2.150985,0.283684,1.672903,2.098243,3.091268,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,kavg,synthetic_n674_lcc,WS_k6_p0.02,100,6.0,0.0,6.0,6.0,6.0,7.409496,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,kmax,synthetic_n674_lcc,WS_k6_p0.02,100,7.69,0.506423,7.0,8.0,9.0,119.0,15.474642,219.7963,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,sum_deg2,synthetic_n674_lcc,WS_k6_p0.02,100,24343.36,11.959122,24312.0,24343.0,24374.0,135330.0,5.559216,9280.5005,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,m,synthetic_n674_lcc,WS_k6_p0.02,100,2022.0,0.0,2022.0,2022.0,2022.0,2497.0,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,lcc_frac,synthetic_n674_lcc,WS_k6_p0.02,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,ncomp,synthetic_n674_lcc,WS_k6_p0.02,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,L,synthetic_n674_lcc,WS_k6_p0.02,100,10.495151,0.801321,9.15626,10.514749,13.15507,3.270241,0.311595,-9.0162,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,diameter,synthetic_n674_lcc,WS_k6_p0.02,100,23.2,2.678006,18.0,23.0,33.0,7.0,0.301724,-6.0493,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,C_lcc,synthetic_n674_lcc,WS_k6_p0.02,100,0.566489,0.005077,0.555377,0.56685,0.580196,0.278777,0.492113,-56.6725,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,C_all,synthetic_n674_lcc,WS_k6_p0.02,100,0.566489,0.005077,0.555377,0.56685,0.580196,0.278777,0.492113,-56.6725,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,transitivity,synthetic_n674_lcc,WS_k6_p0.02,100,0.562726,0.005511,0.550418,0.562805,0.578153,0.123604,0.219651,-79.6761,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,triangles,synthetic_n674_lcc,WS_k6_p0.02,100,1903.82,17.644858,1865.0,1905.0,1953.0,2685.0,1.410322,44.2724,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,assortativity,synthetic_n674_lcc,WS_k6_p0.02,100,-0.003194,0.020981,-0.061834,-0.002769,0.040887,-0.167874,52.562823,-7.8492,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,overlap_obs,synthetic_n674_lcc,WS_k6_p0.02,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,gamma,synthetic_n674_lcc,WS_k6_p0.02,100,0.492152,0.004408,0.480487,0.491799,0.50196,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,gamma_all,synthetic_n674_lcc,WS_k6_p0.02,100,0.492152,0.004408,0.480487,0.491799,0.50196,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,lambda,synthetic_n674_lcc,WS_k6_p0.02,100,0.313321,0.022952,0.248592,0.311015,0.357159,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,sigma,synthetic_n674_lcc,WS_k6_p0.02,100,1.578534,0.10811,1.396946,1.580886,1.932834,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,sigma_all,synthetic_n674_lcc,WS_k6_p0.02,100,1.578534,0.10811,1.396946,1.580886,1.932834,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,kavg,synthetic_n674_lcc,WS_k6_p0.05,100,6.0,0.0,6.0,6.0,6.0,7.409496,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,kmax,synthetic_n674_lcc,WS_k6_p0.05,100,8.29,0.456048,8.0,8.0,9.0,119.0,14.354644,242.7595,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,sum_deg2,synthetic_n674_lcc,WS_k6_p0.05,100,24461.06,21.055876,24414.0,24459.0,24514.0,135330.0,5.532467,5265.4633,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,m,synthetic_n674_lcc,WS_k6_p0.05,100,2022.0,0.0,2022.0,2022.0,2022.0,2497.0,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,lcc_frac,synthetic_n674_lcc,WS_k6_p0.05,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,ncomp,synthetic_n674_lcc,WS_k6_p0.05,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,L,synthetic_n674_lcc,WS_k6_p0.05,100,7.212139,0.276308,6.62699,7.193269,7.890909,3.270241,0.453436,-14.2663,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,diameter,synthetic_n674_lcc,WS_k6_p0.05,100,14.29,1.047315,12.0,14.0,18.0,7.0,0.489853,-6.9607,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,C_lcc,synthetic_n674_lcc,WS_k6_p0.05,100,0.517925,0.008969,0.495323,0.51853,0.535527,0.278777,0.538257,-26.6625,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,C_all,synthetic_n674_lcc,WS_k6_p0.05,100,0.517925,0.008969,0.495323,0.51853,0.535527,0.278777,0.538257,-26.6625,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,transitivity,synthetic_n674_lcc,WS_k6_p0.05,100,0.509588,0.009245,0.488024,0.510119,0.527317,0.123604,0.242556,-41.7521,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,triangles,synthetic_n674_lcc,WS_k6_p0.05,100,1734.02,29.964956,1664.0,1735.0,1792.0,2685.0,1.548425,31.7364,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,assortativity,synthetic_n674_lcc,WS_k6_p0.05,100,-0.005838,0.020902,-0.056052,-0.004975,0.03776,-0.167874,28.753495,-7.7522,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,overlap_obs,synthetic_n674_lcc,WS_k6_p0.05,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,gamma,synthetic_n674_lcc,WS_k6_p0.05,100,0.538417,0.009365,0.520565,0.537629,0.562818,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,gamma_all,synthetic_n674_lcc,WS_k6_p0.05,100,0.538417,0.009365,0.520565,0.537629,0.562818,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,lambda,synthetic_n674_lcc,WS_k6_p0.05,100,0.454091,0.0173,0.414432,0.454625,0.493473,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,sigma,synthetic_n674_lcc,WS_k6_p0.05,100,1.186711,0.028195,1.13123,1.181315,1.263411,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,sigma_all,synthetic_n674_lcc,WS_k6_p0.05,100,1.186711,0.028195,1.13123,1.181315,1.263411,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,kavg,synthetic_n674_lcc,WS_k6_p0.1,100,6.0,0.0,6.0,6.0,6.0,7.409496,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,kmax,synthetic_n674_lcc,WS_k6_p0.1,100,8.9,0.627646,8.0,9.0,10.0,119.0,13.370787,175.4174,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,sum_deg2,synthetic_n674_lcc,WS_k6_p0.1,100,24645.38,35.42948,24560.0,24646.0,24768.0,135330.0,5.49109,3124.0825,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,m,synthetic_n674_lcc,WS_k6_p0.1,100,2022.0,0.0,2022.0,2022.0,2022.0,2497.0,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,lcc_frac,synthetic_n674_lcc,WS_k6_p0.1,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,ncomp,synthetic_n674_lcc,WS_k6_p0.1,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,L,synthetic_n674_lcc,WS_k6_p0.1,100,5.728927,0.130245,5.422485,5.715687,6.157032,3.270241,0.57083,-18.8774,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,diameter,synthetic_n674_lcc,WS_k6_p0.1,100,10.46,0.65782,10.0,10.0,13.0,7.0,0.669216,-5.2598,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,C_lcc,synthetic_n674_lcc,WS_k6_p0.1,100,0.442321,0.010784,0.41661,0.442242,0.467053,0.278777,0.630258,-15.1655,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,C_all,synthetic_n674_lcc,WS_k6_p0.1,100,0.442321,0.010784,0.41661,0.442242,0.467053,0.278777,0.630258,-15.1655,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,transitivity,synthetic_n674_lcc,WS_k6_p0.1,100,0.428698,0.011189,0.401897,0.428883,0.454864,0.123604,0.288323,-27.2667,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,triangles,synthetic_n674_lcc,WS_k6_p0.1,100,1471.91,36.414309,1384.0,1472.0,1557.0,2685.0,1.82416,33.3136,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,assortativity,synthetic_n674_lcc,WS_k6_p0.1,100,-0.017162,0.022211,-0.062774,-0.020497,0.047152,-0.167874,9.781477,-6.7854,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,overlap_obs,synthetic_n674_lcc,WS_k6_p0.1,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,gamma,synthetic_n674_lcc,WS_k6_p0.1,100,0.630633,0.015509,0.596884,0.630371,0.669155,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,gamma_all,synthetic_n674_lcc,WS_k6_p0.1,100,0.630633,0.015509,0.596884,0.630371,0.669155,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,lambda,synthetic_n674_lcc,WS_k6_p0.1,100,0.57112,0.012915,0.531139,0.572152,0.603089,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,sigma,synthetic_n674_lcc,WS_k6_p0.1,100,1.104217,0.011762,1.075862,1.10407,1.139725,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,sigma_all,synthetic_n674_lcc,WS_k6_p0.1,100,1.104217,0.011762,1.075862,1.10407,1.139725,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,kavg,synthetic_n674_lcc,WS_k6_p0.2,100,6.0,0.0,6.0,6.0,6.0,7.409496,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,kmax,synthetic_n674_lcc,WS_k6_p0.2,100,9.94,0.72223,9.0,10.0,12.0,119.0,11.971831,151.0045,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,sum_deg2,synthetic_n674_lcc,WS_k6_p0.2,100,24994.74,47.868216,24880.0,24986.0,25114.0,135330.0,5.414339,2304.9796,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,m,synthetic_n674_lcc,WS_k6_p0.2,100,2022.0,0.0,2022.0,2022.0,2022.0,2497.0,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,lcc_frac,synthetic_n674_lcc,WS_k6_p0.2,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,ncomp,synthetic_n674_lcc,WS_k6_p0.2,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,L,synthetic_n674_lcc,WS_k6_p0.2,100,4.771788,0.053923,4.664785,4.773328,4.8859,3.270241,0.685328,-27.8462,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,diameter,synthetic_n674_lcc,WS_k6_p0.2,100,8.15,0.35887,8.0,8.0,9.0,7.0,0.858896,-3.2045,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,C_lcc,synthetic_n674_lcc,WS_k6_p0.2,100,0.316315,0.010713,0.296069,0.316855,0.342034,0.278777,0.881327,-3.5041,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,C_all,synthetic_n674_lcc,WS_k6_p0.2,100,0.316315,0.010713,0.296069,0.316855,0.342034,0.278777,0.881327,-3.5041,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,transitivity,synthetic_n674_lcc,WS_k6_p0.2,100,0.298263,0.010827,0.277397,0.297811,0.322667,0.123604,0.414411,-16.1314,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,triangles,synthetic_n674_lcc,WS_k6_p0.2,100,1041.43,36.643313,970.0,1042.0,1126.0,2685.0,2.578186,44.8532,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,assortativity,synthetic_n674_lcc,WS_k6_p0.2,100,-0.032438,0.022494,-0.092938,-0.035613,0.017747,-0.167874,5.175178,-6.021,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,overlap_obs,synthetic_n674_lcc,WS_k6_p0.2,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,gamma,synthetic_n674_lcc,WS_k6_p0.2,100,0.882324,0.029746,0.815055,0.879824,0.941592,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,gamma_all,synthetic_n674_lcc,WS_k6_p0.2,100,0.882324,0.029746,0.815055,0.879824,0.941592,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,lambda,synthetic_n674_lcc,WS_k6_p0.2,100,0.685415,0.007742,0.669322,0.685107,0.701049,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,sigma,synthetic_n674_lcc,WS_k6_p0.2,100,1.287017,0.031337,1.215167,1.286781,1.358175,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,sigma_all,synthetic_n674_lcc,WS_k6_p0.2,100,1.287017,0.031337,1.215167,1.286781,1.358175,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,kavg,synthetic_n674_lcc,WS_k6_p0.5,100,6.0,0.0,6.0,6.0,6.0,7.409496,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,kmax,synthetic_n674_lcc,WS_k6_p0.5,100,11.53,0.822106,10.0,11.0,14.0,119.0,10.320902,130.7252,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,sum_deg2,synthetic_n674_lcc,WS_k6_p0.5,100,25782.2,89.069942,25538.0,25782.0,26018.0,135330.0,5.24897,1229.9076,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,m,synthetic_n674_lcc,WS_k6_p0.5,100,2022.0,0.0,2022.0,2022.0,2022.0,2497.0,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,lcc_frac,synthetic_n674_lcc,WS_k6_p0.5,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,ncomp,synthetic_n674_lcc,WS_k6_p0.5,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,L,synthetic_n674_lcc,WS_k6_p0.5,100,4.022419,0.014809,3.980781,4.022663,4.059647,3.270241,0.813004,-50.7936,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,diameter,synthetic_n674_lcc,WS_k6_p0.5,100,6.47,0.501614,6.0,6.0,7.0,7.0,1.081917,1.0566,0.47,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,C_lcc,synthetic_n674_lcc,WS_k6_p0.5,100,0.082978,0.007078,0.067127,0.083417,0.103179,0.278777,3.359629,27.6642,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,C_all,synthetic_n674_lcc,WS_k6_p0.5,100,0.082978,0.007078,0.067127,0.083417,0.103179,0.278777,3.359629,27.6642,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,transitivity,synthetic_n674_lcc,WS_k6_p0.5,100,0.075476,0.006614,0.060645,0.075881,0.093089,0.123604,1.637659,7.2762,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,triangles,synthetic_n674_lcc,WS_k6_p0.5,100,273.43,23.763674,222.0,274.5,339.0,2685.0,9.819698,101.4814,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,assortativity,synthetic_n674_lcc,WS_k6_p0.5,100,-0.062816,0.021442,-0.109712,-0.062857,-0.014887,-0.167874,2.672477,-4.8997,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,overlap_obs,synthetic_n674_lcc,WS_k6_p0.5,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,gamma,synthetic_n674_lcc,WS_k6_p0.5,100,3.384254,0.293596,2.701879,3.341951,4.152987,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,gamma_all,synthetic_n674_lcc,WS_k6_p0.5,100,3.384254,0.293596,2.701879,3.341951,4.152987,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,lambda,synthetic_n674_lcc,WS_k6_p0.5,100,0.813014,0.002992,0.805548,0.812954,0.821508,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,sigma,synthetic_n674_lcc,WS_k6_p0.5,100,4.16156,0.348202,3.347239,4.118234,5.077851,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,sigma_all,synthetic_n674_lcc,WS_k6_p0.5,100,4.16156,0.348202,3.347239,4.118234,5.077851,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,kavg,synthetic_n674_lcc,WS_k6_p1,100,6.0,0.0,6.0,6.0,6.0,7.409496,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,kmax,synthetic_n674_lcc,WS_k6_p1,100,12.76,1.016232,11.0,13.0,16.0,119.0,9.326019,104.5431,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,sum_deg2,synthetic_n674_lcc,WS_k6_p1,100,26274.3,110.67155,26032.0,26265.0,26572.0,135330.0,5.150661,985.3996,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,m,synthetic_n674_lcc,WS_k6_p1,100,2022.0,0.0,2022.0,2022.0,2022.0,2497.0,1.234916,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,lcc_frac,synthetic_n674_lcc,WS_k6_p1,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,ncomp,synthetic_n674_lcc,WS_k6_p1,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,L,synthetic_n674_lcc,WS_k6_p1,100,3.864734,0.005642,3.850062,3.864568,3.878823,3.270241,0.846175,-105.369,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,diameter,synthetic_n674_lcc,WS_k6_p1,100,6.0,0.0,6.0,6.0,6.0,7.0,1.166667,,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,C_lcc,synthetic_n674_lcc,WS_k6_p1,100,0.007237,0.0014,0.004326,0.007097,0.011148,0.278777,38.523066,194.009,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,C_all,synthetic_n674_lcc,WS_k6_p1,100,0.007237,0.0014,0.004326,0.007097,0.011148,0.278777,38.523066,194.009,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,transitivity,synthetic_n674_lcc,WS_k6_p1,100,0.006992,0.001303,0.004023,0.007018,0.010022,0.123604,17.676801,89.4736,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,triangles,synthetic_n674_lcc,WS_k6_p1,100,25.91,4.845273,15.0,26.0,37.0,2685.0,103.627943,548.8009,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,assortativity,synthetic_n674_lcc,WS_k6_p1,100,-0.078712,0.018435,-0.120229,-0.077483,-0.031325,-0.167874,2.132755,-4.8367,0.0,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,overlap_obs,synthetic_n674_lcc,WS_k6_p1,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,gamma,synthetic_n674_lcc,WS_k6_p1,100,39.987191,7.963175,25.006514,39.280865,64.4436,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,gamma_all,synthetic_n674_lcc,WS_k6_p1,100,39.987191,7.963175,25.006514,39.280865,64.4436,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,lambda,synthetic_n674_lcc,WS_k6_p1,100,0.846177,0.001235,0.843101,0.846211,0.8494,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,sigma,synthetic_n674_lcc,WS_k6_p1,100,47.253441,9.396793,29.585168,46.476926,76.102278,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,sigma_all,synthetic_n674_lcc,WS_k6_p1,100,47.253441,9.396793,29.585168,46.476926,76.102278,,,,,WS 环格 k=6（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,kavg,synthetic_n674_lcc,WS_k8_p0,100,8.0,0.0,8.0,8.0,8.0,7.409496,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,kmax,synthetic_n674_lcc,WS_k8_p0,100,8.0,0.0,8.0,8.0,8.0,119.0,14.875,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,sum_deg2,synthetic_n674_lcc,WS_k8_p0,100,43136.0,0.0,43136.0,43136.0,43136.0,135330.0,3.137287,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,m,synthetic_n674_lcc,WS_k8_p0,100,2696.0,0.0,2696.0,2696.0,2696.0,2497.0,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,lcc_frac,synthetic_n674_lcc,WS_k8_p0,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,ncomp,synthetic_n674_lcc,WS_k8_p0,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,L,synthetic_n674_lcc,WS_k8_p0,100,42.56315,0.0,42.56315,42.56315,42.56315,3.270241,0.076833,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,diameter,synthetic_n674_lcc,WS_k8_p0,100,85.0,0.0,85.0,85.0,85.0,7.0,0.082353,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,C_lcc,synthetic_n674_lcc,WS_k8_p0,100,0.642857,0.0,0.642857,0.642857,0.642857,0.278777,0.433652,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,C_all,synthetic_n674_lcc,WS_k8_p0,100,0.642857,0.0,0.642857,0.642857,0.642857,0.278777,0.433652,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,transitivity,synthetic_n674_lcc,WS_k8_p0,100,0.642857,0.0,0.642857,0.642857,0.642857,0.123604,0.192272,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,triangles,synthetic_n674_lcc,WS_k8_p0,100,4044.0,0.0,4044.0,4044.0,4044.0,2685.0,0.663947,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,overlap_obs,synthetic_n674_lcc,WS_k8_p0,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,gamma,synthetic_n674_lcc,WS_k8_p0,100,0.433652,0.0,0.433652,0.433652,0.433652,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,gamma_all,synthetic_n674_lcc,WS_k8_p0,100,0.433652,0.0,0.433652,0.433652,0.433652,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,lambda,synthetic_n674_lcc,WS_k8_p0,100,0.076833,0.0,0.076833,0.076833,0.076833,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,sigma,synthetic_n674_lcc,WS_k8_p0,100,5.644114,0.0,5.644114,5.644114,5.644114,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,sigma_all,synthetic_n674_lcc,WS_k8_p0,100,5.644114,0.0,5.644114,5.644114,5.644114,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0
+models,kavg,synthetic_n674_lcc,WS_k8_p0.01,100,8.0,0.0,8.0,8.0,8.0,7.409496,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,kmax,synthetic_n674_lcc,WS_k8_p0.01,100,9.4,0.512471,9.0,9.0,11.0,119.0,12.659574,213.8659,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,sum_deg2,synthetic_n674_lcc,WS_k8_p0.01,100,43189.44,9.419859,43160.0,43189.0,43214.0,135330.0,3.133405,9781.5225,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,m,synthetic_n674_lcc,WS_k8_p0.01,100,2696.0,0.0,2696.0,2696.0,2696.0,2497.0,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,lcc_frac,synthetic_n674_lcc,WS_k8_p0.01,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,ncomp,synthetic_n674_lcc,WS_k8_p0.01,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,L,synthetic_n674_lcc,WS_k8_p0.01,100,10.380512,1.128641,8.733991,10.142241,16.623877,3.270241,0.315037,-6.2999,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,diameter,synthetic_n674_lcc,WS_k8_p0.01,100,23.17,3.757968,18.0,22.0,41.0,7.0,0.302115,-4.3029,0.01,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,C_lcc,synthetic_n674_lcc,WS_k8_p0.01,100,0.624472,0.003534,0.61622,0.624282,0.634909,0.278777,0.44642,-97.8272,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,C_all,synthetic_n674_lcc,WS_k8_p0.01,100,0.624472,0.003534,0.61622,0.624282,0.634909,0.278777,0.44642,-97.8272,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,transitivity,synthetic_n674_lcc,WS_k8_p0.01,100,0.622932,0.00372,0.614087,0.622748,0.634188,0.123604,0.198422,-134.2218,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,triangles,synthetic_n674_lcc,WS_k8_p0.01,100,3924.2,22.548265,3871.0,3923.0,3992.0,2685.0,0.684216,-54.9577,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,assortativity,synthetic_n674_lcc,WS_k8_p0.01,100,-0.001191,0.018593,-0.048041,-0.001634,0.050447,-0.167874,140.969166,-8.9646,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,overlap_obs,synthetic_n674_lcc,WS_k8_p0.01,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,gamma,synthetic_n674_lcc,WS_k8_p0.01,100,0.446434,0.002522,0.439081,0.446556,0.452398,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,gamma_all,synthetic_n674_lcc,WS_k8_p0.01,100,0.446434,0.002522,0.439081,0.446556,0.452398,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,lambda,synthetic_n674_lcc,WS_k8_p0.01,100,0.318194,0.029904,0.19672,0.322438,0.374427,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,sigma,synthetic_n674_lcc,WS_k8_p0.01,100,1.416353,0.146274,1.207465,1.384601,2.232017,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,sigma_all,synthetic_n674_lcc,WS_k8_p0.01,100,1.416353,0.146274,1.207465,1.384601,2.232017,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.01
+models,kavg,synthetic_n674_lcc,WS_k8_p0.02,100,8.0,0.0,8.0,8.0,8.0,7.409496,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,kmax,synthetic_n674_lcc,WS_k8_p0.02,100,9.94,0.342893,9.0,10.0,11.0,119.0,11.971831,318.0582,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,sum_deg2,synthetic_n674_lcc,WS_k8_p0.02,100,43242.2,13.854948,43190.0,43243.0,43272.0,135330.0,3.129582,6646.5639,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,m,synthetic_n674_lcc,WS_k8_p0.02,100,2696.0,0.0,2696.0,2696.0,2696.0,2497.0,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,lcc_frac,synthetic_n674_lcc,WS_k8_p0.02,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,ncomp,synthetic_n674_lcc,WS_k8_p0.02,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,L,synthetic_n674_lcc,WS_k8_p0.02,100,7.764109,0.458722,6.923206,7.698632,10.344478,3.270241,0.4212,-9.7965,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,diameter,synthetic_n674_lcc,WS_k8_p0.02,100,16.19,1.593516,13.0,16.0,22.0,7.0,0.432366,-5.7671,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,C_lcc,synthetic_n674_lcc,WS_k8_p0.02,100,0.60679,0.004775,0.595392,0.60669,0.626169,0.278777,0.459428,-68.687,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,C_all,synthetic_n674_lcc,WS_k8_p0.02,100,0.60679,0.004775,0.595392,0.60669,0.626169,0.278777,0.459428,-68.687,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,transitivity,synthetic_n674_lcc,WS_k8_p0.02,100,0.60377,0.005082,0.592362,0.603773,0.624636,0.123604,0.20472,-94.4886,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,triangles,synthetic_n674_lcc,WS_k8_p0.02,100,3808.79,30.853284,3738.0,3808.0,3935.0,2685.0,0.704948,-36.4237,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,assortativity,synthetic_n674_lcc,WS_k8_p0.02,100,-0.002437,0.018283,-0.042559,-0.002866,0.043014,-0.167874,68.880009,-9.0488,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,overlap_obs,synthetic_n674_lcc,WS_k8_p0.02,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,gamma,synthetic_n674_lcc,WS_k8_p0.02,100,0.459456,0.003602,0.44521,0.459505,0.468223,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,gamma_all,synthetic_n674_lcc,WS_k8_p0.02,100,0.459456,0.003602,0.44521,0.459505,0.468223,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,lambda,synthetic_n674_lcc,WS_k8_p0.02,100,0.422543,0.023177,0.316134,0.424782,0.472359,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,sigma,synthetic_n674_lcc,WS_k8_p0.02,100,1.090385,0.056379,0.988346,1.083894,1.408294,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,sigma_all,synthetic_n674_lcc,WS_k8_p0.02,100,1.090385,0.056379,0.988346,1.083894,1.408294,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.02
+models,kavg,synthetic_n674_lcc,WS_k8_p0.05,100,8.0,0.0,8.0,8.0,8.0,7.409496,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,kmax,synthetic_n674_lcc,WS_k8_p0.05,100,10.55,0.55732,10.0,11.0,12.0,119.0,11.279621,194.5918,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,sum_deg2,synthetic_n674_lcc,WS_k8_p0.05,100,43399.5,24.94661,43340.0,43397.0,43482.0,135330.0,3.118239,3685.0899,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,m,synthetic_n674_lcc,WS_k8_p0.05,100,2696.0,0.0,2696.0,2696.0,2696.0,2497.0,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,lcc_frac,synthetic_n674_lcc,WS_k8_p0.05,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,ncomp,synthetic_n674_lcc,WS_k8_p0.05,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,L,synthetic_n674_lcc,WS_k8_p0.05,100,5.682023,0.139888,5.356423,5.675081,6.119567,3.270241,0.575542,-17.2408,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,diameter,synthetic_n674_lcc,WS_k8_p0.05,100,10.61,0.680092,9.0,11.0,13.0,7.0,0.659755,-5.3081,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,C_lcc,synthetic_n674_lcc,WS_k8_p0.05,100,0.554223,0.006501,0.53794,0.553704,0.574959,0.278777,0.503004,-42.3702,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,C_all,synthetic_n674_lcc,WS_k8_p0.05,100,0.554223,0.006501,0.53794,0.553704,0.574959,0.278777,0.503004,-42.3702,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,transitivity,synthetic_n674_lcc,WS_k8_p0.05,100,0.547617,0.006905,0.529115,0.54689,0.569991,0.123604,0.225712,-61.4048,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,triangles,synthetic_n674_lcc,WS_k8_p0.05,100,3468.9,41.908631,3359.0,3465.0,3605.0,2685.0,0.774021,-18.705,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,assortativity,synthetic_n674_lcc,WS_k8_p0.05,100,-0.007401,0.019573,-0.054186,-0.006147,0.053672,-0.167874,22.682534,-8.1987,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,overlap_obs,synthetic_n674_lcc,WS_k8_p0.05,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,gamma,synthetic_n674_lcc,WS_k8_p0.05,100,0.503073,0.005885,0.484863,0.503476,0.518229,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,gamma_all,synthetic_n674_lcc,WS_k8_p0.05,100,0.503073,0.005885,0.484863,0.503476,0.518229,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,lambda,synthetic_n674_lcc,WS_k8_p0.05,100,0.575885,0.014081,0.534391,0.576246,0.610527,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,sigma,synthetic_n674_lcc,WS_k8_p0.05,100,0.873866,0.013338,0.842573,0.874132,0.910471,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,sigma_all,synthetic_n674_lcc,WS_k8_p0.05,100,0.873866,0.013338,0.842573,0.874132,0.910471,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.05
+models,kavg,synthetic_n674_lcc,WS_k8_p0.1,100,8.0,0.0,8.0,8.0,8.0,7.409496,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,kmax,synthetic_n674_lcc,WS_k8_p0.1,100,11.32,0.548276,10.0,11.0,13.0,119.0,10.512367,196.3976,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,sum_deg2,synthetic_n674_lcc,WS_k8_p0.1,100,43654.62,41.696058,43530.0,43652.0,43746.0,135330.0,3.100016,2198.6582,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,m,synthetic_n674_lcc,WS_k8_p0.1,100,2696.0,0.0,2696.0,2696.0,2696.0,2497.0,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,lcc_frac,synthetic_n674_lcc,WS_k8_p0.1,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,ncomp,synthetic_n674_lcc,WS_k8_p0.1,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,L,synthetic_n674_lcc,WS_k8_p0.1,100,4.717767,0.07325,4.534526,4.720244,4.943047,3.270241,0.693176,-19.7615,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,diameter,synthetic_n674_lcc,WS_k8_p0.1,100,8.22,0.439927,7.0,8.0,9.0,7.0,0.851582,-2.7732,0.01,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,C_lcc,synthetic_n674_lcc,WS_k8_p0.1,100,0.4745,0.009949,0.443114,0.474757,0.499186,0.278777,0.587517,-19.6727,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,C_all,synthetic_n674_lcc,WS_k8_p0.1,100,0.4745,0.009949,0.443114,0.474757,0.499186,0.278777,0.587517,-19.6727,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,transitivity,synthetic_n674_lcc,WS_k8_p0.1,100,0.463516,0.010176,0.430855,0.463817,0.488332,0.123604,0.266665,-33.404,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,triangles,synthetic_n674_lcc,WS_k8_p0.1,100,2955.84,62.634698,2749.0,2958.5,3108.0,2685.0,0.908371,-4.3241,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,assortativity,synthetic_n674_lcc,WS_k8_p0.1,100,-0.012728,0.017325,-0.052819,-0.01211,0.036455,-0.167874,13.18902,-8.955,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,overlap_obs,synthetic_n674_lcc,WS_k8_p0.1,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,gamma,synthetic_n674_lcc,WS_k8_p0.1,100,0.587775,0.012421,0.558462,0.587199,0.62913,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,gamma_all,synthetic_n674_lcc,WS_k8_p0.1,100,0.587775,0.012421,0.558462,0.587199,0.62913,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,lambda,synthetic_n674_lcc,WS_k8_p0.1,100,0.693341,0.01079,0.661584,0.692812,0.721187,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,sigma,synthetic_n674_lcc,WS_k8_p0.1,100,0.84769,0.007483,0.830975,0.84669,0.87257,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,sigma_all,synthetic_n674_lcc,WS_k8_p0.1,100,0.84769,0.007483,0.830975,0.84669,0.87257,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.1
+models,kavg,synthetic_n674_lcc,WS_k8_p0.2,100,8.0,0.0,8.0,8.0,8.0,7.409496,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,kmax,synthetic_n674_lcc,WS_k8_p0.2,100,12.36,0.731955,11.0,12.0,15.0,119.0,9.627832,145.6921,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,sum_deg2,synthetic_n674_lcc,WS_k8_p0.2,100,44109.52,62.083111,43988.0,44108.0,44286.0,135330.0,3.068045,1469.3284,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,m,synthetic_n674_lcc,WS_k8_p0.2,100,2696.0,0.0,2696.0,2696.0,2696.0,2497.0,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,lcc_frac,synthetic_n674_lcc,WS_k8_p0.2,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,ncomp,synthetic_n674_lcc,WS_k8_p0.2,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,L,synthetic_n674_lcc,WS_k8_p0.2,100,4.046706,0.033357,3.945723,4.047037,4.142107,3.270241,0.808124,-23.2771,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,diameter,synthetic_n674_lcc,WS_k8_p0.2,100,6.86,0.348735,6.0,7.0,7.0,7.0,1.020408,0.4015,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,C_lcc,synthetic_n674_lcc,WS_k8_p0.2,100,0.336637,0.011234,0.310262,0.336683,0.370322,0.278777,0.828122,-5.1503,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,C_all,synthetic_n674_lcc,WS_k8_p0.2,100,0.336637,0.011234,0.310262,0.336683,0.370322,0.278777,0.828122,-5.1503,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,transitivity,synthetic_n674_lcc,WS_k8_p0.2,100,0.323113,0.010652,0.295477,0.323085,0.354584,0.123604,0.38254,-18.7291,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,triangles,synthetic_n674_lcc,WS_k8_p0.2,100,2084.98,67.480035,1914.0,2086.0,2286.0,2685.0,1.287782,8.8918,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,assortativity,synthetic_n674_lcc,WS_k8_p0.2,100,-0.022819,0.018519,-0.069747,-0.022453,0.019052,-0.167874,7.356714,-7.8328,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,overlap_obs,synthetic_n674_lcc,WS_k8_p0.2,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,gamma,synthetic_n674_lcc,WS_k8_p0.2,100,0.829033,0.0276,0.752794,0.828009,0.898518,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,gamma_all,synthetic_n674_lcc,WS_k8_p0.2,100,0.829033,0.0276,0.752794,0.828009,0.898518,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,lambda,synthetic_n674_lcc,WS_k8_p0.2,100,0.808178,0.006648,0.789512,0.808058,0.828807,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,sigma,synthetic_n674_lcc,WS_k8_p0.2,100,1.025615,0.026525,0.953494,1.023544,1.084111,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,sigma_all,synthetic_n674_lcc,WS_k8_p0.2,100,1.025615,0.026525,0.953494,1.023544,1.084111,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.2
+models,kavg,synthetic_n674_lcc,WS_k8_p0.5,100,8.0,0.0,8.0,8.0,8.0,7.409496,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,kmax,synthetic_n674_lcc,WS_k8_p0.5,100,14.21,1.01797,13.0,14.0,18.0,119.0,8.374384,102.9402,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,sum_deg2,synthetic_n674_lcc,WS_k8_p0.5,100,45155.82,106.19863,44882.0,45166.0,45460.0,135330.0,2.996956,849.1087,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,m,synthetic_n674_lcc,WS_k8_p0.5,100,2696.0,0.0,2696.0,2696.0,2696.0,2497.0,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,lcc_frac,synthetic_n674_lcc,WS_k8_p0.5,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,ncomp,synthetic_n674_lcc,WS_k8_p0.5,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,L,synthetic_n674_lcc,WS_k8_p0.5,100,3.493161,0.008551,3.476135,3.492202,3.519716,3.270241,0.936184,-26.0704,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,diameter,synthetic_n674_lcc,WS_k8_p0.5,100,5.31,0.464823,5.0,5.0,6.0,7.0,1.318267,3.6358,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,C_lcc,synthetic_n674_lcc,WS_k8_p0.5,100,0.089888,0.005727,0.076029,0.089587,0.104473,0.278777,3.101388,32.9804,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,C_all,synthetic_n674_lcc,WS_k8_p0.5,100,0.089888,0.005727,0.076029,0.089587,0.104473,0.278777,3.101388,32.9804,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,transitivity,synthetic_n674_lcc,WS_k8_p0.5,100,0.084188,0.005422,0.071411,0.083551,0.09749,0.123604,1.468185,7.2697,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,triangles,synthetic_n674_lcc,WS_k8_p0.5,100,557.93,35.819766,474.0,554.5,646.0,2685.0,4.812432,59.3826,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,assortativity,synthetic_n674_lcc,WS_k8_p0.5,100,-0.049556,0.018589,-0.093274,-0.049053,0.004255,-0.167874,3.38758,-6.3651,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,overlap_obs,synthetic_n674_lcc,WS_k8_p0.5,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,gamma,synthetic_n674_lcc,WS_k8_p0.5,100,3.113844,0.198225,2.668419,3.111815,3.666718,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,gamma_all,synthetic_n674_lcc,WS_k8_p0.5,100,3.113844,0.198225,2.668419,3.111815,3.666718,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,lambda,synthetic_n674_lcc,WS_k8_p0.5,100,0.93619,0.00229,0.929121,0.936441,0.940769,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,sigma,synthetic_n674_lcc,WS_k8_p0.5,100,3.325666,0.204832,2.859718,3.324293,3.900412,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,sigma_all,synthetic_n674_lcc,WS_k8_p0.5,100,3.325666,0.204832,2.859718,3.324293,3.900412,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=0.5
+models,kavg,synthetic_n674_lcc,WS_k8_p1,100,8.0,0.0,8.0,8.0,8.0,7.409496,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,kmax,synthetic_n674_lcc,WS_k8_p1,100,15.45,1.250252,13.0,15.0,19.0,119.0,7.702265,82.8233,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,sum_deg2,synthetic_n674_lcc,WS_k8_p1,100,45825.46,141.113567,45520.0,45828.0,46206.0,135330.0,2.953162,634.2731,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,m,synthetic_n674_lcc,WS_k8_p1,100,2696.0,0.0,2696.0,2696.0,2696.0,2497.0,0.926187,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,lcc_frac,synthetic_n674_lcc,WS_k8_p1,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,ncomp,synthetic_n674_lcc,WS_k8_p1,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,L,synthetic_n674_lcc,WS_k8_p1,100,3.377064,0.002705,3.370638,3.377329,3.38275,3.270241,0.968368,-39.4894,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,diameter,synthetic_n674_lcc,WS_k8_p1,100,5.0,0.0,5.0,5.0,5.0,7.0,1.4,,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,C_lcc,synthetic_n674_lcc,WS_k8_p1,100,0.010698,0.001209,0.008173,0.010638,0.01397,0.278777,26.059883,221.679,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,C_all,synthetic_n674_lcc,WS_k8_p1,100,0.010698,0.001209,0.008173,0.010638,0.01397,0.278777,26.059883,221.679,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,transitivity,synthetic_n674_lcc,WS_k8_p1,100,0.010555,0.001136,0.008178,0.010508,0.014264,0.123604,11.710966,99.5206,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,triangles,synthetic_n674_lcc,WS_k8_p1,100,71.13,7.694488,55.0,71.0,96.0,2685.0,37.747786,339.7068,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,assortativity,synthetic_n674_lcc,WS_k8_p1,100,-0.059885,0.01794,-0.107396,-0.059399,-0.010309,-0.167874,2.803276,-6.0195,0.0,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,overlap_obs,synthetic_n674_lcc,WS_k8_p1,100,0.0,0.0,0.0,0.0,0.0,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,gamma,synthetic_n674_lcc,WS_k8_p1,100,26.388129,2.962598,19.956023,26.205656,34.107561,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,gamma_all,synthetic_n674_lcc,WS_k8_p1,100,26.388129,2.962598,19.956023,26.205656,34.107561,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,lambda,synthetic_n674_lcc,WS_k8_p1,100,0.968369,0.000776,0.966741,0.968292,0.970214,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,sigma,synthetic_n674_lcc,WS_k8_p1,100,27.249456,3.053892,20.632736,27.064847,35.227505,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,sigma_all,synthetic_n674_lcc,WS_k8_p1,100,27.249456,3.053892,20.632736,27.064847,35.227505,,,,,WS 环格 k=8（networkx 每侧 k//2，偶数 k 才有 <k>=k）重连概率 p=1
+models,kavg,synthetic_n674_lcc,CFG_edge_switch,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,kmax,synthetic_n674_lcc,CFG_edge_switch,100,119.0,0.0,119.0,119.0,119.0,119.0,1.0,,1.0,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,sum_deg2,synthetic_n674_lcc,CFG_edge_switch,100,135330.0,0.0,135330.0,135330.0,135330.0,135330.0,1.0,,1.0,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,m,synthetic_n674_lcc,CFG_edge_switch,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,lcc_frac,synthetic_n674_lcc,CFG_edge_switch,100,0.990786,0.00515,0.977745,0.991098,1.0,1.0,1.009299,1.7892,0.09,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,ncomp,synthetic_n674_lcc,CFG_edge_switch,100,4.06,1.704539,1.0,4.0,8.0,1.0,0.246305,-1.7952,0.08,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,L,synthetic_n674_lcc,CFG_edge_switch,100,3.1577,0.019209,3.115563,3.156895,3.216956,3.270241,1.03564,5.8588,0.0,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,diameter,synthetic_n674_lcc,CFG_edge_switch,100,7.3,0.611341,6.0,7.0,9.0,7.0,0.958904,-0.4907,1.0,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,C_lcc,synthetic_n674_lcc,CFG_edge_switch,100,0.103548,0.006228,0.08981,0.103648,0.11669,0.278777,2.692247,28.137,0.0,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,C_all,synthetic_n674_lcc,CFG_edge_switch,100,0.102591,0.006138,0.08901,0.103024,0.116343,0.278777,2.717369,28.7044,0.0,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,transitivity,synthetic_n674_lcc,CFG_edge_switch,100,0.094477,0.003598,0.085303,0.094878,0.102796,0.123604,1.308295,8.0946,0.0,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,triangles,synthetic_n674_lcc,CFG_edge_switch,100,2052.29,78.164589,1853.0,2061.0,2233.0,2685.0,1.308295,8.0946,0.0,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,assortativity,synthetic_n674_lcc,CFG_edge_switch,100,-0.131747,0.011704,-0.162169,-0.129748,-0.108277,-0.167874,1.274216,-3.0868,0.0,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,overlap_obs,synthetic_n674_lcc,CFG_edge_switch,100,0.117369,0.004875,0.106528,0.117741,0.130957,,,,,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,gamma,synthetic_n674_lcc,CFG_edge_switch,100,2.702032,0.164674,2.389044,2.689662,3.104088,,,,,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,gamma_all,synthetic_n674_lcc,CFG_edge_switch,100,2.727148,0.165449,2.396154,2.705933,3.131969,,,,,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,lambda,synthetic_n674_lcc,CFG_edge_switch,100,1.035678,0.006287,1.016564,1.035904,1.049647,,,,,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,sigma,synthetic_n674_lcc,CFG_edge_switch,100,2.609134,0.161297,2.283992,2.594135,3.016437,,,,,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,sigma_all,synthetic_n674_lcc,CFG_edge_switch,100,2.633376,0.161901,2.29079,2.614516,3.043531,,,,,"C.degree_preserving_null：每轮 fresh copy + double_edge_swap(nswap=10m, max_tries=100*nswap)；Viger-Latapy 非均匀采样"
+models,kavg,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,分解用别名，等同 CFG_edge_switch
+models,kmax,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,119.0,0.0,119.0,119.0,119.0,119.0,1.0,,1.0,分解用别名，等同 CFG_edge_switch
+models,sum_deg2,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,135330.0,0.0,135330.0,135330.0,135330.0,135330.0,1.0,,1.0,分解用别名，等同 CFG_edge_switch
+models,m,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,分解用别名，等同 CFG_edge_switch
+models,lcc_frac,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,0.990786,0.00515,0.977745,0.991098,1.0,1.0,1.009299,1.7892,0.09,分解用别名，等同 CFG_edge_switch
+models,ncomp,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,4.06,1.704539,1.0,4.0,8.0,1.0,0.246305,-1.7952,0.08,分解用别名，等同 CFG_edge_switch
+models,L,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,3.1577,0.019209,3.115563,3.156895,3.216956,3.270241,1.03564,5.8588,0.0,分解用别名，等同 CFG_edge_switch
+models,diameter,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,7.3,0.611341,6.0,7.0,9.0,7.0,0.958904,-0.4907,1.0,分解用别名，等同 CFG_edge_switch
+models,C_lcc,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,0.103548,0.006228,0.08981,0.103648,0.11669,0.278777,2.692247,28.137,0.0,分解用别名，等同 CFG_edge_switch
+models,C_all,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,0.102591,0.006138,0.08901,0.103024,0.116343,0.278777,2.717369,28.7044,0.0,分解用别名，等同 CFG_edge_switch
+models,transitivity,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,0.094477,0.003598,0.085303,0.094878,0.102796,0.123604,1.308295,8.0946,0.0,分解用别名，等同 CFG_edge_switch
+models,triangles,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,2052.29,78.164589,1853.0,2061.0,2233.0,2685.0,1.308295,8.0946,0.0,分解用别名，等同 CFG_edge_switch
+models,assortativity,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,-0.131747,0.011704,-0.162169,-0.129748,-0.108277,-0.167874,1.274216,-3.0868,0.0,分解用别名，等同 CFG_edge_switch
+models,overlap_obs,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,0.117369,0.004875,0.106528,0.117741,0.130957,,,,,分解用别名，等同 CFG_edge_switch
+models,gamma,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,2.702032,0.164674,2.389044,2.689662,3.104088,,,,,分解用别名，等同 CFG_edge_switch
+models,gamma_all,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,2.727148,0.165449,2.396154,2.705933,3.131969,,,,,分解用别名，等同 CFG_edge_switch
+models,lambda,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,1.035678,0.006287,1.016564,1.035904,1.049647,,,,,分解用别名，等同 CFG_edge_switch
+models,sigma,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,2.609134,0.161297,2.283992,2.594135,3.016437,,,,,分解用别名，等同 CFG_edge_switch
+models,sigma_all,synthetic_n674_lcc,D1_edge_shuffle_keep_degree,100,2.633376,0.161901,2.29079,2.614516,3.043531,,,,,分解用别名，等同 CFG_edge_switch
+models,kavg,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,kmax,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,119.0,0.0,119.0,119.0,119.0,119.0,1.0,,1.0,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,sum_deg2,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,135330.0,0.0,135330.0,135330.0,135330.0,135330.0,1.0,,1.0,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,m,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,lcc_frac,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,0.987878,0.005264,0.970326,0.988131,1.0,1.0,1.01227,2.3028,0.02,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,ncomp,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,4.94,1.698603,1.0,5.0,10.0,1.0,0.202429,-2.3196,0.03,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,L,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,3.247624,0.019602,3.198963,3.247397,3.312077,3.270241,1.006964,1.1538,0.21,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,diameter,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,7.72,0.711805,7.0,8.0,10.0,7.0,0.906736,-1.0115,0.52,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,C_lcc,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,0.104362,0.00646,0.089698,0.104067,0.118496,0.278777,2.671244,26.9977,0.0,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,C_all,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,0.103092,0.006321,0.0889,0.102447,0.117089,0.278777,2.704148,27.7922,0.0,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,transitivity,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,0.123604,0.0,0.123604,0.123604,0.123604,0.123604,1.0,,1.0,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,triangles,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,2685.0,0.0,2685.0,2685.0,2685.0,2685.0,1.0,,1.0,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,assortativity,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,-0.063176,0.003732,-0.072973,-0.063075,-0.051306,-0.167874,2.65726,-28.0523,0.0,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,overlap_obs,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,0.128298,0.005367,0.115338,0.127954,0.144173,,,,,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,gamma,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,2.681324,0.1649,2.352634,2.678827,3.107929,,,,,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,gamma_all,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,2.714182,0.165728,2.380894,2.721171,3.135845,,,,,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,lambda,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,1.007001,0.006074,0.987369,1.007035,1.022282,,,,,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,sigma,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,2.662601,0.16158,2.349774,2.660877,3.069536,,,,,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,sigma_all,synthetic_n674_lcc,D2a_triangle_sum_preserving,100,2.695195,0.161765,2.396351,2.699797,3.097107,,,,,保度序列 + 保三角总数 => 传递性精确不变；逐点平均聚类不保证
+models,kavg,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,kmax,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,119.0,0.0,119.0,119.0,119.0,119.0,1.0,,1.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,sum_deg2,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,135330.0,0.0,135330.0,135330.0,135330.0,135330.0,1.0,,1.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,m,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,lcc_frac,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,0.976306,0.006539,0.958457,0.976261,0.997033,1.0,1.024269,3.6236,0.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,ncomp,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,8.83,2.113234,2.0,9.0,14.0,1.0,0.11325,-3.7052,0.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,L,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,3.222303,0.016416,3.187373,3.220118,3.256904,3.270241,1.014877,2.9202,0.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,diameter,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,7.5,0.758787,7.0,7.0,11.0,7.0,0.933333,-0.6589,1.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,C_lcc,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,0.285555,0.00191,0.279606,0.285555,0.29086,0.278777,0.976262,-3.5481,0.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,C_all,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,0.278777,0.0,0.278777,0.278777,0.278777,0.278777,1.0,,1.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,transitivity,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,0.123604,0.0,0.123604,0.123604,0.123604,0.123604,1.0,,1.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,triangles,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,2685.0,0.0,2685.0,2685.0,2685.0,2685.0,1.0,,1.0,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,assortativity,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,-0.165154,0.001061,-0.16823,-0.165112,-0.161928,-0.167874,1.01647,-2.5635,0.04,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,overlap_obs,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,0.805995,0.001215,0.803364,0.806167,0.808971,,,,,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,gamma,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,0.976306,0.006539,0.958457,0.976261,0.997033,,,,,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,gamma_all,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,1.0,0.0,1.0,1.0,1.0,,,,,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,lambda,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,1.014903,0.005169,1.004095,1.015566,1.025999,,,,,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,sigma,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,0.962016,0.010411,0.938508,0.960864,0.992929,,,,,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,sigma_all,synthetic_n674_lcc,D2b_per_node_clustering_preserving,100,0.985341,0.00502,0.97466,0.984673,0.995921,,,,,仅重连两端都不在三角形里的边且新位置不成三角 => 逐点聚类系数精确不变
+models,kavg,synthetic_n674_lcc,D3_obsWS_p0,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,kmax,synthetic_n674_lcc,D3_obsWS_p0,100,119.0,0.0,119.0,119.0,119.0,119.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,sum_deg2,synthetic_n674_lcc,D3_obsWS_p0,100,135330.0,0.0,135330.0,135330.0,135330.0,135330.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,m,synthetic_n674_lcc,D3_obsWS_p0,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,lcc_frac,synthetic_n674_lcc,D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,ncomp,synthetic_n674_lcc,D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,L,synthetic_n674_lcc,D3_obsWS_p0,100,3.270241,0.0,3.270241,3.270241,3.270241,3.270241,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,diameter,synthetic_n674_lcc,D3_obsWS_p0,100,7.0,0.0,7.0,7.0,7.0,7.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,C_lcc,synthetic_n674_lcc,D3_obsWS_p0,100,0.278777,0.0,0.278777,0.278777,0.278777,0.278777,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,C_all,synthetic_n674_lcc,D3_obsWS_p0,100,0.278777,0.0,0.278777,0.278777,0.278777,0.278777,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,transitivity,synthetic_n674_lcc,D3_obsWS_p0,100,0.123604,0.0,0.123604,0.123604,0.123604,0.123604,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,triangles,synthetic_n674_lcc,D3_obsWS_p0,100,2685.0,0.0,2685.0,2685.0,2685.0,2685.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,assortativity,synthetic_n674_lcc,D3_obsWS_p0,100,-0.167874,0.0,-0.167874,-0.167874,-0.167874,-0.167874,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,overlap_obs,synthetic_n674_lcc,D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,,,,,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,gamma,synthetic_n674_lcc,D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,,,,,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,gamma_all,synthetic_n674_lcc,D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,,,,,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,lambda,synthetic_n674_lcc,D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,,,,,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,sigma,synthetic_n674_lcc,D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,,,,,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,sigma_all,synthetic_n674_lcc,D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,,,,,WS 式重连直接作用在观测 GCC674 上，p=0（保 n、保 m，不保度序列）
+models,kavg,synthetic_n674_lcc,D3_obsWS_p0.01,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,kmax,synthetic_n674_lcc,D3_obsWS_p0.01,100,118.97,0.171447,118.0,119.0,119.0,119.0,1.000252,0.175,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,sum_deg2,synthetic_n674_lcc,D3_obsWS_p0.01,100,134745.02,273.831548,133886.0,134767.0,135278.0,135330.0,1.004341,2.1363,0.04,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,m,synthetic_n674_lcc,D3_obsWS_p0.01,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,lcc_frac,synthetic_n674_lcc,D3_obsWS_p0.01,100,0.997315,0.001894,0.991098,0.997033,1.0,1.0,1.002693,1.4176,0.26,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,ncomp,synthetic_n674_lcc,D3_obsWS_p0.01,100,2.8,1.279204,1.0,3.0,7.0,1.0,0.357143,-1.4071,0.26,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,L,synthetic_n674_lcc,D3_obsWS_p0.01,100,3.259167,0.005633,3.238268,3.259742,3.268865,3.270241,1.003398,1.966,0.03,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,diameter,synthetic_n674_lcc,D3_obsWS_p0.01,100,6.92,0.393893,6.0,7.0,8.0,7.0,1.011561,0.2031,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,C_lcc,synthetic_n674_lcc,D3_obsWS_p0.01,100,0.272685,0.004032,0.25496,0.273345,0.279334,0.278777,1.022339,1.5108,0.09,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,C_all,synthetic_n674_lcc,D3_obsWS_p0.01,100,0.271952,0.003998,0.254204,0.272411,0.27783,0.278777,1.025095,1.7069,0.06,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,transitivity,synthetic_n674_lcc,D3_obsWS_p0.01,100,0.121463,0.000928,0.119123,0.121451,0.123928,0.123604,1.017622,2.3065,0.04,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,triangles,synthetic_n674_lcc,D3_obsWS_p0.01,100,2626.68,22.892758,2559.0,2625.0,2687.0,2685.0,1.022203,2.5475,0.03,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,assortativity,synthetic_n674_lcc,D3_obsWS_p0.01,100,-0.168615,0.001865,-0.176263,-0.168503,-0.164269,-0.167874,0.995605,0.3974,0.64,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,overlap_obs,synthetic_n674_lcc,D3_obsWS_p0.01,100,0.989916,0.002042,0.985583,0.989988,0.994393,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,gamma,synthetic_n674_lcc,D3_obsWS_p0.01,100,1.022566,0.015478,0.998006,1.01987,1.093412,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,gamma_all,synthetic_n674_lcc,D3_obsWS_p0.01,100,1.02532,0.01543,1.003406,1.023367,1.096666,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,lambda,synthetic_n674_lcc,D3_obsWS_p0.01,100,1.003401,0.001736,1.000421,1.003221,1.009874,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,sigma,synthetic_n674_lcc,D3_obsWS_p0.01,100,1.019105,0.015675,0.991751,1.017073,1.087754,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,sigma_all,synthetic_n674_lcc,D3_obsWS_p0.01,100,1.021848,0.015504,0.997672,1.020441,1.090991,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.01（保 n、保 m，不保度序列）
+models,kavg,synthetic_n674_lcc,D3_obsWS_p0.02,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,kmax,synthetic_n674_lcc,D3_obsWS_p0.02,100,119.02,0.283556,118.0,119.0,120.0,119.0,0.999832,-0.0705,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,sum_deg2,synthetic_n674_lcc,D3_obsWS_p0.02,100,134237.26,331.518533,133348.0,134238.0,135298.0,135330.0,1.00814,3.2962,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,m,synthetic_n674_lcc,D3_obsWS_p0.02,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,lcc_frac,synthetic_n674_lcc,D3_obsWS_p0.02,100,0.994659,0.002486,0.986647,0.995549,1.0,1.0,1.00537,2.1483,0.03,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,ncomp,synthetic_n674_lcc,D3_obsWS_p0.02,100,4.56,1.671629,1.0,4.0,10.0,1.0,0.219298,-2.1297,0.03,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,L,synthetic_n674_lcc,D3_obsWS_p0.02,100,3.248818,0.008326,3.228762,3.24916,3.272044,3.270241,1.006594,2.5731,0.01,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,diameter,synthetic_n674_lcc,D3_obsWS_p0.02,100,6.94,0.422116,6.0,7.0,8.0,7.0,1.008646,0.1421,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,C_lcc,synthetic_n674_lcc,D3_obsWS_p0.02,100,0.267008,0.004826,0.254605,0.267027,0.277098,0.278777,1.044075,2.4385,0.02,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,C_all,synthetic_n674_lcc,D3_obsWS_p0.02,100,0.265579,0.004684,0.253472,0.265763,0.275863,0.278777,1.049693,2.8176,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,transitivity,synthetic_n674_lcc,D3_obsWS_p0.02,100,0.119256,0.001443,0.115088,0.119414,0.122442,0.123604,1.036454,3.0126,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,triangles,synthetic_n674_lcc,D3_obsWS_p0.02,100,2568.89,35.295833,2462.0,2571.5,2639.0,2685.0,1.045199,3.2896,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,assortativity,synthetic_n674_lcc,D3_obsWS_p0.02,100,-0.169705,0.002789,-0.178919,-0.169402,-0.163318,-0.167874,0.989215,0.6563,0.47,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,overlap_obs,synthetic_n674_lcc,D3_obsWS_p0.02,100,0.979804,0.002489,0.973568,0.980376,0.984782,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,gamma,synthetic_n674_lcc,D3_obsWS_p0.02,100,1.044415,0.018981,1.006057,1.044003,1.094935,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,gamma_all,synthetic_n674_lcc,D3_obsWS_p0.02,100,1.050018,0.018648,1.010562,1.048965,1.099831,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,lambda,synthetic_n674_lcc,D3_obsWS_p0.02,100,1.006601,0.002579,0.999449,1.006488,1.012847,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,sigma,synthetic_n674_lcc,D3_obsWS_p0.02,100,1.03757,0.018916,1.000151,1.035538,1.088262,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,sigma_all,synthetic_n674_lcc,D3_obsWS_p0.02,100,1.043135,0.018429,1.004623,1.040691,1.093127,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.02（保 n、保 m，不保度序列）
+models,kavg,synthetic_n674_lcc,D3_obsWS_p0.05,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,kmax,synthetic_n674_lcc,D3_obsWS_p0.05,100,119.01,0.301344,118.0,119.0,120.0,119.0,0.999916,-0.0332,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,sum_deg2,synthetic_n674_lcc,D3_obsWS_p0.05,100,132567.4,564.546587,131274.0,132508.0,134292.0,135330.0,1.020839,4.8935,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,m,synthetic_n674_lcc,D3_obsWS_p0.05,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,lcc_frac,synthetic_n674_lcc,D3_obsWS_p0.05,100,0.988264,0.003604,0.979228,0.988131,0.995549,1.0,1.011875,3.2562,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,ncomp,synthetic_n674_lcc,D3_obsWS_p0.05,100,8.87,2.419011,4.0,9.0,15.0,1.0,0.11274,-3.2534,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,L,synthetic_n674_lcc,D3_obsWS_p0.05,100,3.218978,0.010504,3.192917,3.219079,3.247012,3.270241,1.015925,4.8805,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,diameter,synthetic_n674_lcc,D3_obsWS_p0.05,100,6.85,0.538891,6.0,7.0,8.0,7.0,1.021898,0.2783,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,C_lcc,synthetic_n674_lcc,D3_obsWS_p0.05,100,0.248927,0.00749,0.221439,0.248765,0.266223,0.278777,1.119913,3.9851,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,C_all,synthetic_n674_lcc,D3_obsWS_p0.05,100,0.246006,0.007484,0.219139,0.245585,0.263063,0.278777,1.133209,4.3789,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,transitivity,synthetic_n674_lcc,D3_obsWS_p0.05,100,0.112962,0.002093,0.107261,0.112985,0.117632,0.123604,1.094201,5.0841,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,triangles,synthetic_n674_lcc,D3_obsWS_p0.05,100,2401.9,49.254954,2285.0,2405.0,2514.0,2685.0,1.117865,5.7476,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,assortativity,synthetic_n674_lcc,D3_obsWS_p0.05,100,-0.172668,0.004638,-0.185341,-0.17275,-0.161669,-0.167874,0.972235,1.0338,0.24,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,overlap_obs,synthetic_n674_lcc,D3_obsWS_p0.05,100,0.95016,0.00463,0.939527,0.950741,0.959952,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,gamma,synthetic_n674_lcc,D3_obsWS_p0.05,100,1.120937,0.034387,1.047155,1.120641,1.25893,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,gamma_all,synthetic_n674_lcc,D3_obsWS_p0.05,100,1.134265,0.035102,1.059734,1.135152,1.272142,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,lambda,synthetic_n674_lcc,D3_obsWS_p0.05,100,1.015936,0.003313,1.007154,1.015893,1.024217,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,sigma,synthetic_n674_lcc,D3_obsWS_p0.05,100,1.103361,0.033915,1.031153,1.103697,1.240115,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,sigma_all,synthetic_n674_lcc,D3_obsWS_p0.05,100,1.116475,0.034421,1.043539,1.117045,1.25313,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.05（保 n、保 m，不保度序列）
+models,kavg,synthetic_n674_lcc,D3_obsWS_p0.1,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,kmax,synthetic_n674_lcc,D3_obsWS_p0.1,100,119.08,0.506124,118.0,119.0,121.0,119.0,0.999328,-0.1581,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,sum_deg2,synthetic_n674_lcc,D3_obsWS_p0.1,100,129957.04,750.732678,128146.0,130015.0,131368.0,135330.0,1.041344,7.157,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,m,synthetic_n674_lcc,D3_obsWS_p0.1,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,lcc_frac,synthetic_n674_lcc,D3_obsWS_p0.1,100,0.979837,0.005101,0.964392,0.979228,0.992582,1.0,1.020578,3.9528,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,ncomp,synthetic_n674_lcc,D3_obsWS_p0.1,100,14.47,3.424378,6.0,14.5,25.0,1.0,0.069109,-3.9336,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,L,synthetic_n674_lcc,D3_obsWS_p0.1,100,3.175759,0.01196,3.136639,3.17387,3.206939,3.270241,1.029751,7.9001,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,diameter,synthetic_n674_lcc,D3_obsWS_p0.1,100,6.7,0.57735,6.0,7.0,8.0,7.0,1.044776,0.5196,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,C_lcc,synthetic_n674_lcc,D3_obsWS_p0.1,100,0.222724,0.008743,0.204104,0.222801,0.242342,0.278777,1.251669,6.4115,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,C_all,synthetic_n674_lcc,D3_obsWS_p0.1,100,0.218231,0.008579,0.199561,0.2183,0.238027,0.278777,1.27744,7.0576,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,transitivity,synthetic_n674_lcc,D3_obsWS_p0.1,100,0.103134,0.002355,0.098252,0.103264,0.107711,0.123604,1.19848,8.6915,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,triangles,synthetic_n674_lcc,D3_obsWS_p0.1,100,2148.12,56.25129,2025.0,2151.5,2264.0,2685.0,1.24993,9.5443,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,assortativity,synthetic_n674_lcc,D3_obsWS_p0.1,100,-0.177003,0.005869,-0.190982,-0.177724,-0.160039,-0.167874,0.948429,1.5554,0.12,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,overlap_obs,synthetic_n674_lcc,D3_obsWS_p0.1,100,0.900356,0.006059,0.885062,0.900681,0.915098,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,gamma,synthetic_n674_lcc,D3_obsWS_p0.1,100,1.253579,0.049201,1.150343,1.251238,1.365857,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,gamma_all,synthetic_n674_lcc,D3_obsWS_p0.1,100,1.279395,0.050295,1.171195,1.277035,1.396946,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,lambda,synthetic_n674_lcc,D3_obsWS_p0.1,100,1.029766,0.003876,1.019739,1.030364,1.042594,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,sigma,synthetic_n674_lcc,D3_obsWS_p0.1,100,1.217383,0.048563,1.111957,1.214842,1.329149,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,sigma_all,synthetic_n674_lcc,D3_obsWS_p0.1,100,1.242444,0.049381,1.132114,1.242194,1.359403,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.1（保 n、保 m，不保度序列）
+models,kavg,synthetic_n674_lcc,D3_obsWS_p0.2,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,kmax,synthetic_n674_lcc,D3_obsWS_p0.2,100,119.2,0.752101,118.0,119.0,121.0,119.0,0.998322,-0.2659,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,sum_deg2,synthetic_n674_lcc,D3_obsWS_p0.2,100,125064.74,1024.735557,122582.0,125055.0,127648.0,135330.0,1.08208,10.0175,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,m,synthetic_n674_lcc,D3_obsWS_p0.2,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,lcc_frac,synthetic_n674_lcc,D3_obsWS_p0.2,100,0.97273,0.006082,0.959941,0.972552,0.989614,1.0,1.028035,4.4838,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,ncomp,synthetic_n674_lcc,D3_obsWS_p0.2,100,19.29,4.060888,8.0,19.5,28.0,1.0,0.05184,-4.5039,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,L,synthetic_n674_lcc,D3_obsWS_p0.2,100,3.116574,0.014182,3.07917,3.116083,3.173458,3.270241,1.049306,10.8353,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,diameter,synthetic_n674_lcc,D3_obsWS_p0.2,100,6.52,0.540856,6.0,6.5,8.0,7.0,1.07362,0.8875,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,C_lcc,synthetic_n674_lcc,D3_obsWS_p0.2,100,0.178246,0.009804,0.154218,0.178346,0.200852,0.278777,1.564002,10.2543,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,C_all,synthetic_n674_lcc,D3_obsWS_p0.2,100,0.173391,0.009699,0.150786,0.17366,0.197872,0.278777,1.607796,10.8653,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,transitivity,synthetic_n674_lcc,D3_obsWS_p0.2,100,0.085076,0.00317,0.076673,0.085235,0.093627,0.123604,1.452854,12.1535,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,triangles,synthetic_n674_lcc,D3_obsWS_p0.2,100,1702.83,72.532968,1520.0,1710.5,1906.0,2685.0,1.576787,13.541,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,assortativity,synthetic_n674_lcc,D3_obsWS_p0.2,100,-0.187665,0.008069,-0.210354,-0.187115,-0.167787,-0.167874,0.894541,2.4528,0.03,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,overlap_obs,synthetic_n674_lcc,D3_obsWS_p0.2,100,0.801037,0.008874,0.776131,0.801362,0.818983,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,gamma,synthetic_n674_lcc,D3_obsWS_p0.2,100,1.568719,0.086857,1.387972,1.563125,1.807673,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,gamma_all,synthetic_n674_lcc,D3_obsWS_p0.2,100,1.612812,0.090807,1.408875,1.605301,1.848819,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,lambda,synthetic_n674_lcc,D3_obsWS_p0.2,100,1.049328,0.004764,1.030498,1.049472,1.062053,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,sigma,synthetic_n674_lcc,D3_obsWS_p0.2,100,1.494954,0.082098,1.323556,1.489284,1.716547,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,sigma_all,synthetic_n674_lcc,D3_obsWS_p0.2,100,1.536951,0.085443,1.343489,1.531883,1.755619,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.2（保 n、保 m，不保度序列）
+models,kavg,synthetic_n674_lcc,D3_obsWS_p0.5,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,kmax,synthetic_n674_lcc,D3_obsWS_p0.5,100,119.77,1.278059,118.0,120.0,124.0,119.0,0.993571,-0.6025,0.74,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,sum_deg2,synthetic_n674_lcc,D3_obsWS_p0.5,100,112916.46,1068.663429,110268.0,112929.0,115230.0,135330.0,1.198497,20.9734,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,m,synthetic_n674_lcc,D3_obsWS_p0.5,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,lcc_frac,synthetic_n674_lcc,D3_obsWS_p0.5,100,0.975504,0.004979,0.962908,0.974777,0.988131,1.0,1.025111,4.9196,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,ncomp,synthetic_n674_lcc,D3_obsWS_p0.5,100,17.45,3.346565,9.0,18.0,26.0,1.0,0.057307,-4.9155,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,L,synthetic_n674_lcc,D3_obsWS_p0.5,100,3.040038,0.012945,3.002573,3.038971,3.071605,3.270241,1.075724,17.7835,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,diameter,synthetic_n674_lcc,D3_obsWS_p0.5,100,6.28,0.473116,6.0,6.0,8.0,7.0,1.11465,1.5218,0.27,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,C_lcc,synthetic_n674_lcc,D3_obsWS_p0.5,100,0.101544,0.00706,0.083462,0.101117,0.123606,0.278777,2.745384,25.1042,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,C_all,synthetic_n674_lcc,D3_obsWS_p0.5,100,0.099057,0.006919,0.081729,0.098887,0.120305,0.278777,2.814297,25.9737,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,transitivity,synthetic_n674_lcc,D3_obsWS_p0.5,100,0.047691,0.002785,0.041213,0.047942,0.053863,0.123604,2.591743,27.2582,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,triangles,synthetic_n674_lcc,D3_obsWS_p0.5,100,858.11,55.324734,728.0,867.5,977.0,2685.0,3.128969,33.0212,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,assortativity,synthetic_n674_lcc,D3_obsWS_p0.5,100,-0.217793,0.010191,-0.244035,-0.219084,-0.193439,-0.167874,0.770796,4.8985,0.0,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,overlap_obs,synthetic_n674_lcc,D3_obsWS_p0.5,100,0.510372,0.010549,0.485783,0.509612,0.531037,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,gamma,synthetic_n674_lcc,D3_obsWS_p0.5,100,2.758339,0.189202,2.255372,2.756962,3.340153,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,gamma_all,synthetic_n674_lcc,D3_obsWS_p0.5,100,2.827697,0.194763,2.317257,2.819134,3.411005,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,lambda,synthetic_n674_lcc,D3_obsWS_p0.5,100,1.075743,0.004581,1.064668,1.076101,1.089146,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,sigma,synthetic_n674_lcc,D3_obsWS_p0.5,100,2.564389,0.179603,2.086247,2.572271,3.135472,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,sigma_all,synthetic_n674_lcc,D3_obsWS_p0.5,100,2.628846,0.184472,2.143492,2.637768,3.201982,,,,,WS 式重连直接作用在观测 GCC674 上，p=0.5（保 n、保 m，不保度序列）
+models,kavg,synthetic_n674_lcc,D3_obsWS_p1,100,7.409496,0.0,7.409496,7.409496,7.409496,7.409496,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,kmax,synthetic_n674_lcc,D3_obsWS_p1,100,120.88,1.622319,118.0,121.0,124.0,119.0,0.984447,-1.1588,0.46,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,sum_deg2,synthetic_n674_lcc,D3_obsWS_p1,100,100173.78,860.434651,98276.0,100133.0,102258.0,135330.0,1.350952,40.8587,0.0,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,m,synthetic_n674_lcc,D3_obsWS_p1,100,2497.0,0.0,2497.0,2497.0,2497.0,2497.0,1.0,,1.0,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,lcc_frac,synthetic_n674_lcc,D3_obsWS_p1,100,0.989777,0.003894,0.979228,0.989614,0.998516,1.0,1.010328,2.6255,0.02,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,ncomp,synthetic_n674_lcc,D3_obsWS_p1,100,7.87,2.596248,2.0,8.0,15.0,1.0,0.127065,-2.6461,0.02,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,L,synthetic_n674_lcc,D3_obsWS_p1,100,3.054377,0.010691,3.01873,3.054643,3.078936,3.270241,1.070674,20.1905,0.0,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,diameter,synthetic_n674_lcc,D3_obsWS_p1,100,6.14,0.348735,6.0,6.0,7.0,7.0,1.140065,2.4661,0.14,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,C_lcc,synthetic_n674_lcc,D3_obsWS_p1,100,0.057673,0.005103,0.043752,0.058111,0.070604,0.278777,4.833714,43.3277,0.0,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,C_all,synthetic_n674_lcc,D3_obsWS_p1,100,0.057084,0.005056,0.043233,0.057548,0.069975,0.278777,4.883626,43.8515,0.0,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,transitivity,synthetic_n674_lcc,D3_obsWS_p1,100,0.022825,0.001723,0.018717,0.022771,0.026933,0.123604,5.415371,58.4829,0.0,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,triangles,synthetic_n674_lcc,D3_obsWS_p1,100,362.2,29.133964,291.0,361.5,434.0,2685.0,7.413031,79.7283,0.0,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,assortativity,synthetic_n674_lcc,D3_obsWS_p1,100,-0.25025,0.00955,-0.268885,-0.250735,-0.224999,-0.167874,0.670827,8.6257,0.0,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,overlap_obs,synthetic_n674_lcc,D3_obsWS_p1,100,0.032219,0.003582,0.024029,0.032038,0.04165,,,,,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,gamma,synthetic_n674_lcc,D3_obsWS_p1,100,4.872844,0.450778,3.948462,4.797347,6.371757,,,,,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,gamma_all,synthetic_n674_lcc,D3_obsWS_p1,100,4.923277,0.456437,3.983928,4.844278,6.448294,,,,,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,lambda,synthetic_n674_lcc,D3_obsWS_p1,100,1.070687,0.00375,1.062133,1.070581,1.083317,,,,,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,sigma,synthetic_n674_lcc,D3_obsWS_p1,100,4.551514,0.424891,3.672844,4.483418,5.948953,,,,,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+models,sigma_all,synthetic_n674_lcc,D3_obsWS_p1,100,4.598594,0.42993,3.705834,4.524268,6.020411,,,,,WS 式重连直接作用在观测 GCC674 上，p=1（保 n、保 m，不保度序列）
+E_health_subset,n,healthy360_in_gu676,observed_healthy360_in_gu676,1,360.0,,360.0,360.0,360.0,360.0,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,m,healthy360_in_gu676,observed_healthy360_in_gu676,1,1161.0,,1161.0,1161.0,1161.0,1161.0,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,L,healthy360_in_gu676,observed_healthy360_in_gu676,1,3.148508,,3.148508,3.148508,3.148508,3.148508,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,diameter,healthy360_in_gu676,observed_healthy360_in_gu676,1,8.0,,8.0,8.0,8.0,8.0,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,C_lcc,healthy360_in_gu676,observed_healthy360_in_gu676,1,0.311484,,0.311484,0.311484,0.311484,0.311484,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,C_all,healthy360_in_gu676,observed_healthy360_in_gu676,1,0.292449,,0.292449,0.292449,0.292449,0.292449,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,transitivity,healthy360_in_gu676,observed_healthy360_in_gu676,1,0.142948,,0.142948,0.142948,0.142948,0.142948,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,assortativity,healthy360_in_gu676,observed_healthy360_in_gu676,1,-0.203657,,-0.203657,-0.203657,-0.203657,-0.203657,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,kavg,healthy360_in_gu676,observed_healthy360_in_gu676,1,6.45,,6.45,6.45,6.45,6.45,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,lcc_frac,healthy360_in_gu676,observed_healthy360_in_gu676,1,0.938889,,0.938889,0.938889,0.938889,0.938889,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,ncomp,healthy360_in_gu676,observed_healthy360_in_gu676,1,22.0,,22.0,22.0,22.0,22.0,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,lcc_size,healthy360_in_gu676,observed_healthy360_in_gu676,1,338.0,,338.0,338.0,338.0,338.0,1.0,,,"节点集=360 个健康节点在 G676 上的诱导图（含 GCC 外的 {bm,l.bm}）；L/直径/C 在其最大分量上"
+E_health_subset,n,gcc674_healthy358,observed_healthy358,1,358.0,,358.0,358.0,358.0,358.0,1.0,,,
+E_health_subset,L,gcc674_healthy358,observed_healthy358,1,3.148508,,3.148508,3.148508,3.148508,3.148508,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,diameter,gcc674_healthy358,observed_healthy358,1,8.0,,8.0,8.0,8.0,8.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,C_lcc,gcc674_healthy358,observed_healthy358,1,0.311484,,0.311484,0.311484,0.311484,0.311484,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,C_all,gcc674_healthy358,observed_healthy358,1,0.294083,,0.294083,0.294083,0.294083,0.294083,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,transitivity,gcc674_healthy358,observed_healthy358,1,0.142948,,0.142948,0.142948,0.142948,0.142948,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,assortativity,gcc674_healthy358,observed_healthy358,1,-0.204707,,-0.204707,-0.204707,-0.204707,-0.204707,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,kavg,gcc674_healthy358,observed_healthy358,1,6.480447,,6.480447,6.480447,6.480447,6.480447,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,lcc_frac,gcc674_healthy358,observed_healthy358,1,0.944134,,0.944134,0.944134,0.944134,0.944134,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,m,gcc674_healthy358,observed_healthy358,1,1160.0,,1160.0,1160.0,1160.0,1160.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,ncomp,gcc674_healthy358,observed_healthy358,1,21.0,,21.0,21.0,21.0,21.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,lcc_size,gcc674_healthy358,observed_healthy358,1,338.0,,338.0,338.0,338.0,338.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,n,gcc674_nonleaf_all,observed_nonleaf_all,1,490.0,,490.0,490.0,490.0,490.0,1.0,,,
+E_health_subset,L,gcc674_nonleaf_all,observed_nonleaf_all,1,2.910655,,2.910655,2.910655,2.910655,2.910655,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,diameter,gcc674_nonleaf_all,observed_nonleaf_all,1,6.0,,6.0,6.0,6.0,6.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,C_lcc,gcc674_nonleaf_all,observed_nonleaf_all,1,0.398773,,0.398773,0.398773,0.398773,0.398773,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,C_all,gcc674_nonleaf_all,observed_nonleaf_all,1,0.398773,,0.398773,0.398773,0.398773,0.398773,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,transitivity,gcc674_nonleaf_all,observed_nonleaf_all,1,0.133864,,0.133864,0.133864,0.133864,0.133864,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,assortativity,gcc674_nonleaf_all,observed_nonleaf_all,1,-0.171007,,-0.171007,-0.171007,-0.171007,-0.171007,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,kavg,gcc674_nonleaf_all,observed_nonleaf_all,1,9.440816,,9.440816,9.440816,9.440816,9.440816,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,lcc_frac,gcc674_nonleaf_all,observed_nonleaf_all,1,1.0,,1.0,1.0,1.0,1.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,m,gcc674_nonleaf_all,observed_nonleaf_all,1,2313.0,,2313.0,2313.0,2313.0,2313.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,ncomp,gcc674_nonleaf_all,observed_nonleaf_all,1,1.0,,1.0,1.0,1.0,1.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,lcc_size,gcc674_nonleaf_all,observed_nonleaf_all,1,490.0,,490.0,490.0,490.0,490.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,n,gcc674_dead_removed,observed_dead_removed,1,512.0,,512.0,512.0,512.0,512.0,1.0,,,
+E_health_subset,L,gcc674_dead_removed,observed_dead_removed,1,3.09375,,3.09375,3.09375,3.09375,3.09375,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,diameter,gcc674_dead_removed,observed_dead_removed,1,8.0,,8.0,8.0,8.0,8.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,C_lcc,gcc674_dead_removed,observed_dead_removed,1,0.323539,,0.323539,0.323539,0.323539,0.323539,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,C_all,gcc674_dead_removed,observed_dead_removed,1,0.323539,,0.323539,0.323539,0.323539,0.323539,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,transitivity,gcc674_dead_removed,observed_dead_removed,1,0.137455,,0.137455,0.137455,0.137455,0.137455,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,assortativity,gcc674_dead_removed,observed_dead_removed,1,-0.168384,,-0.168384,-0.168384,-0.168384,-0.168384,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,kavg,gcc674_dead_removed,observed_dead_removed,1,8.597656,,8.597656,8.597656,8.597656,8.597656,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,lcc_frac,gcc674_dead_removed,observed_dead_removed,1,1.0,,1.0,1.0,1.0,1.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,m,gcc674_dead_removed,observed_dead_removed,1,2201.0,,2201.0,2201.0,2201.0,2201.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,ncomp,gcc674_dead_removed,observed_dead_removed,1,1.0,,1.0,1.0,1.0,1.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+E_health_subset,lcc_size,gcc674_dead_removed,observed_dead_removed,1,512.0,,512.0,512.0,512.0,512.0,1.0,,,节点集=GCC674 的显式子集诱导图；L/直径/C 在其最大分量上
+models,kavg,gcc674_rand358_lcc,rand_subgraph_n358,100,3.915698,0.48413,2.815642,3.924581,5.27933,7.409496,1.892254,7.2167,0.0,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,kmax,gcc674_rand358_lcc,rand_subgraph_n358,100,55.05,9.470182,33.0,54.5,72.0,119.0,2.161671,6.7528,0.0,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,sum_deg2,gcc674_rand358_lcc,rand_subgraph_n358,100,20586.64,5036.73322,10182.0,20615.0,35980.0,135330.0,6.573681,22.7813,0.0,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,m,gcc674_rand358_lcc,rand_subgraph_n358,100,700.91,86.659218,504.0,702.5,945.0,2497.0,3.562512,20.7259,0.0,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,lcc_frac,gcc674_rand358_lcc,rand_subgraph_n358,100,0.807486,0.042738,0.681564,0.810056,0.935754,1.0,1.238412,4.5045,0.0,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,ncomp,gcc674_rand358_lcc,rand_subgraph_n358,100,67.04,14.129216,23.0,67.0,108.0,1.0,0.014916,-4.674,0.0,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,L,gcc674_rand358_lcc,rand_subgraph_n358,100,3.474926,0.15475,3.222477,3.460903,3.952952,3.270241,0.941097,-1.3227,0.13,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,diameter,gcc674_rand358_lcc,rand_subgraph_n358,100,8.05,1.05768,7.0,8.0,11.0,7.0,0.869565,-0.9927,0.49,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,C_lcc,gcc674_rand358_lcc,rand_subgraph_n358,100,0.220701,0.028293,0.134238,0.220395,0.287532,0.278777,1.263142,2.0527,0.04,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,C_all,gcc674_rand358_lcc,rand_subgraph_n358,100,0.179024,0.026756,0.11174,0.178004,0.236933,0.278777,1.557202,3.7282,0.0,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,transitivity,gcc674_rand358_lcc,rand_subgraph_n358,100,0.125034,0.013575,0.099411,0.123671,0.161677,0.123604,0.988559,-0.1054,0.93,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,triangles,gcc674_rand358_lcc,rand_subgraph_n358,100,405.98,131.928047,152.0,381.0,822.0,2685.0,6.613626,17.2747,0.0,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,assortativity,gcc674_rand358_lcc,rand_subgraph_n358,100,-0.170526,0.031247,-0.238444,-0.171916,-0.082766,-0.167874,0.984452,0.0848,0.89,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,gamma,gcc674_rand358_lcc,rand_subgraph_n358,100,1.28522,0.177947,0.969549,1.264901,2.076731,,,,,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,gamma_all,gcc674_rand358_lcc,rand_subgraph_n358,100,1.594321,0.256727,1.176606,1.566128,2.494865,,,,,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,lambda,gcc674_rand358_lcc,rand_subgraph_n358,100,0.942888,0.040689,0.827291,0.94491,1.014822,,,,,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,sigma,gcc674_rand358_lcc,rand_subgraph_n358,100,1.369444,0.228259,0.967717,1.339911,2.405508,,,,,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,sigma_all,gcc674_rand358_lcc,rand_subgraph_n358,100,1.700116,0.323856,1.174382,1.646876,2.889839,,,,,GCC674 内均匀随机取 358 个点的诱导图（规模匹配对照，不匹配度）
+models,kavg,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,6.484413,0.060589,6.351955,6.488827,6.597765,7.409496,1.142662,15.2682,0.0,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,kmax,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,76.8,4.104691,64.0,77.0,88.0,119.0,1.549479,10.2809,0.0,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,sum_deg2,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,47194.34,1439.842586,43810.0,47253.0,50040.0,135330.0,2.867505,61.212,0.0,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,m,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,1160.71,10.845373,1137.0,1161.5,1181.0,2497.0,2.151269,123.2129,0.0,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,lcc_frac,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,0.939385,0.01339,0.907821,0.938547,0.969274,1.0,1.064526,4.5268,0.0,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,ncomp,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,22.34,4.76354,12.0,22.0,34.0,1.0,0.044763,-4.4799,0.0,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,L,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,3.129285,0.037435,3.032789,3.13159,3.204695,3.270241,1.045044,3.7653,0.0,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,diameter,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,7.04,0.709531,6.0,7.0,9.0,7.0,0.994318,-0.0564,1.0,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,C_lcc,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,0.294068,0.016482,0.259311,0.292835,0.343912,0.278777,0.947999,-0.9278,0.32,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,C_all,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,0.276272,0.014907,0.243376,0.275759,0.318935,0.278777,1.009064,0.168,0.88,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,transitivity,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,0.140871,0.004327,0.132281,0.140829,0.1548,0.123604,0.877423,-3.991,0.0,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,triangles,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,1053.3,40.418393,959.0,1054.0,1167.0,2685.0,2.549131,40.3702,0.0,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,assortativity,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,-0.186865,0.016932,-0.229839,-0.185671,-0.145421,-0.167874,0.89837,1.1216,0.23,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,gamma,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,0.950915,0.052704,0.810606,0.951994,1.075065,,,,,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,gamma_all,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,1.011966,0.054469,0.874087,1.010944,1.145457,,,,,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,lambda,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,1.045193,0.012562,1.020453,1.044275,1.078295,,,,,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,sigma,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,0.909998,0.052821,0.778307,0.910777,1.049246,,,,,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+models,sigma_all,gcc674_degreematch358_lcc,degmatch_subgraph_n358,100,0.968344,0.053308,0.839258,0.970732,1.117947,,,,,GCC674 内按度分层随机取点，逐度值节点数与 healthy358 相同（度分布匹配对照）
+C_leaf_and_path,mean_pair_distance,gcc674 内的有序点对分组,nondead512_nondead512,261632,3.073057,0.82389,1.0,3.0,6.0,3.270241,1.064166,,,该分组占全部 226801 个无序点对的 0.5768；obs_value 列=整图 L=3.2702
+C_leaf_and_path,mean_pair_distance,gcc674 内的有序点对分组,nondead512_dead162,165888,3.488281,0.7885,1.0,3.0,7.0,3.270241,0.937494,,,该分组占全部 226801 个无序点对的 0.3657；obs_value 列=整图 L=3.2702
+C_leaf_and_path,mean_pair_distance,gcc674 内的有序点对分组,dead162_dead162,26082,3.861437,0.764448,2.0,4.0,7.0,3.270241,0.846897,,,该分组占全部 226801 个无序点对的 0.0575；obs_value 列=整图 L=3.2702
+C_leaf_and_path,mean_pair_distance,gcc674 内的有序点对分组,at_least_one_nondead,191970,3.53898,0.795614,1.0,4.0,7.0,3.270241,0.924063,,,该分组占全部 226801 个无序点对的 0.4232；obs_value 列=整图 L=3.2702
+C_leaf_and_path,kavg,gcc674_dead162,group_dead162,162,1.82716,,1.0,1.0,22.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,kmax,gcc674_dead162,group_dead162,162,22.0,,1.0,1.0,22.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,n_leaves_deg1,gcc674_dead162,group_dead162,162,101.0,,1.0,1.0,22.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,share_leaves_deg1,gcc674_dead162,group_dead162,162,0.623457,,1.0,1.0,22.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,in_degree_Gd_kavg,gcc674_dead162,group_dead162,162,1.82716,2.017256,1.0,1.0,22.0,,,,,有向图 Gd 上的度（口径与无向总度不同，勿跨口径比）
+C_leaf_and_path,out_degree_Gd_kavg,gcc674_dead162,group_dead162,162,0.0,0.0,0.0,0.0,0.0,,,,,有向图 Gd 上的度（口径与无向总度不同，勿跨口径比）
+C_leaf_and_path,kavg,gcc674_healthy358,group_healthy358,358,9.539106,,1.0,4.0,119.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,kmax,gcc674_healthy358,group_healthy358,358,119.0,,1.0,4.0,119.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,n_leaves_deg1,gcc674_healthy358,group_healthy358,358,61.0,,1.0,4.0,119.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,share_leaves_deg1,gcc674_healthy358,group_healthy358,358,0.170391,,1.0,4.0,119.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,in_degree_Gd_kavg,gcc674_healthy358,group_healthy358,358,4.96648,8.237986,0.0,2.0,73.0,,,,,有向图 Gd 上的度（口径与无向总度不同，勿跨口径比）
+C_leaf_and_path,out_degree_Gd_kavg,gcc674_healthy358,group_healthy358,358,5.815642,10.81184,0.0,2.0,95.0,,,,,有向图 Gd 上的度（口径与无向总度不同，勿跨口径比）
+C_leaf_and_path,kavg,gcc674_partial149,group_partial149,149,8.577181,,1.0,5.0,92.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,kmax,gcc674_partial149,group_partial149,149,92.0,,1.0,5.0,92.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,n_leaves_deg1,gcc674_partial149,group_partial149,149,17.0,,1.0,5.0,92.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,share_leaves_deg1,gcc674_partial149,group_partial149,149,0.114094,,1.0,5.0,92.0,7.409496,,,,GCC674 上的无向度；死站出度恒为 0（CONVENTIONS §2.1），故其无向度=入度
+C_leaf_and_path,in_degree_Gd_kavg,gcc674_partial149,group_partial149,149,4.751678,6.934935,0.0,3.0,63.0,,,,,有向图 Gd 上的度（口径与无向总度不同，勿跨口径比）
+C_leaf_and_path,out_degree_Gd_kavg,gcc674_partial149,group_partial149,149,4.731544,7.437697,0.0,3.0,49.0,,,,,有向图 Gd 上的度（口径与无向总度不同，勿跨口径比）
+C_leaf_and_path,n_dead_on_nondead_nondead_shortest_path,gcc674,observed,1,61.0,,61.0,61.0,61.0,61.0,1.0,,,162 个死站里 61 个非叶子中，有 61 个位于某条非死站—非死站最短路径上（其余仅作端点）
+F_L_convention,L_lcc,gcc674 vs synthetic_n674,ER_gnp,100,3.485884,0.026829,3.420144,3.484847,3.577009,3.270241,0.938138,-8.0378,0.0,λ 的分母按同一约定取；主口径 = L_lcc（Watts-Strogatz 惯例）
+F_L_convention,L_harmonic_lcc,gcc674 vs synthetic_n674,ER_gnp,100,3.263753,0.024201,3.2052,3.260945,3.343586,3.016877,0.924358,-10.2012,0.0,λ 的分母按同一约定取；主口径 = L_lcc（Watts-Strogatz 惯例）
+F_L_convention,L_reachable_all,gcc674 vs synthetic_n674,ER_gnp,100,3.485884,0.026828,3.420144,3.484847,3.577009,3.270241,0.938138,-8.0379,0.0,λ 的分母按同一约定取；主口径 = L_lcc（Watts-Strogatz 惯例）
+F_L_convention,L_lcc,gcc674 vs synthetic_n674,ER_gnp_connected_only,67,3.484334,0.024479,3.420144,3.484782,3.542947,3.270241,0.938556,-8.7459,,仅取 67/100 个恰好连通的实例（拒绝采样条件）
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),ER_gnp,100,26.4891,3.9459,19.7009,25.4714,38.2135,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),ER_gnp,100,26.5068,3.9488,19.7009,25.547,38.2135,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),ER_gnp,100,0.9382,0.0072,0.9142,0.9384,0.9562,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),ER_gnp,100,28.2425,4.258,21.1255,27.0855,40.5663,28.2341,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),ER_gnp,100,28.2615,4.2614,21.1255,27.1662,40.5663,28.253,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),ER_gnm,100,26.0482,3.4776,18.6359,25.6787,35.4442,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),ER_gnm,100,26.0627,3.4768,18.6359,25.6977,35.4442,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),ER_gnm,100,0.941,0.0014,0.9381,0.941,0.9445,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),ER_gnm,100,27.6825,3.6974,19.7948,27.3381,37.7304,27.6824,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),ER_gnm,100,27.6978,3.6965,19.7948,27.3381,37.7304,27.6977,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),CFG_edge_switch,100,2.702,0.1647,2.389,2.6897,3.1041,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),CFG_edge_switch,100,2.7271,0.1654,2.3962,2.7059,3.132,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),CFG_edge_switch,100,1.0357,0.0063,1.0166,1.0359,1.0496,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),CFG_edge_switch,100,2.6091,0.1613,2.284,2.5941,3.0164,2.6089,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),CFG_edge_switch,100,2.6334,0.1619,2.2908,2.6145,3.0435,2.6332,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),D1_edge_shuffle_keep_degree,100,2.702,0.1647,2.389,2.6897,3.1041,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),D1_edge_shuffle_keep_degree,100,2.7271,0.1654,2.3962,2.7059,3.132,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),D1_edge_shuffle_keep_degree,100,1.0357,0.0063,1.0166,1.0359,1.0496,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),D1_edge_shuffle_keep_degree,100,2.6091,0.1613,2.284,2.5941,3.0164,2.6089,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),D1_edge_shuffle_keep_degree,100,2.6334,0.1619,2.2908,2.6145,3.0435,2.6332,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),D2a_triangle_sum_preserving,100,2.6813,0.1649,2.3526,2.6788,3.1079,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),D2a_triangle_sum_preserving,100,2.7142,0.1657,2.3809,2.7212,3.1358,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),D2a_triangle_sum_preserving,100,1.007,0.0061,0.9874,1.007,1.0223,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),D2a_triangle_sum_preserving,100,2.6626,0.1616,2.3498,2.6609,3.0695,2.6627,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),D2a_triangle_sum_preserving,100,2.6952,0.1618,2.3964,2.6998,3.0971,2.6953,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),D2b_per_node_clustering_preserving,100,0.9763,0.0065,0.9585,0.9763,0.997,0.278777,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),D2b_per_node_clustering_preserving,100,1.0,0.0,1.0,1.0,1.0,0.278777,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),D2b_per_node_clustering_preserving,100,1.0149,0.0052,1.0041,1.0156,1.026,3.270241,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),D2b_per_node_clustering_preserving,100,0.962,0.0104,0.9385,0.9609,0.9929,0.962,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),D2b_per_node_clustering_preserving,100,0.9853,0.005,0.9747,0.9847,0.9959,0.9853,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,0.278777,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,0.278777,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,3.270241,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,1.0,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0,100,1.0,0.0,1.0,1.0,1.0,1.0,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.01,100,1.0226,0.0155,0.998,1.0199,1.0934,0.278777,,,0.94,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.01,100,1.0253,0.0154,1.0034,1.0234,1.0967,0.278777,,,0.94,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.01,100,1.0034,0.0017,1.0004,1.0032,1.0099,3.270241,,,0.94,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.01,100,1.0191,0.0157,0.9918,1.0171,1.0878,1.0191,,,0.94,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.01,100,1.0218,0.0155,0.9977,1.0204,1.091,1.0218,,,0.94,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.02,100,1.0444,0.019,1.0061,1.044,1.0949,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.02,100,1.05,0.0186,1.0106,1.049,1.0998,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.02,100,1.0066,0.0026,0.9994,1.0065,1.0128,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.02,100,1.0376,0.0189,1.0002,1.0355,1.0883,1.0376,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.02,100,1.0431,0.0184,1.0046,1.0407,1.0931,1.0431,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.05,100,1.1209,0.0344,1.0472,1.1206,1.2589,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.05,100,1.1343,0.0351,1.0597,1.1352,1.2721,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.05,100,1.0159,0.0033,1.0072,1.0159,1.0242,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.05,100,1.1034,0.0339,1.0312,1.1037,1.2401,1.1034,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.05,100,1.1165,0.0344,1.0435,1.117,1.2531,1.1165,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.1,100,1.2536,0.0492,1.1503,1.2512,1.3659,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.1,100,1.2794,0.0503,1.1712,1.277,1.3969,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.1,100,1.0298,0.0039,1.0197,1.0304,1.0426,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.1,100,1.2174,0.0486,1.112,1.2148,1.3291,1.2173,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.1,100,1.2424,0.0494,1.1321,1.2422,1.3594,1.2424,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.2,100,1.5687,0.0869,1.388,1.5631,1.8077,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.2,100,1.6128,0.0908,1.4089,1.6053,1.8488,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.2,100,1.0493,0.0048,1.0305,1.0495,1.0621,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.2,100,1.495,0.0821,1.3236,1.4893,1.7165,1.495,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.2,100,1.537,0.0854,1.3435,1.5319,1.7556,1.537,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.5,100,2.7583,0.1892,2.2554,2.757,3.3402,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.5,100,2.8277,0.1948,2.3173,2.8191,3.411,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.5,100,1.0757,0.0046,1.0647,1.0761,1.0891,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.5,100,2.5644,0.1796,2.0862,2.5723,3.1355,2.5641,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p0.5,100,2.6288,0.1845,2.1435,2.6378,3.202,2.6286,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p1,100,4.8728,0.4508,3.9485,4.7973,6.3718,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p1,100,4.9233,0.4564,3.9839,4.8443,6.4483,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p1,100,1.0707,0.0038,1.0621,1.0706,1.0833,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p1,100,4.5515,0.4249,3.6728,4.4834,5.949,4.5511,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),D3_obsWS_p1,100,4.5986,0.4299,3.7058,4.5243,6.0204,4.5982,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0,100,0.4646,0.0,0.4646,0.4646,0.4646,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0,100,0.4646,0.0,0.4646,0.4646,0.4646,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0,100,0.0578,0.0,0.0578,0.0578,0.0578,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0,100,8.0393,0.0,8.0393,8.0393,8.0393,8.0393,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0,100,8.0393,0.0,8.0393,8.0393,8.0393,8.0393,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.01,100,0.4784,0.0038,0.4708,0.4782,0.4892,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.01,100,0.4784,0.0038,0.4708,0.4782,0.4892,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.01,100,0.2263,0.0304,0.1523,0.227,0.2922,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.01,100,2.151,0.2837,1.6729,2.0982,3.0913,2.1139,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.01,100,2.151,0.2837,1.6729,2.0982,3.0913,2.1139,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.02,100,0.4922,0.0044,0.4805,0.4918,0.502,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.02,100,0.4922,0.0044,0.4805,0.4918,0.502,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.02,100,0.3133,0.023,0.2486,0.311,0.3572,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.02,100,1.5785,0.1081,1.3969,1.5809,1.9328,1.5708,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.02,100,1.5785,0.1081,1.3969,1.5809,1.9328,1.5708,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.05,100,0.5384,0.0094,0.5206,0.5376,0.5628,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.05,100,0.5384,0.0094,0.5206,0.5376,0.5628,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.05,100,0.4541,0.0173,0.4144,0.4546,0.4935,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.05,100,1.1867,0.0282,1.1312,1.1813,1.2634,1.1857,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.05,100,1.1867,0.0282,1.1312,1.1813,1.2634,1.1857,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.1,100,0.6306,0.0155,0.5969,0.6304,0.6692,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.1,100,0.6306,0.0155,0.5969,0.6304,0.6692,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.1,100,0.5711,0.0129,0.5311,0.5722,0.6031,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.1,100,1.1042,0.0118,1.0759,1.1041,1.1397,1.1042,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.1,100,1.1042,0.0118,1.0759,1.1041,1.1397,1.1042,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.2,100,0.8823,0.0297,0.8151,0.8798,0.9416,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.2,100,0.8823,0.0297,0.8151,0.8798,0.9416,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.2,100,0.6854,0.0077,0.6693,0.6851,0.701,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.2,100,1.287,0.0313,1.2152,1.2868,1.3582,1.2873,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.2,100,1.287,0.0313,1.2152,1.2868,1.3582,1.2873,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.5,100,3.3843,0.2936,2.7019,3.342,4.153,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.5,100,3.3843,0.2936,2.7019,3.342,4.153,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.5,100,0.813,0.003,0.8055,0.813,0.8215,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.5,100,4.1616,0.3482,3.3472,4.1182,5.0779,4.1626,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p0.5,100,4.1616,0.3482,3.3472,4.1182,5.0779,4.1626,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p1,100,39.9872,7.9632,25.0065,39.2809,64.4436,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p1,100,39.9872,7.9632,25.0065,39.2809,64.4436,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p1,100,0.8462,0.0012,0.8431,0.8462,0.8494,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p1,100,47.2534,9.3968,29.5852,46.4769,76.1023,47.2563,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k6_p1,100,47.2534,9.3968,29.5852,46.4769,76.1023,47.2563,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0,100,0.4337,0.0,0.4337,0.4337,0.4337,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0,100,0.4337,0.0,0.4337,0.4337,0.4337,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0,100,0.0768,0.0,0.0768,0.0768,0.0768,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0,100,5.6441,0.0,5.6441,5.6441,5.6441,5.6441,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0,100,5.6441,0.0,5.6441,5.6441,5.6441,5.6441,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.01,100,0.4464,0.0025,0.4391,0.4466,0.4524,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.01,100,0.4464,0.0025,0.4391,0.4466,0.4524,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.01,100,0.3182,0.0299,0.1967,0.3224,0.3744,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.01,100,1.4164,0.1463,1.2075,1.3846,2.232,1.403,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.01,100,1.4164,0.1463,1.2075,1.3846,2.232,1.403,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.02,100,0.4595,0.0036,0.4452,0.4595,0.4682,0.278777,,,0.98,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.02,100,0.4595,0.0036,0.4452,0.4595,0.4682,0.278777,,,0.98,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.02,100,0.4225,0.0232,0.3161,0.4248,0.4724,3.270241,,,0.98,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.02,100,1.0904,0.0564,0.9883,1.0839,1.4083,1.0874,,,0.98,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.02,100,1.0904,0.0564,0.9883,1.0839,1.4083,1.0874,,,0.98,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.05,100,0.5031,0.0059,0.4849,0.5035,0.5182,0.278777,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.05,100,0.5031,0.0059,0.4849,0.5035,0.5182,0.278777,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.05,100,0.5759,0.0141,0.5344,0.5762,0.6105,3.270241,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.05,100,0.8739,0.0133,0.8426,0.8741,0.9105,0.8736,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.05,100,0.8739,0.0133,0.8426,0.8741,0.9105,0.8736,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.1,100,0.5878,0.0124,0.5585,0.5872,0.6291,0.278777,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.1,100,0.5878,0.0124,0.5585,0.5872,0.6291,0.278777,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.1,100,0.6933,0.0108,0.6616,0.6928,0.7212,3.270241,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.1,100,0.8477,0.0075,0.831,0.8467,0.8726,0.8477,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.1,100,0.8477,0.0075,0.831,0.8467,0.8726,0.8477,,,0.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.2,100,0.829,0.0276,0.7528,0.828,0.8985,0.278777,,,0.85,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.2,100,0.829,0.0276,0.7528,0.828,0.8985,0.278777,,,0.85,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.2,100,0.8082,0.0066,0.7895,0.8081,0.8288,3.270241,,,0.85,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.2,100,1.0256,0.0265,0.9535,1.0235,1.0841,1.0258,,,0.85,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.2,100,1.0256,0.0265,0.9535,1.0235,1.0841,1.0258,,,0.85,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.5,100,3.1138,0.1982,2.6684,3.1118,3.6667,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.5,100,3.1138,0.1982,2.6684,3.1118,3.6667,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.5,100,0.9362,0.0023,0.9291,0.9364,0.9408,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.5,100,3.3257,0.2048,2.8597,3.3243,3.9004,3.3261,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p0.5,100,3.3257,0.2048,2.8597,3.3243,3.9004,3.3261,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p1,100,26.3881,2.9626,19.956,26.2057,34.1076,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,gamma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p1,100,26.3881,2.9626,19.956,26.2057,34.1076,0.278777,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,lambda,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p1,100,0.9684,0.0008,0.9667,0.9683,0.9702,3.270241,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,sigma,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p1,100,27.2495,3.0539,20.6327,27.0648,35.2275,27.2501,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value 列 = sigma(均值之比)；下标 i 逐实例
+C_sigma,sigma_all,gcc674(obs) vs synthetic_n674_lcc(model),WS_k8_p1,100,27.2495,3.0539,20.6327,27.0648,35.2275,27.2501,,,1.0,p_two_sided 列 = P(sigma_i>1)；obs_value=观测值
+C_sigma,log_excess_clustering_total,gcc674 vs synthetic_n674_lcc,ER_gnp -> CFG_edge_switch -> observed,100,3.256,,,,,,,,,对数分解 share_deg+share_res=1（恒等式，已断言）
+C_sigma,log_share_reproduced_by_degree_sequence,gcc674 vs synthetic_n674_lcc,ER_gnp -> CFG_edge_switch -> observed,100,0.6958,,,,,,,,,对数分解 share_deg+share_res=1（恒等式，已断言）
+C_sigma,log_share_residual_beyond_degree_sequence,gcc674 vs synthetic_n674_lcc,ER_gnp -> CFG_edge_switch -> observed,100,0.3042,,,,,,,,,对数分解 share_deg+share_res=1（恒等式，已断言）

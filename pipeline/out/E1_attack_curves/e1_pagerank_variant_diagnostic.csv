@@ -1,0 +1,21 @@
+﻿variant,gcc_pct_at_f10,gcc_pct_at_f20,gcc_pct_at_f30,contract_pct,max_abs_diff_pp
+A_pagerank_directed_weighted_[§5主口径],76.85,57.72,32.94,76.3/55.8/38.3,5.36
+B_pagerank_undirected_binary_[§5'无权无向'],55.19,3.56,0.59,66.2/41.5/12.5,37.94
+C_pagerank_undirected_weighted,63.5,35.01,10.39,,
+D_pagerank_directed_unweighted,76.85,57.72,32.94,,
+E_strength_undirected_weighted,71.22,39.91,5.04,,
+F_degree_undirected_binary,57.57,4.45,1.04,,
+B_sweep_alpha=0.50 undirected binary (rank on 674),52.82,6.68,0.89,,
+A_sweep_alpha=0.50 directed weighted (rank on 674),73.74,56.38,32.64,,
+B_sweep_alpha=0.70 undirected binary (rank on 674),54.9,4.01,0.59,,
+A_sweep_alpha=0.70 directed weighted (rank on 674),74.48,57.57,32.05,,
+B_sweep_alpha=0.85 undirected binary (rank on 674),55.19,3.56,0.59,,
+A_sweep_alpha=0.85 directed weighted (rank on 674),76.85,57.72,32.94,,
+B_sweep_alpha=0.90 undirected binary (rank on 674),55.64,3.41,0.74,,
+A_sweep_alpha=0.90 directed weighted (rank on 674),76.85,57.27,33.09,,
+B_sweep_alpha=0.95 undirected binary (rank on 674),55.93,3.41,0.74,,
+A_sweep_alpha=0.95 directed weighted (rank on 674),77.0,57.57,33.53,,
+B_sweep_rank_on_676 undirected binary,55.19,3.56,0.59,,
+A_sweep_rank_on_676 directed weighted,76.85,57.72,33.09,,
+B_sweep_rank_on_671 undirected binary,55.19,3.56,0.59,,
+A_sweep_rank_on_671 directed weighted,76.85,57.72,33.38,,

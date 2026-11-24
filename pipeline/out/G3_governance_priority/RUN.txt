@@ -1,0 +1,22 @@
+G3_governance_priority RUN.txt
+command: cd pipeline && PYTHONHASHSEED=0 python out/G3_governance_priority/run_g3.py
+versions: {'python': '3.12.15', 'networkx': '3.6.1', 'pandas': '3.0.2', 'numpy': '2.4.4', 'SEED': 20261113, 'PYTHONHASHSEED': '0'}
+wall_time_s: 125.64
+SEED = 20261113 ; np.random.default_rng(SEED) ; PYTHONHASHSEED=0
+random equal-k null reps: 200 per scenario (CONVENTIONS §6 requires >=100)
+quick_mode: False
+anchors: csa_common.assert_anchors() 31/31 PASS (run_g3.py:L89)
+inputs: csa_common.build_all() + ../G2_single_point_failure/g2_single_removal_full.csv (+ G2_summary.json thresholds) + ../G1_risk_matrix/g1_nodes_scored.csv (quadrant cross-tab)
+universe: attributed=671 gcc=674 pair_denom=453602 (dead=162 true=129 false=32 amb=1 partial=149 healthy=360)
+classes: {'下线': 123, '修复': 121, '保护': 86, '监控': 5, '排除_假失效BC': 32, '排除_待判G': 1, '未分类': 303}
+unclassified: 303 (45.16% of 671)
+thresholds: T_id=2 relay_lt=-0.0001 pairs_lost_gt=0 pct_cut=0.95
+kernel: batch scenario() validated vs csa_common.eff_three (baseline exact, random batches max|diff|=9.336e-13)
+offline proof: pairs_lost_beyond_mechanical=0 survivor_pairs_lost=0 max_dist_increase=0 |dE_fixed vs mechanical|=1.665e-16 gcc_drop==k_in_gcc=True
+offline vs equal-k random: E_fixed 0.2327 vs 0.1956+-0.0096 (n=200), +18.96%
+true-fail vs equal-k random: E_fixed 0.2280 vs 0.1891+-0.0092 (n=200)
+doc 2.3 cross-check (delete 162 dead): max abs diff 4.152e-05
+timing: D0=0.21s base=2.72s val=6.44s nulls=112.45s total=125.64s (per scenario 0.281s)
+banned-word self-check §7: PASS
+outputs: g3_classified_nodes.csv g3_class_summary.csv g3_class_members.csv g3_scenario_summary.csv g3_null_random_k*.csv g3_repair_matched_strata.csv g3_repair_benefit_bracket.csv g3_rule_overlap.csv g3_threshold_sensitivity_*.csv g3_unclassified_*.csv g3_class_x_g1quadrant.csv g3_kernel_validation.csv G3_summary.json result.md RUN.txt
+scope note: recommendations only; every removal is a graph scenario simulation on the static snapshot, never an operation on a live system.

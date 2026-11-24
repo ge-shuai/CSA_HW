@@ -1,0 +1,35 @@
+[E1] anchors + build ...
+[E1] baseline n0=674 m0=2497 pairset=PairSet(n0=674, ordered_pairs=453602)
+[E1] degree       rank=  0.00s run=  28.5s  GCC%@10/20/30% =  57.6   4.5   1.0
+[E1] betweenness  rank=  2.59s run=  28.3s  GCC%@10/20/30% =  54.3  13.2   0.9
+[E1] pagerank_dw  rank=  1.24s run=  56.6s  GCC%@10/20/30% =  76.9  57.7  32.9
+[E1] pagerank_uu  rank=  0.01s run=  30.8s  GCC%@10/20/30% =  55.2   3.6   0.6
+[E1] kcore        rank=  0.01s run=  36.2s  GCC%@10/20/30% =  67.8  28.5   6.2
+[E1] PageRank variant diagnostic (static, GCC%% of 674):
+                                           variant  gcc_pct_at_f10  gcc_pct_at_f20  gcc_pct_at_f30   contract_pct  max_abs_diff_pp
+              A_pagerank_directed_weighted_[§5主口径]           76.85           57.72           32.94 76.3/55.8/38.3             5.36
+           B_pagerank_undirected_binary_[§5'无权无向']           55.19            3.56            0.59 66.2/41.5/12.5            37.94
+                    C_pagerank_undirected_weighted           63.50           35.01           10.39            NaN              NaN
+                    D_pagerank_directed_unweighted           76.85           57.72           32.94            NaN              NaN
+                    E_strength_undirected_weighted           71.22           39.91            5.04            NaN              NaN
+                        F_degree_undirected_binary           57.57            4.45            1.04            NaN              NaN
+B_sweep_alpha=0.50 undirected binary (rank on 674)           52.82            6.68            0.89            NaN              NaN
+A_sweep_alpha=0.50 directed weighted (rank on 674)           73.74           56.38           32.64            NaN              NaN
+B_sweep_alpha=0.70 undirected binary (rank on 674)           54.90            4.01            0.59            NaN              NaN
+A_sweep_alpha=0.70 directed weighted (rank on 674)           74.48           57.57           32.05            NaN              NaN
+B_sweep_alpha=0.85 undirected binary (rank on 674)           55.19            3.56            0.59            NaN              NaN
+A_sweep_alpha=0.85 directed weighted (rank on 674)           76.85           57.72           32.94            NaN              NaN
+B_sweep_alpha=0.90 undirected binary (rank on 674)           55.64            3.41            0.74            NaN              NaN
+A_sweep_alpha=0.90 directed weighted (rank on 674)           76.85           57.27           33.09            NaN              NaN
+B_sweep_alpha=0.95 undirected binary (rank on 674)           55.93            3.41            0.74            NaN              NaN
+A_sweep_alpha=0.95 directed weighted (rank on 674)           77.00           57.57           33.53            NaN              NaN
+             B_sweep_rank_on_676 undirected binary           55.19            3.56            0.59            NaN              NaN
+             A_sweep_rank_on_676 directed weighted           76.85           57.72           33.09            NaN              NaN
+             B_sweep_rank_on_671 undirected binary           55.19            3.56            0.59            NaN              NaN
+             A_sweep_rank_on_671 directed weighted           76.85           57.72           33.38            NaN              NaN
+[E1] random reps=120 pool_wall=1528.4s rep_cpu_mean=169.2s rep_cpu_sum=20306.5s
+[E1] tiebreak runs=9 wall=107.6s
+[E1] tie-break spread: {"kcore": {"n_orderings": 5, "max_spread_pp": 7.57, "max_spread_at_step": 202, "spread_at_summary_f": {"34": 2.67, "67": 3.71, "135": 4.01, "202": 7.57, "337": 0.3}}, "degree": {"n_orderings": 2, "max_spread_pp": 8.75, "max_spread_at_step": 108, "spread_at_summary_f": {"34": 0.0, "67": 0.74, "135": 0.59, "202": 0.15, "337": 0.3}}, "betweenness": {"n_orderings": 2, "max_spread_pp": 0.3, "max_spread_at_step": 148, "spread_at_summary_f": {"34": 0.0, "67": 0.0, "135": 0.0, "202": 0.0, "337": 0.0}}}
+[E1] PageRank variant anchor: {"pagerank_dw": {"contract_pct": [76.3, 55.8, 38.3], "got_pct": [76.85, 57.72, 32.94], "max_abs_diff_pp": 5.36}, "pagerank_uu": {"contract_pct": [66.2, 41.5, 12.5], "got_pct": [55.19, 3.56, 0.59], "max_abs_diff_pp": 37.94}}
+[E1] random E_fixed increased at 0/31 checkpoint steps  (baseline E_fixed=0.3315)
+[E1] total wall 1822.7 s

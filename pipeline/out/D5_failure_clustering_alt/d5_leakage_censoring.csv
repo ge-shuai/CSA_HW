@@ -1,0 +1,6 @@
+﻿family,n_groups,groups_all_members_dead,n_nodes_in_all_dead_groups,groups_ge10_all_alive,share_nodes_in_all_dead_groups,max_group_share_err_title,groups_with_err_title_le_1,top_group,top_group_n
+R1 根域前缀,49,10,10,0,0.014903129657228018,1.0,49,APEX(裸子域),584
+C1 类别(标题规则),10,0,0,4,0.0,0.4613333333333333,10,其他,375
+C2 类别(短名token),15,0,0,0,0.0,1.0,15,其他短名,605
+M1 CMS指纹(扩展名×首段),211,39,39,1,0.05812220566318927,1.0,211,<none>/<root>,188
+M2 扩展名,11,0,0,1,0.0,1.0,11,htm,293

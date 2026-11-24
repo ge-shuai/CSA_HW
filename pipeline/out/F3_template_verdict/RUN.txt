@@ -1,0 +1,166 @@
+F3_template_verdict RUN.txt
+command: cd pipeline && PYTHONHASHSEED=0 python out/F3_template_verdict/run_f3.py
+versions: {"python": "3.12.15", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+SEED = 20261113; n_sim_rep = 250; n_perm_per_sim_rep = 199;
+  置换集合每 25 个模拟重复重新生成一次（§4：独立重复，不在同一轨迹上取点）
+planting: k 条边按 exp(beta*z(S)) 无放回投放（Gumbel top-k），k 固定为观测边数 2493（671）/ 1930（394）
+inputs: F1 sim_matrices.npz, F1 mantel_grid.csv, F2 family_edge_enrichment.csv
+双侧 p = mean(|null-mean(null)| >= |obs-mean(null)|)   [CONVENTIONS 4]
+wall time: 1619.2s
+log:
+[    0.7s] loaded F1 npz + mantel_grid.csv: N=671 elig=394 edges=2493
+[    1.0s] config 候选池: 671 口径 60000 对 / elig 口径 40000 对（重复 60000 / 0 次）
+[   17.2s] POWER er_binary S3_path_fingerprint          beta= 0.00 r=+0.0003 lift=0.003 detect=0.052+-0.014
+[   33.4s] POWER er_binary S3_path_fingerprint          beta= 0.05 r=+0.0053 lift=0.050 detect=0.692+-0.029
+[   49.5s] POWER er_binary S3_path_fingerprint          beta= 0.10 r=+0.0115 lift=0.108 detect=1.000+-0.000
+[   65.9s] POWER er_binary S3_path_fingerprint          beta= 0.15 r=+0.0176 lift=0.166 detect=1.000+-0.000
+[   82.0s] POWER er_binary S3_path_fingerprint          beta= 0.20 r=+0.0242 lift=0.229 detect=1.000+-0.000
+[   98.2s] POWER er_binary S3_path_fingerprint          beta= 0.30 r=+0.0388 lift=0.367 detect=1.000+-0.000
+[  114.4s] POWER er_binary S3_path_fingerprint          beta= 0.50 r=+0.0717 lift=0.677 detect=1.000+-0.000
+[  130.8s] POWER er_binary S3_path_fingerprint          beta= 0.75 r=+0.1171 lift=1.106 detect=1.000+-0.000
+[  146.9s] POWER er_binary S3_path_fingerprint          beta= 1.00 r=+0.1596 lift=1.507 detect=1.000+-0.000
+[  163.0s] POWER er_binary S3_path_fingerprint          beta= 1.50 r=+0.2172 lift=2.051 detect=1.000+-0.000
+[  179.1s] POWER er_binary S3_path_fingerprint          beta= 2.00 r=+0.2415 lift=2.280 detect=1.000+-0.000
+[  195.3s] POWER er_binary S1_firstseg_tokens           beta= 0.00 r=+0.0001 lift=0.001 detect=0.060+-0.015
+[  211.4s] POWER er_binary S1_firstseg_tokens           beta= 0.05 r=+0.0059 lift=0.055 detect=0.772+-0.027
+[  227.4s] POWER er_binary S1_firstseg_tokens           beta= 0.10 r=+0.0131 lift=0.123 detect=1.000+-0.000
+[  243.2s] POWER er_binary S1_firstseg_tokens           beta= 0.15 r=+0.0231 lift=0.218 detect=1.000+-0.000
+[  259.3s] POWER er_binary S1_firstseg_tokens           beta= 0.20 r=+0.0355 lift=0.335 detect=1.000+-0.000
+[  275.4s] POWER er_binary S1_firstseg_tokens           beta= 0.30 r=+0.0715 lift=0.675 detect=1.000+-0.000
+[  291.3s] POWER er_binary S1_firstseg_tokens           beta= 0.50 r=+0.2061 lift=1.946 detect=1.000+-0.000
+[  307.5s] POWER er_binary S1_firstseg_tokens           beta= 0.75 r=+0.4435 lift=4.188 detect=1.000+-0.000
+[  323.6s] POWER er_binary S1_firstseg_tokens           beta= 1.00 r=+0.5887 lift=5.559 detect=1.000+-0.000
+[  339.6s] POWER er_binary S1_firstseg_tokens           beta= 1.50 r=+0.6596 lift=6.228 detect=1.000+-0.000
+[  355.6s] POWER er_binary S1_firstseg_tokens           beta= 2.00 r=+0.6804 lift=6.425 detect=1.000+-0.000
+[  371.7s] POWER config    S3_path_fingerprint          beta= 0.00 r=-0.0060 lift=-0.056 detect=0.256+-0.028
+[  387.9s] POWER config    S3_path_fingerprint          beta= 0.05 r=-0.0015 lift=-0.014 detect=0.000+-0.000
+[  404.3s] POWER config    S3_path_fingerprint          beta= 0.10 r=+0.0035 lift=0.033 detect=0.032+-0.011
+[  420.4s] POWER config    S3_path_fingerprint          beta= 0.15 r=+0.0089 lift=0.084 detect=0.792+-0.026
+[  436.7s] POWER config    S3_path_fingerprint          beta= 0.20 r=+0.0143 lift=0.135 detect=1.000+-0.000
+[  452.8s] POWER config    S3_path_fingerprint          beta= 0.30 r=+0.0268 lift=0.253 detect=1.000+-0.000
+[  468.9s] POWER config    S3_path_fingerprint          beta= 0.50 r=+0.0564 lift=0.532 detect=1.000+-0.000
+[  485.2s] POWER config    S3_path_fingerprint          beta= 0.75 r=+0.1004 lift=0.948 detect=1.000+-0.000
+[  501.4s] POWER config    S3_path_fingerprint          beta= 1.00 r=+0.1440 lift=1.359 detect=1.000+-0.000
+[  517.6s] POWER config    S3_path_fingerprint          beta= 1.50 r=+0.2082 lift=1.966 detect=1.000+-0.000
+[  533.8s] POWER config    S3_path_fingerprint          beta= 2.00 r=+0.2377 lift=2.244 detect=1.000+-0.000
+[  550.2s] POWER config    S1_firstseg_tokens           beta= 0.00 r=+0.0208 lift=0.197 detect=1.000+-0.000
+[  566.7s] POWER config    S1_firstseg_tokens           beta= 0.05 r=+0.0275 lift=0.259 detect=1.000+-0.000
+[  582.9s] POWER config    S1_firstseg_tokens           beta= 0.10 r=+0.0357 lift=0.337 detect=1.000+-0.000
+[  599.2s] POWER config    S1_firstseg_tokens           beta= 0.15 r=+0.0462 lift=0.437 detect=1.000+-0.000
+[  615.4s] POWER config    S1_firstseg_tokens           beta= 0.20 r=+0.0578 lift=0.546 detect=1.000+-0.000
+[  631.7s] POWER config    S1_firstseg_tokens           beta= 0.30 r=+0.0881 lift=0.832 detect=1.000+-0.000
+[  647.9s] POWER config    S1_firstseg_tokens           beta= 0.50 r=+0.1759 lift=1.661 detect=1.000+-0.000
+[  664.0s] POWER config    S1_firstseg_tokens           beta= 0.75 r=+0.3008 lift=2.841 detect=1.000+-0.000
+[  680.2s] POWER config    S1_firstseg_tokens           beta= 1.00 r=+0.3741 lift=3.532 detect=1.000+-0.000
+[  696.2s] POWER config    S1_firstseg_tokens           beta= 1.50 r=+0.4590 lift=4.334 detect=1.000+-0.000
+[  711.8s] POWER config    S1_firstseg_tokens           beta= 2.00 r=+0.4957 lift=4.681 detect=1.000+-0.000
+[  727.5s] POWER reweight  S3_path_fingerprint          beta= 0.00 r=-0.0010 lift=-0.053 detect=0.008+-0.006
+[  743.2s] POWER reweight  S3_path_fingerprint          beta= 0.05 r=-0.0004 lift=-0.023 detect=0.012+-0.007
+[  758.9s] POWER reweight  S3_path_fingerprint          beta= 0.10 r=-0.0002 lift=-0.009 detect=0.016+-0.008
+[  774.8s] POWER reweight  S3_path_fingerprint          beta= 0.15 r=+0.0006 lift=0.030 detect=0.040+-0.012
+[  790.5s] POWER reweight  S3_path_fingerprint          beta= 0.20 r=+0.0013 lift=0.064 detect=0.072+-0.016
+[  806.3s] POWER reweight  S3_path_fingerprint          beta= 0.30 r=+0.0026 lift=0.130 detect=0.124+-0.021
+[  822.2s] POWER reweight  S3_path_fingerprint          beta= 0.50 r=+0.0055 lift=0.279 detect=0.484+-0.032
+[  837.8s] POWER reweight  S3_path_fingerprint          beta= 0.75 r=+0.0097 lift=0.492 detect=0.996+-0.004
+[  853.5s] POWER reweight  S3_path_fingerprint          beta= 1.00 r=+0.0143 lift=0.726 detect=1.000+-0.000
+[  869.1s] POWER reweight  S3_path_fingerprint          beta= 1.50 r=+0.0211 lift=1.072 detect=1.000+-0.000
+[  884.9s] POWER reweight  S3_path_fingerprint          beta= 2.00 r=+0.0244 lift=1.242 detect=1.000+-0.000
+[  900.7s] POWER reweight  S1_firstseg_tokens           beta= 0.00 r=+0.0082 lift=0.418 detect=0.944+-0.015
+[  916.3s] POWER reweight  S1_firstseg_tokens           beta= 0.05 r=+0.0099 lift=0.505 detect=0.992+-0.006
+[  931.8s] POWER reweight  S1_firstseg_tokens           beta= 0.10 r=+0.0127 lift=0.646 detect=1.000+-0.000
+[  947.7s] POWER reweight  S1_firstseg_tokens           beta= 0.15 r=+0.0165 lift=0.839 detect=1.000+-0.000
+[  963.4s] POWER reweight  S1_firstseg_tokens           beta= 0.20 r=+0.0204 lift=1.038 detect=1.000+-0.000
+[  979.1s] POWER reweight  S1_firstseg_tokens           beta= 0.30 r=+0.0298 lift=1.516 detect=1.000+-0.000
+[  994.9s] POWER reweight  S1_firstseg_tokens           beta= 0.50 r=+0.0484 lift=2.462 detect=1.000+-0.000
+[ 1010.7s] POWER reweight  S1_firstseg_tokens           beta= 0.75 r=+0.0636 lift=3.236 detect=1.000+-0.000
+[ 1026.6s] POWER reweight  S1_firstseg_tokens           beta= 1.00 r=+0.0714 lift=3.632 detect=1.000+-0.000
+[ 1042.4s] POWER reweight  S1_firstseg_tokens           beta= 1.50 r=+0.0762 lift=3.877 detect=1.000+-0.000
+[ 1058.0s] POWER reweight  S1_firstseg_tokens           beta= 2.00 r=+0.0781 lift=3.972 detect=1.000+-0.000
+[ 1063.0s] POWER er_binary S3_path_fingerprint|elig394  beta= 0.00 r=+0.0001 lift=0.001 detect=0.068+-0.016
+[ 1068.0s] POWER er_binary S3_path_fingerprint|elig394  beta= 0.05 r=+0.0085 lift=0.053 detect=0.628+-0.031
+[ 1072.9s] POWER er_binary S3_path_fingerprint|elig394  beta= 0.10 r=+0.0178 lift=0.111 detect=1.000+-0.000
+[ 1078.0s] POWER er_binary S3_path_fingerprint|elig394  beta= 0.15 r=+0.0270 lift=0.169 detect=1.000+-0.000
+[ 1083.1s] POWER er_binary S3_path_fingerprint|elig394  beta= 0.20 r=+0.0383 lift=0.240 detect=1.000+-0.000
+[ 1088.2s] POWER er_binary S3_path_fingerprint|elig394  beta= 0.30 r=+0.0638 lift=0.399 detect=1.000+-0.000
+[ 1093.2s] POWER er_binary S3_path_fingerprint|elig394  beta= 0.50 r=+0.1283 lift=0.802 detect=1.000+-0.000
+[ 1098.3s] POWER er_binary S3_path_fingerprint|elig394  beta= 0.75 r=+0.2334 lift=1.460 detect=1.000+-0.000
+[ 1103.4s] POWER er_binary S3_path_fingerprint|elig394  beta= 1.00 r=+0.3437 lift=2.149 detect=1.000+-0.000
+[ 1108.3s] POWER er_binary S3_path_fingerprint|elig394  beta= 1.50 r=+0.5044 lift=3.154 detect=1.000+-0.000
+[ 1113.2s] POWER er_binary S3_path_fingerprint|elig394  beta= 2.00 r=+0.5731 lift=3.584 detect=1.000+-0.000
+[ 1118.2s] POWER er_binary S1_firstseg_tokens|elig394   beta= 0.00 r=-0.0005 lift=-0.003 detect=0.076+-0.017
+[ 1123.0s] POWER er_binary S1_firstseg_tokens|elig394   beta= 0.05 r=+0.0082 lift=0.051 detect=0.640+-0.030
+[ 1127.8s] POWER er_binary S1_firstseg_tokens|elig394   beta= 0.10 r=+0.0182 lift=0.114 detect=0.996+-0.004
+[ 1132.6s] POWER er_binary S1_firstseg_tokens|elig394   beta= 0.15 r=+0.0293 lift=0.183 detect=1.000+-0.000
+[ 1137.3s] POWER er_binary S1_firstseg_tokens|elig394   beta= 0.20 r=+0.0422 lift=0.264 detect=1.000+-0.000
+[ 1141.9s] POWER er_binary S1_firstseg_tokens|elig394   beta= 0.30 r=+0.0729 lift=0.456 detect=1.000+-0.000
+[ 1146.4s] POWER er_binary S1_firstseg_tokens|elig394   beta= 0.50 r=+0.1620 lift=1.013 detect=1.000+-0.000
+[ 1150.9s] POWER er_binary S1_firstseg_tokens|elig394   beta= 0.75 r=+0.3130 lift=1.958 detect=1.000+-0.000
+[ 1155.6s] POWER er_binary S1_firstseg_tokens|elig394   beta= 1.00 r=+0.4628 lift=2.894 detect=1.000+-0.000
+[ 1160.5s] POWER er_binary S1_firstseg_tokens|elig394   beta= 1.50 r=+0.6247 lift=3.907 detect=1.000+-0.000
+[ 1165.0s] POWER er_binary S1_firstseg_tokens|elig394   beta= 2.00 r=+0.6589 lift=4.121 detect=1.000+-0.000
+[ 1169.7s] POWER config    S3_path_fingerprint|elig394  beta= 0.00 r=+0.0045 lift=0.028 detect=0.076+-0.017
+[ 1174.6s] POWER config    S3_path_fingerprint|elig394  beta= 0.05 r=+0.0128 lift=0.080 detect=0.812+-0.025
+[ 1179.3s] POWER config    S3_path_fingerprint|elig394  beta= 0.10 r=+0.0215 lift=0.134 detect=0.996+-0.004
+[ 1184.2s] POWER config    S3_path_fingerprint|elig394  beta= 0.15 r=+0.0314 lift=0.196 detect=1.000+-0.000
+[ 1188.9s] POWER config    S3_path_fingerprint|elig394  beta= 0.20 r=+0.0424 lift=0.265 detect=1.000+-0.000
+[ 1193.8s] POWER config    S3_path_fingerprint|elig394  beta= 0.30 r=+0.0666 lift=0.416 detect=1.000+-0.000
+[ 1198.4s] POWER config    S3_path_fingerprint|elig394  beta= 0.50 r=+0.1270 lift=0.794 detect=1.000+-0.000
+[ 1203.1s] POWER config    S3_path_fingerprint|elig394  beta= 0.75 r=+0.2197 lift=1.374 detect=1.000+-0.000
+[ 1207.9s] POWER config    S3_path_fingerprint|elig394  beta= 1.00 r=+0.3137 lift=1.962 detect=1.000+-0.000
+[ 1212.5s] POWER config    S3_path_fingerprint|elig394  beta= 1.50 r=+0.4380 lift=2.739 detect=1.000+-0.000
+[ 1217.3s] POWER config    S3_path_fingerprint|elig394  beta= 2.00 r=+0.4775 lift=2.987 detect=1.000+-0.000
+[ 1217.3s] null calibration at beta=0: reject rates 0.052, 0.060, 0.256, 1.000, 0.008, 0.944, 0.068, 0.076, 0.076
+[ 1217.3s] NULLAUDIT er_binary S3_path_fingerprint          h0_r=+0.0003(0.0001) h0_sd=0.0020 perm_sd=0.0021 obs=-0.0061 beyond_q95=False
+[ 1217.3s] NULLAUDIT er_binary S1_firstseg_tokens           h0_r=+0.0001(0.0001) h0_sd=0.0021 perm_sd=0.0021 obs=+0.0419 beyond_q95=True
+[ 1217.3s] NULLAUDIT config    S3_path_fingerprint          h0_r=-0.0060(0.0001) h0_sd=0.0018 perm_sd=0.0037 obs=-0.0061 beyond_q95=False
+[ 1217.3s] NULLAUDIT config    S1_firstseg_tokens           h0_r=+0.0208(0.0002) h0_sd=0.0025 perm_sd=0.0032 obs=+0.0419 beyond_q95=True
+[ 1217.3s] NULLAUDIT reweight  S3_path_fingerprint          h0_r=-0.0010(0.0001) h0_sd=0.0017 perm_sd=0.0025 obs=-0.0061 beyond_q95=False
+[ 1217.3s] NULLAUDIT reweight  S1_firstseg_tokens           h0_r=+0.0082(0.0002) h0_sd=0.0038 perm_sd=0.0023 obs=+0.0419 beyond_q95=True
+[ 1217.3s] NULLAUDIT er_binary S3_path_fingerprint|elig394  h0_r=+0.0001(0.0002) h0_sd=0.0036 perm_sd=0.0036 obs=+nan beyond_q95=False
+[ 1217.3s] NULLAUDIT er_binary S1_firstseg_tokens|elig394   h0_r=-0.0005(0.0002) h0_sd=0.0038 perm_sd=0.0036 obs=+nan beyond_q95=False
+[ 1217.3s] NULLAUDIT config    S3_path_fingerprint|elig394  h0_r=+0.0045(0.0002) h0_sd=0.0036 perm_sd=0.0048 obs=+nan beyond_q95=False
+[ 1218.1s] COND S1_firstseg_tokens r_within_edges=+0.0465 z=+2.54 p=0.0302
+[ 1218.1s] COND S2_extension_mix   r_within_edges=-0.0053 z=-0.36 p=0.8995
+[ 1218.1s] COND S3_path_fingerprint r_within_edges=+0.0226 z=+1.10 p=0.2211
+[ 1230.8s] REQ k=  2493 (1.0x) beta=0.05 r=+0.0054 lift=0.051 detect=0.710
+[ 1243.2s] REQ k=  2493 (1.0x) beta=0.10 r=+0.0110 lift=0.104 detect=1.000
+[ 1255.9s] REQ k=  2493 (1.0x) beta=0.20 r=+0.0244 lift=0.230 detect=1.000
+[ 1268.4s] REQ k=  2493 (1.0x) beta=0.35 r=+0.0467 lift=0.441 detect=1.000
+[ 1280.9s] REQ k=  2493 (1.0x) beta=0.60 r=+0.0900 lift=0.850 detect=1.000
+[ 1293.6s] REQ k=  2493 (1.0x) beta=1.00 r=+0.1597 lift=1.508 detect=1.000
+[ 1306.2s] REQ k=  5000 (2.0x) beta=0.05 r=+0.0080 lift=0.053 detect=0.945
+[ 1318.9s] REQ k=  5000 (2.0x) beta=0.10 r=+0.0159 lift=0.105 detect=1.000
+[ 1331.5s] REQ k=  5000 (2.0x) beta=0.20 r=+0.0343 lift=0.227 detect=1.000
+[ 1344.1s] REQ k=  5000 (2.0x) beta=0.35 r=+0.0660 lift=0.438 detect=1.000
+[ 1356.7s] REQ k=  5000 (2.0x) beta=0.60 r=+0.1264 lift=0.838 detect=1.000
+[ 1369.4s] REQ k=  5000 (2.0x) beta=1.00 r=+0.2248 lift=1.491 detect=1.000
+[ 1382.3s] REQ k= 10000 (4.0x) beta=0.05 r=+0.0110 lift=0.051 detect=1.000
+[ 1395.0s] REQ k= 10000 (4.0x) beta=0.10 r=+0.0224 lift=0.104 detect=1.000
+[ 1408.0s] REQ k= 10000 (4.0x) beta=0.20 r=+0.0480 lift=0.222 detect=1.000
+[ 1420.9s] REQ k= 10000 (4.0x) beta=0.35 r=+0.0921 lift=0.427 detect=1.000
+[ 1433.7s] REQ k= 10000 (4.0x) beta=0.60 r=+0.1767 lift=0.819 detect=1.000
+[ 1446.8s] REQ k= 10000 (4.0x) beta=1.00 r=+0.3144 lift=1.457 detect=1.000
+[ 1459.7s] REQ k= 25000 (10.0x) beta=0.05 r=+0.0171 lift=0.048 detect=1.000
+[ 1472.6s] REQ k= 25000 (10.0x) beta=0.10 r=+0.0356 lift=0.101 detect=1.000
+[ 1485.7s] REQ k= 25000 (10.0x) beta=0.20 r=+0.0752 lift=0.213 detect=1.000
+[ 1498.6s] REQ k= 25000 (10.0x) beta=0.35 r=+0.1426 lift=0.403 detect=1.000
+[ 1511.5s] REQ k= 25000 (10.0x) beta=0.60 r=+0.2687 lift=0.760 detect=1.000
+[ 1524.6s] REQ k= 25000 (10.0x) beta=1.00 r=+0.4720 lift=1.334 detect=1.000
+[ 1537.8s] REQ k= 50000 (20.1x) beta=0.05 r=+0.0241 lift=0.045 detect=1.000
+[ 1550.9s] REQ k= 50000 (20.1x) beta=0.10 r=+0.0494 lift=0.092 detect=1.000
+[ 1563.8s] REQ k= 50000 (20.1x) beta=0.20 r=+0.1035 lift=0.194 detect=1.000
+[ 1577.1s] REQ k= 50000 (20.1x) beta=0.35 r=+0.1931 lift=0.361 detect=1.000
+[ 1590.3s] REQ k= 50000 (20.1x) beta=0.60 r=+0.3501 lift=0.655 detect=1.000
+[ 1603.4s] REQ k= 50000 (20.1x) beta=1.00 r=+0.5734 lift=1.072 detect=1.000
+[ 1603.4s] REQSUM k=  2493 (1.0x) 可检 r@80%=0.00717
+[ 1603.4s] REQSUM k=  5000 (2.0x) 可检 r@80%=0.00801
+[ 1603.4s] REQSUM k= 10000 (4.0x) 可检 r@80%=0.01103
+[ 1603.4s] REQSUM k= 25000 (10.0x) 可检 r@80%=0.01714
+[ 1603.4s] REQSUM k= 50000 (20.1x) 可检 r@80%=0.02413
+[ 1609.7s] 衰减校正参照 r：S1=+0.04190, S3=-0.00605
+[ 1611.3s] DEPTH cap= 2 atten=0.350  r_true=0.5045 -> r_meas=0.1764
+[ 1612.9s] DEPTH cap= 3 atten=0.340  r_true=0.5048 -> r_meas=0.1716
+[ 1614.5s] DEPTH cap= 5 atten=0.358  r_true=0.5047 -> r_meas=0.1809
+[ 1616.0s] DEPTH cap=10 atten=0.518  r_true=0.5046 -> r_meas=0.2614
+[ 1617.6s] DEPTH cap=15 atten=0.737  r_true=0.5052 -> r_meas=0.3721
+[ 1619.2s] DEPTH cap=20 atten=1.000  r_true=0.5049 -> r_meas=0.5049

@@ -1,0 +1,120 @@
+{
+  "module": "A2_small_world",
+  "SEED": 20261113,
+  "N_INST": 100,
+  "N_CFG": 100,
+  "WS_KS": [
+    6,
+    8
+  ],
+  "WS_PS": [
+    0.0,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "obs": {
+    "n": 674.0,
+    "m": 2497.0,
+    "kavg": 7.409496,
+    "kmax": 119.0,
+    "sum_deg2": 135330.0,
+    "ncomp": 1.0,
+    "lcc_size": 674.0,
+    "lcc_frac": 1.0,
+    "n_isolated": 0.0,
+    "L": 3.270241,
+    "diameter": 7.0,
+    "C_lcc": 0.278777,
+    "C_all": 0.278777,
+    "transitivity": 0.123604,
+    "triangles": 2685.0,
+    "triples": 65168.0,
+    "assortativity": -0.167874
+  },
+  "obs676": {
+    "n": 676.0,
+    "m": 2498.0,
+    "kavg": 7.390533,
+    "kmax": 119.0,
+    "sum_deg2": 135332.0,
+    "ncomp": 2.0,
+    "lcc_size": 674.0,
+    "lcc_frac": 0.997041,
+    "n_isolated": 0.0,
+    "L": 3.270241,
+    "diameter": 7.0,
+    "C_lcc": 0.278777,
+    "C_all": 0.277952,
+    "transitivity": 0.123604,
+    "triangles": 2685.0,
+    "triples": 65168.0,
+    "assortativity": -0.167448
+  },
+  "obs671": {
+    "n": 671.0,
+    "m": 2493.0,
+    "kavg": 7.4307,
+    "kmax": 119.0,
+    "sum_deg2": 134964.0,
+    "ncomp": 2.0,
+    "lcc_size": 669.0,
+    "lcc_frac": 0.997019,
+    "n_isolated": 0.0,
+    "L": 3.265268,
+    "diameter": 7.0,
+    "C_lcc": 0.280939,
+    "C_all": 0.280101,
+    "transitivity": 0.123944,
+    "triangles": 2685.0,
+    "triples": 64989.0,
+    "assortativity": -0.166767
+  },
+  "cfg_csa_common": {
+    "obs": 0.2787765676403075,
+    "null_mean": 0.10354792374005788,
+    "null_sd": 0.006227683983429451,
+    "z": 28.137048117164575,
+    "p_two_sided": 0.0,
+    "n_reps": 100,
+    "note": "edge-switching is not an exactly uniform sampler (Viger & Latapy 2005)"
+  },
+  "cfg_lambda_csa_common_30reps": {
+    "obs": 3.2702413128689907,
+    "null_mean": 3.1581315048377037,
+    "null_sd": 0.01987447840876796,
+    "z": 5.6408930954297585,
+    "p_two_sided": 0.0
+  },
+  "er_p": 0.011009651632929308,
+  "dead_in_gcc": 162,
+  "healthy_in_gcc": 358,
+  "partial_in_gcc": 149,
+  "healthy_total": 360,
+  "healthy_outside_gcc": [
+    "bm.ustc.edu.cn",
+    "l.bm.ustc.edu.cn"
+  ],
+  "leaf_deg1_in_gcc": 184,
+  "dead_leaf_deg1": 101,
+  "diam_pairs": 37,
+  "diam_pairs_with_dead_endpoint": 37,
+  "diam_pairs_both_dead": 19,
+  "overlap_with_obs_mean": {
+    "ER_gnp": 0.0,
+    "CFG_D1": 0.1174,
+    "D2a": 0.1283,
+    "D2b": 0.806
+  },
+  "share_deg": 0.6958285620569775,
+  "share_res": 0.30417143794302254,
+  "files": [
+    "C:\\Users\\bfy32\\Documents\\Qoder\\2026-11-13\\f93e4d48\\pipeline\\out\\A2_small_world\\smallworld_metrics.csv",
+    "C:\\Users\\bfy32\\Documents\\Qoder\\2026-11-13\\f93e4d48\\pipeline\\out\\A2_small_world\\smallworld_instances.csv",
+    "C:\\Users\\bfy32\\Documents\\Qoder\\2026-11-13\\f93e4d48\\pipeline\\out\\A2_small_world\\gcc674_node_profile.csv"
+  ]
+}

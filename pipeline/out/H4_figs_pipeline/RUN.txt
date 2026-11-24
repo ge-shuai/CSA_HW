@@ -1,0 +1,16 @@
+H4 · 管线口径与数据陷阱 成图单元
+上游只读：E1_attack_curves/e1_curve_efficiency.csv
+        data/anchors.csv, data/censoring_facts.csv
+        E5_observed_scenarios/scenario_metrics.csv
+        B5_hub_removal/hub_choice_sensitivity.csv
+        B4_weight_variants/weight_variant_per_seed.csv
+本单元不重算任何分析量：所有数字都是上游 CSV 的取值或 min/max 区间。
+
+图 1 h4_attack_curves：6 策略 × (GCC / E_fixed) 双面板，random 带 120 次重复的 ±sd。
+  刻意把 E_fixed 基线画成一条水平参考线：E_fixed 分母固定，点与点之间只能同 k 横比。
+图 2 h4_pipeline_flow：数据 → 清洗 → 四波分析 → 图/审计 的结构图 + 口径分层说明。
+图 3 h4_data_traps：六个陷阱卡片，每个数字标注了来源文件与列名。
+
+出图三件套：PNG 300dpi + 矢量 PDF + fig_*.csv 伴生数据表（save_fig 一次写完，缺一即抛错）。
+字体：SimHei（本机上传的 ttf 注册进服务器 fontconfig，未改 figstyle.py）。
+产物：h4_attack_curves, h4_pipeline_flow, h4_data_traps

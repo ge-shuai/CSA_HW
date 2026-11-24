@@ -1,0 +1,672 @@
+﻿node,n_seeds_scored,canonical_role,canonical_role_cn,frac_peripheral,frac_non-hub_connector,frac_non-hub_kinless,frac_provincial_hub,frac_connector_hub,frac_kinless_hub,frac_network_hub,modal_role,modal_role_cn,modal_frac,n_distinct_roles_across_seeds,canonical_kept_frac,stable_ge_70pct,agrees_with_modal,z_canonical,P_canonical,k_binary,module_id_canonical,module_size_canonical,health_state,ok_ratio_pct,in_degree
+101.lug.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.3393,0.56,5.0,10,10,healthy,100.0,2
+107.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,healthy,100.0,1
+19da.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,dead,0.0,1
+20da.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0498,0.375,4.0,9,51,healthy,100.0,4
+aacsb.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,healthy,100.0,1
+abroad.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2034,0.0,2.0,4,46,dead,0.0,2
+ada.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,0.1512,0.6562,8.0,7,71,healthy,100.0,2
+admission.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.1667,0.8333,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,2,0.1667,False,False,-0.1172,0.6111,6.0,7,71,healthy,100.0,3
+adsl.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3856,0.4444,3.0,7,71,healthy,100.0,1
+aga.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.0697,0.7811,13.0,2,18,healthy,100.0,11
+agi.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.5,2.0,9,51,partial,50.0,1
+ahiptc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3015,0.4444,3.0,16,8,healthy,100.0,2
+ahmath.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6489,0.0,2.0,21,9,healthy,100.0,2
+ahpeptidedrug.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+ai.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.1512,0.32,5.0,7,71,healthy,100.0,3
+aiethics.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1172,0.0,3.0,7,71,healthy,100.0,2
+ail.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2358,0.0,3.0,5,87,partial,92.3,2
+akl-clas.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0921,0.2449,7.0,15,18,healthy,100.0,5
+analychemlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3162,0.0,1.0,19,11,healthy,100.0,1
+animal.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0735,0.0,4.0,6,80,dead,0.0,4
+apl.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.208,0.72,5.0,13,70,partial,90.0,1
+app.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2034,0.0,2.0,4,46,partial,50.0,2
+applchem.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.8957,0.8491,26.0,9,51,healthy,100.0,5
+apst.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.4167,0.5833,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.5833,2,0.5833,False,True,-0.1103,0.6939,7.0,6,80,healthy,100.0,3
+arc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.5,2.0,9,51,dead,0.0,2
+arch.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.8333,0.1667,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.8333,2,0.8333,True,True,0.109,0.5625,8.0,5,87,healthy,100.0,4
+archive.lug.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5089,0.0,1.0,10,10,dead,0.0,1
+archsys.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,healthy,100.0,1
+arts.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0717,0.6111,6.0,0,56,partial,95.0,5
+asrc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.5,2.0,7,71,healthy,100.0,1
+assets.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+astro.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.9167,0.0833,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,0.2813,0.7083,12.0,5,87,healthy,100.0,8
+atta.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.9167,0.0833,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,0.6261,0.6224,14.0,5,87,partial,95.0,7
+auditory.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+auto.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.7301,0.6939,14.0,14,55,healthy,100.0,11
+bailab1.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+baoxiu.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1792,0.4444,3.0,0,56,healthy,100.0,3
+base.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3856,0.4444,3.0,7,71,dead,0.0,3
+bb.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.6789,0.7347,7.0,14,55,healthy,100.0,7
+bbs.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.0735,0.8533,15.0,6,80,partial,11.1,12
+bbs2.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+bbs3.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+bbs6.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+bigdata.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.4196,0.5679,9.0,7,71,healthy,100.0,4
+biocomp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,healthy,100.0,1
+biodept.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+bioinspired.sz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.8333,0.1667,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.8333,2,0.8333,True,True,0.0498,0.56,5.0,9,51,partial,20.0,1
+biomass.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+biomed.ustc.edu.cn,12,provincial_hub,行省枢纽 (provincial hub),0.0,0.0,0.0,1.0,0.0,0.0,0.0,provincial_hub,行省枢纽 (provincial hub),1.0,1,1.0,True,True,3.3811,0.5571,34.0,6,80,healthy,100.0,23
+biomems.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.9103,0.0,1.0,1,23,partial,95.0,1
+bionmr.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1103,0.0,3.0,6,80,healthy,100.0,3
+biotech.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.9167,0.0833,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.9167,2,0.9167,True,True,-0.5678,0.4444,3.0,20,28,dead,0.0,3
+biotraining.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.2573,0.449,7.0,6,80,healthy,100.0,5
+biox.ustc.edu.cn,12,provincial_hub,行省枢纽 (provincial hub),0.0,0.0,0.0,1.0,0.0,0.0,0.0,provincial_hub,行省枢纽 (provincial hub),1.0,1,1.0,True,True,4.2999,0.5062,39.0,6,80,healthy,100.0,27
+bm.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0,0.0,1.0,24,2,healthy,100.0,0
+bme.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.441,0.6612,11.0,6,80,healthy,100.0,9
+bookan.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+booking.epc-ietc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,partial,50.0,1
+booking.ipb.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,dead,0.0,2
+bs.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.8411,0.6503,23.0,15,18,healthy,100.0,15
+bsbm.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.0647,0.0,1.0,20,28,dead,0.0,1
+business.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.565,0.6843,23.0,15,18,partial,95.0,9
+bwc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.3317,0.76,10.0,9,51,healthy,100.0,4
+bwcx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2322,0.5,4.0,9,51,healthy,100.0,4
+cailab.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,0.1667,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.8333,2,0.1667,False,False,-0.2322,0.7222,6.0,9,51,healthy,100.0,1
+career.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,healthy,100.0,1
+catalog.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.3226,0.8225,26.0,0,56,healthy,100.0,26
+catalysis.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.3333,0.6667,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,2,0.6667,False,True,-0.5142,0.6667,6.0,9,51,healthy,100.0,1
+cdcb.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,partial,95.0,1
+cec.ustc.edu.cn,12,provincial_hub,行省枢纽 (provincial hub),0.0,0.0,0.0,1.0,0.0,0.0,0.0,provincial_hub,行省枢纽 (provincial hub),1.0,1,1.0,True,True,3.1623,0.5244,15.0,19,11,healthy,100.0,2
+ceni.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.5,2.0,14,55,healthy,100.0,2
+cfmath.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,1.7844,0.6111,12.0,21,9,partial,25.0,3
+cfmc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.1622,0.6875,8.0,21,9,partial,45.0,4
+cg.sz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,partial,10.0,1
+cggl.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.5,2.0,13,70,partial,50.0,1
+chat.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,healthy,100.0,1
+chaxin.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,partial,66.7,1
+chem.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.1667,0.8333,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.8333,2,0.8333,True,True,-0.5671,0.8472,12.0,1,23,healthy,100.0,8
+chemenglab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3162,0.0,1.0,19,11,healthy,100.0,1
+chenxh.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4081,0.4444,3.0,5,87,partial,66.7,2
+cicpi.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.32,5.0,13,70,dead,0.0,5
+cicpi2011.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.4444,3.0,13,70,dead,0.0,3
+cig.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.1667,0.8333,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,2,0.1667,False,False,-0.2239,0.6122,7.0,1,23,healthy,100.0,2
+cii.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.294,0.0,2.0,6,80,dead,0.0,2
+cjcp.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.1667,0.8333,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,2,0.8333,True,True,-0.4472,0.6667,3.0,3,12,partial,35.0,3
+cloud.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1792,0.0,2.0,0,56,healthy,100.0,2
+cmcec.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3162,0.0,1.0,19,11,dead,0.0,1
+cmet.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.5,2.0,6,80,dead,0.0,2
+cnki.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,healthy,100.0,1
+cnmfrdg.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,dead,0.0,1
+cnp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+combustion.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.25,0.75,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.75,2,0.75,True,True,-0.208,0.625,4.0,13,70,partial,80.0,1
+complex.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3922,0.4444,3.0,8,5,healthy,100.0,1
+contest.stuhome.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,healthy,100.0,1
+control.nsrl.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3856,0.4444,3.0,7,71,healthy,100.0,3
+coral.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5678,0.0,2.0,20,28,partial,50.0,2
+course.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4302,0.6667,3.0,0,56,dead,0.0,3
+cpst.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,dead,0.0,1
+cryobme.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.3317,0.8469,14.0,9,51,healthy,100.0,2
+cs.ustc.edu.cn,12,connector_hub,连接枢纽 (connector hub),0.0,0.0,0.0,0.0,0.1667,0.8333,0.0,kinless_hub,无亲属枢纽 (kinless hub),0.8333,2,0.1667,False,False,4.4459,0.7839,48.0,7,71,healthy,100.0,27
+csc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3162,0.5,2.0,19,11,healthy,100.0,2
+cscourse.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,healthy,100.0,1
+cslab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3856,0.5714,7.0,7,71,healthy,100.0,4
+ctld.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,healthy,100.0,2
+cwanglab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.294,0.0,2.0,6,80,healthy,100.0,1
+cwjf.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+cwwx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,healthy,100.0,1
+cwzh.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+cxcy.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,healthy,100.0,2
+cybersec.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.4167,0.5833,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.5833,2,0.4167,False,False,0.9649,0.7727,22.0,14,55,healthy,100.0,16
+cybersecurity.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,dead,0.0,1
+czlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.25,0.75,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.75,2,0.25,False,False,0.0735,0.5,6.0,6,80,healthy,100.0,2
+data-science.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.654,0.72,5.0,7,71,healthy,100.0,1
+datahall.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+dcp.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.1667,0.5,0.3333,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.5,3,0.5,False,True,0.0428,0.74,20.0,4,46,healthy,100.0,8
+degree.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2092,0.56,5.0,14,55,partial,40.0,3
+dj.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3856,0.0,2.0,7,71,partial,50.0,2
+djyszw.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.1777,0.7041,14.0,9,51,partial,95.0,12
+dm.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.4196,0.5312,8.0,7,71,healthy,100.0,3
+doc.sz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,healthy,100.0,1
+dqalpha.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.5805,0.6667,3.0,5,87,healthy,100.0,1
+drstone.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.3333,0.6667,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,2,0.3333,False,False,-0.2239,0.375,4.0,1,23,healthy,100.0,1
+dslx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.5833,0.4167,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.5833,2,0.5833,False,True,-0.4302,0.449,7.0,0,56,partial,84.6,6
+dsxt.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.6667,0.3333,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,2,0.6667,False,True,0.109,0.7495,37.0,5,87,partial,90.9,14
+dtnel.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,dead,0.0,1
+e.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,0.1667,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.8333,2,0.1667,False,False,-0.4778,0.6667,3.0,6,80,healthy,100.0,3
+eap.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.2358,0.6667,6.0,5,87,healthy,100.0,4
+earthquake.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2239,0.375,4.0,1,23,healthy,100.0,1
+ecard.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.1792,0.75,8.0,0,56,partial,40.0,7
+ecel.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.1667,0.8333,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,2,0.8333,True,True,-0.9103,0.75,4.0,1,23,healthy,100.0,1
+ecic.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.8333,0.1667,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,2,0.8333,True,True,-0.5671,0.7755,7.0,1,23,healthy,100.0,3
+edp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3682,0.2778,6.0,15,18,healthy,100.0,5
+eeis.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.9043,0.6843,23.0,14,55,healthy,100.0,15
+ef.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.1844,0.75,12.0,2,18,partial,95.0,8
+efo.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6967,0.0,2.0,2,18,healthy,100.0,2
+email.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,1.9149,0.8411,33.0,13,70,healthy,100.0,33
+emba.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0921,0.58,10.0,15,18,healthy,100.0,6
+emdp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.294,0.48,5.0,6,80,healthy,100.0,3
+employment.ustc.edu.cn,12,kinless_hub,无亲属枢纽 (kinless hub),0.0,0.0,0.0,0.0,0.0,1.0,0.0,kinless_hub,无亲属枢纽 (kinless hub),1.0,1,1.0,True,True,5.8575,0.8456,68.0,13,70,healthy,100.0,26
+emsecs.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5678,0.0,2.0,20,28,healthy,100.0,1
+en.akl-clas.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.9206,0.375,4.0,15,18,healthy,100.0,1
+en.auto.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.5,2.0,14,55,healthy,100.0,2
+en.biox.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.5,2.0,13,70,dead,0.0,2
+en.business.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.4603,0.5562,13.0,15,18,partial,90.0,9
+en.cfmc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1622,0.6122,7.0,21,9,partial,45.0,1
+en.cs.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.7617,0.642,18.0,7,71,healthy,100.0,5
+en.ess.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,0.3333,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.6667,2,0.3333,False,False,0.1194,0.6914,9.0,1,23,healthy,100.0,7
+en.gradschool.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,healthy,100.0,1
+en.hfnl.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4778,0.72,5.0,6,80,dead,0.0,5
+en.hsss.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.654,0.625,4.0,7,71,dead,0.0,4
+en.igp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+en.iif.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.5,0.5,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.5,2,0.5,False,True,-0.3682,0.8089,15.0,15,18,partial,95.0,3
+en.imnc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0953,0.375,4.0,13,70,partial,80.0,2
+en.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,2.0128,0.5536,17.0,4,46,partial,95.0,5
+en.lmmr.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0634,0.32,5.0,5,87,partial,75.0,5
+en.nhpcc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4081,0.625,4.0,5,87,partial,65.0,1
+en.np.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.071,0.375,4.0,20,28,healthy,100.0,1
+en.nsrl.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.1512,0.72,10.0,7,71,partial,95.0,4
+en.personnel.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+en.physics.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.9167,0.0833,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.9167,2,0.9167,True,True,2.3498,0.5803,29.0,5,87,healthy,100.0,7
+en.pichem.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2034,0.0,2.0,4,46,healthy,100.0,1
+en.pplab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,dead,0.0,1
+en.s4plus.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1172,0.375,4.0,7,71,healthy,100.0,1
+en.scgy.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4778,0.7755,7.0,6,80,partial,85.0,4
+en.scms.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.1667,0.75,0.0833,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.75,3,0.75,True,True,1.1432,0.7297,23.0,5,87,partial,75.0,5
+en.ses.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.208,0.6667,6.0,13,70,healthy,100.0,4
+en.sist.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.0256,0.74,10.0,14,55,partial,90.0,6
+en.sklfs.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-1.3728,0.7778,6.0,8,5,healthy,100.0,6
+en.snst.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.5,2.0,13,70,dead,0.0,2
+en.surfchem.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0,0.0,1.0,23,2,healthy,100.0,1
+en.ustc.edu.cn,12,kinless_hub,无亲属枢纽 (kinless hub),0.0,0.0,0.0,0.0,0.0,1.0,0.0,kinless_hub,无亲属枢纽 (kinless hub),1.0,1,1.0,True,True,3.9828,0.8516,63.0,4,46,healthy,100.0,41
+enbiomed.ustc.edu.cn,12,provincial_hub,行省枢纽 (provincial hub),0.0,0.0,0.0,1.0,0.0,0.0,0.0,provincial_hub,行省枢纽 (provincial hub),1.0,1,1.0,True,True,5.2187,0.3807,41.0,6,80,healthy,100.0,3
+engilab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.9167,0.0833,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.9167,2,0.9167,True,True,0.4259,0.6122,7.0,20,28,partial,50.0,6
+english-icqd.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.7071,0.0,1.0,22,3,partial,95.0,1
+env.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.5112,0.716,9.0,13,70,healthy,100.0,5
+epc-ietc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.3333,0.6667,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,2,0.6667,False,True,1.0051,0.625,12.0,13,70,healthy,100.0,1
+epsilon.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4081,0.0,2.0,5,87,dead,0.0,2
+erctst.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.4778,0.625,4.0,6,80,healthy,100.0,3
+ese.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.4778,0.6667,6.0,6,80,dead,0.0,6
+esetc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,1.6117,0.4463,11.0,13,70,partial,95.0,5
+esign.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.7071,0.625,4.0,12,3,healthy,100.0,4
+ess.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.5,0.5,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.5,2,0.5,False,True,1.1491,0.7543,17.0,1,23,healthy,100.0,14
+essetc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.5671,0.72,5.0,1,23,healthy,100.0,1
+est.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2092,0.375,4.0,14,55,dead,0.0,4
+etcis-ai.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.444,0.4444,3.0,14,55,dead,0.0,3
+etcis-web.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,2.3739,0.3765,18.0,14,55,healthy,100.0,2
+etcis.ustc.edu.cn,12,provincial_hub,行省枢纽 (provincial hub),0.0833,0.0,0.0,0.9167,0.0,0.0,0.0,provincial_hub,行省枢纽 (provincial hub),0.9167,2,0.9167,True,True,2.6088,0.5124,22.0,14,55,healthy,100.0,9
+etis.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,healthy,100.0,2
+exciton.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.5,2.0,9,51,healthy,100.0,1
+faculty-en.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.4626,0.449,7.0,1,23,healthy,100.0,3
+faculty.ustc.edu.cn,12,kinless_hub,无亲属枢纽 (kinless hub),0.0,0.0,0.25,0.0,0.0833,0.6667,0.0,kinless_hub,无亲属枢纽 (kinless hub),0.6667,3,0.6667,False,True,3.5518,0.821,59.0,1,23,healthy,100.0,53
+fanglab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5671,0.4444,3.0,1,23,healthy,100.0,3
+fanglue.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,partial,95.0,1
+fass.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2034,0.0,2.0,4,46,dead,0.0,2
+fbs.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.9206,0.6667,6.0,15,18,healthy,100.0,1
+fc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.5,6.0,7,71,partial,45.0,3
+fcisc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+felab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+fengyun.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5671,0.0,2.0,1,23,healthy,100.0,1
+file.vlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,healthy,100.0,1
+finance.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0833,0.9167,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.9167,2,0.9167,True,True,0.2605,0.8304,17.0,14,55,partial,10.0,11
+fire.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+fix.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4302,0.6667,3.0,0,56,healthy,100.0,2
+flame.nsrl.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1172,0.0,3.0,7,71,healthy,100.0,3
+fld.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,dead,0.0,1
+fpgaol.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.444,0.4444,3.0,14,55,partial,63.6,3
+fpisc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0428,0.56,5.0,4,46,healthy,100.0,1
+ftp.lug.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0848,0.0,2.0,10,10,dead,0.0,2
+fusep.ustc.edu.cn,12,kinless_hub,无亲属枢纽 (kinless hub),0.0,0.0,0.0,0.0,0.3333,0.6667,0.0,kinless_hub,无亲属枢纽 (kinless hub),0.6667,2,0.6667,False,True,4.0734,0.8134,74.0,5,87,healthy,100.0,1
+fwkd.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.5,2.0,9,51,dead,0.0,2
+gateway.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+gcl.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6489,0.0,2.0,21,9,dead,0.0,2
+gclab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+gdzc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+ge.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1792,0.4444,3.0,0,56,partial,40.0,2
+geodynamics.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+gfz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,healthy,100.0,1
+git.lug.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5089,0.0,1.0,10,10,dead,0.0,1
+git.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.5089,0.6667,3.0,10,10,partial,90.0,3
+gmp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1103,0.0,3.0,6,80,dead,0.0,3
+gong.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.3333,0.6667,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.6667,2,0.6667,False,True,-0.071,0.8472,12.0,20,28,partial,95.0,2
+gonghui.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0953,0.56,5.0,13,70,healthy,100.0,3
+gradschool.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,0.9167,0.0,0.0,0.0833,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.9167,2,0.9167,True,True,2.3739,0.8845,68.0,14,55,healthy,100.0,53
+grid.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+gs.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.444,0.625,4.0,14,55,healthy,100.0,4
+gxpt.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,1.9164,0.3704,9.0,20,28,partial,14.3,3
+gyyz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.0647,0.0,1.0,20,28,dead,0.0,1
+hack.lug.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5089,0.0,1.0,10,10,partial,70.0,1
+half.nsrl.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3856,0.0,2.0,7,71,healthy,100.0,2
+hep.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+hetong.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,healthy,100.0,1
+hfip.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.5076,0.0,1.0,16,8,dead,0.0,1
+hfnl.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.9167,0.0,0.0,0.0833,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,2.0948,0.7538,37.0,6,80,healthy,100.0,34
+home.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,-0.0634,0.855,20.0,5,87,partial,65.0,17
+hospital.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0,0.4444,3.0,11,2,healthy,100.0,1
+hpb.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+hqjt.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+hr.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.6137,0.8658,23.0,9,51,partial,95.0,23
+hs.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2034,0.0,2.0,4,46,dead,0.0,2
+hsss.ustc.edu.cn,12,connector_hub,连接枢纽 (connector hub),0.0,0.0833,0.0,0.0,0.9167,0.0,0.0,connector_hub,连接枢纽 (connector hub),0.9167,2,0.9167,True,True,2.8354,0.7515,52.0,7,71,healthy,100.0,9
+hsta.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.3856,0.72,5.0,7,71,healthy,100.0,3
+huiyi.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.3333,0.6667,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,2,0.3333,False,False,0.1512,0.32,5.0,7,71,healthy,100.0,3
+hy.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.4167,0.5833,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.5833,2,0.4167,False,False,-0.3856,0.4444,3.0,7,71,healthy,100.0,3
+hzdt.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.5833,0.4167,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.5833,2,0.5833,False,True,-0.3922,0.4444,3.0,8,5,healthy,100.0,2
+hzkx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4472,0.5,2.0,3,12,healthy,100.0,2
+i.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.2605,0.8828,32.0,14,55,partial,95.0,30
+iace.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3162,0.0,1.0,19,11,healthy,100.0,1
+iai.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,1.7321,0.6667,9.0,18,4,partial,95.0,2
+iao.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.5,2.0,13,70,dead,0.0,2
+iat.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,dead,0.0,1
+iat.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.5833,0.0,0.0,0.4167,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.5833,2,0.5833,False,True,2.1391,0.7784,31.0,14,55,healthy,100.0,18
+iatauth.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5774,0.5,2.0,18,4,dead,0.0,2
+iatcw.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5774,0.0,1.0,18,4,healthy,100.0,1
+iatew.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.4167,0.5833,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.5833,2,0.5833,False,True,-0.444,0.625,4.0,14,55,partial,94.7,4
+iatxt.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.5,2.0,14,55,dead,0.0,2
+iatys.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,healthy,100.0,1
+iatyz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.4444,3.0,14,55,healthy,100.0,3
+ic.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2034,0.0,2.0,4,46,healthy,100.0,2
+ic.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.5353,0.8166,17.0,4,46,healthy,100.0,8
+icct.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.294,0.4444,3.0,6,80,healthy,100.0,2
+icctenglish.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.294,0.4444,3.0,6,80,partial,75.0,1
+icebm.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,dead,0.0,1
+iclab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,healthy,100.0,1
+icqd.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,1.4142,0.7107,11.0,22,3,partial,95.0,2
+icts.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.2813,0.2449,7.0,5,87,healthy,100.0,4
+id.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.2322,0.64,5.0,9,51,dead,0.0,5
+idp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.4444,3.0,9,51,healthy,100.0,2
+ieat.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.444,0.4444,3.0,14,55,partial,50.0,2
+if.oic.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.7816,0.4062,8.0,4,46,healthy,100.0,3
+if.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.444,0.625,4.0,14,55,healthy,100.0,1
+ifp.oic.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.5353,0.8595,22.0,4,46,healthy,100.0,2
+igonghui.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+igp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+iia.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,partial,75.0,1
+iid.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,0.4953,0.6944,12.0,14,55,healthy,100.0,2
+iif.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.7365,0.8285,27.0,15,18,healthy,100.0,12
+ilab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5678,0.0,2.0,20,28,dead,0.0,2
+imcc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.5805,0.6667,3.0,5,87,partial,90.0,3
+imicro.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.071,0.0,3.0,20,28,healthy,100.0,3
+immune.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0735,0.32,5.0,6,80,healthy,100.0,2
+imnc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0953,0.375,4.0,13,70,partial,95.0,2
+infosec.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,dead,0.0,1
+inmp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.9167,0.0833,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.9167,2,0.9167,True,True,0.1512,0.5714,7.0,7,71,healthy,100.0,3
+inorgchemlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3162,0.0,1.0,19,11,healthy,100.0,1
+institution-en.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.4626,0.0,5.0,1,23,healthy,100.0,3
+institution.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.4626,0.7467,15.0,1,23,partial,95.0,5
+ioemd.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.294,0.4444,3.0,6,80,healthy,100.0,2
+ioi.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.6248,0.5455,11.0,6,80,partial,95.0,4
+iotsec.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,healthy,100.0,1
+ipas.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+ipb.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.1667,0.8333,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,2,0.8333,True,True,0.8245,0.6446,11.0,0,56,healthy,100.0,2
+iphs.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.2573,0.0,5.0,6,80,healthy,100.0,1
+iqm.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4081,0.0,2.0,5,87,healthy,100.0,1
+ircls.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.654,0.75,4.0,7,71,healthy,100.0,1
+iru.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4081,0.0,2.0,5,87,dead,0.0,2
+isa.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.2891,0.78,10.0,4,46,healthy,100.0,5
+iscr.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+ispc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.25,0.75,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.75,2,0.75,True,True,0.2605,0.64,10.0,14,55,partial,50.0,9
+jahh.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4472,0.0,1.0,3,12,healthy,100.0,1
+jcjy.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.5574,0.5,6.0,2,18,partial,95.0,4
+jcyx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,1.5436,0.32,15.0,6,80,healthy,100.0,7
+jdhta.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,healthy,100.0,1
+jf.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,healthy,100.0,1
+jgb.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.25,0.75,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.75,2,0.75,True,True,0.8957,0.8086,18.0,9,51,partial,95.0,3
+jgdw.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.208,0.4444,3.0,13,70,partial,45.0,2
+jjb.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.3238,0.5,2.0,2,18,dead,0.0,2
+jjc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0697,0.0,3.0,2,18,partial,30.0,0
+jjcxmjl.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0697,0.0,3.0,2,18,healthy,100.0,1
+jjjc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.5678,0.625,4.0,20,28,healthy,100.0,4
+jm.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.9045,0.375,4.0,16,8,healthy,100.0,1
+job.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0833,0.9167,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.9167,2,0.9167,True,True,0.9565,0.8512,25.0,7,71,healthy,100.0,24
+jobs.sz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,healthy,100.0,1
+journal.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.5142,0.72,5.0,9,51,healthy,100.0,5
+journals.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,2.2361,0.58,10.0,3,12,healthy,100.0,1
+just.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.3856,0.64,5.0,7,71,partial,30.0,5
+justc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4472,0.6667,3.0,3,12,partial,10.0,3
+jw.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.3333,0.6667,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,2,0.3333,False,False,0.0717,0.6111,6.0,0,56,partial,75.0,5
+jwjl.cmet.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.4302,0.6667,3.0,0,56,healthy,100.0,2
+jxjy.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-1.3238,0.75,4.0,2,18,healthy,100.0,1
+jxliu.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.1667,0.8333,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,2,0.8333,True,True,-0.5805,0.6667,3.0,5,87,healthy,100.0,2
+jxzy.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.109,0.7107,11.0,5,87,healthy,100.0,4
+jz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,1.8115,0.2449,7.0,2,18,partial,35.0,3
+kccx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,dead,0.0,1
+kdelab.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.3856,0.625,4.0,7,71,partial,80.0,1
+kdfz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,1.1844,0.4082,7.0,2,18,healthy,100.0,3
+kdfzgxzx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.5574,0.0,4.0,2,18,healthy,100.0,3
+kepu.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.9103,0.6667,6.0,1,23,healthy,100.0,4
+kfsy.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.5574,0.0,4.0,2,18,healthy,100.0,3
+kid.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.5574,0.5,6.0,2,18,healthy,100.0,5
+kjc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.5,2.0,13,70,dead,0.0,2
+kp2020.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4472,0.6667,3.0,3,12,healthy,100.0,3
+ky.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4472,0.5,2.0,3,12,healthy,100.0,2
+kyb.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,2.2361,0.82,20.0,3,12,healthy,100.0,13
+kycx.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.75,0.25,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.75,2,0.25,False,False,-0.4472,0.8,5.0,3,12,healthy,100.0,2
+l.bm.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0,0.0,1.0,24,2,healthy,100.0,1
+lab.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.9167,0.0,0.0,0.0833,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,2.4132,0.6327,14.0,20,28,healthy,100.0,8
+labsafety.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.3317,0.5,6.0,9,51,partial,90.0,1
+laserbio.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2358,0.0,3.0,5,87,healthy,100.0,3
+lasm.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.25,0.75,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.75,2,0.75,True,True,0.0953,0.7347,7.0,13,70,healthy,100.0,2
+latex.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.5,2.0,5,87,dead,0.0,2
+lcd.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0735,0.0,4.0,6,80,partial,35.0,2
+lcdcb.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+lclab.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.75,0.1667,0.0833,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.75,3,0.1667,False,False,-0.2358,0.7347,7.0,5,87,healthy,100.0,1
+lcyx.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.441,0.6806,12.0,6,80,healthy,100.0,9
+ldp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.9167,0.0833,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.9167,2,0.9167,True,True,-0.2358,0.6111,6.0,5,87,partial,55.0,4
+le.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.071,0.7407,9.0,20,28,healthy,100.0,5
+leinao.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.7301,0.7378,15.0,14,55,healthy,100.0,9
+leis.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2358,0.0,3.0,5,87,healthy,100.0,1
+lfo.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0697,0.6111,6.0,2,18,healthy,100.0,4
+lianghw.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4081,0.0,2.0,5,87,partial,88.9,2
+lib.ustc.edu.cn,12,kinless_hub,无亲属枢纽 (kinless hub),0.0,0.0,0.0,0.0,0.0,1.0,0.0,kinless_hub,无亲属枢纽 (kinless hub),1.0,1,1.0,True,True,3.9828,0.8452,57.0,4,46,healthy,100.0,29
+libattery.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+lifetech.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.071,0.4898,7.0,20,28,partial,15.0,6
+linke.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.4196,0.66,10.0,7,71,healthy,100.0,4
+linux.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1792,0.5,4.0,0,56,partial,35.0,1
+lirst.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.294,0.0,2.0,6,80,dead,0.0,2
+lmbd.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,1.6117,0.4298,11.0,13,70,healthy,100.0,5
+lmmr.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.4537,0.48,10.0,5,87,partial,95.0,9
+locd.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.294,0.0,2.0,6,80,healthy,100.0,1
+lodetech.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.5833,0.4167,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.5833,2,0.5833,False,True,-0.0634,0.5,6.0,5,87,partial,75.0,2
+lqcc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.5833,0.4167,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.5833,2,0.5833,False,True,0.4537,0.562,11.0,5,87,partial,95.0,8
+lrmsys.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,dead,0.0,1
+lstt.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.441,0.0,6.0,6,80,healthy,100.0,2
+lswhw.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,0.1667,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.8333,2,0.1667,False,False,-0.2322,0.72,5.0,9,51,dead,0.0,5
+lt.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.5,2.0,9,51,healthy,100.0,0
+lug.ustc.edu.cn,12,network_hub,网络枢纽 (network hub),0.0,0.0,0.0,0.0,0.0,0.0,1.0,network_hub,网络枢纽 (network hub),1.0,1,1.0,True,True,2.8838,0.6925,19.0,10,10,healthy,100.0,5
+lxafs.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.3856,0.625,4.0,7,71,healthy,100.0,3
+mail.iai.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5774,0.0,1.0,18,4,healthy,100.0,1
+mail.iat.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.5,2.0,14,55,healthy,100.0,2
+mail.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.3317,0.8516,16.0,9,51,partial,25.0,16
+main.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,partial,25.0,1
+manage.faculty.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.8059,0.2449,7.0,1,23,dead,0.0,7
+mane.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.3333,0.6667,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,2,0.6667,False,True,-0.071,0.6667,6.0,20,28,healthy,100.0,5
+map.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.5,2.0,6,80,healthy,100.0,2
+marc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+marx.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4778,0.6667,3.0,6,80,healthy,100.0,2
+math.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,1.7844,0.856,27.0,21,9,healthy,100.0,15
+mba.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0921,0.4062,8.0,15,18,partial,95.0,6
+mbit.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.5,2.0,9,51,partial,95.0,1
+mccipc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,dead,0.0,1
+mcg.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,partial,94.7,1
+mcip.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,healthy,100.0,1
+mech.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.3333,0.6667,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.6667,2,0.6667,False,True,0.9227,0.825,20.0,20,28,healthy,100.0,6
+mechsalon.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.208,0.4444,3.0,13,70,dead,0.0,3
+membrane.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.5,0.5,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.5,2,0.5,False,True,-0.4081,0.4444,3.0,5,87,partial,45.0,3
+mems.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.5,2.0,7,71,dead,0.0,2
+mengo.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4778,0.6667,3.0,6,80,partial,45.0,3
+meta.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.5,2.0,9,51,healthy,100.0,1
+mf.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,1.2888,0.5,16.0,15,18,healthy,100.0,4
+micro.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2358,0.0,3.0,5,87,dead,0.0,3
+microseismic.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5671,0.0,2.0,1,23,dead,0.0,2
+mints.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.208,0.0,2.0,13,70,dead,0.0,2
+miracle.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,partial,95.0,1
+mirrors.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0848,0.4444,3.0,10,10,partial,10.0,3
+mis.sse.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,healthy,100.0,1
+mis.teach.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+mklcd.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0735,0.0,4.0,6,80,healthy,100.0,2
+mof.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.3333,0.6667,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.6667,2,0.6667,False,True,-0.5142,0.8194,12.0,9,51,healthy,100.0,3
+moocs.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,dead,0.0,1
+mozi.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.5,2.0,6,80,dead,0.0,2
+mpa.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.9045,0.8333,12.0,16,8,healthy,100.0,2
+mphy.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,0.3333,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.6667,2,0.3333,False,False,0.7984,0.6782,17.0,5,87,healthy,100.0,8
+mse.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.3333,0.5833,0.0833,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.5833,3,0.5833,False,True,0.6261,0.7405,17.0,5,87,healthy,100.0,6
+museum.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,healthy,100.0,1
+nano.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.9167,0.0833,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.9167,2,0.9167,True,True,0.4259,0.6122,7.0,20,28,healthy,100.0,4
+nanowire.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,healthy,100.0,1
+nbe.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6444,0.6122,7.0,15,18,healthy,100.0,1
+ncmis.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+ncsc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+ndrc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4778,0.6667,3.0,6,80,healthy,100.0,2
+nelslip.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.25,0.75,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.75,2,0.75,True,True,0.0,0.8125,8.0,17,2,partial,95.0,7
+nercslip.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0,0.5,2.0,17,2,healthy,100.0,1
+netfee.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.1792,0.7222,6.0,0,56,dead,0.0,6
+netsecurity.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1792,0.0,2.0,0,56,healthy,100.0,2
+network.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+neurophysics.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.56,5.0,9,51,healthy,100.0,2
+news.ustc.edu.cn,12,kinless_hub,无亲属枢纽 (kinless hub),0.0,0.0,0.0,0.0,0.0,1.0,0.0,kinless_hub,无亲属枢纽 (kinless hub),1.0,1,1.0,True,True,5.4074,0.848,76.0,9,51,healthy,100.0,73
+nhpcc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.5,2.0,7,71,dead,0.0,2
+np.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.3333,0.6667,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,2,0.6667,False,True,-0.5678,0.625,4.0,20,28,healthy,100.0,2
+ns4.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,dead,0.0,1
+nsrl.ustc.edu.cn,12,connector_hub,连接枢纽 (connector hub),0.3333,0.0,0.0,0.0,0.6667,0.0,0.0,connector_hub,连接枢纽 (connector hub),0.6667,2,0.6667,False,True,3.1038,0.676,28.0,7,71,healthy,100.0,17
+nsrloa.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.4167,0.5833,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.5833,2,0.4167,False,False,-0.1172,0.375,4.0,7,71,partial,33.3,1
+nsti.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.9167,0.0833,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.9167,2,0.9167,True,True,0.3317,0.6122,7.0,9,51,partial,95.0,3
+oa.sz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,dead,0.0,1
+oa.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+oc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.4729,0.0,1.0,15,18,dead,0.0,1
+ocpa2014.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,dead,0.0,1
+oic-en.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+oic.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.7666,0.7904,25.0,4,46,healthy,100.0,19
+oj.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.444,0.0,2.0,14,55,partial,90.0,2
+oldcec.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3162,0.0,1.0,19,11,dead,0.0,1
+om.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+ooe.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.5,0.5,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.5,2,0.5,False,True,0.6261,0.5799,13.0,5,87,healthy,100.0,7
+opac.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2034,0.4444,3.0,4,46,partial,73.3,3
+opt.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2358,0.375,4.0,5,87,healthy,100.0,3
+order.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.9167,0.0833,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.9167,2,0.9167,True,True,-0.0634,0.32,5.0,5,87,partial,58.8,4
+orgchemlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3162,0.0,1.0,19,11,healthy,100.0,1
+ot.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,partial,10.0,2
+owc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.6667,0.3333,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.6667,2,0.6667,False,True,-0.208,0.6111,6.0,13,70,partial,85.0,1
+pan.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.208,0.4444,3.0,13,70,healthy,100.0,3
+paper.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4472,0.0,1.0,3,12,dead,0.0,1
+pas.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.3015,0.7222,6.0,16,8,dead,0.0,6
+passport.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,1.1844,0.8512,22.0,2,18,dead,0.0,22
+pba.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.9167,0.0833,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.9167,2,0.9167,True,True,-0.0634,0.32,5.0,5,87,healthy,100.0,4
+pcft.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4081,0.0,2.0,5,87,partial,52.6,2
+pelab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4081,0.0,2.0,5,87,dead,0.0,2
+pems.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,healthy,100.0,1
+phy-meeting.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.5,2.0,13,70,partial,50.0,2
+phys.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.9167,0.0833,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.9167,2,0.9167,True,True,1.4879,0.585,21.0,5,87,partial,95.0,6
+physics.ustc.edu.cn,12,connector_hub,连接枢纽 (connector hub),0.0,0.0,0.0,0.3333,0.6667,0.0,0.0,connector_hub,连接枢纽 (connector hub),0.6667,2,0.6667,False,True,4.5905,0.6468,54.0,5,87,healthy,100.0,24
+physics2.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+pic.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.4195,0.7347,14.0,20,28,partial,50.0,4
+pichem.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4497,0.76,10.0,4,46,healthy,100.0,5
+pics.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5678,0.0,2.0,20,28,healthy,100.0,1
+pmpi.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.25,0.75,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.75,2,0.75,True,True,0.3986,0.8359,16.0,13,70,healthy,100.0,7
+pms.cmet.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4302,0.6667,3.0,0,56,partial,12.5,3
+pnp.ustc.edu.cn,12,connector_hub,连接枢纽 (connector hub),0.0,0.0833,0.0,0.0833,0.8333,0.0,0.0,connector_hub,连接枢纽 (connector hub),0.8333,3,0.8333,True,True,2.8669,0.6399,37.0,5,87,partial,85.0,7
+po.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.8333,0.1667,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,2,0.1667,False,False,-0.5142,0.8333,6.0,9,51,partial,25.0,2
+polychemlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3162,0.0,1.0,19,11,healthy,100.0,1
+polymer.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.9167,0.0833,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.0634,0.76,10.0,5,87,healthy,100.0,6
+pop.sz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.5,2.0,9,51,partial,5.0,1
+press.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.5112,0.6667,3.0,13,70,healthy,100.0,2
+prj02.xnfz.cmet.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,healthy,100.0,1
+prj03.xnfz.cmet.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,healthy,100.0,1
+prj07.xnfz.cmet.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+prj18.xnfz.cmet.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,healthy,100.0,1
+psy.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.3856,0.72,5.0,7,71,healthy,100.0,5
+pxe.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5089,0.0,1.0,10,10,dead,0.0,1
+pyxt.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,healthy,100.0,1
+quantum-materials.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.9103,0.5,2.0,1,23,healthy,100.0,1
+quantum.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.9167,0.0833,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,0.2813,0.7347,14.0,5,87,healthy,100.0,9
+quantummatter.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0634,0.32,5.0,5,87,dead,0.0,5
+qulab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1103,0.56,5.0,6,80,partial,90.0,2
+qybx.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0833,0.9167,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.9167,2,0.9167,True,True,-0.2322,0.84,10.0,9,51,partial,80.0,1
+rccnc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,dead,0.0,1
+realtimetech.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,healthy,100.0,1
+rec.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,-0.5112,0.875,8.0,13,70,healthy,100.0,8
+renlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2358,0.0,3.0,5,87,healthy,100.0,3
+revenues.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.5,2.0,14,55,healthy,100.0,2
+ris.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4472,0.5,2.0,3,12,healthy,100.0,2
+robot.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.5,2.0,5,87,healthy,100.0,2
+roboticsbase.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1172,0.0,3.0,7,71,healthy,100.0,2
+roombooking.cmet.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.0647,0.0,1.0,20,28,healthy,100.0,1
+rwb.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.4302,0.6667,3.0,0,56,healthy,100.0,2
+s4plus.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.1172,0.6667,6.0,7,71,partial,20.0,2
+safetyse.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.5883,0.8858,17.0,8,5,healthy,100.0,7
+saids.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.1667,0.8333,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.8333,2,0.1667,False,False,0.6881,0.7449,14.0,7,71,healthy,100.0,11
+scai.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+scc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,0.3226,0.66,10.0,0,56,partial,50.0,7
+scgy.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,dead,0.0,1
+scmp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2358,0.0,3.0,5,87,partial,50.0,2
+scms.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.3333,0.5833,0.0,0.0,0.0833,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.5833,3,0.5833,False,True,0.9708,0.8549,36.0,5,87,healthy,100.0,21
+sdc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,healthy,100.0,1
+sds.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4778,0.6667,3.0,6,80,dead,0.0,3
+search.gradschool.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,dead,0.0,1
+sec.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5089,0.0,1.0,10,10,dead,0.0,1
+see.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.25,0.75,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.75,2,0.25,False,False,0.3317,0.7692,13.0,9,51,healthy,100.0,4
+seismo.training.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.208,0.0,2.0,13,70,partial,95.0,1
+service.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.7071,0.72,5.0,12,3,healthy,100.0,5
+service.ustcnet.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.5735,0.2778,6.0,0,56,healthy,100.0,1
+ses-epc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,1.0051,0.375,8.0,13,70,healthy,100.0,2
+ses.ustc.edu.cn,12,connector_hub,连接枢纽 (connector hub),0.0,0.0,0.0,0.25,0.75,0.0,0.0,connector_hub,连接枢纽 (connector hub),0.75,2,0.75,True,True,2.5215,0.7627,27.0,13,70,healthy,100.0,25
+set.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.0717,0.72,10.0,0,56,healthy,100.0,5
+sfx.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+sgas.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,partial,50.0,1
+sgy.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,-0.1103,0.8284,13.0,6,80,healthy,100.0,6
+sgyjx.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,0.5735,0.68,10.0,0,56,healthy,100.0,0
+sias.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.5,0.5,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.5,2,0.5,False,True,0.2573,0.784,18.0,6,80,partial,90.0,4
+sie.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,0.3226,0.6875,8.0,0,56,healthy,100.0,3
+sist.ustc.edu.cn,12,connector_hub,连接枢纽 (connector hub),0.0,0.0,0.0,0.0,1.0,0.0,0.0,connector_hub,连接枢纽 (connector hub),1.0,1,1.0,True,True,3.3133,0.7653,42.0,14,55,healthy,100.0,21
+sjc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0498,0.0,3.0,9,51,healthy,100.0,0
+sjds.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,healthy,100.0,1
+sklfs.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.5,0.5,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.5,2,0.5,False,True,1.5689,0.8444,15.0,8,5,partial,90.0,15
+sklpde.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.1667,0.8333,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.8333,2,0.8333,True,True,0.7019,0.8209,21.0,13,70,healthy,100.0,10
+smc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.5,2.0,5,87,dead,0.0,2
+sme.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.1667,0.8333,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.8333,2,0.1667,False,False,1.4346,0.7919,29.0,14,55,healthy,100.0,14
+smile.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.1172,0.7107,11.0,7,71,healthy,100.0,6
+snst.ustc.edu.cn,12,connector_hub,连接枢纽 (connector hub),0.0,0.1667,0.5,0.0,0.3333,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.5,3,0.3333,False,False,2.8354,0.7596,31.0,7,71,partial,90.0,11
+soa.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,dead,0.0,1
+soc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.2605,0.449,7.0,14,55,partial,95.0,1
+soe.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,1.4142,0.4444,3.0,12,3,healthy,100.0,1
+softmatter.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3856,0.0,2.0,7,71,dead,0.0,2
+software.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,dead,0.0,2
+som.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,1.565,0.8229,35.0,15,18,healthy,100.0,14
+sp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+spa.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.5,2.0,13,70,dead,0.0,2
+space.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.654,0.6667,3.0,7,71,healthy,100.0,2
+spin.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0634,0.32,5.0,5,87,partial,40.0,2
+sppm.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.9045,0.75,8.0,16,8,healthy,100.0,4
+sse.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,-0.1103,0.8194,12.0,6,80,healthy,100.0,5
+sse_en.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.56,5.0,6,80,healthy,100.0,5
+staff.ustc.edu.cn,12,kinless_hub,无亲属枢纽 (kinless hub),0.0,0.0,0.0,0.0,0.0,1.0,0.0,kinless_hub,无亲属枢纽 (kinless hub),1.0,1,1.0,True,True,3.9011,0.8403,92.0,5,87,partial,90.0,63
+start.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,healthy,100.0,1
+stc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.6881,0.7219,13.0,7,71,partial,85.0,3
+stcp.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,dead,0.0,1
+sti.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.208,0.64,5.0,13,70,partial,95.0,2
+sts.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.0256,0.7639,12.0,14,55,healthy,100.0,2
+stuhome.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.8245,0.8163,21.0,0,56,partial,30.0,15
+sum.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.9103,0.0,1.0,1,23,healthy,100.0,1
+sun.times.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,healthy,100.0,1
+sun.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1103,0.375,4.0,6,80,healthy,100.0,1
+sunlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.294,0.0,2.0,6,80,dead,0.0,2
+supercond-mag.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.5,2.0,6,80,dead,0.0,2
+surfchem.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.25,0.75,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.75,2,0.75,True,True,0.0,0.7222,6.0,23,2,healthy,100.0,6
+suzichan.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,healthy,100.0,1
+sxso-dlsr-2.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,dead,0.0,1
+sylx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4472,0.0,1.0,3,12,partial,10.0,1
+sylxzwh.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.0647,0.0,1.0,20,28,dead,0.0,1
+synbio.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,dead,0.0,1
+sysaq.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,healthy,100.0,2
+sz.ustc.edu.cn,12,connector_hub,连接枢纽 (connector hub),0.0,0.0,0.1667,0.0,0.8333,0.0,0.0,connector_hub,连接枢纽 (connector hub),0.8333,2,0.8333,True,True,2.8696,0.7539,29.0,9,51,healthy,100.0,11
+szjy.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,dead,0.0,1
+tam.cmet.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,healthy,100.0,2
+tc441.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.208,0.0,2.0,13,70,healthy,100.0,2
+tcc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4081,0.4444,3.0,5,87,healthy,100.0,1
+tcpe.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+teach.ustc.edu.cn,12,kinless_hub,无亲属枢纽 (kinless hub),0.0,0.0,0.0,0.0,0.0,1.0,0.0,kinless_hub,无亲属枢纽 (kinless hub),1.0,1,1.0,True,True,6.0938,0.8792,119.0,0,56,healthy,100.0,51
+team-en.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.4626,0.0,5.0,1,23,healthy,100.0,3
+team.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.3333,0.6667,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.6667,2,0.6667,False,True,1.1491,0.8129,23.0,1,23,healthy,100.0,13
+techtrans.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,partial,65.0,0
+teht.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,healthy,100.0,1
+thesis-submit.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2034,0.0,2.0,4,46,healthy,100.0,2
+thinfilm.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+tisc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.9045,0.56,5.0,16,8,healthy,100.0,1
+tj.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,0.0717,0.7347,7.0,0,56,healthy,100.0,5
+tjlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.5,2.0,13,70,healthy,100.0,1
+tqm.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,healthy,100.0,2
+tqms.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,0.9565,0.8642,27.0,7,71,healthy,100.0,5
+tsee.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.9149,0.7202,19.0,13,70,healthy,100.0,7
+tsfl.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,healthy,100.0,1
+ty.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,dead,0.0,1
+tzb.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.208,0.4444,3.0,13,70,healthy,100.0,1
+ucas.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.3238,0.0,1.0,2,18,dead,0.0,1
+ugs.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.3263,0.7535,19.0,0,56,healthy,100.0,5
+ultrafast.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.7071,0.0,1.0,22,3,dead,0.0,1
+ustc-bj.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.444,0.0,2.0,14,55,healthy,100.0,0
+ustc-mpa.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.5076,0.0,1.0,16,8,dead,0.0,1
+ustcnet.ustc.edu.cn,12,connector_hub,连接枢纽 (connector hub),0.0,0.0,0.0,0.0833,0.9167,0.0,0.0,connector_hub,连接枢纽 (connector hub),0.9167,2,0.9167,True,True,2.8318,0.6389,24.0,0,56,partial,20.0,9
+ustcnet1.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.4729,0.0,1.0,15,18,dead,0.0,1
+v.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,dead,0.0,1
+vceb.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.2573,0.449,7.0,6,80,healthy,100.0,2
+vcec.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3162,0.0,1.0,19,11,healthy,100.0,1
+verilogoj.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.444,0.0,2.0,14,55,healthy,100.0,2
+video.cmet.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,partial,66.7,1
+video.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+vim.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.8333,0.1667,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,2,0.8333,True,True,-0.4081,0.7778,6.0,5,87,partial,95.0,1
+virlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,1.6117,0.0,8.0,13,70,healthy,100.0,2
+vision.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.294,0.4444,3.0,6,80,healthy,100.0,2
+vista.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4497,0.75,4.0,4,46,healthy,100.0,4
+vlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.7301,0.46,10.0,14,55,partial,25.0,5
+wanggmlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.5,0.5,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.5,2,0.5,False,True,-0.4081,0.4444,3.0,5,87,partial,88.9,3
+wanglab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4778,0.0,1.0,6,80,healthy,100.0,1
+wcm.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.208,0.7778,6.0,13,70,dead,0.0,6
+webmail.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,dead,0.0,1
+webvpn.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.2034,0.0,2.0,4,46,dead,0.0,2
+weixine.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,dead,0.0,1
+welcome.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,0.8333,0.0,0.0,0.1667,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.8333,2,0.8333,True,True,2.2786,0.8366,47.0,6,80,partial,92.9,1
+wf.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.0,1.0,0,56,dead,0.0,1
+wfo.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,healthy,100.0,1
+wfst.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.9167,0.0833,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.9167,2,0.9167,True,True,-0.4081,0.4444,3.0,5,87,partial,50.0,2
+wlkt.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.654,0.6667,6.0,7,71,healthy,100.0,5
+wlt.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.1792,0.64,5.0,0,56,healthy,100.0,5
+wlys.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.4537,0.3704,9.0,5,87,partial,20.0,2
+woc-lab.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.0634,0.74,10.0,5,87,healthy,100.0,1
+wp.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,0.75,0.0,0.1667,0.0833,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.75,3,0.75,True,True,2.4132,0.8724,33.0,20,28,partial,5.0,33
+wpsearch.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,0.8333,0.0,0.0,0.1667,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.8333,2,0.8333,True,True,0.9227,0.9049,89.0,20,28,healthy,100.0,1
+wsbl.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.444,0.4444,3.0,14,55,healthy,100.0,3
+wsdx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.208,0.4444,3.0,13,70,healthy,100.0,3
+wsus.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.1355,0.0,1.0,21,9,dead,0.0,1
+wu.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4081,0.0,2.0,5,87,healthy,100.0,2
+wulab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6489,0.0,2.0,21,9,healthy,100.0,2
+wvpn.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.5805,0.625,4.0,5,87,dead,0.0,4
+wx.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,dead,0.0,1
+wxb.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.1792,0.64,5.0,0,56,healthy,100.0,1
+wyzx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.5,2.0,9,51,dead,0.0,2
+x-lab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.25,0.75,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.75,2,0.25,False,False,0.0735,0.5,6.0,6,80,healthy,100.0,2
+x.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.444,0.4444,3.0,14,55,healthy,100.0,2
+xcb.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.1777,0.6939,14.0,9,51,healthy,100.0,7
+xgyth.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.1792,0.625,4.0,0,56,healthy,100.0,4
+xiaolab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.0634,0.32,5.0,5,87,healthy,100.0,2
+xjgz.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1103,0.48,5.0,6,80,healthy,100.0,1
+xlcs.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,healthy,100.0,1
+xly.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.8333,0.1667,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.8333,2,0.8333,True,True,-0.1172,0.7347,7.0,7,71,healthy,100.0,7
+xnfz.cmet.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.0953,0.7347,7.0,13,70,partial,85.0,4
+xsfw.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.3238,0.5,2.0,2,18,healthy,100.0,2
+xspt.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.5,0.5,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.5,2,0.5,False,True,-0.2092,0.8264,11.0,14,55,partial,90.0,11
+xsxwsq.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,dead,0.0,1
+xsybxt.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,0.0,0.0,1.0,11,2,partial,70.0,1
+xuelab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.25,0.75,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.75,2,0.25,False,False,-0.1103,0.375,4.0,6,80,healthy,100.0,2
+xuncha.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5678,0.4444,3.0,20,28,partial,95.0,1
+xwsh.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.0,1.0,14,55,healthy,100.0,1
+xxgk.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0833,0.9167,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.9167,2,0.9167,True,True,0.4196,0.8594,32.0,7,71,healthy,100.0,4
+xysq.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.3238,0.0,1.0,2,18,healthy,100.0,1
+xyzd.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,dead,0.0,2
+yanlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,healthy,100.0,1
+yaolab.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.5112,0.72,5.0,13,70,healthy,100.0,1
+yaotlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3856,0.4444,3.0,7,71,healthy,100.0,3
+ycly.arch.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5805,0.0,1.0,5,87,healthy,100.0,1
+yjs.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.75,0.25,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.75,2,0.75,True,True,-0.0634,0.7769,11.0,5,87,partial,33.3,11
+yjs1.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.2322,0.64,5.0,9,51,partial,66.7,5
+yllu.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,0.3333,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.6667,2,0.3333,False,False,-0.294,0.64,5.0,6,80,healthy,100.0,4
+young.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,0.8245,0.7653,14.0,0,56,partial,81.8,13
+yqgx.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0833,0.9167,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.9167,True,True,-0.6789,0.625,4.0,14,55,partial,5.0,2
+yqzx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5678,0.4444,3.0,20,28,partial,35.0,2
+ysjt.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0833,0.9167,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.9167,2,0.9167,True,True,0.6137,0.8345,21.0,9,51,healthy,100.0,2
+yuanlai.lib.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4497,0.0,1.0,4,46,healthy,100.0,1
+yun.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6444,0.0,4.0,15,18,healthy,100.0,4
+yz.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,1.7617,0.885,51.0,7,71,healthy,100.0,30
+yz1.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.3856,0.625,4.0,7,71,healthy,100.0,3
+yzb2.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,0.6667,0.3333,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.6667,2,0.6667,False,True,-0.444,0.75,8.0,14,55,healthy,100.0,8
+zangjylab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.1103,0.0,3.0,6,80,healthy,100.0,2
+zbh.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.1622,0.75,8.0,21,9,partial,20.0,4
+zc.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.6789,0.4444,3.0,14,55,healthy,100.0,3
+zcgl.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+zcpt.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5112,0.0,1.0,13,70,dead,0.0,1
+zczx.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4302,0.5,2.0,0,56,healthy,100.0,1
+zebrafish.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.294,0.4444,3.0,6,80,healthy,100.0,3
+zgkdb.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,healthy,100.0,1
+zhanglab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.4081,0.0,2.0,5,87,partial,90.0,2
+zhanlab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.5,2.0,9,51,partial,95.0,1
+zhb.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,-0.4778,0.6667,3.0,6,80,partial,65.0,2
+zhc.ustc.edu.cn,12,non-hub_connector,非枢纽连接者 (non-hub connector),0.0,1.0,0.0,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),1.0,1,1.0,True,True,1.0051,0.7653,14.0,13,70,healthy,100.0,7
+zhdwang.ustc.edu.cn,12,peripheral,外围节点 (peripheral),0.6667,0.3333,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),0.6667,2,0.6667,False,True,-0.1172,0.375,4.0,7,71,healthy,100.0,2
+zhengxslab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,dead,0.0,1
+zhulab.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-1.0647,0.375,4.0,20,28,healthy,100.0,3
+zhusu.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.5142,0.0,1.0,9,51,healthy,100.0,1
+zongwu.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.208,0.0,2.0,13,70,healthy,100.0,1
+zsb.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.0,1.0,0.0,0.0,0.0,0.0,non-hub_kinless,非枢纽无亲属 (non-hub kinless),1.0,1,1.0,True,True,1.4933,0.8847,46.0,7,71,healthy,100.0,25
+zsfw.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.654,0.0,1.0,7,71,healthy,100.0,1
+zyxwzs.ustc.edu.cn,12,peripheral,外围节点 (peripheral),1.0,0.0,0.0,0.0,0.0,0.0,0.0,peripheral,外围节点 (peripheral),1.0,1,1.0,True,True,-0.3682,0.0,5.0,15,18,healthy,100.0,5
+zzb.ustc.edu.cn,12,non-hub_kinless,非枢纽无亲属 (non-hub kinless),0.0,0.9167,0.0833,0.0,0.0,0.0,0.0,non-hub_connector,非枢纽连接者 (non-hub connector),0.9167,2,0.0833,False,False,0.3986,0.8056,12.0,13,70,partial,5.0,9

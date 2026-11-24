@@ -1,0 +1,56 @@
+C4_spreaders RUN record
+start_local_time: 2026-11-22 22:06:11
+end_local_time  : 2026-11-22 22:11:14
+total_wall_seconds: 302.9
+sir_wall_seconds: 227.1
+command line: cd C:/Users/bfy32/Documents/Qoder/2026-11-13/f93e4d48/pipeline && PYTHONHASHSEED=0 python out/C4_spreaders/run_c4.py
+versions: {"python": "3.12.13", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+SEED=20261113 ; csa_common.SEED=20261113
+anchors: C.assert_anchors() -> 31/31 PASS (script aborts on any mismatch)
+graph: C.build_all(); Gd 676 nodes / 2788 directed edges; no re-implementation
+SIR model: discrete-time on DIRECTED Gd; gamma=0.20; betas=[0.01, 0.03, 0.06, 0.12, 0.25, 0.5]; 20 independent trials per (node, beta, variant)
+SIR variant primary = UNWEIGHTED (each directed edge crossed w.p. beta). Weighted variant (p=beta*w/w_max_source) run only as a sensitivity check.
+seeds: explicit SeedSequence entropy [SEED, node_i, beta_i, trial, variant]; bootstrap entropy [SEED, 7777, n_nodes]
+trials run: 162240 ; SIR trajectories: 8112
+primary subset: alive & attributed (509 nodes); 671 / 676 reported as contrast
+note: R counts the seed node; R==1 means the process died out immediately.
+note: 162 dead sites have out-degree 0 and are therefore FORCED to R==1 at every beta (censoring, CONVENTIONS 2.1) - hence the alive-only primary subset.
+note: this is a SCENARIO SIMULATION. No temporal / traffic / propagation data exists in this dataset; conclusions are model-dependent by construction.
+note: edge weights are 'observed link counts' and are NOT interpreted as traffic.
+[   0.02s] step0 build_all + assert_anchors
+[   3.74s] step1 deterministic reachable closure (beta->1 upper bound)
+[   5.18s] step2 SIR sweep: 676 nodes x 6 betas x 20 trials x 2 variants = 162240 trials
+[  12.46s]    unweighted beta=0.01 done (elapsed 7.3s)
+[  25.63s]    unweighted beta=0.03 done (elapsed 20.5s)
+[  50.02s]    unweighted beta=0.06 done (elapsed 44.8s)
+[  76.14s]    unweighted beta=0.12 done (elapsed 71.0s)
+[ 118.86s]    unweighted beta=0.25 done (elapsed 113.7s)
+[ 160.55s]    unweighted beta=0.50 done (elapsed 155.4s)
+[ 168.44s]    weighted beta=0.01 done (elapsed 163.3s)
+[ 176.00s]    weighted beta=0.03 done (elapsed 170.8s)
+[ 184.82s]    weighted beta=0.06 done (elapsed 179.6s)
+[ 194.16s]    weighted beta=0.12 done (elapsed 189.0s)
+[ 210.69s]    weighted beta=0.25 done (elapsed 205.5s)
+[ 232.26s]    weighted beta=0.50 done (elapsed 227.1s)
+[ 232.26s] step2b SIR internal validation
+[ 243.51s]    check n_depth1_star_nodes_found                  = 3
+[ 243.51s]    check A_beta0_all_R_equal_1_violations           = 0
+[ 243.51s]    check B_gamma1_all_R_equal_1_violations          = 0
+[ 243.51s]    check B_nodes_tested                             = 62
+[ 243.51s]    check C_analytic_check                           = [{'node': 'bbs.ustc.edu.cn', 'outdeg': 3, 'beta': 0.3, 'gamma': 0.2, 'analytic_p_edge': 0.545455, 'mc_mean_R': 2.643, 'analytic_E_R': 2.6364, 'mc_se': 0.0191, 'abs_z': 0.347}, {'node': 'finance.ustc.edu.cn', 'outdeg': 6, 'beta': 0.3, 'gamma': 0.2, 'analytic_p_edge': 0.545455, 'mc_mean_R': 4.2858, 'analytic_E_R': 4.2727, 'mc_se': 0.0357, 'abs_z': 0.365}, {'node': 'scc.ustc.edu.cn', 'outdeg': 3, 'beta': 0.3, 'gamma': 0.2, 'analytic_p_edge': 0.545455, 'mc_mean_R': 2.679, 'analytic_E_R': 2.6364, 'mc_se': 0.0192, 'abs_z': 2.223}]
+[ 243.51s]    check C_max_abs_z                                = 2.223
+[ 243.51s]    check C_all_within_3se                           = True
+[ 243.51s]    check D_frac_alive_seeds_with_sd_gt0_b025        = 0.6935
+[ 243.51s]    check E_n_alive_seeds_with_outdeg0               = 156
+[ 243.51s]    check E_R_is_1_for_all_zero_outdeg_seeds         = True
+[ 243.51s]    check F_seed_entropies_unique                    = True
+[ 243.51s] step3 centralities recomputed from graph
+[ 247.68s] step4 long table + epidemic size
+[ 248.02s] step4b split-half reliability of the R ranking
+[ 248.07s] step4c trial budget / Spearman-Brown
+[ 248.99s] step5 proxy vs SIR (spearman + topk)
+[ 302.04s] step6 kitsak verdict
+[ 302.49s] step7 node summary wide table
+[ 302.62s] step8 top20 spreaders
+[ 302.66s] step9 censoring contrast 671 vs 509
+[ 302.87s] step10 weighted vs unweighted variant

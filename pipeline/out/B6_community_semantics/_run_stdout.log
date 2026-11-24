@@ -1,0 +1,261 @@
+C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B6_community_semantics\run_b6.py:452: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ct_out.insert(1, "comm_size", ct.sum(1).values)
+{
+  "anchors": "31/31 PASS",
+  "louvain_seed42": {
+    "Q": 0.6904343256899503,
+    "n_comms_total": 25,
+    "n_comms_nonsingleton": 25,
+    "n_singleton": 0,
+    "n_covered": 676,
+    "largest": 87
+  },
+  "louvain_robust": {
+    "n_seeds": 24,
+    "comms_total": {
+      "min": 20,
+      "median": 24.0,
+      "max": 28
+    },
+    "comms_nonsingleton": {
+      "min": 20,
+      "median": 24.0,
+      "max": 28
+    },
+    "Q": {
+      "min": 0.6842,
+      "mean": 0.6903,
+      "sd": 0.0019,
+      "max": 0.6931
+    },
+    "largest": {
+      "min": 66,
+      "median": 97.0,
+      "max": 121
+    }
+  },
+  "n_categories": 10,
+  "category_sizes": {
+    "其他": 255,
+    "科研平台": 185,
+    "院系": 79,
+    "管理服务": 75,
+    "教务教学": 31,
+    "图书馆": 11,
+    "招生": 10,
+    "附属单位": 9,
+    "新闻宣传": 8,
+    "个人主页": 8
+  },
+  "other_share": 0.38,
+  "title_kind": {
+    "informative": 449,
+    "fail_placeholder": 173,
+    "subdomain_echo": 35,
+    "generic_nav": 14
+  },
+  "kappa": [
+    {
+      "split": "split_half_keywords",
+      "kappa_all": 0.4559,
+      "po_all": 0.6244,
+      "pe_all": 0.3098,
+      "kappa_informative_only": 0.3124,
+      "po_informative": 0.4655,
+      "n_informative": 449,
+      "kappa_vs_main_label": 0.7363
+    },
+    {
+      "split": "core_vs_weak",
+      "kappa_all": 0.3674,
+      "po_all": 0.5663,
+      "pe_all": 0.3145,
+      "kappa_informative_only": 0.1919,
+      "po_informative": 0.3808,
+      "n_informative": 449,
+      "kappa_vs_main_label": 0.6915
+    },
+    {
+      "split": "title_front_vs_back",
+      "kappa_all": 0.248,
+      "po_all": 0.5127,
+      "pe_all": 0.3519,
+      "kappa_informative_only": 0.0649,
+      "po_informative": 0.2873,
+      "n_informative": 449,
+      "kappa_vs_main_label": 0.6033
+    }
+  ],
+  "NMI_obs_seed42": {
+    "n_compared": 671,
+    "n_total": 676,
+    "NMI": 0.1239,
+    "ARI": 0.019
+  },
+  "NMI_obs_direct": 0.1239,
+  "NMI_null_mean": 0.0628,
+  "NMI_null_sd": 0.0054,
+  "NMI_null_q95": 0.0721,
+  "NMI_z": 11.257,
+  "NMI_p_emp": 0.0,
+  "NMI_p_emp_incl_obs": 0.001,
+  "NMI_across_seeds": {
+    "min": 0.1124,
+    "median": 0.1279,
+    "max": 0.1427,
+    "n_ge_095_null": 25,
+    "p_min": 0.0,
+    "p_max": 0.0
+  },
+  "purity": {
+    "mean_unweighted": 0.5308,
+    "median_unweighted": 0.4706,
+    "min": 0.2727,
+    "max": 1.0,
+    "size_weighted": 0.4292,
+    "size_weighted_nonsingleton": 0.4292,
+    "null_size_weighted_mean": 0.3997,
+    "null_size_weighted_nonsingleton_mean": 0.3997,
+    "lift_size_weighted": 0.0295,
+    "p_size_weighted": 0.0,
+    "p_size_weighted_nonsingleton": 0.0,
+    "n_comms_purity_ge_0_5": 12,
+    "n_comms_nonsingleton": 25
+  },
+  "same_class_edge_share_overall": 0.1913,
+  "assort_overall": {
+    "category": "__ALL__(Newman 离散总体 r)",
+    "n_nodes": 671,
+    "q_j_nodes": 1.0,
+    "a_j_edge_share": 1.0,
+    "a_j_edge_share_weighted": 1.0,
+    "e_jj": 0.1913,
+    "e_jj_minus_qj_qk": 0.01662,
+    "same_class_share_of_its_edges": 0.1913,
+    "assort_r_j": 0.0201,
+    "null_mean": -0.0061,
+    "null_sd": 0.0098,
+    "z": 2.687,
+    "p_raw": 0.007,
+    "p_raw_incl_obs": 0.00799,
+    "assort_r_j_weighted": 0.0904,
+    "null_mean_weighted": -0.0198,
+    "null_sd_weighted": 0.0521,
+    "z_weighted": 2.117,
+    "p_raw_weighted": 0.037,
+    "p_bh": "",
+    "q_bh_0.05": "",
+    "p_bh_weighted": "",
+    "q_bh_0.05_weighted": ""
+  },
+  "assort_overall_weighted": {
+    "assort_r_j_weighted": 0.0904,
+    "null_mean_weighted": -0.0198,
+    "null_sd_weighted": 0.0521,
+    "z_weighted": 2.117,
+    "p_raw_weighted": 0.037
+  },
+  "assort_nx_pearson_on_codes": 0.0201,
+  "assort_within_class_perm_is_identity": [
+    0.020144,
+    0.020144
+  ],
+  "n_sig_bh_05": 7,
+  "category_scheme_sensitivity": [
+    {
+      "scheme": "10类(主口径)",
+      "n_categories": 10,
+      "n_nodes": 671,
+      "other_share": 0.38,
+      "NMI_obs": 0.1239,
+      "null_mean": 0.0628,
+      "null_sd": 0.0054,
+      "z": 11.257,
+      "p_emp": 0.0,
+      "p_emp_incl_obs": 0.001,
+      "ARI_obs": 0.019
+    },
+    {
+      "scheme": "6类合并",
+      "n_categories": 6,
+      "n_nodes": 671,
+      "other_share": 0.0,
+      "NMI_obs": 0.0891,
+      "null_mean": 0.0419,
+      "null_sd": 0.0048,
+      "z": 9.847,
+      "p_emp": 0.0,
+      "p_emp_incl_obs": 0.001,
+      "ARI_obs": 0.0153
+    },
+    {
+      "scheme": "4类合并",
+      "n_categories": 5,
+      "n_nodes": 671,
+      "other_share": 0.4039,
+      "NMI_obs": 0.0819,
+      "null_mean": 0.0363,
+      "null_sd": 0.0046,
+      "z": 9.923,
+      "p_emp": 0.0,
+      "p_emp_incl_obs": 0.001,
+      "ARI_obs": 0.0151
+    },
+    {
+      "scheme": "10类·仅 informative 标题子集",
+      "n_categories": 10,
+      "n_nodes": 449,
+      "other_share": 0.1024,
+      "NMI_obs": 0.1723,
+      "null_mean": 0.0902,
+      "null_sd": 0.0078,
+      "z": 10.507,
+      "p_emp": 0.0,
+      "p_emp_incl_obs": 0.001,
+      "ARI_obs": 0.0371
+    }
+  ],
+  "alternative_features_top": [
+    {
+      "feature": "同名标题组(模板/CMS 代理)",
+      "NMI_vs_comm_seed42": 0.1311,
+      "z": 4.367,
+      "p_emp": 0.0,
+      "ARI": 0.003
+    },
+    {
+      "feature": "__baseline__: 标题类别(10类)",
+      "NMI_vs_comm_seed42": 0.1239,
+      "z": 11.257,
+      "p_emp": 0.0,
+      "ARI": 0.019
+    },
+    {
+      "feature": "status_codes 指纹",
+      "NMI_vs_comm_seed42": 0.0728,
+      "z": 4.572,
+      "p_emp": 0.0,
+      "ARI": -0.0013
+    },
+    {
+      "feature": "protocol(https/http)",
+      "NMI_vs_comm_seed42": 0.0451,
+      "z": 10.289,
+      "p_emp": 0.0,
+      "ARI": 0.0137
+    }
+  ],
+  "n_perm_main": 1000,
+  "n_perm_purity": 1000,
+  "n_perm_alt": 500,
+  "n_seeds": 25,
+  "runtime_sec": 87.4,
+  "versions": {
+    "python": "3.12.13",
+    "networkx": "3.6.1",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "SEED": 20261113,
+    "PYTHONHASHSEED": "0"
+  }
+}

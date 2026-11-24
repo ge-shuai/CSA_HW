@@ -1,0 +1,13 @@
+﻿measure,desc
+deg_u,无向度（二值，csa_common.centralities）
+in_degree,有向入度（谁指向我；死站唯一可用口径）
+out_degree,有向出度（我指向谁；死站恒为 0=删失）
+in_strength,入强度=收到的链接次数之和
+out_strength,出强度=发出的链接次数之和
+bet_u,无向介数（无权，normalized）
+pr_dw,PageRank 有向加权（主口径，§5）
+pr_uu,PageRank 无向无权（对照口径，§5）
+hits_hub,HITS 枢纽权（有向无权）
+hits_auth,HITS 权威权（有向无权）
+kcore,k-core 层级（无向）
+hidx_in_in,H-index（入邻域×入度，本单元主口径）

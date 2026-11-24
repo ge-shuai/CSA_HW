@@ -1,0 +1,125 @@
+---- L65-L80 ----
+L65: 
+L66:     return _S()
+L67: 
+L68: 
+L69: # ---------------------------------------------------------------- 1. 建图 + 锚点
+L70: with stage("build"):
+L71:     C.assert_anchors()
+L72:     log("assert_anchors() 31/31 PASS")
+L73:     b = C.build_all()
+L74:     Gu, Gd, m, sets = b["Gu"], b["Gd"], b["nodes"], b["sets"]
+L75:     ATT = list(m["node"])                       # 671 主分析节点集（有序、可复现）
+L76:     assert len(ATT) == 671 and Gu.number_of_nodes() == 676
+L77:     log(f"Gu {Gu.number_of_nodes()}/{Gu.number_of_edges()}  Gd {Gd.number_of_nodes()}/{Gd.number_of_edges()}"
+L78:         f"  attributed={len(ATT)}")
+L79: 
+L80: 
+---- L328-L352 ----
+L328: with stage("summary"):
+L329:     prof = []
+L330:     for c in MEAS:
+L331:         others = [x for x in MEAS if x != c]
+L332:         prof.append({
+L333:             "measure": c,
+L334:             "spearman_min_vs_others": round(float(rho_s.loc[c, others].min()), 4),
+L335:             "spearman_median_vs_others": round(float(rho_s.loc[c, others].median()), 4),
+L336:             "spearman_max_vs_others": round(float(rho_s.loc[c, others].max()), 4),
+L337:             "kendall_min_vs_others": round(float(rho_k.loc[c, others].min()), 4),
+L338:             "kendall_median_vs_others": round(float(rho_k.loc[c, others].median()), 4),
+L339:             "kendall_max_vs_others": round(float(rho_k.loc[c, others].max()), 4),
+L340:             "top20_jaccard_mean": round(float(jac.loc[c, others].mean()), 4),
+L341:             "top20_jaccard_min": round(float(jac.loc[c, others].min()), 4),
+L342:             "n_others_rho_ge_0.9": int((rho_s.loc[c, others] >= 0.90).sum()),
+L343:             "n_others_rho_ge_0.95": int((rho_s.loc[c, others] >= 0.95).sum()),
+L344:             "top20_jaccard_ge_0.6": int((jac.loc[c, others] >= 0.60).sum()),
+L345:             "cluster_id_avg090": int(lab90[MEAS.index(c)]),
+L346:             "cluster_id_comp090": int(lab90c[MEAS.index(c)]),
+L347:             **{f"tie_{k2}": v2 for k2, v2 in tie_stab[c].items()},
+L348:             **{f"bound_{k2}": v2 for k2, v2 in bound[c].items()},
+L349:         })
+L350:     prof = pd.DataFrame(prof)
+L351: 
+L352:     # 一致性对：rho_s>=0.9 且 Top20 Jaccard>=0.6 才算"同一含义"的可操作判据
+---- L372-L386 ----
+L372:     for c in MEAS:
+L373:         for n in det[c]:
+L374:             cnt[n] += 1
+L375:     df["_n_top20_lists"] = df["node"].map(cnt)
+L376:     members = df[["node", "_n_top20_lists"]].sort_values(
+L377:         ["_n_top20_lists", "node"], ascending=[False, True])
+L378:     for c in MEAS:
+L379:         members[f"in_top20_{c}"] = members["node"].isin(det[c])
+L380: 
+L381:     hs = members[members["_n_top20_lists"] == len(MEAS)]["node"].tolist()
+L382:     ge10 = int((members["_n_top20_lists"] >= 10).sum())
+L383:     ge6 = int((members["_n_top20_lists"] >= 6).sum())
+L384:     hist = members["_n_top20_lists"].value_counts().sort_index(ascending=False)
+L385: 
+L386: # ---------------------------------------------------------------- 5. 落盘
+---- L406-L470 ----
+L406:         for j, i in enumerate(zip(iu[0], iu[1]))])
+L407:     noise.to_csv(os.path.join(_HERE, "hits_noise_sensitivity.csv"), index=False, encoding="utf-8-sig")
+L408: 
+L409:     summary = {
+L410:         "module": MODULE,
+L411:         "versions": C.versions(),
+L412:         "seed": SEED,
+L413:         "hits_reproducibility": {
+L414:             "note": "csa_common.centralities 的 hits_* 用 svds(v0=None) → ARPACK 随机起点，跨进程逐位不可复现；"
+L415:                     "本单元用 nstart=uniform 固定（同算法同参数），见 hits_pinned / DISSENT.md",
+L416:             # 这个偏差本身就是"不可复现"的度量，跨进程只能保证 <5e-16（浮点噪声量级），
+L417:             # 所以这里写**上界字符串**而不是具体数值——写死数值会造出一个假的不可复现源。
+L418:             "max_abs_dev_vs_csa_common": "lt_5e-16" if max(dev_h, dev_a) < 5e-16 else "GE_5e-16_FAIL",
+L419:             "noise_floor": n_noise,
+L420:             "abs_delta_spearman_max": round(float(np.abs(ds).max()), 4),
+L421:             "abs_delta_spearman_median": round(float(np.median(np.abs(ds))), 4),
+L422:             "abs_delta_kendall_max": round(float(np.abs(dk).max()), 4),
+L423:             "pairs_crossing_theta090": flip090,
+L424:             "top20_members_changed": top_changed,
+L425:         },
+L426:         "n_nodes_attributed": len(df),
+L427:         "n_nodes_in_graph": int(Gu.number_of_nodes()),
+L428:         "n_measures": len(MEAS),
+L429:         "spearman_pairs": {"n": int(len(sv)), "min": round(float(sv.min()), 4),
+L430:                            "p25": round(float(np.percentile(sv, 25)), 4),
+L431:                            "median": round(float(np.median(sv)), 4),
+L432:                            "p75": round(float(np.percentile(sv, 75)), 4),
+L433:                            "max": round(float(sv.max()), 4),
+L434:                            "argmin": list(pairs.loc[pairs["spearman"].idxmin(), ["m1", "m2"]]),
+L435:                            "argmax": list(pairs.loc[pairs["spearman"].idxmax(), ["m1", "m2"]])},
+L436:         "kendall_pairs": {"n": int(len(kv)), "min": round(float(kv.min()), 4),
+L437:                           "median": round(float(np.median(kv)), 4),
+L438:                           "p75": round(float(np.percentile(kv, 75)), 4),
+L439:                           "max": round(float(kv.max()), 4),
+L440:                           "argmin": list(pairs.loc[pairs["kendall_tau_b"].idxmin(), ["m1", "m2"]]),
+L441:                           "argmax": list(pairs.loc[pairs["kendall_tau_b"].idxmax(), ["m1", "m2"]])},
+L442:         "top20_jaccard_pairs": {"min": round(float(jac.values[iu].min()), 4),
+L443:                                 "median": round(float(np.median(jac.values[iu])), 4),
+L444:                                 "max": round(float(jac.values[iu].max()), 4)},
+L445:         "n_pairs_same_meaning_rho090": n_same,
+L446:         "n_pairs_same_meaning_both": n_same_both,
+L447:         "n_pairs_total": int(len(pairs)),
+L448:         "meanings": {f"theta_{th}": {"avg": int(r["n_clusters_average"]),
+L449:                                      "complete": int(r["n_clusters_complete"])}
+L450:                      for th, r in zip(THETAS, cl_rows)},
+L451:         "cliques_rho_ge_090": cliques_090,
+L452:         "consensus_all12": hs,
+L453:         "n_in_ge10_lists": ge10,
+L454:         "n_in_ge6_lists": ge6,
+L455:         "lists_count_hist": {int(k): int(v) for k, v in hist.items()},
+L456:         "hindex": {"max": int(df["hidx_in_in"].max()), "mean": round(float(df["hidx_in_in"].mean()), 4),
+L457:                    "zero": int((df["hidx_in_in"] == 0).sum()),
+L458:                    "spearman_vs_in_degree": round(float(rho_s.loc["hidx_in_in", "in_degree"]), 4),
+L459:                    "spearman_vs_in_deg_alt_variant": round(float(df["hidx_in_deg"].corr(df["hidx_in_in"],
+L460:                                                                                           method="spearman")), 4)},
+L461:         "timing_s": TIMING,
+L462:         "wall_s": round(time.time() - T0, 2),
+L463:     }
+L464:     with open(os.path.join(_HERE, "c1_summary.json"), "w", encoding="utf-8") as f:
+L465:         json.dump(summary, f, ensure_ascii=False, indent=2, default=str)
+L466: 
+L467:     run_lines = [
+L468:         "C1_centrality_matrix RUN.txt",
+L469:         "command: set PYTHONHASHSEED=0 && python out/C1_centrality_matrix/run_c1.py  "
+L470:         "(bash form: PYTHONHASHSEED=0 python out/C1_centrality_matrix/run_c1.py; cwd=pipeline)",

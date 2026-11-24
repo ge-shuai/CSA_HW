@@ -1,0 +1,50 @@
+E5 - observed scenarios vs same-size random controls
+====================================================================================================
+  assert_anchors: 31 anchors, 0 mismatched
+  Gu 676/2498   Gd 2788   baseline main component 674/2497
+  baseline E_full=0.331469 E_gcc=0.331469 E_fixed=0.331469  components=1
+  fail[ambiguous         ] =   1  inside baseline   1
+  fail[dead_all          ] = 162  inside baseline 162
+  fail[false_fail        ] =  32  inside baseline  32
+  fail[healthy           ] = 360  inside baseline 358
+  fail[partial_all       ] = 149  inside baseline 149
+  fail[partial_auth_like ] =  69  inside baseline  69
+  fail[partial_clean     ] =  80  inside baseline  80
+  fail[true_fail         ] = 129  inside baseline 129
+  dead_categories rows=162 by cat: {'A_conn_fail': 111, 'B_auth_or_skip': 18, 'C_robots_blocked': 14, 'D_not_found': 12, 'F_server_error': 6, 'G_other_400': 1}
+  recomputed true=129 false=32 ambiguous=1  sum=162
+  partial sites recomputed=149 csa_common=149
+  partial_clean=80  partial_auth_like=69  (partition of partial149: 149=149)
+  dead162              label=162 verified=162 in-baseline=162  match=True
+  true129              label=129 verified=129 in-baseline=129  match=True
+  false32              label= 32 verified= 32 in-baseline= 32  match=True
+  ambiguous1           label=  1 verified=  1 in-baseline=  1  match=True
+  partial149           label=149 verified=149 in-baseline=149  match=True
+  partial_clean80      label= 80 verified= 80 in-baseline= 80  match=True
+  partial_authlike69   label= 69 verified= 69 in-baseline= 69  match=True
+  combo209             label=209 verified=209 in-baseline=209  match=True
+  combo311             label=311 verified=311 in-baseline=311  match=True
+          scenario  label_count  verified_count  count_matches_label  n_in_baseline  pct_of_baseline_nodes  n_true_fail  n_false_fail  n_ambiguous  n_partial  n_dead  true_share_pct  false_share_pct  is_all_true_failure  k_after_SS22_correction
+        ambiguous1            1               1                 True              1                  0.148            0             0            1          0       1            0.00             0.00                False                        1
+           false32           32              32                 True             32                  4.748            0            32            0          0      32            0.00           100.00                False                        0
+partial_authlike69           69              69                 True             69                 10.237            0             0            0         69       0            0.00             0.00                 True                       69
+   partial_clean80           80              80                 True             80                 11.869            0             0            0         80       0            0.00             0.00                 True                       80
+           true129          129             129                 True            129                 19.139          129             0            0          0     129          100.00             0.00                 True                      129
+        partial149          149             149                 True            149                 22.107            0             0            0        149       0            0.00             0.00                 True                      149
+           dead162          162             162                 True            162                 24.036          129            32            1          0     162           79.63            19.75                False                      130
+          combo209          209             209                 True            209                 31.009          129             0            0         80     129           61.72             0.00                 True                      209
+          combo311          311             311                 True            311                 46.142          129            32            1        149     162           41.48            10.29                False                      279
+  needed k values: [1, 32, 69, 80, 129, 130, 149, 162, 209, 279, 311]
+  1500 removals evaluated in 1082.4s
+ k_removed  reps  ef_mean    ef_sd   ef_min   ef_max  efull_mean  efull_sd  egcc_mean  gcc_mean    gcc_sd  ncomp_mean  ncomp_sd  eigr_mean
+         1   100 0.330199 0.001557 0.319102 0.330814    0.331182  0.001562   0.331426    672.75  1.149220        1.25  1.149220    2490.36
+        32   100 0.292591 0.005474 0.270539 0.301781    0.322510  0.006034   0.331066    633.63  5.428423        9.29  5.309216    2273.80
+        69   100 0.248687 0.007277 0.227585 0.262263    0.308700  0.009033   0.329338    585.70  7.463717       20.08  7.284521    2003.16
+        80   100 0.236150 0.008906 0.212238 0.251159    0.304104  0.011468   0.328473    571.45  9.199665       23.27  9.083068    1918.25
+       129   100 0.190952 0.008838 0.171082 0.209053    0.292148  0.013522   0.328512    513.84 10.127191       31.67 10.044401    1643.14
+       130   100 0.185864 0.010579 0.156493 0.208642    0.285412  0.016245   0.327211    507.86 11.899427       36.37 11.382829    1604.33
+       149   100 0.172598 0.008381 0.141974 0.188855    0.284590  0.013819   0.326941    489.70  9.483106       35.56  9.202898    1519.61
+       162   100 0.160974 0.008597 0.139390 0.179997    0.279087  0.014905   0.327639    472.40 10.359205       39.82 10.053775    1461.56
+       209   100 0.123228 0.008659 0.093540 0.142106    0.259067  0.018205   0.325714    414.47 11.908282       50.17 11.262753    1189.87
+       279   100 0.077718 0.006545 0.060362 0.096647    0.226517  0.019077   0.320375    331.92 12.157784       62.17 11.475978     832.85
+       311   100 0.062174 0.007020 0.043081 0.076482    0.214618  0.024232   0.322096    295.86 13.672962       65.46 12.474151     725.00

@@ -1,0 +1,5 @@
+﻿exposure,exposure_cn,n,min,max,n_unique,mode,mode_count,share_at_mode,mean,median,p25,p75,p90,n_at_20,top_decile_cut_naive
+degree_u,无向总度,671,1,119,54,1,181,0.2697,7.438,3.0,1.0,7.0,18.0,4,18.0
+in_degree,入度,671,0,73,36,1,256,0.3815,4.148,2.0,1.0,4.0,8.0,0,8.0
+url_count,url_count(抓取器报告页面总数),671,1,302,99,1,173,0.2578,42.244,20.0,1.0,100.0,101.0,33,101.0
+listed_urls,"listed_urls(落库明细数,上限20)",671,1,20,20,20,352,0.5246,12.094,20.0,1.0,20.0,20.0,352,20.0

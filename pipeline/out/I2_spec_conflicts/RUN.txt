@@ -1,0 +1,6 @@
+I2_spec_conflicts · 口径违规审计
+method: 静态扫描 run_*.py / result.md 的 10 类可疑模式，命中项逐条读上下文判读；不运行脚本
+result: 合规 6 / 建议 4 / 硬伤 0
+scan: nx.Graph(/DiGraph(/from_pandas_edgelist、nodes_full 的 degree/color、E_full 上升语境、
+      社区计数两值、权重语义、E6 跨分母、RUN.txt 死路径、__pycache__、CONVENTIONS 契约表、E3 表头
+note: 三条「看似违规」经上下文确认合规（A4 缩点 DAG / B4 权重变体 / A2 零模型重连）

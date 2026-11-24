@@ -1,0 +1,31 @@
+# 本 RUN.txt 于 2026-11-23 依据目录内既有日志重建（原运行时的 RUN.txt 缺失，未重跑）
+E5_observed_scenarios RUN.txt（重建版 · §04 之后被终止）
+
+command: cd pipeline && PYTHONHASHSEED=0 python out/E5_observed_scenarios/run_e5.py
+  （来源：run_e5.py 文件头与项目统一命令模板；实际调用参数未记录）
+versions: 未记录（run_e5.py 未把 C.versions() 落盘；日志无版本行）
+SEED = 20261113（来源：run_e5.py:L61）
+N_RANDOM = 100（来源：run_e5.py:L62；random_control_summary.csv 的 reps 列全部为 100）
+anchors: assert_anchors: 31 anchors, 0 mismatched（来源：_run_stdout.log）
+graph: Gu 676/2498, Gd 2788 arcs；baseline main component 674/2497（run_e5.py:L210 断言）
+  ps.denom = 453602.0（run_e5.py:L211 断言）
+baseline: E_full=E_gcc=E_fixed=0.331469；components=1（run_e5.py:L212-216，含 |E−0.3315|<5e-3 断言）
+scenarios (9): dead162 / true129 / false32 / ambiguous1 / partial149 / partial_clean80 /
+  partial_authlike69 / combo209 / combo311；全部 verified_count == label_count 且落在基准主分量内
+  （来源：_run_stdout.log；scenario_summary.csv:count_matches_label）
+partial 拆分: partial_clean=80, partial_auth_like=69（80+69=149，互斥）（_run_stdout.log）
+needed k values: [1, 32, 69, 80, 129, 130, 149, 162, 209, 279, 311]
+random controls: 每个 k 100 次独立重复，共 1500 次删除评估，耗时 1082.4 s
+  （来源：_run_stdout.log "1500 removals evaluated in 1082.4s"；random_control_summary.csv:reps）
+timing: random-control 段 1082.4 s（唯一有记录的一段）；总墙钟、各 stage 墙钟未记录
+  （stage_walltimes.csv 未落盘，run_e5.py:L580）
+interrupt: 日志共 50 行，止于 §04 随机对照表；之后 §05/§06/§07 的 CSV 实际已落盘，
+  但 §08 damage_vs_selection_strength.csv(L518)、§09 contract_crosscheck.csv(L540)、
+  attack_reference_curve.csv(L564)、stage_walltimes.csv(L580) 未产出。
+outputs_present: scenario_summary.csv scenario_metrics.csv before_after_correction.csv random_controls.csv
+  random_control_summary.csv _cache_scenario_attacks.csv _cache_random_controls.csv run_e5.py
+  _run_stdout.log result.md RUN.txt
+outputs_missing: damage_vs_selection_strength.csv contract_crosscheck.csv attack_reference_curve.csv stage_walltimes.csv
+cache note: _cache_random_controls.csv / _cache_scenario_attacks.csv 是断点续跑缓存（run_e5.py:L111-163），非交付物
+status: 主结论（9 情景 × 同 k 随机对照 + 校正前后）所需的 4 张表齐全；缺失的是 3 张附表和总墙钟记录。
+banned-word self-check §7: PASS（result.md 已复查）

@@ -1,0 +1,3 @@
+﻿variable,stratum,n,share_of_671,n_bin,dead_n,dead_rate,dead_ci_lo,dead_ci_hi,partial_n,partial_rate,partial_ci_lo,partial_ci_hi,true_fail_n,true_fail_rate,true_fail_ci_lo,true_fail_ci_hi,clean_part_n,clean_part_rate,clean_part_ci_lo,clean_part_ci_hi,mean_in_degree,mean_degree_u,mean_out_degree,n_dead_with_out0
+url_count vs listed_urls,url_count>listed_urls（确有未落库页面）,319,0.4754,319,2,0.0063,0.0017,0.0226,104,0.326,0.2769,0.3793,1,0.0031,0.0006,0.0175,58,0.1818,0.1434,0.2278,6.251,12.276,7.73,2
+url_count vs listed_urls,url_count==listed_urls（明细已穷尽）,352,0.5246,352,160,0.4545,0.4033,0.5068,45,0.1278,0.0969,0.1668,128,0.3636,0.3151,0.4151,22,0.0625,0.0416,0.0928,2.241,3.054,0.915,160

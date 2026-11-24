@@ -1,0 +1,37 @@
+I1_number_consistency · RUN
+========================================
+审计员：csa-audit2
+日期：2026-11-23 20:00–20:50 (Asia/Shanghai)
+
+【性质】只读审计。本单元不跑任何分析脚本，不做图，不改任何他人文件。
+所有数字来自对 out/**/*.csv 与 result.md 的直接读数（带 文件:行）。
+
+【环境 / 工具】
+  本地客户端：python srv.py（paramiko 免密）
+  服务器：<SERVER_HOST>:<SERVER_PORT> / <REMOTE_WORKDIR>/pipeline
+  服务器 python：~/miniconda3/envs/csa/bin/python 3.12.15（未调用，仅记录）
+  本地只读工具：read / grep / glob + PowerShell 取 CSV 头部
+
+【命令行（按执行顺序）】
+  cd C:\Users\bfy32\Documents\deepseek-harness\default-workspace\csa_server
+  python srv.py ps
+  python srv.py run "ls .../pipeline/out; du -sh .../pipeline/out"        # 26M
+  python srv.py getdir /home/.../pipeline/out ./staging/out               # 540 files
+  python srv.py runfile staging\mk_i.sh                                   # 建 I1/I2 目录
+  python srv.py put staging\deliver\I1_number_consistency\I1_conflicts.csv \
+        /home/.../pipeline/out/I1_number_consistency/I1_conflicts.csv
+
+【耗时】
+  文档阅读 ~12 min；目录同步 ~3 min；CSV/result.md 定点核对 ~35 min；
+  写盘 ~8 min。合计 ~58 min。
+
+【seed】
+  无随机过程，无 seed。（被审单元各自的 seed 见其 RUN.txt；本审计未复跑。）
+
+【核对的 12 项必核指标】见 result.md §1（671 / 676 / 674 / 2497 / 2498 / 2788 /
+453602 / E_fixed 0.331469 / 25+n_comms_nonsingleton / Q 0.6904 / 129-32-1 / 6 枢纽 505 边）
++ 随机删 162 的 E_fixed 双实现（E1 0.159113 n=120 vs E5 0.160974 n=100，判独立抽样波动）
++ 两个新单元 E3(p_c vs E1 曲线) / E6(三分母)。
+
+【结论摘要】
+  真冲突 0；口径不同 7；口径缺陷 2（E3 §2 表头标注、CONVENTIONS §2.3 表混写两图 E_full）。

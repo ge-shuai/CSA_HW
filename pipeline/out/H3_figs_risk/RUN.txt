@@ -1,0 +1,30 @@
+H3 · 风险矩阵 + 中心性排序相关 成图单元
+上游只读：G1_risk_matrix/g1_nodes_scored.csv, g1_quadrant_summary.csv;
+        C1_centrality_matrix/spearman_matrix.csv, kendall_matrix.csv
+本单元不重算分数、不重新分位；唯一派生量是 Q1 名单跨口径的 Jaccard 重合率。
+
+MANIFEST 要求的第三张图（z–P 角色地图）本单元**没有产出**：
+  它依赖 C5_functional_roles，本轮 C5 未运行、目录里没有数据。
+  宁缺毋滥——不拿示意图冒充实测。补 C5 之后再回来加这张图。
+
+图 1 h3_risk_matrix：三种口径的风险矩阵散点，真/假失效分开着色。
+图 2 h3_risk_quadrant_robustness：Q1 格的人数构成 + 跨口径名单 Jaccard。
+图 3 h3_centrality_rank_corr：Spearman 上三角 / Kendall 下三角。
+
+出图三件套：PNG 300dpi + 矢量 PDF + fig_*.csv 伴生数据表。
+产物：h3_risk_matrix, h3_risk_quadrant_robustness, h3_centrality_rank_corr
+
+==============================================================================
+【补图 · 2026-11-23】MANIFEST 要求的第三张图 z–P 角色地图现已产出（上面那条“主动缺席”的记录作废）。
+数据来源：out/C5_functional_roles/ 的实测产出，不是示意图：
+  zp_roles_canonical.csv（671 节点 z/P/角色，canonical Louvain seed=42）
+  role_counts_by_seed.csv（12 个划分的角色类计数，用于面板 B 的误差棒）
+  role_class_stability.csv（每类成员在 12 个划分间的翻转率）
+  representatives.csv（各类代表节点标签）
+C5 运行：服务器 <REMOTE_WORKDIR>，python 3.12.15 / networkx 3.6.1，
+  SEED=20261113，canonical seed=42 → 25 社区（非单点 25）/ Q=0.69043 / 最大社区 87，
+  12 个划分的社区数 23–26、最大社区 83–116；assert_anchors 31/31 PASS。
+新图三件套：h3_zp_role_map（PNG 300dpi + 矢量 PDF + fig_h3_zp_role_map.csv）
+本图不重算角色，只重绘 C5 的数；H3 原有 3 张图与 h3_manifest.csv 一个字节都没改。
+角色定义 = 节点在「模块内度 z」与「参与系数 P」上的位置；它不描述站点功能、
+  重要性或健康状态，也不支持「某类角色更易失效」这类因果读法（CONVENTIONS §7）。

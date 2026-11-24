@@ -1,0 +1,26 @@
+C5_functional_roles RUN record
+start: 2026-11-23 14:04:38
+end  : 2026-11-23 14:04:40
+total_wall_seconds: 2.1
+command: cd <REMOTE_WORKDIR>/pipeline && PYTHONHASHSEED=0 ~/miniconda3/envs/csa/bin/python out/C5_functional_roles/run_c5.py
+versions: {"python": "3.12.15", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+SEED=20261113 ; csa_common.SEED=20261113 ; PYTHONHASHSEED=0
+anchors: C.assert_anchors() 31/31 PASS (script aborts on any mismatch)
+partition: weighted-Gu Louvain via C.louvain; canonical seed=42 -> 25 comms / Q=0.6904 / largest 87
+stability seeds: 12 partitions = canonical 42 + [20261113, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+z/P layer: primary = BINARY undirected Gb (GA05 convention, k = link count); control = weighted Gu (k = strength)
+thresholds: z*=2.5 P*=0.62 P**=0.80; network_hub requires P>P* AND module_yield>mean(Y)
+roster rule: a class is labelled '口径依赖，不可作为名单结论' when >30% of its canonical members are re-assigned in >=70% of the 12 seeds (kept_frac < 0.70)
+node set: 671 attributed; the 5 dangling nodes help build communities but are not in main tables
+louvain wall: 1.43s
+note: 'functional role' here = a position in the z-P plane. It carries no claim about site function, importance, or health (CONVENTIONS §7).
+[   0.00s] step0 build_all + assert_anchors
+[   0.65s] step1 louvain x 12 seeds on weighted Gu
+[   1.13s] step2 z/P on canonical partition (binary Gb)
+[   1.18s] step3 z/P for all 12 seeds (binary Gb)
+[   1.55s] step4 per-node role stability across 12 seeds
+[   1.93s] step5 per-class roster verdict (>30% flipping => 口径依赖)
+[   1.94s] step6 representatives
+[   1.96s] step7 binary vs weighted layer on canonical partition
+[   2.00s] step8 module membership stability (best-match Jaccard)
+[   2.06s] step9 role x health (descriptive)

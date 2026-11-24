@@ -1,0 +1,13 @@
+﻿measure,j_min_deterministic,j_min_worst_over_tie_perms,j_min_vs_reference_only,pass_if_only_vs_reference,j_mean_over_perms,boot_drop10_mean_j,boot_drop10_ceiling_mean,boot_drop10_rel_to_ceiling,boot_drop10_min_j,boot_drop10_p10_j,boot_cond_on_survivors_mean,single_point_fragile,pass_graph_variants,pass_bootstrap,VERDICT,COMBINED,top10_shared_all3_variants,null_random_j_mean,j_min_over_null_ratio,tie_note
+pr_uu,0.4286,0.4286,0.5385,True,0.5687,0.7115,0.7886,0.9022,0.4815,0.6,0.7925,False,False,True,FAIL,FAIL·口径不稳,6,0.0154,27.9,1 nodes tied at rank20 (full)
+hidx_in_in,0.4815,0.4286,0.5385,True,0.5573,0.7404,0.8251,0.8973,0.5385,0.6,0.8062,False,False,True,FAIL,FAIL·口径不稳,3,0.0154,27.9,5 nodes tied at rank20 (full)
+in_degree,0.3793,0.3793,0.5385,True,0.5282,0.7765,0.8047,0.965,0.6,0.6667,0.8581,False,False,True,FAIL,FAIL·口径不稳,3,0.0154,24.7,2 nodes tied at rank20 (full)
+bet_u,0.3333,0.3333,0.3793,False,0.398,0.7697,0.8041,0.9573,0.5385,0.66,0.8486,False,False,True,FAIL,FAIL·口径不稳,1,0.0154,21.7,1 nodes tied at rank20 (full)
+deg_u,0.2903,0.25,0.4286,False,0.4248,0.7635,0.793,0.9628,0.6,0.6667,0.8483,False,False,True,FAIL,FAIL·口径不稳,2,0.0154,16.3,3 nodes tied at rank20 (full)
+pr_dw,0.2121,0.2121,0.3793,False,0.3766,0.6594,0.7747,0.8512,0.4286,0.4815,0.7342,False,False,True,FAIL,FAIL·口径不稳,5,0.0154,13.8,1 nodes tied at rank20 (full)
+out_degree,0.2121,0.1765,0.3333,False,0.3875,0.7805,0.7956,0.9809,0.6,0.6667,0.8666,False,False,True,FAIL,FAIL·口径不稳,3,0.0154,11.5,3 nodes tied at rank20 (full)
+kcore,0.2121,0.0811,0.0811,False,0.3432,0.2085,0.8483,0.2458,0.0811,0.1429,0.2193,True,False,False,FAIL,FAIL·口径不稳,4,0.0154,5.3,45 nodes tied at rank20 (full)
+hits_hub,0.8182,0.8182,0.9048,True,0.8759,0.6361,0.8098,0.7855,0.0256,0.0811,0.6866,True,True,True,PASS,PASS·单点脆弱,9,0.0154,53.3,1 nodes tied at rank20 (full)
+hits_auth,0.6667,0.6667,0.6667,True,0.7172,0.6813,0.8112,0.8399,0.0811,0.1765,0.7389,True,True,True,PASS,PASS·单点脆弱,10,0.0154,43.4,1 nodes tied at rank20 (full)
+out_strength,0.6,0.6,0.6,True,0.7165,0.7343,0.8112,0.9053,0.5385,0.6,0.8057,False,True,True,PASS,PASS,8,0.0154,39.1,1 nodes tied at rank20 (full)
+in_strength,0.5385,0.5385,0.5385,True,0.6923,0.7455,0.7922,0.941,0.5385,0.6,0.8256,False,True,True,PASS,PASS,7,0.0154,35.1,2 nodes tied at rank20 (full)

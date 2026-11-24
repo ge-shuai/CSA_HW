@@ -1,0 +1,61 @@
+STAMP 2026-11-22T22:00:19.282554
+rows_alive_col 509 rows_file_a 671 rows_file_b 671
+class_alive {"边缘": 174, "出度删失，无法归类": 162, "双向枢纽": 151, "导航型枢纽": 93, "内容型权威": 91}
+class_all671 {"边缘": 286, "双向枢纽": 173, "导航型枢纽": 119, "内容型权威": 93}
+dead_in_all671 {"边缘": 138, "内容型权威": 24}
+dead_out_deg_max 0 ; alive_out_deg_zero 156
+alive_in_degree_P50_60_75_90 [2.0, 3.0, 5.0, 11.0]
+all671_in_degree_P50_60_75_90 [2.0, 2.0, 4.0, 8.0]
+alive_out_degree_P50_60_75_90 [2.0, 4.0, 6.0, 14.0]
+all671_out_degree_P50_60_75_90 [1.0, 2.0, 5.0, 11.0]
+n_reclassified 210 of 671
+flow {"内容型权威->双向枢纽": 22, "出度删失，无法归类->内容型权威": 24, "出度删失，无法归类->边缘": 138, "边缘->导航型枢纽": 26}
+SENS_COLS ["kind", "rule", "subset_n", "t_in", "t_out", "导航型枢纽", "内容型权威", "双向枢纽", "边缘", "n_agree", "share_agree", "n_导航型枢纽", "n_内容型权威", "n_双向枢纽", "n_边缘"]
+SENS:
+                         kind                   rule  subset_n  t_in  t_out  导航型枢纽  内容型权威  双向枢纽    边缘  n_agree  share_agree
+            quantile_alive509                    P50       509   2.0    2.0   93.0   91.0 151.0 174.0    509.0       1.0000
+            quantile_alive509                    P60       509   3.0    4.0   66.0   73.0 106.0 264.0    381.0       0.7485
+            quantile_alive509                    P75       509   5.0    6.0   60.0   45.0  61.0 343.0    283.0       0.5560
+            quantile_alive509                    P90       509  11.0   14.0   27.0   23.0  22.0 437.0    210.0       0.4126
+            subset_healthy360                    P50       360   2.0    2.0   63.0   59.0 106.0 132.0    360.0       1.0000
+            subset_healthy360                    P75       360   5.0    6.0   37.0   22.0  49.0 252.0    208.0       0.5778
+            strength_alive509 P50 on in/out_strength       509  16.0   10.0   91.0   94.0 159.0 165.0    323.0       0.6346
+      corrected_541_threshold P50(509 活站+32 假失效=541)       541   2.0    2.0   93.0   91.0 151.0 174.0    509.0       1.0000
+ALL671_censoring_contaminated           P50(全样本 671)       671   2.0    1.0  119.0   93.0 173.0 286.0      NaN          NaN
+        random_label_baseline           按主口径边际分布随机打乱       509   NaN    NaN    NaN    NaN   NaN   NaN    138.0       0.2716
+PROF:
+    class   n  universe_n  share_of_universe  mean_in_degree  median_in_degree  mean_out_degree  median_out_degree  mean_degree_u  mean_in_strength  mean_out_strength  n_in_degree_u_top20  share_of_degree_u_top20  jaccard_with_degree_u_top20  n_nav_hub6  n_healthy  n_partial  n_dead  mean_ok_ratio_pct  share_listed_urls_at_cap20
+    导航型枢纽  93         509             0.1827           1.441               1.0            7.839                5.0          8.570              23.7              130.9                    3                     0.15                       0.0273           2         63         30       0              88.78                      0.8925
+    内容型权威  91         509             0.1788           6.209               4.0            0.703                0.0          6.670             105.8               16.7                    0                     0.00                       0.0000           0         59         32       0              85.31                      0.5604
+     双向枢纽 151         509             0.2967          10.311               6.0           12.596                8.0         19.795             276.4              316.8                   17                     0.85                       0.1104           4        106         45       0              91.13                      0.9603
+       边缘 174         509             0.3418           1.328               1.0            0.534                0.0          1.736              30.8                9.9                    0                     0.00                       0.0000           0        132         42       0              91.03                      0.4080
+出度删失，无法归类 162         671             0.2414           1.827               1.0            0.000                0.0          1.827              26.4                0.0                    0                     0.00                       0.0000           0          0          0     162               0.00                      0.0123
+CEN:
+health_state   n  mean_in_degree  mean_out_degree  n_out_degree_zero  share_out_degree_zero  n_listed_urls_at_cap20  share_listed_urls_at_cap20
+     healthy 360           4.942            5.786                118                 0.3278                     244                      0.6778
+     partial 149           4.752            4.732                 38                 0.2550                     106                      0.7114
+        dead 162           1.827            0.000                162                 1.0000                       2                      0.0123
+HUB6:
+                node  in_degree  out_degree  in_strength  out_strength  degree_u class_alive class_all671 health_state
+   teach.ustc.edu.cn         51          95         1499          2534       119        双向枢纽         双向枢纽      healthy
+wpsearch.ustc.edu.cn          1          89            4           292        89       导航型枢纽        导航型枢纽      healthy
+   fusep.ustc.edu.cn          1          74            2          1105        74       导航型枢纽        导航型枢纽      healthy
+   staff.ustc.edu.cn         63          49          866           109        92        双向枢纽         双向枢纽      partial
+      en.ustc.edu.cn         41          36         1818           366        63        双向枢纽         双向枢纽      healthy
+    news.ustc.edu.cn         73           6         1397           296        76        双向枢纽         双向枢纽      healthy
+SUM module = "C2_hub_typology"
+SUM seed = 20261113
+SUM primary_subset = "alive = 671 attributed - 162 整站不可用 = 509"
+SUM cut_rule = "P50 of each axis on the primary subset, high = value strictly > threshold"
+SUM thresholds_primary = {"t_in": 2.0, "t_out": 2.0}
+SUM thresholds_all671 = {"t_in": 2.0, "t_out": 1.0}
+SUM class_counts_primary = {"导航型枢纽": 93, "内容型权威": 91, "双向枢纽": 151, "边缘": 174, "出度删失，无法归类": 162}
+SUM class_counts_all671 = {"导航型枢纽": 119, "内容型权威": 93, "双向枢纽": 173, "边缘": 286}
+SUM dead_nodes_redistributed_in_all671 = {"边缘": 138, "内容型权威": 24}
+SUM alive_nodes_reclassified_by_fullsample_cut = {"changed": 48, "of": 509, "share": 0.0943}
+SUM censoring_evidence = {"arcs_from_dead": 0, "arcs_to_dead": 296, "out_degree_zero_among_dead": 162, "n_alive_out_zero": 156}
+SUM degree_axis_note = "入度含 296 条活站指向死站的弧，可观测；出度对死站 100% 不可观测"
+SUM random_label_baseline_share_agree = 0.2716
+SUM nav_hub6_class = {"teach.ustc.edu.cn": "双向枢纽", "wpsearch.ustc.edu.cn": "导航型枢纽", "fusep.ustc.edu.cn": "导航型枢纽", "staff.ustc.edu.cn": "双向枢纽", "en.ustc.edu.cn": "双向枢纽", "news.ustc.edu.cn": "双向枢纽"}
+SUM overlap_with_degree_u_top20 = {"导航型枢纽": [3, 0.0273], "内容型权威": [0, 0.0], "双向枢纽": [17, 0.1104], "边缘": [0, 0.0], "出度删失，无法归类": [0, 0.0]}
+SUM wall_s = 5.81

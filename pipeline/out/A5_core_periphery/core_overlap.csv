@@ -1,0 +1,12 @@
+﻿scope,set_a,set_b,n_a,n_b,intersection,union,jaccard
+671,kcore_top,richclub_knee,45,17,17,45,0.37777777777777777
+671,kcore_top,richclub_sig,45,0,0,45,0.0
+671,kcore_top,borgatti_everett,45,8,8,45,0.17777777777777778
+671,kcore_top,be_cont_p05,45,1,1,45,0.022222222222222223
+671,richclub_knee,richclub_sig,17,0,0,17,0.0
+671,richclub_knee,borgatti_everett,17,8,8,17,0.47058823529411764
+671,richclub_knee,be_cont_p05,17,1,1,17,0.058823529411764705
+671,richclub_sig,borgatti_everett,0,8,0,8,0.0
+671,richclub_sig,be_cont_p05,0,1,0,1,0.0
+671,borgatti_everett,be_cont_p05,8,1,1,8,0.125
+671,"TRIPLE(kcore,rc_knee,be)",-,8,45,8,45,0.17777777777777778

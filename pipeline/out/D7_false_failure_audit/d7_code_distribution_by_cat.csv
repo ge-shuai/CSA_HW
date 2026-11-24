@@ -1,0 +1,4 @@
+﻿cat,n_sites,n_probes,n_strong,n_mid,n_manual,probes_-1 需认证/本轮跳过,probes_-2 robots 禁止,probes_其他
+B_auth_or_skip,18,43,18,0,0,43.0,,
+C_robots_blocked,14,40,14,0,0,,40.0,
+G_other_400,1,1,0,0,1,,,1.0

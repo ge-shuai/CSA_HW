@@ -1,0 +1,7 @@
+I5_clean_reproduce · 可复现抽查
+method: 整条 pipeline 按原布局拷到 /tmp/repro/（pipeline/ + 同级 CSA_HW/），在新目录重跑 E3、E2，逐文件比 md5
+python=3.12.15  networkx=3.6.1  pandas=3.0.2  numpy=2.4.4  SEED=20261113  PYTHONHASHSEED=0
+rerun wall: E3 21.83s / E2 60.59s（原运行 21.5s / 60.6s）
+result: 14 个 CSV 逐字节一致；6 个元数据文件仅差墙钟与绝对路径；数值不一致 0
+note: 第一次尝试失败——只拷了 pipeline/ 没拷 CSA_HW/，csa_common.load_urls() 读不到 urls.csv，
+      assert_anchors 在 n_urls 一项炸掉。第二次按原布局拷贝后通过。这条记下来，别人复现时别再踩。

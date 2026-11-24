@@ -1,0 +1,9 @@
+﻿exposure,n,n_unique,qcut_native_10,qcut_native_dup_edges,qcut_duplicates_drop_bins,qcut_duplicates_drop_sizes,largest_bin_if_dropped,rank10_bins,rank10_bins_with_split_ties,value_aware_bins,modal_value,modal_count,max_tiegroup_size,note
+degree_u,671,54,error,"[1.0, 1.0, 1.0, 2.0, 2.0, 3.0, 5.0, 6.0, 10.0, 18.0, 119.0], dtype='float64', name='degree_u'",7,"[279, 78, 87, 33, 67, 62, 65]",279,10,10,8,1,181,181,qcut_native_10='error' 表示直接十分位报错；duplicates='drop' 会把并列值合成一个大箱（见 largest_bin_if_dropped）；rank10_bins_with_split_ties = 有多少箱的边界值是跟邻箱共享的并列值
+in_degree,671,36,error,"[0.0, 1.0, 1.0, 1.0, 2.0, 2.0, 2.0, 3.0, 5.0, 8.0, 73.0], dtype='float64', name='in_degree'",6,"[263, 142, 72, 82, 45, 67]",263,10,9,6,1,256,256,qcut_native_10='error' 表示直接十分位报错；duplicates='drop' 会把并列值合成一个大箱（见 largest_bin_if_dropped）；rank10_bins_with_split_ties = 有多少箱的边界值是跟邻箱共享的并列值
+url_count,671,99,error,"[               1.0,                1.0,                1.0,
+                      2.0,                8.0,               20.0,
+       39.000000000000114,  93.00000000000011,              100.0,
+                    101.0,              302.0],
+      dtype='float64', name='url_count'",8,"[225, 48, 79, 51, 67, 132, 22, 47]",225,10,9,8,1,173,173,qcut_native_10='error' 表示直接十分位报错；duplicates='drop' 会把并列值合成一个大箱（见 largest_bin_if_dropped）；rank10_bins_with_split_ties = 有多少箱的边界值是跟邻箱共享的并列值
+listed_urls,671,20,error,"[1.0, 1.0, 1.0, 2.0, 8.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0], dtype='float64', name='listed_urls'",3,"[225, 48, 398]",398,10,10,4,20,352,352,qcut_native_10='error' 表示直接十分位报错；duplicates='drop' 会把并列值合成一个大箱（见 largest_bin_if_dropped）；rank10_bins_with_split_ties = 有多少箱的边界值是跟邻箱共享的并列值

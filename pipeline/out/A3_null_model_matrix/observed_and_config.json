@@ -1,0 +1,106 @@
+{
+  "observed_metrics": {
+    "attributed_671": {
+      "n_nodes": 671.0,
+      "mean_degree": 7.43070044709389,
+      "avg_clustering": 0.28010130187828586,
+      "degree_assortativity": -0.16676721576881098,
+      "degree_gini": 0.6155829467068149,
+      "max_degree": 119.0,
+      "powerlaw_alpha_x3": 1.882095840624323,
+      "aspl_gcc": 3.2652676709361548,
+      "diameter_gcc": 7.0,
+      "gcc_fraction": 0.9970193740685543,
+      "n_components": 2.0,
+      "gcc_size": 669.0,
+      "n_edges": 2493.0
+    },
+    "in_graph_676": {
+      "n_nodes": 676.0,
+      "mean_degree": 7.390532544378698,
+      "avg_clustering": 0.2779517848958095,
+      "degree_assortativity": -0.1674479655848532,
+      "degree_gini": 0.6170036621012787,
+      "max_degree": 119.0,
+      "powerlaw_alpha_x3": 1.8815296051798767,
+      "aspl_gcc": 3.2702413128689907,
+      "diameter_gcc": 7.0,
+      "gcc_fraction": 0.9970414201183432,
+      "n_components": 2.0,
+      "gcc_size": 674.0,
+      "n_edges": 2498.0
+    }
+  },
+  "extra_observed": {
+    "obs_deg_gini_671": 0.6155829467068149,
+    "obs_strength_gini_671": 0.7895722238640809,
+    "obs_deg_gini_676": 0.6170036621012787,
+    "obs_strength_gini_676": 0.7903076169203289,
+    "obs_assort_weighted_676": -0.1674479655848532,
+    "obs_max_degree_671": 119,
+    "argmax_degree_671": "teach.ustc.edu.cn",
+    "obs_mean_degree_671": 7.43070044709389,
+    "obs_n_edges_671": 2493,
+    "obs_n_components_671": 2,
+    "obs_gcc_size_671": 669,
+    "obs_small_components_671": [
+      2
+    ]
+  },
+  "config": {
+    "N_PRIMARY": 40,
+    "N_SENS": 30,
+    "N_SCAN": 30,
+    "X_MIN": 3,
+    "SEED": 20261113,
+    "WS_P_GRID": [
+      0.0,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "SD_FLOOR": 1e-09,
+    "Z_REJECT": 2.0,
+    "METRICS": [
+      "n_nodes",
+      "mean_degree",
+      "avg_clustering",
+      "aspl_gcc",
+      "diameter_gcc",
+      "degree_assortativity",
+      "degree_gini",
+      "max_degree",
+      "gcc_fraction",
+      "powerlaw_alpha_x3"
+    ],
+    "EIGHT": [
+      "avg_clustering",
+      "aspl_gcc",
+      "diameter_gcc",
+      "degree_assortativity",
+      "degree_gini",
+      "max_degree",
+      "gcc_fraction",
+      "powerlaw_alpha_x3"
+    ],
+    "CORE4": [
+      "avg_clustering",
+      "aspl_gcc",
+      "diameter_gcc",
+      "degree_assortativity"
+    ],
+    "CM_INVARIANT": [
+      "n_nodes",
+      "mean_degree",
+      "degree_gini",
+      "max_degree",
+      "powerlaw_alpha_x3"
+    ]
+  }
+}

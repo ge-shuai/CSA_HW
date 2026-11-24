@@ -1,0 +1,7 @@
+﻿node,in_degree,out_degree,in_strength,out_strength,degree_u,class_alive,class_all671,health_state
+teach.ustc.edu.cn,51,95,1499,2534,119,双向枢纽,双向枢纽,healthy
+wpsearch.ustc.edu.cn,1,89,4,292,89,导航型枢纽,导航型枢纽,healthy
+fusep.ustc.edu.cn,1,74,2,1105,74,导航型枢纽,导航型枢纽,healthy
+staff.ustc.edu.cn,63,49,866,109,92,双向枢纽,双向枢纽,partial
+en.ustc.edu.cn,41,36,1818,366,63,双向枢纽,双向枢纽,healthy
+news.ustc.edu.cn,73,6,1397,296,76,双向枢纽,双向枢纽,healthy

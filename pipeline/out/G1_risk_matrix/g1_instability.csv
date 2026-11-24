@@ -1,0 +1,13 @@
+﻿pair,kind,n_common_scored,n_changed_quadrant,pct_changed_quadrant,n_Q1_a,n_Q1_b,n_Q1_both,n_Q1_only_one,jaccard_Q1,spearman_x_a_b
+in_degree|raw vs bet_u|raw,换中心性(校正前),671,158,23.55,101,120,81,59,0.5786,0.6924
+in_degree|raw vs pr_dw|raw,换中心性(校正前),671,184,27.42,101,142,78,87,0.4727,0.6631
+bet_u|raw vs pr_dw|raw,换中心性(校正前),671,230,34.28,120,142,83,96,0.4637,0.4804
+in_degree|corr vs bet_u|corr,换中心性(校正后),638,157,24.61,94,108,72,58,0.5538,0.6902
+in_degree|corr vs pr_dw|corr,换中心性(校正后),638,170,26.65,94,125,73,73,0.5,0.6688
+bet_u|corr vs pr_dw|corr,换中心性(校正后),638,213,33.39,108,125,77,79,0.4936,0.4901
+in_degree|raw vs in_degree|corr,换健康口径(同中心性),638,0,0.0,94,94,94,0,1.0,1.0
+bet_u|raw vs bet_u|corr,换健康口径(同中心性),638,10,1.57,114,108,108,6,0.9474,1.0
+pr_dw|raw vs pr_dw|corr,换健康口径(同中心性),638,2,0.31,123,125,123,2,0.984,1.0
+in_degree|raw vs deg_u|raw,主口径vs总度污染对照,671,124,18.48,101,109,81,48,0.6279,0.8023
+bet_u|raw vs deg_u|raw,主口径vs总度污染对照,671,84,12.52,120,109,101,27,0.7891,0.9211
+pr_dw|raw vs deg_u|raw,主口径vs总度污染对照,671,222,33.08,142,109,79,93,0.4593,0.5236

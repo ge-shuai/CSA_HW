@@ -1,0 +1,395 @@
+﻿node,sub,family_id,family_size,family_is_singleton,family_id_complete,family_id_tokens,listed_urls,url_count,health_state,ok_ratio_pct,title,mean_sim_to_family,louvain_comm_seed42
+101.lug.ustc.edu.cn,101.lug,32,49,0,17,191,20,33,healthy,100.0,欢迎 - Linux 101,1.0,10
+20da.ustc.edu.cn,20da,11,2,0,10,22,20,100,healthy,100.0,中国科学技术大学二十大专题网,0.8,9
+ada.ustc.edu.cn,ada,130,1,1,202,254,20,90,healthy,100.0,算法与数据应用研究组-- Ada,,7
+adsl.ustc.edu.cn,adsl,143,1,1,164,226,20,27,healthy,100.0,先进数据系统实验室 - 高性能计算中心（合肥）,,7
+aga.ustc.edu.cn,aga,30,3,0,8,272,20,101,healthy,100.0,中国科学技术大学校友总会,1.0,2
+agi.ustc.edu.cn,agi,163,1,1,207,287,20,52,partial,50.0,通用人工智能研究所,,9
+ahiptc.ustc.edu.cn,ahiptc,0,13,0,15,34,20,100,healthy,100.0,国家知识产权培训(安徽)基地,0.9291666666666667,16
+ahmath.ustc.edu.cn,ahmath,120,1,1,139,221,20,100,healthy,100.0,安徽省数学会,,21
+ai.ustc.edu.cn,ai,2,47,0,26,34,20,100,healthy,100.0,中科大机器人实验室,0.9619565217391305,7
+aiethics.ustc.edu.cn,aiethics,194,1,1,212,248,20,50,healthy,100.0,中国人工智能学会人工智能伦理与治理工委会,,7
+ail.ustc.edu.cn,ail,32,49,0,17,255,13,13,partial,92.3,"Introduce - 先进仪器实验室(Advanced Instrument Laboratory, AIL)",1.0,5
+akl-clas.ustc.edu.cn,akl-clas,137,1,1,205,247,20,100,healthy,100.0,中国科学技术大学数智供应链安徽省重点实验室,,15
+apl.ustc.edu.cn,apl,27,5,0,13,7,20,76,partial,90.0,应用等离子实验室,0.95,13
+applchem.ustc.edu.cn,applchem,2,47,0,26,34,20,100,healthy,100.0,应用化学系,0.9619565217391305,9
+apst.ustc.edu.cn,apst,118,1,1,147,162,20,100,healthy,100.0,中国科学技术大学量子材料与光子技术实验室,,6
+arch.ustc.edu.cn,arch,32,49,0,17,187,20,100,healthy,100.0,中国科学技术大学档案文博院（档案馆 校史馆 博物馆）,1.0,5
+arts.ustc.edu.cn,arts,125,1,1,143,205,20,102,partial,95.0,中国科学技术大学艺术教学中心,,0
+asrc.ustc.edu.cn,asrc,32,49,0,17,18,20,34,healthy,100.0,艺术与科学研究中心,1.0,7
+astro.ustc.edu.cn,astro,128,1,1,153,157,20,100,healthy,100.0,中国科学技术大学天文系(新),,5
+atta.ustc.edu.cn,atta,20,6,0,22,46,20,46,partial,95.0,Laser Lab,1.0,5
+auto.ustc.edu.cn,auto,2,47,0,26,34,20,101,healthy,100.0,自动化系,0.9619565217391305,14
+bb.ustc.edu.cn,bb,18,3,0,36,219,20,21,healthy,100.0,bb,1.0,14
+bigdata.ustc.edu.cn,bigdata,20,6,0,22,46,20,20,healthy,100.0,认知智能全国重点实验室,1.0,7
+bioinspired.sz.ustc.edu.cn,bioinspired.sz,175,1,1,233,176,20,43,partial,20.0,仿生界面材料科学全国重点实验室,,9
+biomed.ustc.edu.cn,biomed,161,1,1,179,211,20,109,healthy,100.0,生命科学与医学部,,6
+biomems.ustc.edu.cn,biomems,127,1,1,157,185,20,32,partial,95.0,中国科学技术大学生物微机电系统与器官芯片实验室,,1
+bionmr.ustc.edu.cn,bionmr,4,3,0,12,292,11,11,healthy,100.0,BioNMR Lab @ USTC - Home,0.75,6
+biotraining.ustc.edu.cn,biotraining,2,47,0,26,34,20,100,healthy,100.0,中国科学技术大学国家级生命科学实验教学示范中心,0.9619565217391305,6
+biox.ustc.edu.cn,biox,145,1,1,165,200,20,103,healthy,100.0,生命科学学院,,6
+bm.ustc.edu.cn,bm,167,1,1,231,165,20,20,healthy,100.0,中国科学技术大学保密办公室,,24
+bme.ustc.edu.cn,bme,119,1,1,145,239,20,100,healthy,100.0,生物医学工程,,6
+bs.ustc.edu.cn,bs,191,1,1,191,183,20,100,healthy,100.0,404 页面未找到 | 探索未知,,15
+business.ustc.edu.cn,business,9,2,0,20,10,20,104,partial,95.0,中国科学技术大学科技商学院、管理学院,0.8,15
+bwc.ustc.edu.cn,bwc,136,1,1,171,175,20,51,healthy,100.0,中国科学技术大学保卫处,,9
+bwcx.ustc.edu.cn,bwcx,11,2,0,10,22,20,100,healthy,100.0,"中国科大“不忘初心,牢记使命”专题",0.8,9
+career.lib.ustc.edu.cn,career.lib,82,2,0,50,259,20,20,healthy,100.0,职业全能培训库,1.0,4
+catalog.ustc.edu.cn,catalog,63,1,1,175,179,16,16,healthy,100.0,catalog.ustc,,0
+catalysis.ustc.edu.cn,catalysis,206,1,1,206,208,18,18,healthy,100.0,Catalysis,,9
+cdcb.ustc.edu.cn,cdcb,0,13,0,15,34,20,30,partial,95.0,International Conference on Cellular Dynamics and Chemical B,0.9291666666666667,6
+cec.ustc.edu.cn,cec,10,2,0,9,188,20,102,healthy,100.0,化学实验教学中心,0.75,19
+cfmath.ustc.edu.cn,cfmath,24,2,0,23,4,20,128,partial,25.0,中法数学英才班,0.8333333333333334,21
+cfmc.ustc.edu.cn,cfmc,3,2,0,2,280,20,114,partial,45.0,中国科学技术大学中法数学中心,0.7272727272727273,21
+cg.sz.ustc.edu.cn,cg.sz,177,1,1,183,87,10,10,partial,10.0,[需要身份认证],,9
+chem.ustc.edu.cn,chem,184,1,1,196,223,20,100,healthy,100.0,化学系,,1
+chenxh.ustc.edu.cn,chenxh,20,6,0,22,46,15,15,partial,66.7,陈仙辉院士-关联电子材料实验室,1.0,5
+cig.ustc.edu.cn,cig,10,2,0,9,274,20,57,healthy,100.0,CIG | Computational Interpretation Group,0.75,1
+cjcp.ustc.edu.cn,cjcp,32,49,0,17,171,20,26,partial,35.0,[连接失败-本运行跳过],1.0,3
+combustion.ustc.edu.cn,combustion,154,1,1,208,215,20,53,partial,80.0,燃烧与环境工程研究室,,13
+complex.ustc.edu.cn,complex,223,1,1,132,148,20,40,healthy,100.0,中国科大复杂系统研究,,8
+cryobme.ustc.edu.cn,cryobme,149,1,1,174,207,20,69,healthy,100.0,中国科学技术大学 - 智能低温生物医学工程实验室,,9
+cs.ustc.edu.cn,cs,152,1,1,170,193,20,100,healthy,100.0,计算机科学与技术学院,,7
+cscourse.ustc.edu.cn,cscourse,222,1,1,228,237,20,20,healthy,100.0,中国科学技术大学,,7
+cslab.ustc.edu.cn,cslab,2,47,0,26,34,20,95,healthy,100.0,计算机实验教学中心,0.9619565217391305,7
+cybersec.ustc.edu.cn,cybersec,176,1,1,193,291,20,100,healthy,100.0,中国科大网络空间安全学院,,14
+czlab.ustc.edu.cn,czlab,131,1,1,185,163,20,94,healthy,100.0,结构生物化学实验室,,6
+data-science.ustc.edu.cn,data-science,174,1,1,128,203,20,100,healthy,100.0,Tour | USTC Lab for Data Science,,7
+dcp.ustc.edu.cn,dcp,213,1,1,200,252,20,100,healthy,100.0,化学物理系,,4
+degree.ustc.edu.cn,degree,32,49,0,17,167,10,10,partial,40.0,中国科学技术大学研究生学位申请系统,1.0,14
+djyszw.ustc.edu.cn,djyszw,42,2,0,48,243,20,101,partial,95.0,中国科学技术大学党建与思政网,1.0,9
+dm.ustc.edu.cn,dm,20,6,0,22,46,20,20,healthy,100.0,认知智能全国重点实验室,1.0,7
+dqalpha.ustc.edu.cn,dqalpha,160,1,1,178,123,20,20,healthy,100.0,中国科学技术大学-德清阿尔法创新研究院,,5
+drstone.ustc.edu.cn,drstone,32,49,0,17,166,20,27,healthy,100.0,Home-石头科普工作室,1.0,1
+dslx.ustc.edu.cn,dslx,32,49,0,17,159,13,13,partial,84.6,系统登录 - 中国科学技术大学 - 导师遴选系统,1.0,0
+dsxt.ustc.edu.cn,dsxt,32,49,0,17,155,11,11,partial,90.9,中国科学技术大学-研究生导师门户系统,1.0,5
+eap.ustc.edu.cn,eap,171,1,1,172,289,20,75,healthy,100.0,物理学院工程与应用物理系,,5
+earthquake.ustc.edu.cn,earthquake,157,1,1,221,147,20,20,healthy,100.0,张海江 - 中国科学技术大学地球物理学教授,,1
+ecard.ustc.edu.cn,ecard,40,2,0,16,11,10,10,partial,40.0,一卡通门户网站,1.0,0
+ecel.ustc.edu.cn,ecel,32,49,0,17,151,20,20,healthy,100.0,中国科学技术大学 谱学电化学实验室--中文主页--首页,1.0,1
+ecic.ustc.edu.cn,ecic,158,1,1,176,230,20,100,healthy,100.0,能源催化与原位表征研究组 - 中国科学技术大学,,1
+edp.ustc.edu.cn,edp,142,1,1,163,253,20,100,healthy,100.0,中国科学技术大学管理学院EDP中心,,15
+eeis.ustc.edu.cn,eeis,2,47,0,26,34,20,50,healthy,100.0,中国科学技术大学信息科学技术学院电子工程与信息科学系,0.9619565217391305,14
+ef.ustc.edu.cn,ef,42,2,0,48,126,20,101,partial,95.0,中国科学技术大学教育基金会,1.0,2
+emba.ustc.edu.cn,emba,124,1,1,152,220,20,100,healthy,100.0,中国科学技术大学EMBA,,15
+emdp.ustc.edu.cn,emdp,114,2,0,37,48,20,100,healthy,100.0,电子材料与器件物理研究室,1.0,6
+employment.ustc.edu.cn,employment,172,1,1,187,8,20,100,healthy,100.0,中国科学技术大学人才招聘 — 长江学者 大师讲席 常规学术岗位 名誉客座兼职 博士后 新进指南,,13
+emsecs.ustc.edu.cn,emsecs,214,1,1,225,14,20,20,healthy,100.0,仪器设备,,20
+en.akl-clas.ustc.edu.cn,en.akl-clas,201,1,1,144,199,20,32,healthy,100.0,Key Laboratory of Modern Logistics and Supply Chain Anhui Pr,,15
+en.auto.ustc.edu.cn,en.auto,193,1,1,103,192,20,100,healthy,100.0,University of Science and Technology of China - School of In,,14
+en.business.ustc.edu.cn,en.business,15,2,0,6,269,20,67,partial,90.0,"The School of Management,USTC",0.8,15
+en.cfmc.ustc.edu.cn,en.cfmc,192,1,1,204,257,20,59,partial,45.0,China-France Mathematics Center of USTC,,21
+en.cs.ustc.edu.cn,en.cs,2,47,0,26,34,20,101,healthy,100.0,[英]计算机学院,0.9619565217391305,7
+en.ess.ustc.edu.cn,en.ess,2,47,0,26,34,20,100,healthy,100.0,University of Science and Technology of China,0.9619565217391305,1
+en.iif.ustc.edu.cn,en.iif,2,47,0,26,34,20,72,partial,95.0,中国科学技术大学国际金融研究院 科学技术 中国科学技术 技术大学 国际金融研究院 金融研究院,0.9619565217391305,15
+en.imnc.ustc.edu.cn,en.imnc,140,1,1,209,262,20,110,partial,80.0,工程科学学院微纳米复合材料研究所,,13
+en.lib.ustc.edu.cn,en.lib,32,49,0,17,73,20,30,partial,95.0,USTC Library,1.0,4
+en.lmmr.ustc.edu.cn,en.lmmr,56,2,0,47,31,20,41,partial,75.0,中国科学院微观磁共振重点实验室英文版,0.8333333333333334,5
+en.nhpcc.ustc.edu.cn,en.nhpcc,27,5,0,13,7,20,67,partial,65.0,National High Performance Computing Center at Hefei,0.95,5
+en.np.ustc.edu.cn,en.np,17,2,0,4,1,20,20,healthy,100.0,Nanophotonic Device and System Group - University of Science,0.75,20
+en.nsrl.ustc.edu.cn,en.nsrl,209,1,1,222,109,20,103,partial,95.0,NSRL - National Synchrotron Radiation Laboratory - Universit,,7
+en.physics.ustc.edu.cn,en.physics,139,1,1,125,210,20,100,healthy,100.0,"School of Physical Sciences,USTC",,5
+en.pichem.ustc.edu.cn,en.pichem,2,47,0,26,34,20,62,healthy,100.0,USTC PIC,0.9619565217391305,4
+en.s4plus.ustc.edu.cn,en.s4plus,186,1,1,203,270,20,20,healthy,100.0,System Software and Software Security,,7
+en.scgy.ustc.edu.cn,en.scgy,12,2,0,31,34,20,39,partial,85.0,[英]少年班学院,0.8,6
+en.scms.ustc.edu.cn,en.scms,221,1,1,194,202,20,72,partial,75.0,[英]化学与材料科学学院,,5
+en.ses.ustc.edu.cn,en.ses,0,13,0,15,34,20,100,healthy,100.0,[英]工程科学学院,0.7611111111111112,13
+en.sist.ustc.edu.cn,en.sist,2,47,0,26,7,20,105,partial,90.0,School of Information Science And Technology,0.9619565217391305,14
+en.sklfs.ustc.edu.cn,en.sklfs,2,47,0,26,34,20,100,healthy,100.0,State Key Laboratory of Fire Science,0.9619565217391305,8
+en.surfchem.ustc.edu.cn,en.surfchem,2,47,0,26,34,20,52,healthy,100.0,Surface Physical Chemistry Research Group,0.9619565217391305,23
+en.ustc.edu.cn,en,225,1,1,230,268,20,100,healthy,100.0,University of Science and Technology of China,,4
+enbiomed.ustc.edu.cn,enbiomed,50,6,0,18,38,20,100,healthy,100.0,生命科学与医学部英文站,1.0,6
+engilab.ustc.edu.cn,engilab,203,1,1,71,152,20,46,partial,50.0,工程与材料实验中心,,20
+english-icqd.ustc.edu.cn,english-icqd,0,13,0,15,145,20,29,partial,95.0,[英]国际功能材料量子设计中心,0.9291666666666667,22
+env.ustc.edu.cn,env,2,47,0,26,34,20,100,healthy,100.0,环境科学与光电技术学院,0.9619565217391305,13
+epc-ietc.ustc.edu.cn,epc-ietc,134,1,1,158,93,20,100,healthy,100.0,中国科学技术大学工程实践与创新创业教学中心,,13
+erctst.ustc.edu.cn,erctst,121,1,1,148,181,20,100,healthy,100.0,热安全技术国家地方联合工程研究中心,,6
+ese.ustc.edu.cn,ese,228,1,1,239,34,10,10,dead,0.0,[连接失败-本运行跳过],,6
+esetc.ustc.edu.cn,esetc,27,5,0,14,7,20,102,partial,95.0,中国科学技术大学工程科学实验教学中心,0.8,13
+ess.ustc.edu.cn,ess,87,1,1,192,209,20,102,healthy,100.0,地球和空间科学学院-中国科学技术大学,,1
+essetc.ustc.edu.cn,essetc,159,1,1,177,246,20,79,healthy,100.0,地球和空间科学实验教学中心-中国科学技术大学,,1
+etcis-web.ustc.edu.cn,etcis-web,2,47,0,26,34,20,101,healthy,100.0,信息与计算机科学实验教学中心,0.9619565217391305,14
+etcis.ustc.edu.cn,etcis,2,47,0,26,34,20,100,healthy,100.0,信息与计算机科学实验教学中心,0.9619565217391305,14
+exciton.ustc.edu.cn,exciton,170,1,1,195,271,20,30,healthy,100.0,Fangroup,,9
+faculty-en.ustc.edu.cn,faculty-en,94,3,0,55,64,20,100,healthy,100.0,中国科学技术大学教师个人主页,1.0,1
+faculty.ustc.edu.cn,faculty,94,3,0,55,64,20,100,healthy,100.0,中国科学技术大学教师个人主页,1.0,1
+fanglab.ustc.edu.cn,fanglab,50,6,0,18,30,13,13,healthy,100.0,Stem Cell Biology and Regenerative Medicine Lab,1.0,1
+fanglue.lib.ustc.edu.cn,fanglue.lib,19,5,0,30,9,20,20,partial,95.0,方略知识管理系统,1.0,4
+fbs.ustc.edu.cn,fbs,50,6,0,18,38,20,100,healthy,100.0,中国科学技术大学科技商学院,1.0,15
+fc.ustc.edu.cn,fc,2,47,0,26,34,20,52,partial,45.0,中国科大”双一流“建设,0.9619565217391305,7
+fengyun.ustc.edu.cn,fengyun,129,1,1,156,222,20,90,healthy,100.0,风云卫星遥感联合实验室,,1
+finance.ustc.edu.cn,finance,162,1,1,96,234,20,95,partial,10.0,中国科学技术大学|财务处,,14
+fix.ustc.edu.cn,fix,168,1,1,215,241,11,11,healthy,100.0,教室教学设备快速报修,,0
+flame.nsrl.ustc.edu.cn,flame.nsrl,8,2,0,11,265,20,100,healthy,100.0,合肥光源光电离质谱研究中心,0.75,7
+fpgaol.ustc.edu.cn,fpgaol,32,49,0,17,288,11,11,partial,63.6,Login - FPGA Online,1.0,14
+fpisc.ustc.edu.cn,fpisc,32,49,0,17,279,20,45,healthy,100.0,FPISC 2023,1.0,4
+ftp.lug.ustc.edu.cn,ftp.lug,82,2,0,50,232,20,78,dead,0.0,[robots.txt 禁止],1.0,10
+fusep.ustc.edu.cn,fusep,217,1,1,226,169,20,20,healthy,100.0,FuSEP2026,,5
+ge.ustc.edu.cn,ge,211,1,1,126,225,20,158,partial,40.0,中国科学技术大学通识教育中心,,0
+git.ustc.edu.cn,git,32,49,0,17,135,20,22,partial,90.0,登录 · GitLab · 中国科大Git服务,1.0,10
+gong.ustc.edu.cn,gong,146,1,1,142,273,20,41,partial,95.0,智能材料和振动控制实验室,,20
+gonghui.ustc.edu.cn,gonghui,13,3,0,14,3,20,118,healthy,100.0,中国科学技术大学工会,0.9,13
+gradschool.ustc.edu.cn,gradschool,85,1,1,186,275,20,100,healthy,100.0,中国科学技术大学学位与研究生教育,,14
+hack.lug.ustc.edu.cn,hack.lug,216,1,1,161,168,10,10,partial,70.0,Hackergame 2024,,10
+hfnl.ustc.edu.cn,hfnl,141,1,1,62,245,20,101,healthy,100.0,合肥微尺度物质科学国家研究中心,,6
+home.ustc.edu.cn,home,79,1,1,180,263,20,26,partial,65.0,[HTTP 404],,5
+hospital.ustc.edu.cn,hospital,179,1,1,184,149,20,100,healthy,100.0,中国科学技术大学医院,,11
+hr.ustc.edu.cn,hr,32,49,0,17,258,20,27,partial,95.0,中国科学技术大学人力资源部,1.0,9
+hsss.ustc.edu.cn,hsss,156,1,1,87,206,20,100,healthy,100.0,人文与社会科学学院,,7
+hsta.ustc.edu.cn,hsta,212,1,1,140,172,20,100,healthy,100.0,科技史与科技考古系,,7
+hzdt.ustc.edu.cn,hzdt,189,1,1,223,294,20,100,healthy,100.0,火灾安全全国重点实验室党团网,,8
+i.ustc.edu.cn,i,32,49,0,17,249,20,23,partial,95.0,[HTTP 404],1.0,14
+iai.ustc.edu.cn,iai,32,49,0,17,242,20,101,partial,95.0,合肥综合性国家科学中心人工智能研究院,1.0,18
+iat.ustc.edu.cn,iat,32,49,0,17,231,20,100,healthy,100.0,中国科学技术大学先进技术研究院,1.0,14
+iatew.ustc.edu.cn,iatew,144,1,1,167,224,19,19,partial,94.7,[HTTP 500],,14
+iatyz.ustc.edu.cn,iatyz,32,49,0,17,85,20,100,healthy,100.0,中国科学技术大学先进技术研究院,1.0,14
+ic.ustc.edu.cn,ic,16,2,0,25,8,20,100,healthy,100.0,中国科学技术大学国际学院,1.0,4
+icct.ustc.edu.cn,icct,169,1,1,181,229,20,46,healthy,100.0,International Center for Chemical Theory (ICCT),,6
+icctenglish.ustc.edu.cn,icctenglish,181,1,1,219,228,20,22,partial,75.0,国际化学理论中心,,6
+iclab.ustc.edu.cn,iclab,72,1,1,166,201,20,101,healthy,100.0,中国科大集成电路实验中心,,14
+icqd.ustc.edu.cn,icqd,27,5,0,13,7,20,101,partial,95.0,国际功能材料量子设计中心,0.95,22
+icts.ustc.edu.cn,icts,165,1,1,127,110,20,101,healthy,100.0,中科大-交叉中心,,5
+if.oic.ustc.edu.cn,if.oic,61,4,0,21,13,20,93,healthy,100.0,国际访问教授和英语授课推进计划官方网站,1.0,4
+if.ustc.edu.cn,if,200,1,1,214,240,20,20,healthy,100.0,新闻动态 - 中国科学技术大学信息网络实验室,,14
+ifp.oic.ustc.edu.cn,ifp.oic,61,4,0,21,13,20,26,healthy,100.0,A visiting professor at the international and English teachi,1.0,4
+iia.ustc.edu.cn,iia,150,1,1,95,114,20,55,partial,75.0,工业自动化研究所,,14
+iid.ustc.edu.cn,iid,207,1,1,199,54,16,16,healthy,100.0,中国科学技术大学信息与智能学部,,14
+iif.ustc.edu.cn,iif,147,1,1,136,174,20,100,healthy,100.0,中国科学技术大学国际金融研究院,,15
+imcc.ustc.edu.cn,imcc,50,6,0,18,30,20,29,partial,90.0,IMCC,1.0,5
+immune.ustc.edu.cn,immune,197,1,1,210,251,20,102,healthy,100.0,免疫应答与免疫治疗全国重点实验室,,6
+imnc.ustc.edu.cn,imnc,226,1,1,173,125,20,105,partial,95.0,微纳米复合材料研究所,,13
+inmp.ustc.edu.cn,inmp,219,1,1,86,281,20,84,healthy,100.0,核医学物理研究所 - 中国科学技术大学,,7
+institution-en.ustc.edu.cn,institution-en,25,4,0,32,12,16,16,healthy,100.0,中国科学技术大学实验室主页,1.0,1
+institution.ustc.edu.cn,institution,25,4,0,32,12,20,104,partial,95.0,中国科学技术大学实验室主页,1.0,1
+ioemd.ustc.edu.cn,ioemd,218,1,1,134,189,20,100,healthy,100.0,中国科大内分泌与代谢病研究所,,6
+ioi.ustc.edu.cn,ioi,0,13,0,13,7,20,76,partial,95.0,中国科学技术大学生命科学学院免疫学研究所,0.7611111111111112,6
+iotsec.ustc.edu.cn,iotsec,202,1,1,238,204,20,20,healthy,100.0,国家重点研发网络空间安全专项-物联网与智慧城市安全保障关键技术研究,,5
+ipb.ustc.edu.cn,ipb,227,1,1,137,150,20,100,healthy,100.0,创新实践基地,,0
+iphs.ustc.edu.cn,iphs,155,1,1,69,283,20,102,healthy,100.0,中国科学技术大学公共卫生研究院,,6
+ircls.ustc.edu.cn,ircls,80,1,1,88,136,20,100,healthy,100.0,人文与社会科学学院语言科学交叉研究中心,,7
+isa.ustc.edu.cn,isa,32,49,0,17,216,20,100,healthy,100.0,Welcome To USTC,1.0,4
+ispc.ustc.edu.cn,ispc,0,13,0,15,34,20,31,partial,50.0,中国科学技术大学信息科学实验中心,0.9291666666666667,14
+jcjy.ustc.edu.cn,jcjy,210,1,1,224,266,20,102,partial,95.0,中国科学技术大学基础教育集团,,2
+jcyx.ustc.edu.cn,jcyx,106,1,1,182,158,20,102,healthy,100.0,基础医学院,,6
+jdhta.ustc.edu.cn,jdhta,18,3,0,36,24,11,11,healthy,100.0,中国科学技术大学教代会提案系统,1.0,13
+jgb.ustc.edu.cn,jgb,2,47,0,26,34,20,102,partial,95.0,中国科学技术大学师德教育网,0.9619565217391305,9
+jgdw.ustc.edu.cn,jgdw,0,13,0,15,34,20,35,partial,45.0,机关党委办公室,0.9291666666666667,13
+jjc.ustc.edu.cn,jjc,2,47,0,26,34,20,66,partial,30.0,基本建设处,0.9619565217391305,2
+jjjc.ustc.edu.cn,jjjc,46,2,0,7,236,20,100,healthy,100.0,中国科学技术大学纪检监察网,0.8,20
+jm.ustc.edu.cn,jm,185,1,1,124,227,20,100,healthy,100.0,公共事务学院法律硕士教育中心,,16
+job.ustc.edu.cn,job,19,5,0,30,74,20,100,healthy,100.0,中国科学技术大学就业信息网,1.0,7
+journal.ustc.edu.cn,journal,19,5,0,30,9,20,99,healthy,100.0,《研究生教育研究》杂志社,1.0,9
+journals.ustc.edu.cn,journals,2,47,0,26,34,20,99,healthy,100.0,中国科学技术大学期刊中心,0.9619565217391305,3
+just.ustc.edu.cn,just,23,2,0,24,130,20,31,partial,30.0,JUSTC,1.0,7
+justc.ustc.edu.cn,justc,126,1,1,188,130,20,39,partial,10.0,[连接失败-本运行跳过],,3
+jxjy.ustc.edu.cn,jxjy,1,2,0,0,293,20,100,healthy,100.0,中国科学技术大学国家专业技术人员继续教育基地,0.7142857142857143,2
+jxliu.ustc.edu.cn,jxliu,59,1,1,122,156,20,20,healthy,100.0,刘进勋课题组,,5
+jxzy.ustc.edu.cn,jxzy,19,5,0,30,238,20,100,healthy,100.0,中国科学技术大学物理实验教学中心,1.0,5
+jz.ustc.edu.cn,jz,30,3,0,8,260,20,148,partial,35.0,中国科学技术大学捐赠平台,1.0,2
+kdelab.ustc.edu.cn,kdelab,4,3,0,12,23,20,22,partial,80.0,KDELab@USTC,0.875,7
+kdfz.ustc.edu.cn,kdfz,2,47,0,26,34,20,100,healthy,100.0,科大附中,0.9619565217391305,2
+kdfzgxzx.ustc.edu.cn,kdfzgxzx,164,1,1,112,180,20,100,healthy,100.0,中国科大附中高新中学,,2
+kepu.ustc.edu.cn,kepu,92,1,1,43,290,20,100,healthy,100.0,中国科学技术大学科普博览,,1
+kfsy.ustc.edu.cn,kfsy,2,47,0,26,34,20,100,healthy,100.0,中科大附中实验学校,0.9619565217391305,2
+kid.ustc.edu.cn,kid,14,2,0,53,2,20,100,healthy,100.0,幼儿园,0.8,2
+kp2020.ustc.edu.cn,kp2020,208,1,1,159,267,20,20,healthy,100.0,2021年科技活动周暨第十七届公众科学日,,3
+kyb.ustc.edu.cn,kyb,151,1,1,146,194,20,100,healthy,100.0,中科大科研部,,3
+kycx.ustc.edu.cn,kycx,215,1,1,93,134,20,102,healthy,100.0,中国科学技术大学科研诚信与科技伦理,,3
+lab.ustc.edu.cn,lab,2,47,0,26,144,20,102,healthy,100.0,公共实验中心,0.7304347826086957,20
+labsafety.ustc.edu.cn,labsafety,195,1,1,104,128,20,53,partial,90.0,中国科学技术大学 - 实验室安全办公室,,9
+laserbio.ustc.edu.cn,laserbio,148,1,1,168,218,20,93,healthy,100.0,Biophotonics Lab-EN,,5
+lasm.ustc.edu.cn,lasm,117,1,1,72,83,20,68,healthy,100.0,精密传感与致动实验室,,13
+lcd.ustc.edu.cn,lcd,204,1,1,235,119,20,27,partial,35.0,Laboratory of Cellular Dynamics,,6
+lclab.ustc.edu.cn,lclab,75,1,1,220,100,20,77,healthy,100.0,中国科学技术大学激光化学实验室,,5
+lcyx.ustc.edu.cn,lcyx,138,1,1,155,184,20,100,healthy,100.0,临床医学院,,6
+ldp.ustc.edu.cn,ldp,198,1,1,77,113,20,50,partial,55.0,Low-dimensional Physics Lab,,5
+le.ustc.edu.cn,le,180,1,1,237,153,20,100,healthy,100.0,中国科学技术大学 外语教学中心,,20
+leinao.ustc.edu.cn,leinao,2,47,0,26,34,20,100,healthy,100.0,类脑智能技术及应用国家工程实验室,0.9619565217391305,14
+leis.ustc.edu.cn,leis,0,13,0,232,34,20,20,healthy,100.0,中国科学技术大学物理学院电子碰撞谱学实验室,0.7125,5
+lfo.ustc.edu.cn,lfo,30,3,0,8,115,20,101,healthy,100.0,中国科学技术大学对外联络与基金事务处,1.0,2
+lib.ustc.edu.cn,lib,32,49,0,17,132,20,100,healthy,100.0,中国科学技术大学图书馆,1.0,4
+lifetech.ustc.edu.cn,lifetech,6,2,0,5,95,20,100,partial,15.0,科研设施与仪器开放共享平台,0.75,20
+linke.ustc.edu.cn,linke,220,1,1,89,146,20,100,healthy,100.0,中国科学技术大学 - 下一代移动计算及数据创新实验室,,7
+linux.ustc.edu.cn,linux,32,49,0,17,103,20,22,partial,35.0,USTC,1.0,0
+lmbd.ustc.edu.cn,lmbd,109,1,1,90,143,20,102,healthy,100.0,LMBD of USTC,,13
+lmmr.ustc.edu.cn,lmmr,115,1,1,85,256,20,76,partial,95.0,中国科学院微观磁共振重点实验室,,5
+locd.ustc.edu.cn,locd,17,2,0,4,276,20,27,healthy,100.0,Lab of Organelle and Cytoskeleton Biology,0.75,6
+lodetech.ustc.edu.cn,lodetech,32,49,0,17,99,20,20,partial,75.0,王坚课题组 -  State Key Laboratory of Particle Detection and Elec,1.0,5
+lqcc.ustc.edu.cn,lqcc,32,49,0,17,195,20,101,partial,95.0,"CAS Key Laboratory of Quantum Information, USTC",1.0,5
+lstt.ustc.edu.cn,lstt,32,49,0,17,186,20,20,healthy,100.0,细胞信号转导与基因表达调控实验室,1.0,6
+lt.ustc.edu.cn,lt,70,1,1,162,173,20,102,healthy,100.0,离退休干部工作处,,9
+lug.ustc.edu.cn,lug,23,2,0,24,29,20,104,healthy,100.0,LUG @ USTC,1.0,10
+lxafs.ustc.edu.cn,lxafs,95,1,1,99,127,20,94,healthy,100.0,能源转换原位研究组,,7
+mane.ustc.edu.cn,mane,64,1,1,197,170,20,100,healthy,100.0,微纳米工程实验室,,20
+marx.ustc.edu.cn,marx,62,1,1,154,92,20,125,healthy,100.0,马克思主义学院,,6
+math.ustc.edu.cn,math,24,2,0,23,4,20,84,healthy,100.0,中国科学技术大学数学科学学院,0.8333333333333334,21
+mba.ustc.edu.cn,mba,84,1,1,213,197,20,101,partial,95.0,管理学院MBA中心,,15
+mbit.ustc.edu.cn,mbit,8,2,0,11,233,20,101,partial,95.0,Lab for Multimodal Biomedical Imaging and Therapy (MBIT),0.75,9
+mcg.ustc.edu.cn,mcg,4,3,0,12,23,19,19,partial,94.7,中国科学技术大学分子细胞遗传学实验室,0.875,6
+mcip.ustc.edu.cn,mcip,96,1,1,123,118,20,20,healthy,100.0,先进感知、数据融合及智能运维课题组,,5
+mech.ustc.edu.cn,mech,2,47,0,26,34,20,103,healthy,100.0,近代力学系,0.9619565217391305,20
+membrane.ustc.edu.cn,membrane,122,1,1,201,250,20,33,partial,45.0,中科大功能膜研究室,,5
+mengo.ustc.edu.cn,mengo,32,49,0,17,29,20,90,partial,45.0,蒙城地球物理国家野外科学观测研究站,1.0,6
+meta.ustc.edu.cn,meta,1,2,0,0,217,20,65,healthy,100.0,元模型驱动的开放环境自适应感知,0.7142857142857143,9
+mf.ustc.edu.cn,mf,135,1,1,141,214,20,104,healthy,100.0,中国科学技术大学金融硕士（MF）,,15
+miracle.ustc.edu.cn,miracle,104,1,1,121,71,20,34,partial,95.0,MIRACLE奇迹,,6
+mirrors.ustc.edu.cn,mirrors,32,49,0,17,177,20,302,partial,10.0,USTC Open Source Software Mirror,1.0,10
+mklcd.ustc.edu.cn,mklcd,39,1,1,189,213,20,73,healthy,100.0,无膜细胞器与细胞动力学教育部重点实验室,,6
+mof.ustc.edu.cn,mof,5,3,0,27,6,20,73,healthy,100.0,Welcome to The Jiang Research Group,0.8,9
+mpa.ustc.edu.cn,mpa,78,1,1,211,102,20,101,healthy,100.0,中国科学技术大学公共管理硕士（MPA）教育中心,,16
+mphy.ustc.edu.cn,mphy,224,1,1,149,154,20,100,healthy,100.0,中国科学技术大学近代物理系,,5
+mse.ustc.edu.cn,mse,2,47,0,26,34,20,100,healthy,100.0,材料科学与工程系,0.9619565217391305,5
+museum.ustc.edu.cn,museum,2,47,0,26,34,20,100,healthy,100.0,中国科学技术大学博物馆,0.9619565217391305,5
+nano.ustc.edu.cn,nano,2,47,0,26,34,20,102,healthy,100.0,微纳研究与制造中心,0.9619565217391305,20
+nanowire.ustc.edu.cn,nanowire,133,1,1,102,63,20,20,healthy,100.0,纳米组装与功能实验室,,5
+nbe.ustc.edu.cn,nbe,105,1,1,70,212,20,95,healthy,100.0,中国科大管理学院新商科实验中心,,15
+ndrc.ustc.edu.cn,ndrc,2,47,0,26,286,20,100,healthy,100.0,脑资源库暨神经退行性疾病研究中心,0.9619565217391305,6
+nelslip.ustc.edu.cn,nelslip,22,2,0,3,16,20,101,partial,95.0,语音及语言信息处理国家工程研究中心,0.75,17
+nercslip.ustc.edu.cn,nercslip,22,2,0,3,16,20,100,healthy,100.0,语音及语言信息处理国家工程研究中心,0.75,17
+neurophysics.ustc.edu.cn,neurophysics,56,2,0,47,31,20,33,healthy,100.0,Laboratory of Neurophysics and Neurophysiology | USTC,0.8333333333333334,9
+news.ustc.edu.cn,news,3,2,0,2,161,20,100,healthy,100.0,中国科大新闻网,0.7272727272727273,9
+np.ustc.edu.cn,np,74,1,1,169,160,20,20,healthy,100.0,中国科学技术大学微纳光学器件与系统研究组,,20
+nsrl.ustc.edu.cn,nsrl,103,1,1,76,72,20,100,healthy,100.0,国家同步辐射实验室,,7
+nsti.ustc.edu.cn,nsti,190,1,1,120,133,20,100,partial,95.0,纳米科学技术学院 - 中国科学技术大学,,9
+oic.ustc.edu.cn,oic,16,2,0,25,244,20,100,healthy,100.0,中国科学技术大学国际合作与交流部暨港澳台事务办公室官方网站,1.0,4
+oj.ustc.edu.cn,oj,107,1,1,227,120,20,24,partial,90.0,首页 - USTC-OJ,,14
+ooe.ustc.edu.cn,ooe,32,49,0,17,84,20,100,healthy,100.0,"Dept. of Optics & Optical Engineering, USTC",1.0,5
+opac.lib.ustc.edu.cn,opac.lib,18,3,0,36,24,15,15,partial,73.3,[连接失败-本运行跳过],1.0,4
+opt.ustc.edu.cn,opt,199,1,1,106,264,20,100,healthy,100.0,光电子科学与技术安徽省重点实验室,,5
+order.ustc.edu.cn,order,0,13,0,15,34,17,17,partial,58.8,Hua Tong Lab,0.9291666666666667,5
+ot.ustc.edu.cn,ot,32,49,0,17,80,10,10,partial,10.0,蜗壳学社,1.0,0
+owc.ustc.edu.cn,owc,183,1,1,198,112,20,92,partial,85.0,中国科技大学无线光通信与网络研究中心主页,,13
+pas.ustc.edu.cn,pas,110,1,1,160,48,10,10,dead,0.0,[请求失败] ConnectionError,,16
+passport.ustc.edu.cn,passport,229,1,1,129,11,11,11,dead,0.0,[需要身份认证],,2
+pba.ustc.edu.cn,pba,13,3,0,118,3,20,100,healthy,100.0,中国科学技术大学粒子束交叉应用实验室,0.8,5
+pcft.ustc.edu.cn,pcft,196,1,1,113,86,19,19,partial,52.6,彭桓武高能基础理论研究中心,,5
+phys.ustc.edu.cn,phys,54,1,1,190,107,20,73,partial,95.0,物理系,,5
+physics.ustc.edu.cn,physics,91,1,1,83,261,20,68,healthy,100.0,中国科学技术大学物理学院,,5
+pic.ustc.edu.cn,pic,108,1,1,234,190,20,53,partial,50.0,中国科学技术大学-理化科学实验中心,,20
+pichem.ustc.edu.cn,pichem,153,1,1,138,75,20,102,healthy,100.0,精准智能化学全国重点实验室,,4
+pics.ustc.edu.cn,pics,73,1,1,68,14,20,20,healthy,100.0,仪器设备,,20
+pmpi.ustc.edu.cn,pmpi,99,1,1,78,36,20,108,healthy,100.0,中国科学技术大学|精密机械与精密仪器系,,13
+pms.cmet.ustc.edu.cn,pms.cmet,58,1,1,35,131,16,16,partial,12.5,中国科学技术大学质量工程项目管理信息系统,,0
+pnp.ustc.edu.cn,pnp,47,1,1,229,277,20,106,partial,85.0,粒子物理与原子核物理学科,,5
+po.ustc.edu.cn,po,116,1,1,114,235,20,36,partial,25.0,中国科大党政办公室,,9
+polymer.ustc.edu.cn,polymer,60,1,1,97,42,20,100,healthy,100.0,中国科学技术大学高分子科学与工程系,,5
+pop.sz.ustc.edu.cn,pop.sz,6,2,0,5,164,20,27,partial,5.0,门户首页,0.75,9
+press.ustc.edu.cn,press,83,1,1,80,91,20,100,healthy,100.0,中国科学技术大学出版社,,13
+psy.ustc.edu.cn,psy,173,1,1,42,108,20,100,healthy,100.0,中国科学技术大学心理学系,,7
+quantum-materials.ustc.edu.cn,quantum-materials,68,1,1,115,117,20,20,healthy,100.0,中国科学技术大学 - 复杂量子材料及其微结构研究组,,1
+quantum.ustc.edu.cn,quantum,32,49,0,17,76,20,100,healthy,100.0,首页 | 量子物理与量子信息研究部,1.0,5
+qulab.ustc.edu.cn,qulab,20,6,0,22,65,20,25,partial,90.0,"QULAB – School of Life Sciences, USTC",1.0,6
+qybx.ustc.edu.cn,qybx,2,47,0,110,284,20,68,partial,80.0,中国科学技术大学全院办校所系结合,0.7304347826086957,9
+realtimetech.ustc.edu.cn,realtimetech,77,1,1,216,198,20,28,healthy,100.0,实时技术实验室,,5
+rec.ustc.edu.cn,rec,32,49,0,17,35,20,20,healthy,100.0,rec,1.0,13
+renlab.ustc.edu.cn,renlab,76,1,1,101,121,20,100,healthy,100.0,THE REN LAB,,5
+robot.ustc.edu.cn,robot,57,1,1,105,285,20,100,healthy,100.0,机器人与智能装备研究所,,5
+roboticsbase.ustc.edu.cn,roboticsbase,0,13,0,236,2,20,24,healthy,100.0,安徽省机器人技术标准创新基地,0.7611111111111112,7
+rwb.ustc.edu.cn,rwb,182,1,1,79,111,20,100,healthy,100.0,中国科大人武部,,0
+s4plus.ustc.edu.cn,s4plus,5,3,0,27,6,20,91,partial,20.0,[需要身份认证],0.7333333333333334,7
+safetyse.ustc.edu.cn,safetyse,2,47,0,84,141,20,100,healthy,100.0,安全科学与工程系,0.7304347826086957,8
+saids.ustc.edu.cn,saids,28,1,1,217,142,20,75,healthy,100.0,人工智能与数据科学学院,,7
+scc.ustc.edu.cn,scc,2,47,0,26,34,20,63,partial,50.0,超级计算中心.服务科研.面向未来,0.9619565217391305,0
+scmp.ustc.edu.cn,scmp,71,1,1,41,94,20,44,partial,50.0,[英]软物质理论与计算实验室,,5
+scms.ustc.edu.cn,scms,2,47,0,109,282,20,113,healthy,100.0,中国科学技术大学 化学与材料科学学院,0.7304347826086957,5
+see.ustc.edu.cn,see,86,1,1,119,82,20,100,healthy,100.0,国家卓越工程师学院 - 中国科学技术大学,,9
+seismo.training.ustc.edu.cn,seismo.training,178,1,1,91,81,20,21,partial,95.0,地震学算法与程序,,13
+service.ustc.edu.cn,service,67,1,1,135,67,16,16,healthy,100.0,首页,,12
+ses-epc.ustc.edu.cn,ses-epc,2,47,0,26,34,20,100,healthy,100.0,工程实践中心,0.9619565217391305,13
+ses.ustc.edu.cn,ses,90,1,1,151,137,20,102,healthy,100.0,工程科学学院,,13
+set.ustc.edu.cn,set,187,1,1,133,37,20,100,healthy,100.0,中国科学技术大学未来技术学院,,0
+sgy.ustc.edu.cn,sgy,2,47,0,54,140,20,100,healthy,100.0,少年班学院,0.7304347826086957,6
+sias.ustc.edu.cn,sias,2,47,0,26,15,20,102,partial,90.0,中国科学技术大学上海研究院,0.9619565217391305,6
+sie.ustc.edu.cn,sie,15,2,0,6,116,20,100,healthy,100.0,中国科学技术大学创新创业学院,0.8,0
+sist.ustc.edu.cn,sist,2,47,0,26,34,20,100,healthy,100.0,中国科学技术大学信息科学技术学院欢迎你,0.9619565217391305,14
+sjc.ustc.edu.cn,sjc,69,1,1,100,124,20,100,healthy,100.0,中国科学技术大学审计处,,9
+sklfs.ustc.edu.cn,sklfs,2,47,0,26,139,20,118,partial,90.0,火灾安全全国重点实验室,0.9619565217391305,8
+sklpde.ustc.edu.cn,sklpde,53,1,1,59,59,20,100,healthy,100.0,核探测与核电子学实验室,,13
+sme.ustc.edu.cn,sme,132,1,1,61,41,20,101,healthy,100.0,微电子学院,,14
+smile.ustc.edu.cn,smile,32,49,0,17,5,20,100,healthy,100.0,中国科学技术大学心理健康教育与咨询中心,1.0,7
+snst.ustc.edu.cn,snst,89,1,1,98,106,20,103,partial,90.0,核科学技术学院,,7
+soc.ustc.edu.cn,soc,32,49,0,17,129,20,101,partial,95.0,USTC SOC Homepage,1.0,14
+soe.ustc.edu.cn,soe,113,1,1,34,178,20,100,healthy,100.0,中国科学技术大学环境学院,,12
+som.ustc.edu.cn,som,9,2,0,20,10,20,100,healthy,100.0,中国科学技术大学科技商学院、管理学院,0.8,15
+space.ustc.edu.cn,space,61,4,0,21,122,20,97,healthy,100.0,Welcome to Space Physics Division of USTC,1.0,7
+spin.ustc.edu.cn,spin,114,2,0,37,48,20,33,partial,40.0,中科院微观磁共振重点实验室顺磁共振组,1.0,5
+sppm.ustc.edu.cn,sppm,41,1,1,94,61,20,100,healthy,100.0,公共管理学院,,16
+sse.ustc.edu.cn,sse,2,47,0,218,278,20,100,healthy,100.0,中国科学技术大学软件学院School of Software Engineering of USTC,0.7304347826086957,6
+sse_en.ustc.edu.cn,sse_en,100,1,1,117,88,20,29,healthy,100.0,SCHOOL OF SOFTWARE ENGINEERING,,6
+staff.ustc.edu.cn,staff,29,1,1,131,60,20,144,partial,90.0,司廷的个人主页,,5
+stc.ustc.edu.cn,stc,88,1,1,150,66,20,104,partial,85.0,科技传播系,,7
+sti.ustc.edu.cn,sti,27,5,0,13,7,20,114,partial,95.0,可持续发展与技术创新研究中心,0.95,13
+sts.ustc.edu.cn,sts,66,1,1,130,43,20,101,healthy,100.0,中国科学技术大学科技哲学系,,14
+stuhome.ustc.edu.cn,stuhome,13,3,0,14,3,20,100,partial,30.0,中国科大学工在线,0.9,0
+sum.ustc.edu.cn,sum,0,13,0,15,34,20,20,healthy,100.0,sum,0.9291666666666667,1
+sun.ustc.edu.cn,sun,205,1,1,39,196,20,52,healthy,100.0,Immuno Therapy LAB,,6
+surfchem.ustc.edu.cn,surfchem,43,1,1,111,138,20,20,healthy,100.0,表面物理化学研究团队,,23
+sylx.ustc.edu.cn,sylx,32,49,0,17,56,10,10,partial,10.0,欢迎访问《实验力学》编辑部网站！,1.0,3
+sz.ustc.edu.cn,sz,20,6,0,22,79,20,100,healthy,100.0,中国科学技术大学苏州高等研究院,1.0,9
+tc441.ustc.edu.cn,tc441,35,1,1,75,77,20,82,healthy,100.0,全国燃烧节能净化标准化技术委员会,,13
+tcc.ustc.edu.cn,tcc,7,2,0,1,0,20,20,healthy,100.0,Theoretical & Computational Catalysis,0.75,5
+teach.ustc.edu.cn,teach,38,1,1,66,55,20,100,healthy,100.0,中国科学技术大学教务处,,0
+team-en.ustc.edu.cn,team-en,25,4,0,32,12,20,24,healthy,100.0,中国科学技术大学团队主页,1.0,1
+team.ustc.edu.cn,team,25,4,0,32,12,20,100,healthy,100.0,中国科学技术大学团队主页,1.0,1
+techtrans.ustc.edu.cn,techtrans,2,47,0,26,34,20,216,partial,65.0,中国科学技术大学科技成果转化院,0.9619565217391305,14
+tisc.ustc.edu.cn,tisc,14,2,0,53,2,20,100,healthy,100.0,世界知识产权组织技术与创新支持中心,0.8,16
+tj.ustc.edu.cn,tj,112,1,1,116,68,20,59,healthy,100.0,体育教学中心,,0
+tjlab.ustc.edu.cn,tjlab,34,1,1,74,98,20,81,healthy,100.0,TJlab,,13
+tqms.ustc.edu.cn,tqms,32,49,0,17,105,20,62,healthy,100.0,首页 - 中国科学技术大学 - 研究生面试申请系统,1.0,7
+tsee.ustc.edu.cn,tsee,2,47,0,26,34,20,110,healthy,100.0,热科学和能源工程系,0.9619565217391305,13
+tzb.ustc.edu.cn,tzb,2,47,0,26,34,20,63,healthy,100.0,党委统战部,0.9619565217391305,13
+ugs.ustc.edu.cn,ugs,49,1,1,67,96,20,132,healthy,100.0,中国科学技术大学本科生院,,0
+ustc-bj.ustc.edu.cn,ustc-bj,2,47,0,26,34,20,100,healthy,100.0,北京中科研究院,0.9619565217391305,14
+ustcnet.ustc.edu.cn,ustcnet,2,47,0,26,34,20,100,partial,20.0,中国科学技术大学-网络信息中心,0.9619565217391305,0
+vceb.ustc.edu.cn,vceb,32,49,0,17,47,20,45,healthy,100.0,中国科学技术大学生命科学虚拟仿真实验教学中心,1.0,6
+vim.ustc.edu.cn,vim,188,1,1,60,104,20,101,partial,95.0,USTC Vision and Multimedia (VIM) - 视觉与多媒体研究组,,5
+virlab.ustc.edu.cn,virlab,33,1,1,107,69,20,100,healthy,100.0,工程科学虚拟仿真实验教学中心 - 中国科学技术大学,,13
+vision.ustc.edu.cn,vision,111,1,1,82,32,20,24,healthy,100.0,Vision Research Laboratory,,6
+vlab.ustc.edu.cn,vlab,32,49,0,17,101,20,30,partial,25.0,首页 - Vlab 实验中心,1.0,14
+wanglab.ustc.edu.cn,wanglab,32,49,0,17,18,12,12,healthy,100.0,Wang Research Lab,1.0,6
+wcm.ustc.edu.cn,wcm,97,1,1,51,182,20,21,dead,0.0,[HTTP 502],,13
+welcome.ustc.edu.cn,welcome,40,2,0,16,11,14,14,partial,92.9,中国科大迎新管理,1.0,6
+wfst.ustc.edu.cn,wfst,32,49,0,17,57,20,100,partial,50.0,WFST,1.0,5
+wlkt.ustc.edu.cn,wlkt,32,49,0,17,39,20,20,healthy,100.0,首页 - 中国科学技术大学网络课堂,1.0,7
+wlys.ustc.edu.cn,wlys,32,49,0,17,5,10,10,partial,20.0,中国科学技术大学物理学院本科生导师制预约系统,1.0,5
+woc-lab.ustc.edu.cn,woc-lab,36,1,1,38,40,20,100,healthy,100.0,中国科学院无线光电通信重点实验室,,5
+wp.ustc.edu.cn,wp,94,3,0,55,97,20,108,partial,5.0,[需要身份认证],1.0,20
+wpsearch.ustc.edu.cn,wpsearch,12,2,0,31,34,20,100,healthy,100.0,二级站群搜索网站,0.8,20
+wsbl.ustc.edu.cn,wsbl,45,1,1,49,17,11,11,healthy,100.0,中国科学技术大学学位委员会办公室|网上办理,,14
+wulab.ustc.edu.cn,wulab,44,1,1,52,51,20,101,healthy,100.0,中国科学院吴文俊数学重点实验室,,21
+wxb.ustc.edu.cn,wxb,0,13,0,15,34,20,36,healthy,100.0,网络安全和信息化办公室,0.9291666666666667,0
+x-lab.ustc.edu.cn,x-lab,32,49,0,17,18,18,18,healthy,100.0,Home – Xiong'Lab,1.0,6
+xcb.ustc.edu.cn,xcb,46,2,0,7,90,20,100,healthy,100.0,党委宣传部 新闻中心,0.8,9
+xiaolab.ustc.edu.cn,xiaolab,166,1,1,33,1,20,20,healthy,100.0,Xiao Group,,5
+xjgz.ustc.edu.cn,xjgz,93,1,1,81,50,20,100,healthy,100.0,中国科学技术大学 - 先进光子科学技术安徽省实验室,,6
+xnfz.cmet.ustc.edu.cn,xnfz.cmet,32,49,0,17,53,20,25,partial,85.0,默认站点,1.0,13
+xspt.ustc.edu.cn,xspt,32,49,0,17,70,10,10,partial,90.0,研究生报考服务系统,1.0,14
+xsybxt.ustc.edu.cn,xsybxt,31,1,1,40,5,20,27,partial,70.0,[需要身份认证],,11
+xuelab.ustc.edu.cn,xuelab,50,6,0,18,30,20,48,healthy,100.0,Prof. Tian Xue– University of Science and Technology of Chin,1.0,6
+xuncha.ustc.edu.cn,xuncha,102,1,1,108,48,20,47,partial,95.0,中国科学技术大学党委巡察工作办公室,,20
+xwsh.ustc.edu.cn,xwsh,61,4,0,21,13,16,16,healthy,100.0,xwsh,1.0,14
+xxgk.ustc.edu.cn,xxgk,2,47,0,26,34,20,100,healthy,100.0,中国科大信息公开,0.9619565217391305,7
+yanlab.ustc.edu.cn,yanlab,0,13,0,15,34,20,46,healthy,100.0,yanlab.ustc.edu.cn,0.9291666666666667,4
+yaolab.ustc.edu.cn,yaolab,5,3,0,57,58,20,88,healthy,100.0,Huajian Yao - University of Science and Technology of China,0.7333333333333334,13
+yaotlab.ustc.edu.cn,yaotlab,37,1,1,73,34,20,30,healthy,100.0,Research,,7
+yllu.ustc.edu.cn,yllu,98,1,1,58,52,20,20,healthy,100.0,陆亚林教授个人主页-中国科学技术大学,,6
+young.ustc.edu.cn,young,55,1,1,56,62,11,11,partial,81.8,青春科大智慧团学综合信息化平台,,0
+yqgx.ustc.edu.cn,yqgx,48,1,1,44,89,20,22,partial,5.0,中国科大先研院园区仪器共享平台,,14
+yqzx.ustc.edu.cn,yqzx,32,49,0,17,20,20,100,partial,35.0,综合科研仪器共享中心,1.0,20
+ysjt.ustc.edu.cn,ysjt,2,47,0,26,34,20,100,healthy,100.0,饮食服务集团,0.9619565217391305,9
+yuanlai.lib.ustc.edu.cn,yuanlai.lib,19,5,0,30,9,20,20,healthy,100.0,“知识视界”视频教育资源库,1.0,4
+yz.ustc.edu.cn,yz,32,49,0,17,49,20,65,healthy,100.0,中国科学技术大学-研究生招生在线,1.0,7
+yz1.ustc.edu.cn,yz1,26,1,1,63,19,20,100,healthy,100.0,中国科学技术大学研究生招生在线―招生简章,,7
+zangjylab.ustc.edu.cn,zangjylab,7,2,0,1,0,20,100,healthy,100.0,ZANG-LAB,0.75,6
+zbh.ustc.edu.cn,zbh,32,49,0,17,33,10,10,partial,20.0,中国科学技术大学软件正版化,1.0,21
+zebrafish.ustc.edu.cn,zebrafish,50,6,0,18,30,12,12,healthy,100.0,Home,1.0,6
+zgkdb.ustc.edu.cn,zgkdb,32,49,0,17,27,20,99,healthy,100.0,中国科大报,1.0,9
+zhanglab.ustc.edu.cn,zhanglab,51,1,1,46,28,10,10,partial,90.0,Zhang Research Group,,5
+zhanlab.ustc.edu.cn,zhanlab,32,49,0,17,18,20,31,partial,95.0,Prof. Cheng Zhan - University of Science and Technology of C,1.0,9
+zhb.ustc.edu.cn,zhb,65,1,1,64,45,20,100,partial,65.0,科技成果转化处,,6
+zhc.ustc.edu.cn,zhc,2,47,0,28,15,20,100,healthy,100.0,中国科学技术大学资产与后勤保障处,0.7304347826086957,13
+zhdwang.ustc.edu.cn,zhdwang,81,1,1,29,78,16,16,healthy,100.0,王占东研究小组,,7
+zhulab.ustc.edu.cn,zhulab,21,1,1,19,44,20,35,healthy,100.0,ZhuLab,,20
+zsb.ustc.edu.cn,zsb,123,1,1,92,25,20,100,healthy,100.0,中国科学技术大学本科招生网,,7
+zyxwzs.ustc.edu.cn,zyxwzs,101,1,1,45,26,11,11,healthy,100.0,中科大管理学院专业学位考生服务系统,,15
+zzb.ustc.edu.cn,zzb,52,1,1,65,21,20,52,partial,5.0,党委组织部（党校）-中国科学技术大学,,13

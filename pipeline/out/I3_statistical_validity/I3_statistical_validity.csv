@@ -1,0 +1,23 @@
+﻿unit,check_item,observed,evidence,verdict,note
+A1_degree_heavy_tail,随机重复次数,"NBOOT=25, NLR=20, NRES=20",RUN.txt: start | module=A1 … NBOOT=25 NLR=20 NRES=20,建议,描述统计的重抽样只有 20–25 次，CI 端点会抖；MANIFEST 未定数，建议至少 200 次
+A2_small_world,随机重复次数,"N_INST=100, N_CFG=100",RUN.txt: N_INST=100; N_CFG=100,合规,—
+A2_small_world,零模型独立性,n_reps=100，缓存命中 31/31,RUN.txt: CFG via C.degree_preserving_null: n_reps=100 … misses=0,合规,明确说明所有指标来自同一批独立复制-交换实例，符合 §4
+A3_null_model_matrix,随机实例数,ER/BA 40，WS 30,RUN.txt: ER reps=40 / WS_k6_p0.05 reps=30,建议,达到 MANIFEST 的 ≥30，但 n≈30 时 sd 自身误差约 13%，|z| 会偏大
+A5_core_periphery,零模型独立性,671:400 / 676:300，nswap=10m，max_tries=100*nswap，degseq_ok=1.0,RUN.txt 的 swap diagnostics,合规,§4 三项要求逐条满足，是全项目零模型最规范的一处
+A5_core_periphery,p 值口径,双侧经验 p，按偏离 null mean 的绝对值计,result.md:59,合规,符合 §4
+A5_core_periphery,多重比较,BH 校正（正向 0 档、负向 54 档）,"result.md:23-24,60-61",合规,—
+B1_louvain_stability,随机重复次数,主扫 50 seeds / 扩展 250 seeds,RUN.txt: range(50) / range(250),合规,并明确种子间波动不是抽样置信区间（result.md:196）
+B2_algorithm_contrast,零模型独立性,30 次 fresh copy + double_edge_swap，nswap=10m,RUN.txt: null model: 30 次独立重复,建议,独立性合规，但 30 个零模型样本对 NMI 显著性偏少
+B4_weight_variants,随机重复次数,REPS=20000（置换界）,RUN.txt: REPS = 20000,合规,—
+B6_community_semantics,多重比较,BH 校正,result.md 中 BH 校正 x2,合规,—
+D4_assortativity_identifiability,随机重复次数,nswap=10；置换/抽样 reps=574 与 62,RUN.txt: nswap=10 reps = 1 reps = 574 reps = 62,存疑,两套 reps 用途未分开标注，无法判断 62 那套是否够用
+D5_failure_clustering_alt,多重比较,有校正,result.md 中 多重比较 x1,合规,BH，见该单元 §4
+E1_attack_curves,随机重复次数,120（要求 ≥100）,RUN.txt: random: 120 independent replicates (contract >=100),合规,—
+E2_dynamic_attack,确定性/无随机,动态重排序无随机过程；耗时已报,RUN.txt,合规,—
+E3_percolation,随机重复次数,200（要求 ≥100）,RUN.txt 与 result.md,合规,网格延到 f=0.90 以消除右删失
+E4_edge_attacks,随机重复次数,N_RANDOM=100,run_e4.py:L66 + RUN.txt,合规,—
+E5_observed_scenarios,随机重复次数,N_RANDOM=100,RUN.txt: N_RANDOM = 100,合规,—
+E6_backbone_resilience,多重比较,Sidak（主）/ Bonferroni（对照）,result.md Sidak x4、Bonferroni x1,合规,另有 250 边 x 20000 次 bootstrap 与解析闭式对照
+F1_mantel_final,置换次数,n_perm=1999 + bootstrap 1000,RUN.txt: n_perm = 1999,合规,并指出置换 null 低估抽样不确定性、显著性以 bootstrap CI 为准
+F3_template_verdict,置换次数,"199 per rep；beta=0 第一类错误率 [0.008,1.000]",RUN.txt / verdict.csv,合规,作者主动披露 beta=0 假阳性率 0.80 的设计不可用
+G3_governance_priority,随机重复次数,200（要求 ≥100）,RUN.txt: reps: 200,合规,—

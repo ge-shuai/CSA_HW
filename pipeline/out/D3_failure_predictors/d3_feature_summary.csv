@@ -1,0 +1,3 @@
+﻿sample,n,n_events,event_rate,in_degree_min,in_degree_q1,in_degree_median,in_degree_q3,in_degree_iqr,in_degree_max,in_degree_mean_events,in_degree_mean_non_events,in_degree_zero_n,spearman_in_degree_vs_event,spearman_log1p_url_vs_event,url_count_median,url_count_median_events,url_count_max,log1p_url_mean,n_category_levels,n_category_dummies,n_category_levels_with_zero_events,n_auth_flag_ones,degree_u_in_model,out_degree_in_model
+S_uncorr_671,671,129,0.1923,0,1.0,2.0,4.0,3.0,73,1.6047,4.7528,7,-0.2959,-0.5447,20.0,1.0,302,2.7711,5,4,4,18,0,0
+S_corr_638,638,129,0.2022,0,1.0,2.0,4.0,3.0,73,1.6047,4.8861,7,-0.3103,-0.5803,20.0,1.0,302,2.858,5,4,4,0,0,0

@@ -1,0 +1,14 @@
+﻿sample,model,model_tag,parent,n,n_events,event_rate,n_terms,deviance,aic,bic,epv,lrt_vs_parent_chi2,lrt_vs_parent_df,lrt_vs_parent_p,lrt_valid_under_separation,mle_converged,hit_max_iter,separated,singular_hessian,n_iter,diverged_terms,note
+S_uncorr_671,M0_intercept,trivial,,671,129,0.1923,0,656.8682,658.8682,663.377,,,,,1,True,False,False,False,5,,
+S_uncorr_671,M1_url_only,crawl_yield_proxy,M0_intercept,671,129,0.1923,1,384.1156,388.1156,397.1331,129.0,272.7527,1.0,2.850958198060111e-61,1,True,False,False,False,9,,
+S_uncorr_671,M2_url_category,含标题语义（与结局同渠道）,M1_url_only,671,129,0.1923,5,288.7685,300.7685,327.8211,25.8,95.3471,4.0,9.614643890658768e-20,0,False,True,True,False,300,category[教务教学]|category[科研平台]|category[管理服务]|category[院系],完全分离：这些项的系数发散到 ±inf、Wald SE 爆炸、LRT 分布非标准 → 该模型的系数与 p 不可解释
+S_uncorr_671,M3_url_category_indegree,含标题语义（与结局同渠道）,M2_url_category,671,129,0.1923,6,288.3688,302.3688,333.9302,21.5,0.3996,1.0,0.5272766304348798,0,False,True,True,False,300,category[教务教学]|category[科研平台]|category[管理服务]|category[院系],完全分离：这些项的系数发散到 ±inf、Wald SE 爆炸、LRT 分布非标准 → 该模型的系数与 p 不可解释
+S_uncorr_671,M4_full_with_auth,题面指定完整模型（含两个定义性伴生项）,M3_url_category_indegree,671,129,0.1923,7,256.1932,272.1932,308.2633,18.43,32.1757,1.0,1.4084352778478687e-08,0,False,True,True,False,300,category[教务教学]|category[科研平台]|category[管理服务]|category[院系]|auth_flag,完全分离：这些项的系数发散到 ±inf、Wald SE 爆炸、LRT 分布非标准 → 该模型的系数与 p 不可解释
+S_uncorr_671,N1_indegree_only,无泄漏：只有网络位置,M0_intercept,671,129,0.1923,1,587.9165,591.9165,600.934,129.0,68.9518,1.0,1.0090074753705604e-16,1,True,False,False,False,8,,
+S_uncorr_671,N2_url_indegree_PRIMARY,主口径：入度独立效应的正式检验,M1_url_only,671,129,0.1923,2,383.4663,389.4663,402.9926,64.5,0.6493,1.0,0.42035948183996474,1,True,False,False,False,9,,
+S_corr_638,M0_intercept,trivial,,638,129,0.2022,0,642.376,644.376,648.8343,,,,,1,True,False,False,False,5,,
+S_corr_638,M1_url_only,crawl_yield_proxy,M0_intercept,638,129,0.2022,1,341.1392,345.1392,354.0559,129.0,301.2368,1.0,1.771441118059718e-67,1,True,False,False,False,9,,
+S_corr_638,M2_url_category,含标题语义（与结局同渠道）,M1_url_only,638,129,0.2022,5,222.3376,234.3376,261.0876,25.8,118.8016,4.0,9.6293235260422e-25,0,False,True,True,False,300,category[教务教学]|category[科研平台]|category[管理服务]|category[院系],完全分离：这些项的系数发散到 ±inf、Wald SE 爆炸、LRT 分布非标准 → 该模型的系数与 p 不可解释
+S_corr_638,M3_url_category_indegree,含标题语义（与结局同渠道）,M2_url_category,638,129,0.2022,6,222.319,236.319,267.5274,21.5,0.0186,1.0,0.8915669279414625,0,False,True,True,False,300,category[教务教学]|category[科研平台]|category[管理服务]|category[院系],完全分离：这些项的系数发散到 ±inf、Wald SE 爆炸、LRT 分布非标准 → 该模型的系数与 p 不可解释
+S_corr_638,N1_indegree_only,无泄漏：只有网络位置,M0_intercept,638,129,0.2022,1,570.3023,574.3023,583.219,129.0,72.0736,1.0,2.0731497216644412e-17,1,True,False,False,False,8,,
+S_corr_638,N2_url_indegree_PRIMARY,主口径：入度独立效应的正式检验,M1_url_only,638,129,0.2022,2,340.6954,346.6954,360.0704,64.5,0.4438,1.0,0.5052910049852877,1,True,False,False,False,9,,

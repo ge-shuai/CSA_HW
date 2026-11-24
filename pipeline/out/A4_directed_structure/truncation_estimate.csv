@@ -1,0 +1,67 @@
+﻿item,value,note
+cap_on_listed_urls,20,落库明细上限（DATA_DICTIONARY）
+max_listed_urls_observed,20,
+n_sites_listed_at_cap,352,
+n_sites_page_truncated,319,url_count>listed_urls，确有未落库页面
+share_sites_page_truncated,0.4754,
+n_sites_fully_enumerated,352,url_count<=20，页面明细已穷尽
+sum_url_count,28346,抓取器报告的页面总数
+sum_listed_urls,8115,落库明细数（= n_urls 锚 8115）
+page_coverage_share,0.2863,页面级覆盖率 = Σlisted/Σurl_count
+n_unobserved_pages_total,20231,
+healthy_n_sites,360,
+healthy_n_page_truncated,213,
+healthy_share_page_truncated,0.5917,
+healthy_sum_url_count,20003,
+healthy_sum_listed_urls,5306,
+healthy_page_coverage_share,0.2653,
+healthy_unobserved_pages,14697,
+healthy_observed_out_hrefs,51535,已观测跨子域出链次数（=出强度之和）
+healthy_observed_out_edges,2083,已观测不同出目标数之和
+href_per_ok_page_pooled_healthy,9.7126,合并口径；模板重复会让它偏高（同一模板 href 在多页重复计入 weight）
+href_per_ok_page_median_healthy,0.8,
+href_per_ok_page_p25_healthy,0.0,
+href_per_ok_page_p75_healthy,5.9125,
+missing_out_hrefs_pooled_upper,142746.0,上界：合并每页出链率 × 未落库页面数，完全忽略模板重复 -> 只作量级
+missing_out_hrefs_median_rate,11758.0,保守：中位每页出链率外推
+fully_enumerated_healthy_n,147,url_count==listed_urls<=20 的健康站点（未被截断对照组）
+outdeg_vs_pages_beta,0.0756,全枚举健康站点内 log(out_degree)~log(url_count) 斜率；n=38，r=0.052，p=7.58e-01
+outdeg_vs_pages_beta_ci95,"[-0.402,0.553]","β<1 -> 出度随页面数亚线性饱和；观测范围 url_count∈[2,20]，用于外推有风险"
+trunc_healthy_ratio_median,5.0,
+projection_factor_beta_model_at_ratio5,1.129,url_count=100 只落库 20（比值 5）的站点，出度按 β 模型的放大倍数
+projection_factor_linear_model_at_ratio5,5.0,β=1 线性模型给 5×（上界）
+trunc_healthy_outdeg_observed,1879,
+trunc_healthy_outdeg_projected_beta,2108.4,β 模型投影到全页面覆盖
+trunc_healthy_outdeg_projected_linear,8843.9,线性模型投影（上界）
+net_directed_edges_now,2788,
+net_directed_edges_projected_beta,3017,只放大被截断健康站点的出度、其余不动；不含死站（其出边完全不可观测）
+net_directed_edges_projected_linear_upper,9753,线性上界
+sink_full676_out0_dead,162,
+sink_full676_out0_dead_page_truncated,2,该组中确有未落库页面、sink 身份可被 20 条上限翻案的最大数目
+sink_full676_out0_partial,38,
+sink_full676_out0_partial_page_truncated,14,该组中确有未落库页面、sink 身份可被 20 条上限翻案的最大数目
+sink_full676_out0_healthy,118,
+sink_full676_out0_healthy_page_truncated,15,该组中确有未落库页面、sink 身份可被 20 条上限翻案的最大数目
+sink_full676_total_attributed,318,
+sink_healthy360_out0_dead,0,
+sink_healthy360_out0_dead_page_truncated,0,该组中确有未落库页面、sink 身份可被 20 条上限翻案的最大数目
+sink_healthy360_out0_partial,0,
+sink_healthy360_out0_partial_page_truncated,0,该组中确有未落库页面、sink 身份可被 20 条上限翻案的最大数目
+sink_healthy360_out0_healthy,139,
+sink_healthy360_out0_healthy_page_truncated,25,该组中确有未落库页面、sink 身份可被 20 条上限翻案的最大数目
+sink_healthy360_total_attributed,139,
+overestimate_healthy_sink_pp_max,6.94,以 360 子图 sink 率为基准：20 条上限至多抬高这么多（假设全部翻案）
+healthy_sink_rate_360subgraph_now,0.3861,
+healthy_sink_rate_360subgraph_if_all_flip,0.3167,下界：把全部有未落库页面的 360-sink 都算成非 sink
+sink_full676_page_truncated_alive_only,29,出度=0、确有未落库页面、且不是整站不可用（截断这条通道对它另有主导解释）的点
+sink_full676_page_truncated_all,31,
+overestimate_full676_sink_pp_max,4.59,只算 20 条上限这条通道；一阶通道是 162 点完全删失，见 censoring_evidence.csv
+flippable_360_sinks_n,139,360 子图里 sink 且确有未落库页面的健康站点数
+flippable_360_sinks_observed_out_hrefs,188,这些站 20 条已落库页面里的跨子域出链次数
+flippable_360_sinks_missing_hrefs_95ub,256.4,rule of three：0 事件 / n 页的 95% 上界率 3/n，乘未落库页面数；是 15 站的合计
+healthy_sinks_url_count_eq_1,60,整站只报 1 页：在口径上算未截断，但真实页面存量不可核 -> 通道 (3)
+sites_url_count_in_99_105,176,堆积提示抓取器有每站页面预算 -> 通道 (3) 无法量化
+sites_url_count_eq_100,123,
+sites_url_count_eq_1,173,
+max_url_count,302,
+urls_csv_has_page_level_hrefs,0,urls.csv 仅 subdomain/status/url/title 4 列 -> 通道 (2) 无法量化

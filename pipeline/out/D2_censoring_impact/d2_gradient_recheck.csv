@@ -1,0 +1,9 @@
+﻿exposure,sample,outcome,bottom_rate,top_rate,rate_diff_pp,bin_spearman,bin_spearman_p,monotone
+degree_u,S_uncorr_671,is_dead,0.6029,0.0149,-58.8,-0.9695,3.6433799446541265e-06,False
+degree_u,S_corr_638,true_fail,0.5781,0.0,-57.81,-0.9723,2.473603741489245e-06,False
+in_degree,S_uncorr_671,is_dead,0.3382,0.0149,-32.33,-0.911,0.00024579245600390526,False
+in_degree,S_corr_638,true_fail,0.3281,0.0,-32.81,-0.9483,2.9285883237761163e-05,False
+url_count,S_uncorr_671,is_dead,0.6765,0.0,-67.65,-0.9816,4.95138704569855e-07,True
+url_count,S_corr_638,true_fail,0.6562,0.0,-65.62,-0.8949,0.00046944020242398074,False
+listed_urls,S_uncorr_671,is_dead,0.6765,0.0149,-66.16,-0.9487,2.851114863029817e-05,False
+listed_urls,S_corr_638,true_fail,0.6562,0.0156,-64.06,-0.872,0.0010041374459509782,False

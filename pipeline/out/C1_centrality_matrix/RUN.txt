@@ -1,0 +1,11 @@
+C1_centrality_matrix RUN.txt
+command: set PYTHONHASHSEED=0 && python out/C1_centrality_matrix/run_c1.py  (bash form: PYTHONHASHSEED=0 python out/C1_centrality_matrix/run_c1.py; cwd=pipeline)
+versions: {"python": "3.12.13", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+scipy=scipy.stats 1.17.1  (spearman/kendall self-check vs scipy: PASS)
+SEED=20261113 (numpy tie-jitter rng = np.random.default_rng(SEED + r), r=0..199)
+wall time: 28.29s ; per-stage: {"build": 3.35, "centralities": 15.97, "corr": 0.32, "top20": 8.22, "cluster": 0.01, "summary": 0.29}
+anchors: csa_common.assert_anchors() 31/31 PASS
+node set: 671 attributed (CONVENTIONS 1); graph Gu 676/2498, Gd 676/2788
+measures (12): deg_u, in_degree, out_degree, in_strength, out_strength, bet_u, pr_dw, pr_uu, hits_hub, hits_auth, kcore, hidx_in_in
+TOP_K=20 deterministic tie-break = node FQDN ascending; N_TIE_PERM=200 tie-permutation replicates
+outputs: centrality_matrix.csv spearman_matrix.csv kendall_matrix.csv pairwise_stats.csv top20_jaccard.csv top20_membership.csv measure_profile.csv meaning_clusters.csv measure_definitions.csv c1_summary.json result.md

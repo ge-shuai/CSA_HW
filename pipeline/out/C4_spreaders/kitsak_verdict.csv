@@ -1,0 +1,7 @@
+﻿beta,gamma,subset,n_distinct_R,best_proxy,best_rho,rho_kcore,rho_deg_u,rho_bet_u,rho_pr_dw,rho_in_degree,rho_out_degree,kcore_beats_deg_spearman,gap_kcore_minus_deg,top20_kcore,top20_deg_u,top20_bet_u,top20_pr_dw,top20_kcore_beats_deg,partial_kcore_ctrl_deg,partial_deg_ctrl_kcore,partial_kcore_ctrl_outdeg,partial_deg_ctrl_outdeg,partial_bet_ctrl_outdeg,partial_pr_ctrl_outdeg
+0.01,0.2,alive_attr509,51,out_degree,0.8992,0.7345,0.7616,0.7149,0.3096,0.4042,0.8992,False,-0.0271,0.2,0.45,0.35,0.25,False,-0.0508,0.2708,0.0736,0.0294,-0.0088,0.0396
+0.03,0.2,alive_attr509,172,out_degree,0.9155,0.7381,0.7456,0.6767,0.2241,0.3591,0.9155,False,-0.0075,0.2,0.55,0.4,0.2,False,0.0898,0.1538,0.0639,-0.0543,-0.1729,-0.1384
+0.06,0.2,alive_attr509,284,out_degree,0.919,0.7518,0.7516,0.6759,0.2108,0.3686,0.919,True,0.0002,0.2,0.55,0.4,0.25,False,0.1555,0.1113,0.1039,-0.054,-0.1856,-0.1618
+0.12,0.2,alive_attr509,319,out_degree,0.9175,0.7525,0.7486,0.6633,0.2091,0.3617,0.9175,True,0.0039,0.2,0.4,0.35,0.25,False,0.1567,0.0973,0.09,-0.0942,-0.2781,-0.1729
+0.25,0.2,alive_attr509,324,out_degree,0.907,0.7378,0.7343,0.6556,0.2091,0.365,0.907,True,0.0035,0.25,0.25,0.15,0.15,False,0.1449,0.0945,0.0537,-0.1128,-0.2437,-0.1697
+0.5,0.2,alive_attr509,318,out_degree,0.89,0.7094,0.7125,0.6407,0.18,0.3184,0.89,False,-0.0031,0.1,0.15,0.2,0.0,False,0.0911,0.1079,-0.0084,-0.1375,-0.2419,-0.1841

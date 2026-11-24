@@ -1,0 +1,7 @@
+I4_causal_language · 因果措辞审计
+command: 由 lead 在 2026-11-23 直接执行（i4_scan.sh 扫描 → i4_fix.sh/i4_fix2.sh 改写 → i4_report 生成）
+python=3.12.15 (env csa)  SEED 不适用（纯文本审计，无随机过程）
+扫描范围: pipeline/out/**/result.md（34 份）
+命中: 19 行；真违规 0；已改写 12 处；保留 7 处（禁令原文/元引用）
+改写安全性: 每处 count(old)==1 断言后才写盘
+未覆盖: RUN.txt / DISSENT.md / 脚本注释；近义连词（由于/因而/故）

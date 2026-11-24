@@ -1,0 +1,22 @@
+D5_failure_clustering_alt RUN.txt
+command: cd pipeline && PYTHONHASHSEED=0 python out/D5_failure_clustering_alt/run_d5.py
+versions: python=3.12.13, networkx=3.6.1, pandas=3.0.2, numpy=2.4.4, SEED=20261113, PYTHONHASHSEED=0
+SEED = 20261113; PYTHONHASHSEED = 0
+total wall time: 26.1s
+anchors: 31/31 PASS (anchors.csv)
+groupings: ['g_root', 'g_cat_title', 'g_cat_sub', 'g_cms', 'g_ext'] ; MIN_N=10（n<10 判不可判定并从推断剔除）; alpha=0.05; m(BH 池化)=20; m(BH 每族)见 d5_groups.csv 的 m_bh_family 列（最大 5）
+outcomes: 校正前 is_dead(全 671 节点) / 校正后 true_fail(剔除 33 个未证实节点后的 638 节点)；第三套（is_dead on informative）与第二套恒等（129=129），作为实现校验保留
+permutation 1: 整体标签重排 20000 reps x 15 settings; rng=default_rng(20261113+5)
+permutation 2: url_count 分层内置换 5000 reps x 5 families; rng=default_rng(20261113+17); 层=['10-49', '<=2', '>=50', '3-9'] 规模 10-49:138 3-9:48 <=2:198 >=50:254
+每轮都新建标签数组并在层内独立 permutation（不在上一轮结果上继续打乱，无累积轨迹）
+null reporting: 报 SSB 的 null mean/sd，z=(obs-mean)/sd；双侧 p 用 |perm-mean|>=|obs-mean|；同时给 p+1 与下限 1/(reps+1)
+tests: Fisher exact(2x2, two-sided) 始终给出；chi2_contingency 仅当最小期望频数>=5；Wilson(正态近似) + Clopper-Pearson(scipy.stats.beta.ppf) 双区间；BH 按族内与跨族池化各一套
+known leaks: C1 标题规则分类器（死站标题=错误串，全部落'其他'，129/129 真失效）；M1/M2 指纹与 url_count 删失共变（分层置换后 z 转负）；数据里没有 category 字段；R1 不受这两条影响
+outputs: d5_groups.csv d5_root_groups.csv d5_omnibus.csv d5_stratified.csv d5_significant_groups.csv d5_leakage_censoring.csv key_numbers.csv anchors.csv result.md
+
+--- stdout ---
+[   3.3s] 数据就绪 nodes=671 urls=8115 锚点 31/31 PASS
+[   4.9s] 分组族就绪 root=49 cat_title=10 cat_sub=15 cms=211 ext=11
+[   6.5s] 逐组检验完成：296 组，n<10 剔除 276 组，BH 后显著 9 组
+[  23.3s] 整体方差分解 + 标签置换 20000 轮 × 15 设定完成（23s）
+[  26.0s] 分层置换完成（5 族 × 5000 轮，url_count 层 4 个）

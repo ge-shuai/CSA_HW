@@ -1,0 +1,10 @@
+D2_censoring_impact run log
+command: cd pipeline && PYTHONHASHSEED=0 PYTHONIOENCODING=utf-8 python -X utf8 out/D2_censoring_impact/run_d2.py
+versions: {"python": "3.12.13", "networkx": "3.6.1", "pandas": "3.0.2", "numpy": "2.4.4", "SEED": 20261113, "PYTHONHASHSEED": "0"}
+seed: 20261113; 情景模拟 N_BOOT=1000（np.random.RandomState(SEED+r) 独立重复）；目标指派 200 次（RandomState(SEED+10000+r)）
+wall_time_sec: 4.27
+anchors: csa_common.assert_anchors() 31/31 PASS (run_d2.py:L41)
+key: edges_from_dead=0 dead_out0=162/162 edges_alive_to_dead=296 weight_from_dead=0
+degree contrast: 总度 1.827 vs 9.492 = 5.195×(INVALID) | 入度 1.827 vs 4.942 = 2.705×(主口径)
+scenario extra edges: mean-matched 564.0 / median-matched 240.5 / stochastic 554.9 (sd 109.1)
+files: d2_censoring_facts.csv d2_conclusion_contrast.csv d2_gradient_recheck.csv d2_correlations.csv d2_correlations_alive_only.csv d2_leaf_and_degree_by_group.csv d2_recoverability.csv d2_imputation_by_band.csv d2_missing_mass_scenario.csv d2_counterfactual_exposure_gradient.csv d2_summary.json

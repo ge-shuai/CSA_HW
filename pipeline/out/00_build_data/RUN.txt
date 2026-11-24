@@ -1,0 +1,8 @@
+00_build_data run at pipeline seed=20261113
+{'python': '3.12.13', 'networkx': '3.6.1', 'pandas': '3.0.2', 'numpy': '2.4.4', 'SEED': 20261113, 'PYTHONHASHSEED': '0'}
+anchors(raw): 31/31 PASS
+clean_nodes.csv: 671 rows x 30 cols
+clean_edges.csv: 2788 directed rows; reciprocal pairs=580; undirected edges=2498
+dead_categories.csv: {'A_conn_fail': 111, 'B_auth_or_skip': 18, 'C_robots_blocked': 14, 'D_not_found': 12, 'F_server_error': 6, 'G_other_400': 1}
+censoring_facts.csv written
+anchors(clean reload): 31/31 PASS

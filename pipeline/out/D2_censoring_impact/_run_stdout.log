@@ -1,0 +1,135 @@
+== 31 anchors PASS ==
+{
+ "anchor_line": 41,
+ "edges_from_dead": 0,
+ "dead_out_zero": 162,
+ "dead_n": 162,
+ "edges_alive_to_dead": 296,
+ "mean_du_dead": 1.8272,
+ "mean_du_healthy": 9.4917,
+ "mean_in_dead": 1.8272,
+ "mean_in_healthy": 4.9417,
+ "ratio_du": 5.1948,
+ "ratio_in": 2.7046,
+ "cross_factor": 1.9207,
+ "extra_edges_mean": 563.96,
+ "extra_edges_median": 240.5,
+ "extra_stochastic_mean": 554.88,
+ "extra_stochastic_sd": 109.12,
+ "extra_stochastic_mc_se": 3.451,
+ "dead_row_cells": 109350,
+ "dd_block": 26082,
+ "obs_cells": 456300,
+ "n_dead_in_true129": 129,
+ "alive_edges": 2492,
+ "alive_nodes": 514,
+ "W_TOTAL": 63263
+}
+== (a) censoring facts ==
+                               item     value                                            note
+               edges_total_directed 2788.0000                                         锚点 2788
+                    edges_from_dead    0.0000                 锚点 0 → 死站出边**完全**不可观测（不是低估，是缺失）
+                   weight_from_dead    0.0000                                     出边权重合计同样为 0
+                 edges_dead_to_dead    0.0000                             锚点 0 → 死—死相邻构造性不可识别
+                      edges_to_dead  296.0000            =edges_alive_to_dead，因为不存在 dead→dead
+                edges_alive_to_dead  296.0000                       锚点 296；入边可观测 → 失效分析主口径=入度
+                     weight_to_dead 4276.0000                                    占全网权重 0.0676
+                             dead_n  162.0000                                          锚点 162
+             dead_out_degree_zero_n  162.0000                                     /162 = 100%
+                dead_out_degree_max    0.0000                                         死站出度最大值
+               dead_out_degree_mean    0.0000                                           恒等于 0
+                dead_in_degree_mean    1.8272                                         唯一可观测的度
+              dead_in_degree_median    1.0000                                                
+                 dead_in_degree_max   22.0000                                 入度是可观测的：死站最高 22
+     undirected_edges_touching_dead  296.0000                              296：死站参与的无向边全部来自活站
+       Gu_pairset_equals_Gd_pairset    1.0000                           1=无向边集就是有向边集的底图（2498）
+  dead_degreeU_equals_inDegree_1to1    1.0000                      1=死站的无向度集合与入度集合逐点相同（定义性事实）
+   degree_u_eq_in_plus_out_n_of_671  435.0000 只有 435/671 成立：存在互指边时 degree_u<in+out（度分解不能直接相加）
+urls_csv_page_level_hrefs_available    0.0000                  urls.csv 无页面级链接来源 → 无法反查被删失的出边
+== (b) contrast ==
+                    结论                    总度口径                         入度口径                          判定                                                                                                                              为什么
+死站平均度 1.83 vs 健康站 9.49 1.827 vs 9.492 = 5.195×      1.827 vs 4.942 = 2.705×           总度版本 INVALID（跨口径） 死站的 degree_u 恒等于 in_degree（出边全部不可观测），健康站的 degree_u 里含 5.786 的可观测出度；两边量的不是同一个东西。倍数分解：5.195× = 2.705×（同口径入度）×1.921（健康站度/入度，纯删失自由度）
+          '死站是叶子'（度≤1） 死站 0.6235 vs 健康站 0.1750      死站 0.6235 vs 健康站 0.3389    表述必须挂在入度口径 + 2.705× 这个数上                                                                    同一句话在无向度上把 62.35% vs 33.89% 夸大成 62.35% vs 17.50%；差值来自健康站的出度分量
+            度十分位的全挂率梯度               -58.80 pp                    -32.33 pp         两口径同号同显著；总度更陡 1.8 倍                                                                                              总度把'没有可观测出边'记成'低度'，等于给结论加了一遍自变量里的答案
+ρ(度, URL 可用率)（§2.1 锚点）                  0.3762                       0.2157               主口径=入度；总度只作对照                                                                         CONVENTIONS §2.1 写明 0.376 vs 0.216，本单元复现 0.3762 / 0.2157
+          出度均值 死 vs 健康          0.000 vs 5.786               不适用（出度不是入度的替身）     0 vs 5.786 不是'死站不出链'的证据                                                                                                      它是爬虫定义：抓不到的页面提不出链接。禁止读作行为差异
+           死站在无向图上的邻居数         平均 1.827 条边连着死站                     平均 1.827 两数相同（296/162=1.827），这正是同一个数                                                                                                       死站参与的无向边 = 指向死站的有向边，逐条一一对应
+   '失效站点之间不相邻'（D4 的前置）         dead↔dead 观测边 0 target-side 可检验（活站→死站 296 条）           dead↔dead 构造性不可识别                                                                                  观测度序列本身已把'死站出度=0'编码进去，度保持零模型也复现不出任何 dead→dead 边
+== (b) gradient recheck ==
+   exposure       sample   outcome  bottom_rate  top_rate  rate_diff_pp  bin_spearman  bin_spearman_p  monotone
+   degree_u S_uncorr_671   is_dead       0.6029    0.0149        -58.80       -0.9695    3.643380e-06     False
+   degree_u   S_corr_638 true_fail       0.5781    0.0000        -57.81       -0.9723    2.473604e-06     False
+  in_degree S_uncorr_671   is_dead       0.3382    0.0149        -32.33       -0.9110    2.457925e-04     False
+  in_degree   S_corr_638 true_fail       0.3281    0.0000        -32.81       -0.9483    2.928588e-05     False
+  url_count S_uncorr_671   is_dead       0.6765    0.0000        -67.65       -0.9816    4.951387e-07      True
+  url_count   S_corr_638 true_fail       0.6562    0.0000        -65.62       -0.8949    4.694402e-04     False
+listed_urls S_uncorr_671   is_dead       0.6765    0.0149        -66.16       -0.9487    2.851115e-05     False
+listed_urls   S_corr_638 true_fail       0.6562    0.0156        -64.06       -0.8720    1.004137e-03     False
+== (b) correlations ==
+         x            y   n  spearman   spearman_p  pearson    pearson_p  readable                                 note
+ in_degree      is_dead 671   -0.3014 1.470095e-15  -0.1861 1.206239e-06         1              入度/总度/页面数都可计算；总度版本受删失污染
+  degree_u      is_dead 671   -0.4963 5.092176e-43  -0.2617 5.753533e-12         1              入度/总度/页面数都可计算；总度版本受删失污染
+out_degree      is_dead 671   -0.5443 5.152646e-53  -0.2618 5.568173e-12         0 out_degree 在 162 个死站上恒为 0，相关里混入定义性成分
+ in_degree    true_fail 671   -0.2959 4.981007e-15  -0.1764 4.296918e-06         1              入度/总度/页面数都可计算；总度版本受删失污染
+  degree_u    true_fail 671   -0.4585 3.488070e-36  -0.2352 6.865157e-10         1              入度/总度/页面数都可计算；总度版本受删失污染
+ url_count      is_dead 671   -0.6085 3.303525e-69  -0.4966 4.577827e-43         1              入度/总度/页面数都可计算；总度版本受删失污染
+ in_degree ok_ratio_pct 671    0.2157 1.657902e-08   0.1745 5.465763e-06         1              入度/总度/页面数都可计算；总度版本受删失污染
+  degree_u ok_ratio_pct 671    0.3762 5.571487e-24   0.2627 4.716918e-12         1              入度/总度/页面数都可计算；总度版本受删失污染
+out_degree ok_ratio_pct 671    0.4425 1.524530e-33   0.2762 3.260478e-13         0 out_degree 在 162 个死站上恒为 0，相关里混入定义性成分
+ url_count ok_ratio_pct 671    0.4664 1.544419e-37   0.4646 3.134355e-37         1              入度/总度/页面数都可计算；总度版本受删失污染
+        x             y   n  spearman        p                                        note
+in_degree    is_partial 509    0.0585 0.187454 只在 509 个活站上算：out_degree 此处可观测（部分受 20 页上限截断）
+ degree_u    is_partial 509    0.0642 0.148160 只在 509 个活站上算：out_degree 此处可观测（部分受 20 页上限截断）
+in_degree partial_clean 509    0.1038 0.019130 只在 509 个活站上算：out_degree 此处可观测（部分受 20 页上限截断）
+in_degree  ok_ratio_pct 509   -0.0538 0.226003 只在 509 个活站上算：out_degree 此处可观测（部分受 20 页上限截断）
+ degree_u  ok_ratio_pct 509   -0.0481 0.278520 只在 509 个活站上算：out_degree 此处可观测（部分受 20 页上限截断）
+== (b) leaves ==
+     group   n  mean_in_degree  mean_out_degree  mean_degree_u  share_in_le_1  share_degree_u_le_1  share_in_eq_1  share_out_eq_0
+   dead162 162          1.8272           0.0000         1.8272         0.6235               0.6235         0.6235          1.0000
+   true129 129          1.6047           0.0000         1.6047         0.6667               0.6667         0.6667          1.0000
+healthy360 360          4.9417           5.7861         9.4917         0.3389               0.1750         0.3250          0.3278
+partial149 149          4.7517           4.7315         8.5772         0.2685               0.1141         0.2550          0.2550
+== (d) imputation bands ==
+ band_lo  band_hi  n_alive  mean_out  median_out  p75_out  n_dead_in_band  expected_edges_mean  expected_edges_median
+       0        0        7    3.1429         2.0     3.00               0                 0.00                    0.0
+       1        1      155    3.0710         1.0     3.50             101               310.17                  101.0
+       2        2      105    3.0857         1.0     4.00              37               114.17                   37.0
+       3        3       63    3.5873         2.0     5.00               9                32.29                   18.0
+       4        4       38    5.0000         4.0     7.00               4                20.00                   16.0
+       5        5       35    6.3714         4.0     8.00               5                31.86                   20.0
+       6        6       14    6.5000         5.0     8.50               4                26.00                   20.0
+       7        7       16    9.8125         8.0    13.25               1                 9.81                    8.0
+       8        8       10    7.2000         6.0    12.50               0                 0.00                    0.0
+       9        9       12   11.7500         8.0    17.00               0                 0.00                    0.0
+      10       12       12    8.5000         5.5    15.00               0                 0.00                    0.0
+      13       15       12   13.5833        12.0    19.25               0                 0.00                    0.0
+      16       19        6   10.3333         9.0    15.25               0                 0.00                    0.0
+      20       24        6   19.6667        20.5    28.50               1                19.67                   20.5
+      25       40       12   17.1667        14.0    29.25               0                 0.00                    0.0
+      41      200        6   35.8333        26.5    45.75               0                 0.00                    0.0
+== (d) scenario ==
+                                        item         value                                                                                                                                note
+                        情景：死站拥有'同入度层活站'的出度分布                                                                                                                          counterfactual 情景模拟，不是观测
+               extra_edges_mean_matched（层均值）         564.0                                                                                                       = Σ 层均值；全网观测边 2788 → 补齐后 3352
+         extra_edges_median_matched（层中位数，保守）         240.5                                                                                                                      右偏分布下中位数版本是低情景
+                     extra_edges_p75_matched         690.2                                                                                                                               高分位版本
+extra_edges_stochastic（层内有放回抽样, n_boot=1000）         554.9 sd=109.1; 95% 区间 [379, 787]；期望与层均值版相同（抽样期望=层均值），但重复均值的 MC 标准误 3.5，实现值与解析值 564.0 相差 2.6 个 MC SE（源自助分布右偏，重尾抽样噪声大）→ 正文一律以解析值 563.96 为准
+                                  缺失比例（均值情景）        0.1682                                                                                                                        缺失边 / 补齐后总边数
+                                  缺失比例（中位情景）        0.0794                                                                                                                                    
+                                 缺失比例（无向边口径）        0.1842                                                                                        观测无向边 2498；死站的边全部已计入（296 条），新增边只与活站邻居重叠时才会并边
+              dead→dead 边数（同一情景的目标指派, n=200）          72.6                                                                              sd=16.9; 95% 区间 [44, 110]；观测值恒 0，与情景无关 → 这条量**永远无法证伪**
+                       邻接矩阵单元总数（676×675 有序对）        456300                                                                                                                        观测密度 0.6110%
+                        死站行（162×675 单元）完全未观测        109350                                                                                                                        占矩阵 23.9645%
+                       死站×死站子块（162×161）双重未观测         26082                                                                                                                         占矩阵 5.7160%
+                                   死站行内的观测密度           0.0                                                                                                          0/109350 —— 这就是'完全删失'的字面含义
+                                    活站行的观测密度      0.008036                                                                                                         2492 条起点为活站的边落在 514×675 单元里
+                               权重口径：出边权重合计缺失 ≥564 条链接次数的量级                                                                                       观测权重合计 63263；情景多出的权重无法折算（出边目标模板未知）→ 只给边数，不给权重
+== (d) counterfactual exposure gradient ==
+   exposure       sample   outcome  bottom_rate  top_rate  rate_diff_pp  bin_spearman        p bottom_bin_label  dead_group_mean_exposure  healthy_group_mean_exposure
+   degree_u S_uncorr_671   is_dead       0.6029    0.0149        -58.80       -0.9695 0.000004           [1.00]                    1.8272                       9.4917
+   degree_u   S_corr_638 true_fail       0.5781    0.0000        -57.81       -0.9723 0.000002           [1.00]                    1.6047                       9.4917
+degree_u_cf S_uncorr_671   is_dead       0.0000    0.0149          1.49        0.3988 0.253627           [1.00]                    5.3084                       9.4917
+degree_u_cf   S_corr_638 true_fail       0.0000    0.0000          0.00        0.3064 0.389209           [1.00]                    4.9120                       9.4917
+  in_degree S_uncorr_671   is_dead       0.3382    0.0149        -32.33       -0.9110 0.000246           [0.90]                    1.8272                       4.9417
+  in_degree   S_corr_638 true_fail       0.3281    0.0000        -32.81       -0.9483 0.000029           [0.89]                    1.6047                       4.9417
+elapsed 4.27s

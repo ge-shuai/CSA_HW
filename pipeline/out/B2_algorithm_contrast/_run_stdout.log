@@ -1,0 +1,31 @@
+B2_algorithm_contrast | 3.12.13 | networkx 3.6.1 | SEED=20261113
+anchors: 31/31 PASS (0.96s)
+Gu 676n/2498e ; Gb 676n/2498e ; backbone w>=10 676n/675e ; attributed 671
+同学划分：11 社区，最大 557 节点（= REPORT.md 的 557，671 口径）
+algorithm_summary.csv rows=10
+  louvain_weighted             total= 25 ns= 25 ns671= 25 largest671=  87 ge500=0 Qw=0.6904 Qb=0.3577 covw=0.7828 covb=0.4460 t=0.069s
+  louvain_binary               total= 14 ns= 14 ns671= 14 largest671=  76 ge500=0 Qw=0.5448 Qb=0.4504 covw=0.6576 covb=0.5396 t=0.064s
+  label_prop_binary            total= 17 ns= 17 ns671= 17 largest671= 413 ge500=0 Qw=0.2537 Qb=0.2798 covw=0.8905 covb=0.8030 t=0.037s
+  label_prop_on_weighted       total= 17 ns= 17 ns671= 17 largest671= 413 ge500=0 Qw=0.2537 Qb=0.2798 covw=0.8905 covb=0.8030 t=0.036s
+  label_prop_backbone_w10      total=379 ns= 72 ns671= 71 largest671=  57 ge500=0 Qw=0.5013 Qb=0.1440 covw=0.6039 covb=0.1934 t=0.016s
+  label_prop_async_weighted    total= 78 ns= 78 ns671= 78 largest671=  91 ge500=0 Qw=0.6262 Qb=0.2992 covw=0.7033 covb=0.3487 t=0.028s
+  greedy_modularity_weighted   total= 26 ns= 26 ns671= 26 largest671= 106 ge500=0 Qw=0.6934 Qb=0.3568 covw=0.7944 covb=0.4548 t=0.481s
+  greedy_modularity_binary     total= 13 ns= 13 ns671= 13 largest671= 166 ge500=0 Qw=0.3491 Qb=0.4153 covw=0.5737 covb=0.6289 t=0.697s
+  kernighan_lin_bisection      total=  2 ns=  2 ns671=  2 largest671= 337 ge500=0 Qw=0.3836 Qb=0.1437 covw=0.8899 covb=0.6733 t=0.037s
+  spectral_bisection_fiedler   total=  2 ns=  2 ns671=  2 largest671= 336 ge500=0 Qw=-0.0035 Qb=-0.0138 covw=0.8420 covb=0.7902 t=0.131s
+NMI(同算法换 seed) 天花板：加权 Louvain 0.8955 / 无权 Louvain 0.648  (6 seed, 15 对)
+跨算法 NMI：min 0.0130 / median 0.3492 / max 1.0000
+lp_giant_community_reps.csv rows=351 (18.51s) | nx 权重盲 LPA 在同一置换下 Gu 与 Gb 划分完全一致：50/50
+零模型（度序列保持、结构打散，30 次独立重复）：权重盲 LPA 最大社区 null mean=646.1 sd=9.96；观测图同一算法 417；加权 LPA null mean=668.9 sd=3.63
+同学 557 巨型社区内部再跑加权 Louvain（557n/2155e）：17 社区（非单点 17），Q=0.6742，最大 127
+                         variant  n_reps  n_ge_500  frac_ge_500  largest_671_median  largest_671_min  largest_671_max  jaccard_median  nmi_vs_louvain_median
+   nx_LPA_binary_canonical_order       1         0         0.00               413.0              413              413          0.6385                 0.3224
+nx_LPA_binary_nodeorder_shuffled      50        48         0.96               605.0              357              622          0.8835                 0.2058
+   nx_LPA_weightedgraph_shuffled      50        48         0.96               605.0              357              622          0.8835                 0.2058
+         nx_LPA_attr671_shuffled      50        46         0.92               603.5              202              616          0.8847                 0.2080
+    nx_LPA_backbone_w10_shuffled      50         0         0.00                43.5               24              173          0.0771                 0.6038
+    nx_asynLPA_weighted_shuffled      50        46         0.92               604.0              282              629          0.8847                 0.2073
+  nx_asynLPA_unweighted_shuffled      50        46         0.92               604.0              282              629          0.8847                 0.2073
+              ext_weightedLPA_Gu      50        50         1.00               634.0              626              655          0.8764                 0.1482
+wrote result.md
+DONE in 51.03s -> C:\Users\bfy32\Documents\Qoder\2026-11-13\f93e4d48\pipeline\out\B2_algorithm_contrast

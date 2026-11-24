@@ -1,0 +1,159 @@
+{
+  "module": "C1_centrality_matrix",
+  "versions": {
+    "python": "3.12.13",
+    "networkx": "3.6.1",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "SEED": 20261113,
+    "PYTHONHASHSEED": "0"
+  },
+  "seed": 20261113,
+  "hits_reproducibility": {
+    "note": "csa_common.centralities 的 hits_* 用 svds(v0=None) → ARPACK 随机起点，跨进程逐位不可复现；本单元用 nstart=uniform 固定（同算法同参数），见 hits_pinned / DISSENT.md",
+    "max_abs_dev_vs_csa_common": "lt_5e-16",
+    "noise_floor": {
+      "hits_hub": {
+        "n_below_floor": 337,
+        "n_distinct_exact": 346,
+        "n_distinct_after_collapse": 330,
+        "noise_floor_abs": 8.561459597628579e-13
+      },
+      "hits_auth": {
+        "n_below_floor": 32,
+        "n_distinct_exact": 546,
+        "n_distinct_after_collapse": 528,
+        "noise_floor_abs": 8.295593686796355e-13
+      }
+    },
+    "abs_delta_spearman_max": 0.0112,
+    "abs_delta_spearman_median": 0.0,
+    "abs_delta_kendall_max": 0.0115,
+    "pairs_crossing_theta090": 0,
+    "top20_members_changed": {
+      "deg_u": 0,
+      "in_degree": 0,
+      "out_degree": 0,
+      "in_strength": 0,
+      "out_strength": 0,
+      "bet_u": 0,
+      "pr_dw": 0,
+      "pr_uu": 0,
+      "hits_hub": 0,
+      "hits_auth": 0,
+      "kcore": 0,
+      "hidx_in_in": 0
+    }
+  },
+  "n_nodes_attributed": 671,
+  "n_nodes_in_graph": 676,
+  "n_measures": 12,
+  "spearman_pairs": {
+    "n": 66,
+    "min": 0.2781,
+    "p25": 0.484,
+    "median": 0.6516,
+    "p75": 0.7648,
+    "max": 0.9857,
+    "argmin": [
+      "pr_dw",
+      "hits_hub"
+    ],
+    "argmax": [
+      "deg_u",
+      "kcore"
+    ]
+  },
+  "kendall_pairs": {
+    "n": 66,
+    "min": 0.1992,
+    "median": 0.5099,
+    "p75": 0.6273,
+    "max": 0.9421,
+    "argmin": [
+      "pr_dw",
+      "hits_hub"
+    ],
+    "argmax": [
+      "deg_u",
+      "kcore"
+    ]
+  },
+  "top20_jaccard_pairs": {
+    "min": 0.0526,
+    "median": 0.2311,
+    "max": 0.6667
+  },
+  "n_pairs_same_meaning_rho090": 6,
+  "n_pairs_same_meaning_both": 2,
+  "n_pairs_total": 66,
+  "meanings": {
+    "theta_0.95": {
+      "avg": 10,
+      "complete": 10
+    },
+    "theta_0.9": {
+      "avg": 8,
+      "complete": 8
+    },
+    "theta_0.85": {
+      "avg": 7,
+      "complete": 7
+    },
+    "theta_0.8": {
+      "avg": 6,
+      "complete": 6
+    }
+  },
+  "cliques_rho_ge_090": [
+    [
+      "hits_hub",
+      "out_degree",
+      "out_strength"
+    ],
+    [
+      "bet_u",
+      "deg_u"
+    ],
+    [
+      "deg_u",
+      "kcore"
+    ],
+    [
+      "hidx_in_in",
+      "in_degree"
+    ]
+  ],
+  "consensus_all12": [],
+  "n_in_ge10_lists": 1,
+  "n_in_ge6_lists": 17,
+  "lists_count_hist": {
+    "10": 1,
+    "9": 5,
+    "8": 3,
+    "7": 3,
+    "6": 5,
+    "5": 2,
+    "4": 4,
+    "3": 8,
+    "2": 14,
+    "1": 32,
+    "0": 594
+  },
+  "hindex": {
+    "max": 14,
+    "mean": 2.313,
+    "zero": 10,
+    "spearman_vs_in_degree": 0.9315,
+    "spearman_vs_in_deg_alt_variant": 0.9343
+  },
+  "timing_s": {
+    "build": 3.35,
+    "centralities": 15.97,
+    "corr": 0.32,
+    "top20": 8.22,
+    "cluster": 0.01,
+    "summary": 0.29
+  },
+  "wall_s": 28.29
+}

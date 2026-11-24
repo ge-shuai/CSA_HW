@@ -1,0 +1,13 @@
+﻿variant,beta,subset,n_nodes,n_trials_per_half,spearman_halves,kendall_tau_halves,top20_overlap_halves,distinct_R_per_half
+unweighted,0.01,alive_attr509,509,10,0.7223,0.6146,0.35,32
+unweighted,0.03,alive_attr509,509,10,0.8246,0.6708,0.55,125
+unweighted,0.06,alive_attr509,509,10,0.8647,0.7123,0.35,227
+unweighted,0.12,alive_attr509,509,10,0.9121,0.7647,0.35,286
+unweighted,0.25,alive_attr509,509,10,0.9049,0.7571,0.1,299
+unweighted,0.5,alive_attr509,509,10,0.8569,0.6963,0.2,302
+weighted,0.01,alive_attr509,509,10,0.4332,0.3893,0.4,9
+weighted,0.03,alive_attr509,509,10,0.673,0.5597,0.4,25
+weighted,0.06,alive_attr509,509,10,0.8238,0.6763,0.35,44
+weighted,0.12,alive_attr509,509,10,0.878,0.7264,0.35,94
+weighted,0.25,alive_attr509,509,10,0.9147,0.7695,0.3,206
+weighted,0.5,alive_attr509,509,10,0.928,0.7902,0.15,270
