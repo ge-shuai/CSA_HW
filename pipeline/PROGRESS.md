@@ -13,9 +13,9 @@
 
 - 仓库重构：旧预实验移到 `archive/00_选题分析_预实验/`（已标 SUPERSEDED）；新增 `report/`（选题重定位、报告提纲、结论台账、局限、答辩）；`pipeline/B1_louvain_stability/run_b1.py` 归位到 `out/B1_louvain_stability/`，硬编码路径改为相对路径。
 - 本地复现：Python 3.13.5 / networkx 3.4.2 下 `00_build_data.py` **31/31 PASS**（raw 与 clean reload 各一次）；`data/` 除 dtype 标签外与仓库版一致。
-- E5：本地重跑 40.38s，补齐 3 张缺失表；`damage_vs_selection_strength.csv` / `contract_crosscheck.csv` / `attack_reference_curve.csv` 已落盘，主数字与 `scenario_metrics.csv` 一致（dead162: E_fixed 0.2039 vs random 0.1610, −26.69%, z=4.998）。
+- E5：本地重跑 40.38s，补齐 3 张缺失表；`damage_vs_selection_strength.csv` / `contract_crosscheck.csv` / `attack_reference_curve.csv` 已落盘，主数字与 `scenario_metrics.csv` 一致（dead162: E_fixed 0.2039 vs random 0.1610, 剩余效率较随机均值高 26.69%, z=4.998）。
 - F3：`result.md` 已按当前脚本重写，删除旧版上半段；判决句与 `verdict.csv` 一致（不做主线；TOST 边际 0.0185；观测最强 0.0419；信度 0.206）。
-- 仍未做：C6（理由不变）、报告正文（`report/` 已给提纲与台账）。
+- **仍未做：C6。报告正文已有草稿，位于 `report/05_正式报告草稿.tex`。**
 
 ---
 ## 1. 环境与服务器
@@ -136,3 +136,5 @@ python out/<单元>/run_<xx>.py
 1. 同学的原料只读（`USTC网络拓扑分析/`、`archive/00_选题分析_预实验/`）。2. 每单元只写 `out/<自己>/`。3. 建图必须走 `csa_common`，`degree`/`color` 列禁用。
 4. 枢纽只用 `hub_nodes()` 全名匹配。5. 效率只从 `E_fixed` 读，只做同 k 跨情景比。
 6. 禁用因果措辞。7. 图里不许 emoji。
+
+本轮补充结果。按观测入度分层后，162 站点的随机剩余效率均值由 0.1610 升至 0.1876，与观测名单 0.2039 的差距由 0.0430 缩至 0.0163，约缩小六成。129 站点口径同方向，差距由 0.0371 缩至 0.0133。

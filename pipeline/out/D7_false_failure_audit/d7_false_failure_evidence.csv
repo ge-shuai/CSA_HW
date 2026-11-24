@@ -1,34 +1,34 @@
 ﻿node,sub,cat,codes_raw,url_count,n_url_rows,n_auth_like,n_2xx,n_zero,n_real_4xx_5xx,auth_share,code_minus1,code_minus2,code_403,code_0,code_404_410,code_2xx,evidence_strength,evidence_note
-abroad.ustc.edu.cn,abroad,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 次探测均为认证/robots/ACL
-booking.ipb.ustc.edu.cn,booking.ipb,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 次探测均为认证/robots/ACL
-datahall.ustc.edu.cn,datahall,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-fass.ustc.edu.cn,fass,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-gdzc.ustc.edu.cn,gdzc,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 次探测均为认证/robots/ACL
-hs.lib.ustc.edu.cn,hs.lib,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-id.ustc.edu.cn,id,B_auth_or_skip,-1:6,6,6,6,0,0,0,1.0,6,0,0,0,0,0,强,全部 6 次探测均为认证/robots/ACL
-igonghui.ustc.edu.cn,igonghui,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 次探测均为认证/robots/ACL
-ilab.ustc.edu.cn,ilab,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 次探测均为认证/robots/ACL
-lrmsys.ustc.edu.cn,lrmsys,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-manage.faculty.ustc.edu.cn,manage.faculty,B_auth_or_skip,-1:3,3,3,3,0,0,0,1.0,3,0,0,0,0,0,强,全部 3 次探测均为认证/robots/ACL
-paper.ustc.edu.cn,paper,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-passport.ustc.edu.cn,passport,B_auth_or_skip,-1:11,11,11,11,0,0,0,1.0,11,0,0,0,0,0,强,全部 11 次探测均为认证/robots/ACL
-software.ustc.edu.cn,software,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 次探测均为认证/robots/ACL
-wvpn.ustc.edu.cn,wvpn,B_auth_or_skip,-1:3,3,3,3,0,0,0,1.0,3,0,0,0,0,0,强,全部 3 次探测均为认证/robots/ACL
-wx.lib.ustc.edu.cn,wx.lib,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-xsxwsq.ustc.edu.cn,xsxwsq,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-zcpt.ustc.edu.cn,zcpt,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-course.ustc.edu.cn,course,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-ftp.lug.ustc.edu.cn,ftp.lug,C_robots_blocked,-2:20,78,20,20,0,0,0,1.0,0,20,0,0,0,0,强,全部 20 次探测均为认证/robots/ACL
-git.lug.ustc.edu.cn,git.lug,C_robots_blocked,-2:2,2,2,2,0,0,0,1.0,0,2,0,0,0,0,强,全部 2 次探测均为认证/robots/ACL
-iat.lib.ustc.edu.cn,iat.lib,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-iatxt.ustc.edu.cn,iatxt,C_robots_blocked,-2:2,2,2,2,0,0,0,1.0,0,2,0,0,0,0,强,全部 2 次探测均为认证/robots/ACL
-latex.ustc.edu.cn,latex,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-netfee.ustc.edu.cn,netfee,C_robots_blocked,-2:4,4,4,4,0,0,0,1.0,0,4,0,0,0,0,强,全部 4 次探测均为认证/robots/ACL
-ns4.ustc.edu.cn,ns4,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-oa.sz.ustc.edu.cn,oa.sz,C_robots_blocked,-2:2,2,2,2,0,0,0,1.0,0,2,0,0,0,0,强,全部 2 次探测均为认证/robots/ACL
-oc.ustc.edu.cn,oc,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-pxe.ustc.edu.cn,pxe,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-soa.ustc.edu.cn,soa,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-webvpn.ustc.edu.cn,webvpn,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 次探测均为认证/robots/ACL
-xyzd.ustc.edu.cn,xyzd,C_robots_blocked,-2:2,2,2,2,0,0,0,1.0,0,2,0,0,0,0,强,全部 2 次探测均为认证/robots/ACL
+abroad.ustc.edu.cn,abroad,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 条记录均为 -1/-2/403（访问受限或跳过）
+booking.ipb.ustc.edu.cn,booking.ipb,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 条记录均为 -1/-2/403（访问受限或跳过）
+datahall.ustc.edu.cn,datahall,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+fass.ustc.edu.cn,fass,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+gdzc.ustc.edu.cn,gdzc,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 条记录均为 -1/-2/403（访问受限或跳过）
+hs.lib.ustc.edu.cn,hs.lib,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+id.ustc.edu.cn,id,B_auth_or_skip,-1:6,6,6,6,0,0,0,1.0,6,0,0,0,0,0,强,全部 6 条记录均为 -1/-2/403（访问受限或跳过）
+igonghui.ustc.edu.cn,igonghui,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 条记录均为 -1/-2/403（访问受限或跳过）
+ilab.ustc.edu.cn,ilab,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 条记录均为 -1/-2/403（访问受限或跳过）
+lrmsys.ustc.edu.cn,lrmsys,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+manage.faculty.ustc.edu.cn,manage.faculty,B_auth_or_skip,-1:3,3,3,3,0,0,0,1.0,3,0,0,0,0,0,强,全部 3 条记录均为 -1/-2/403（访问受限或跳过）
+paper.ustc.edu.cn,paper,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+passport.ustc.edu.cn,passport,B_auth_or_skip,-1:11,11,11,11,0,0,0,1.0,11,0,0,0,0,0,强,全部 11 条记录均为 -1/-2/403（访问受限或跳过）
+software.ustc.edu.cn,software,B_auth_or_skip,-1:2,2,2,2,0,0,0,1.0,2,0,0,0,0,0,强,全部 2 条记录均为 -1/-2/403（访问受限或跳过）
+wvpn.ustc.edu.cn,wvpn,B_auth_or_skip,-1:3,3,3,3,0,0,0,1.0,3,0,0,0,0,0,强,全部 3 条记录均为 -1/-2/403（访问受限或跳过）
+wx.lib.ustc.edu.cn,wx.lib,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+xsxwsq.ustc.edu.cn,xsxwsq,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+zcpt.ustc.edu.cn,zcpt,B_auth_or_skip,-1:1,1,1,1,0,0,0,1.0,1,0,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+course.ustc.edu.cn,course,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+ftp.lug.ustc.edu.cn,ftp.lug,C_robots_blocked,-2:20,78,20,20,0,0,0,1.0,0,20,0,0,0,0,强,全部 20 条记录均为 -1/-2/403（访问受限或跳过）
+git.lug.ustc.edu.cn,git.lug,C_robots_blocked,-2:2,2,2,2,0,0,0,1.0,0,2,0,0,0,0,强,全部 2 条记录均为 -1/-2/403（访问受限或跳过）
+iat.lib.ustc.edu.cn,iat.lib,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+iatxt.ustc.edu.cn,iatxt,C_robots_blocked,-2:2,2,2,2,0,0,0,1.0,0,2,0,0,0,0,强,全部 2 条记录均为 -1/-2/403（访问受限或跳过）
+latex.ustc.edu.cn,latex,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+netfee.ustc.edu.cn,netfee,C_robots_blocked,-2:4,4,4,4,0,0,0,1.0,0,4,0,0,0,0,强,全部 4 条记录均为 -1/-2/403（访问受限或跳过）
+ns4.ustc.edu.cn,ns4,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+oa.sz.ustc.edu.cn,oa.sz,C_robots_blocked,-2:2,2,2,2,0,0,0,1.0,0,2,0,0,0,0,强,全部 2 条记录均为 -1/-2/403（访问受限或跳过）
+oc.ustc.edu.cn,oc,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+pxe.ustc.edu.cn,pxe,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+soa.ustc.edu.cn,soa,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+webvpn.ustc.edu.cn,webvpn,C_robots_blocked,-2:1,1,1,1,0,0,0,1.0,0,1,0,0,0,0,强,全部 1 条记录均为 -1/-2/403（访问受限或跳过）
+xyzd.ustc.edu.cn,xyzd,C_robots_blocked,-2:2,2,2,2,0,0,0,1.0,0,2,0,0,0,0,强,全部 2 条记录均为 -1/-2/403（访问受限或跳过）
 en.hfnl.ustc.edu.cn,en.hfnl,G_other_400,400:1,1,1,0,0,0,1,0.0,0,0,0,0,0,0,需人工,认证类仅 0/1，或含真 4xx/5xx（1）

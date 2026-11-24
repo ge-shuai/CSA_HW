@@ -1,0 +1,3 @@
+scenario,removed_n,matched_draws,seed,observed_E_fixed,uniform_mean_E_fixed,matched_mean_E_fixed,matched_p025,matched_p975,observed_minus_uniform,observed_minus_matched,matched_at_least_observed
+dead162,162,300,20261124,0.203941524,0.160974000,0.187641866,0.177368587,0.195369935,0.042967524,0.016299658,0
+true129,129,300,20261124,0.228013765,0.190952000,0.214668788,0.206821326,0.221065203,0.037061765,0.013344977,0
