@@ -1,4 +1,4 @@
 ﻿node,sub,cat,codes_raw,url_count,n_url_rows,n_auth_like,n_2xx,n_zero,n_real_4xx_5xx,auth_share,code_minus1,code_minus2,code_403,code_0,code_404_410,code_2xx,evidence_strength,evidence_note,matched_token
-id.ustc.edu.cn,id,B_auth_or_skip,-1:6,6,6,6,0,0,0,1.0,6,0,0,0,0,0,强,全部 6 次探测均为认证/robots/ACL,id
-passport.ustc.edu.cn,passport,B_auth_or_skip,-1:11,11,11,11,0,0,0,1.0,11,0,0,0,0,0,强,全部 11 次探测均为认证/robots/ACL,passport
-wvpn.ustc.edu.cn,wvpn,B_auth_or_skip,-1:3,3,3,3,0,0,0,1.0,3,0,0,0,0,0,强,全部 3 次探测均为认证/robots/ACL,wvpn
+id.ustc.edu.cn,id,B_auth_or_skip,-1:6,6,6,6,0,0,0,1.0,6,0,0,0,0,0,强,全部 6 条记录均为 -1/-2/403（访问受限或跳过）,id
+passport.ustc.edu.cn,passport,B_auth_or_skip,-1:11,11,11,11,0,0,0,1.0,11,0,0,0,0,0,强,全部 11 条记录均为 -1/-2/403（访问受限或跳过）,passport
+wvpn.ustc.edu.cn,wvpn,B_auth_or_skip,-1:3,3,3,3,0,0,0,1.0,3,0,0,0,0,0,强,全部 3 条记录均为 -1/-2/403（访问受限或跳过）,wvpn

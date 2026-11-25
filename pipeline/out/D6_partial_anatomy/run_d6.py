@@ -453,7 +453,7 @@ MD = f"""# D6 · 149 个部分失效站点的解剖 —— 结果
 
 ## 0. 判决
 
-1. **部分失效站的"失败"里有一半不是失效。** {cite('n_fail_urls_partial')} 条失败 URL 中，-1（需认证/本轮跳过）+ -2（robots）+ 403（ACL）共占 §2 表的前三行；按 §2.2 只把 -1/-2 视为"非失效"时，剔除后 {cite('n_flip_healthy_nonfail')} 个站变成"全枚举都成功"；再连 403 一起剔除，{cite('n_flip_healthy_strict')} 个站（{cite('n_auth_like')} 个里 {cite('flip69')} 个、{cite('n_clean_partial')} 个里 {cite('flip80')} 个）从"部分失效"变成健康。**"149"这个数是口径的产物，不是站点的属性。**
+1. **部分失效计数取决于状态码处理规则。** {cite('n_fail_urls_partial')} 条失败 URL 中，-1（需认证/本轮跳过）、-2（robots）和 403（访问受限）占比较高。按 §2.2 排除 -1/-2 后，{cite('n_flip_healthy_nonfail')} 个站在保留记录中不再归为部分失效；再排除 403 后，数量为 {cite('n_flip_healthy_strict')} 个（{cite('n_auth_like')} 个里 {cite('flip69')} 个、{cite('n_clean_partial')} 个里 {cite('flip80')} 个）。这些数字描述快照分类变化；被排除 URL 的实际可用性仍未确认。
 2. **状态码 0 内部还是混的**：全部 URL 里 0 有 {cite('n_zero_rows')} 条，标题写明"连接失败-本运行跳过"的 {cite('n_zero_skip')} 条、真连接错误（ConnectionError/Timeout/SSLError）{cite('n_zero_conn')} 条。同一码位承载了"我没抓"和"它不通"两种意义（D7 逐个看）。
 3. **失败 URL 的路径签名高度结构化**（描述，不作断言）：失败行里 {cite('share_root_fail', True)}% 落在站点根路径，成功行只有 {cite('share_root_ok', True)}%；失败行平均路径深度 {cite('mean_nsegs_fail')}，成功行 {cite('mean_nsegs_ok')}。共现表见 §3。
 4. **失效率与结构位置：主口径（入度）看不到梯度。** ρ(f, 入度) = {cite('rho_main')}（p={cite('p_main')}，bootstrap {N_BOOT} 轮 95% CI {cite('ci_main')}）；换成剔除认证类之后的 f_strict 是 ρ={cite('rho_strict_in')}（p={cite('rho_strict_in_p')}）。对照口径 ρ(f, url_count) = {cite('rho_uc')}（CI {cite('ci_uc')}）——抓取侧暴露量与失效率的关联比结构位置更强，而 url_count 本身受删失，所以这条只能当"共变"读。
@@ -467,7 +467,7 @@ MD = f"""# D6 · 149 个部分失效站点的解剖 —— 结果
               "n_flip_healthy_strict"],
     ["组", "含义", "站数", "URL行", "失败行", "失败行占比", "站内失效率均值", "剔除认证类后失效率", "-1", "-2", "403",
      "0", "0=本轮跳过", "0=真连接失败", "404/410", "5xx", "入度均值", "url_count均值", "listed均值", "众数扩展名",
-     "众数路径签名", "剔除后变健康站数"],
+     "众数路径签名", "剔除后不再归为部分失效的站数"],
     ["{}", "{}", "{:d}", "{:d}", "{:d}", "{:.3f}", "{:.3f}", "{:.3f}", "{:d}", "{:d}", "{:d}", "{:d}", "{:d}",
      "{:d}", "{:d}", "{:d}", "{:.2f}", "{:.1f}", "{:.2f}", "{}", "{}", "{:d}"]) + f"""
 

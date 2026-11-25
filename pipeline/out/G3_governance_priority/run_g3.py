@@ -622,11 +622,11 @@ def benefit_row(c):
                 "对照": "同 k 随机基线 E_fixed %.4f±%.4f（%d 次）" % (
                     null_stats["下线"]["E_fixed_mean"], null_stats["下线"]["E_fixed_sd"], N_RAND)}
     if c == "修复":
-        return {"预期结构收益": "有界区间 [0, %.1f 个点对]（同入度档健康节点的实测移除断连数作代理上界）"
+        return {"预期结构收益": "同入度档健康节点单点移除断连点对数中位数合计 %.1f（排序参考）"
                 % rep_ind["sum_proxy_pairs"],
                 "收益量级_pairs": rep_ind["sum_proxy_pairs"],
                 "收益量级_dE_fixed": abs(rep_ind["sum_proxy_relay"]),
-                "对照": "上界取 p90 档时 %.1f 个点对" % rep_ind["sum_proxy_pairs_p90"]}
+                "对照": "改用各入度档第 90 百分位时合计 %.1f 个点对" % rep_ind["sum_proxy_pairs_p90"]}
     if c == "保护":
         return {"预期结构收益": "避免损失 = 单点移除情景之和 %.0f 点对（联合移除实测 %.0f，可加性 %.2f）"
                 % (prot_ind["sum_pairs_lost_individual"], prot_ind["joint_pairs_beyond_mech"],
@@ -944,7 +944,7 @@ if True:  # L:MD_GUARD  QUICK 模式也构建全文（只为跑通格式化与 �
                floatfmt="%.6g"))
     P("")
 
-    P("## 5. 修复：只能给区间，且必须写假设")
+    P("## 5. 修复：用两种情景分值辅助排序")
     P("")
     P("成员规则见 %s；类内 %d 个（真失效但非零结构角色 %d 个，部分失效 %d 个）（%s）。" % (
         cite("RULES"), rep_ind["n"], rep_ind["n_true_fail_part"], rep_ind["n_partial_part"],
@@ -952,12 +952,11 @@ if True:  # L:MD_GUARD  QUICK 模式也构建全文（只为跑通格式化与 �
     P("")
     P("**假设声明（不可回避）**：`urls.csv` 没有页面级入链来源字段（见 `data/DATA_DICTIONARY.md`），"
       "被删失的出边无法重建，因此修复带来的**新增**连通在横截面数据上不可观测。"
-      "本单元给的收益上界来自一个**明确的情景代理**：")
+      "本单元用健康站点移除模拟的分档统计量作为排序参考：")
     P("")
     P("1. 把节点按入度分档（%s）；" % cite("BUCKETS"))
-    P("2. 每档取**当前健康**节点在 G2 中的实测单点断连对数中位数，作为「若该节点恢复成同档健康"
-      "节点的出边模式，它**至多**能承载多少点对」的代理上界；")
-    P("3. 下界取 0：修复 404/500 页面时，若不产生任何新的可抓取边，图上结构**完全不变**。")
+    P("2. 对同一入度档的健康节点，分别计算 G2 模拟中单点移除断连点对数的中位数和第 90 百分位，并赋给该档的每个修复候选。")
+    P("3. 分别加总候选节点的两种分值以比较量级。修复后若观测图的边集不变，图上的效率也不变。")
     P("")
     P("| 入度档 | 档内健康节点数 | 断连对数中位 | p90 | 最大 | 中继项中位 |")
     P("|---|---:|---:|---:|---:|---:|")
@@ -966,11 +965,11 @@ if True:  # L:MD_GUARD  QUICK 模式也构建全文（只为跑通格式化与 �
             r.in_bucket, r.n_healthy, r.pairs_median, r.pairs_p90, r.pairs_max,
             r.relay_median))
     P("")
-    P("- 修复类收益区间：**[%d, %.0f] 个有序点对**（代理上界取档内中位；"
-      "取 p90 档则为 %.0f），对应 ΔE_fixed 量级 %.6f（基线 E_fixed 的 %.2f%%）。" % (
-        0, rep_ind["sum_proxy_pairs"], rep_ind["sum_proxy_pairs_p90"],
+    P("- 分值合计：**%.0f**（档内中位）与 **%.0f**（档内第 90 百分位），单位为有序点对。"
+      "同法加总健康节点效率中继项的档内中位数，绝对值为 %.6f（基线 E_fixed 的 %.2f%%）。" % (
+        rep_ind["sum_proxy_pairs"], rep_ind["sum_proxy_pairs_p90"],
         abs(rep_ind["sum_proxy_relay"]), rep_ind["proxy_relay_share_pct"]))
-    P("- 该区间是**结构代理**，不是内容收益；逐节点数值在 `g3_repair_benefit_bracket.csv`（%s）。" % cite("REP_DF"))
+    P("- 分值仅供候选排序。真实修复收益及其上下界均无法由本快照确定。逐节点数值见 `g3_repair_benefit_bracket.csv`（%s）；历史字段名 `proxy_pairs_upper` 和 `proxy_relay_upper` 存的是档内中位数。" % cite("REP_DF"))
     P("- 对照：修复类节点**当前**在图上实测的单点断连对数之和 = %d，"
       "其中 %d 个真失效子集贡献 %d —— 真失效节点的入边只指向自己、不承载任何中继"
       "（§2.1 爬虫删失，162/162 出度为 0，%s）。" % (
@@ -1045,7 +1044,7 @@ if True:  # L:MD_GUARD  QUICK 模式也构建全文（只为跑通格式化与 �
       "同 k 对照重复 %d 次（§6 要求 ≥100），显式 seed=%d，PYTHONHASHSEED=0（%s）。" % (
           N_RAND, SEED, cite("SEED")))
     P("- 局限：(1) 单次横截面，无时间序列，一切「收益」都是情景模拟差值；"
-      "(2) 死站出边被爬虫删失（162/162 出度为 0），所以修复类收益只能给区间；"
+      "(2) 死站出边被爬虫删失（162/162 出度为 0），因此仅报告候选排序的情景分值；"
       "(3) 边权是抓取次数，不是流量，「重要」只在结构意义上成立；"
       "(4) 判据里的 T_id / 中继项阈值 / top5% 是显式选择，敏感性见 §8；"
       "(5) 建议清单不等于处置授权，任何处置都需要人工核验页面内容。")
@@ -1126,6 +1125,6 @@ print("[G3] true-fail vs random: E_fixed %.4f vs %.4f+-%.4f"
 print("[G3] protection: n=%d sum_indiv_pairs=%d joint=%d additivity=%.2f"
       % (prot_ind["n"], prot_ind["sum_pairs_lost_individual"],
          prot_ind["joint_pairs_beyond_mech"], prot_ind["additivity_ratio"]))
-print("[G3] repair bracket: [0, %.0f] pairs over n=%d" % (rep_ind["sum_proxy_pairs"], rep_ind["n"]))
+print("[G3] repair proxy (bucket medians): %.0f pairs over n=%d" % (rep_ind["sum_proxy_pairs"], rep_ind["n"]))
 print("[G3] §2.3 cross-check delete-162: E_fixed %.4f (doc 0.2039) maxdiff %.2e"
       % (scen["全部失效_162"]["E_fixed"], max(diff162.values())))

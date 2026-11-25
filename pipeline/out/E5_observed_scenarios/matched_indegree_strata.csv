@@ -1,0 +1,11 @@
+scenario,observed_in_degree,pool_n,removed_n
+dead162,0,6,0
+dead162,1,260,101
+dead162,2–3,214,46
+dead162,4–7,117,14
+dead162,8+,77,1
+true129,0,6,0
+true129,1,260,86
+true129,2–3,214,34
+true129,4–7,117,9
+true129,8+,77,0
