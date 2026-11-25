@@ -1,6 +1,6 @@
-"""E5 sensitivity check with random sets matched on observed in-degree."""
+"""E5 random controls matched on observed incoming and outgoing links."""
 
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 import random
 import sys
@@ -32,6 +32,48 @@ def fixed_efficiency(adjacency, kept, denominator):
     return float(np.sum(1.0 / distances[valid]) / denominator)
 
 
+def sensitivity_controls(scenario, labels_by_control, observed, observed_value, measure):
+    summaries, counts, draws = [], [], []
+    observed_set = set(observed)
+    for control, labels in labels_by_control.items():
+        pools = defaultdict(list)
+        for i, label in enumerate(labels):
+            pools[label].append(i)
+        quotas = Counter(labels[i] for i in observed)
+        for (degree, zero_out), quota in quotas.items():
+            pool = pools[degree, zero_out]
+            counts.append({
+                "scenario": scenario, "control": control, "observed_in_degree": degree,
+                "zero_observed_out_degree": zero_out, "pool_n": len(pool),
+                "non_list_pool_n": sum(i not in observed_set for i in pool),
+                "removed_n": quota,
+            })
+
+        rng = random.Random(SEED)
+        values, overlaps = [], []
+        for rep in range(N_RANDOM):
+            removed = [i for label, quota in quotas.items() for i in rng.sample(pools[label], quota)]
+            value = measure(removed)
+            overlap = len(observed_set.intersection(removed))
+            values.append(value)
+            overlaps.append(overlap)
+            draws.append({
+                "scenario": scenario, "control": control, "draw": rep + 1,
+                "E_fixed": value, "overlap_with_observed": overlap,
+            })
+        mean = float(np.mean(values))
+        lo, hi = np.quantile(values, [0.025, 0.975])
+        summaries.append({
+            "scenario": scenario, "control": control, "removed_n": len(observed),
+            "draws": N_RANDOM, "seed": SEED, "observed_E_fixed": observed_value,
+            "random_mean_E_fixed": mean, "random_p025": lo, "random_p975": hi,
+            "observed_minus_random": observed_value - mean,
+            "at_least_observed": sum(x >= observed_value - 1e-12 for x in values),
+            "mean_overlap_with_observed": float(np.mean(overlaps)),
+        })
+    return summaries, counts, draws
+
+
 def main():
     data = C.build_all()
     C.assert_anchors(data)
@@ -39,7 +81,14 @@ def main():
     nodes = sorted(graph)
     index = {node: i for i, node in enumerate(nodes)}
     directed = data["Gd"].subgraph(nodes)
-    strata = [in_degree_stratum(directed.in_degree(node)) for node in nodes]
+    degrees = [directed.in_degree(node) for node in nodes]
+    strata = [in_degree_stratum(degree) for degree in degrees]
+    zero_out = [directed.out_degree(node) == 0 for node in nodes]
+    labels_by_control = {
+        "exact_indegree": [(degree, None) for degree in degrees],
+        "indegree_bin_zero_out": list(zip(strata, zero_out)),
+        "exact_indegree_zero_out": list(zip(degrees, zero_out)),
+    }
     pools = {
         s: [i for i, label in enumerate(strata) if label == s] for s in STRATA
     }
@@ -53,6 +102,7 @@ def main():
     summaries = []
     counts = []
     draws = []
+    sensitivity_summaries, sensitivity_counts, sensitivity_draws = [], [], []
 
     def measure(removed):
         kept = np.ones(len(nodes), dtype=bool)
@@ -63,6 +113,7 @@ def main():
         observed = sorted(index[node] for node in data["fail"][key] if node in index)
         n_removed = len(observed)
         assert n_removed == prior.loc[scenario, "k_removed"]
+        assert all(zero_out[i] for i in observed)
         observed_value = measure(observed)
         removed_nodes = {nodes[i] for i in observed}
         reference = C.eff_fixed(graph.subgraph(set(nodes) - removed_nodes), pair_set)
@@ -93,14 +144,24 @@ def main():
             "observed_minus_matched": observed_value - mean,
             "matched_at_least_observed": sum(x >= observed_value - 1e-12 for x in matched),
         })
+        extra_summary, extra_counts, extra_draws = sensitivity_controls(
+            scenario, labels_by_control, observed, observed_value, measure
+        )
+        sensitivity_summaries.extend(extra_summary)
+        sensitivity_counts.extend(extra_counts)
+        sensitivity_draws.extend(extra_draws)
 
     for name, rows in (
         ("matched_indegree_summary", summaries),
         ("matched_indegree_strata", counts),
         ("matched_indegree_draws", draws),
+        ("matched_sensitivity_summary", sensitivity_summaries),
+        ("matched_sensitivity_strata", sensitivity_counts),
+        ("matched_sensitivity_draws", sensitivity_draws),
     ):
         pd.DataFrame(rows).to_csv(OUT / f"{name}.csv", index=False, float_format="%.9f")
     print(pd.DataFrame(summaries).to_string(index=False))
+    print(pd.DataFrame(sensitivity_summaries).to_string(index=False))
 
 
 if __name__ == "__main__":
